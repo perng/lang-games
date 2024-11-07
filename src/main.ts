@@ -51,7 +51,6 @@ class App {
     }
 
     private startGame(article: Article) {
-        console.log('Starting game with article:', article);
         this.currentGame = new TheGame(article.content);
         const container = document.getElementById('container')!;
         
@@ -59,12 +58,17 @@ class App {
           <div class="game-container">
             <h2>${article.title}</h2>
             <div class="content" id="gameContent">
-              ${this.currentGame.getWords().map((word: WordInfo) => `
-                <span 
-                  class="word ${word.isSentenceStart ? 'sentence-start' : ''}" 
-                  data-index="${word.index}"
-                  data-original-word="${word.text}"
-                >${word.text}</span>${' '}`).join('')}
+              ${this.currentGame.getWords().map((word: WordInfo) => {
+                const displayWord = word.isSentenceStart ? 
+                                  this.capitalizeFirstLetter(word.text) : 
+                                  word.text;
+                return `
+                  <span 
+                    class="word ${word.isSentenceStart ? 'sentence-start' : ''}" 
+                    data-index="${word.index}"
+                    data-original-word="${word.text}"
+                  >${displayWord}</span> `;
+              }).join('')}
             </div>
             <div class="controls">
               <button id="checkButton">Check</button>
@@ -78,12 +82,9 @@ class App {
           </div>
         `;
 
-        console.log('Adding click listeners to words');
+        // Add event listeners
         document.querySelectorAll('.word').forEach(word => {
-            word.addEventListener('click', () => {
-                console.log('Word clicked:', word);
-                this.handleWordClick(word as HTMLElement);
-            });
+            word.addEventListener('click', () => this.handleWordClick(word as HTMLElement));
         });
 
         document.getElementById('checkButton')?.addEventListener('click', () => this.checkResults());
@@ -91,32 +92,60 @@ class App {
     }
 
     private handleWordClick(wordElement: HTMLElement) {
-        if (!this.currentGame) return;  // Safety check
+        if (!this.currentGame) return;
         
         const index = parseInt(wordElement.dataset.index!);
         const originalWord = wordElement.dataset.originalWord!;
         const isSentenceStart = wordElement.classList.contains('sentence-start');
         
-        console.log('Word clicked:', {
-            word: originalWord,
-            index,
+        console.log('Click:', { 
+            index, 
+            originalWord, 
             isSentenceStart,
-            currentClasses: wordElement.classList.toString()
+            hasThe: wordElement.classList.contains('has-the')
         });
 
-        if (!wordElement.classList.contains('has-the')) {
+        if (wordElement.classList.contains('has-the')) {
+            // Removing "the"
+            wordElement.classList.remove('has-the', 'player-added', 'the-upper', 'the-lower');
+            // If it's a sentence start, capitalize the word
+            if (isSentenceStart) {
+                wordElement.textContent = this.capitalizeFirstLetter(originalWord);
+            } else {
+                wordElement.textContent = originalWord.toLowerCase();
+            }
             this.currentGame.toggleThe(index);
+        } else {
+            // Adding "the"
             wordElement.classList.add('has-the', 'player-added');
             
             if (isSentenceStart) {
+                // For sentence starts, add "The" (uppercase)
                 wordElement.classList.add('the-upper');
                 wordElement.classList.remove('the-lower');
+                wordElement.textContent = originalWord.toLowerCase();
+                console.log('Adding The to sentence start');
             } else {
+                // For other positions, add "the" (lowercase)
                 wordElement.classList.add('the-lower');
                 wordElement.classList.remove('the-upper');
                 wordElement.textContent = originalWord.toLowerCase();
+                console.log('Adding the to mid-sentence word');
             }
+            this.currentGame.toggleThe(index);
         }
+    }
+
+    private capitalizeFirstLetter(str: string): string {
+        return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
+
+    private capitalizeFirstLetter(str: string): string {
+        return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+    }
+
+    private capitalizeFirstLetter(str: string): string {
+        return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
     }
 
     private checkResults() {
