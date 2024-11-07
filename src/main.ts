@@ -168,11 +168,11 @@ class App {
         }
     });
 
-    // Show results summary
+    // Update results with colored text
     document.getElementById('results')!.innerHTML = `
-        <div>Correct: ${results.correct}</div>
-        <div>Errors: ${results.errors}</div>
-        <div>Missed: ${results.missed}</div>
+        <div class="result-correct">Correct: ${results.correct}</div>
+        <div class="result-errors">Errors: ${results.errors}</div>
+        <div class="result-missed">Missed: ${results.missed}</div>
     `;
 
     console.log('Check results:', results);  // Debug log
