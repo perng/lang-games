@@ -1,0 +1,35 @@
+.word {
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.2rem;
+    margin: 0.1rem;
+    display: inline-block;
+}
+
+/* Lowercase "the" */
+.has-the.the-lower::before {
+    content: "the ";
+}
+
+/* Uppercase "The" */
+.has-the.the-upper::before {
+    content: "The ";
+}
+
+/* Colors for different states */
+.has-the.player-added::before {
+    color: orange;
+}
+
+.has-the.correct::before {
+    color: green;
+}
+
+.has-the.error::before {
+    color: red;
+    text-decoration: line-through;
+}
+
+.has-the.missed::before {
+    color: blue;
+} 
