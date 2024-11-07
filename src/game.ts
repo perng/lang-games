@@ -1,73 +1,70 @@
-export class TheGame {
-  private words: { 
+export interface WordInfo {
     text: string;
-    isThe: boolean;
     isSentenceStart: boolean;
     index: number;
-  }[];
-  private playerSelections: Set<number> = new Set();
+}
 
-  constructor(content: string) {
-    const rawWords = content.split(/\s+/);
-    this.words = [];
-    
-    // Process each word
-    rawWords.forEach((word, index) => {
-      const isThe = word.toLowerCase() === 'the';
-      const isSentenceStart = index === 0 || 
-                             (index > 0 && rawWords[index - 1].endsWith('.'));
-      
-      this.words.push({
-        text: word,
-        isThe: isThe,
-        isSentenceStart: isSentenceStart,
-        index: index
-      });
-    });
+export class TheGame {
+    private words: WordInfo[];
+    private correctThePositions: Set<number>;
+    private playerSelections: Set<number>;
 
-    console.log('Processed words:', this.words);
-  }
+    constructor(content: string) {
+        this.words = [];
+        this.correctThePositions = new Set();
+        this.playerSelections = new Set();
 
-  getDisplayWords() {
-    return this.words.filter(word => !word.isThe);
-  }
-
-  isCorrectThe(index: number): boolean {
-    return this.words[index].isThe;
-  }
-
-  public toggleThe(index: number): void {
-    if (this.playerSelections.has(index)) {
-      this.playerSelections.delete(index);
-    } else {
-      this.playerSelections.add(index);
+        const rawWords = content.split(/\s+/);
+        
+        rawWords.forEach((word, index) => {
+            const isThe = word.toLowerCase() === 'the';
+            const isSentenceStart = index === 0 || 
+                                 (index > 0 && /[.!?]$/.test(rawWords[index - 1]));
+            
+            if (isThe) {
+                this.correctThePositions.add(index);
+            } else {
+                this.words.push({
+                    text: word,
+                    isSentenceStart: isSentenceStart,
+                    index: index
+                });
+            }
+        });
     }
-  }
 
-  public checkResults() {
-    const correct: number[] = [];
-    const errors: number[] = [];
-    const missed: number[] = [];
+    public getWords(): WordInfo[] {
+        return this.words;
+    }
 
-    this.words.forEach((word, index) => {
-      if (word.isThe) {
-        // Should have "the" before the next word
-        const nextIndex = index + 1;
-        if (this.playerSelections.has(nextIndex)) {
-          correct.push(nextIndex);
-        } else {
-          missed.push(nextIndex);
+    public toggleThe(index: number): void {
+        if (!this.playerSelections.has(index)) {
+            this.playerSelections.add(index);
         }
-      } else if (this.playerSelections.has(index) && !this.isCorrectThe(index - 1)) {
-        errors.push(index);
-      }
-    });
+    }
 
-    return {
-      correct: correct.length,
-      errors: errors.length,
-      missed: missed.length,
-      positions: { correct, errors, missed }
-    };
-  }
+    public checkResults() {
+        const correct: number[] = [];
+        const errors: number[] = [];
+        const missed: number[] = [];
+
+        this.words.forEach(word => {
+            if (this.correctThePositions.has(word.index - 1)) {
+                if (this.playerSelections.has(word.index)) {
+                    correct.push(word.index);
+                } else {
+                    missed.push(word.index);
+                }
+            } else if (this.playerSelections.has(word.index)) {
+                errors.push(word.index);
+            }
+        });
+
+        return {
+            correct: correct.length,
+            errors: errors.length,
+            missed: missed.length,
+            positions: { correct, errors, missed }
+        };
+    }
 }

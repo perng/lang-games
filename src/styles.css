@@ -1,19 +1,34 @@
 .word {
     font-size: 1.5rem;
     cursor: pointer;
-    padding: 0.2rem;
+    padding: 0.2rem 0.5rem;
     margin: 0.1rem;
-    display: inline-block;
+    display: inline;
+    position: relative;
+    white-space: normal;
+}
+
+/* Space for "the" */
+.word.has-the {
+    margin-left: 3.5em;
 }
 
 /* Lowercase "the" */
 .has-the.the-lower::before {
     content: "the ";
+    position: absolute;
+    left: -3.2em;
+    color: orange;
+    font-size: 1.5rem;
 }
 
 /* Uppercase "The" */
 .has-the.the-upper::before {
     content: "The ";
+    position: absolute;
+    left: -3.2em;
+    color: orange;
+    font-size: 1.5rem;
 }
 
 /* Colors for different states */
@@ -90,4 +105,71 @@
     font-size: 1.8rem;
     color: #495057;
     font-weight: 500;
-} 
+}
+
+/* Content container */
+.content {
+    line-height: 2;
+    margin-bottom: 2rem;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Word styling */
+.word {
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    margin: 0.1rem;
+    display: inline;
+    position: relative;
+    white-space: normal;
+}
+
+/* Space for "the" */
+.word.has-the {
+    margin-left: 3.5em;
+}
+
+/* "The" styling */
+.word.has-the.the-lower::before {
+    content: "the ";
+    position: absolute;
+    left: -3.2em;
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.word.has-the.the-upper::before {
+    content: "The ";
+    position: absolute;
+    left: -3.2em;
+    color: orange;
+    font-size: 1.5rem;
+}
+
+/* Colors for different states */
+.word.has-the.player-added::before {
+    color: orange;
+}
+
+.word.has-the.correct::before {
+    color: green;
+}
+
+.word.has-the.error::before {
+    color: red;
+    text-decoration: line-through;
+}
+
+.word.has-the.missed::before {
+    color: blue;
+}
+
+/* Optional: Add subtle hover effect */
+.word:hover {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+  
