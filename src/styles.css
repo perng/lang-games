@@ -1,52 +1,55 @@
 .word {
     font-size: 1.5rem;
     cursor: pointer;
-    padding: 0.2rem 0.5rem;
-    margin: 0.1rem;
     display: inline;
     position: relative;
-    white-space: normal;
+    padding: 2px;
 }
 
 /* Space for "the" */
 .word.has-the {
-    margin-left: 3.5em;
+    margin-left: 2.8em;
 }
 
-/* Lowercase "the" */
-.has-the.the-lower::before {
-    content: "the ";
+/* "The" styling */
+.word.has-the.the-upper::before {
+    content: "The ";
     position: absolute;
-    left: -3.2em;
+    left: -2.5em;
     color: orange;
     font-size: 1.5rem;
 }
 
-/* Uppercase "The" */
-.has-the.the-upper::before {
-    content: "The ";
+.word.has-the.the-lower::before {
+    content: "the ";
     position: absolute;
-    left: -3.2em;
+    left: -2.5em;
     color: orange;
     font-size: 1.5rem;
 }
 
 /* Colors for different states */
-.has-the.player-added::before {
+.word.has-the.player-added::before {
     color: orange;
 }
 
-.has-the.correct::before {
+.word.has-the.correct::before {
     color: green;
 }
 
-.has-the.error::before {
+.word.has-the.error::before {
     color: red;
     text-decoration: line-through;
 }
 
-.has-the.missed::before {
+.word.has-the.missed::before {
     color: blue;
+}
+
+/* Optional: Add subtle hover effect */
+.word:hover {
+    background-color: #f8f9fa;
+    border-radius: 4px;
 }
 
 /* Main Menu Styling */
@@ -109,68 +112,10 @@
 
 /* Content container */
 .content {
-    line-height: 2;
+    line-height: 1.4;
     margin-bottom: 2rem;
     text-align: justify;
     max-width: 800px;
     margin: 0 auto;
-}
-
-/* Word styling */
-.word {
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 0.2rem 0.5rem;
-    margin: 0.1rem;
-    display: inline;
-    position: relative;
-    white-space: normal;
-}
-
-/* Space for "the" */
-.word.has-the {
-    margin-left: 3.5em;
-}
-
-/* "The" styling for sentence starts */
-.word.has-the.the-upper::before {
-    content: "The ";
-    position: absolute;
-    left: -3.2em;
-    color: orange;
-    font-size: 1.5rem;
-}
-
-/* "the" styling for other positions */
-.word.has-the.the-lower::before {
-    content: "the ";
-    position: absolute;
-    left: -3.2em;
-    color: orange;
-    font-size: 1.5rem;
-}
-
-/* Colors for different states */
-.word.has-the.player-added::before {
-    color: orange;
-}
-
-.word.has-the.correct::before {
-    color: green;
-}
-
-.word.has-the.error::before {
-    color: red;
-    text-decoration: line-through;
-}
-
-.word.has-the.missed::before {
-    color: blue;
-}
-
-/* Optional: Add subtle hover effect */
-.word:hover {
-    background-color: #f8f9fa;
-    border-radius: 4px;
 }
   
