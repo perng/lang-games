@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/styles.css">
-    <title>The Article Game</title>
-  </head>
-  <body>
-    <div id="container"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Games</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Language Games</h1>
+        <div class="games-grid">
+            <a href="./src/games/the-article-game/index.html" class="game-card">
+                <h2>The Article Game</h2>
+                <p>Help restore missing "the" articles to save the world of grammar!</p>
+                <div class="game-card-footer">
+                    <span class="difficulty">Beginner</span>
+                    <span class="play-button">Play →</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script type="module" src="/src/home.ts"></script>
+</body>
 </html>
