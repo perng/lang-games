@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import type { WordInfo, GameResults } from '../../types';
-import articlesData from '../../games/the-article-game/data/articles.json';
+import articlesData from '../../data/articles.json';
 import './styles.css';
+import { useParams, useNavigate } from 'react-router-dom';
 
 interface GameState {
   words: WordInfo[];
@@ -11,6 +12,16 @@ interface GameState {
 }
 
 function ArticleGame() {
+  const { storyId } = useParams();
+  const navigate = useNavigate();
+  const articleIndex = parseInt(storyId || '0');
+
+  useEffect(() => {
+    if (isNaN(articleIndex) || articleIndex < 0 || articleIndex >= articlesData.length) {
+      navigate('/article-game');
+    }
+  }, [articleIndex, navigate]);
+
   const [gameState, setGameState] = useState<GameState>({
     words: [],
     correctThePositions: new Set(),
@@ -18,20 +29,11 @@ function ArticleGame() {
     sentenceStarts: new Set()
   });
   const [results, setResults] = useState<GameResults | null>(null);
-  const [currentArticleIndex, setCurrentArticleIndex] = useState(0);
-  const [isLoading, setIsLoading] = useState(true);
   const [totalScore, setTotalScore] = useState(0);
-  const [showInstructions, setShowInstructions] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
-  // Initialize game with first article
   useEffect(() => {
-    try {
-      initializeGame(articlesData[currentArticleIndex]);
-    } catch (err) {
-      setError('Failed to load article. Please try again.');
-    }
-  }, [currentArticleIndex]);
+    initializeGame(articlesData[articleIndex]);
+  }, [articleIndex]);
 
   const initializeGame = (article: { title: string; content: string }) => {
     const words: WordInfo[] = [];
@@ -74,30 +76,53 @@ function ArticleGame() {
     }));
   };
 
-  const getWords = () => {
-    return gameState.words.map(word => ({
-      ...word,
-      text: gameState.sentenceStarts.has(word.index) ? 
-           capitalizeFirstLetter(word.text) : 
-           word.text
-    }));
-  };
-
-  const capitalizeFirstLetter = (str: string): string => {
-    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-  };
-
   const toggleThe = (index: number) => {
+    if (results) return;
+    
     setGameState(prev => {
       const newSelections = new Set(prev.playerSelections);
+      
       if (newSelections.has(index)) {
         newSelections.delete(index);
       } else {
         newSelections.add(index);
       }
+
       return {
         ...prev,
         playerSelections: newSelections
+      };
+    });
+  };
+
+  const getDisplayWords = () => {
+    return gameState.words.map(word => {
+      const shouldCapitalize = gameState.sentenceStarts.has(word.index);
+      const text = shouldCapitalize ? 
+        word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase() : 
+        word.text;
+
+      const isSelected = gameState.playerSelections.has(word.index);
+      const shouldHaveThe = gameState.correctThePositions.has(word.index - 1);
+      const theWord = shouldCapitalize ? 'The' : 'the';
+
+      let displayText = text;
+      
+      if (results) {
+        if (shouldHaveThe) {
+          displayText = `${theWord} ${text}`;
+        } else if (isSelected) {
+          displayText = `<strike>${theWord}</strike> ${text}`;
+        }
+      } else if (isSelected) {
+        displayText = `${theWord} ${text}`;
+      }
+
+      return {
+        ...word,
+        displayText,
+        isSelected,
+        shouldHaveThe
       };
     });
   };
@@ -135,17 +160,19 @@ function ArticleGame() {
   };
 
   const nextArticle = () => {
-    if (currentArticleIndex < articlesData.length - 1) {
-      setCurrentArticleIndex(prev => prev + 1);
+    if (results?.score) {
+      const scoreChange = (results.score?.correct ?? 0) - (results.score?.errors ?? 0);
+      setTotalScore(prev => prev + scoreChange);
+    }
+    
+    if (articleIndex < articlesData.length - 1) {
+      navigate(`/article-game/${articleIndex + 1}`);
       setResults(null);
-      if (results?.score) {
-        setTotalScore(prev => prev + (results.score.correct - results.score.errors));
-      }
     }
   };
 
   const resetGame = () => {
-    initializeGame(articlesData[currentArticleIndex]);
+    initializeGame(articlesData[articleIndex]);
     setResults(null);
   };
 
@@ -159,7 +186,7 @@ function ArticleGame() {
       if (e.key === 'Enter') {
         if (!results) {
           checkResults();
-        } else if (currentArticleIndex < articlesData.length - 1) {
+        } else if (articleIndex < articlesData.length - 1) {
           nextArticle();
         }
       }
@@ -167,48 +194,41 @@ function ArticleGame() {
 
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
-  }, [results, currentArticleIndex]);
-
-  if (error) {
-    return (
-      <div className="error">
-        <p>{error}</p>
-        <button onClick={() => {
-          setError(null);
-          initializeGame(articlesData[currentArticleIndex]);
-        }}>
-          Retry
-        </button>
-      </div>
-    );
-  }
-
-  if (isLoading) {
-    return <div>Loading...</div>;
-  }
+  }, [results, articleIndex]);
 
   return (
     <div className="game-container">
       <header className="game-header">
         <h1>The Article Game</h1>
-        {results && <div className="score">Score: {getScore()}</div>}
+        <div className="header-controls">
+          <button 
+            onClick={() => navigate('/article-game')} 
+            className="list-button"
+          >
+            Article List
+          </button>
+          {results && <div className="score">Score: {getScore()}</div>}
+        </div>
       </header>
 
       <div className="game-content">
-        {getWords().map((word, idx) => (
+        {getDisplayWords().map((word, idx) => (
           <span 
             key={idx}
             onClick={() => !results && toggleThe(word.index)}
             className={`
               word 
-              ${gameState.playerSelections.has(word.index) ? 'selected' : ''}
-              ${results?.correct.includes(word.index) ? 'correct' : ''}
-              ${results?.errors.includes(word.index) ? 'error' : ''}
-              ${results?.missed.includes(word.index) ? 'missed' : ''}
+              ${word.isSelected ? 'selected' : ''}
+              ${results ? (
+                word.shouldHaveThe ? (
+                  word.isSelected ? 'correct' : 'missed'
+                ) : (
+                  word.isSelected ? 'error' : ''
+                )
+              ) : ''}
             `}
-          >
-            {word.text}
-          </span>
+            dangerouslySetInnerHTML={{ __html: word.displayText }}
+          />
         ))}
       </div>
 
@@ -227,7 +247,7 @@ function ArticleGame() {
             <button onClick={resetGame} className="reset-button">
               Try Again
             </button>
-            {currentArticleIndex < articlesData.length - 1 && (
+            {articleIndex < articlesData.length - 1 && (
               <button onClick={nextArticle} className="next-button">
                 Next Article
               </button>
@@ -237,28 +257,19 @@ function ArticleGame() {
       </div>
 
       <div className="progress">
-        Article {currentArticleIndex + 1} of {articlesData.length}
+        Article {articleIndex + 1} of {articlesData.length}
       </div>
 
-      {currentArticleIndex === articlesData.length - 1 && results && (
+      {articleIndex === articlesData.length - 1 && results && (
         <div className="final-score">
           <h2>Game Complete!</h2>
           <p>Final Score: {totalScore}</p>
           <button onClick={() => {
-            setCurrentArticleIndex(0);
+            navigate(`/article-game/${0}`);
             setTotalScore(0);
           }}>
             Play Again
           </button>
-        </div>
-      )}
-
-      {showInstructions && (
-        <div className="instructions-modal">
-          <h2>How to Play</h2>
-          <p>Click on words where you think "the" should go.</p>
-          <p>Score points for correct placements and lose points for mistakes.</p>
-          <button onClick={() => setShowInstructions(false)}>Start Game</button>
         </div>
       )}
     </div>
