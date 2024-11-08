@@ -30,6 +30,7 @@ function ArticleGame() {
   });
   const [results, setResults] = useState<GameResults | null>(null);
   const [totalScore, setTotalScore] = useState(0);
+  const [showInstructions, setShowInstructions] = useState(false);
 
   useEffect(() => {
     initializeGame(articlesData[articleIndex]);
@@ -177,8 +178,13 @@ function ArticleGame() {
   };
 
   const getScore = () => {
-    if (!results?.score) return 0;
-    return results.score.correct - results.score.errors;
+    if (!results?.score) return { points: 0, percentage: 0 };
+    
+    const points = results.score.correct - results.score.errors;
+    const totalThes = results.score.correct + results.score.missed; // Total number of required "the"s
+    const percentage = totalThes > 0 ? Math.round((points / totalThes) * 100) : 0;
+    
+    return { points, percentage };
   };
 
   useEffect(() => {
@@ -202,14 +208,73 @@ function ArticleGame() {
         <h1>The Article Game</h1>
         <div className="header-controls">
           <button 
+            onClick={() => setShowInstructions(true)} 
+            className="instructions-button"
+          >
+            📜 Mission Brief
+          </button>
+          <button 
             onClick={() => navigate('/article-game')} 
             className="list-button"
           >
             Article List
           </button>
-          {results && <div className="score">Score: {getScore()}</div>}
+          {results && (
+            <div className="score">
+              Score: {getScore().points} ({getScore().percentage}%)
+            </div>
+          )}
         </div>
       </header>
+
+      {showInstructions && (
+        <div className="instructions-modal">
+          <div className="instructions-content">
+            <h2>🚨 Grammar Emergency! 🚨</h2>
+            <p className="mission-intro">
+              The evil Article Bandit has struck again! They've stolen all the "the"s 
+              from our stories, causing chaos in the Grammar Universe. We need your 
+              help to restore order!
+            </p>
+            <ul>
+              <li>🎯 Click on words that need their "the" back</li>
+              <li>🔄 Made a mistake? Click again to undo</li>
+              <li>✨ Once you think you've restored all the "the"s, click "Check Answers"</li>
+            </ul>
+            <div className="scoring">
+              <h3>Scoring System:</h3>
+              <ul>
+                <li>✅ Correct "the" placement: +1 point</li>
+                <li>❌ Wrong "the" placement: -1 point</li>
+                <li>⭕ Missed "the" placement: 0 points</li>
+              </ul>
+              <p>Final Score = Correct placements - Wrong placements</p>
+              <p>Percentage Score = (Final Score) / (Total required "the"s) × 100%</p>
+            </div>
+            <div className="legend">
+              <h3>Your Grammar Detective Guide:</h3>
+              <div className="legend-item">
+                <span className="sample correct">the word</span>
+                <span>✅ Perfect placement! You're a grammar hero!</span>
+              </div>
+              <div className="legend-item">
+                <span className="sample error"><strike>the</strike> word</span>
+                <span>❌ Oops! This word was happy without its "the"</span>
+              </div>
+              <div className="legend-item">
+                <span className="sample missed">the word</span>
+                <span>🎯 Missed one! This word is crying for its "the"</span>
+              </div>
+            </div>
+            <button 
+              onClick={() => setShowInstructions(false)}
+              className="close-button"
+            >
+              Let's Save Grammar! 🚀
+            </button>
+          </div>
+        </div>
+      )}
 
       <div className="game-content">
         {getDisplayWords().map((word, idx) => (
@@ -240,9 +305,13 @@ function ArticleGame() {
         ) : (
           <div className="results-controls">
             <div className="results-summary">
-              <p>Correct: {results.score?.correct}</p>
-              <p>Errors: {results.score?.errors}</p>
-              <p>Missed: {results.score?.missed}</p>
+              <h3>Results:</h3>
+              <p>Correct placements: {results.score.correct}</p>
+              <p>Wrong placements: {results.score.errors}</p>
+              <p>Missed placements: {results.score.missed}</p>
+              <p className="final-score">
+                Final Score: {getScore().points} points ({getScore().percentage}%)
+              </p>
             </div>
             <button onClick={resetGame} className="reset-button">
               Try Again
