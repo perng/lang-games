@@ -1,8 +1,4 @@
-export interface WordInfo {
-    text: string;
-    isSentenceStart: boolean;
-    index: number;
-}
+import type { WordInfo } from '../../types/index';
 
 export class TheGame {
     private words: WordInfo[];

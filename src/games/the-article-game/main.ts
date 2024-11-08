@@ -1,14 +1,20 @@
-import './style.css';
-import { TheGame, WordInfo } from './game';
-
-interface Article {
-    title: string;
-    content: string;
-}
+import type { Article, WordInfo } from '../../types/index';
+import { TheGame } from './game';
+import './styles.css';
 
 class App {
     private currentGame: TheGame | null = null;
     private articles: Article[] = [];
+
+    constructor() {
+        // Prevent default navigation
+        window.addEventListener('popstate', (e) => {
+            e.preventDefault();
+            if (window.location.pathname === '/') {
+                window.location.href = '/';
+            }
+        });
+    }
 
     async init() {
         await this.loadArticles();
@@ -29,7 +35,7 @@ class App {
         const container = document.getElementById('container')!;
         container.innerHTML = `
           <div class="main-menu">
-            <h1>Choose an Article</h1>
+            <h1>Choose a Story</h1>
             <div class="article-list">
               ${this.articles.map((article, index) => `
                 <div class="article-item ${index % 2 === 0 ? 'even' : 'odd'}" data-index="${index}">
