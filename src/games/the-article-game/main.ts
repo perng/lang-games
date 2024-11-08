@@ -23,7 +23,7 @@ class App {
 
     private async loadArticles() {
         try {
-            const response = await fetch('/data/articles.json');
+            const response = await fetch('/src/games/the-article-game/data/articles.json');
             this.articles = await response.json();
         } catch (error) {
             console.error('Error loading articles:', error);
