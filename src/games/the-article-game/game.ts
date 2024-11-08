@@ -71,7 +71,12 @@ export class TheGame {
             console.log('Removed the at index:', index);
         } else {
             this.playerSelections.add(index);
-            console.log('Added the at index:', index);
+            // Capitalize "the" if it's being added before a sentence start
+            if (this.sentenceStarts.has(index)) {
+                console.log('Added The at index:', index);
+            } else {
+                console.log('Added the at index:', index);
+            }
         }
     }
 
