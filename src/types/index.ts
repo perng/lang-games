@@ -10,12 +10,12 @@ export interface WordInfo {
 }
 
 export interface GameResults {
-    correct: number;
-    errors: number;
-    missed: number;
-    positions: {
-        correct: number[];
-        errors: number[];
-        missed: number[];
-    };
+    correct: number[];
+    errors: number[];
+    missed: number[];
+    score?: {
+        correct: number;
+        errors: number;
+        missed: number;
+    }
 }
