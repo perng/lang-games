@@ -34,15 +34,40 @@
 }
 
 .story-card {
-  background: white;
-  border-radius: 8px;
   padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   transition: transform 0.2s, box-shadow 0.2s;
   text-decoration: none;
   color: inherit;
 }
 
+/* Score-based background colors */
+.story-card.not-attempted {
+  background: white;
+  border: 1px solid #e0e0e0;
+}
+
+.story-card.excellent {
+  background: linear-gradient(to right bottom, #f1f8e9, #dcedc8);
+  border: 1px solid #c5e1a5;
+}
+
+.story-card.good {
+  background: linear-gradient(to right bottom, #fff3e0, #ffe0b2);
+  border: 1px solid #ffcc80;
+}
+
+.story-card.fair {
+  background: linear-gradient(to right bottom, #e3f2fd, #bbdefb);
+  border: 1px solid #90caf9;
+}
+
+.story-card.needs-practice {
+  background: linear-gradient(to right bottom, #ffebee, #ffcdd2);
+  border: 1px solid #ef9a9a;
+}
+
+/* Hover effects */
 .story-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
@@ -87,4 +112,60 @@
   .stories-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.story-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.score-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.not-attempted-text {
+  font-size: 0.875rem;
+  color: #757575;
+  font-style: italic;
+}
+
+/* Add a legend at the bottom */
+.score-legend {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.legend-title {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.legend-items {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.legend-color {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 4px;
 } 

@@ -3,6 +3,7 @@ import type { WordInfo, GameResults } from '../../types';
 import articlesData from '../../data/articles.json';
 import './styles.css';
 import { useParams, useNavigate } from 'react-router-dom';
+import { setCookie } from '../../utils/cookies';
 
 interface GameState {
   words: WordInfo[];
@@ -157,24 +158,38 @@ function ArticleGame() {
     };
 
     setResults(finalResults);
+
+    const points = finalResults.score.correct - finalResults.score.errors;
+    const totalThes = finalResults.score.correct + finalResults.score.missed;
+    const percentage = totalThes > 0 ? Math.round((points / totalThes) * 100) : 0;
+    
+    setCookie(`articleGame_score_${articleIndex}`, percentage.toString());
+
     return finalResults;
   };
 
   const nextArticle = () => {
-    if (results?.score) {
-      const scoreChange = (results.score?.correct ?? 0) - (results.score?.errors ?? 0);
-      setTotalScore(prev => prev + scoreChange);
-    }
-    
-    if (articleIndex < articlesData.length - 1) {
-      navigate(`/article-game/${articleIndex + 1}`);
+    if (currentArticleIndex < articlesData.length - 1) {
+      setCurrentArticleIndex(prev => prev + 1);
       setResults(null);
+      setGameState({
+        words: [],
+        correctThePositions: new Set(),
+        playerSelections: new Set(),
+        sentenceStarts: new Set()
+      });
     }
   };
 
   const resetGame = () => {
-    initializeGame(articlesData[articleIndex]);
+    setGameState({
+      words: [],
+      correctThePositions: new Set(),
+      playerSelections: new Set(),
+      sentenceStarts: new Set()
+    });
     setResults(null);
+    initializeGame(articlesData[articleIndex]);
   };
 
   const getScore = () => {
