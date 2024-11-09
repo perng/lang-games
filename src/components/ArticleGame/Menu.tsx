@@ -9,7 +9,6 @@ function ArticleGameMenu() {
     return score ? parseInt(score) : null;
   };
 
-  // Helper function to determine card class based on score
   const getCardClass = (score: number | null): string => {
     if (score === null) return 'not-attempted';
     if (score >= 90) return 'excellent';
@@ -18,11 +17,32 @@ function ArticleGameMenu() {
     return 'needs-practice';
   };
 
+  const getImageUrl = (id: string) => {
+    try {
+      return new URL(`../../images/${id}-small.jpg`, import.meta.url).href;
+    } catch (error) {
+      console.error(`Failed to load image for ${id}:`, error);
+      return '';
+    }
+  };
+
+  const clearAllScores = () => {
+    articlesData.forEach((_, index) => {
+      document.cookie = `articleGame_score_${index}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/`;
+    });
+    window.location.reload(); // Refresh to update the view
+  };
+
   return (
     <div className="game-menu">
       <header>
         <h1>The Article Game</h1>
-        <Link to="/" className="back-link">← Back to Games</Link>
+        <div className="header-actions">
+          <button onClick={clearAllScores} className="clear-scores-button">
+            Clear All Scores
+          </button>
+          <Link to="/" className="back-link">← Back to Games</Link>
+        </div>
       </header>
       
       <div className="stories-grid">
@@ -35,6 +55,12 @@ function ArticleGameMenu() {
               to={`/article-game/${index}`} 
               className={`story-card ${getCardClass(score)}`}
             >
+              <div className="story-image">
+                <img 
+                  src={getImageUrl(article.id)} 
+                  alt={article.title}
+                />
+              </div>
               <div className="story-header">
                 <h2>{article.title}</h2>
                 {score !== null && (
@@ -43,9 +69,6 @@ function ArticleGameMenu() {
                   </div>
                 )}
               </div>
-              <p className="preview">
-                {article.content.slice(0, 100)}...
-              </p>
               <div className="story-meta">
                 <span className="word-count">
                   {article.content.split(/\s+/).length} words
