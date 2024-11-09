@@ -49,11 +49,16 @@
 
 .word {
   cursor: pointer;
-  padding: 0 2px;
+  padding: 0 4px;
   margin: 0 1px;
-  border-radius: 3px;
+  border-radius: 4px;
+  text-transform: none;
   transition: background-color 0.2s;
   display: inline-block;
+}
+
+.word.capitalize {
+  text-transform: capitalize;
 }
 
 .word:hover {
@@ -94,13 +99,10 @@
 }
 
 .results-summary {
-  background: white;
-  padding: 1.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  margin-top: 1.5rem;
-  max-width: 700px;
-  width: 100%;
 }
 
 .results-summary h3 {
@@ -113,12 +115,22 @@
   font-size: 1.1rem;
 }
 
-.final-score {
-  margin-top: 1rem !important;
-  padding-top: 1rem;
-  border-top: 2px solid #eee;
+.results-summary .final-score {
+  margin-top: 1rem;
   font-weight: bold;
-  color: #1976d2;
+  font-size: 1.2rem;
+}
+
+.results-summary p:nth-child(2) {
+  color: #4CAF50;
+}
+
+.results-summary p:nth-child(3) {
+  color: #f44336;
+}
+
+.results-summary p:nth-child(4) {
+  color: #2196F3;
 }
 
 button {
@@ -364,4 +376,38 @@ button:hover {
     font-size: 1.5rem;
     margin: 1.5rem 0;
   }
+}
+
+.article {
+  text-transform: none !important;
+  display: inline;
+}
+
+.article.correct {
+  color: #4CAF50;
+}
+
+.article.error {
+  color: #f44336;
+}
+
+.article.missed {
+  color: #2196F3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.article.error strike {
+  text-decoration-color: #f44336;
+}
+
+.word-container {
+  text-transform: none;
+}
+
+.article-sentence-start {
+  /* Force proper case for sentence starts */
+  text-transform: none !important;
+  /* Debug color */
+  color: #1976D2;
 }

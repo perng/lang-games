@@ -216,6 +216,52 @@ function ArticleGame() {
     return article[`explanation-${lang}`] || '';
   };
 
+  const NAMES = new Set([
+    'Cappy', 'Sammy', 'Ollie', 'Olly', 'Penny', 'Toby', 'Gary', 'Lily', 
+    'Squeaky', 'Bella', 'Max', 'Benny', 'Milo', 'Rosie', 'Tina', 'Freddy', 
+    'Daisy', 'Timmy', 'Hugo', 'Charlie'
+  ]);
+
+  const getWordClassName = (word: WordInfo): string => {
+    const classes = ['word'];
+    
+    // A word should be capitalized if:
+    // 1. It's a name (always), or
+    // 2. It's the first word of a sentence AND not preceded by 'the'
+    const shouldCapitalize = 
+      NAMES.has(word.text) || 
+      (word.isSentenceStart && !gameState.playerSelections.has(word.index));
+    
+    if (shouldCapitalize) {
+      classes.push('capitalize');
+    }
+    
+    if (results) {
+      if (results.correct.includes(word.index)) {
+        classes.push('correct');
+      } else if (results.errors.includes(word.index)) {
+        classes.push('error');
+      } else if (results.missed.includes(word.index)) {
+        classes.push('missed');
+      }
+    } else if (gameState.playerSelections.has(word.index)) {
+      classes.push('selected');
+    }
+    
+    return classes.join(' ');
+  };
+
+  const getScoreEmoji = (percentage: number): string => {
+    if (percentage <= 0) return '🤬';  // very angry
+    if (percentage < 20) return '😠';   // angry
+    if (percentage < 40) return '😕';   // confused
+    if (percentage < 60) return '😐';   // neutral
+    if (percentage < 80) return '🙂';   // slightly happy
+    if (percentage < 90) return '😊';   // happy
+    if (percentage < 100) return '😄';  // very happy
+    return '🥳';                        // perfect score
+  };
+
   return (
     <div>
       <h1 className="main-title">The Article Game</h1>
@@ -252,24 +298,56 @@ function ArticleGame() {
         </h2>
 
         <div className="game-content">
-          {getDisplayWords().map((word, idx) => (
-            <span 
-              key={idx}
-              onClick={() => !results && toggleThe(word.index)}
-              className={`
-                word 
-                ${word.isSelected ? 'selected' : ''}
-                ${results ? (
-                  word.shouldHaveThe ? (
-                    word.isSelected ? 'correct' : 'missed'
-                  ) : (
-                    word.isSelected ? 'error' : ''
-                  )
-                ) : ''}
-              `}
-              dangerouslySetInnerHTML={{ __html: word.displayText }}
-            />
-          ))}
+          <div className="word-container">
+            {gameState.words.map((word, index) => {
+              const isSelected = gameState.playerSelections.has(word.index);
+              const isName = NAMES.has(word.text);
+              const isSentenceStart = word.isSentenceStart;
+              
+              let displayWord;
+              if (isName) {
+                displayWord = word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase();
+              } else if (isSentenceStart && !isSelected) {
+                displayWord = word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase();
+              } else {
+                displayWord = word.text.toLowerCase();
+              }
+
+              let articleElement = null;
+              const theArticle = isSentenceStart ? 'The ' : 'the ';
+
+              if (results) {
+                // Show results state
+                if (gameState.correctThePositions.has(word.index - 1)) {
+                  // Should have 'the'
+                  if (isSelected) {
+                    // Correct placement
+                    articleElement = <span className="article correct">{theArticle}</span>;
+                  } else {
+                    // Missed 'the'
+                    articleElement = <span className="article missed">{theArticle}</span>;
+                  }
+                } else if (isSelected) {
+                  // Wrong placement
+                  articleElement = <span className="article error"><strike>{theArticle}</strike></span>;
+                }
+              } else if (isSelected) {
+                // Normal gameplay state
+                articleElement = <span className="article">{theArticle}</span>;
+              }
+
+              return (
+                <span
+                  key={index}
+                  className={getWordClassName(word)}
+                  onClick={() => toggleThe(word.index)}
+                >
+                  {articleElement}
+                  {displayWord}
+                </span>
+              );
+            })}
+          </div>
         </div>
 
         <div className="game-controls">
@@ -279,14 +357,14 @@ function ArticleGame() {
             </button>
           ) : (
             <div className="results-controls">
-              {results && results.score && (
+              {results && (
                 <div className="results-summary">
                   <h3>Results:</h3>
-                  <p>Correct placements: {results.score.correct}</p>
-                  <p>Wrong placements: {results.score.errors}</p>
-                  <p>Missed placements: {results.score.missed}</p>
+                  <p>✅ Correct placements: {results.score.correct}</p>
+                  <p>❌ Wrong placements: {results.score.errors}</p>
+                  <p>💡 Missed placements: {results.score.missed}</p>
                   <p className="final-score">
-                    Final Score: {getScore().points} points ({getScore().percentage}%)
+                    {getScoreEmoji(getScore().percentage)} Final Score: {getScore().points} points ({getScore().percentage}%)
                   </p>
                 </div>
               )}
