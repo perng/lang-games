@@ -232,7 +232,7 @@ function ArticleGame() {
 
   return (
     <div>
-      <h1 className="main-title">The Article Game</h1>
+      <h1 className="main-title">THE Game</h1>
       <div className="game-container">
         <div className="game-header">
           <button 

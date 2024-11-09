@@ -36,7 +36,7 @@ function ArticleGameMenu() {
   return (
     <div className="game-menu">
       <header>
-        <h1>The Article Game</h1>
+        <h1>THE Game</h1>
         <div className="header-actions">
           <button onClick={clearAllScores} className="clear-scores-button">
             Clear All Scores

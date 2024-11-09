@@ -12,7 +12,7 @@ interface GameInfo {
 const games: GameInfo[] = [
   {
     id: 'article-game',
-    title: 'The Article Game',
+    title: 'THE Game',
     description: 'Practice using "the" correctly in English sentences.',
     difficulty: 'Medium',
     path: '/article-game'
