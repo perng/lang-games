@@ -217,169 +217,129 @@ function ArticleGame() {
   };
 
   return (
-    <div className="game-container">
-      <header className="game-header">
-        <h1>The Article Game</h1>
-        <div className="header-controls">
+    <div>
+      <h1 className="main-title">The Article Game</h1>
+      <div className="game-container">
+        <div className="game-header">
           <button 
-            onClick={() => setShowInstructions(true)} 
+            onClick={() => setShowInstructions(!showInstructions)} 
             className="instructions-button"
           >
-            📜 Mission Brief
+            {showInstructions ? 'Hide Mission Brief' : 'Show Mission Brief'}
           </button>
           <button 
             onClick={() => navigate('/article-game')} 
-            className="list-button"
+            className="article-list-button"
           >
             Article List
           </button>
-          {results && (
-            <div className="score">
-              Score: {getScore().points} ({getScore().percentage}%)
+        </div>
+
+        {showInstructions && (
+          <div className="instructions">
+            <h3>Mission Brief:</h3>
+            <p>Your mission is to identify where the article "the" should be placed in the text.</p>
+            <ul>
+              <li>Click on a word if you think "the" should appear before it</li>
+              <li>Click again to remove "the"</li>
+              <li>Press Enter or click Check Answers when you're done</li>
+            </ul>
+          </div>
+        )}
+
+        <h2 className="story-title">
+          {articlesData[articleIndex]?.title || 'Loading...'}
+        </h2>
+
+        <div className="game-content">
+          {getDisplayWords().map((word, idx) => (
+            <span 
+              key={idx}
+              onClick={() => !results && toggleThe(word.index)}
+              className={`
+                word 
+                ${word.isSelected ? 'selected' : ''}
+                ${results ? (
+                  word.shouldHaveThe ? (
+                    word.isSelected ? 'correct' : 'missed'
+                  ) : (
+                    word.isSelected ? 'error' : ''
+                  )
+                ) : ''}
+              `}
+              dangerouslySetInnerHTML={{ __html: word.displayText }}
+            />
+          ))}
+        </div>
+
+        <div className="game-controls">
+          {!results ? (
+            <button onClick={checkResults} className="check-button">
+              Check Answers
+            </button>
+          ) : (
+            <div className="results-controls">
+              {results && results.score && (
+                <div className="results-summary">
+                  <h3>Results:</h3>
+                  <p>Correct placements: {results.score.correct}</p>
+                  <p>Wrong placements: {results.score.errors}</p>
+                  <p>Missed placements: {results.score.missed}</p>
+                  <p className="final-score">
+                    Final Score: {getScore().points} points ({getScore().percentage}%)
+                  </p>
+                </div>
+              )}
+              <div className="action-buttons">
+                <button onClick={resetGame} className="reset-button">
+                  Try Again
+                </button>
+                {getExplanation('zh-TW') && (
+                  <button 
+                    onClick={() => setShowExplanation(showExplanation === 'zh-TW' ? null : 'zh-TW')} 
+                    className={`explain-button ${showExplanation === 'zh-TW' ? 'active' : ''}`}
+                  >
+                    {showExplanation === 'zh-TW' ? '隱藏說明' : '查看中文說明'}
+                  </button>
+                )}
+                {getExplanation('en-US') && (
+                  <button 
+                    onClick={() => setShowExplanation(showExplanation === 'en-US' ? null : 'en-US')} 
+                    className={`explain-button ${showExplanation === 'en-US' ? 'active' : ''}`}
+                  >
+                    {showExplanation === 'en-US' ? 'Hide Explanation' : 'Show English Explanation'}
+                  </button>
+                )}
+              </div>
+
+              {showExplanation && (
+                <div className="explanation-container">
+                  <ReactMarkdown>
+                    {getExplanation(showExplanation)}
+                  </ReactMarkdown>
+                </div>
+              )}
             </div>
           )}
         </div>
-      </header>
 
-      {showInstructions && (
-        <div className="instructions-modal">
-          <div className="instructions-content">
-            <h2>🚨 Grammar Emergency! 🚨</h2>
-            <p className="mission-intro">
-              The evil Article Bandit has struck again! They've stolen all the "the"s 
-              from our stories, causing chaos in the Grammar Universe. We need your 
-              help to restore order!
-            </p>
-            <ul>
-              <li>🎯 Click on words that need their "the" back</li>
-              <li>🔄 Made a mistake? Click again to undo</li>
-              <li>✨ Once you think you've restored all the "the"s, click "Check Answers"</li>
-            </ul>
-            <div className="scoring">
-              <h3>Scoring System:</h3>
-              <ul>
-                <li>✅ Correct "the" placement: +1 point</li>
-                <li>❌ Wrong "the" placement: -1 point</li>
-                <li>⭕ Missed "the" placement: 0 points</li>
-              </ul>
-              <p>Final Score = Correct placements - Wrong placements</p>
-              <p>Percentage Score = (Final Score) / (Total required "the"s) × 100%</p>
-            </div>
-            <div className="legend">
-              <h3>Your Grammar Detective Guide:</h3>
-              <div className="legend-item">
-                <span className="sample correct">the word</span>
-                <span>✅ Perfect placement! You're a grammar hero!</span>
-              </div>
-              <div className="legend-item">
-                <span className="sample error">
-                  <del>the</del> word
-                </span>
-                <span>❌ Oops! This word was happy without its "the"</span>
-              </div>
-              <div className="legend-item">
-                <span className="sample missed">the word</span>
-                <span>🎯 Missed one! This word is crying for its "the"</span>
-              </div>
-            </div>
-            <button 
-              onClick={() => setShowInstructions(false)}
-              className="close-button"
-            >
-              Let's Save Grammar! 🚀
-            </button>
-          </div>
+        <div className="progress">
+          Article {articleIndex + 1} of {articlesData.length}
         </div>
-      )}
 
-      <div className="game-content">
-        {getDisplayWords().map((word, idx) => (
-          <span 
-            key={idx}
-            onClick={() => !results && toggleThe(word.index)}
-            className={`
-              word 
-              ${word.isSelected ? 'selected' : ''}
-              ${results ? (
-                word.shouldHaveThe ? (
-                  word.isSelected ? 'correct' : 'missed'
-                ) : (
-                  word.isSelected ? 'error' : ''
-                )
-              ) : ''}
-            `}
-            dangerouslySetInnerHTML={{ __html: word.displayText }}
-          />
-        ))}
-      </div>
-
-      <div className="game-controls">
-        {!results ? (
-          <button onClick={checkResults} className="check-button">
-            Check Answers
-          </button>
-        ) : (
-          <div className="results-controls">
-            {results && results.score && (
-              <div className="results-summary">
-                <h3>Results:</h3>
-                <p>Correct placements: {results.score.correct}</p>
-                <p>Wrong placements: {results.score.errors}</p>
-                <p>Missed placements: {results.score.missed}</p>
-                <p className="final-score">
-                  Final Score: {getScore().points} points ({getScore().percentage}%)
-                </p>
-              </div>
-            )}
-            <div className="action-buttons">
-              <button onClick={resetGame} className="reset-button">
-                Try Again
-              </button>
-              {getExplanation('zh-TW') && (
-                <button 
-                  onClick={() => setShowExplanation(showExplanation === 'zh-TW' ? null : 'zh-TW')} 
-                  className={`explain-button ${showExplanation === 'zh-TW' ? 'active' : ''}`}
-                >
-                  {showExplanation === 'zh-TW' ? '隱藏說明' : '查看中文說明'}
-                </button>
-              )}
-              {getExplanation('en-US') && (
-                <button 
-                  onClick={() => setShowExplanation(showExplanation === 'en-US' ? null : 'en-US')} 
-                  className={`explain-button ${showExplanation === 'en-US' ? 'active' : ''}`}
-                >
-                  {showExplanation === 'en-US' ? 'Hide Explanation' : 'Show English Explanation'}
-                </button>
-              )}
-            </div>
-
-            {showExplanation && (
-              <div className="explanation-container">
-                <ReactMarkdown>
-                  {getExplanation(showExplanation)}
-                </ReactMarkdown>
-              </div>
-            )}
+        {articleIndex === articlesData.length - 1 && results && (
+          <div className="final-score">
+            <h2>Game Complete!</h2>
+            <p>Final Score: {totalScore}</p>
+            <button onClick={() => {
+              navigate(`/article-game/${0}`);
+              setTotalScore(0);
+            }}>
+              Play Again
+            </button>
           </div>
         )}
       </div>
-
-      <div className="progress">
-        Article {articleIndex + 1} of {articlesData.length}
-      </div>
-
-      {articleIndex === articlesData.length - 1 && results && (
-        <div className="final-score">
-          <h2>Game Complete!</h2>
-          <p>Final Score: {totalScore}</p>
-          <button onClick={() => {
-            navigate(`/article-game/${0}`);
-            setTotalScore(0);
-          }}>
-            Play Again
-          </button>
-        </div>
-      )}
     </div>
   );
 }
