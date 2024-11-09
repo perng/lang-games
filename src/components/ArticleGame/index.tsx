@@ -12,19 +12,6 @@ interface GameState {
   sentenceStarts: Set<number>;
 }
 
-interface GameScore {
-  correct: number;
-  errors: number;
-  missed: number;
-}
-
-interface GameResults {
-  correct: number[];
-  errors: number[];
-  missed: number[];
-  score: GameScore;
-}
-
 function ArticleGame() {
   const { storyId } = useParams();
   const navigate = useNavigate();
@@ -166,14 +153,16 @@ function ArticleGame() {
       }
     });
 
-    const finalResults: GameResults = {
-      ...gameResults,
+    const finalResults = {
+      correct: gameResults.correct,
+      errors: gameResults.errors,
+      missed: gameResults.missed,
       score: {
         correct: gameResults.correct.length,
         errors: gameResults.errors.length,
         missed: gameResults.missed.length
       }
-    };
+    } as const;
 
     const points = finalResults.score.correct - finalResults.score.errors;
     const totalThes = finalResults.score.correct + finalResults.score.missed;
@@ -324,15 +313,17 @@ function ArticleGame() {
           </button>
         ) : (
           <div className="results-controls">
-            <div className="results-summary">
-              <h3>Results:</h3>
-              <p>Correct placements: {results.score.correct}</p>
-              <p>Wrong placements: {results.score.errors}</p>
-              <p>Missed placements: {results.score.missed}</p>
-              <p className="final-score">
-                Final Score: {getScore().points} points ({getScore().percentage}%)
-              </p>
-            </div>
+            {results && results.score && (
+              <div className="results-summary">
+                <h3>Results:</h3>
+                <p>Correct placements: {results.score.correct}</p>
+                <p>Wrong placements: {results.score.errors}</p>
+                <p>Missed placements: {results.score.missed}</p>
+                <p className="final-score">
+                  Final Score: {getScore().points} points ({getScore().percentage}%)
+                </p>
+              </div>
+            )}
             <button onClick={resetGame} className="reset-button">
               Try Again
             </button>            
