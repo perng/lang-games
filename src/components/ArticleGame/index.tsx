@@ -12,6 +12,19 @@ interface GameState {
   sentenceStarts: Set<number>;
 }
 
+interface GameScore {
+  correct: number;
+  errors: number;
+  missed: number;
+}
+
+interface GameResults {
+  correct: number[];
+  errors: number[];
+  missed: number[];
+  score: GameScore;
+}
+
 function ArticleGame() {
   const { storyId } = useParams();
   const navigate = useNavigate();
@@ -160,7 +173,7 @@ function ArticleGame() {
         errors: gameResults.errors.length,
         missed: gameResults.missed.length
       }
-    } satisfies GameResults;
+    };
 
     const points = finalResults.score.correct - finalResults.score.errors;
     const totalThes = finalResults.score.correct + finalResults.score.missed;
@@ -172,18 +185,6 @@ function ArticleGame() {
     return finalResults;
   };
 
-  const nextArticle = () => {
-    if (currentArticleIndex < articlesData.length - 1) {
-      setCurrentArticleIndex(prev => prev + 1);
-      setResults(null);
-      setGameState({
-        words: [],
-        correctThePositions: new Set(),
-        playerSelections: new Set(),
-        sentenceStarts: new Set()
-      });
-    }
-  };
 
   const resetGame = () => {
     setGameState({
@@ -211,8 +212,6 @@ function ArticleGame() {
       if (e.key === 'Enter') {
         if (!results) {
           checkResults();
-        } else if (articleIndex < articlesData.length - 1) {
-          nextArticle();
         }
       }
     };
@@ -277,7 +276,9 @@ function ArticleGame() {
                 <span>✅ Perfect placement! You're a grammar hero!</span>
               </div>
               <div className="legend-item">
-                <span className="sample error"><strike>the</strike> word</span>
+                <span className="sample error">
+                  <del>the</del> word
+                </span>
                 <span>❌ Oops! This word was happy without its "the"</span>
               </div>
               <div className="legend-item">
@@ -334,12 +335,7 @@ function ArticleGame() {
             </div>
             <button onClick={resetGame} className="reset-button">
               Try Again
-            </button>
-            {articleIndex < articlesData.length - 1 && (
-              <button onClick={nextArticle} className="next-button">
-                Next Article
-              </button>
-            )}
+            </button>            
           </div>
         )}
       </div>
