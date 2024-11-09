@@ -4,6 +4,7 @@ import articlesData from '../../data/articles.json';
 import './styles.css';
 import { useParams, useNavigate } from 'react-router-dom';
 import { setCookie } from '../../utils/cookies';
+import ReactMarkdown from 'react-markdown';
 
 interface GameState {
   words: WordInfo[];
@@ -32,6 +33,7 @@ function ArticleGame() {
   const [results, setResults] = useState<GameResults | null>(null);
   const [totalScore, setTotalScore] = useState(0);
   const [showInstructions, setShowInstructions] = useState(false);
+  const [showExplanation, setShowExplanation] = useState<'zh-TW' | 'en-US' | null>(null);
 
   useEffect(() => {
     initializeGame(articlesData[articleIndex]);
@@ -209,6 +211,11 @@ function ArticleGame() {
     return () => window.removeEventListener('keypress', handleKeyPress);
   }, [results, articleIndex]);
 
+  const getExplanation = (lang: 'zh-TW' | 'en-US') => {
+    const article = articlesData[articleIndex];
+    return article[`explanation-${lang}`] || '';
+  };
+
   return (
     <div className="game-container">
       <header className="game-header">
@@ -324,9 +331,35 @@ function ArticleGame() {
                 </p>
               </div>
             )}
-            <button onClick={resetGame} className="reset-button">
-              Try Again
-            </button>            
+            <div className="action-buttons">
+              <button onClick={resetGame} className="reset-button">
+                Try Again
+              </button>
+              {getExplanation('zh-TW') && (
+                <button 
+                  onClick={() => setShowExplanation(showExplanation === 'zh-TW' ? null : 'zh-TW')} 
+                  className={`explain-button ${showExplanation === 'zh-TW' ? 'active' : ''}`}
+                >
+                  {showExplanation === 'zh-TW' ? '隱藏說明' : '查看中文說明'}
+                </button>
+              )}
+              {getExplanation('en-US') && (
+                <button 
+                  onClick={() => setShowExplanation(showExplanation === 'en-US' ? null : 'en-US')} 
+                  className={`explain-button ${showExplanation === 'en-US' ? 'active' : ''}`}
+                >
+                  {showExplanation === 'en-US' ? 'Hide Explanation' : 'Show English Explanation'}
+                </button>
+              )}
+            </div>
+
+            {showExplanation && (
+              <div className="explanation-container">
+                <ReactMarkdown>
+                  {getExplanation(showExplanation)}
+                </ReactMarkdown>
+              </div>
+            )}
           </div>
         )}
       </div>

@@ -1,6 +1,7 @@
 export interface Article {
     title: string;
     content: string;
+    'explanation-zh-TW'?: string;
 }
 
 export interface WordInfo {
