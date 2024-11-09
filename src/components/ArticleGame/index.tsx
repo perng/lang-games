@@ -134,6 +134,11 @@ function ArticleGame() {
       correct: [],
       errors: [],
       missed: [],
+      score: {
+        correct: 0,
+        errors: 0,
+        missed: 0
+      }
     };
 
     gameState.words.forEach(word => {
@@ -155,9 +160,7 @@ function ArticleGame() {
         errors: gameResults.errors.length,
         missed: gameResults.missed.length
       }
-    };
-
-    setResults(finalResults);
+    } satisfies GameResults;
 
     const points = finalResults.score.correct - finalResults.score.errors;
     const totalThes = finalResults.score.correct + finalResults.score.missed;
@@ -165,6 +168,7 @@ function ArticleGame() {
     
     setCookie(`articleGame_score_${articleIndex}`, percentage.toString());
 
+    setResults(finalResults);
     return finalResults;
   };
 
