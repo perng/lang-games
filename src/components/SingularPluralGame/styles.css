@@ -1,0 +1,27 @@
+.noun {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.noun:hover {
+  background-color: #e3f2fd;
+}
+
+.correct {
+  background-color: #c8e6c9;
+  color: #2e7d32;
+}
+
+.error {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+.missed {
+  background-color: #bbdefb;
+  color: #1565c0;
+}
+
+/* Rest of the styles can be similar to THE game */ 
