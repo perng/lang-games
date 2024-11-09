@@ -99,38 +99,6 @@ function ArticleGame() {
     });
   };
 
-  const getDisplayWords = () => {
-    return gameState.words.map(word => {
-      const shouldCapitalize = gameState.sentenceStarts.has(word.index);
-      const text = shouldCapitalize ? 
-        word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase() : 
-        word.text;
-
-      const isSelected = gameState.playerSelections.has(word.index);
-      const shouldHaveThe = gameState.correctThePositions.has(word.index - 1);
-      const theWord = shouldCapitalize ? 'The' : 'the';
-
-      let displayText = text;
-      
-      if (results) {
-        if (shouldHaveThe) {
-          displayText = `${theWord} ${text}`;
-        } else if (isSelected) {
-          displayText = `<strike>${theWord}</strike> ${text}`;
-        }
-      } else if (isSelected) {
-        displayText = `${theWord} ${text}`;
-      }
-
-      return {
-        ...word,
-        displayText,
-        isSelected,
-        shouldHaveThe
-      };
-    });
-  };
-
   const checkResults = () => {
     const gameResults: GameResults = {
       correct: [],
@@ -329,7 +297,11 @@ function ArticleGame() {
                   }
                 } else if (isSelected) {
                   // Wrong placement
-                  articleElement = <span className="article error"><strike>{theArticle}</strike></span>;
+                  articleElement = (
+                    <span className="article error">
+                      <del>{theArticle}</del>
+                    </span>
+                  );
                 }
               } else if (isSelected) {
                 // Normal gameplay state
@@ -357,7 +329,7 @@ function ArticleGame() {
             </button>
           ) : (
             <div className="results-controls">
-              {results && (
+              {results && results.score && (
                 <div className="results-summary">
                   <h3>Results:</h3>
                   <p>✅ Correct placements: {results.score.correct}</p>
