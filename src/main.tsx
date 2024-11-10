@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './routes/Home';
+import ArticleGameMenu from './components/ArticleGame/Menu';
 import ArticleGame from './components/ArticleGame';
 import SingularPluralGame from './components/SingularPluralGame';
 import './index.css';
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/article-game',
-    element: <ArticleGame />,
+    element: <ArticleGameMenu />,
   },
   {
     path: '/article-game/:storyId',

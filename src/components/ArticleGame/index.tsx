@@ -280,9 +280,8 @@ function ArticleGame() {
               } else {
                 displayWord = word.text.toLowerCase();
               }
-
               let articleElement = null;
-              const theArticle = isSentenceStart ? 'The ' : 'the ';
+              const theArticle = isSentenceStart ? 'The' : 'the';
 
               if (results) {
                 // Show results state
@@ -290,22 +289,22 @@ function ArticleGame() {
                   // Should have 'the'
                   if (isSelected) {
                     // Correct placement
-                    articleElement = <span className="article correct">{theArticle}</span>;
+                    articleElement = <span className="article correct">{theArticle}&nbsp;</span>;
                   } else {
                     // Missed 'the'
-                    articleElement = <span className="article missed">{theArticle}</span>;
+                    articleElement = <span className="article missed">{theArticle}&nbsp;</span>;
                   }
                 } else if (isSelected) {
                   // Wrong placement
                   articleElement = (
                     <span className="article error">
-                      <del>{theArticle}</del>
+                      <del>{theArticle}&nbsp;</del>
                     </span>
                   );
                 }
               } else if (isSelected) {
                 // Normal gameplay state
-                articleElement = <span className="article">{theArticle}</span>;
+                articleElement = <span className="article">{theArticle}&nbsp;</span>;
               }
 
               return (
