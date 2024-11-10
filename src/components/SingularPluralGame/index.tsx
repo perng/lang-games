@@ -23,7 +23,7 @@ interface GameState {
 }
 
 function SingularPluralGame() {
-  const { storyId } = useParams();
+  const { storyId } = useParams<{ storyId: string }>();  // Explicitly type the params
   const navigate = useNavigate();
   const [gameState, setGameState] = useState<GameState>({
     words: [],
@@ -120,8 +120,9 @@ function SingularPluralGame() {
   };
 
   useEffect(() => {
-    if (storyId) {
-      initializeGame(parseInt(storyId));
+    const id = parseInt(storyId ?? '0');
+    if (!isNaN(id) && id >= 0 && id < articles.length) {
+      initializeGame(id);
     }
   }, [storyId]);
 
@@ -154,7 +155,7 @@ function SingularPluralGame() {
 
     const totalNouns = gameState.words.filter(word => word.isNoun).length;
     
-    gameState.words.forEach((word, index) => {
+    gameState.words.forEach(word => {
       if (word.isNoun) {
         if (word.text === word.correctForm) {
           score.correct++;
@@ -166,13 +167,12 @@ function SingularPluralGame() {
 
     score.percentage = Math.round((score.correct / totalNouns) * 100);
 
-    // Save score to cookie
+    // Save to cookie
     if (storyId) {
       const cookieKey = `singular-plural-${storyId}`;
       const existingScores = getCookie(cookieKey);
       let scores = existingScores ? JSON.parse(existingScores) : [];
       scores.push(score.percentage);
-      // Keep only last 5 attempts
       scores = scores.slice(-5);
       setCookie(cookieKey, JSON.stringify(scores));
     }
@@ -181,7 +181,7 @@ function SingularPluralGame() {
   };
 
   const handleTryAgain = () => {
-    initializeGame(parseInt(storyId));
+    initializeGame(parseInt(storyId ?? '0'));
     setCurrentExplanation(null);
   };
 

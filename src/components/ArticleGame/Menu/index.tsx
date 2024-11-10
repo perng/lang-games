@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { getCookie } from '../../utils/cookies';
-import articlesData from '../../data/articles.json';
-import './menu.css';
+import { getCookie } from '../../../utils/cookies';
+import articlesData from '../../../data/articles.json';
+import './styles.css';
 
 function ArticleGameMenu() {
   const getStoryScore = (index: number): number | null => {
@@ -19,7 +19,7 @@ function ArticleGameMenu() {
 
   const getImageUrl = (id: string) => {
     try {
-      return new URL(`../../images/${id}-small.jpg`, import.meta.url).href;
+      return new URL(`../../../images/${id}-small.jpg`, import.meta.url).href;
     } catch (error) {
       console.error(`Failed to load image for ${id}:`, error);
       return '';
