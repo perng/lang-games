@@ -1,11 +1,28 @@
-.noun {
+.word-container {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: left;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.word {
+  display: inline;
+}
+
+.word.noun {
   cursor: pointer;
   padding: 2px 4px;
   border-radius: 4px;
+  margin: 0 -2px;
   transition: background-color 0.2s;
+  border-bottom: 2px dotted #2c3e50;
+  text-decoration: none;
 }
 
-.noun:hover {
+.word.noun:hover {
   background-color: #e3f2fd;
 }
 
@@ -24,4 +41,108 @@
   color: #1565c0;
 }
 
-/* Rest of the styles can be similar to THE game */ 
+/* Rest of the styles can be similar to THE game */
+
+.explanation-section {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.explanation-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.explanation-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #2c3e50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.explanation-button:hover {
+  background-color: #34495e;
+}
+
+.explanation-button.active {
+  background-color: #16a085;
+}
+
+.explanation-content {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-top: 1rem;
+}
+
+.explanation-content h1,
+.explanation-content h2,
+.explanation-content h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.explanation-content p {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.explanation-content ul,
+.explanation-content ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.try-again-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #27ae60;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.try-again-button:hover {
+  background-color: #2ecc71;
+}
+
+/* Remove all spacing around punctuation */
+.word.punctuation {
+  margin-left: -4px;
+  margin-right: 0;
+}
+
+/* Hide actual spaces but maintain their effect */
+.word.space {
+  font-size: 0;
+  white-space: pre;
+}
+
+/* After checking answers, maintain underline but change color based on result */
+.word.noun.correct {
+  border-bottom-color: #2ecc71;
+}
+
+.word.noun.error {
+  border-bottom-color: #e74c3c;
+}
+
+.word.noun.missed {
+  border-bottom-color: #3498db;
+}
+
+.story-title {
+  text-align: center;
+  color: #34495e;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}

@@ -18,7 +18,7 @@ export const gameList: GameCard[] = [
     id: 'singular-plural-game',
     title: 'One or Many',
     tagline: 'Master singular and plural nouns',
-    imageUrl: '/images/the-game-logo.jpg',  // Using the same logo for now
+    imageUrl: '/images/one-or-many-logo.jpg',  // Using the same logo for now
     path: '/singular-plural'
   }
 ]; 
