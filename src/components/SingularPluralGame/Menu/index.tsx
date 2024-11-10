@@ -1,72 +1,112 @@
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import articles from '../../../data/singular.json';
 import { getCookie } from '../../../utils/cookies';
 import '../../ArticleGame/Menu/styles.css';
 
-function SingularPluralGameMenu() {
-  const navigate = useNavigate();
+export default function SingularPluralGameMenu() {
+    const getStoryScore = (index: number): number | null => {
+        const score = getCookie(`singular-plural_${index}`);
+        return score ? parseInt(score) : null;
+    }
 
-  const getScoreEmoji = (percentage: number): string => {
-    if (percentage <= 0) return '🤬';
-    if (percentage < 20) return '😠';
-    if (percentage < 40) return '😕';
-    if (percentage < 60) return '😐';
-    if (percentage < 80) return '🙂';
-    if (percentage < 90) return '😊';
-    if (percentage < 100) return '😄';
-    return '🥳';
-  };
-
-  return (
-    <div className="game-board">
-      <div className="game-header">
-        <h1>One or Many</h1>
-        <p>Practice singular and plural forms of nouns</p>
-      </div>
-
-      <div className="article-list">
-        {articles.map((article, index) => {
-          const cookieKey = `singular-plural-${index}`;
-          const scores = getCookie(cookieKey);
-          const previousScores = scores ? JSON.parse(scores) : [];
-          const bestScore = previousScores.length > 0 
-            ? Math.max(...previousScores) 
-            : null;
-
-          return (
-            <div key={index} className="article-card">
-              <div className="article-image-container">
-                <img 
-                  src={`/src/images/${article.id}.jpg`}
-                  alt={article.title}
-                  className="article-image"
-                />
-                {bestScore !== null && (
-                  <div className="score-badge">
-                    {getScoreEmoji(bestScore)} {bestScore}%
-                  </div>
-                )}
-              </div>
-              <div className="article-info">
-                <h2>{article.title}</h2>
-                <div className="article-stats">
-                  <div className="article-length">
-                    {article.content.split(/\[([^\]]+)\]/).length - 1} nouns
-                  </div>
-                </div>
-                <button 
-                  className="start-button"
-                  onClick={() => navigate(`/singular-plural/${index}`)}
+    const getCardClass = (score: number | null): string => {
+        if (score === null) return 'not-attempted';
+        if (score >= 90) return 'excellent';
+        if (score >= 70) return 'good';
+        if (score >= 50) return 'fair';
+        return 'needs-practice';
+      };
+    
+      const getImageUrl = (id: string) => {
+        try {
+          return new URL(`../../../images/${id}.jpg`, import.meta.url).href;
+        } catch (error) {
+          console.error(`Failed to load image for ${id}:`, error);
+          return '';
+        }
+      };
+    
+      const clearAllScores = () => {
+        articles.forEach((_, index) => {
+          document.cookie = `singular-plural_${index}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/`;
+        });
+        window.location.reload(); // Refresh to update the view
+      };
+    
+      return (
+        <div className="game-menu">
+          <header>
+            <h1>THE Game</h1>
+            <div className="header-actions">
+              <button onClick={clearAllScores} className="clear-scores-button">
+                Clear All Scores
+              </button>
+              <Link to="/" className="back-link">← Back to Games</Link>
+            </div>
+          </header>
+          
+          <div className="stories-grid">
+            {articles.map((article, index) => {
+              const score = getStoryScore(index);
+              
+              return (
+                <Link 
+                  key={index} 
+                  to={`/singular-plural/${index}`} 
+                  className={`story-card ${getCardClass(score)}`}
                 >
-                  Start
-                </button>
+                  <div className="story-image">
+                    <img 
+                      src={getImageUrl(article.id)} 
+                      alt={article.title}
+                    />
+                  </div>
+                  <div className="story-header">
+                    <h2>{article.title}</h2>
+                    {score !== null && (
+                      <div className="score-badge">
+                        {score}%
+                      </div>
+                    )}
+                  </div>
+                  <div className="story-meta">
+                    <span className="word-count">
+                      {article.content.split(/\s+/).length} words
+                    </span>
+                    {score === null && (
+                      <span className="not-attempted-text">Not attempted yet</span>
+                    )}
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+          <div className="score-legend">
+            <div className="legend-title">Score Guide:</div>
+            <div className="legend-items">
+              <div className="legend-item">
+                <div className="legend-color" style={{ background: 'white' }}></div>
+                <span>Not attempted</span>
+              </div>
+              <div className="legend-item">
+                <div className="legend-color" style={{ background: '#f1f8e9' }}></div>
+                <span>Excellent (90%+)</span>
+              </div>
+              <div className="legend-item">
+                <div className="legend-color" style={{ background: '#fff3e0' }}></div>
+                <span>Good (70-89%)</span>
+              </div>
+              <div className="legend-item">
+                <div className="legend-color" style={{ background: '#e3f2fd' }}></div>
+                <span>Fair (50-69%)</span>
+              </div>
+              <div className="legend-item">
+                <div className="legend-color" style={{ background: '#ffebee' }}></div>
+                <span>Needs Practice (below 50%)</span>
               </div>
             </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
-
-export default SingularPluralGameMenu;
+          </div>
+        </div>
+      );
+    }
+    
