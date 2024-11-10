@@ -6,7 +6,7 @@ import ArticleGameMenu from './components/ArticleGame/Menu';
 import ArticleGame from './components/ArticleGame';
 import SingularPluralGame from './components/SingularPluralGame';
 import SingularPluralGameMenu from './components/SingularPluralGame/Menu';
-import './index.css';
+import './styles/global.css';
 
 const router = createBrowserRouter([
   {

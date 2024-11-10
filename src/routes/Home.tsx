@@ -1,53 +1,56 @@
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
-function Home() {
-  const navigate = useNavigate();
+interface GameInfo {
+  id: string;
+  title: string;
+  description: string;
+  difficulty: 'Easy' | 'Medium' | 'Hard' | 'Insane';
+  path: string;
+  image: string;
+}
 
-  const games = [
-    {
-      id: 'article-game',
-      title: 'THE Game',
-      tagline: 'Master the use of "the" in English',
-      imageUrl: '/images/the-game-logo.jpg',
-      path: '/article-game'
-    },
-    {
-      id: 'singular-plural-game',
-      title: 'One or Many',
-      tagline: 'Master singular and plural nouns',
-      imageUrl: '/images/one-or-many-logo.jpg',
-      path: '/singular-plural'
-    }
-  ];
+const games: GameInfo[] = [
+  {
+    id: 'singular-plural-game',
+    title: 'Singular or Plural',
+    description: 'Practice using singular and plural nouns correctly in context.',
+    difficulty: 'Easy',
+    path: '/singular-plural',
+    image: '/images/one-or-many-logo.jpg'
+  },
+  {
+    id: 'article-game',
+    title: 'THE Game',
+    description: 'Practice using "the" correctly in English sentences.',
+    difficulty: 'Medium',
+    path: '/article-game',
+    image: '/images/the-game-logo.jpg'
+  }
+];
 
+export default function Home() {
   return (
-    <div className="games-container">
-      <h1 className="main-title">Language Learning Games</h1>
-      <div className="game-cards">
+    <div className="home">
+      <h1>Language Games</h1>
+      <div className="games-grid">
         {games.map(game => (
-          <button 
-            key={game.id} 
-            className="game-card"
-            onClick={() => navigate(game.path)}
-            type="button"
-          >
-            <div className="game-card-image-container">
-              <img 
-                src={game.imageUrl}
-                alt={game.title}
-                className="game-card-image"
-              />
+          <Link key={game.id} to={game.path} className="game-card">
+            <div className="game-image">
+              <img src={game.image} alt={game.title} />
             </div>
-            <div className="game-card-content">
-              <h2 className="game-card-title">{game.title}</h2>
-              <p className="game-card-tagline">{game.tagline}</p>
+            <div className="game-content">
+              <div className="title-row">
+                <h2>{game.title}</h2>
+                <div className={`difficulty ${game.difficulty.toLowerCase()}`}>
+                  {game.difficulty}
+                </div>
+              </div>
+              <p className="description">{game.description}</p>
             </div>
-          </button>
+          </Link>
         ))}
       </div>
     </div>
   );
 }
-
-export default Home;

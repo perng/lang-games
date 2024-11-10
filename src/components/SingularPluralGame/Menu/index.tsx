@@ -36,7 +36,7 @@ export default function SingularPluralGameMenu() {
       return (
         <div className="game-menu">
           <header>
-            <h1>THE Game</h1>
+            <h1>One or Many</h1>
             <div className="header-actions">
               <button onClick={clearAllScores} className="clear-scores-button">
                 Clear All Scores
