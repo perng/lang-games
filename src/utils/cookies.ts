@@ -1,12 +1,22 @@
-export const setCookie = (name: string, value: string) => {
-  // Set expiration to maximum date (Fri, 31 Dec 9999 23:59:59 GMT)
-  const maxDate = new Date(253402300799999);
-  document.cookie = `${name}=${value};expires=${maxDate.toUTCString()};path=/`;
-};
+export function setCookie(name: string, value: string, days = 365) {
+  const date = new Date();
+  date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+  document.cookie = `${name}=${value};path=/;expires=${date.toUTCString()}`;
+}
 
-export const getCookie = (name: string): string | null => {
-  const value = `; ${document.cookie}`;
-  const parts = value.split(`; ${name}=`);
-  if (parts.length === 2) return parts.pop()?.split(';').shift() || null;
+export function getCookie(name: string): string | null {
+  const nameEQ = name + "=";
+  const ca = document.cookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i].trim();
+    if (c.indexOf(nameEQ) === 0) {
+      return c.substring(nameEQ.length, c.length);
+    }
+  }
   return null;
-}; 
+}
+
+export function deleteCookie(name: string) {
+  document.cookie = `${name}=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT`;
+  console.log(`Deleted cookie: ${name}`);
+} 

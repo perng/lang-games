@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import articles from '../../data/singular.json';
 import './styles.css';
-import { setCookie, getCookie } from '../../utils/cookies';
+import { setCookie, getCookie, deleteCookie } from '../../utils/cookies';
 
 interface Word {
   text: string;
@@ -22,6 +22,14 @@ interface GameState {
   correctAnswers: Map<number, string>;   // index -> correct form
 }
 
+function formatIncorrectAnswer(selected: string, correct: string) {
+  return `<span style="color: red; text-decoration: line-through">${selected}</span><span style="color: blue">${correct}</span>`;
+}
+
+function formatCorrectAnswer(text: string) {
+  return `<span style="color: green">${text}</span>`;
+}
+
 function SingularPluralGame() {
   const { storyId } = useParams<{ storyId: string }>();  // Explicitly type the params
   const navigate = useNavigate();
@@ -33,6 +41,8 @@ function SingularPluralGame() {
   const [results, setResults] = useState<any>(null);
   const [showInstructions, setShowInstructions] = useState(false);
   const [currentExplanation, setCurrentExplanation] = useState<'en-US' | 'zh-TW' | null>(null);
+
+  console.log('Component rendered, storyId:', storyId);
 
   const processText = (text: string): Word[] => {
     const words: Word[] = [];
@@ -155,28 +165,45 @@ function SingularPluralGame() {
 
     const totalNouns = gameState.words.filter(word => word.isNoun).length;
     
-    gameState.words.forEach(word => {
+    // Create new words array with formatting
+    const newWords = gameState.words.map(word => {
       if (word.isNoun) {
         if (word.text === word.correctForm) {
           score.correct++;
+          return {
+            ...word,
+            text: formatCorrectAnswer(word.text)
+          };
         } else {
           score.errors++;
+          return {
+            ...word,
+            text: formatIncorrectAnswer(word.text, word.correctForm)
+          };
         }
       }
+      return word;
     });
 
     score.percentage = Math.round((score.correct / totalNouns) * 100);
 
-    // Save to cookie
     if (storyId) {
-      const cookieKey = `singular-plural-${storyId}`;
-      const existingScores = getCookie(cookieKey);
-      let scores = existingScores ? JSON.parse(existingScores) : [];
-      scores.push(score.percentage);
-      scores = scores.slice(-5);
-      setCookie(cookieKey, JSON.stringify(scores));
+      const cookieKey = getCookieKey(storyId);
+      console.log('About to set cookie with key:', cookieKey);
+      setCookie(cookieKey, score.percentage.toString(), 365);
+      
+      // Add this line to see all cookies
+      console.log('All cookies:', document.cookie);
+      
+      // Verify cookie was set
+      const verifyScore = getCookie(cookieKey);
+      console.log('Verified cookie value:', verifyScore);
     }
 
+    setGameState({
+      ...gameState,
+      words: newWords
+    });
     setResults({ score });
   };
 
@@ -192,24 +219,71 @@ function SingularPluralGame() {
   // Get current story title
   const currentStory = storyId ? articles[parseInt(storyId)] : null;
 
-  // Render article list view
-  if (!storyId) {
+  // Create a helper function to get consistent cookie keys
+  const getCookieKey = (id: string | number) => `singular-plural-${id}`;
+
+  // Add this function to clear all game scores
+  const clearAllScores = () => {
+    // Clear cookies for all articles
+    articles.forEach((_, index) => {
+      const cookieKey = getCookieKey(index);
+      deleteCookie(cookieKey);
+    });
+    
+    // Force reload to update the display
+    window.location.reload();
+  };
+
+  const renderArticleList = () => {
+    console.log('Rendering article list');
     return (
       <div>
         <h1 className="main-title">One or Many</h1>
         <div className="article-list">
-          {articles.map((article, index) => (
-            <button
-              key={index}
-              className="article-item"
-              onClick={() => navigate(`/singular-plural/${index}`)}
-            >
-              <h2>{article.title}</h2>
-            </button>
-          ))}
+          {articles.map((article, index) => {
+            console.log(`Checking article ${index}: ${article.title}`);
+            const cookieKey = getCookieKey(index);
+            console.log('Looking for cookie:', cookieKey);
+            const savedScore = getCookie(cookieKey);
+            console.log('Found score for article', index, ':', savedScore);
+            
+            const scoreDisplay = savedScore 
+              ? `Last Score: ${savedScore}%`
+              : 'Not attempted yet';
+            
+            return (
+              <button
+                key={index}
+                className="article-item"
+                onClick={() => navigate(`/singular-plural/${index}`)}
+              >
+                <h2>{article.title}</h2>
+                <div className="score-display">
+                  {scoreDisplay}
+                </div>
+              </button>
+            );
+          })}
         </div>
+        <button 
+          onClick={clearAllScores}
+          className="clear-scores-button"
+        >
+          Clear All Scores
+        </button>
       </div>
     );
+  };
+
+  const handleBackToMenu = () => {
+    navigate('/singular-plural', { replace: true });
+    window.location.reload(); // Force reload to ensure cookies are read
+  };
+
+  // Render article list view
+  if (!storyId) {
+    console.log('No storyId, showing article list');
+    return renderArticleList();
   }
 
   return (
@@ -225,7 +299,7 @@ function SingularPluralGame() {
             Instructions
           </button>
           <button
-            onClick={() => navigate('/singular-plural')}
+            onClick={handleBackToMenu}
             className="article-list-button"
           >
             Article List
@@ -246,13 +320,15 @@ function SingularPluralGame() {
               className={`word 
                 ${word.isNoun ? 'noun' : ''} 
                 ${word.isSpace ? 'space' : ''} 
-                ${word.isPunctuation ? 'punctuation' : ''} 
-                ${results && word.isNoun ? (
-                  word.text === word.correctForm ? 'correct' : 'error'
-                ) : ''}`}
-              onClick={() => word.isNoun && handleWordClick(index)}
+                ${word.isPunctuation ? 'punctuation' : ''}`}
+              onClick={() => word.isNoun && !results && handleWordClick(index)}
+              dangerouslySetInnerHTML={
+                word.isNoun && results 
+                  ? { __html: word.text }
+                  : undefined
+              }
             >
-              {word.text}
+              {!word.isNoun || !results ? word.text : undefined}
             </span>
           ))}
         </div>
