@@ -41,6 +41,7 @@ function SingularPluralGame() {
   const [results, setResults] = useState<any>(null);
   const [showInstructions, setShowInstructions] = useState(false);
   const [currentExplanation, setCurrentExplanation] = useState<'en-US' | 'zh-TW' | null>(null);
+  const [showMissionBrief, setShowMissionBrief] = useState(false);
 
   console.log('Component rendered, storyId:', storyId);
 
@@ -293,10 +294,10 @@ function SingularPluralGame() {
       <div className="game-container">
         <div className="game-header">
           <button 
-            onClick={() => setShowInstructions(!showInstructions)}
-            className="instructions-button"
+            onClick={() => setShowMissionBrief(true)}
+            className="mission-brief-button"
           >
-            Instructions
+            Mission Brief 📜
           </button>
           <button
             onClick={handleBackToMenu}
@@ -305,6 +306,44 @@ function SingularPluralGame() {
             Article List
           </button>
         </div>
+
+        {showMissionBrief && (
+          <div className="mission-brief-overlay">
+            <div className="mission-brief-content">
+              <h2>🧙‍♂️ Secret Mission: The Singular-Plural Spell 🪄</h2>
+              
+              <p>Greetings, Apprentice Word Wizard! 🎭</p>
+              
+              <p>The Grand Library of Lexicon has been hit by a chaotic spell, causing words to shift 
+              between their singular and plural forms! As our newest recruit to the Grammatical 
+              Guard, your mission is critical! 🏰</p>
+
+              <h3>Your Magical Tasks 📝</h3>
+              <ul>
+                <li>🔮 Click on the enchanted words to toggle their form</li>
+                <li>✨ Transform plurals to singulars (or vice versa) as the story requires</li>
+                <li>🎯 Aim for perfect harmony in the text</li>
+              </ul>
+
+              <h3>Spell Power Levels 🌟</h3>
+              <ul>
+                <li>⭐⭐⭐ 90%+ : Master Wizard</li>
+                <li>⭐⭐ 70-89% : Skilled Sorcerer</li>
+                <li>⭐ Below 70% : Apprentice (Keep practicing!)</li>
+              </ul>
+
+              <p>Remember: Every word you correct helps restore balance to the magical realm of grammar! 
+              The Library's fate rests in your hands! 🪄✨</p>
+
+              <button 
+                onClick={() => setShowMissionBrief(false)}
+                className="close-mission-brief"
+              >
+                Accept Mission 🎯
+              </button>
+            </div>
+          </div>
+        )}
 
         {showInstructions && (
           <div className="instructions">
