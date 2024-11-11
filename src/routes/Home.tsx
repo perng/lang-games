@@ -13,7 +13,7 @@ interface GameInfo {
 const games: GameInfo[] = [
   {
     id: 'singular-plural-game',
-    title: 'Singular or Plural',
+    title: 'One or Many',
     description: 'Practice using singular and plural nouns correctly in context.',
     difficulty: 'Easy',
     path: '/singular-plural',
