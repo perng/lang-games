@@ -5,6 +5,7 @@ import './styles.css';
 import { useParams, useNavigate } from 'react-router-dom';
 import { setCookie } from '../../utils/cookies';
 import ReactMarkdown from 'react-markdown';
+import '../../styles/missionBrief.css';
 
 interface GameState {
   words: WordInfo[];
@@ -32,8 +33,8 @@ function ArticleGame() {
   });
   const [results, setResults] = useState<GameResults | null>(null);
   const [totalScore, setTotalScore] = useState(0);
-  const [showInstructions, setShowInstructions] = useState(false);
   const [showExplanation, setShowExplanation] = useState<'zh-TW' | 'en-US' | null>(null);
+  const [showMissionBrief, setShowMissionBrief] = useState(false);
 
   useEffect(() => {
     initializeGame(articlesData[articleIndex]);
@@ -236,10 +237,10 @@ function ArticleGame() {
       <div className="game-container">
         <div className="game-header">
           <button 
-            onClick={() => setShowInstructions(!showInstructions)} 
-            className="instructions-button"
+            onClick={() => setShowMissionBrief(true)}
+            className="mission-brief-button"
           >
-            {showInstructions ? 'Hide Mission Brief' : 'Show Mission Brief'}
+            <span>Mission Brief</span> 📜
           </button>
           <button 
             onClick={() => navigate('/article-game')} 
@@ -248,18 +249,6 @@ function ArticleGame() {
             Article List
           </button>
         </div>
-
-        {showInstructions && (
-          <div className="instructions">
-            <h3>Mission Brief:</h3>
-            <p>Your mission is to identify where the article "the" should be placed in the text.</p>
-            <ul>
-              <li>Click on a word if you think "the" should appear before it</li>
-              <li>Click again to remove "the"</li>
-              <li>Press Enter or click Check Answers when you're done</li>
-            </ul>
-          </div>
-        )}
 
         <h2 className="story-title">
           {articlesData[articleIndex]?.title || 'Loading...'}
@@ -389,6 +378,55 @@ function ArticleGame() {
           </div>
         )}
       </div>
+
+      {showMissionBrief && (
+        <div className="mission-brief-overlay">
+          <div className="mission-brief-content">
+            <div className="scroll-content">
+              <h2>🏰 The Definite Article Quest 👑</h2>
+              
+              <p>Greetings, Guardian of 'The'! ⚔️</p>
+              
+              <p>The most powerful article in our realm - 'the' - has been mysteriously 
+              disappearing from ancient texts! As a member of the Definite Article Defense 
+              Force, your mission is to restore these missing 'the's to their rightful 
+              places. 📚✨</p>
+
+              <h3>Sacred Rules of 'The' 🛡️</h3>
+              <ul>
+                <li>🎯 Click gaps where you think 'the' belongs</li>
+                <li>🔮 Use 'the' when referring to specific things</li>
+                <li>✨ Use 'the' for unique or well-known items</li>
+                <li>🌟 Use 'the' when the context makes it clear which one we mean</li>
+              </ul>
+
+              <h3>Examples of Power 📜</h3>
+              <ul>
+                <li>🌞 'the sun' (there's only one)</li>
+                <li>🎵 'the piano' (when we know which piano)</li>
+                <li>🏔️ 'the mountain' (when previously mentioned)</li>
+              </ul>
+
+              <h3>Power Rankings 👑</h3>
+              <ul>
+                <li>🏆 90%+ : Grand Defender of The</li>
+                <li>🎨 70-89% : The-Keeper Sage</li>
+                <li>🌱 Below 70% : Article Apprentice</li>
+              </ul>
+
+              <p>Each 'the' you restore brings clarity back to our magical texts. 
+              The realm of definite articles awaits your wisdom! 🗝️✨</p>
+
+              <button 
+                onClick={() => setShowMissionBrief(false)}
+                className="close-mission-brief"
+              >
+                Begin Quest 🗡️
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

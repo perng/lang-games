@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import articles from '../../data/singular.json';
 import './styles.css';
 import { setCookie, getCookie, deleteCookie } from '../../utils/cookies';
+import '../../styles/missionBrief.css';
 
 interface Word {
   text: string;
