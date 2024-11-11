@@ -5,6 +5,7 @@ import articles from '../../data/singular.json';
 import './styles.css';
 import { setCookie, getCookie, deleteCookie } from '../../utils/cookies';
 import '../../styles/missionBrief.css';
+import '../../styles/explanationStyles.css';
 
 interface Word {
   text: string;
@@ -31,6 +32,10 @@ function formatCorrectAnswer(text: string) {
   return `<span style="color: green">${text}</span>`;
 }
 
+function formatBothCorrect(form1: string, form2: string) {
+  return `<span style="color: blue">${form1}/${form2}</span>`;
+}
+
 function SingularPluralGame() {
   const { storyId } = useParams<{ storyId: string }>();  // Explicitly type the params
   const navigate = useNavigate();
@@ -55,9 +60,11 @@ function SingularPluralGame() {
       
       if (part.startsWith('[')) {
         // Process noun choices
-        const [singular, plural] = part.slice(1, -1).split('|');
-        const correctForm = singular;
-        const showWrongForm = Math.random() < 0.67;
+        const [singular, plural] = part.slice(1, -1).split(/[-|]/);
+        const separator = part.slice(1, -1).includes('|') ? '|' : '-';
+        const correctForm = separator === '|' ? singular : part.slice(1, -1);
+
+        const showWrongForm = separator === '|' && Math.random() < 0.67;
         const initialForm = showWrongForm ? plural : singular;
 
         words.push({
@@ -166,10 +173,17 @@ function SingularPluralGame() {
 
     const totalNouns = gameState.words.filter(word => word.isNoun).length;
     
-    // Create new words array with formatting
     const newWords = gameState.words.map(word => {
       if (word.isNoun) {
-        if (word.text === word.correctForm) {
+        const isHyphenSeparator = word.correctForm.includes('-');
+        if (isHyphenSeparator) {
+          score.correct++;
+          const [form1, form2] = word.correctForm.split('-');
+          return {
+            ...word,
+            text: formatBothCorrect(form1, form2)
+          };
+        } else if (word.text === word.correctForm) {
           score.correct++;
           return {
             ...word,
@@ -401,7 +415,7 @@ function SingularPluralGame() {
                 onClick={() => handleExplanationClick('zh-TW')}
                 className={`explanation-button ${currentExplanation === 'zh-TW' ? 'active' : ''}`}
               >
-                显示说明
+                顯示說明
               </button>
             </div>
 

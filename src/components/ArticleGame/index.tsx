@@ -6,6 +6,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { setCookie } from '../../utils/cookies';
 import ReactMarkdown from 'react-markdown';
 import '../../styles/missionBrief.css';
+import '../../styles/explanationStyles.css';
 
 interface GameState {
   words: WordInfo[];
@@ -35,6 +36,7 @@ function ArticleGame() {
   const [totalScore, setTotalScore] = useState(0);
   const [showExplanation, setShowExplanation] = useState<'zh-TW' | 'en-US' | null>(null);
   const [showMissionBrief, setShowMissionBrief] = useState(false);
+  const [currentExplanation, setCurrentExplanation] = useState<'en-US' | 'zh-TW' | null>(null);
 
   useEffect(() => {
     initializeGame(articlesData[articleIndex]);
@@ -231,6 +233,24 @@ function ArticleGame() {
     return '🥳';                        // perfect score
   };
 
+  const handleExplanationClick = (language: 'en-US' | 'zh-TW') => {
+    setCurrentExplanation(currentExplanation === language ? null : language);
+  };
+
+  const handleTryAgain = () => {
+    // Reset all necessary states
+    setResults(null);
+    setCurrentExplanation(null);
+    setUserAnswers(new Map());
+    setSelectedWords(new Set());
+    
+    // Reset the text display
+    if (articleId) {
+      const article = articles[parseInt(articleId)];
+      setDisplayText(article.content);
+    }
+  };
+
   return (
     <div>
       <h1 className="main-title">THE Game</h1>
@@ -328,32 +348,39 @@ function ArticleGame() {
                   </p>
                 </div>
               )}
-              <div className="action-buttons">
-                <button onClick={resetGame} className="reset-button">
+              <div className="results-actions">
+                <button 
+                  onClick={handleTryAgain}
+                  className="try-again-button"
+                >
                   Try Again
                 </button>
-                {getExplanation('zh-TW') && (
-                  <button 
-                    onClick={() => setShowExplanation(showExplanation === 'zh-TW' ? null : 'zh-TW')} 
-                    className={`explain-button ${showExplanation === 'zh-TW' ? 'active' : ''}`}
-                  >
-                    {showExplanation === 'zh-TW' ? '隱藏說明' : '查看中文說明'}
-                  </button>
-                )}
-                {getExplanation('en-US') && (
-                  <button 
-                    onClick={() => setShowExplanation(showExplanation === 'en-US' ? null : 'en-US')} 
-                    className={`explain-button ${showExplanation === 'en-US' ? 'active' : ''}`}
-                  >
-                    {showExplanation === 'en-US' ? 'Hide Explanation' : 'Show English Explanation'}
-                  </button>
-                )}
+                <button 
+                  onClick={() => handleExplanationClick('en-US')}
+                  className={`explanation-button ${currentExplanation === 'en-US' ? 'active' : ''}`}
+                >
+                  Show Explanation
+                </button>
+                <button 
+                  onClick={() => handleExplanationClick('zh-TW')}
+                  className={`explanation-button ${currentExplanation === 'zh-TW' ? 'active' : ''}`}
+                >
+                  顯示說明
+                </button>
               </div>
 
-              {showExplanation && (
-                <div className="explanation-container">
+              {currentExplanation === 'en-US' && (
+                <div className="explanation-content">
                   <ReactMarkdown>
-                    {getExplanation(showExplanation)}
+                    {articlesData[articleIndex]['explanation-en-US']}
+                  </ReactMarkdown>
+                </div>
+              )}
+
+              {currentExplanation === 'zh-TW' && (
+                <div className="explanation-content">
+                  <ReactMarkdown>
+                    {articlesData[articleIndex]['explanation-zh-TW']}
                   </ReactMarkdown>
                 </div>
               )}

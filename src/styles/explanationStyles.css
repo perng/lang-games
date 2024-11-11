@@ -1,0 +1,150 @@
+.explanation-content {
+  background-color: #fff9e6;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border: 3px solid #ffd700;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  position: relative;
+}
+
+/* Decorative corner flourishes */
+.explanation-content::before,
+.explanation-content::after {
+  content: '✧';
+  position: absolute;
+  font-size: 24px;
+  color: #ffd700;
+}
+
+.explanation-content::before {
+  top: 10px;
+  left: 10px;
+}
+
+.explanation-content::after {
+  bottom: 10px;
+  right: 10px;
+}
+
+/* Style markdown elements inside explanation */
+.explanation-content h1,
+.explanation-content h2,
+.explanation-content h3 {
+  color: #ff6b6b;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.explanation-content p {
+  color: #4a4a4a;
+  line-height: 1.6;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.explanation-content ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.explanation-content li {
+  color: #4a4a4a;
+  margin: 10px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.explanation-content li::before {
+  content: '🌟';
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Add some fun background patterns */
+.explanation-content {
+  background-image: 
+    radial-gradient(#ffd70033 2px, transparent 2px),
+    radial-gradient(#ffd70033 2px, transparent 2px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Style code blocks if any */
+.explanation-content code {
+  background-color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid #ffd700;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+/* Add a playful hover effect on list items */
+.explanation-content li:hover {
+  transform: translateX(5px);
+  transition: transform 0.3s ease;
+}
+
+/* Make explanation buttons match the theme */
+.explanation-button {
+  background-color: #ffd700;
+  border: 2px solid #ff6b6b;
+  border-radius: 15px;
+  padding: 8px 16px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #4a4a4a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.explanation-button:hover {
+  background-color: #ff6b6b;
+  color: white;
+  transform: scale(1.05);
+}
+
+.explanation-button.active {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+/* Add or update these styles */
+.results-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap;  /* In case screen is too narrow */
+}
+
+.try-again-button,
+.explanation-button {
+  min-width: 140px;  /* Ensure consistent button width */
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.try-again-button {
+  background-color: #4CAF50;
+  border: 2px solid #45a049;
+  color: white;
+}
+
+.try-again-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Remove any margins from the existing button classes */
+.explanation-buttons {
+  display: contents;  /* This makes the container dissolve */
+} 
