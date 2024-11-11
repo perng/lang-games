@@ -34,7 +34,6 @@ function ArticleGame() {
   });
   const [results, setResults] = useState<GameResults | null>(null);
   const [totalScore, setTotalScore] = useState(0);
-  const [showExplanation, setShowExplanation] = useState<'zh-TW' | 'en-US' | null>(null);
   const [showMissionBrief, setShowMissionBrief] = useState(false);
   const [currentExplanation, setCurrentExplanation] = useState<'en-US' | 'zh-TW' | null>(null);
 
@@ -147,18 +146,6 @@ function ArticleGame() {
     return finalResults;
   };
 
-
-  const resetGame = () => {
-    setGameState({
-      words: [],
-      correctThePositions: new Set(),
-      playerSelections: new Set(),
-      sentenceStarts: new Set()
-    });
-    setResults(null);
-    initializeGame(articlesData[articleIndex]);
-  };
-
   const getScore = () => {
     if (!results?.score) return { points: 0, percentage: 0 };
     
@@ -181,17 +168,6 @@ function ArticleGame() {
     window.addEventListener('keypress', handleKeyPress);
     return () => window.removeEventListener('keypress', handleKeyPress);
   }, [results, articleIndex]);
-
-  const getExplanation = (lang: 'zh-TW' | 'en-US') => {
-    const article = articlesData[articleIndex];
-    return article[`explanation-${lang}`] || '';
-  };
-
-  const NAMES = new Set([
-    'Cappy', 'Sammy', 'Ollie', 'Olly', 'Penny', 'Toby', 'Gary', 'Lily', 
-    'Squeaky', 'Bella', 'Max', 'Benny', 'Milo', 'Rosie', 'Tina', 'Freddy', 
-    'Daisy', 'Timmy', 'Hugo', 'Charlie'
-  ]);
 
   const getWordClassName = (word: WordInfo): string => {
     const classes = ['word'];
@@ -238,18 +214,19 @@ function ArticleGame() {
   };
 
   const handleTryAgain = () => {
-    // Reset all necessary states
     setResults(null);
     setCurrentExplanation(null);
-    setUserAnswers(new Map());
-    setSelectedWords(new Set());
     
-    // Reset the text display
-    if (articleId) {
-      const article = articles[parseInt(articleId)];
-      setDisplayText(article.content);
+    if (storyId) {
+      initializeGame(articlesData[articleIndex]);
     }
   };
+
+  const NAMES = new Set([
+    'Cappy', 'Sammy', 'Ollie', 'Olly', 'Penny', 'Toby', 'Gary', 'Lily', 
+    'Squeaky', 'Bella', 'Max', 'Benny', 'Milo', 'Rosie', 'Tina', 'Freddy', 
+    'Daisy', 'Timmy', 'Hugo', 'Charlie'
+  ]);
 
   return (
     <div>
