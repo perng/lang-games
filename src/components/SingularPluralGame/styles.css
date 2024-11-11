@@ -9,7 +9,9 @@
 }
 
 .word {
-  display: inline;
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0 2px;
 }
 
 .word.noun {

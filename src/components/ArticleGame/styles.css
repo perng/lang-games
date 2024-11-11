@@ -54,13 +54,14 @@
 }
 
 .word {
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0 2px;
   cursor: pointer;
   padding: 0 4px;
-  margin: 0 1px;
   border-radius: 4px;
   text-transform: none;
   transition: background-color 0.2s;
-  display: inline-block;
 }
 
 .word.capitalize {
