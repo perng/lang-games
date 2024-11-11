@@ -1,33 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Home.css';
-
-interface GameInfo {
-  id: string;
-  title: string;
-  description: string;
-  difficulty: 'Easy' | 'Medium' | 'Hard' | 'Insane';
-  path: string;
-  image: string;
-}
-
-const games: GameInfo[] = [
-  {
-    id: 'singular-plural-game',
-    title: 'One or Many',
-    description: 'Practice using singular and plural nouns correctly in context.',
-    difficulty: 'Easy',
-    path: '/singular-plural',
-    image: '/images/one-or-many-logo.jpg'
-  },
-  {
-    id: 'article-game',
-    title: 'THE Game',
-    description: 'Practice using "the" correctly in English sentences.',
-    difficulty: 'Medium',
-    path: '/article-game',
-    image: '/images/the-game-logo.jpg'
-  }
-];
+import { games } from '../config/games';
 
 export default function Home() {
   return (
@@ -37,7 +10,7 @@ export default function Home() {
         {games.map(game => (
           <Link key={game.id} to={game.path} className="game-card">
             <div className="game-image">
-              <img src={game.image} alt={game.title} />
+              <img src={game.logoSrc} alt={game.title} />
             </div>
             <div className="game-content">
               <div className="title-row">

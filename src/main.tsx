@@ -6,6 +6,8 @@ import ArticleGameMenu from './components/ArticleGame/Menu';
 import ArticleGame from './components/ArticleGame';
 import SingularPluralGame from './components/SingularPluralGame';
 import SingularPluralGameMenu from './components/SingularPluralGame/Menu';
+import AnATheGame from './components/AnATheGame';
+import AnATheGameMenu from './components/AnATheGame/Menu';
 import './styles/global.css';
 
 const router = createBrowserRouter([
@@ -28,7 +30,15 @@ const router = createBrowserRouter([
   {
     path: '/singular-plural/:storyId',
     element: <SingularPluralGame />,
-  }
+  },
+  {
+    path: '/an-a-the',
+    element: <AnATheGameMenu />,
+  },
+  {
+    path: '/an-a-the/:storyId',
+    element: <AnATheGame />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

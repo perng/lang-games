@@ -1,24 +1,39 @@
-export interface GameCard {
+export interface Game {
   id: string;
   title: string;
-  tagline: string;
-  imageUrl: string;
+  description: string;
+  difficulty: 'Easy' | 'Medium' | 'Hard' | 'Insane';
   path: string;
+  icon: string;
+  logoSrc: string;
 }
 
-export const gameList: GameCard[] = [
+export const games: Game[] = [
+  {
+    id: 'singular-plural',
+    title: 'Singular & Plural Game',
+    description: 'Practice using singular and plural forms correctly',
+    difficulty: 'Easy',
+    path: '/singular-plural',
+    icon: '🔢',
+    logoSrc: '/images/one-or-many-logo.jpg'
+  },
   {
     id: 'article-game',
     title: 'THE Game',
-    tagline: 'Master the use of "the" in English',
-    imageUrl: '/images/the-game-logo.jpg',
-    path: '/article-game'
+    description: 'Master the use of "the" in English',
+    difficulty: 'Medium',
+    path: '/article-game',
+    icon: '📚',
+    logoSrc: '/images/the-game-logo.jpg'
   },
   {
-    id: 'singular-plural-game',
-    title: 'One or Many',
-    tagline: 'Master singular and plural nouns',
-    imageUrl: '/images/one-or-many-logo.jpg',  // Using the same logo for now
-    path: '/singular-plural'
-  }
+    id: 'an-a-the',
+    title: 'Articles Game',
+    description: 'Practice using "a", "an", and "the" correctly',
+    difficulty: 'Hard',
+    path: '/an-a-the',
+    icon: '🎯',
+    logoSrc: '/images/article-game-logo.jpg'
+  }  
 ]; 
