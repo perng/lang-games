@@ -40,7 +40,6 @@ function SingularPluralGame() {
     correctAnswers: new Map()
   });
   const [results, setResults] = useState<any>(null);
-  const [showInstructions, setShowInstructions] = useState(false);
   const [currentExplanation, setCurrentExplanation] = useState<'en-US' | 'zh-TW' | null>(null);
   const [showMissionBrief, setShowMissionBrief] = useState(false);
 
@@ -343,13 +342,6 @@ function SingularPluralGame() {
                 Accept Mission 🎯
               </button>
             </div>
-          </div>
-        )}
-
-        {showInstructions && (
-          <div className="instructions">
-            <h2>How to Play</h2>
-            <p>Click on nouns to toggle between singular and plural forms.</p>
           </div>
         )}
 
