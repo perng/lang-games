@@ -97,6 +97,10 @@ del {
 }
 
 .text-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -106,12 +110,19 @@ del {
 .an-a-the-game .word {
   display: inline-block !important;
   margin: 0 0.25em !important; /* Add normal word spacing */
-}
-
-.an-a-the-game .word.space {
-  margin: 0 !important;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .an-a-the-game .word.punctuation {
   margin-left: 0 !important;
+}
+
+.game-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -56,7 +56,7 @@ export default function AnATheGameMenu() {
     return (
         <div className="game-menu">
             <header>
-                <h1>A, An, or The</h1>
+                <h1>Hunt for A, An, or The</h1>
                 <div className="header-actions">
                     <button onClick={clearAllScores} className="clear-scores-button">
                         Clear All Scores
