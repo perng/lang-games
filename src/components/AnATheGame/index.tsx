@@ -232,8 +232,7 @@ export default function AnATheGame() {
   }, [location]);
 
   return (
-    <div className="an-a-the-game">
-      <h1 className="main-title">Hunt for A, An, or The</h1>
+    <div className="game-container">
       <div className="game-header">
         <button 
           onClick={() => setShowMissionBrief(true)}

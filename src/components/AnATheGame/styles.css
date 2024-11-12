@@ -98,8 +98,6 @@ del {
 
 .text-container {
   width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
   text-align: left;
   user-select: none;
   -webkit-user-select: none;
@@ -121,8 +119,25 @@ del {
 }
 
 .game-container {
-  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.game-content {
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  line-height: 1.8;
+  position: relative;
+  z-index: 1;
 }
