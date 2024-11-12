@@ -2,8 +2,21 @@ import { Link } from 'react-router-dom';
 import { getCookie } from '../../../utils/cookies';
 import articlesData from '../../../data/articles.json';
 import './styles.css';
+import { logPageView, logEvent } from '../../../utils/analytics';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function ArticleGameMenu() {
+  const location = useLocation();
+
+  useEffect(() => {
+    logPageView(location.pathname);
+  }, [location]);
+
+  const handleStorySelect = (storyId: number, storyTitle: string) => {
+    logEvent('Navigation', `Selected Article Story: ${storyTitle}`);
+  };
+
   const getStoryScore = (index: number): number | null => {
     const score = getCookie(`articleGame_score_${index}`);
     return score ? parseInt(score) : null;
@@ -54,6 +67,7 @@ function ArticleGameMenu() {
               key={index} 
               to={`/article-game/${index}`} 
               className={`story-card ${getCardClass(score)}`}
+              onClick={() => handleStorySelect(index, article.title)}
             >
               <div className="story-image">
                 <img 

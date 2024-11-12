@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import fruitsData from '../../data/fruits.json';
 import './styles.css';
 import { setCookie, getCookie } from '../../utils/cookies';
 import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
+import { logPageView, logEvent } from '../../utils/analytics';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 
 // Article cycling options
 // const ARTICLE_OPTIONS = ['', 'a', 'an', 'the'];
@@ -39,6 +40,7 @@ interface GameState {
 export default function AnATheGame() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
   const fruitIndex = parseInt(id || '0');
   
   const [gameState, setGameState] = useState<GameState>({
@@ -184,6 +186,9 @@ export default function AnATheGame() {
 
     setResults(gameResults);
     setTotalScore(percentage);
+
+    // Log the score to GA
+    logEvent('Game', `AnAThe Game Score: ${percentage}%`);
   };
 
   // Add useEffect to check cookie on component mount
@@ -221,6 +226,10 @@ export default function AnATheGame() {
   const handleExplanationClick = (language: 'en-US' | 'zh-TW') => {
     setCurrentExplanation(currentExplanation === language ? null : language);
   };
+
+  useEffect(() => {
+    logPageView(location.pathname);
+  }, [location]);
 
   return (
     <div className="game-container">

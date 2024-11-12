@@ -1,12 +1,19 @@
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import articles from '../../../data/fruits.json';
 import { getCookie, deleteCookie } from '../../../utils/cookies';
 import '../../ArticleGame/Menu/styles.css';
+import { logPageView, logEvent } from '../../../utils/analytics';
+import { useLocation } from 'react-router-dom';
 
 const getCookieKey = (index: number) => `a-an-the-${index}`;
 
 export default function AnATheGameMenu() {
-    console.log('Rendering AnATheGameMenu Menu');
+    const location = useLocation();
+
+    useEffect(() => {
+        logPageView(location.pathname);
+    }, [location]);
 
     const getStoryScore = (index: number): number | null => {
         const cookieKey = getCookieKey(index);
@@ -42,6 +49,10 @@ export default function AnATheGameMenu() {
         window.location.reload(); // Refresh to update the view
     };
     
+    const handleStorySelect = (storyId: number, storyTitle: string) => {
+        logEvent('Navigation', `Selected A/An/The Story: ${storyTitle}`);
+    };
+    
     return (
         <div className="game-menu">
             <header>
@@ -63,6 +74,7 @@ export default function AnATheGameMenu() {
                             key={index} 
                             to={`/an-a-the/${index}`} 
                             className={`story-card ${getCardClass(score)}`}
+                            onClick={() => handleStorySelect(index, article.title)}
                         >
                             <div className="story-image">
                                 <img 

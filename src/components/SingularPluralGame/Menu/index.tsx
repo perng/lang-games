@@ -2,10 +2,22 @@ import { Link } from 'react-router-dom';
 import articles from '../../../data/singular.json';
 import { getCookie, deleteCookie } from '../../../utils/cookies';
 import '../../ArticleGame/Menu/styles.css';
-
+import { logPageView, logEvent } from '../../../utils/analytics';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 const getCookieKey = (index: number) => `singular-plural-${index}`;
 
 export default function SingularPluralGameMenu() {
+    const location = useLocation();
+
+    useEffect(() => {
+        logPageView(location.pathname);
+    }, [location]);
+
+    const handleStorySelect = (storyId: number, storyTitle: string) => {
+        logEvent('Navigation', `Selected Singular/Plural Story: ${storyTitle}`);
+    };
+
     console.log('Rendering SingularPluralGame Menu');
 
     const getStoryScore = (index: number): number | null => {
@@ -63,6 +75,7 @@ export default function SingularPluralGameMenu() {
                             key={index} 
                             to={`/singular-plural/${index}`} 
                             className={`story-card ${getCardClass(score)}`}
+                            onClick={() => handleStorySelect(index, article.title)}
                         >
                             <div className="story-image">
                                 <img 

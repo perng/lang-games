@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import type { WordInfo, GameResults } from '../../types';
 import articlesData from '../../data/articles.json';
 import './styles.css';
-import { useParams, useNavigate } from 'react-router-dom';
+import { logPageView, logEvent } from '../../utils/analytics';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
+
 import { setCookie } from '../../utils/cookies';
 import ReactMarkdown from 'react-markdown';
 import '../../styles/missionBrief.css';
@@ -19,12 +21,17 @@ function ArticleGame() {
   const { storyId } = useParams();
   const navigate = useNavigate();
   const articleIndex = parseInt(storyId || '0');
+  const location = useLocation();
 
   useEffect(() => {
     if (isNaN(articleIndex) || articleIndex < 0 || articleIndex >= articlesData.length) {
       navigate('/article-game');
     }
   }, [articleIndex, navigate]);
+
+  useEffect(() => {
+    logPageView(location.pathname);
+  }, [location]);
 
   const [gameState, setGameState] = useState<GameState>({
     words: [],
@@ -142,6 +149,8 @@ function ArticleGame() {
     
     setCookie(`articleGame_score_${articleIndex}`, percentage.toString());
 
+    logEvent('Game', `Article Game Score: ${percentage}%`);
+
     setResults(finalResults);
     return finalResults;
   };
@@ -210,6 +219,7 @@ function ArticleGame() {
   };
 
   const handleExplanationClick = (language: 'en-US' | 'zh-TW') => {
+    logEvent('UI', `Article Game Explanation Viewed - ${language}`);
     setCurrentExplanation(currentExplanation === language ? null : language);
   };
 
@@ -234,7 +244,7 @@ function ArticleGame() {
       <div className="game-container">
         <div className="game-header">
           <button 
-            onClick={() => setShowMissionBrief(true)}
+            onClick={handleMissionBriefClick}
             className="mission-brief-button"
           >
             <span>Mission Brief</span> 📜

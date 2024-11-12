@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { logPageView, logEvent } from '../../utils/analytics';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
+
 import ReactMarkdown from 'react-markdown';
 import articles from '../../data/singular.json';
 import './styles.css';
@@ -47,8 +49,13 @@ function SingularPluralGame() {
   const [results, setResults] = useState<any>(null);
   const [currentExplanation, setCurrentExplanation] = useState<'en-US' | 'zh-TW' | null>(null);
   const [showMissionBrief, setShowMissionBrief] = useState(false);
+  const location = useLocation();
 
   console.log('Component rendered, storyId:', storyId);
+
+  useEffect(() => {
+    logPageView(location.pathname);
+  }, [location]);
 
   const processText = (text: string): Word[] => {
     const words: Word[] = [];
@@ -228,7 +235,13 @@ function SingularPluralGame() {
   };
 
   const handleExplanationClick = (language: 'en-US' | 'zh-TW') => {
+    logEvent('UI', `Singular Plural Game Explanation Viewed - ${language}`);
     setCurrentExplanation(currentExplanation === language ? null : language);
+  };
+
+  const handleMissionBriefClick = () => {
+    logEvent('UI', 'Singular Plural Game Mission Brief Opened');
+    setShowMissionBrief(true);
   };
 
   // Get current story title
@@ -308,10 +321,10 @@ function SingularPluralGame() {
       <div className="game-container">
         <div className="game-header">
           <button 
-            onClick={() => setShowMissionBrief(true)}
+            onClick={handleMissionBriefClick}
             className="mission-brief-button"
           >
-            Mission Brief 📜
+            <span>Mission Brief</span> 📜
           </button>
           <button
             onClick={handleBackToMenu}
