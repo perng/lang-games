@@ -107,7 +107,7 @@ del {
   -ms-user-select: none;
 }
 
-.an-a-the-game .word {
+.word {
   display: inline-block !important;
   margin: 0 0.25em !important; /* Add normal word spacing */
   /* width: 100%; */
@@ -116,7 +116,7 @@ del {
   align-items: center;
 }
 
-.an-a-the-game .word.punctuation {
+.word.punctuation {
   margin-left: 0 !important;
 }
 
