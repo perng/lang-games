@@ -29,7 +29,7 @@ export const games: Game[] = [
   },
   {
     id: 'an-a-the',
-    title: 'Articles Game',
+    title: 'Article Hunt',
     description: 'Practice using "a", "an", and "the" correctly',
     difficulty: 'Hard',
     path: '/an-a-the',
