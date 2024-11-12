@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ReactGA from 'react-ga4';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-import Home from './routes/Home';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { initGA } from './utils/analytics';
 
+import Home from './routes/Home';
 import ArticleGameMenu from './components/ArticleGame/Menu';
 import ArticleGame from './components/ArticleGame';
 import SingularPluralGame from './components/SingularPluralGame';

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import articles from '../../../data/fruits.json';
 import { getCookie, deleteCookie } from '../../../utils/cookies';
@@ -49,8 +49,8 @@ export default function AnATheGameMenu() {
         window.location.reload(); // Refresh to update the view
     };
     
-    const handleStorySelect = (storyId: number, storyTitle: string) => {
-        logEvent('Navigation', `Selected A/An/The Story: ${storyTitle}`);
+    const handleStorySelect = (title: string) => {
+        logEvent('Navigation', `Selected A/An/The Story: ${title}`);
     };
     
     return (
@@ -74,7 +74,7 @@ export default function AnATheGameMenu() {
                             key={index} 
                             to={`/an-a-the/${index}`} 
                             className={`story-card ${getCardClass(score)}`}
-                            onClick={() => handleStorySelect(index, article.title)}
+                            onClick={() => handleStorySelect(article.title)}
                         >
                             <div className="story-image">
                                 <img 

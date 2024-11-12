@@ -13,8 +13,8 @@ function ArticleGameMenu() {
     logPageView(location.pathname);
   }, [location]);
 
-  const handleStorySelect = (storyId: number, storyTitle: string) => {
-    logEvent('Navigation', `Selected Article Story: ${storyTitle}`);
+  const handleStorySelect = (title: string) => {
+    logEvent('Navigation', `Selected Article Story: ${title}`);
   };
 
   const getStoryScore = (index: number): number | null => {
@@ -67,7 +67,7 @@ function ArticleGameMenu() {
               key={index} 
               to={`/article-game/${index}`} 
               className={`story-card ${getCardClass(score)}`}
-              onClick={() => handleStorySelect(index, article.title)}
+              onClick={() => handleStorySelect(article.title)}
             >
               <div className="story-image">
                 <img 

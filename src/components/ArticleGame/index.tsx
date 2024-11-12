@@ -238,6 +238,11 @@ function ArticleGame() {
     'Daisy', 'Timmy', 'Hugo', 'Charlie'
   ]);
 
+  const handleMissionBriefClick = () => {
+    logEvent('UI', 'Article Game Mission Brief Opened');
+    setShowMissionBrief(true);
+  };
+
   return (
     <div>
       <h1 className="main-title">THE Game</h1>

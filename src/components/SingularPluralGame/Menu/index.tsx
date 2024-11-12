@@ -14,8 +14,8 @@ export default function SingularPluralGameMenu() {
         logPageView(location.pathname);
     }, [location]);
 
-    const handleStorySelect = (storyId: number, storyTitle: string) => {
-        logEvent('Navigation', `Selected Singular/Plural Story: ${storyTitle}`);
+    const handleStorySelect = (title: string) => {
+        logEvent('Navigation', `Selected Singular/Plural Story: ${title}`);
     };
 
     console.log('Rendering SingularPluralGame Menu');
@@ -75,7 +75,7 @@ export default function SingularPluralGameMenu() {
                             key={index} 
                             to={`/singular-plural/${index}`} 
                             className={`story-card ${getCardClass(score)}`}
-                            onClick={() => handleStorySelect(index, article.title)}
+                            onClick={() => handleStorySelect(article.title)}
                         >
                             <div className="story-image">
                                 <img 
