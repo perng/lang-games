@@ -7,6 +7,10 @@
   margin: 0 4px;
   cursor: pointer;
   display: inline-block;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .word.selected {
@@ -90,4 +94,11 @@
 del {
   text-decoration: line-through;
   text-decoration-color: #f44336;
-} 
+}
+
+.text-container {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
