@@ -244,7 +244,7 @@ function ArticleGame() {
   };
 
   return (
-    <div>
+    <div className="article-game">
       <h1 className="main-title">THE Game</h1>
       <div className="game-container">
         <div className="game-header">

@@ -192,3 +192,39 @@
   font-weight: bold;
   margin: 10px 0;
 }
+
+/* Add a specific class for the Singular/Plural game */
+.singular-plural-game .word-container {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: left;
+  white-space: normal !important;
+  word-spacing: normal !important;
+}
+
+.singular-plural-game .word {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: normal !important;
+}
+
+.singular-plural-game .word.noun {
+  padding: 2px 4px !important;
+  margin: 0 !important;
+}
+
+.singular-plural-game .word.space {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 0.25em !important;
+}
+
+.singular-plural-game .word.punctuation {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

@@ -325,7 +325,7 @@ function SingularPluralGame() {
   }
 
   return (
-    <div>
+    <div className="singular-plural-game">
       <h1 className="main-title">One or Many</h1>
       <h2 className="story-title">{currentStory?.title}</h2>
       <div className="game-container">

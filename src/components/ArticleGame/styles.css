@@ -456,3 +456,16 @@ button:hover {
   font-weight: 500;  /* slightly bold */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* subtle shadow */
 }
+
+.article-game .word {
+  display: inline-block !important;
+  margin: 0 0.25em !important; /* Add normal word spacing */
+}
+
+.article-game .word.space {
+  margin: 0 !important;
+}
+
+.article-game .word.punctuation {
+  margin-left: 0 !important;
+}

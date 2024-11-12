@@ -232,7 +232,7 @@ export default function AnATheGame() {
   }, [location]);
 
   return (
-    <div className="game-container">
+    <div className="an-a-the-game">
       <h1 className="main-title">Articles Game</h1>
       <div className="game-header">
         <button 
