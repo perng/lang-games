@@ -4,21 +4,22 @@
   max-width: 800px;
   margin: 2rem auto;
   text-align: left;
-  white-space: normal;
-  word-wrap: break-word;
+  white-space: normal !important;
+  word-spacing: normal !important;
 }
 
 .word {
-  display: inline-block;
-  white-space: nowrap;
-  margin: 0 2px;
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: normal !important;
 }
 
 .word.noun {
   cursor: pointer;
-  padding: 2px 4px;
+  padding: 2px 4px !important;
   border-radius: 4px;
-  margin: 0 -2px;
+  margin: 0 !important;
   transition: background-color 0.2s;
   border-bottom: 2px dotted #2c3e50;
   text-decoration: none;
@@ -118,14 +119,17 @@
 
 /* Remove all spacing around punctuation */
 .word.punctuation {
-  margin-left: -4px;
-  margin-right: 0;
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* Hide actual spaces but maintain their effect */
 .word.space {
-  font-size: 0;
-  white-space: pre;
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 0.25em !important;
 }
 
 /* After checking answers, maintain underline but change color based on result */

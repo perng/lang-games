@@ -61,7 +61,7 @@ function SingularPluralGame() {
     const words: Word[] = [];
     let currentIndex = 0;
     
-    const parts = text.split(/(\[[^\]]+\]|\s+|[.,!?])/);
+    const parts = text.split(/(\[[^\]]+\]|\s+)/);
     parts.forEach((part) => {
       if (!part) return; // Skip empty parts
       
@@ -96,30 +96,40 @@ function SingularPluralGame() {
           isSpace: true,
           isPunctuation: false
         });
-      } else if (/^[.,!?]$/.test(part)) {
-        // Handle punctuation
-        words.push({
-          text: part,
-          index: currentIndex++,
-          isNoun: false,
-          singularForm: part,
-          pluralForm: part,
-          correctForm: part,
-          isSpace: false,
-          isPunctuation: true
-        });
       } else {
-        // Regular text
-        words.push({
-          text: part,
-          index: currentIndex++,
-          isNoun: false,
-          singularForm: part,
-          pluralForm: part,
-          correctForm: part,
-          isSpace: false,
-          isPunctuation: false
-        });
+        // Regular text - now handle punctuation as part of the word
+        const matches = part.match(/^(.*?)([.,!?]*)$/);
+        if (matches) {
+          const [_, word, punctuation] = matches;
+          
+          // Add the main word if it exists
+          if (word) {
+            words.push({
+              text: word,
+              index: currentIndex++,
+              isNoun: false,
+              singularForm: word,
+              pluralForm: word,
+              correctForm: word,
+              isSpace: false,
+              isPunctuation: false
+            });
+          }
+          
+          // Add punctuation if it exists
+          if (punctuation) {
+            words.push({
+              text: punctuation,
+              index: currentIndex++,
+              isNoun: false,
+              singularForm: punctuation,
+              pluralForm: punctuation,
+              correctForm: punctuation,
+              isSpace: false,
+              isPunctuation: true
+            });
+          }
+        }
       }
     });
     return words;
