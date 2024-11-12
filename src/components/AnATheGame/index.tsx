@@ -3,14 +3,14 @@ import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import fruitsData from '../../data/fruits.json';
 import './styles.css';
-import { setCookie, getCookie, deleteCookie } from '../../utils/cookies';
+import { setCookie, getCookie } from '../../utils/cookies';
 import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
 
 // Article cycling options
-const ARTICLE_OPTIONS = ['', 'a', 'an', 'the'];
+// const ARTICLE_OPTIONS = ['', 'a', 'an', 'the'];
 const NAMES_CHECK = new Set(['annie', 'wally', 'paula', 'peter', 'kenny', 'zealand', 'bobby', 'rita', 'willy'].map(name => name.toLowerCase()));
-const NAMES_DISPLAY = new Set(['Annie', 'Wally', 'Paula', 'Peter', 'Kenny', 'Zealand', 'Bobby', 'Rita', 'Willy']);
+//const NAMES_DISPLAY = new Set(['Annie', 'Wally', 'Paula', 'Peter', 'Kenny', 'Zealand', 'Bobby', 'Rita', 'Willy']);
 // Define GameResults type
 interface GameResults {
   correct: number[];
@@ -35,9 +35,6 @@ interface GameState {
   playerSelections: Map<number, string>;
   sentenceStarts: Set<number>;
 }
-
-const ARTICLES = ['a', 'an', 'the'] as const;
-type Article = typeof ARTICLES[number];
 
 export default function AnATheGame() {
   const { id } = useParams();
