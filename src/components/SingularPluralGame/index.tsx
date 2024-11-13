@@ -8,6 +8,7 @@ import './styles.css';
 import { setCookie, getCookie, deleteCookie } from '../../utils/cookies';
 import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
+import { createFirework } from '../../utils/fireworks';
 
 interface Word {
   text: string;
@@ -161,23 +162,33 @@ function SingularPluralGame() {
     }
   }, [storyId]);
 
-  const handleWordClick = (index: number) => {
-    if (results || !gameState.words[index].isNoun) return;
-
-    const word = gameState.words[index];
-    const currentForm = word.text;
-    const newForm = currentForm === word.singularForm ? word.pluralForm : word.singularForm;
-
-    const newWords = [...gameState.words];
-    newWords[index] = { ...word, text: newForm };
-
-    const newSelections = new Map(gameState.playerSelections);
-    newSelections.set(index, newForm);
-
-    setGameState({
-      ...gameState,
-      words: newWords,
-      playerSelections: newSelections
+  const handleClick = (index: number, e: React.MouseEvent) => {
+    if (results) return;
+    
+    // Add firework effect
+    createFirework(e.clientX, e.clientY);
+    
+    setGameState(prev => {
+      const newSelections = new Map(prev.playerSelections);
+      const word = prev.words[index];
+      
+      // Toggle between singular and plural forms
+      const currentForm = word.text;
+      const newForm = currentForm === word.singularForm ? word.pluralForm : word.singularForm;
+      
+      newSelections.set(index, newForm);
+      
+      const newWords = [...prev.words];
+      newWords[index] = {
+        ...word,
+        text: newForm
+      };
+      
+      return {
+        ...prev,
+        words: newWords,
+        playerSelections: newSelections
+      };
     });
   };
 
@@ -390,7 +401,7 @@ function SingularPluralGame() {
                 ${word.isNoun ? 'noun' : ''} 
                 ${word.isSpace ? 'space' : ''} 
                 ${word.isPunctuation ? 'punctuation' : ''}`}
-              onClick={() => word.isNoun && !results && handleWordClick(index)}
+              onClick={(e) => word.isNoun && !results && handleClick(index, e)}
               dangerouslySetInnerHTML={
                 word.isNoun && results 
                   ? { __html: word.text }
