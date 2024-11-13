@@ -8,8 +8,9 @@ export interface Article {
 
 export interface WordInfo {
     text: string;
-    isSentenceStart: boolean;
     index: number;
+    isSentenceStart: boolean;
+    isFirstNonArticleWord: boolean;
 }
 
 export interface GameResults {

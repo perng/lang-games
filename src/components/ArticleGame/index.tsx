@@ -50,6 +50,8 @@ function ArticleGame() {
   }, [articleIndex]);
 
   const initializeGame = (article: { title: string; content: string }) => {
+    console.log('Starting initializeGame with:', article);
+    
     const words: WordInfo[] = [];
     const correctThePositions = new Set<number>();
     const sentenceStarts = new Set<number>();
@@ -62,23 +64,25 @@ function ArticleGame() {
       const isSentenceStart = isFirstWord || 
                            (index > 0 && /[.!?]$/.test(rawWords[index - 1]));
       
-      if (isThe) {
-        correctThePositions.add(index);
-        if (isSentenceStart && index + 1 < rawWords.length) {
-          sentenceStarts.add(index + 1);
-        }
-      } else {
-        if (isSentenceStart) {
-          sentenceStarts.add(index);
-        }
+      const isFirstNonArticleWord = index > 0 && 
+                                   rawWords[index - 1].toLowerCase() === 'the' && 
+                                   (index === 1 || /[.!?]$/.test(rawWords[index - 2]));
+      
+      if (!isThe) {
         words.push({
           text: word,
-          isSentenceStart: isSentenceStart,
-          index: index
+          index: words.length,
+          isSentenceStart,
+          isFirstNonArticleWord
         });
+      } else if (isSentenceStart) {
+        correctThePositions.add(words.length);
+        sentenceStarts.add(words.length);
       }
       
-      isFirstWord = false;
+      if (!isThe) {
+        isFirstWord = false;
+      }
     });
 
     setGameState(prev => ({
@@ -88,6 +92,12 @@ function ArticleGame() {
       sentenceStarts,
       playerSelections: new Set()
     }));
+
+    console.log('Finished initialization:', {
+      words,
+      correctThePositions,
+      sentenceStarts,
+    });
   };
 
   const toggleThe = (index: number, e: React.MouseEvent) => {
@@ -274,40 +284,20 @@ function ArticleGame() {
             {gameState.words.map((word, index) => {
               const isSelected = gameState.playerSelections.has(word.index);
               const isName = NAMES.has(word.text);
-              const isSentenceStart = word.isSentenceStart;
               
               let displayWord;
               if (isName) {
                 displayWord = word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase();
-              } else if (isSentenceStart && !isSelected) {
+              } else if (word.isSentenceStart || (word.isFirstNonArticleWord && !isSelected)) {
                 displayWord = word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase();
               } else {
                 displayWord = word.text.toLowerCase();
               }
+              
               let articleElement = null;
-              const theArticle = isSentenceStart ? 'The' : 'the';
+              const theArticle = (word.isSentenceStart || word.isFirstNonArticleWord) ? 'The' : 'the';
 
-              if (results) {
-                // Show results state
-                if (gameState.correctThePositions.has(word.index - 1)) {
-                  // Should have 'the'
-                  if (isSelected) {
-                    // Correct placement
-                    articleElement = <span className="article correct">{theArticle}&nbsp;</span>;
-                  } else {
-                    // Missed 'the'
-                    articleElement = <span className="article missed">{theArticle}&nbsp;</span>;
-                  }
-                } else if (isSelected) {
-                  // Wrong placement
-                  articleElement = (
-                    <span className="article error">
-                      <del>{theArticle}&nbsp;</del>
-                    </span>
-                  );
-                }
-              } else if (isSelected) {
-                // Normal gameplay state
+              if (isSelected) {
                 articleElement = <span className="article">{theArticle}&nbsp;</span>;
               }
 
