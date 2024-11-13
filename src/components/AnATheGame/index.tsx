@@ -11,7 +11,7 @@ import { createSpark } from '../../utils/sparks';
 
 // Article cycling options
 // const ARTICLE_OPTIONS = ['', 'a', 'an', 'the'];
-const NAMES_CHECK = new Set(['annie', 'wally', 'paula', 'peter', 'kenny', 'zealand', 'bobby', 'rita', 'willy'].map(name => name.toLowerCase()));
+const NAMES_CHECK = new Set(['annie', 'wally', 'paula', 'peter', 'kenny', 'zealand', 'bobby', 'rita', 'willy', 'olivia'].map(name => name.toLowerCase()));
 //const NAMES_DISPLAY = new Set(['Annie', 'Wally', 'Paula', 'Peter', 'Kenny', 'Zealand', 'Bobby', 'Rita', 'Willy']);
 // Define GameResults type
 interface GameResults {
@@ -88,22 +88,27 @@ export default function AnATheGame() {
       const isArticle = ['a', 'an', 'the'].includes(lowerWord);
       const isSentenceStart = isFirstWord || 
                            (index > 0 && /[.!?]$/.test(rawWords[index - 1]));
-      
-      const isFirstNonArticleWord = index > 0 && 
-                                   ['a', 'an', 'the'].includes(rawWords[index - 1].toLowerCase()) && 
-                                   (index === 1 || /[.!?]$/.test(rawWords[index - 2]));
+      const isName = NAMES_CHECK.has(lowerWord);
       
       if (isArticle) {
-        correctArticles.set(index, lowerWord);
+        correctArticles.set(index, isSentenceStart 
+          ? lowerWord.charAt(0).toUpperCase() + lowerWord.slice(1)
+          : lowerWord);
+          
         if (isSentenceStart && index + 1 < rawWords.length) {
           sentenceStarts.add(index + 1);
         }
       } else {
+        if (isSentenceStart) {
+          sentenceStarts.add(index);
+        }
         words.push({
-          text: word.toLowerCase(),
+          text: isName ? word : word.toLowerCase(),
           originalText: word,
           isSentenceStart,
-          isFirstNonArticleWord,
+          isFirstNonArticleWord: index > 0 && 
+            ['a', 'an', 'the'].includes(rawWords[index - 1].toLowerCase()) && 
+            (index === 1 || /[.!?]$/.test(rawWords[index - 2])),
           index
         });
       }
@@ -113,13 +118,12 @@ export default function AnATheGame() {
       }
     });
 
-    setGameState(prev => ({
-      ...prev,
+    setGameState({
       words,
       correctArticles,
       sentenceStarts,
       playerSelections: new Map()
-    }));
+    });
   };
 
   const toggleArticle = (index: number, e: React.MouseEvent) => {
@@ -130,19 +134,19 @@ export default function AnATheGame() {
     setGameState(prev => {
       const newSelections = new Map(prev.playerSelections);
       const currentArticle = newSelections.get(index);
+      // Check if the current word is at sentence start
+      const isSentenceStart = prev.sentenceStarts.has(index);
       
       // Cycle through articles: none -> a -> an -> the -> none
       if (!currentArticle) {
-        newSelections.set(index, 'a');
-      } else if (currentArticle === 'a') {
-        newSelections.set(index, 'an');
-      } else if (currentArticle === 'an') {
-        newSelections.set(index, 'the');
+        newSelections.set(index, isSentenceStart ? 'A' : 'a');
+      } else if (currentArticle.toLowerCase() === 'a') {
+        newSelections.set(index, isSentenceStart ? 'An' : 'an');
+      } else if (currentArticle.toLowerCase() === 'an') {
+        newSelections.set(index, isSentenceStart ? 'The' : 'the');
       } else {
         newSelections.delete(index);
       }
-
-      
 
       return {
         ...prev,
@@ -275,18 +279,12 @@ export default function AnATheGame() {
             const correctArticle = gameState.correctArticles.get(word.index - 1);
             const isName = NAMES_CHECK.has(word.text.toLowerCase());
             
-            // Determine word capitalization
-            let displayWord = word.text;
-            if (isName) {
-              // Keep the original case for names
-              displayWord = word.originalText || word.text;
-            } else if ((word.isSentenceStart || word.isFirstNonArticleWord) && !selectedArticle) {
-              // Capitalize if it's sentence start or first word after an article and no article selected
-              displayWord = word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase();
-            } else {
-              // Otherwise lowercase
-              displayWord = word.text.toLowerCase();
-            }
+            // Determine word display
+            let displayWord = isName 
+              ? word.originalText || word.text  // Use original casing for names
+              : ((word.isSentenceStart || word.isFirstNonArticleWord) && !selectedArticle)
+                ? word.text.charAt(0).toUpperCase() + word.text.slice(1)
+                : word.text.toLowerCase();
             
             return (
               <span
