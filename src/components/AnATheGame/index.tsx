@@ -28,7 +28,9 @@ interface GameResults {
 interface Word {
   text: string;
   isSentenceStart: boolean;
+  isFirstNonArticleWord: boolean;
   index: number;
+  originalText?: string;
 }
 
 interface GameState {
@@ -87,23 +89,28 @@ export default function AnATheGame() {
       const isSentenceStart = isFirstWord || 
                            (index > 0 && /[.!?]$/.test(rawWords[index - 1]));
       
+      const isFirstNonArticleWord = index > 0 && 
+                                   ['a', 'an', 'the'].includes(rawWords[index - 1].toLowerCase()) && 
+                                   (index === 1 || /[.!?]$/.test(rawWords[index - 2]));
+      
       if (isArticle) {
         correctArticles.set(index, lowerWord);
         if (isSentenceStart && index + 1 < rawWords.length) {
           sentenceStarts.add(index + 1);
         }
       } else {
-        if (isSentenceStart) {
-          sentenceStarts.add(index);
-        }
         words.push({
-          text: word,
-          isSentenceStart: isSentenceStart,
-          index: index
+          text: word.toLowerCase(),
+          originalText: word,
+          isSentenceStart,
+          isFirstNonArticleWord,
+          index
         });
       }
       
-      isFirstWord = false;
+      if (!isArticle) {
+        isFirstWord = false;
+      }
     });
 
     setGameState(prev => ({
@@ -123,19 +130,18 @@ export default function AnATheGame() {
     setGameState(prev => {
       const newSelections = new Map(prev.playerSelections);
       const currentArticle = newSelections.get(index);
+      const isSentenceStart = prev.sentenceStarts.has(index);
       
       // Cycle through articles: none -> a -> an -> the -> none
       if (!currentArticle) {
-        newSelections.set(index, 'a');
-      } else if (currentArticle === 'a') {
-        newSelections.set(index, 'an');
-      } else if (currentArticle === 'an') {
-        newSelections.set(index, 'the');
+        newSelections.set(index, isSentenceStart ? 'A' : 'a');
+      } else if (currentArticle.toLowerCase() === 'a') {
+        newSelections.set(index, isSentenceStart ? 'An' : 'an');
+      } else if (currentArticle.toLowerCase() === 'an') {
+        newSelections.set(index, isSentenceStart ? 'The' : 'the');
       } else {
         newSelections.delete(index);
       }
-
-      
 
       return {
         ...prev,
@@ -272,9 +278,9 @@ export default function AnATheGame() {
             let displayWord = word.text;
             if (isName) {
               // Keep the original case for names
-              displayWord = word.text;
-            } else if (word.isSentenceStart && !selectedArticle) {
-              // Capitalize if it's sentence start and no article
+              displayWord = word.originalText || word.text;
+            } else if ((word.isSentenceStart || word.isFirstNonArticleWord) && !selectedArticle) {
+              // Capitalize if it's sentence start or first word after an article and no article selected
               displayWord = word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase();
             } else {
               // Otherwise lowercase
@@ -291,7 +297,7 @@ export default function AnATheGame() {
                   <>
                     {correctArticle && !selectedArticle && (
                       <span className="article missed">
-                        {word.isSentenceStart 
+                        {gameState.sentenceStarts.has(word.index) 
                           ? correctArticle.charAt(0).toUpperCase() + correctArticle.slice(1)
                           : correctArticle} {' '}
                       </span>
@@ -300,15 +306,11 @@ export default function AnATheGame() {
                       <span className="article">
                         {selectedArticle !== correctArticle ? (
                           <del>
-                            {word.isSentenceStart 
-                              ? selectedArticle.charAt(0).toUpperCase() + selectedArticle.slice(1)
-                              : selectedArticle} {' '}
+                            {selectedArticle} {' '}
                           </del>
                         ) : (
                           <>
-                            {word.isSentenceStart 
-                              ? selectedArticle.charAt(0).toUpperCase() + selectedArticle.slice(1)
-                              : selectedArticle} {' '}
+                            {selectedArticle} {' '}
                           </>
                         )}
                       </span>
@@ -317,9 +319,7 @@ export default function AnATheGame() {
                 ) : (
                   selectedArticle && (
                     <span className="article">
-                      {word.isSentenceStart 
-                        ? selectedArticle.charAt(0).toUpperCase() + selectedArticle.slice(1)
-                        : selectedArticle} {' '}
+                      {selectedArticle} {' '}
                     </span>
                   )
                 )}
