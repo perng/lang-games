@@ -473,7 +473,7 @@ button:hover {
 }
 
 /* Add these new styles for the firework effect */
-@keyframes firework {
+@keyframes spark {
   0% {
     transform: translate(-50%, -50%) scale(0);
     width: 0;
@@ -493,13 +493,13 @@ button:hover {
   }
 }
 
-.firework {
+.spark {
   pointer-events: none;
   position: fixed;
   border-radius: 50%;
   border: 4px solid #ff6b6b;
   transform: translate(-50%, -50%);
-  animation: firework 0.5s ease-out forwards;
+  animation: spark 0.5s ease-out forwards;
   z-index: 9999;
   box-shadow: 0 0 10px #ff6b6b;
 }

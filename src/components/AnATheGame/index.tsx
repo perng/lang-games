@@ -7,7 +7,7 @@ import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
 import { logPageView, logEvent } from '../../utils/analytics';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { createFirework } from '../../utils/fireworks';
+import { createSpark } from '../../utils/sparks';
 
 // Article cycling options
 // const ARTICLE_OPTIONS = ['', 'a', 'an', 'the'];
@@ -114,7 +114,7 @@ export default function AnATheGame() {
   const toggleArticle = (index: number, e: React.MouseEvent) => {
     if (results) return;
     
-    createFirework(e.clientX, e.clientY);
+    createSpark(e.clientX, e.clientY);
     
     setGameState(prev => {
       const newSelections = new Map(prev.playerSelections);

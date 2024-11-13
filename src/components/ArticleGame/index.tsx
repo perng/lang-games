@@ -9,6 +9,7 @@ import { setCookie } from '../../utils/cookies';
 import ReactMarkdown from 'react-markdown';
 import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
+import { createSpark } from '../../utils/sparks';
 
 interface GameState {
   words: WordInfo[];
@@ -89,23 +90,10 @@ function ArticleGame() {
     }));
   };
 
-  const createFirework = (x: number, y: number) => {
-    console.log('createFirework', x, y);
-    const firework = document.createElement('div');
-    firework.className = 'firework';
-    firework.style.left = `${x}px`;
-    firework.style.top = `${y}px`;
-    document.body.appendChild(firework);
-
-    firework.addEventListener('animationend', () => {
-      document.body.removeChild(firework);
-    });
-  };
-
   const toggleThe = (index: number, e: React.MouseEvent) => {
     if (results) return;
     
-    createFirework(e.clientX, e.clientY);
+    createSpark(e.clientX, e.clientY);
     
     setGameState(prev => {
       const newSelections = new Set(prev.playerSelections);
