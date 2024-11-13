@@ -1,0 +1,145 @@
+.game-menu {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.game-menu header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.header-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.clear-scores-button {
+    padding: 8px 16px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back-link {
+    color: #666;
+    text-decoration: none;
+}
+
+/* Header content styles */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.subtitle,
+.difficulty {
+    display: none;
+}
+
+.latest-score {
+    color: #4CAF50;
+    margin: 0;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/* Stories grid styles */
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.story-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background: white;
+}
+
+.story-card:hover {
+    transform: translateY(-2px);
+}
+
+.story-image {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.story-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.story-content {
+    padding: 15px;
+}
+
+.story-content h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.1em;
+}
+
+.story-content .latest-score {
+    font-size: 0.9em;
+    color: #4CAF50;
+    font-weight: 500;
+}
+
+.score {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Card status colors */
+.story-card.excellent {
+    border: 2px solid #4CAF50;
+}
+
+.story-card.good {
+    border: 2px solid #8BC34A;
+}
+
+.story-card.fair {
+    border: 2px solid #FFC107;
+}
+
+.story-card.needs-practice {
+    border: 2px solid #FF5722;
+}
+
+.story-card.not-attempted {
+    border: 2px solid #9E9E9E;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .game-menu header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .header-content {
+        align-items: center;
+    }
+
+    .stories-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+} 

@@ -147,7 +147,7 @@ function ArticleGame() {
     const totalThes = finalResults.score.correct + finalResults.score.missed;
     const percentage = totalThes > 0 ? Math.round((points / totalThes) * 100) : 0;
     
-    setCookie(`articleGame_score_${articleIndex}`, percentage.toString());
+    setCookie(`articleGame-score-${articleIndex}`, percentage.toString());
 
     logEvent('Game', `Article Game Score: ${percentage}%`);
 
