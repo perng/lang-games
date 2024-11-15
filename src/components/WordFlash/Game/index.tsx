@@ -30,20 +30,27 @@ export default function WordFlashGame() {
                 // Flatten words and their meanings into a single list
                 levelData.words.forEach((word: WordData) => {
                     word.meanings.forEach((meaning, index) => {
+                        // Add index to the meaning
+                        const meaningWithIndex = {
+                            ...meaning,
+                            index  // Add index to track which meaning this is
+                        };
+                        
                         const cookieKey = `${word.word}-${index}`;
                         const score = parseInt(getCookie(cookieKey) || '0');
                         preparedList.push({
                             word: word.word,
-                            meaning,
-                            meaningIndex: index,
+                            meaning: meaningWithIndex,
                             score
                         });
                     });
                 });
 
-                // Sort by score and avoid same words being close
+                // shuffle preparedList
+                const shuffledList = shuffleArray(preparedList);
+                // Sort by score and avoid same words being close                
                 sortWordList(preparedList);
-                setWordList(preparedList);
+                setWordList(shuffledList);
             } catch (error) {
                 console.error('Error loading word list:', error);
             }
@@ -63,7 +70,7 @@ export default function WordFlashGame() {
     // Add debug logging whenever currentIndex changes
     useEffect(() => {
         if (wordList.length > 0) {
-            console.log('Next 30 words:');
+            console.log('Next 10 words:');
             const nextWords = [];
             let index = currentIndex;
             for (let i = 0; i < 10 && i < wordList.length; i++) {
@@ -71,6 +78,7 @@ export default function WordFlashGame() {
                 nextWords.push({
                     word: word.word,
                     meaning: word.meaning.meaning_zh_TW,
+                    meaningIndex: word.meaning.index,
                     score: word.score
                 });
                 index = (index + 1) % wordList.length;
@@ -79,17 +87,17 @@ export default function WordFlashGame() {
         }
     }, [currentIndex, wordList]);
 
-    // Prepare choices for current word
+    // Prepare choices when moving to next word
     useEffect(() => {
-        if (wordList.length > 0) {
+        if (wordList.length > 0 && !isProcessing) {
             const currentWord = wordList[currentIndex];
-            const allChoices = [
+            const newChoices = shuffleArray([
                 currentWord.meaning.meaning_zh_TW,
                 ...currentWord.meaning.wrong_meaning_zh_TW
-            ];
-            setChoices(shuffleArray([...allChoices]));
+            ]);
+            setChoices(newChoices);
         }
-    }, [currentIndex, wordList]);
+    }, [currentIndex, wordList.length]); // Only shuffle when word changes
 
     // Handle choice selection
     const handleChoice = async (choice: string) => {
@@ -101,19 +109,42 @@ export default function WordFlashGame() {
         setSelectedChoice(choice);
         setIsCorrect(isAnswerCorrect);
 
-        // Update cookie
-        const cookieKey = `${currentWord.word}-${currentWord.meaningIndex}`;
+        // Update cookie and word list
+        const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
         const currentScore = parseInt(getCookie(cookieKey) || '0');
-        const newScore = currentScore + (isAnswerCorrect ? 1 : -1);
+        const newScore = Math.max(0, currentScore + (isAnswerCorrect ? 1 : -1));
         setCookie(cookieKey, newScore.toString());
-        console.log(`Updated score for ${currentWord.word} to ${newScore}`);
+
+        // Update wordList with new score
+        const newWordList = wordList.map(word => {
+            if (word.word === currentWord.word && word.meaning.index === currentWord.meaning.index) {
+                return { ...word, score: newScore };
+            }
+            return word;
+        });
+        setWordList(newWordList);
+
+        // Save progress after score update
+        if (levelId) {
+            const totalMeanings = newWordList.length;
+            const masteredMeanings = newWordList.filter(item => item.score > 0).length;
+            const progress = (masteredMeanings / totalMeanings * 100).toFixed(2);
+            // log all stats
+            console.log(`Progress: ${progress}%`);
+            console.log(`Mastered Meanings: ${masteredMeanings}`);
+            console.log(`Total Meanings: ${totalMeanings}`);
+
+            setCookie(`wordFlash-progress-${levelId}`, progress);
+            setCookie(`wordFlash-mastered-${levelId}`, masteredMeanings.toString());
+            setCookie(`wordFlash-total-${levelId}`, totalMeanings.toString());
+        }
 
         // Wait and show next word
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 2000));
         
-        // Resort every 10 words
-        if ((currentIndex + 1) % 10 === 0) {
-            const newList = [...wordList];
+        // Resort every 20 words
+        if ((currentIndex + 1) % 20 === 0) {
+            const newList = [...newWordList];
             sortWordList(newList);
             setWordList(newList);
         }
@@ -127,8 +158,8 @@ export default function WordFlashGame() {
     // Calculate stats
     const calculateStats = () => {
         const totalMeanings = wordList.length;
-        const masteredMeanings = wordList.filter(item => item.score > 1).length;
-        const wordsToReview = wordList.filter(item => item.score <= 0).length;
+        const masteredMeanings = wordList.filter(item => item.score >= 1).length;
+        const wordsToReview = wordList.filter(item => item.score < 1).length;
         
         return {
             progress: totalMeanings > 0 ? Math.round((masteredMeanings / totalMeanings) * 100) : 0,
