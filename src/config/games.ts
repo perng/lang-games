@@ -34,6 +34,15 @@ export const games: Game[] = [
     difficulty: 'Hard',
     path: '/an-a-the',
     icon: '🎯',
-    logoSrc: '/images/article-game-logo.jpg'
-  }  
+    logoSrc: '/images/article-game-logo.jpg' 
+  },
+  {
+    id: 'word-flash',
+    title: 'Word Flash',
+    description: 'Learn new words by flash cards',
+    difficulty: 'Easy',
+    path: '/word-flash',
+    icon: '✨',
+    logoSrc: '/images/word-flash-logo.jpg' 
+  }    
 ]; 

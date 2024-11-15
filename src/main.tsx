@@ -10,6 +10,8 @@ import SingularPluralGame from './components/SingularPluralGame';
 import SingularPluralGameMenu from './components/SingularPluralGame/Menu';
 import AnATheGame from './components/AnATheGame';
 import AnATheGameMenu from './components/AnATheGame/Menu';
+import WordFlashMenu from './components/WordFlash/Menu';
+import WordFlash from './components/WordFlash/Game';
 import './styles/global.css';
 
 // Initialize GA
@@ -44,6 +46,14 @@ const router = createBrowserRouter([
     path: '/an-a-the/:storyId',
     element: <AnATheGame />,
   },
+  {
+    path: '/word-flash',
+    element: <WordFlashMenu />,
+  },
+  {
+    path: '/word-flash/:levelId',
+    element: <WordFlash />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
