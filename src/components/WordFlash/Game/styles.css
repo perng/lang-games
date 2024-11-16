@@ -36,6 +36,8 @@
     cursor: pointer;
     transition: all 0.2s;
     width: 100%;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
 }
 
 .choice-button:hover:not(:disabled) {
@@ -46,12 +48,14 @@
     background: #4caf50;
     color: white;
     border-color: #45a049;
+    background-color: #4caf50;
 }
 
 .choice-button.wrong {
     background: #f44336;
     color: white;
     border-color: #da190b;
+    background-color: #f44336;
 }
 
 .feedback {

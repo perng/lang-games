@@ -237,9 +237,10 @@ export default function WordFlashGame() {
             setWordList(newList);
         }
 
-        setCurrentIndex((prev) => (prev + 1) % wordList.length);
         setSelectedChoice(null);
         setIsCorrect(null);
+        
+        setCurrentIndex((prev) => (prev + 1) % wordList.length);
         setIsProcessing(false);
     };
 
@@ -309,17 +310,17 @@ export default function WordFlashGame() {
                     </button>
                 </div>
             </div>
-            <div className="choices">
+            <div className="choices" key={currentWord.word + currentIndex}>
                 {choices.map((choice, index) => (
                     <button
                         key={index}
                         onClick={() => handleChoice(choice)}
                         className={`
                             choice-button
-                            ${selectedChoice === choice ? 
-                                (choice === currentWord.meaning.meaning_zh_TW ? 'correct' : 'wrong') 
-                                : ''}
-                            ${selectedChoice && choice === currentWord.meaning.meaning_zh_TW ? 'correct' : ''}
+                            ${selectedChoice === choice && 
+                                (choice === currentWord.meaning.meaning_zh_TW ? 'correct' : 'wrong')}
+                            ${selectedChoice && 
+                                choice === currentWord.meaning.meaning_zh_TW ? 'correct' : ''}
                         `}
                         disabled={isProcessing}
                     >
