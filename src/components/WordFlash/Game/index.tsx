@@ -15,8 +15,8 @@ export default function WordFlashGame() {
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
     const [isProcessing, setIsProcessing] = useState(false);
     const audioRef = useRef<HTMLAudioElement | null>(null);
-    const [audioLoaded, setAudioLoaded] = useState(false);
     const [hasUserInteracted, setHasUserInteracted] = useState(false);
+    const [showWelcome, setShowWelcome] = useState(true);
 
     // Load and prepare word list
     useEffect(() => {
@@ -124,10 +124,10 @@ export default function WordFlashGame() {
 
     // Play audio when word changes AND user has interacted
     useEffect(() => {
-        if (wordList.length > 0 && hasUserInteracted) {
+        if (hasUserInteracted && wordList.length > 0) {
             playWordAudio();
         }
-    }, [currentIndex]);
+    }, [currentIndex, hasUserInteracted]);
 
     // Handle choice selection
     const handleChoice = async (choice: string) => {
@@ -199,6 +199,12 @@ export default function WordFlashGame() {
         };
     };
 
+    const startGame = () => {
+        setHasUserInteracted(true);
+        setShowWelcome(false);
+        playWordAudio(); // Play first word's audio immediately
+    };
+
     if (wordList.length === 0) return <div>Loading...</div>;
 
     const currentWord = wordList[currentIndex];
@@ -206,6 +212,21 @@ export default function WordFlashGame() {
 
     return (
         <div className="word-flash-game">
+            {showWelcome && (
+                <div className="welcome-overlay">
+                    <div className="welcome-content">
+                        <h2>Ready to Begin?</h2>
+                        <p>Click Start to begin practicing words with audio.</p>
+                        <button 
+                            className="start-button"
+                            onClick={startGame}
+                        >
+                            Start
+                        </button>
+                    </div>
+                </div>
+            )}
+
             <audio ref={audioRef} />
             
             <button 
