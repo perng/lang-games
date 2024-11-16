@@ -137,7 +137,7 @@ export default function WordFlashGame() {
 
     // Handle choice selection
     const handleChoice = async (choice: string) => {
-        setHasUserInteracted(true);  // Mark that user has interacted
+        setHasUserInteracted(true);
         if (isProcessing) return;
         setIsProcessing(true);
         
@@ -166,18 +166,20 @@ export default function WordFlashGame() {
             const totalMeanings = newWordList.length;
             const masteredMeanings = newWordList.filter(item => item.score > 0).length;
             const progress = (masteredMeanings / totalMeanings * 100.0).toFixed(4);
-            // log all stats
-            console.log(`Progress: ${progress}%`);
-            console.log(`Mastered Meanings: ${masteredMeanings}`);
-            console.log(`Total Meanings: ${totalMeanings}`);
-
             setCookie(`wordFlash-progress-${levelId}`, progress);
             setCookie(`wordFlash-mastered-${levelId}`, masteredMeanings.toString());
             setCookie(`wordFlash-total-${levelId}`, totalMeanings.toString());
         }
 
-        // Wait and show next word
-        await new Promise(resolve => setTimeout(resolve, 2300));
+        // New sequence:
+        // 1. Wait 1 second
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        
+        // 2. Play audio
+        playWordAudio();
+        
+        // 3. Wait another 1 second
+        await new Promise(resolve => setTimeout(resolve, 1000));
         
         // Resort every 20 words
         if ((currentIndex + 1) % 20 === 0) {
