@@ -280,7 +280,7 @@ export default function WordFlashGame() {
     useEffect(() => {
         const loadSlogans = async () => {
             try {
-                const response = await fetch('/src/data/WordFlash/slogans.txt');
+                const response = await fetch('/data/WordFlash/slogans.txt');
                 const text = await response.text();
                 setSlogans(text.split('\n').filter(line => line.trim()));
             } catch (error) {
