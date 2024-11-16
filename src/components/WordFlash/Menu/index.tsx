@@ -13,6 +13,17 @@ export default function WordFlashMenu() {
         }
     ];
 
+    const getImageUrl = (image_name: string) => {
+        console.log(image_name);
+        try {
+            return new URL(`../../../images/word-flash/${image_name}.jpg`, import.meta.url).href;
+        } catch (error) {
+            console.error(`Failed to load image for ${image_name}:`, error);
+            return '';
+        }
+    };
+
+
     const handleClearScores = () => {
         // Clear progress cookies
         levels.forEach(level => {
@@ -44,7 +55,7 @@ export default function WordFlashMenu() {
                     >
                         <div className="level-image">
                             <img 
-                                src={`/src/images/word-flash/${level.imageId}.jpg`}
+                                src={getImageUrl(level.imageId)}
                                 alt={level.title} 
                             />
                         </div>
