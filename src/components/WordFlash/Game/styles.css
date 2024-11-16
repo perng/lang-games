@@ -1,8 +1,13 @@
 .word-flash-game {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     max-width: 800px;
     margin: 2rem auto;
     padding: 2rem;
     text-align: center;
+    position: relative;
+    padding-bottom: 80px;
 }
 
 .word {
@@ -93,9 +98,13 @@
 }
 
 .back-button {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    margin-top: auto;
+    margin-bottom: 20px;
     padding: 0.8rem 1.2rem;
     background-color: #666;
     color: white;

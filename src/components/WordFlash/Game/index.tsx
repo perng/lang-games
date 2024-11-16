@@ -218,6 +218,13 @@ export default function WordFlashGame() {
 
     return (
         <div className="word-flash-game">
+            <button 
+                className="back-button"
+                onClick={() => navigate('/word-flash')}
+            >
+                Back
+            </button>
+
             {showWelcome && (
                 <div className="welcome-overlay">
                     <div className="welcome-content">
@@ -235,12 +242,6 @@ export default function WordFlashGame() {
 
             <audio ref={audioRef} />
             
-            <button 
-                className="back-button"
-                onClick={() => navigate('/word-flash')}
-            >
-                Back to Word Flash Home
-            </button>
             <div className="word-section">
                 <h1 className="word">{currentWord.word}</h1>
                 <div className="type-container">
