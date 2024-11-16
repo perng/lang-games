@@ -31,7 +31,7 @@ export default function WordFlashGame() {
                 // Flatten words and their meanings into a single list
                 levelData.words.forEach((word: WordData) => {
                     word.meanings.forEach((meaning, index) => {
-                        // Add index to the meaning
+                        // Add index to track which meaning this is
                         const meaningWithIndex = {
                             ...meaning,
                             index  // Add index to track which meaning this is
@@ -141,7 +141,7 @@ export default function WordFlashGame() {
         }
 
         // Wait and show next word
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 2300));
         
         // Resort every 20 words
         if ((currentIndex + 1) % 20 === 0) {
@@ -182,7 +182,10 @@ export default function WordFlashGame() {
             >
                 Back to Word Flash Home
             </button>
-            <h1 className="word">{currentWord.word}</h1>
+            <div className="word-section">
+                <h1 className="word">{currentWord.word}</h1>
+                <p className="word-type">{currentWord.meaning.type}</p>
+            </div>
             <div className="choices">
                 {choices.map((choice, index) => (
                     <button

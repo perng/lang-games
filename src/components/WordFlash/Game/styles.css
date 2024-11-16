@@ -108,4 +108,17 @@
 
 .back-button:hover {
     background-color: #555;
+}
+
+.word-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.word-type {
+    color: #666;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
 } 
