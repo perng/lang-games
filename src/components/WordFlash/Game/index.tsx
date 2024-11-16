@@ -163,7 +163,7 @@ export default function WordFlashGame() {
         const wordsToReview = wordList.filter(item => item.score < 1).length;
         
         return {
-            progress: totalMeanings > 0 ? Math.round((masteredMeanings / totalMeanings) * 100) : 0,
+            progress: totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100).toFixed(2) : "0.00",
             totalMeanings,
             wordsToReview
         };
