@@ -67,11 +67,11 @@ export default function WordFlashGame() {
         loadWords();
     }, [levelId]);
 
-    // Sort function
+    // Sort function to prioritize words with lower scores
     const sortWordList = (list: WordWithScore[]) => {
         list.sort((a, b) => {
             if (a.word === b.word) return Math.random() - 0.5;
-            return a.score - b.score;
+            return a.score - b.score;  // Lower scores come first
         });
     };
 
@@ -180,10 +180,10 @@ export default function WordFlashGame() {
         setSelectedChoice(choice);
         setIsCorrect(isAnswerCorrect);
 
-        // Update cookie and word list
+        // Update cookie and word list with more punitive scoring for wrong answers
         const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
         const currentScore = parseInt(getCookie(cookieKey) || '0');
-        const newScore = Math.max(0, currentScore + (isAnswerCorrect ? 1 : -1));
+        const newScore = Math.max(1, currentScore + (isAnswerCorrect ? 1 : -1));  // -1 for wrong answers
         setCookie(cookieKey, newScore.toString());
 
         // Update wordList with new score
@@ -241,7 +241,7 @@ export default function WordFlashGame() {
         }
 
         // After all the delays and before moving to next word
-        if ((currentIndex + 1) % 8 === 0) {
+        if ((currentIndex + 1) % 2 === 0) {
             console.log('Showing slogan');
             // Show random slogan
             const randomIndex = Math.floor(Math.random() * slogans.length);
@@ -290,11 +290,17 @@ export default function WordFlashGame() {
         loadSlogans();
     }, []);
 
-    // Add this function definition
+    // Modify handleSloganClick to rebuild the word list
     const handleSloganClick = () => {
         setShowSlogan(false);
-        // Now move to next word
-        setCurrentIndex((prev) => (prev + 1) % wordList.length);
+        
+        // Create a new copy of the word list and sort it
+        const newList = [...wordList];
+        sortWordList(newList);
+        setWordList(newList);
+        
+        // Reset states and move to next word
+        setCurrentIndex(0);  // Start from beginning of newly sorted list
         setSelectedChoice(null);
         setIsCorrect(null);
         setIsProcessing(false);
