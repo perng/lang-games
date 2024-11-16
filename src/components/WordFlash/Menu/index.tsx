@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import level6Data from '../../../data/WordFlash/word_flash_level_6.json';
-import { getCookie, deleteCookie } from '../../../utils/cookies';
+import { getCookie } from '../../../utils/cookies';
 import './styles.css';
 
 export default function WordFlashMenu() {
@@ -25,25 +25,6 @@ export default function WordFlashMenu() {
         }
     };
 
-
-    const handleClearScores = () => {
-        // Clear progress cookies
-        levels.forEach(level => {
-            deleteCookie(`wordFlash-progress-${level.id}`);
-            deleteCookie(`wordFlash-mastered-${level.id}`);
-            deleteCookie(`wordFlash-total-${level.id}`);
-            
-            // Clear individual word meaning scores
-            level.words.forEach(word => {
-                word.meanings.forEach((_, index) => {
-                    deleteCookie(`${word.word}-${index}`);
-                });
-            });
-        });
-
-        // Force page reload to update displayed scores
-        window.location.reload();
-    };
 
     return (
         <div className="game-menu">

@@ -17,6 +17,9 @@ export default function WordFlashGame() {
     const audioRef = useRef<HTMLAudioElement | null>(null);
     const [hasUserInteracted, setHasUserInteracted] = useState(false);
     const [showWelcome, setShowWelcome] = useState(true);
+    const [slogans, setSlogans] = useState<string[]>([]);
+    const [showSlogan, setShowSlogan] = useState(false);
+    const [currentSlogan, setCurrentSlogan] = useState('');
 
     // Load and prepare word list
     useEffect(() => {
@@ -237,6 +240,16 @@ export default function WordFlashGame() {
             setWordList(newList);
         }
 
+        // After all the delays and before moving to next word
+        if ((currentIndex + 1) % 8 === 0) {
+            console.log('Showing slogan');
+            // Show random slogan
+            const randomIndex = Math.floor(Math.random() * slogans.length);
+            setCurrentSlogan(slogans[randomIndex]);
+            setShowSlogan(true);
+            return; // Don't move to next word yet
+        }
+
         setSelectedChoice(null);
         setIsCorrect(null);
         
@@ -261,6 +274,30 @@ export default function WordFlashGame() {
         setHasUserInteracted(true);
         setShowWelcome(false);
         playWordAudio(); // Play first word's audio immediately
+    };
+
+    // Add this function to load slogans
+    useEffect(() => {
+        const loadSlogans = async () => {
+            try {
+                const response = await fetch('/src/data/WordFlash/slogans.txt');
+                const text = await response.text();
+                setSlogans(text.split('\n').filter(line => line.trim()));
+            } catch (error) {
+                console.error('Error loading slogans:', error);
+            }
+        };
+        loadSlogans();
+    }, []);
+
+    // Add this function definition
+    const handleSloganClick = () => {
+        setShowSlogan(false);
+        // Now move to next word
+        setCurrentIndex((prev) => (prev + 1) % wordList.length);
+        setSelectedChoice(null);
+        setIsCorrect(null);
+        setIsProcessing(false);
     };
 
     if (wordList.length === 0) return <div>Loading...</div>;
@@ -344,6 +381,17 @@ export default function WordFlashGame() {
                     <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>                
                 </div>
             </div>
+
+            {showSlogan && (
+                <div 
+                    className="slogan-overlay"
+                    onClick={handleSloganClick}
+                >
+                    <div className="slogan-content">
+                        <h2>{currentSlogan}</h2>                        
+                    </div>
+                </div>
+            )}
         </div>
     );
 }

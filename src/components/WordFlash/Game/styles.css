@@ -216,4 +216,37 @@
 
 .start-button:hover {
     background: #357abd;
+}
+
+.slogan-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.slogan-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%;
+}
+
+.slogan-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.slogan-content p {
+    color: #666;
+    font-size: 0.9rem;
 } 
