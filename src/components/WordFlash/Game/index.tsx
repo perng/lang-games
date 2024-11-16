@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { setCookie, getCookie } from '../../../utils/cookies';
 import { WordData, WordWithScore } from '../types';
 import './styles.css';
 
 export default function WordFlashGame() {
+    const navigate = useNavigate();
     const { levelId } = useParams<{ levelId: string }>();
     const [wordList, setWordList] = useState<WordWithScore[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -128,7 +129,7 @@ export default function WordFlashGame() {
         if (levelId) {
             const totalMeanings = newWordList.length;
             const masteredMeanings = newWordList.filter(item => item.score > 0).length;
-            const progress = (masteredMeanings / totalMeanings * 100).toFixed(2);
+            const progress = (masteredMeanings / totalMeanings * 100.0).toFixed(4);
             // log all stats
             console.log(`Progress: ${progress}%`);
             console.log(`Mastered Meanings: ${masteredMeanings}`);
@@ -140,7 +141,7 @@ export default function WordFlashGame() {
         }
 
         // Wait and show next word
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        await new Promise(resolve => setTimeout(resolve, 1000));
         
         // Resort every 20 words
         if ((currentIndex + 1) % 20 === 0) {
@@ -175,6 +176,12 @@ export default function WordFlashGame() {
 
     return (
         <div className="word-flash-game">
+            <button 
+                className="back-button"
+                onClick={() => navigate('/word-flash')}
+            >
+                Back to Word Flash Home
+            </button>
             <h1 className="word">{currentWord.word}</h1>
             <div className="choices">
                 {choices.map((choice, index) => (
@@ -206,7 +213,7 @@ export default function WordFlashGame() {
                     <span className="stat-value">{stats.progress}%</span>
                 </div>
                 <div className="stat-item">
-                    <span className="stat-label">Total Meanings:</span>
+                    <span className="stat-label">Total Word Definitions:</span>
                     <span className="stat-value">{stats.totalMeanings}</span>
                 </div>
                 <div className="stat-item">

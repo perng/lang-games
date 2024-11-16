@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom';
-import level2Data from '../../../data/WordFlash/word_flash_level_2.json';
+import level6Data from '../../../data/WordFlash/word_flash_level_6.json';
 import { getCookie, deleteCookie } from '../../../utils/cookies';
 import './styles.css';
 
 export default function WordFlashMenu() {
     const levels = [
         {
-            ...level2Data,
-            progress: parseFloat(getCookie(`wordFlash-progress-${level2Data.id}`) || '0').toFixed(2),
-            masteredMeanings: parseInt(getCookie(`wordFlash-mastered-${level2Data.id}`) || '0'),
-            totalMeanings: parseInt(getCookie(`wordFlash-total-${level2Data.id}`) || '0')
+            ...level6Data,
+            progress: parseFloat(getCookie(`wordFlash-progress-${level6Data.id}`) || '0').toFixed(2),
+            masteredMeanings: parseInt(getCookie(`wordFlash-mastered-${level6Data.id}`) || '0'),
+            totalMeanings: parseInt(getCookie(`wordFlash-total-${level6Data.id}`) || '0')
         }
     ];
 
