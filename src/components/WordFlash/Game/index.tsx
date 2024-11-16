@@ -136,32 +136,34 @@ export default function WordFlashGame() {
         }
     }, [currentIndex, hasUserInteracted]);
 
-    // Add this new function to play Chinese definition audio
-    const playDefinitionAudio = () => {
-        if (wordList.length === 0) return;
-        
-        const currentWord = wordList[currentIndex];
-        if (currentWord && levelId) {
-            const dataId = levelId.replace('level', '');
-            // Encode the Chinese text to match the filename
-            const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
-                .replace(/\//g, '_')
-                .replace(/\+/g, '-')
-                .replace(/=/g, '');
-            const audioPath = `/voices/WordFlash/level${dataId}/chinese/${encodedDefinition}.mp3`;
-            console.log('Playing definition:', audioPath); // Debug log
-            
+    // Add this helper function to play audio and wait for completion
+    const playAudioWithDelay = (audioPath: string): Promise<void> => {
+        return new Promise((resolve) => {
             if (audioRef.current) {
                 audioRef.current.src = audioPath;
-                audioRef.current.play()
-                    .catch(error => {
-                        if (error.name !== 'NotAllowedError') {
-                            console.error('Error playing definition audio:', error);
-                            console.error('Audio path:', audioPath);
-                        }
-                    });
+                
+                // Handle audio completion
+                audioRef.current.onended = () => {
+                    // Add a fixed gap after audio completes
+                    setTimeout(resolve, 500); // 500ms gap after audio
+                };
+
+                // Handle errors
+                audioRef.current.onerror = () => {
+                    console.error('Error playing audio:', audioPath);
+                    resolve(); // Continue even if there's an error
+                };
+
+                audioRef.current.play().catch(error => {
+                    if (error.name !== 'NotAllowedError') {
+                        console.error('Error playing audio:', error);
+                    }
+                    resolve();
+                });
+            } else {
+                resolve();
             }
-        }
+        });
     };
 
     // Modify the handleChoice function
@@ -200,17 +202,33 @@ export default function WordFlashGame() {
             setCookie(`wordFlash-total-${levelId}`, totalMeanings.toString());
         }
 
-        // New sequence:
-        // 1. Wait 0.5 seconds, then play Chinese definition
-        await new Promise(resolve => setTimeout(resolve, 100));
-        playDefinitionAudio();
+        // New sequence with guaranteed delays:
+        // 1. Initial pause after selection
+        await new Promise(resolve => setTimeout(resolve, 500));
         
-        // 2. Wait 0.7 seconds, then play English word
-        await new Promise(resolve => setTimeout(resolve, 1500));
-        playWordAudio();
+        // 2. Play Chinese definition and wait for completion
+        if (currentWord && levelId) {
+            const dataId = levelId.replace('level', '');
+            const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
+                .replace(/\//g, '_')
+                .replace(/\+/g, '-')
+                .replace(/=/g, '');
+            const definitionPath = `/voices/WordFlash/level${dataId}/chinese/${encodedDefinition}.mp3`;
+            await playAudioWithDelay(definitionPath);
+        }
+
+        // 3. Gap between definition and word
+        await new Promise(resolve => setTimeout(resolve, 700));
         
-        // 3. Wait 0.5 seconds before moving to next word
-        await new Promise(resolve => setTimeout(resolve, 2500));
+        // 4. Play English word and wait for completion
+        if (currentWord && levelId) {
+            const dataId = levelId.replace('level', '');
+            const wordPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
+            await playAudioWithDelay(wordPath);
+        }
+
+        // 5. Final pause before next word
+        await new Promise(resolve => setTimeout(resolve, 500));
         
         // Resort every 20 words
         if ((currentIndex + 1) % 20 === 0) {
