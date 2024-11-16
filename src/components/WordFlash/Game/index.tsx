@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { setCookie, getCookie } from '../../../utils/cookies';
 import { WordData, WordWithScore } from '../types';
 import './styles.css';
+import { FaPlay } from 'react-icons/fa';
 
 export default function WordFlashGame() {
     const navigate = useNavigate();
@@ -13,6 +14,9 @@ export default function WordFlashGame() {
     const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
     const [isProcessing, setIsProcessing] = useState(false);
+    const audioRef = useRef<HTMLAudioElement | null>(null);
+    const [audioLoaded, setAudioLoaded] = useState(false);
+    const [hasUserInteracted, setHasUserInteracted] = useState(false);
 
     // Load and prepare word list
     useEffect(() => {
@@ -100,8 +104,34 @@ export default function WordFlashGame() {
         }
     }, [currentIndex, wordList.length]); // Only shuffle when word changes
 
+    const playWordAudio = () => {
+        if (wordList.length === 0) return;
+        
+        const currentWord = wordList[currentIndex];
+        if (currentWord && levelId) {
+            const dataId = levelId.replace('level', '');
+            const audioPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
+            
+            if (audioRef.current) {
+                audioRef.current.src = audioPath;
+                // Always attempt to play when explicitly called
+                audioRef.current.play().catch(error => {
+                    console.error('Error playing audio:', error, 'Path:', audioPath);
+                });
+            }
+        }
+    };
+
+    // Play audio when word changes AND user has interacted
+    useEffect(() => {
+        if (wordList.length > 0 && hasUserInteracted) {
+            playWordAudio();
+        }
+    }, [currentIndex]);
+
     // Handle choice selection
     const handleChoice = async (choice: string) => {
+        setHasUserInteracted(true);  // Mark that user has interacted
         if (isProcessing) return;
         setIsProcessing(true);
         
@@ -176,6 +206,8 @@ export default function WordFlashGame() {
 
     return (
         <div className="word-flash-game">
+            <audio ref={audioRef} />
+            
             <button 
                 className="back-button"
                 onClick={() => navigate('/word-flash')}
@@ -183,7 +215,19 @@ export default function WordFlashGame() {
                 Back to Word Flash Home
             </button>
             <div className="word-section">
-                <h1 className="word">{currentWord.word}</h1>
+                <div className="word-container">
+                    <h1 className="word">{currentWord.word}</h1>
+                    <button 
+                        className="play-button"
+                        onClick={() => {
+                            setHasUserInteracted(true);
+                            playWordAudio();
+                        }}
+                        aria-label="Play pronunciation"
+                    >
+                        <FaPlay />
+                    </button>
+                </div>
                 <p className="word-type">{currentWord.meaning.type}</p>
             </div>
             <div className="choices">

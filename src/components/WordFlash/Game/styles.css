@@ -121,4 +121,37 @@
     font-size: 0.9rem;
     margin-top: -10px;
     margin-bottom: 20px;
+}
+
+.word-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.play-button {
+    background: #4a90e2;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 0;
+    margin-left: 8px;
+}
+
+.play-button:hover {
+    background: #357abd;
+}
+
+.play-button svg {
+    width: 12px;
+    height: 12px;
+    color: white;
+    margin-left: 2px;
 } 
