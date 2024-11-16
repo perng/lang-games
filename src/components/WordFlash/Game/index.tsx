@@ -183,7 +183,8 @@ export default function WordFlashGame() {
         // Update cookie and word list with more punitive scoring for wrong answers
         const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
         const currentScore = parseInt(getCookie(cookieKey) || '0');
-        const newScore = Math.max(1, currentScore + (isAnswerCorrect ? 1 : -1));  // -1 for wrong answers
+        // set lower limit to -1 for score
+        const newScore = Math.max(-1, currentScore + (isAnswerCorrect ? 1 : -1));  // -1 for wrong answers
         setCookie(cookieKey, newScore.toString());
 
         // Update wordList with new score
@@ -233,15 +234,9 @@ export default function WordFlashGame() {
         // 5. Final pause before next word
         await new Promise(resolve => setTimeout(resolve, 500));
         
-        // Resort every 20 words
-        if ((currentIndex + 1) % 20 === 0) {
-            const newList = [...newWordList];
-            sortWordList(newList);
-            setWordList(newList);
-        }
 
         // After all the delays and before moving to next word
-        if ((currentIndex + 1) % 2 === 0) {
+        if ((currentIndex + 1) % 5 === 0) {
             console.log('Showing slogan');
             // Show random slogan
             const randomIndex = Math.floor(Math.random() * slogans.length);
