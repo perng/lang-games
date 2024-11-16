@@ -111,6 +111,7 @@ export default function WordFlashGame() {
         if (currentWord && levelId) {
             const dataId = levelId.replace('level', '');
             const audioPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
+            console.log(audioPath);
             
             if (audioRef.current) {
                 audioRef.current.src = audioPath;
@@ -135,7 +136,35 @@ export default function WordFlashGame() {
         }
     }, [currentIndex, hasUserInteracted]);
 
-    // Handle choice selection
+    // Add this new function to play Chinese definition audio
+    const playDefinitionAudio = () => {
+        if (wordList.length === 0) return;
+        
+        const currentWord = wordList[currentIndex];
+        if (currentWord && levelId) {
+            const dataId = levelId.replace('level', '');
+            // Encode the Chinese text to match the filename
+            const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
+                .replace(/\//g, '_')
+                .replace(/\+/g, '-')
+                .replace(/=/g, '');
+            const audioPath = `/voices/WordFlash/level${dataId}/chinese/${encodedDefinition}.mp3`;
+            console.log('Playing definition:', audioPath); // Debug log
+            
+            if (audioRef.current) {
+                audioRef.current.src = audioPath;
+                audioRef.current.play()
+                    .catch(error => {
+                        if (error.name !== 'NotAllowedError') {
+                            console.error('Error playing definition audio:', error);
+                            console.error('Audio path:', audioPath);
+                        }
+                    });
+            }
+        }
+    };
+
+    // Modify the handleChoice function
     const handleChoice = async (choice: string) => {
         setHasUserInteracted(true);
         if (isProcessing) return;
@@ -172,14 +201,16 @@ export default function WordFlashGame() {
         }
 
         // New sequence:
-        // 1. Wait 1 second
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        // 1. Wait 0.5 seconds, then play Chinese definition
+        await new Promise(resolve => setTimeout(resolve, 100));
+        playDefinitionAudio();
         
-        // 2. Play audio
+        // 2. Wait 0.7 seconds, then play English word
+        await new Promise(resolve => setTimeout(resolve, 1500));
         playWordAudio();
         
-        // 3. Wait another 1 second
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        // 3. Wait 0.5 seconds before moving to next word
+        await new Promise(resolve => setTimeout(resolve, 2500));
         
         // Resort every 20 words
         if ((currentIndex + 1) % 20 === 0) {
