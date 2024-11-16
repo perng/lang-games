@@ -114,10 +114,16 @@ export default function WordFlashGame() {
             
             if (audioRef.current) {
                 audioRef.current.src = audioPath;
-                // Always attempt to play when explicitly called
-                audioRef.current.play().catch(error => {
-                    console.error('Error playing audio:', error, 'Path:', audioPath);
-                });
+                audioRef.current.play()
+                    .then(() => {
+                        // Audio played successfully
+                    })
+                    .catch(error => {
+                        // Only log errors that aren't related to user interaction
+                        if (error.name !== 'NotAllowedError') {
+                            console.error('Error playing audio:', error.name);
+                        }
+                    });
             }
         }
     };
