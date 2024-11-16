@@ -1,9 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import level6Data from '../../../data/WordFlash/word_flash_level_6.json';
 import { getCookie, deleteCookie } from '../../../utils/cookies';
 import './styles.css';
 
 export default function WordFlashMenu() {
+    const navigate = useNavigate();
+
     const levels = [
         {
             ...level6Data,
@@ -70,8 +72,8 @@ export default function WordFlashMenu() {
                                     ></div>
                                 </div>
                                 <div className="stats-text">
-                                    <span>Progress: {level.progress}%</span>
-                                    <span>Mastered: {level.masteredMeanings}/{level.totalMeanings}</span>
+                                    <div>Progress: {level.progress}%</div>                                    
+                                    <div>Mastered: {level.masteredMeanings}/{level.totalMeanings}</div>
                                 </div>
                             </div>
                         </div>
@@ -79,10 +81,10 @@ export default function WordFlashMenu() {
                 ))}
             </div>
             <button 
-                className="clear-scores-button" 
-                onClick={handleClearScores}
+                className="home-button"
+                onClick={() => navigate('/')}
             >
-                Clear All Scores
+                Language Games
             </button>
         </div>
     );
