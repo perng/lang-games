@@ -242,8 +242,9 @@ export default function WordFlashGame() {
                 Back to Word Flash Home
             </button>
             <div className="word-section">
-                <div className="word-container">
-                    <h1 className="word">{currentWord.word}</h1>
+                <h1 className="word">{currentWord.word}</h1>
+                <div className="type-container">
+                    <p className="word-type">{currentWord.meaning.type}</p>
                     <button 
                         className="play-button"
                         onClick={() => {
@@ -255,7 +256,6 @@ export default function WordFlashGame() {
                         <FaPlay />
                     </button>
                 </div>
-                <p className="word-type">{currentWord.meaning.type}</p>
             </div>
             <div className="choices">
                 {choices.map((choice, index) => (
@@ -283,16 +283,12 @@ export default function WordFlashGame() {
             
             <div className="stats-section">
                 <div className="stat-item">
-                    <span className="stat-label">Progress:</span>
+                    <span className="stat-label">進度:</span>
                     <span className="stat-value">{stats.progress}%</span>
                 </div>
                 <div className="stat-item">
-                    <span className="stat-label">Total Word Definitions:</span>
-                    <span className="stat-value">{stats.totalMeanings}</span>
-                </div>
-                <div className="stat-item">
-                    <span className="stat-label">Words to Practice:</span>
-                    <span className="stat-value">{stats.wordsToReview}</span>
+                    <span className="stat-label">尚餘:</span>
+                    <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>                
                 </div>
             </div>
         </div>
