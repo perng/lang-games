@@ -224,34 +224,6 @@ function ArticleGame() {
     return () => window.removeEventListener('keypress', handleKeyPress);
   }, [results, articleIndex]);
 
-  const getWordClassName = (word: WordInfo): string => {
-    const classes = ['word'];
-    
-    // A word should be capitalized if:
-    // 1. It's a name (always), or
-    // 2. It's the first word of a sentence AND not preceded by 'the'
-    const shouldCapitalize = 
-      NAMES.has(word.text) || 
-      (word.isSentenceStart && !gameState.playerSelections.has(word.index));
-    
-    if (shouldCapitalize) {
-      classes.push('capitalize');
-    }
-    
-    if (results) {
-      if (results.correct.includes(word.index)) {
-        classes.push('correct');
-      } else if (results.errors.includes(word.index)) {
-        classes.push('error');
-      } else if (results.missed.includes(word.index)) {
-        classes.push('missed');
-      }
-    } else if (gameState.playerSelections.has(word.index)) {
-      classes.push('selected');
-    }
-    
-    return classes.join(' ');
-  };
 
   const getScoreEmoji = (percentage: number): string => {
     if (percentage <= 0) return '🤬';  // very angry
@@ -295,6 +267,16 @@ function ArticleGame() {
     const isError = results && results.errors.includes(word.index);
     const isMissed = results && results.missed.includes(word.index);
     
+    // Determine if we should show "The" or "the"
+    const shouldCapitalizeThe = word.isSentenceStart;
+    
+    // Determine if the word should be lowercase
+    // Only keep capitalization if it's a name OR if it's at sentence start WITHOUT "the"
+    const shouldLowercaseWord = !NAMES.has(word.text) && 
+      (!(word.isSentenceStart) || isSelected || isMissed);
+    
+    const displayWord = shouldLowercaseWord ? word.text.toLowerCase() : word.text;
+    
     return (
       <span 
         key={word.index}
@@ -309,10 +291,10 @@ function ArticleGame() {
       >
         {(isSelected || isMissed) && (
           <span className={isError ? 'strike-through' : ''}>
-            the{' '}
+            {shouldCapitalizeThe ? 'The ' : 'the '}
           </span>
         )}
-        {word.text}{' '}
+        {displayWord}{' '}
       </span>
     );
   };
