@@ -317,13 +317,6 @@ export default function WordFlashGame() {
 
     return (
         <div className="word-flash-game">
-            <button 
-                className="back-button"
-                onClick={() => navigate('/word-flash')}
-            >
-                Back
-            </button>
-
             {showWelcome && (
                 <div className="welcome-overlay">
                     <div className="welcome-content">
@@ -392,16 +385,25 @@ export default function WordFlashGame() {
                 </div>
             </div>
 
-            <div className="toggle-container">
-                <label className="toggle-switch">
-                    <input
-                        type="checkbox"
-                        checked={readDefinition}
-                        onChange={(e) => setReadDefinition(e.target.checked)}
-                    />
-                    <span className="toggle-slider"></span>
-                </label>
-                <span className="toggle-label">讀中文定義</span>
+            <div className="game-footer">
+                <button 
+                    className="back-button"
+                    onClick={() => navigate('/word-flash')}
+                >
+                    Back
+                </button>
+                
+                <div className="toggle-container">
+                    <label className="toggle-switch">
+                        <input
+                            type="checkbox"
+                            checked={readDefinition}
+                            onChange={(e) => setReadDefinition(e.target.checked)}
+                        />
+                        <span className="toggle-slider"></span>
+                    </label>
+                    <span className="toggle-label">讀中文定義</span>
+                </div>
             </div>
 
             {showSlogan && (
