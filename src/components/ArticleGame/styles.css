@@ -509,3 +509,8 @@ button:hover {
   position: relative;
   z-index: 1;
 }
+
+.strike-through {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}

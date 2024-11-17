@@ -68,6 +68,15 @@ function ArticleGame() {
                                    rawWords[index - 1].toLowerCase() === 'the' && 
                                    (index === 1 || /[.!?]$/.test(rawWords[index - 2]));
       
+      console.log('Processing word:', {
+        word,
+        index,
+        isThe,
+        isSentenceStart,
+        isFirstNonArticleWord,
+        currentWordsLength: words.length
+      });
+      
       if (!isThe) {
         words.push({
           text: word,
@@ -75,9 +84,13 @@ function ArticleGame() {
           isSentenceStart,
           isFirstNonArticleWord
         });
-      } else if (isSentenceStart) {
+      }
+      
+      if (isThe) {
         correctThePositions.add(words.length);
-        sentenceStarts.add(words.length);
+        if (isSentenceStart) {
+          sentenceStarts.add(words.length);
+        }
       }
       
       if (!isThe) {
@@ -94,9 +107,9 @@ function ArticleGame() {
     }));
 
     console.log('Finished initialization:', {
-      words,
-      correctThePositions,
-      sentenceStarts,
+      words: words.map(w => ({ ...w, text: w.text })),
+      correctThePositions: Array.from(correctThePositions),
+      sentenceStarts: Array.from(sentenceStarts),
     });
   };
 
@@ -104,6 +117,8 @@ function ArticleGame() {
     if (results) return;
     
     createSpark(e.clientX, e.clientY);
+    
+    console.log('Toggling the at index:', index);
     
     setGameState(prev => {
       const newSelections = new Set(prev.playerSelections);
@@ -114,6 +129,7 @@ function ArticleGame() {
         newSelections.add(index);
       }
 
+      console.log('New selections:', Array.from(newSelections));
       return {
         ...prev,
         playerSelections: newSelections
@@ -122,6 +138,12 @@ function ArticleGame() {
   };
 
   const checkResults = () => {
+    console.log('Checking results:', {
+      correctPositions: Array.from(gameState.correctThePositions),
+      playerSelections: Array.from(gameState.playerSelections),
+      words: gameState.words.map(w => ({ ...w, text: w.text, isSentenceStart: w.isSentenceStart }))
+    });
+
     const gameResults: GameResults = {
       correct: [],
       errors: [],
@@ -134,7 +156,16 @@ function ArticleGame() {
     };
 
     gameState.words.forEach(word => {
-      if (gameState.correctThePositions.has(word.index - 1)) {
+      console.log('Evaluating word:', {
+        text: word.text,
+        index: word.index,
+        isSentenceStart: word.isSentenceStart,
+        isFirstNonArticleWord: word.isFirstNonArticleWord,
+        isCorrectPosition: gameState.correctThePositions.has(word.index),
+        isPlayerSelected: gameState.playerSelections.has(word.index)
+      });
+
+      if (gameState.correctThePositions.has(word.index)) {
         if (gameState.playerSelections.has(word.index)) {
           gameResults.correct.push(word.index);
         } else {
@@ -144,6 +175,8 @@ function ArticleGame() {
         gameResults.errors.push(word.index);
       }
     });
+
+    console.log('Game results:', gameResults);
 
     const finalResults = {
       correct: gameResults.correct,
@@ -256,6 +289,34 @@ function ArticleGame() {
     setShowMissionBrief(true);
   };
 
+  const renderWord = (word: WordInfo) => {
+    const isSelected = gameState.playerSelections.has(word.index);
+    const isCorrect = results && results.correct.includes(word.index);
+    const isError = results && results.errors.includes(word.index);
+    const isMissed = results && results.missed.includes(word.index);
+    
+    return (
+      <span 
+        key={word.index}
+        className={`
+          word
+          ${isSelected ? 'selected' : ''}
+          ${isCorrect ? 'correct' : ''}
+          ${isError ? 'error' : ''}
+          ${isMissed ? 'missed' : ''}
+        `}
+        onClick={(e) => toggleThe(word.index, e)}
+      >
+        {(isSelected || isMissed) && (
+          <span className={isError ? 'strike-through' : ''}>
+            the{' '}
+          </span>
+        )}
+        {word.text}{' '}
+      </span>
+    );
+  };
+
   return (
     <div className="article-game">
       <h1 className="main-title">THE Game</h1>
@@ -281,37 +342,7 @@ function ArticleGame() {
 
         <div className="game-content">
           <div className="word-container">
-            {gameState.words.map((word, index) => {
-              const isSelected = gameState.playerSelections.has(word.index);
-              const isName = NAMES.has(word.text);
-              
-              let displayWord;
-              if (isName) {
-                displayWord = word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase();
-              } else if (word.isSentenceStart || (word.isFirstNonArticleWord && !isSelected)) {
-                displayWord = word.text.charAt(0).toUpperCase() + word.text.slice(1).toLowerCase();
-              } else {
-                displayWord = word.text.toLowerCase();
-              }
-              
-              let articleElement = null;
-              const theArticle = (word.isSentenceStart || word.isFirstNonArticleWord) ? 'The' : 'the';
-
-              if (isSelected) {
-                articleElement = <span className="article">{theArticle}&nbsp;</span>;
-              }
-
-              return (
-                <span
-                  key={index}
-                  className={getWordClassName(word)}
-                  onClick={(e) => toggleThe(word.index, e)}
-                >
-                  {articleElement}
-                  {displayWord}
-                </span>
-              );
-            })}
+            {gameState.words.map(renderWord)}
           </div>
         </div>
 

@@ -1,1 +1,119 @@
- 
+.game-menu {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.game-menu h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.levels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.level-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+}
+
+.level-card:hover {
+    transform: translateY(-4px);
+}
+
+.level-image {
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.level-image img {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+}
+
+.level-content {
+    padding: 1.5rem;
+}
+
+.level-content h2 {
+    margin: 0 0 0.5rem 0;
+}
+
+.level-content .description {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.level-stats {
+    margin-top: 1rem;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s ease;
+}
+
+.stats-text {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.stats-text div {
+    margin-bottom: 0.5rem;
+}
+
+.clear-scores-button {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.8rem 1.5rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.clear-scores-button:hover {
+    background-color: #d32f2f;
+}
+
+.home-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.home-button:hover {
+    background-color: #3a3a3a;
+} 
