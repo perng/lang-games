@@ -37,24 +37,29 @@ def get_available_voices():
         return [], []
 
 def generate_english_audio(word, output_dir, en_voices):
+    audio_file = os.path.join(output_dir, f"{word}.mp3")
+    
+    # Skip if file already exists
+    if os.path.exists(audio_file):
+        print(f"Skipping existing English audio: {word} -> {audio_file}")
+        return
+    
     speech_config = get_speech_config()
     # Randomly select an English voice
     voice_name = random.choice(en_voices)
     speech_config.speech_synthesis_voice_name = voice_name
     
-    audio_file = os.path.join(output_dir, f"{word}.mp3")
-    
     audio_config = speechsdk.audio.AudioOutputConfig(filename=audio_file)
     synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_config)
     
-    max_retries = 3  # Maximum number of retry attempts
+    max_retries = 3
     for attempt in range(max_retries):
         try:
             result = synthesizer.speak_text_async(word).get()
             
             if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
                 print(f"English audio saved: {word} -> {audio_file} (Voice: {voice_name})")
-                return  # Success, exit the function
+                return
             else:
                 print(f"Error generating English audio for {word}: {result.reason}")
                 if result.reason == speechsdk.ResultReason.Canceled:
@@ -65,37 +70,41 @@ def generate_english_audio(word, output_dir, en_voices):
                     except Exception as e:
                         print(f"Failed to get cancellation details: {e}")
                 
-                if attempt < max_retries - 1:  # Don't sleep on the last attempt
+                if attempt < max_retries - 1:
                     print(f"Retrying in 10 seconds... (Attempt {attempt + 1}/{max_retries})")
                     time.sleep(10)
                 
         except Exception as e:
             print(f"Unexpected error generating audio for {word}: {e}")
-            if attempt < max_retries - 1:  # Don't sleep on the last attempt
+            if attempt < max_retries - 1:
                 print(f"Retrying in 10 seconds... (Attempt {attempt + 1}/{max_retries})")
                 time.sleep(10)
 
 def generate_chinese_audio(text, output_dir, zh_voices):
-    speech_config = get_speech_config()
-    # Randomly select a Chinese voice
-    voice_name = random.choice(zh_voices)
-    speech_config.speech_synthesis_voice_name = voice_name
-    
     safe_filename = base64.b64encode(text.encode('utf-8')).decode('utf-8')
     safe_filename = safe_filename.replace('/', '_').replace('+', '-').replace('=', '')
     audio_file = os.path.join(output_dir, f"{safe_filename}.mp3")
     
+    # Skip if file already exists
+    if os.path.exists(audio_file):
+        print(f"Skipping existing Chinese audio: {text} -> {audio_file}")
+        return
+    
+    speech_config = get_speech_config()
+    voice_name = random.choice(zh_voices)
+    speech_config.speech_synthesis_voice_name = voice_name
+    
     audio_config = speechsdk.audio.AudioOutputConfig(filename=audio_file)
     synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_config)
     
-    max_retries = 3  # Maximum number of retry attempts
+    max_retries = 3
     for attempt in range(max_retries):
         try:
             result = synthesizer.speak_text_async(text).get()
             
             if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
                 print(f"Chinese audio saved: {text} -> {audio_file} (Voice: {voice_name})")
-                return  # Success, exit the function
+                return
             else:
                 print(f"Error generating Chinese audio for {text}: {result.reason}")
                 if result.reason == speechsdk.ResultReason.Canceled:
@@ -106,13 +115,13 @@ def generate_chinese_audio(text, output_dir, zh_voices):
                     except Exception as e:
                         print(f"Failed to get cancellation details: {e}")
                 
-                if attempt < max_retries - 1:  # Don't sleep on the last attempt
+                if attempt < max_retries - 1:
                     print(f"Retrying in 10 seconds... (Attempt {attempt + 1}/{max_retries})")
                     time.sleep(10)
                 
         except Exception as e:
             print(f"Unexpected error generating audio for {text}: {e}")
-            if attempt < max_retries - 1:  # Don't sleep on the last attempt
+            if attempt < max_retries - 1:
                 print(f"Retrying in 10 seconds... (Attempt {attempt + 1}/{max_retries})")
                 time.sleep(10)
 
