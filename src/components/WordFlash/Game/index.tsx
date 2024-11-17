@@ -20,6 +20,7 @@ export default function WordFlashGame() {
     const [slogans, setSlogans] = useState<string[]>([]);
     const [showSlogan, setShowSlogan] = useState(false);
     const [currentSlogan, setCurrentSlogan] = useState('');
+    const [readDefinition, setReadDefinition] = useState(true);
 
     // Load and prepare word list
     useEffect(() => {
@@ -206,50 +207,58 @@ export default function WordFlashGame() {
             setCookie(`wordFlash-total-${levelId}`, totalMeanings.toString());
         }
 
-        // New sequence with guaranteed delays:
-        // 1. Initial pause after selection
-        await new Promise(resolve => setTimeout(resolve, 500));
-        
-        // 2. Play Chinese definition and wait for completion
-        if (currentWord && levelId) {
-            const dataId = levelId.replace('level', '');
-            const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
-                .replace(/\//g, '_')
-                .replace(/\+/g, '-')
-                .replace(/=/g, '');
-            const definitionPath = `/voices/WordFlash/level${dataId}/chinese/${encodedDefinition}.mp3`;
-            await playAudioWithDelay(definitionPath);
+        try {
+            // 1. Initial pause after selection
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            // 2. Play Chinese definition only if enabled
+            if (readDefinition) {
+                if (currentWord && levelId) {
+                    const dataId = levelId.replace('level', '');
+                    const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
+                        .replace(/\//g, '_')
+                        .replace(/\+/g, '-')
+                        .replace(/=/g, '');
+                    const definitionPath = `/voices/WordFlash/level${dataId}/chinese/${encodedDefinition}.mp3`;
+                    await playAudioWithDelay(definitionPath);
+                }
+            }
+
+            // 3. Gap between definition and word
+            await new Promise(resolve => setTimeout(resolve, 700));
+            
+            // 4. Always play English word
+            if (currentWord && levelId) {
+                const dataId = levelId.replace('level', '');
+                const wordPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
+                await playAudioWithDelay(wordPath);
+            }
+
+            // 5. Final pause before next word
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+
+            // After all the delays and before moving to next word
+            if ((currentIndex + 1) % 5 === 0) {
+                console.log('Showing slogan');
+                // Show random slogan
+                const randomIndex = Math.floor(Math.random() * slogans.length);
+                setCurrentSlogan(slogans[randomIndex]);
+                setShowSlogan(true);
+                return; // Don't move to next word yet
+            }
+
+            setSelectedChoice(null);
+            setIsCorrect(null);
+            
+            setCurrentIndex((prev) => (prev + 1) % wordList.length);
+            setIsProcessing(false);
+        } catch (error) {
+            console.error('Error handling choice:', error);
+            setSelectedChoice(null);
+            setIsCorrect(null);
+            setIsProcessing(false);
         }
-
-        // 3. Gap between definition and word
-        await new Promise(resolve => setTimeout(resolve, 700));
-        
-        // 4. Play English word and wait for completion
-        if (currentWord && levelId) {
-            const dataId = levelId.replace('level', '');
-            const wordPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
-            await playAudioWithDelay(wordPath);
-        }
-
-        // 5. Final pause before next word
-        await new Promise(resolve => setTimeout(resolve, 500));
-        
-
-        // After all the delays and before moving to next word
-        if ((currentIndex + 1) % 5 === 0) {
-            console.log('Showing slogan');
-            // Show random slogan
-            const randomIndex = Math.floor(Math.random() * slogans.length);
-            setCurrentSlogan(slogans[randomIndex]);
-            setShowSlogan(true);
-            return; // Don't move to next word yet
-        }
-
-        setSelectedChoice(null);
-        setIsCorrect(null);
-        
-        setCurrentIndex((prev) => (prev + 1) % wordList.length);
-        setIsProcessing(false);
     };
 
     // Calculate stats
@@ -381,6 +390,18 @@ export default function WordFlashGame() {
                     <span className="stat-label">尚餘:</span>
                     <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>                
                 </div>
+            </div>
+
+            <div className="toggle-container">
+                <label className="toggle-switch">
+                    <input
+                        type="checkbox"
+                        checked={readDefinition}
+                        onChange={(e) => setReadDefinition(e.target.checked)}
+                    />
+                    <span className="toggle-slider"></span>
+                </label>
+                <span className="toggle-label">讀中文定義</span>
             </div>
 
             {showSlogan && (
