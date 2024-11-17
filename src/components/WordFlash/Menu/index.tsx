@@ -1,22 +1,19 @@
 import { Link, useNavigate } from 'react-router-dom';
-import level6Data from '../../../data/WordFlash/word_flash_level_6.json';
+import levelsData from '../../../data/WordFlash/levels.json';
 import { getCookie } from '../../../utils/cookies';
 import './styles.css';
 
 export default function WordFlashMenu() {
     const navigate = useNavigate();
 
-    const levels = [
-        {
-            ...level6Data,
-            progress: parseFloat(getCookie(`wordFlash-progress-${level6Data.id}`) || '0').toFixed(2),
-            masteredMeanings: parseInt(getCookie(`wordFlash-mastered-${level6Data.id}`) || '0'),
-            totalMeanings: parseInt(getCookie(`wordFlash-total-${level6Data.id}`) || '0')
-        }
-    ];
+    const levels = levelsData.levels.map(level => ({
+        ...level,
+        progress: parseFloat(getCookie(`wordFlash-progress-${level.id}`) || '0').toFixed(2),
+        masteredMeanings: parseInt(getCookie(`wordFlash-mastered-${level.id}`) || '0'),
+        totalMeanings: parseInt(getCookie(`wordFlash-total-${level.id}`) || '0')
+    }));
 
     const getImageUrl = (image_name: string) => {
-        console.log(image_name);
         try {
             return new URL(`../../../images/word-flash/${image_name}.jpg`, import.meta.url).href;
         } catch (error) {
@@ -24,7 +21,6 @@ export default function WordFlashMenu() {
             return '';
         }
     };
-
 
     return (
         <div className="game-menu">

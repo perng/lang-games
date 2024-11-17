@@ -1,9 +1,54 @@
 import { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { setCookie, getCookie } from '../../../utils/cookies';
-import { WordData, WordWithScore } from '../types';
+import { WordWithScore } from '../types';
 import './styles.css';
 import { FaPlay } from 'react-icons/fa';
+import levelsData from '../../../data/WordFlash/levels.json';
+
+// Add these type definitions at the top of the file
+interface WordMeaning {
+    type: string;
+    meaning_en_US: string;
+    meaning_zh_TW: string;
+    wrong_meaning_zh_TW: string[];
+    examples: {
+        sentence: string;
+        translation_zh_TW: string;
+    }[];
+    synonyms: string[];
+}
+
+interface WordData {
+    word: string;
+    meanings: WordMeaning[];
+    confusion: string[];
+}
+
+// Add a type for the JSON file structure
+interface WordFileData {
+    default: WordData[];
+}
+
+// Add this helper function at the top level
+const loadWordFile = async (wordFile: string): Promise<WordFileData> => {
+    switch (wordFile) {
+        case 'word_flash_level_1.json':
+            return import('../../../data/WordFlash/word_flash_level_1.json') as Promise<WordFileData>;
+        case 'word_flash_level_2.json':
+            return import('../../../data/WordFlash/word_flash_level_2.json') as Promise<WordFileData>;
+        case 'word_flash_level_3.json':
+            return import('../../../data/WordFlash/word_flash_level_3.json') as Promise<WordFileData>;
+        case 'word_flash_level_4.json':
+            return import('../../../data/WordFlash/word_flash_level_4.json') as Promise<WordFileData>;
+        case 'word_flash_level_5.json':
+            return import('../../../data/WordFlash/word_flash_level_5.json') as Promise<WordFileData>;
+        case 'word_flash_level_6.json':
+            return import('../../../data/WordFlash/word_flash_level_6.json') as Promise<WordFileData>;
+        default:
+            throw new Error(`Unknown word file: ${wordFile}`);
+    }
+};
 
 export default function WordFlashGame() {
     const navigate = useNavigate();
@@ -31,18 +76,22 @@ export default function WordFlashGame() {
             }
 
             try {
-                // Remove 'level' from the levelId since it's already in the filename
-                const dataId = levelId.replace('level', '');
-                const levelData = (await import(`../../../data/WordFlash/word_flash_level_${dataId}.json`)).default;
+                const level = levelsData.levels.find(l => l.id === levelId);
+                if (!level) {
+                    console.error('Level not found');
+                    return;
+                }
+
+                // Use the new helper function
+                const { default: words } = await loadWordFile(level.wordFile);
                 const preparedList: WordWithScore[] = [];
                 
                 // Flatten words and their meanings into a single list
-                levelData.words.forEach((word: WordData) => {
+                words.forEach((word: WordData) => {
                     word.meanings.forEach((meaning, index) => {
-                        // Add index to track which meaning this is
                         const meaningWithIndex = {
                             ...meaning,
-                            index  // Add index to track which meaning this is
+                            index
                         };
                         
                         const cookieKey = `${word.word}-${index}`;
