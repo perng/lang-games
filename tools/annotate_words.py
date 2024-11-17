@@ -4,7 +4,7 @@ import argparse
 from itertools import islice
 
 sys_prompt = '''
-Given a list of words, generate a JSON file in the following format
+Given a list of words, generate a JSON file, and no other text in the following format
 
 [{"word": "arm",
   "meanings": [
