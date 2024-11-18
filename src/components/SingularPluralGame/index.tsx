@@ -41,8 +41,8 @@ function formatBothCorrect(form1: string, form2: string) {
 }
 
 function SingularPluralGame() {
-  const { storyId } = useParams<{ storyId: string }>();  // Explicitly type the params
   const navigate = useNavigate();
+  const { storyId } = useParams<{ storyId: string }>();  // Explicitly type the params
   const [gameState, setGameState] = useState<GameState>({
     words: [],
     playerSelections: new Map(),
@@ -272,62 +272,10 @@ function SingularPluralGame() {
   // Create a helper function to get consistent cookie keys
   const getCookieKey = (id: string | number) => `singular-plural-${id}`;
 
-  // Add this function to clear all game scores
-  const clearAllScores = () => {
-    // Clear cookies for all articles
-    articles.forEach((_, index) => {
-      const cookieKey = getCookieKey(index);
-      deleteCookie(cookieKey);
-    });
-    
-    // Force reload to update the display
-    window.location.reload();
-  };
-
-  const renderArticleList = () => {
-    console.log('Rendering article list');
-    return (
-      <div>
-        <h1 className="main-title">One or Many</h1>
-        <div className="article-list">
-          {articles.map((article, index) => {
-            console.log(`Checking article ${index}: ${article.title}`);
-            const cookieKey = getCookieKey(index);
-            console.log('Looking for cookie:', cookieKey);
-            const savedScore = getCookie(cookieKey);
-            console.log('Found score for article', index, ':', savedScore);
-            
-            const scoreDisplay = savedScore 
-              ? `Last Score: ${savedScore}%`
-              : 'Not attempted yet';
-            
-            return (
-              <button
-                key={index}
-                className="article-item"
-                onClick={() => navigate(`/singular-plural/${index}`)}
-              >
-                <h2>{article.title}</h2>
-                <div className="score-display">
-                  {scoreDisplay}
-                </div>
-              </button>
-            );
-          })}
-        </div>
-        <button 
-          onClick={clearAllScores}
-          className="clear-scores-button"
-        >
-          Clear All Scores
-        </button>
-      </div>
-    );
-  };
-
+  // Add this function
   const handleBackToMenu = () => {
-    navigate('/singular-plural', { replace: true });
-    window.location.reload(); // Force reload to ensure cookies are read
+    logEvent('Navigation', 'Back to Singular Plural Menu');
+    navigate('/singular-plural');
   };
 
   // Render article list view
@@ -345,52 +293,48 @@ function SingularPluralGame() {
         <IoArrowBack size={20} />
       </button>
 
+      <span 
+        onClick={handleMissionBriefClick}
+        className="mission-brief-link"
+      >
+        📜
+      </span>
+
       <h1 className="main-title">One or Many</h1>
       <h2 className="story-title">{currentStory?.title}</h2>
       <div className="game-container">
-        <div className="game-header">
-          <button 
-            onClick={handleMissionBriefClick}
-            className="mission-brief-button"
-          >
-            <span>Mission Brief</span> 📜
-          </button>
-        </div>
-
         {showMissionBrief && (
-          <div className="mission-brief-overlay">
+          <div 
+            className="mission-brief-overlay"
+            onClick={() => setShowMissionBrief(false)}
+          >
             <div className="mission-brief-content">
-              <h2>🧙‍♂️ Secret Mission: The Singular-Plural Spell 🪄</h2>
-              
-              <p>Greetings, Apprentice Word Wizard! 🎭</p>
-              
-              <p>The Grand Library of Lexicon has been hit by a chaotic spell, causing words to shift 
-              between their singular and plural forms! As our newest recruit to the Grammatical 
-              Guard, your mission is critical! 🏰</p>
+              <div className="scroll-content">
+                <h2>🧙‍♂️ Secret Mission: The Singular-Plural Spell 🪄</h2>
+                
+                <p>Greetings, Apprentice Word Wizard! 🎭</p>
+                
+                <p>The Grand Library of Lexicon has been hit by a chaotic spell, causing words to shift 
+                between their singular and plural forms! As our newest recruit to the Grammatical 
+                Guard, your mission is critical! 🏰</p>
 
-              <h3>Your Magical Tasks 📝</h3>
-              <ul>
-                <li>🔮 Click on the enchanted words to toggle their form</li>
-                <li>✨ Transform plurals to singulars (or vice versa) as the story requires</li>
-                <li>🎯 Aim for perfect harmony in the text</li>
-              </ul>
+                <h3>Your Magical Tasks 📝</h3>
+                <ul>
+                  <li>🔮 Click on the enchanted words to toggle their form</li>
+                  <li>✨ Transform plurals to singulars (or vice versa) as the story requires</li>
+                  <li>🎯 Aim for perfect harmony in the text</li>
+                </ul>
 
-              <h3>Spell Power Levels 🌟</h3>
-              <ul>
-                <li>⭐⭐⭐ 90%+ : Master Wizard</li>
-                <li>⭐⭐ 70-89% : Skilled Sorcerer</li>
-                <li>⭐ Below 70% : Apprentice (Keep practicing!)</li>
-              </ul>
+                <h3>Spell Power Levels 🌟</h3>
+                <ul>
+                  <li>⭐⭐⭐ 90%+ : Master Wizard</li>
+                  <li>⭐⭐ 70-89% : Skilled Sorcerer</li>
+                  <li>⭐ Below 70% : Apprentice (Keep practicing!)</li>
+                </ul>
 
-              <p>Remember: Every word you correct helps restore balance to the magical realm of grammar! 
-              The Library's fate rests in your hands! 🪄✨</p>
-
-              <button 
-                onClick={() => setShowMissionBrief(false)}
-                className="close-mission-brief"
-              >
-                Accept Mission 🎯
-              </button>
+                <p>Remember: Every word you correct helps restore balance to the magical realm of grammar! 
+                The Library's fate rests in your hands! 🪄✨</p>
+              </div>
             </div>
           </div>
         )}

@@ -252,6 +252,11 @@ export default function AnATheGame() {
     logPageView(location.pathname);
   }, [location]);
 
+  const handleMissionBriefClick = () => {
+    logEvent('UI', 'AnAThe Game Mission Brief Opened');
+    setShowMissionBrief(true);
+  };
+
   return (
     <div className="game-container">
       <button 
@@ -261,14 +266,12 @@ export default function AnATheGame() {
         <IoArrowBack size={20} />
       </button>
 
-      <div className="game-header">
-        <button 
-          onClick={() => setShowMissionBrief(true)}
-          className="mission-brief-button"
-        >
-          <span>Mission Brief</span> 📜
-        </button>
-      </div>
+      <span 
+        onClick={handleMissionBriefClick}
+        className="mission-brief-link"
+      >
+        📜
+      </span>
 
       <h2 className="story-title">
         {fruitsData[fruitIndex]?.title || 'Loading...'}
@@ -408,38 +411,31 @@ export default function AnATheGame() {
       )}
 
       {showMissionBrief && (
-        <div className="mission-brief-overlay">
+        <div 
+          className="mission-brief-overlay"
+          onClick={() => setShowMissionBrief(false)}
+        >
           <div className="mission-brief-content">
             <div className="scroll-content">
-              <h2>🏰 The Article Quest 👑</h2>
+              <h2>🎯 Mission: The Article Adventure 📚</h2>
+              <p>Welcome, Article Explorer! 🌟</p>
               
-              <p>Greetings, Article Master! ⚔️</p>
-              
-              <p>Our sacred texts are missing their articles (a, an, the)! As a 
-              member of the Article Defense Force, your mission is to restore these 
-              missing articles to their rightful places. 📚✨</p>
+              <p>Your mission is to master the art of choosing between 'a', 'an', and 'the'. 
+              Each choice you make shapes the clarity of our language! 🎨</p>
 
-              <h3>Sacred Rules of Articles 🛡️</h3>
+              <h3>Your Quest Rules 📜</h3>
               <ul>
-                <li>🎯 Click words to cycle through article options</li>
-                <li>🔮 Use 'a' before consonant sounds</li>
-                <li>✨ Use 'an' before vowel sounds</li>
-                <li>🌟 Use 'the' for specific or previously mentioned items</li>
+                <li>🎯 Choose 'a' before consonant sounds</li>
+                <li>🎵 Choose 'an' before vowel sounds</li>
+                <li>✨ Choose 'the' for specific or unique items</li>
               </ul>
 
-              <h3>Examples of Power 📜</h3>
+              <h3>Power Levels 🌟</h3>
               <ul>
-                <li>🎵 'a piano' (consonant sound)</li>
-                <li>🦉 'an owl' (vowel sound)</li>
-                <li>🌞 'the sun' (unique item)</li>
+                <li>⭐⭐⭐ 90%+ : Article Master</li>
+                <li>⭐⭐ 70-89% : Article Adept</li>
+                <li>⭐ Below 70% : Article Apprentice</li>
               </ul>
-
-              <button 
-                onClick={() => setShowMissionBrief(false)}
-                className="close-mission-brief"
-              >
-                Begin Quest 🗡️
-              </button>
             </div>
           </div>
         </div>

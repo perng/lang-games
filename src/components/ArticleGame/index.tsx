@@ -311,14 +311,12 @@ function ArticleGame() {
 
       <h1 className="main-title">THE Game</h1>
       <div className="game-container">
-        <div className="game-header">
-          <button 
-            onClick={handleMissionBriefClick}
-            className="mission-brief-button"
-          >
-            <span>Mission Brief</span> 📜
-          </button>
-        </div>
+        <span 
+          onClick={handleMissionBriefClick}
+          className="mission-brief-link"
+        >
+          📜
+        </span>
 
         <h2 className="story-title">
           {articlesData[articleIndex]?.title || 'Loading...'}
@@ -407,7 +405,10 @@ function ArticleGame() {
       </div>
 
       {showMissionBrief && (
-        <div className="mission-brief-overlay">
+        <div 
+          className="mission-brief-overlay"
+          onClick={() => setShowMissionBrief(false)}
+        >
           <div className="mission-brief-content">
             <div className="scroll-content">
               <h2>🏰 The Definite Article Quest 👑</h2>
@@ -443,13 +444,6 @@ function ArticleGame() {
 
               <p>Each 'the' you restore brings clarity back to our magical texts. 
               The realm of definite articles awaits your wisdom! 🗝️✨</p>
-
-              <button 
-                onClick={() => setShowMissionBrief(false)}
-                className="close-mission-brief"
-              >
-                Begin Quest 🗡️
-              </button>
             </div>
           </div>
         </div>
