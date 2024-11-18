@@ -5,7 +5,7 @@ import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import articles from '../../data/singular.json';
 import './styles.css';
-import { setCookie, getCookie, deleteCookie } from '../../utils/cookies';
+import { setCookie, getCookie } from '../../utils/cookies';
 import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
 import { createFirework } from '../../utils/fireworks';
@@ -278,12 +278,6 @@ function SingularPluralGame() {
     navigate('/singular-plural');
   };
 
-  // Render article list view
-  if (!storyId) {
-    console.log('No storyId, showing article list');
-    return renderArticleList();
-  }
-
   return (
     <div className="singular-plural-game">
       <button 
@@ -399,7 +393,7 @@ function SingularPluralGame() {
               </button>
             </div>
 
-            {currentExplanation === 'en-US' && (
+            {currentExplanation === 'en-US' && storyId && (
               <div className="explanation-content">
                 <ReactMarkdown>
                   {articles[parseInt(storyId)]['explanation-en-US']}
@@ -407,7 +401,7 @@ function SingularPluralGame() {
               </div>
             )}
 
-            {currentExplanation === 'zh-TW' && (
+            {currentExplanation === 'zh-TW' && storyId && (
               <div className="explanation-content">
                 <ReactMarkdown>
                   {articles[parseInt(storyId)]['explanation-zh-TW']}
