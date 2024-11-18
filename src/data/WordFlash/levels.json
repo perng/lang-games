@@ -1,13 +1,20 @@
 {
   "levels": [
     {
-      "id": "level5",
-      "title": "Level 5 (draft)",
-      "description": "Level 5 of the basic vocabulary, a bit tougher than level 4.",
-      "imageId": "word-flash-level5",
-      "wordFile": "word_flash_level_5.json"
+      "id": "level4",
+      "title": "Level 4 (draft)",
+      "description": "Level 4 of the basic vocabulary. You can handle the words.",
+      "imageId": "word-flash-level4",
+      "wordFile": "word_flash_level_4.json"
     },
     {
+        "id": "level5",
+        "title": "Level 5 (draft)",
+        "description": "Level 5 of the basic vocabulary, a bit tougher than level 4.",
+        "imageId": "word-flash-level5",
+        "wordFile": "word_flash_level_5.json"
+      },
+      {
         "id": "level6",
         "title": "Level 6 (draft)",
         "description": "Level 6 of the basic vocabulary, pretty tough.",

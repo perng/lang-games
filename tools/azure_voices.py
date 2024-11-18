@@ -43,6 +43,7 @@ def generate_english_audio(word, output_dir, en_voices):
     if os.path.exists(audio_file):
         print(f"Skipping existing English audio: {word} -> {audio_file}")
         return
+    time.sleep(0.5)  # Rate limiting
     
     speech_config = get_speech_config()
     # Randomly select an English voice
@@ -89,6 +90,7 @@ def generate_chinese_audio(text, output_dir, zh_voices):
     if os.path.exists(audio_file):
         print(f"Skipping existing Chinese audio: {text} -> {audio_file}")
         return
+    time.sleep(0.5)  # Rate limiting
     
     speech_config = get_speech_config()
     voice_name = random.choice(zh_voices)
@@ -178,4 +180,4 @@ if __name__ == "__main__":
         for meaning in word_entry['meanings']:
             chinese_text = meaning['meaning_zh_TW']
             generate_chinese_audio(chinese_text, chinese_output_dir, zh_voices)
-            time.sleep(0.5)  # Rate limiting
+            
