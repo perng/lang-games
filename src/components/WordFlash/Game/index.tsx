@@ -51,6 +51,10 @@ const loadWordFile = async (wordFile: string): Promise<WordFileData> => {
     }
 };
 
+// Update the constant to handle both modes
+const FAST_MODE_SLOGAN_INTERVAL = 25;  // Show slogan every 25 words in fast mode
+const NORMAL_MODE_SLOGAN_INTERVAL = 5;  // Show slogan every 5 words in normal mode
+
 export default function WordFlashGame() {
     const navigate = useNavigate();
     const { levelId } = useParams<{ levelId: string }>();
@@ -262,6 +266,15 @@ export default function WordFlashGame() {
             if (fastMode) {
                 // Fast mode: just wait 500ms and move to next word
                 await new Promise(resolve => setTimeout(resolve, 500));
+                
+                // Show slogan every 25 words in fast mode
+                if ((currentIndex + 1) % FAST_MODE_SLOGAN_INTERVAL === 0) {
+                    console.log('Showing slogan in fast mode');
+                    const randomIndex = Math.floor(Math.random() * slogans.length);
+                    setCurrentSlogan(slogans[randomIndex]);
+                    setShowSlogan(true);
+                    return; // Don't move to next word yet
+                }
             } else {
                 // Original behavior with all delays and audio
                 await new Promise(resolve => setTimeout(resolve, 500));
@@ -287,16 +300,15 @@ export default function WordFlashGame() {
                 }
 
                 await new Promise(resolve => setTimeout(resolve, 500));
-            }
 
-            // After all the delays and before moving to next word
-            if ((currentIndex + 1) % 5 === 0) {
-                console.log('Showing slogan');
-                // Show random slogan
-                const randomIndex = Math.floor(Math.random() * slogans.length);
-                setCurrentSlogan(slogans[randomIndex]);
-                setShowSlogan(true);
-                return; // Don't move to next word yet
+                // Show slogan every 5 words in normal mode
+                if ((currentIndex + 1) % NORMAL_MODE_SLOGAN_INTERVAL === 0) {
+                    console.log('Showing slogan in normal mode');
+                    const randomIndex = Math.floor(Math.random() * slogans.length);
+                    setCurrentSlogan(slogans[randomIndex]);
+                    setShowSlogan(true);
+                    return; // Don't move to next word yet
+                }
             }
 
             setSelectedChoice(null);
