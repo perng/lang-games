@@ -66,6 +66,7 @@ export default function WordFlashGame() {
     const [showSlogan, setShowSlogan] = useState(false);
     const [currentSlogan, setCurrentSlogan] = useState('');
     const [readDefinition, setReadDefinition] = useState(true);
+    const [fastMode, setFastMode] = useState(false);
 
     // Load and prepare word list
     useEffect(() => {
@@ -257,35 +258,35 @@ export default function WordFlashGame() {
         }
 
         try {
-            // 1. Initial pause after selection
-            await new Promise(resolve => setTimeout(resolve, 500));
-            
-            // 2. Play Chinese definition only if enabled
-            if (readDefinition) {
+            if (fastMode) {
+                // Fast mode: just wait 500ms and move to next word
+                await new Promise(resolve => setTimeout(resolve, 500));
+            } else {
+                // Original behavior with all delays and audio
+                await new Promise(resolve => setTimeout(resolve, 500));
+                
+                if (readDefinition) {
+                    if (currentWord && levelId) {
+                        const dataId = levelId.replace('level', '');
+                        const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
+                            .replace(/\//g, '_')
+                            .replace(/\+/g, '-')
+                            .replace(/=/g, '');
+                        const definitionPath = `/voices/WordFlash/level${dataId}/chinese/${encodedDefinition}.mp3`;
+                        await playAudioWithDelay(definitionPath);
+                    }
+                }
+
+                await new Promise(resolve => setTimeout(resolve, 700));
+                
                 if (currentWord && levelId) {
                     const dataId = levelId.replace('level', '');
-                    const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
-                        .replace(/\//g, '_')
-                        .replace(/\+/g, '-')
-                        .replace(/=/g, '');
-                    const definitionPath = `/voices/WordFlash/level${dataId}/chinese/${encodedDefinition}.mp3`;
-                    await playAudioWithDelay(definitionPath);
+                    const wordPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
+                    await playAudioWithDelay(wordPath);
                 }
-            }
 
-            // 3. Gap between definition and word
-            await new Promise(resolve => setTimeout(resolve, 700));
-            
-            // 4. Always play English word
-            if (currentWord && levelId) {
-                const dataId = levelId.replace('level', '');
-                const wordPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
-                await playAudioWithDelay(wordPath);
+                await new Promise(resolve => setTimeout(resolve, 500));
             }
-
-            // 5. Final pause before next word
-            await new Promise(resolve => setTimeout(resolve, 500));
-            
 
             // After all the delays and before moving to next word
             if ((currentIndex + 1) % 5 === 0) {
@@ -452,6 +453,16 @@ export default function WordFlashGame() {
                         <span className="toggle-slider"></span>
                     </label>
                     <span className="toggle-label">讀中文定義</span>
+
+                    <label className="toggle-switch">
+                        <input
+                            type="checkbox"
+                            checked={fastMode}
+                            onChange={(e) => setFastMode(e.target.checked)}
+                        />
+                        <span className="toggle-slider"></span>
+                    </label>
+                    <span className="toggle-label">快速模式</span>
                 </div>
             </div>
 
