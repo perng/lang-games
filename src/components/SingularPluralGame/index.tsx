@@ -9,6 +9,7 @@ import { setCookie, getCookie, deleteCookie } from '../../utils/cookies';
 import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
 import { createFirework } from '../../utils/fireworks';
+import { IoArrowBack } from 'react-icons/io5';
 
 interface Word {
   text: string;
@@ -337,6 +338,13 @@ function SingularPluralGame() {
 
   return (
     <div className="singular-plural-game">
+      <button 
+        className="back-button"
+        onClick={handleBackToMenu}
+      >
+        <IoArrowBack size={20} />
+      </button>
+
       <h1 className="main-title">One or Many</h1>
       <h2 className="story-title">{currentStory?.title}</h2>
       <div className="game-container">
@@ -346,12 +354,6 @@ function SingularPluralGame() {
             className="mission-brief-button"
           >
             <span>Mission Brief</span> 📜
-          </button>
-          <button
-            onClick={handleBackToMenu}
-            className="article-list-button"
-          >
-            Article List
           </button>
         </div>
 

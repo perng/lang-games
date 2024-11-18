@@ -5,6 +5,7 @@ import { WordWithScore } from '../types';
 import './styles.css';
 import { FaPlay } from 'react-icons/fa';
 import levelsData from '../../../data/WordFlash/levels.json';
+import { IoArrowBack } from 'react-icons/io5';
 
 // Add these type definitions at the top of the file
 interface WordMeaning {
@@ -367,6 +368,13 @@ export default function WordFlashGame() {
 
     return (
         <div className="word-flash-game">
+            <button 
+                className="back-button"
+                onClick={() => navigate('/word-flash')}
+            >
+                <IoArrowBack size={24} />
+            </button>
+
             {showWelcome && (
                 <div className="welcome-overlay">
                     <div className="welcome-content">
@@ -436,13 +444,6 @@ export default function WordFlashGame() {
             </div>
 
             <div className="game-footer">
-                <button 
-                    className="back-button"
-                    onClick={() => navigate('/word-flash')}
-                >
-                    Back
-                </button>
-                
                 <div className="toggle-container">
                     <label className="toggle-switch">
                         <input

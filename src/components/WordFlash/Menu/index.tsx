@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import levelsData from '../../../data/WordFlash/levels.json';
 import { getCookie } from '../../../utils/cookies';
 import './styles.css';
+import { IoArrowBack } from 'react-icons/io5';
 
 export default function WordFlashMenu() {
     const navigate = useNavigate();
@@ -24,6 +25,13 @@ export default function WordFlashMenu() {
 
     return (
         <div className="game-menu">
+            <button 
+                className="back-button"
+                onClick={() => navigate('/')}
+            >
+                <IoArrowBack size={24} />
+            </button>
+
             <h1>Word Flash</h1>
             <div className="levels-grid">
                 {levels.map(level => (
@@ -57,12 +65,6 @@ export default function WordFlashMenu() {
                     </Link>
                 ))}
             </div>
-            <button 
-                className="home-button"
-                onClick={() => navigate('/')}
-            >
-                Language Games
-            </button>
         </div>
     );
 } 

@@ -8,6 +8,7 @@ import '../../styles/explanationStyles.css';
 import { logPageView, logEvent } from '../../utils/analytics';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { createSpark } from '../../utils/sparks';
+import { IoArrowBack } from 'react-icons/io5';
 
 // Article cycling options
 // const ARTICLE_OPTIONS = ['', 'a', 'an', 'the'];
@@ -253,18 +254,19 @@ export default function AnATheGame() {
 
   return (
     <div className="game-container">
+      <button 
+        className="back-button"
+        onClick={() => navigate('/an-a-the')}
+      >
+        <IoArrowBack size={20} />
+      </button>
+
       <div className="game-header">
         <button 
           onClick={() => setShowMissionBrief(true)}
           className="mission-brief-button"
         >
           <span>Mission Brief</span> 📜
-        </button>
-        <button 
-          onClick={() => navigate('/an-a-the')} 
-          className="article-list-button"
-        >
-          Story List
         </button>
       </div>
 

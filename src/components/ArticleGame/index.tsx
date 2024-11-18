@@ -10,6 +10,7 @@ import ReactMarkdown from 'react-markdown';
 import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
 import { createSpark } from '../../utils/sparks';
+import { IoArrowBack } from 'react-icons/io5';
 
 interface GameState {
   words: WordInfo[];
@@ -301,6 +302,13 @@ function ArticleGame() {
 
   return (
     <div className="article-game">
+      <button 
+        className="back-button"
+        onClick={() => navigate('/article-game')}
+      >
+        <IoArrowBack size={20} />
+      </button>
+
       <h1 className="main-title">THE Game</h1>
       <div className="game-container">
         <div className="game-header">
@@ -309,12 +317,6 @@ function ArticleGame() {
             className="mission-brief-button"
           >
             <span>Mission Brief</span> 📜
-          </button>
-          <button 
-            onClick={() => navigate('/article-game')} 
-            className="article-list-button"
-          >
-            Article List
           </button>
         </div>
 

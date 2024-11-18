@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getCookie, deleteCookie } from '../../../utils/cookies';
+import { getCookie } from '../../../utils/cookies';
 import { logPageView, logEvent } from '../../../utils/analytics';
 import { useLocation } from 'react-router-dom';
 import './styles.css';
+import { IoArrowBack } from 'react-icons/io5';
 
 interface GameArticle {
     id: string;
@@ -57,14 +58,6 @@ export default function GameMenu({
         }
     };
     
-    const clearAllScores = () => {
-        articles.forEach((_, index) => {
-            const cookieKey = getCookieKey(index);
-            deleteCookie(cookieKey);
-        });
-        window.location.reload();
-    };
-    
     const handleStorySelect = (title: string) => {
         logEvent('Navigation', `Selected ${gamePathPrefix} Story: ${title}`);
     };
@@ -75,15 +68,17 @@ export default function GameMenu({
 
     return (
         <div className="game-menu">
+            <Link 
+                to="/" 
+                className="back-button"
+                onClick={() => logEvent('Navigation', 'Back to Games')}
+            >
+                <IoArrowBack size={20} />
+            </Link>
+
             <header>
                 <div className="header-content">
                     <h1>{title}</h1>
-                </div>
-                <div className="header-actions">
-                    <button onClick={clearAllScores} className="clear-scores-button">
-                        Clear All Scores
-                    </button>
-                    <Link to="/" className="back-link">← Back to Games</Link>
                 </div>
             </header>
             
