@@ -1,22 +1,37 @@
 {
-  "levels": [
+    "levels": [
+    {
+      "id": "level1",
+      "title": "Level 1",
+      "description": "Level 3 of the basic vocabulary. Let's go!",
+      "imageId": "word-flash-level1",
+      "wordFile": "word_flash_level_1.json"
+    },    
+    {
+      "id": "level2",
+      "title": "Level 2",
+      "description": "Level 2 of the basic vocabulary. Keep going!",
+      "imageId": "word-flash-level2",
+      "wordFile": "word_flash_level_2.json"
+    },
+  
     {
       "id": "level3",
-      "title": "Level 3 (draft)",
+      "title": "Level 3",
       "description": "Level 3 of the basic vocabulary. Let's see how you do.",
       "imageId": "word-flash-level3",
       "wordFile": "word_flash_level_3.json"
     },
     {
         "id": "level4",
-        "title": "Level 4 (draft)",
+        "title": "Level 4",
         "description": "Level 4 of the basic vocabulary. You can handle the words.",
         "imageId": "word-flash-level4",
         "wordFile": "word_flash_level_4.json"
       },
     {
         "id": "level5",
-        "title": "Level 5 (draft)",
+        "title": "Level 5",
         "description": "Level 5 of the basic vocabulary, a bit tougher than level 4.",
         "imageId": "word-flash-level5",
         "wordFile": "word_flash_level_5.json"
