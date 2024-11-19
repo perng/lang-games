@@ -190,10 +190,10 @@ export default function VocabHeroGame() {
   // Add debug logging whenever currentIndex changes
   useEffect(() => {
     if (questions.length > 0) {
-      console.log('Next 10 questions:');
+      console.log('Next 3 questions:');
       const nextQuestions = [];
       let index = currentIndex;
-      for (let i = 0; i < 10 && i < questions.length; i++) {
+      for (let i = 0; i < 3 && i < questions.length; i++) {
         const question = questions[index];
         nextQuestions.push({
           answer: question.answer,
@@ -240,9 +240,9 @@ export default function VocabHeroGame() {
       </div>
 
       <div className="choices">
-        {options.map((option, index) => (
+        {options.map((option) => (
           <button
-            key={index}
+            key={option}
             onClick={() => handleChoice(option)}
             className={`
               choice-button
