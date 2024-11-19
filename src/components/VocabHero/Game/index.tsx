@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { setCookie, getCookie } from '../../../utils/cookies';
 import { IoArrowBack } from 'react-icons/io5';
-import { FaPlay } from 'react-icons/fa';
 import './styles.css';
 
 interface Question {
@@ -12,11 +11,17 @@ interface Question {
   others: string[];
 }
 
+interface QuestionWithScore extends Question {
+  score: number;
+}
+
+const BATCH = 5;  // Sort questions every 5 questions
+
 export default function VocabHeroGame() {
   const { levelId } = useParams<{ levelId: string }>();
   const level = levelId?.replace('level', '') || '';
   const navigate = useNavigate();
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const [questions, setQuestions] = useState<QuestionWithScore[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [options, setOptions] = useState<string[]>([]);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -24,7 +29,19 @@ export default function VocabHeroGame() {
   const [isProcessing, setIsProcessing] = useState(false);
   const [showWelcome, setShowWelcome] = useState(true);
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [questionsAnswered, setQuestionsAnswered] = useState(0);
+  const [isAnswering, setIsAnswering] = useState(false);
+
+  const sortQuestions = (list: QuestionWithScore[]) => {
+    // First shuffle the array
+    list = shuffleArray(list);
+    // Then sort by score
+    list.sort((a, b) => {
+      // If scores are equal, maintain random order from shuffle
+      if (a.score === b.score) return 0;
+      return a.score - b.score;  // Lower scores come first
+    });
+  };
 
   // Load questions
   useEffect(() => {
@@ -32,8 +49,17 @@ export default function VocabHeroGame() {
       try {
         console.log('Loading level:', level);
         const response = await import(`../../../data/VocabHero/vocab_hero_level_${level}.json`);
-        console.log('Loaded questions:', response.default);
-        setQuestions(response.default);
+        
+        // Add scores to questions
+        const questionsWithScores: QuestionWithScore[] = response.default.map((q: Question) => ({
+          ...q,
+          score: parseInt(getCookie(`vocabHero-${q.id}`) || '0')
+        }));
+
+        // Sort questions by score
+        sortQuestions(questionsWithScores);
+        setQuestions(questionsWithScores);
+        
       } catch (error) {
         console.error('Error loading questions:', error);
       }
@@ -46,7 +72,7 @@ export default function VocabHeroGame() {
 
   // Set options when current question changes
   useEffect(() => {
-    if (questions.length > 0) {
+    if (questions.length > 0 && !isAnswering) {
       const currentQuestion = questions[currentIndex];
       const shuffledOptions = shuffleArray([
         currentQuestion.answer,
@@ -54,7 +80,7 @@ export default function VocabHeroGame() {
       ]);
       setOptions(shuffledOptions);
     }
-  }, [currentIndex, questions]);
+  }, [currentIndex, questions, isAnswering]);
 
   const playAudioWithDelay = (audioPath: string): Promise<void> => {
     return new Promise((resolve) => {
@@ -82,54 +108,56 @@ export default function VocabHeroGame() {
 
   const handleChoice = async (choice: string) => {
     if (isProcessing) {
-        console.log('Processing in progress, ignoring click');
-        return;
+      console.log('Processing in progress, ignoring click');
+      return;
     }
-    console.log('Starting handleChoice with:', { choice, currentIndex });
     setIsProcessing(true);
-    setIsTransitioning(true);
+    setIsAnswering(true);
 
     const currentQuestion = questions[currentIndex];
     const isAnswerCorrect = choice === currentQuestion.answer;
-    console.log('Answer check:', { 
-        choice, 
-        correctAnswer: currentQuestion.answer, 
-        isAnswerCorrect 
-    });
-
     setSelectedOption(choice);
     setIsCorrect(isAnswerCorrect);
 
-    // Update progress in cookie
+    // Update score
     const cookieKey = `vocabHero-${currentQuestion.id}`;
-    const newScore = isAnswerCorrect ? 1 : -1;
+    const currentScore = currentQuestion.score;
+    const newScore = Math.max(-1, currentScore + (isAnswerCorrect ? 1 : -1));
+    console.log('Updating score for', currentQuestion.answer, 'from', currentScore, ' to', newScore);
     setCookie(cookieKey, newScore.toString());
 
-    // Save overall progress
-    const totalQuestions = questions.length;
-    const masteredQuestions = questions.filter(q => 
-        parseInt(getCookie(`vocabHero-${q.id}`) || '0') > 0
-    ).length;
-    const progress = (masteredQuestions / totalQuestions * 100.0).toFixed(4);
-    setCookie(`vocabHero-progress-${level}`, progress);
+    // Update questions list with new score
+    const newQuestions = questions.map(q => 
+      q.id === currentQuestion.id ? { ...q, score: newScore } : q
+    );
+    setQuestions(newQuestions);
 
-    // Play the word audio after showing the result
+    // Play audio and wait
     await new Promise(resolve => setTimeout(resolve, 500));
     const audioPath = `/voices/WordFlash/level${level}/${currentQuestion.answer}.mp3`;
     await playAudioWithDelay(audioPath);
 
-    // Clear transition first
-    setIsTransitioning(false);
-    await new Promise(resolve => setTimeout(resolve, 50));
+    // Update questions answered count
+    const newQuestionsAnswered = questionsAnswered + 1;
+    setQuestionsAnswered(newQuestionsAnswered);
 
-    // Then reset states
+    // Sort and reset if we've hit the batch size
+    if (newQuestionsAnswered % BATCH === 0) {
+      console.log('Batch complete, resorting questions');
+      const sortedQuestions = [...newQuestions];
+      sortQuestions(sortedQuestions);
+      setQuestions(sortedQuestions);
+      setCurrentIndex(0);  // Start from beginning of newly sorted list
+    } else {
+      // Otherwise just move to next question
+      setCurrentIndex(prev => (prev + 1) % questions.length);
+    }
+
+    // Reset states
     setSelectedOption(null);
     setIsCorrect(null);
-    
-    // Finally move to next question
-    await new Promise(resolve => setTimeout(resolve, 50));
-    setCurrentIndex(prev => (prev + 1) % questions.length);
     setIsProcessing(false);
+    setIsAnswering(false);
   };
 
   const startGame = () => {
@@ -151,13 +179,32 @@ export default function VocabHeroGame() {
   };
 
   useEffect(() => {
-    console.log('State update:', { 
-        selectedOption, 
-        isCorrect, 
-        currentIndex,
-        isProcessing 
-    });
+    // console.log('State update:', { 
+    //     selectedOption, 
+    //     isCorrect, 
+    //     currentIndex,
+    //     isProcessing 
+    // });
   }, [selectedOption, isCorrect, currentIndex, isProcessing]);
+
+  // Add debug logging whenever currentIndex changes
+  useEffect(() => {
+    if (questions.length > 0) {
+      console.log('Next 10 questions:');
+      const nextQuestions = [];
+      let index = currentIndex;
+      for (let i = 0; i < 10 && i < questions.length; i++) {
+        const question = questions[index];
+        nextQuestions.push({
+          answer: question.answer,
+          score: question.score,
+          sentence: question.sentence.substring(0, 30) + '...' // Show first 30 chars of sentence
+        });
+        index = (index + 1) % questions.length;
+      }
+      console.table(nextQuestions);
+    }
+  }, [currentIndex, questions]);
 
   if (questions.length === 0) return <div>Loading...</div>;
 
@@ -199,10 +246,10 @@ export default function VocabHeroGame() {
             onClick={() => handleChoice(option)}
             className={`
               choice-button
-              ${!isTransitioning ? '' : 
-                  selectedOption === option ? 
-                      (option === currentQuestion.answer ? 'correct' : 'wrong') 
-                      : ''}
+              ${selectedOption === option && 
+                  (option === currentQuestion.answer ? 'correct' : 'wrong')}
+              ${selectedOption && 
+                  option === currentQuestion.answer ? 'correct' : ''}
             `}
             disabled={isProcessing}
           >
@@ -234,10 +281,9 @@ export default function VocabHeroGame() {
 }
 
 function shuffleArray<T>(array: T[]): T[] {
-  const newArray = [...array];
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
   }
-  return newArray;
+  return array;
 } 
