@@ -134,4 +134,25 @@
 .stat-value {
   font-size: 1.1em;
   font-weight: bold;
+}
+
+.continue-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.continue-button {
+  padding: 10px 30px;
+  font-size: 1.1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.continue-button:hover {
+  background-color: #0056b3;
 } 

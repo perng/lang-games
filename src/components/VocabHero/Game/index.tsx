@@ -7,6 +7,8 @@ import './styles.css';
 interface Question {
   id: string;
   sentence: string;
+  sentence_zh_TW: string;
+  word_translation_zh_TW: string;
   answer: string;
   others: string[];
 }
@@ -31,6 +33,8 @@ export default function VocabHeroGame() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [questionsAnswered, setQuestionsAnswered] = useState(0);
   const [isAnswering, setIsAnswering] = useState(false);
+  const [showContinue, setShowContinue] = useState(false);
+  const continueTimerRef = useRef<number>();
 
   const sortQuestions = (list: QuestionWithScore[]) => {
     // First shuffle the array
@@ -141,10 +145,25 @@ export default function VocabHeroGame() {
     const newQuestionsAnswered = questionsAnswered + 1;
     setQuestionsAnswered(newQuestionsAnswered);
 
+    setIsProcessing(false);
+    setShowContinue(true);  // Show continue button after processing
+    
+    // Start 5-second timer for auto-advance
+    continueTimerRef.current = window.setTimeout(() => {
+        handleContinue();
+    }, 5000);
+  };
+
+  const handleContinue = () => {
+    // Clear the timer if it exists
+    if (continueTimerRef.current) {
+        window.clearTimeout(continueTimerRef.current);
+    }
+
     // Sort and reset if we've hit the batch size
-    if (newQuestionsAnswered % BATCH === 0) {
+    if (questionsAnswered % BATCH === 0) {
       console.log('Batch complete, resorting questions');
-      const sortedQuestions = [...newQuestions];
+      const sortedQuestions = [...questions];
       sortQuestions(sortedQuestions);
       setQuestions(sortedQuestions);
       setCurrentIndex(0);  // Start from beginning of newly sorted list
@@ -156,8 +175,8 @@ export default function VocabHeroGame() {
     // Reset states
     setSelectedOption(null);
     setIsCorrect(null);
-    setIsProcessing(false);
     setIsAnswering(false);
+    setShowContinue(false);  // Hide continue button
   };
 
   const startGame = () => {
@@ -206,6 +225,15 @@ export default function VocabHeroGame() {
     }
   }, [currentIndex, questions]);
 
+  // Clean up timer on unmount
+  useEffect(() => {
+    return () => {
+        if (continueTimerRef.current) {
+            window.clearTimeout(continueTimerRef.current);
+        }
+    };
+  }, []);
+
   if (questions.length === 0) return <div>Loading...</div>;
 
   const currentQuestion = questions[currentIndex];
@@ -236,7 +264,21 @@ export default function VocabHeroGame() {
       )}
 
       <div className="sentence-section">
-        <p className="sentence">{currentQuestion.sentence}</p>
+        <p className="sentence" 
+           dangerouslySetInnerHTML={{
+             __html: selectedOption 
+               ? currentQuestion.sentence.replace(
+                   "______", 
+                   `<u>${currentQuestion.answer} (${currentQuestion.word_translation_zh_TW})</u>`
+                 )
+               : currentQuestion.sentence
+           }}
+        />
+        {selectedOption && (
+          <p className="sentence-translation">
+            {currentQuestion.sentence_zh_TW}
+          </p>
+        )}
       </div>
 
       <div className="choices">
@@ -251,12 +293,23 @@ export default function VocabHeroGame() {
               ${selectedOption && 
                   option === currentQuestion.answer ? 'correct' : ''}
             `}
-            disabled={isProcessing}
+            disabled={isProcessing || showContinue}  // Disable choices when continue is shown
           >
             {option}
           </button>
         ))}
       </div>
+
+      {showContinue && (
+        <div className="continue-container">
+          <button 
+            className="continue-button"
+            onClick={handleContinue}
+          >
+            Continue
+          </button>
+        </div>
+      )}
 
       {isCorrect !== null && (
         <div className={`feedback ${isCorrect ? 'correct' : 'wrong'}`}>
