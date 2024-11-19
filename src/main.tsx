@@ -12,6 +12,8 @@ import AnATheGame from './components/AnATheGame';
 import AnATheGameMenu from './components/AnATheGame/Menu';
 import WordFlashMenu from './components/WordFlash/Menu';
 import WordFlash from './components/WordFlash/Game';
+import VocabHeroMenu from './components/VocabHero/Menu';
+import VocabHero from './components/VocabHero/Game';
 import './styles/global.css';
 
 // Initialize GA
@@ -53,7 +55,15 @@ const router = createBrowserRouter([
   {
     path: '/word-flash/:levelId',
     element: <WordFlash />,
-  }
+  },
+  {
+    path: '/vocab-hero',
+    element: <VocabHeroMenu />,
+  },
+  {
+    path: '/vocab-hero/:levelId',
+    element: <VocabHero />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

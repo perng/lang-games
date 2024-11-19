@@ -19,6 +19,14 @@ export const games: Game[] = [
     logoSrc: '/images/word-flash-logo.jpg' 
   },
   {
+    id: 'vocab-hero',
+    title: 'Vocab Hero',
+    description: 'Master vocabulary through multiple-choice questions',
+    difficulty: 'Medium',
+    path: '/vocab-hero',
+    icon: '📖',
+    logoSrc: '/images/vocab-hero-logo.jpg'  },
+  {
     id: 'singular-plural',
     title: 'Singular & Plural Game',
     description: 'Practice using singular and plural forms correctly',

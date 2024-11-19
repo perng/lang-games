@@ -1,44 +1,51 @@
 import os
+import json
 from openai import OpenAI
 import argparse
 from itertools import islice
 
 sys_prompt = '''
-Given a list of words, generate vocabulary questions, two questions for each word. 
-Generate only the questions with no other text. Outputin the following format
+Given a list of words, for each word and each of the word's defintion, generate vocabulary questions.   
+Generate only the questions with no other text. Output in the following format:
 
-[{"sentence": "Basic ______ skills, like addition and subtraction, are taught in elementary school.",
-  "answer" : "arithmetic",
-  "others" : ["grammar","geography","physics"]
+[{"answer" : "arithmetic",
+  "sentence": "Basic ______ skills, like addition and subtraction, are taught in elementary school.",
+  "others" : ["grammar","geography","physics"],
+  "id": "d90733c3c3c07c45e0c87bb06d1f2e8f"   
 },
   ...
-]            
-
+]
+"id" is md5 hash of the sentence.
+Masure sure there are 3 words in "others", and they are of the same type (verb, adj., etc.) as the answer but it should 
+be obviously doesn't make sense in the sentence. Make the sentence longer to provide more context and make the answer more obvious.
 Generate as much as possible till you hit the character limit.
 The list of words are:  
 '''
+
 # read api key from file
 with open('api_key.txt', 'r') as file:
     api_key = file.read().strip()
 
-# Define the query for the GPT-4 model
-
 # Add argument parser
-parser = argparse.ArgumentParser(description='Process words for annotation')
-parser.add_argument('word_file', help='Path to file containing words, one per line')
+parser = argparse.ArgumentParser(description='Process words from JSON for annotation')
+parser.add_argument('json_file', help='Path to JSON file containing word data')
 parser.add_argument('output_file', help='Path to output file for JSON responses')
 args = parser.parse_args()
 
-# Read words from file
+# Read words from JSON file
 try:
-    with open(args.word_file, 'r') as f:
-        all_words = [line.strip() for line in f if line.strip()]
+    with open(args.json_file, 'r', encoding='utf-8') as f:
+        word_data = json.load(f)
+        all_words = [item["word"] for item in word_data]
 except FileNotFoundError:
-    print(f"Error: Word file {args.word_file} not found")
+    print(f"Error: JSON file {args.json_file} not found")
+    exit(1)
+except json.JSONDecodeError:
+    print(f"Error: Invalid JSON format in {args.json_file}")
     exit(1)
 
 # Process words in batches
-BATCH_SIZE = 200
+BATCH_SIZE = 160
 client = OpenAI(api_key=api_key)
 
 def process_batch(word_batch):
@@ -66,4 +73,4 @@ for i in range(0, len(all_words), BATCH_SIZE):
         with open(args.output_file, "a") as file:
             file.write(response + "\n")
         print(f"Batch {i//BATCH_SIZE + 1} saved to {args.output_file}")
-    break
+    # break

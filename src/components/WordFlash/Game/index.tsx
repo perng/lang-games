@@ -236,6 +236,14 @@ export default function WordFlashGame() {
         setSelectedChoice(choice);
         setIsCorrect(isAnswerCorrect);
 
+        // Play the word audio after showing the result
+        await new Promise(resolve => setTimeout(resolve, 500));
+        if (currentWord && levelId) {
+            const dataId = levelId.replace('level', '');
+            const audioPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
+            await playAudioWithDelay(audioPath);
+        }
+
         // Update cookie and word list with more punitive scoring for wrong answers
         const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
         const currentScore = parseInt(getCookie(cookieKey) || '0');
