@@ -13,14 +13,17 @@ Generate only the questions with no other text. Output in the following format:
   "sentence_zh_TW" : "基本的算術技能，​​如加法和減法，是在小學教授的。",
   "sentence": "Basic ______ skills, like addition and subtraction, are taught in elementary school.",
   "others" : ["grammar","geography","physics"],
+  "others_zh_TW" : ["文法","地理","物理"],
   "id": "d90733c3c3c07c45e0c87bb06d1f2e8f"   
 },
   ...
 ]
-"answer" is the right answer to fill the blank. "word_translation_zh_TW" is the translation of "answer"to traditional Chinese. "sentence_zh_TW" is the whole sentence with the answer translated.
+"answer" is the right answer to fill the blank. 
+"sentence_zh_TW" is the whole sentence with the answer translated, make sure the wording conform to Chinese grammar.
+"word_translation_zh_TW" is the translation of "answer"to traditional Chinese taking from "sentence_zh_TW". 
 "id" is the md5 hash of the sentence.
 Make sure there are 3 words in "others", and they are of the same type (verb, adj., etc.) as the answer but it should 
-be obviously doesn't make sense in the sentence. Make the sentence longer to provide more context and make the answer more obvious.
+be obviously doesn't make sense in the sentence. Make the sentence longer to provide more context and make the answer more obvious. “others_zh_TW” contains the short Traditional Chinese translation of the 3 words in the “others with the same order. 
 Generate as much as possible till you hit the character limit.
 The list of words are:  
 
@@ -57,7 +60,18 @@ if args.previous:
             previous_data = json.load(f)
             print("First few items from previous data:", previous_data[:2])
             
-            previous_answers = {q["answer"] for q in previous_data}
+            # Loop through each entry to check for issues
+            for i, entry in enumerate(previous_data):
+                try:
+                    answer = entry["answer"]
+                    previous_answers.add(answer)
+                except KeyError as e:
+                    print(f"Warning: Entry {i} is missing field 'answer'")
+                    print(f"Problematic entry: {entry}")
+                except Exception as e:
+                    print(f"Warning: Entry {i} has unexpected error: {e}")
+                    print(f"Problematic entry: {entry}")
+            
             print("First few answers extracted:", list(previous_answers)[:5])
             print(f"Loaded {len(previous_answers)} previous answers")
     except Exception as e:
@@ -72,7 +86,7 @@ if previous_answers:
     all_words = new_words
 
 # Process words in batches
-BATCH_SIZE = 100
+BATCH_SIZE = 60
 client = OpenAI(api_key=api_key)
 
 def process_batch(word_batch):
@@ -85,7 +99,11 @@ def process_batch(word_batch):
             }],
             model="gpt-4o-mini",
         )
-        return response.choices[0].message.content
+        # Get content and filter out empty lines and ``` lines
+        content = response.choices[0].message.content
+        cleaned_lines = [line for line in content.split('\n') 
+                        if line.strip() and '```' not in line]
+        return '\n'.join(cleaned_lines)
     except Exception as e:
         print(f"Error processing batch {word_batch}: {e}")
         return None
@@ -96,8 +114,10 @@ for i in range(0, len(all_words), BATCH_SIZE):
     print(f"Processing batch {i//BATCH_SIZE + 1}: {batch}")
     
     response = process_batch(batch)
+    
     if response:
         with open(args.output_file, "a") as file:
             file.write(response + "\n")
         print(f"Batch {i//BATCH_SIZE + 1} saved to {args.output_file}")
-
+    
+     

@@ -1,7 +1,38 @@
 .vocab-hero-game {
   padding: 20px;
-  max-width: 800px;
+  width: 100%;
+}
+
+.game-content {
   margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.vocab-hero-game .game-content .choices-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.vocab-hero-game .game-content .choices-container .choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.vocab-hero-game .game-content .choices-container .choices .choice-button {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .back-button {
@@ -53,47 +84,37 @@
 }
 
 .sentence-section {
-  margin: 30px 0;
-  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 20px;
 }
 
 .sentence {
-  font-size: 1.5em;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.sentence-translation {
+  font-size: 0.9em;
+  color: #0066cc;
+  margin-top: 10px;
   line-height: 1.5;
 }
 
-.choices {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin: 20px 0;
-}
-
-.vocab-hero-game .choice-button {
-    padding: 1.2rem;
-    font-size: 1.2rem;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    background-color: #ffffff;
-    cursor: pointer;
-    width: 100%;
-    transition: none;
-}
-
 .vocab-hero-game .choice-button:hover:not(:disabled) {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .vocab-hero-game .choice-button.correct {
-    background-color: #4CAF50 !important;
-    color: white;
-    border-color: #4CAF50;
+  background-color: #4CAF50 !important;
+  color: white;
+  border-color: #4CAF50;
 }
 
 .vocab-hero-game .choice-button.wrong {
-    background-color: #f44336 !important;
-    color: white;
-    border-color: #f44336;
+  background-color: #f44336 !important;
+  color: white;
+  border-color: #f44336;
 }
 
 .feedback {
@@ -155,4 +176,10 @@
 
 .continue-button:hover {
   background-color: #0056b3;
+}
+
+.choice-button .translation {
+  margin-left: 5px;
+  font-size: 0.9em;
+  color: #666;
 } 

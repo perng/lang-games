@@ -11,6 +11,7 @@ interface Question {
   word_translation_zh_TW: string;
   answer: string;
   others: string[];
+  others_zh_TW: string[];
 }
 
 interface QuestionWithScore extends Question {
@@ -263,68 +264,92 @@ export default function VocabHeroGame() {
         </div>
       )}
 
-      <div className="sentence-section">
-        <p className="sentence" 
-           dangerouslySetInnerHTML={{
-             __html: selectedOption 
-               ? currentQuestion.sentence.replace(
-                   "______", 
-                   `<u>${currentQuestion.answer} (${currentQuestion.word_translation_zh_TW})</u>`
-                 )
-               : currentQuestion.sentence
-           }}
-        />
-        {selectedOption && (
-          <p className="sentence-translation">
-            {currentQuestion.sentence_zh_TW}
-          </p>
+      <div className="game-content">
+        <div className="sentence-section">
+          <p className="sentence" 
+             dangerouslySetInnerHTML={{
+               __html: selectedOption 
+                 ? currentQuestion.sentence.replace(
+                     "______", 
+                     `<u>${currentQuestion.answer} (${currentQuestion.word_translation_zh_TW})</u>`
+                   )
+                 : currentQuestion.sentence
+             }}
+          />
+          {selectedOption && (
+            <p className="sentence-translation">
+              {currentQuestion.sentence_zh_TW}
+            </p>
+          )}
+        </div>
+
+        <div className="choices-container">
+          <div className="choices">
+            {options.map((option) => {
+              // Find Chinese translation for the option
+              let translation = '';
+              if (selectedOption) {
+                if (option === currentQuestion.answer) {
+                  translation = currentQuestion.word_translation_zh_TW;
+                } else {
+                  const index = currentQuestion.others.indexOf(option);
+                  if (index !== -1) {
+                    translation = currentQuestion.others_zh_TW[index];
+                  }
+                }
+              }
+
+              return (
+                <button
+                  key={option}
+                  onClick={() => handleChoice(option)}
+                  className={`
+                    choice-button
+                    ${selectedOption === option && 
+                        (option === currentQuestion.answer ? 'correct' : 'wrong')}
+                    ${selectedOption && 
+                        option === currentQuestion.answer ? 'correct' : ''}
+                  `}
+                  disabled={isProcessing || showContinue}
+                >
+                  {option}
+                  {selectedOption && translation && (
+                    <span className="translation">
+                      ({translation})
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {showContinue && (
+          <div className="continue-container">
+            <button 
+              className="continue-button"
+              onClick={handleContinue}
+            >
+              Continue
+            </button>
+          </div>
         )}
-      </div>
 
-      <div className="choices">
-        {options.map((option) => (
-          <button
-            key={option}
-            onClick={() => handleChoice(option)}
-            className={`
-              choice-button
-              ${selectedOption === option && 
-                  (option === currentQuestion.answer ? 'correct' : 'wrong')}
-              ${selectedOption && 
-                  option === currentQuestion.answer ? 'correct' : ''}
-            `}
-            disabled={isProcessing || showContinue}  // Disable choices when continue is shown
-          >
-            {option}
-          </button>
-        ))}
-      </div>
+        {isCorrect !== null && (
+          <div className={`feedback ${isCorrect ? 'correct' : 'wrong'}`}>
+            {isCorrect ? 'Correct!' : 'Wrong!'}
+          </div>
+        )}
 
-      {showContinue && (
-        <div className="continue-container">
-          <button 
-            className="continue-button"
-            onClick={handleContinue}
-          >
-            Continue
-          </button>
-        </div>
-      )}
-
-      {isCorrect !== null && (
-        <div className={`feedback ${isCorrect ? 'correct' : 'wrong'}`}>
-          {isCorrect ? 'Correct!' : 'Wrong!'}
-        </div>
-      )}
-
-      <div className="stats-section">
-        <div className="stat-item">
-          <span className="stat-label">Progress:</span>
-          <span className="stat-value">{stats.progress}%</span>
-        </div>
-        <div className="stat-item">
-          <span className="stat-label">Remaining:</span>
-          <span className="stat-value">{stats.questionsToReview}/{stats.totalQuestions}</span>
+        <div className="stats-section">
+          <div className="stat-item">
+            <span className="stat-label">Progress:</span>
+            <span className="stat-value">{stats.progress}%</span>
+          </div>
+          <div className="stat-item">
+            <span className="stat-label">Remaining:</span>
+            <span className="stat-value">{stats.questionsToReview}/{stats.totalQuestions}</span>
+          </div>
         </div>
       </div>
 
