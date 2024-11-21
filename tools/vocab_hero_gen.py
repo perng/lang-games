@@ -69,7 +69,7 @@ words_needed = list(input_words - existing_words)
 print(f"Found {len(words_needed)} words that need questions out of {len(input_words)} total words")
 
 # Process words in batches
-BATCH_SIZE = 120
+BATCH_SIZE = 50
 client = OpenAI(api_key=api_key)
 
 def save_snapshot():
@@ -139,7 +139,7 @@ while words_needed:
         # Save snapshot after each successful batch
         save_snapshot()
         print(f"Progress saved to snapshot.json. Remaining words: {len(words_needed)}")
-        time.sleep(5)
+        time.sleep(5) # sleep 5 seconds to avoid rate limit
 
 # Final save to output file
 if len(words_needed) == 0:
