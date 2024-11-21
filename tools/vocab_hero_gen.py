@@ -1,4 +1,4 @@
-import os
+import os, time
 import json
 from openai import OpenAI
 import argparse
@@ -37,14 +37,13 @@ with open('api_key.txt', 'r') as file:
 parser = argparse.ArgumentParser(description='Process words from JSON for annotation')
 parser.add_argument('json_file', help='Path to JSON file containing word data')
 parser.add_argument('output_file', help='Path to output file for JSON responses')
-parser.add_argument('--previous', help='Path to previous questions JSON file', default=None)
 args = parser.parse_args()
 
-# Read words from JSON file
+# Read input words from JSON file
 try:
     with open(args.json_file, 'r', encoding='utf-8') as f:
         word_data = json.load(f)
-        all_words = [item["word"] for item in word_data]
+        input_words = set(item["word"] for item in word_data)
 except FileNotFoundError:
     print(f"Error: JSON file {args.json_file} not found")
     exit(1)
@@ -52,42 +51,36 @@ except json.JSONDecodeError:
     print(f"Error: Invalid JSON format in {args.json_file}")
     exit(1)
 
-# After parsing args, load previous answers if file provided
-previous_answers = set()
-if args.previous:
+# Read existing output file or create empty array
+main_json = []
+if os.path.exists(args.output_file) and os.path.getsize(args.output_file) > 0:
     try:
-        with open(args.previous, 'r', encoding='utf-8') as f:
-            previous_data = json.load(f)
-            print("First few items from previous data:", previous_data[:2])
-            
-            # Loop through each entry to check for issues
-            for i, entry in enumerate(previous_data):
-                try:
-                    answer = entry["answer"]
-                    previous_answers.add(answer)
-                except KeyError as e:
-                    print(f"Warning: Entry {i} is missing field 'answer'")
-                    print(f"Problematic entry: {entry}")
-                except Exception as e:
-                    print(f"Warning: Entry {i} has unexpected error: {e}")
-                    print(f"Problematic entry: {entry}")
-            
-            print("First few answers extracted:", list(previous_answers)[:5])
-            print(f"Loaded {len(previous_answers)} previous answers")
-    except Exception as e:
-        print(f"Error loading previous questions file: {e}")
-        exit(1)
+        with open(args.output_file, 'r', encoding='utf-8') as f:
+            main_json = json.load(f)
+    except json.JSONDecodeError:
+        print(f"Warning: Invalid JSON in {args.output_file}, starting with empty array")
+        main_json = []
 
-# Filter words that haven't been used before
-all_words = [item["word"] for item in word_data]
-if previous_answers:
-    new_words = [w for w in all_words if w not in previous_answers]
-    print(f"Found {len(new_words)} new words out of {len(all_words)} total words")
-    all_words = new_words
+# Get words that already have questions
+existing_words = {q["answer"] for q in main_json}
+
+# Get initial words that need questions
+words_needed = list(input_words - existing_words)
+print(f"Found {len(words_needed)} words that need questions out of {len(input_words)} total words")
 
 # Process words in batches
-BATCH_SIZE = 60
+BATCH_SIZE = 120
 client = OpenAI(api_key=api_key)
+
+def save_snapshot():
+    """Save the main JSON array to snapshot file"""
+    with open('snapshot.json', 'w', encoding='utf-8') as f:
+        json.dump(main_json, f, ensure_ascii=False, indent=2)
+
+def save_final_output():
+    """Save the main JSON array to the output file"""
+    with open(args.output_file, 'w', encoding='utf-8') as f:
+        json.dump(main_json, f, ensure_ascii=False, indent=2)
 
 def process_batch(word_batch):
     words_str = '\n'.join(word_batch)
@@ -101,23 +94,60 @@ def process_batch(word_batch):
         )
         # Get content and filter out empty lines and ``` lines
         content = response.choices[0].message.content
-        cleaned_lines = [line for line in content.split('\n') 
+        cleaned_lines = [line.strip() for line in content.split('\n') 
                         if line.strip() and '```' not in line]
-        return '\n'.join(cleaned_lines)
+        cleaned_content = '\n'.join(cleaned_lines)
+        
+        # Fix double colons
+        cleaned_content = cleaned_content.replace(": :", ":").replace("::", ":")
+        
+        # Try to parse as JSON
+        try:
+            new_questions = json.loads(cleaned_content)
+            return new_questions
+        except json.JSONDecodeError as e:
+            # Save error content and current state
+            with open('error.txt', 'w', encoding='utf-8') as f:
+                f.write(cleaned_content)
+            save_snapshot()
+            print(f"Error parsing JSON response: {e}")
+            print(f"Response content saved to error.txt")
+            print(f"Current progress saved to snapshot.json. Remaining words: {len(words_needed)}")
+            exit(1)
+            
     except Exception as e:
         print(f"Error processing batch {word_batch}: {e}")
         return None
 
-# Process all words in batches
-for i in range(0, len(all_words), BATCH_SIZE):
-    batch = all_words[i:i + BATCH_SIZE]
-    print(f"Processing batch {i//BATCH_SIZE + 1}: {batch}")
+# Process words until none are left
+while words_needed:
+    # Take the first BATCH_SIZE words
+    batch = words_needed[:BATCH_SIZE]
+    print(f"Processing batch of {len(batch)} words: {batch}")
     
-    response = process_batch(batch)
-    
-    if response:
-        with open(args.output_file, "a") as file:
-            file.write(response + "\n")
-        print(f"Batch {i//BATCH_SIZE + 1} saved to {args.output_file}")
+    new_questions = process_batch(batch)
+    if new_questions:
+        # Extend main JSON array with new questions
+        main_json.extend(new_questions)
+        print(f"Added {len(new_questions)} new questions")
+        
+        # Update words_needed by removing words that got questions
+        new_answers = {q["answer"] for q in new_questions}
+        words_needed = [w for w in words_needed if w not in new_answers]
+        print(f"Remaining words to process: {len(words_needed)}")
+        
+        # Save snapshot after each successful batch
+        save_snapshot()
+        print(f"Progress saved to snapshot.json. Remaining words: {len(words_needed)}")
+        time.sleep(5)
+
+# Final save to output file
+if len(words_needed) == 0:
+    save_final_output()
+    print(f"Processing complete. Total questions: {len(main_json)}")
+    print(f"Final output saved to {args.output_file}")
+else:
+    print(f"Warning: {len(words_needed)} words still need questions")
+    print("Remaining words:", words_needed)
     
      
