@@ -5,6 +5,16 @@ import { IoArrowBack } from 'react-icons/io5';
 import './styles.css';
 import { useState, useEffect } from 'react';
 
+interface Question {
+    id: string;
+    sentence: string;
+    sentence_zh_TW: string;
+    word_translation_zh_TW: string;
+    answer: string;
+    others: string[];
+    others_zh_TW: string[];
+}
+
 export default function VocabHeroMenu() {
     const navigate = useNavigate();
     const [levelStats, setLevelStats] = useState(levelsData.levels.map(level => ({
@@ -18,12 +28,10 @@ export default function VocabHeroMenu() {
         const loadLevelStats = async () => {
             const updatedStats = await Promise.all(levelsData.levels.map(async (level) => {
                 try {
-                    // Dynamically import the level's question data
                     const levelData = await import(`../../../data/VocabHero/${level.id}`);
-                    const questions = levelData.default;
+                    const questions: Question[] = levelData.default;
                     
-                    // Count mastered questions
-                    const masteredWords = questions.filter(q => 
+                    const masteredWords = questions.filter((q: Question) => 
                         parseInt(getCookie(`vocabHero-${q.id}`) || '0') > 0
                     ).length;
 
