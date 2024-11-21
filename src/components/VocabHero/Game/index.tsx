@@ -139,7 +139,7 @@ export default function VocabHeroGame() {
 
     // Play audio and wait
     await new Promise(resolve => setTimeout(resolve, 500));
-    const audioPath = `/voices/WordFlash/level${level}/${currentQuestion.answer}.mp3`;
+    const audioPath = `/voices/WordFlash/level${level}/${currentQuestion.answer.replace(/ /g, '_')}.mp3`;
     await playAudioWithDelay(audioPath);
 
     // Update questions answered count

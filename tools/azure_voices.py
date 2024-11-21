@@ -37,7 +37,9 @@ def get_available_voices():
         return [], []
 
 def generate_english_audio(word, output_dir, en_voices):
-    audio_file = os.path.join(output_dir, f"{word}.mp3")
+    # Replace spaces with underscores for filename
+    safe_word = word.replace(' ', '_')
+    audio_file = os.path.join(output_dir, f"{safe_word}.mp3")
     
     # Skip if file already exists
     if os.path.exists(audio_file):
@@ -129,7 +131,7 @@ def generate_chinese_audio(text, output_dir, zh_voices):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generate voice files using Azure Speech Service')
-    parser.add_argument('json_file', help='Path to JSON file containing words and translations')
+    parser.add_argument('input_file', help='Path to JSON file or text file containing words/phrases')
     parser.add_argument('output_dir', help='Output directory for audio files')
     parser.add_argument('--start', help='Start processing from this word (skip all words before it)', default=None)
     args = parser.parse_args()
@@ -152,32 +154,52 @@ if __name__ == "__main__":
     os.makedirs(chinese_output_dir, exist_ok=True)
     
     try:
-        with open(args.json_file, 'r', encoding='utf-8') as f:
+        # First try to read as JSON
+        with open(args.input_file, 'r', encoding='utf-8') as f:
             word_data = json.load(f)
-    except FileNotFoundError:
-        print(f"Error: JSON file {args.json_file} not found")
-        exit(1)
+            is_json = True
     except json.JSONDecodeError:
-        print(f"Error: Invalid JSON file {args.json_file}")
+        # If JSON parsing fails, read as plain text
+        print(f"Reading {args.input_file} as plain text file...")
+        with open(args.input_file, 'r', encoding='utf-8') as f:
+            lines = [line.strip() for line in f if line.strip()]
+            is_json = False
+    except FileNotFoundError:
+        print(f"Error: File {args.input_file} not found")
         exit(1)
     
     # Find start index if start_word is provided
     start_index = 0
     if args.start:
-        for i, word_entry in enumerate(word_data):
-            if word_entry['word'] == args.start:
-                start_index = i
-                print(f"Starting from word: {args.start} (index: {start_index})")
-                break
+        if is_json:
+            for i, word_entry in enumerate(word_data):
+                if word_entry['word'] == args.start:
+                    start_index = i
+                    print(f"Starting from word: {args.start} (index: {start_index})")
+                    break
+            else:
+                print(f"Warning: Start word '{args.start}' not found in word list")
         else:
-            print(f"Warning: Start word '{args.start}' not found in word list")
+            for i, line in enumerate(lines):
+                if line == args.start:
+                    start_index = i
+                    print(f"Starting from line: {args.start} (index: {start_index})")
+                    break
+            else:
+                print(f"Warning: Start word '{args.start}' not found in word list")
     
-    # Process each word in the JSON file, starting from start_index
-    for word_entry in word_data[start_index:]:
-        word = word_entry['word']
-        generate_english_audio(word, args.output_dir, en_voices)
-        
-        for meaning in word_entry['meanings']:
-            chinese_text = meaning['meaning_zh_TW']
-            generate_chinese_audio(chinese_text, chinese_output_dir, zh_voices)
+    # Process words based on file type
+    if is_json:
+        # Original JSON processing
+        for word_entry in word_data[start_index:]:
+            word = word_entry['word']
+            generate_english_audio(word, args.output_dir, en_voices)
+            
+            for meaning in word_entry['meanings']:
+                chinese_text = meaning['meaning_zh_TW']
+                generate_chinese_audio(chinese_text, chinese_output_dir, zh_voices)
+    else:
+        # Plain text processing
+        for line in lines[start_index:]:
+            generate_english_audio(line, args.output_dir, en_voices)
             
