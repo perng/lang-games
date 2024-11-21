@@ -21,7 +21,7 @@ interface QuestionWithScore extends Question {
 const BATCH = 5;  // Sort questions every 5 questions
 
 export default function VocabHeroGame() {
-  const { levelId } = useParams<{ levelId: string }>();
+  const { levelId } = useParams();
   const level = levelId?.replace('level', '') || '';
   const navigate = useNavigate();
   const [questions, setQuestions] = useState<QuestionWithScore[]>([]);
@@ -53,7 +53,7 @@ export default function VocabHeroGame() {
     const loadQuestions = async () => {
       try {
         console.log('Loading level:', level);
-        const response = await import(`../../../data/VocabHero/vocab_hero_level_${level}.json`);
+        const response = await import(`../../../data/VocabHero/${levelId}`);
         
         // Add scores to questions
         const questionsWithScores: QuestionWithScore[] = response.default.map((q: Question) => ({

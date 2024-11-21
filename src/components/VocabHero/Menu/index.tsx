@@ -3,16 +3,55 @@ import levelsData from '../../../data/VocabHero/levels.json';
 import { getCookie } from '../../../utils/cookies';
 import { IoArrowBack } from 'react-icons/io5';
 import './styles.css';
+import { useState, useEffect } from 'react';
 
 export default function VocabHeroMenu() {
     const navigate = useNavigate();
-
-    const levels = levelsData.levels.map(level => ({
+    const [levelStats, setLevelStats] = useState(levelsData.levels.map(level => ({
         ...level,
-        progress: parseFloat(getCookie(`vocabHero-progress-${level.id}`) || '0').toFixed(2),
-        masteredWords: parseInt(getCookie(`vocabHero-mastered-${level.id}`) || '0'),
-        totalWords: parseInt(getCookie(`vocabHero-total-${level.id}`) || '0')
-    }));
+        progress: "0.00",
+        masteredWords: 0,
+        totalWords: 0
+    })));
+
+    useEffect(() => {
+        const loadLevelStats = async () => {
+            const updatedStats = await Promise.all(levelsData.levels.map(async (level) => {
+                try {
+                    // Dynamically import the level's question data
+                    const levelData = await import(`../../../data/VocabHero/${level.id}`);
+                    const questions = levelData.default;
+                    
+                    // Count mastered questions
+                    const masteredWords = questions.filter(q => 
+                        parseInt(getCookie(`vocabHero-${q.id}`) || '0') > 0
+                    ).length;
+
+                    const totalWords = questions.length;
+                    const progress = totalWords > 0 ? ((masteredWords / totalWords) * 100) : 0;
+
+                    return {
+                        ...level,
+                        progress: progress.toFixed(2),
+                        masteredWords,
+                        totalWords
+                    };
+                } catch (error) {
+                    console.error(`Failed to load stats for level ${level.id}:`, error);
+                    return {
+                        ...level,
+                        progress: "0.00",
+                        masteredWords: 0,
+                        totalWords: 0
+                    };
+                }
+            }));
+
+            setLevelStats(updatedStats);
+        };
+
+        loadLevelStats();
+    }, []);
 
     const getImageUrl = (image_name: string) => {
         try {
@@ -34,7 +73,7 @@ export default function VocabHeroMenu() {
 
             <h1>Vocab Hero</h1>
             <div className="levels-grid">
-                {levels.map(level => (
+                {levelStats.map(level => (
                     <Link 
                         key={level.id} 
                         to={`/vocab-hero/${level.id}`} 
