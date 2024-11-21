@@ -168,9 +168,8 @@ export default function WordFlashGame() {
         
         const currentWord = wordList[currentIndex];
         if (currentWord && levelId) {
-            const dataId = levelId.replace('level', '');
-            const audioPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
-            console.log(audioPath);
+            const audioPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word.replace(/ /g, '_')}.mp3`;            
+            console.log('audioPath', audioPath);
             
             if (audioRef.current) {
                 audioRef.current.src = audioPath;
@@ -281,12 +280,12 @@ export default function WordFlashGame() {
                 
                 if (readDefinition) {
                     if (currentWord && levelId) {
-                        const dataId = levelId.replace('level', '');
                         const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
                             .replace(/\//g, '_')
                             .replace(/\+/g, '-')
                             .replace(/=/g, '');
-                        const definitionPath = `/voices/WordFlash/level${dataId}/chinese/${encodedDefinition}.mp3`;
+                        const definitionPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedDefinition}.mp3`;
+                        
                         await playAudioWithDelay(definitionPath);
                     }
                 }
