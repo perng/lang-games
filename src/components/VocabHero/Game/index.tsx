@@ -53,7 +53,7 @@ export default function VocabHeroGame() {
     const loadQuestions = async () => {
       try {
         console.log('Loading level:', levelId);
-        const response = await import(`../../../data/VocabHero/${levelId}`);
+        const response = await import(`../../../data/VocabHero/${levelId}.json`);
         
         // Add scores to questions
         const questionsWithScores: QuestionWithScore[] = response.default.map((q: Question) => ({
