@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { setCookie, getCookie } from '../../../utils/cookies';
-import { IoArrowBack } from 'react-icons/io5';
+import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
 import './styles.css';
 
 interface Question {
@@ -235,6 +235,17 @@ export default function VocabHeroGame() {
     };
   }, []);
 
+  const handlePreviousWord = () => {
+    if (continueTimerRef.current) {
+      window.clearTimeout(continueTimerRef.current);
+    }
+    setCurrentIndex(prev => (prev - 1 + questions.length) % questions.length);
+    setSelectedOption(null);
+    setIsCorrect(null);
+    setIsAnswering(false);
+    setShowContinue(false);
+  };
+
   if (questions.length === 0) return <div>Loading...</div>;
 
   const currentQuestion = questions[currentIndex];
@@ -247,6 +258,13 @@ export default function VocabHeroGame() {
         onClick={() => navigate('/vocab-hero')}
       >
         <IoArrowBack size={24} />
+      </button>
+
+      <button 
+        className="previous-word-button"
+        onClick={handlePreviousWord}
+      >
+        <IoArrowUpOutline size={24} />
       </button>
 
       {showWelcome && (

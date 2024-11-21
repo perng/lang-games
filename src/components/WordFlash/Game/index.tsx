@@ -5,7 +5,7 @@ import { WordWithScore } from '../types';
 import './styles.css';
 import { FaPlay } from 'react-icons/fa';
 import levelsData from '../../../data/WordFlash/levels.json';
-import { IoArrowBack } from 'react-icons/io5';
+import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
 
 // Add these type definitions at the top of the file
 interface WordMeaning {
@@ -72,6 +72,7 @@ export default function WordFlashGame() {
     const [currentSlogan, setCurrentSlogan] = useState('');
     const [readDefinition, setReadDefinition] = useState(true);
     const [fastMode, setFastMode] = useState(false);
+    const continueTimerRef = useRef<number>();
 
     // Load and prepare word list
     useEffect(() => {
@@ -372,6 +373,29 @@ export default function WordFlashGame() {
         setIsProcessing(false);
     };
 
+    // Add this new handler function
+    const handlePreviousWord = () => {
+        // Clear any existing timers
+        if (continueTimerRef.current) {
+            window.clearTimeout(continueTimerRef.current);
+        }
+
+        // Reset audio if it's playing
+        if (audioRef.current) {
+            audioRef.current.pause();
+            audioRef.current.currentTime = 0;
+        }
+
+        // Calculate previous index
+        const newIndex = (currentIndex - 1 + wordList.length) % wordList.length;
+        setCurrentIndex(newIndex);
+        
+        // Reset states
+        setSelectedChoice(null);
+        setIsCorrect(null);
+        setIsProcessing(false);
+    };
+
     if (wordList.length === 0) return <div>Loading...</div>;
 
     const currentWord = wordList[currentIndex];
@@ -384,6 +408,14 @@ export default function WordFlashGame() {
                 onClick={() => navigate('/word-flash')}
             >
                 <IoArrowBack size={24} />
+            </button>
+
+            {/* Add this new button */}
+            <button 
+                className="previous-word-button"
+                onClick={handlePreviousWord}
+            >
+                <IoArrowUpOutline size={24} />
             </button>
 
             {showWelcome && (
