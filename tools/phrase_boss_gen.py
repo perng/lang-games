@@ -4,7 +4,7 @@ from openai import OpenAI
 import argparse
 from itertools import islice
 
-BATCH_SIZE = 80
+BATCH_SIZE = 40
 
 sys_prompt = '''
 Given a list of phrases, for each phrases and each definition of the phrases, generate vocabulary questions.   
@@ -81,6 +81,7 @@ def save_final_output():
         json.dump(main_json, f, ensure_ascii=False, indent=2)
 
 def process_batch(word_batch):
+    word_batch = [f'"{word}"' for word in word_batch]   
     words_str = '\n'.join(word_batch)
     try:
         response = client.chat.completions.create(
@@ -109,7 +110,7 @@ def process_batch(word_batch):
                 f.write(cleaned_content)
             save_snapshot()
             print(f"Error parsing JSON response: {e}")
-            print(f"Response content saved to error.txt")
+            print(f"Response content saved to error.json")
             print(f"Current progress saved to snapshot.json. Remaining words: {len(words_needed)}")
             exit(1)
             

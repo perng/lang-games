@@ -22,7 +22,7 @@ const BATCH = 5;  // Sort questions every 5 questions
 
 export default function VocabHeroGame() {
   const { levelId } = useParams();
-  const level = levelId?.replace('level', '') || '';
+  // const level = levelId?.replace('level', '') || '';
   const navigate = useNavigate();
   const [questions, setQuestions] = useState<QuestionWithScore[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -52,7 +52,7 @@ export default function VocabHeroGame() {
   useEffect(() => {
     const loadQuestions = async () => {
       try {
-        console.log('Loading level:', level);
+        console.log('Loading level:', levelId);
         const response = await import(`../../../data/VocabHero/${levelId}`);
         
         // Add scores to questions
@@ -70,10 +70,10 @@ export default function VocabHeroGame() {
       }
     };
 
-    if (level) {
+    if (levelId) {
       loadQuestions();
     }
-  }, [level]);
+  }, [levelId]);
 
   // Set options when current question changes
   useEffect(() => {
@@ -139,7 +139,7 @@ export default function VocabHeroGame() {
 
     // Play audio and wait
     await new Promise(resolve => setTimeout(resolve, 500));
-    const audioPath = `/voices/WordFlash/level${level}/${currentQuestion.answer.replace(/ /g, '_')}.mp3`;
+    const audioPath = `/voices/WordFlash/${levelId}/${currentQuestion.answer.replace(/ /g, '_')}.mp3`;
     await playAudioWithDelay(audioPath);
 
     // Update questions answered count
