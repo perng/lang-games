@@ -1,8 +1,11 @@
 export class AudioService {
     private audioRef: React.RefObject<HTMLAudioElement>;
+    private utterance: SpeechSynthesisUtterance;
 
     constructor(audioRef: React.RefObject<HTMLAudioElement>) {
         this.audioRef = audioRef;
+        this.utterance = new SpeechSynthesisUtterance();
+        this.utterance.lang = 'zh-TW';
     }
 
     playAudio(audioPath: string): Promise<void> {
@@ -48,10 +51,43 @@ export class AudioService {
         });
     }
 
+    speakText(text: string): Promise<void> {
+        return new Promise((resolve) => {
+            // Cancel any ongoing speech
+            window.speechSynthesis.cancel();
+
+            this.utterance.text = text;
+            
+            const onEnd = () => {
+                console.log('Speech ended:', text);
+                cleanup();
+                resolve();
+            };
+
+            const onError = () => {
+                console.error('Speech error:', text);
+                cleanup();
+                resolve();
+            };
+
+            const cleanup = () => {
+                this.utterance.removeEventListener('end', onEnd);
+                this.utterance.removeEventListener('error', onError);
+            };
+
+            this.utterance.addEventListener('end', onEnd);
+            this.utterance.addEventListener('error', onError);
+
+            window.speechSynthesis.speak(this.utterance);
+            console.log('Started speaking:', text);
+        });
+    }
+
     stop() {
         if (this.audioRef.current) {
             this.audioRef.current.pause();
             this.audioRef.current.currentTime = 0;
         }
+        window.speechSynthesis.cancel();
     }
 }

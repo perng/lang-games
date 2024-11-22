@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { setCookie, getCookie } from '../../../utils/cookies';
 import { WordWithScore } from '../types';
@@ -195,6 +195,20 @@ export default function WordFlashGame() {
         console.log('isProcessing:', isProcessing);
     }, [isProcessing]);
 
+    // Move calculateStats to a memoized value
+    const stats = useMemo(() => {
+        const totalMeanings = wordList.length;
+        const masteredMeanings = wordList.filter(item => item.score >= 1).length;
+        const wordsToReview = wordList.filter(item => item.score < 1).length;
+        
+        return {
+            progress: totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100).toFixed(2) : "0.00",
+            totalMeanings,
+            wordsToReview
+        };
+    }, [wordList]);
+
+    // Add useEffect to handle definition reading
     // Modify handleChoice to not automatically advance to next word when completing round
     const handleChoice = async (choice: string) => {
         if (isProcessing) return;
@@ -205,46 +219,63 @@ export default function WordFlashGame() {
         setSelectedChoice(choice);
         setIsCorrect(isAnswerCorrect);
 
+        // Read definition, pause, then play word
+        if (readDefinition && hasUserInteracted && audioService.current && levelId && !fastMode) {
+            // Read definition
+            await audioService.current.speakText(currentWord.meaning.meaning_zh_TW);
+            
+            // Pause for 0.7 seconds
+            await new Promise(resolve => setTimeout(resolve, 700));
+            
+            // Play word pronunciation
+            const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
+            await audioService.current.playAudio(wordPath);
+        } else {    
+            await new Promise(resolve => setTimeout(resolve, 700));
+        }
+
         if (isAnswerCorrect) {
+            // Update cookie score when answer is correct
+            const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
+            const currentScore = parseInt(getCookie(cookieKey) || '0');
+            setCookie(cookieKey, (currentScore + 1).toString());
+            console.log(`Updated score for ${currentWord.word} to ${currentScore + 1}`);
+
+            // Update wordList with new score
+            setWordList(prevList => {
+                return prevList.map(word => {
+                    if (word.word === currentWord.word && 
+                        word.meaning.index === currentWord.meaning.index) {
+                        return { ...word, score: currentScore + 1 };
+                    }
+                    return word;
+                });
+            });
+
             const nextCorrectWords = correctWordsInRound + 1;
             setCorrectWordsInRound(nextCorrectWords);
             
             if (nextCorrectWords < 10) {
                 setEatenDots(nextCorrectWords);
-                // Continue to next word normally
                 await new Promise(resolve => setTimeout(resolve, 500));
                 setSelectedChoice(null);
                 setIsCorrect(null);
+                setIsProcessing(false);
                 setCurrentIndex((prev) => (prev + 1) % wordList.length);
             } else if (nextCorrectWords === 10) {
-                // Wait 2 seconds before showing slogan
                 await new Promise(resolve => setTimeout(resolve, 2000));
                 const randomIndex = Math.floor(Math.random() * slogans.length);
                 setCurrentSlogan(slogans[randomIndex]);
                 setShowSlogan(true);
+                setIsProcessing(false);
             }
         } else {
-            // Wrong answer, continue to next word normally
             await new Promise(resolve => setTimeout(resolve, 500));
             setSelectedChoice(null);
             setIsCorrect(null);
+            setIsProcessing(false);
             setCurrentIndex((prev) => (prev + 1) % wordList.length);
         }
-        
-        setIsProcessing(false);
-    };
-
-    // Calculate stats
-    const calculateStats = () => {
-        const totalMeanings = wordList.length;
-        const masteredMeanings = wordList.filter(item => item.score >= 1).length;
-        const wordsToReview = wordList.filter(item => item.score < 1).length;
-        
-        return {
-            progress: totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100).toFixed(2) : "0.00",
-            totalMeanings,
-            wordsToReview
-        };
     };
 
     const startGame = () => {
@@ -275,13 +306,14 @@ export default function WordFlashGame() {
         setShowSlogan(false);
         setIsReturning(true);
         
-        // Wait for return animation to complete (3s) before resetting
         setTimeout(() => {
             setCompletedRounds(prev => prev + 1);
             setEatenDots(0);
             setCorrectWordsInRound(0);
             setIsReturning(false);
-            // Move to next word only after Pacman has returned
+            setSelectedChoice(null);
+            setIsCorrect(null);
+            setIsProcessing(false);
             setCurrentIndex((prev) => (prev + 1) % wordList.length);
         }, 3000);
     };
@@ -312,7 +344,6 @@ export default function WordFlashGame() {
     if (wordList.length === 0) return <div>Loading...</div>;
 
     const currentWord = wordList[currentIndex];
-    const stats = calculateStats();
 
     return (
         <div className="word-flash-game">
