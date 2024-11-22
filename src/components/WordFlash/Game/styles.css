@@ -454,11 +454,12 @@ input:checked + .toggle-slider:before {
         0 0,
         0 100%,
         100% 100%,
-        100% 60%,
+        100% 75%,
         50% 50%,
-        100% 40%
+        100% 25%
     );
     animation: eat 0.7s linear infinite;
+    margin-right: 30px;
 }
 
 @keyframes eat {
