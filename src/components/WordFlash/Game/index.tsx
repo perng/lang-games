@@ -76,7 +76,6 @@ export default function WordFlashGame() {
     const [eatenDots, setEatenDots] = useState(0);
     const [completedRounds, setCompletedRounds] = useState(0);
     const [isReturning, setIsReturning] = useState(false);
-    const [wordsInRound, setWordsInRound] = useState(0);
     const [correctWordsInRound, setCorrectWordsInRound] = useState(0);
 
     // Initialize audio service
