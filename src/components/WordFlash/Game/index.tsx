@@ -57,6 +57,8 @@ const FAST_MODE_SLOGAN_INTERVAL = 25;  // Show slogan every 25 words in fast mod
 const NORMAL_MODE_SLOGAN_INTERVAL = 5;  // Show slogan every 5 words in normal mode
 
 export default function WordFlashGame() {
+    console.log('Initializing WordFlashGame');
+
     const navigate = useNavigate();
     const { levelId } = useParams<{ levelId: string }>();
     const [wordList, setWordList] = useState<WordWithScore[]>([]);
@@ -142,10 +144,10 @@ export default function WordFlashGame() {
     // Add debug logging whenever currentIndex changes
     useEffect(() => {
         if (wordList.length > 0) {
-            console.log('Next 10 words:');
+            console.log('Next 2 words:');
             const nextWords = [];
             let index = currentIndex;
-            for (let i = 0; i < 10 && i < wordList.length; i++) {
+            for (let i = 0; i < 2 && i < wordList.length; i++) {
                 const word = wordList[index];
                 nextWords.push({
                     word: word.word,
@@ -187,9 +189,22 @@ export default function WordFlashGame() {
         }
     };
 
+    // Add this useEffect to monitor isProcessing
+    useEffect(() => {
+        console.log('isProcessing:', isProcessing);
+    }, [isProcessing]);
+
+    // Modify handleChoice to add more logging
     const handleChoice = async (choice: string) => {
+        console.log('handleChoice called with:', choice);
+        console.log('isProcessing:', isProcessing);
+        
+        if (isProcessing) {
+            console.log('Skipping due to isProcessing');
+            return;
+        }
+        
         setHasUserInteracted(true);
-        if (isProcessing) return;
         setIsProcessing(true);
         
         const currentWord = wordList[currentIndex];
@@ -223,47 +238,47 @@ export default function WordFlashGame() {
             setCookie(`wordFlash-total-${levelId}`, totalMeanings.toString());
         }
 
+        console.log('Fast mode:', fastMode);
         try {
-            if (!fastMode && audioService.current) {
+            console.log('Fast mode:', fastMode);
+            if (fastMode) {
+                // Fast mode: just wait and play page turn
+                console.log('Fast mode: Starting delay');
+                await new Promise(resolve => setTimeout(resolve, 700));
+                console.log('Fast mode: Delay complete');
+            } else {
+                // Normal mode
                 await new Promise(resolve => setTimeout(resolve, 500));
                 
-                // Play definition if enabled
                 if (readDefinition && currentWord && levelId) {
                     const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
                     const definitionPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedDefinition}.mp3`;
-                    await audioService.current.playAudio(definitionPath);
-                    // Wait 1 second after definition
-                    await new Promise(resolve => setTimeout(resolve, 1000));
+                    await audioService.current?.playAudio(definitionPath);
+                    await new Promise(resolve => setTimeout(resolve, 500));
                 }
 
                 // Play word
                 if (currentWord && levelId) {
                     const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
-                    await audioService.current.playAudio(wordPath);
+                    await audioService.current?.playAudio(wordPath);
                 }
+            }
 
-                // Play page turn sound before moving to next word
+            // Play page turn sound for both modes
+            if (audioService.current) {
                 await audioService.current.playAudio('/voices/turn-page.mp3');
             }
 
-            // Show slogan every 25 words in fast mode
-            if ((currentIndex + 1) % FAST_MODE_SLOGAN_INTERVAL === 0) {
-                console.log('Showing slogan in fast mode');
+            // Check for slogan display
+            if ((currentIndex + 1) % (fastMode ? FAST_MODE_SLOGAN_INTERVAL : NORMAL_MODE_SLOGAN_INTERVAL) === 0) {
                 const randomIndex = Math.floor(Math.random() * slogans.length);
                 setCurrentSlogan(slogans[randomIndex]);
                 setShowSlogan(true);
-                return; // Don't move to next word yet
+                setIsProcessing(false);
+                return;
             }
 
-            // Show slogan every 5 words in normal mode
-            if ((currentIndex + 1) % NORMAL_MODE_SLOGAN_INTERVAL === 0) {
-                console.log('Showing slogan in normal mode');
-                const randomIndex = Math.floor(Math.random() * slogans.length);
-                setCurrentSlogan(slogans[randomIndex]);
-                setShowSlogan(true);
-                return; // Don't move to next word yet
-            }
-
+            // Move to next word
             setSelectedChoice(null);
             setIsCorrect(null);
             setCurrentIndex((prev) => (prev + 1) % wordList.length);
@@ -408,7 +423,10 @@ export default function WordFlashGame() {
                 {choices.map((choice, index) => (
                     <button
                         key={index}
-                        onClick={() => handleChoice(choice)}
+                        onClick={() => {
+                            console.log('Button clicked');
+                            handleChoice(choice);
+                        }}
                         className={`
                             choice-button
                             ${selectedChoice === choice && 
