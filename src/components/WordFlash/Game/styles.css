@@ -458,6 +458,11 @@ input:checked + .toggle-slider:before {
     background: #FFE737;
     border-radius: 50%;
     position: relative;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.pacman:not(.powered-up) {
     clip-path: polygon(
         100% 0,
         0 0,
@@ -468,8 +473,30 @@ input:checked + .toggle-slider:before {
         100% 25%
     );
     animation: eat 0.7s linear infinite;
-    transition: transform 0.3s ease;
-    margin-right: 5px;
+}
+
+.pacman.powered-up {
+    animation: 
+        eat 0.7s linear infinite,
+        turnAndReturn 3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes turnAndReturn {
+    0% {
+        transform: translateX(var(--current-x)) scale(1) rotateY(0deg);
+    }
+    10% {
+        transform: translateX(var(--current-x)) scale(1.4) rotateY(0deg);
+    }
+    20% {
+        transform: translateX(var(--current-x)) scale(1.4) rotateY(180deg);
+    }
+    90% {
+        transform: translateX(0) scale(1.4) rotateY(180deg);
+    }
+    100% {
+        transform: translateX(0) scale(1) rotateY(180deg);
+    }
 }
 
 @keyframes eat {

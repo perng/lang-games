@@ -373,8 +373,11 @@ export default function WordFlashGame() {
 
     useEffect(() => {
         if (eatenDots === 9) {
-            setCompletedRounds(prev => prev + 1);
-            // Reset eatenDots or handle next round...
+            // Wait for power-up and return animation to complete
+            setTimeout(() => {
+                setCompletedRounds(prev => prev + 1);
+                setEatenDots(0);
+            }, 3000);
         }
     }, [eatenDots]);
 
@@ -401,8 +404,11 @@ export default function WordFlashGame() {
 
             <div className="pacman-container">
                 <div 
-                    className="pacman"
-                    style={{ transform: `translateX(${eatenDots * 18}px)` }}
+                    className={`pacman ${eatenDots >= 9 ? 'powered-up' : ''}`}
+                    style={{ 
+                        '--current-x': `${eatenDots * 18}px`,
+                        transform: eatenDots >= 9 ? undefined : `translateX(${eatenDots * 18}px)`
+                    } as React.CSSProperties}
                 />
                 {[...Array(9)].map((_, index) => (
                     <div
