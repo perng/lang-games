@@ -53,8 +53,7 @@ const loadWordFile = async (wordFile: string): Promise<WordFileData> => {
 };
 
 export default function WordFlashGame() {
-    console.log('Initializing WordFlashGame');
-
+    // All state declarations first
     const navigate = useNavigate();
     const { levelId } = useParams<{ levelId: string }>();
     const [wordList, setWordList] = useState<WordWithScore[]>([]);
@@ -83,7 +82,16 @@ export default function WordFlashGame() {
         audioService.current = new AudioService(audioRef);
     }, []);
 
-    // Load and prepare word list
+    // Restore completed rounds from cookie
+    useEffect(() => {
+        if (levelId) {
+            const savedRounds = parseInt(getCookie(`${levelId}_completed_rounds`) || '0');
+            console.log(`Restored ${savedRounds} completed rounds from cookie for level ${levelId}`);
+            setCompletedRounds(savedRounds);
+        }
+    }, [levelId]);
+
+    // Load word list
     useEffect(() => {
         const loadWords = async () => {
             if (!levelId) {
@@ -280,6 +288,17 @@ export default function WordFlashGame() {
     const startGame = () => {
         setHasUserInteracted(true);
         setShowWelcome(false);
+
+        // // First announce completed rounds if any
+        // if (completedRounds > 0 && audioService.current) {
+        //     const roundText = `你已經完成了 ${completedRounds} 輪`;
+        //     await audioService.current.speakText(roundText);
+            
+        //     // Add a small pause
+        //     await new Promise(resolve => setTimeout(resolve, 500));
+        // }
+
+        // Then play the current word
         if (currentWord && levelId) {
             const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
             audioService.current?.playAudio(wordPath);
@@ -306,7 +325,14 @@ export default function WordFlashGame() {
         setIsReturning(true);
         
         setTimeout(() => {
-            setCompletedRounds(prev => prev + 1);
+            const newCompletedRounds = completedRounds + 1;
+            setCompletedRounds(newCompletedRounds);
+            
+            // Save to cookie whenever rounds are updated
+            if (levelId) {
+                setCookie(`${levelId}_completed_rounds`, newCompletedRounds.toString());
+            }
+
             setEatenDots(0);
             setCorrectWordsInRound(0);
             setIsReturning(false);
