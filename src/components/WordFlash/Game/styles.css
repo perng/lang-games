@@ -3,14 +3,18 @@
     flex-direction: column;
     min-height: 100vh;
     padding: 20px;
+    position: relative;
+    padding-top: 60px;
 }
 
 .navigation-section {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 20px 0;
     order: 2;
+    position: relative;
 }
 
 .stats-section {
@@ -435,12 +439,17 @@ input:checked + .toggle-slider:before {
 }
 
 .pacman-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    margin: 20px 0;
     height: 40px;
+    width: 80%;
+    z-index: 10;
 }
 
 .pacman {
@@ -459,7 +468,8 @@ input:checked + .toggle-slider:before {
         100% 25%
     );
     animation: eat 0.7s linear infinite;
-    margin-right: 30px;
+    transition: transform 0.3s ease;
+    margin-right: 5px;
 }
 
 @keyframes eat {

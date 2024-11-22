@@ -384,13 +384,26 @@ export default function WordFlashGame() {
                 <IoArrowBack size={24} />
             </button>
 
-            {/* Add this new button */}
             <button 
                 className="previous-word-button"
                 onClick={handlePreviousWord}
             >
                 <IoArrowUpOutline size={24} />
             </button>
+
+            <div className="pacman-container">
+                <div 
+                    className="pacman"
+                    style={{ transform: `translateX(${eatenDots * 18}px)` }}  // 18px = dot width (10px) + gap (8px)
+                />
+                {[...Array(10)].map((_, index) => (
+                    <div
+                        key={index}
+                        className={`pac-dot ${index < eatenDots ? 'eaten' : ''}`}
+                    />
+                ))}
+                <div className={`power-pellet ${eatenDots >= 10 ? 'eaten' : ''}`} />
+            </div>
 
             {showWelcome && (
                 <div className="welcome-overlay">
@@ -461,20 +474,6 @@ export default function WordFlashGame() {
                     <span className="stat-label">尚餘:</span>
                     <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>                
                 </div>
-            </div>
-
-            <div className="pacman-container">
-                <div 
-                    className="pacman"
-                    style={{ transform: `translateX(${eatenDots * 30}px)` }}
-                />
-                {[...Array(10)].map((_, index) => (
-                    <div
-                        key={index}
-                        className={`pac-dot ${index < eatenDots ? 'eaten' : ''}`}
-                    />
-                ))}
-                <div className={`power-pellet ${eatenDots >= 10 ? 'eaten' : ''}`} />
             </div>
 
             <div className="game-footer">
