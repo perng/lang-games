@@ -527,6 +527,24 @@ input:checked + .toggle-slider:before {
     background: #FFB897;
     border-radius: 50%;
     flex-shrink: 0;
+    animation: pulsePellet 0.75s ease-in-out infinite;
+}
+
+@keyframes pulsePellet {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.power-pellet.eaten {
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .ghost-areas-container {
@@ -558,36 +576,47 @@ input:checked + .toggle-slider:before {
     flex-shrink: 0;
 }
 
-/* Ghost colors with different animation delays */
-.ghost:nth-child(4n + 1) { 
-    background: #FF0000;  /* Blinky - Red */
-}
-.ghost:nth-child(4n + 1)::before { 
-    animation-delay: 0s; 
+/* Ghost colors */
+.ghost:nth-child(4n + 1) { background: #FF0000; }  /* Blinky - Red */
+.ghost:nth-child(4n + 2) { background: #FFB8FF; }  /* Pinky - Pink */
+.ghost:nth-child(4n + 3) { background: #00FFFF; }  /* Inky - Cyan */
+.ghost:nth-child(4n + 4) { background: #FFB852; }  /* Clyde - Orange */
+
+/* Ghost feet animation */
+.ghost::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: inherit;
+    animation: ghostFeet 0.5s linear infinite;
 }
 
-.ghost:nth-child(4n + 2) { 
-    background: #FFB8FF;  /* Pinky - Pink */
-}
-.ghost:nth-child(4n + 2)::before { 
-    animation-delay: -0.5s; 
+@keyframes ghostFeet {
+    0%, 100% {
+        clip-path: polygon(
+            0% 0%,
+            25% 100%,
+            50% 0%,
+            75% 100%,
+            100% 0%
+        );
+    }
+    50% {
+        clip-path: polygon(
+            0% 0%,
+            20% 50%,
+            40% 0%,
+            60% 50%,
+            80% 0%,
+            100% 0%
+        );
+    }
 }
 
-.ghost:nth-child(4n + 3) { 
-    background: #00FFFF;  /* Inky - Cyan */
-}
-.ghost:nth-child(4n + 3)::before { 
-    animation-delay: -1s; 
-}
-
-.ghost:nth-child(4n + 4) { 
-    background: #FFB852;  /* Clyde - Orange */
-}
-.ghost:nth-child(4n + 4)::before { 
-    animation-delay: -1.5s; 
-}
-
-/* Ghost eyes base */
+/* Ghost eyes */
 .ghost::before {
     content: '';
     position: absolute;
