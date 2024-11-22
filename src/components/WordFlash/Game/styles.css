@@ -450,15 +450,15 @@ input:checked + .toggle-slider:before {
     border-radius: 50%;
     position: relative;
     clip-path: polygon(
-        0 0,
         100% 0,
-        100% 100%,
+        0 0,
         0 100%,
-        0 60%,
+        100% 100%,
+        100% 60%,
         50% 50%,
-        0 40%
+        100% 40%
     );
-    animation: eat 0.35s linear infinite;
+    animation: eat 0.7s linear infinite;
 }
 
 @keyframes eat {
@@ -468,9 +468,9 @@ input:checked + .toggle-slider:before {
             0 0,
             0 100%,
             100% 100%,
-            100% 60%,
+            100% 75%,
             50% 50%,
-            100% 40%
+            100% 25%
         );
     }
     50% {
@@ -490,9 +490,9 @@ input:checked + .toggle-slider:before {
             0 0,
             0 100%,
             100% 100%,
-            100% 60%,
+            100% 75%,
             50% 50%,
-            100% 40%
+            100% 25%
         );
     }
 }
