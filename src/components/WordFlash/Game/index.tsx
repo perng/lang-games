@@ -217,7 +217,8 @@ export default function WordFlashGame() {
                 setIsCorrect(null);
                 setCurrentIndex((prev) => (prev + 1) % wordList.length);
             } else if (nextCorrectWords === 10) {
-                // Show slogan and wait for handleSloganClick to handle the reset
+                // Wait 2 seconds before showing slogan
+                await new Promise(resolve => setTimeout(resolve, 2000));
                 const randomIndex = Math.floor(Math.random() * slogans.length);
                 setCurrentSlogan(slogans[randomIndex]);
                 setShowSlogan(true);
