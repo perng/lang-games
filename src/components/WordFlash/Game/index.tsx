@@ -6,6 +6,7 @@ import './styles.css';
 import { FaPlay } from 'react-icons/fa';
 import levelsData from '../../../data/WordFlash/levels.json';
 import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
+import { AudioService } from '../../../utils/audioService';
 
 // Add these type definitions at the top of the file
 interface WordMeaning {
@@ -64,7 +65,7 @@ export default function WordFlashGame() {
     const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
     const [isProcessing, setIsProcessing] = useState(false);
-    const audioRef = useRef<HTMLAudioElement | null>(null);
+    const audioRef = useRef<HTMLAudioElement>(null);
     const [hasUserInteracted, setHasUserInteracted] = useState(false);
     const [showWelcome, setShowWelcome] = useState(true);
     const [slogans, setSlogans] = useState<string[]>([]);
@@ -73,6 +74,12 @@ export default function WordFlashGame() {
     const [readDefinition, setReadDefinition] = useState(true);
     const [fastMode, setFastMode] = useState(false);
     const continueTimerRef = useRef<number>();
+    const audioService = useRef<AudioService>();
+
+    // Initialize audio service
+    useEffect(() => {
+        audioService.current = new AudioService(audioRef);
+    }, []);
 
     // Load and prepare word list
     useEffect(() => {
@@ -164,68 +171,22 @@ export default function WordFlashGame() {
         }
     }, [currentIndex, wordList.length]); // Only shuffle when word changes
 
-    const playWordAudio = () => {
-        if (wordList.length === 0) return;
-        
-        const currentWord = wordList[currentIndex];
-        if (currentWord && levelId) {
-            const audioPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word.replace(/ /g, '_')}.mp3`;            
-            console.log('audioPath', audioPath);
-            
-            if (audioRef.current) {
-                audioRef.current.src = audioPath;
-                audioRef.current.play()
-                    .then(() => {
-                        // Audio played successfully
-                    })
-                    .catch(error => {
-                        // Only log errors that aren't related to user interaction
-                        if (error.name !== 'NotAllowedError') {
-                            console.error('Error playing audio:', error.name);
-                        }
-                    });
-            }
-        }
-    };
-
-    // Play audio when word changes AND user has interacted
+    // Play word when it changes
     useEffect(() => {
-        if (hasUserInteracted && wordList.length > 0) {
-            playWordAudio();
+        if (hasUserInteracted && wordList.length > 0 && currentWord && levelId && !isProcessing) {
+            const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
+            audioService.current?.playAudio(wordPath);
         }
-    }, [currentIndex, hasUserInteracted]);
+    }, [currentIndex, hasUserInteracted, wordList.length, isProcessing]);
 
-    // Add this helper function to play audio and wait for completion
-    const playAudioWithDelay = (audioPath: string): Promise<void> => {
-        return new Promise((resolve) => {
-            if (audioRef.current) {
-                audioRef.current.src = audioPath;
-                
-                // Handle audio completion
-                audioRef.current.onended = () => {
-                    // Add a fixed gap after audio completes
-                    setTimeout(resolve, 500); // 500ms gap after audio
-                };
-
-                // Handle errors
-                audioRef.current.onerror = () => {
-                    console.error('Error playing audio:', audioPath);
-                    resolve(); // Continue even if there's an error
-                };
-
-                audioRef.current.play().catch(error => {
-                    if (error.name !== 'NotAllowedError') {
-                        console.error('Error playing audio:', error);
-                    }
-                    resolve();
-                });
-            } else {
-                resolve();
-            }
-        });
+    const handlePlayButton = () => {
+        if (currentWord && levelId && audioService.current) {
+            console.log('Play button clicked for word:', currentWord.word);
+            const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
+            audioService.current.playAudio(wordPath);
+        }
     };
 
-    // Modify the handleChoice function
     const handleChoice = async (choice: string) => {
         setHasUserInteracted(true);
         if (isProcessing) return;
@@ -263,63 +224,52 @@ export default function WordFlashGame() {
         }
 
         try {
-            if (fastMode) {
-                // Fast mode: just wait 500ms and move to next word
+            if (!fastMode && audioService.current) {
                 await new Promise(resolve => setTimeout(resolve, 500));
                 
-                // Show slogan every 25 words in fast mode
-                if ((currentIndex + 1) % FAST_MODE_SLOGAN_INTERVAL === 0) {
-                    console.log('Showing slogan in fast mode');
-                    const randomIndex = Math.floor(Math.random() * slogans.length);
-                    setCurrentSlogan(slogans[randomIndex]);
-                    setShowSlogan(true);
-                    return; // Don't move to next word yet
-                }
-            } else {
-                // Original behavior with all delays and audio
-                await new Promise(resolve => setTimeout(resolve, 500));
-                
-                if (readDefinition) {
-                    if (currentWord && levelId) {
-                        const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
-                            .replace(/\//g, '_')
-                            .replace(/\+/g, '-')
-                            .replace(/=/g, '');
-                        const definitionPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedDefinition}.mp3`;
-                        
-                        await playAudioWithDelay(definitionPath);
-                    }
+                // Play definition if enabled
+                if (readDefinition && currentWord && levelId) {
+                    const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
+                    const definitionPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedDefinition}.mp3`;
+                    await audioService.current.playAudio(definitionPath);
+                    // Wait 1 second after definition
+                    await new Promise(resolve => setTimeout(resolve, 1000));
                 }
 
-                await new Promise(resolve => setTimeout(resolve, 700));
-                
+                // Play word
                 if (currentWord && levelId) {
-                    const dataId = levelId.replace('level', '');
-                    const wordPath = `/voices/WordFlash/level${dataId}/${currentWord.word}.mp3`;
-                    await playAudioWithDelay(wordPath);
+                    const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
+                    await audioService.current.playAudio(wordPath);
                 }
 
-                await new Promise(resolve => setTimeout(resolve, 500));
+                // Play page turn sound before moving to next word
+                await audioService.current.playAudio('/voices/turn-page.mp3');
+            }
 
-                // Show slogan every 5 words in normal mode
-                if ((currentIndex + 1) % NORMAL_MODE_SLOGAN_INTERVAL === 0) {
-                    console.log('Showing slogan in normal mode');
-                    const randomIndex = Math.floor(Math.random() * slogans.length);
-                    setCurrentSlogan(slogans[randomIndex]);
-                    setShowSlogan(true);
-                    return; // Don't move to next word yet
-                }
+            // Show slogan every 25 words in fast mode
+            if ((currentIndex + 1) % FAST_MODE_SLOGAN_INTERVAL === 0) {
+                console.log('Showing slogan in fast mode');
+                const randomIndex = Math.floor(Math.random() * slogans.length);
+                setCurrentSlogan(slogans[randomIndex]);
+                setShowSlogan(true);
+                return; // Don't move to next word yet
+            }
+
+            // Show slogan every 5 words in normal mode
+            if ((currentIndex + 1) % NORMAL_MODE_SLOGAN_INTERVAL === 0) {
+                console.log('Showing slogan in normal mode');
+                const randomIndex = Math.floor(Math.random() * slogans.length);
+                setCurrentSlogan(slogans[randomIndex]);
+                setShowSlogan(true);
+                return; // Don't move to next word yet
             }
 
             setSelectedChoice(null);
             setIsCorrect(null);
-            
             setCurrentIndex((prev) => (prev + 1) % wordList.length);
             setIsProcessing(false);
         } catch (error) {
-            console.error('Error handling choice:', error);
-            setSelectedChoice(null);
-            setIsCorrect(null);
+            console.error('Error in handleChoice:', error);
             setIsProcessing(false);
         }
     };
@@ -340,7 +290,10 @@ export default function WordFlashGame() {
     const startGame = () => {
         setHasUserInteracted(true);
         setShowWelcome(false);
-        playWordAudio(); // Play first word's audio immediately
+        if (currentWord && levelId) {
+            const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
+            audioService.current?.playAudio(wordPath);
+        }
     };
 
     // Add this function to load slogans
@@ -443,7 +396,7 @@ export default function WordFlashGame() {
                         className="play-button"
                         onClick={() => {
                             setHasUserInteracted(true);
-                            playWordAudio();
+                            handlePlayButton();
                         }}
                         aria-label="Play pronunciation"
                     >
