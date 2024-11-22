@@ -551,17 +551,19 @@ input:checked + .toggle-slider:before {
 .ghost {
     width: 30px;
     height: 30px;
-    background: #FF0000;
     border-radius: 15px 15px 0 0;
     position: relative;
     opacity: 0;
     transition: opacity 0.3s ease;
 }
 
-.ghost.visible {
-    opacity: 1;
-}
+/* Ghost colors */
+.ghost:nth-child(4n + 1) { background: #FF0000; }  /* Blinky - Red */
+.ghost:nth-child(4n + 2) { background: #FFB8FF; }  /* Pinky - Pink */
+.ghost:nth-child(4n + 3) { background: #00FFFF; }  /* Inky - Cyan */
+.ghost:nth-child(4n + 4) { background: #FFB852; }  /* Clyde - Orange */
 
+/* Ghost wavy bottom */
 .ghost::after {
     content: '';
     position: absolute;
@@ -569,7 +571,6 @@ input:checked + .toggle-slider:before {
     left: 0;
     width: 100%;
     height: 10px;
-    background: #FF0000;
     clip-path: polygon(
         0% 0%,
         25% 100%,
@@ -577,4 +578,26 @@ input:checked + .toggle-slider:before {
         75% 100%,
         100% 0%
     );
-} 
+    background: inherit;
+}
+
+/* Simplified ghost eyes */
+.ghost::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 
+        2px 0 0 0 #0000FF,  /* Blue pupil for left eye */
+        12px 0 0 0 white,   /* Right eye */
+        14px 0 0 0 #0000FF; /* Blue pupil for right eye */
+}
+
+.ghost.visible {
+    opacity: 1;
+}
+ 
