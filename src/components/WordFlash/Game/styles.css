@@ -544,57 +544,91 @@ input:checked + .toggle-slider:before {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 10px;
+    padding: 5px;
+    gap: 5px;
 }
 
 .ghost {
     width: 30px;
-    height: 30px;
-    border-radius: 15px 15px 0 0;
+    height: 25px;
+    border-radius: 12px 12px 0 0;
     position: relative;
     opacity: 0;
     transition: opacity 0.3s ease;
+    flex-shrink: 0;
 }
 
-/* Ghost colors */
-.ghost:nth-child(4n + 1) { background: #FF0000; }  /* Blinky - Red */
-.ghost:nth-child(4n + 2) { background: #FFB8FF; }  /* Pinky - Pink */
-.ghost:nth-child(4n + 3) { background: #00FFFF; }  /* Inky - Cyan */
-.ghost:nth-child(4n + 4) { background: #FFB852; }  /* Clyde - Orange */
-
-/* Ghost wavy bottom */
-.ghost::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 10px;
-    clip-path: polygon(
-        0% 0%,
-        25% 100%,
-        50% 0%,
-        75% 100%,
-        100% 0%
-    );
-    background: inherit;
+/* Ghost colors with different animation delays */
+.ghost:nth-child(4n + 1) { 
+    background: #FF0000;  /* Blinky - Red */
+}
+.ghost:nth-child(4n + 1)::before { 
+    animation-delay: 0s; 
 }
 
-/* Simplified ghost eyes */
+.ghost:nth-child(4n + 2) { 
+    background: #FFB8FF;  /* Pinky - Pink */
+}
+.ghost:nth-child(4n + 2)::before { 
+    animation-delay: -0.5s; 
+}
+
+.ghost:nth-child(4n + 3) { 
+    background: #00FFFF;  /* Inky - Cyan */
+}
+.ghost:nth-child(4n + 3)::before { 
+    animation-delay: -1s; 
+}
+
+.ghost:nth-child(4n + 4) { 
+    background: #FFB852;  /* Clyde - Orange */
+}
+.ghost:nth-child(4n + 4)::before { 
+    animation-delay: -1.5s; 
+}
+
+/* Ghost eyes base */
 .ghost::before {
     content: '';
     position: absolute;
     top: 8px;
-    left: 6px;
+    left: 4px;
     width: 6px;
     height: 6px;
     background: white;
     border-radius: 50%;
     box-shadow: 
-        2px 0 0 0 #0000FF,  /* Blue pupil for left eye */
-        12px 0 0 0 white,   /* Right eye */
-        14px 0 0 0 #0000FF; /* Blue pupil for right eye */
+        2px 0 0 0 #0000FF,
+        12px 0 0 0 white,
+        14px 0 0 0 #0000FF;
+    animation: ghostEyes 2s steps(1) infinite;
+}
+
+@keyframes ghostEyes {
+    0%, 100% {  /* Looking right */
+        box-shadow: 
+            3px 0 0 0 #0000FF,
+            12px 0 0 0 white,
+            15px 0 0 0 #0000FF;
+    }
+    25% {  /* Looking down */
+        box-shadow: 
+            2px 2px 0 0 #0000FF,
+            12px 0 0 0 white,
+            14px 2px 0 0 #0000FF;
+    }
+    50% {  /* Looking left */
+        box-shadow: 
+            1px 0 0 0 #0000FF,
+            12px 0 0 0 white,
+            13px 0 0 0 #0000FF;
+    }
+    75% {  /* Looking up */
+        box-shadow: 
+            2px -2px 0 0 #0000FF,
+            12px 0 0 0 white,
+            14px -2px 0 0 #0000FF;
+    }
 }
 
 .ghost.visible {

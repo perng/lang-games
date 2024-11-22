@@ -372,7 +372,7 @@ export default function WordFlashGame() {
     };
 
     useEffect(() => {
-        if (eatenDots === 10) {
+        if (eatenDots === 9) {
             setCompletedRounds(prev => prev + 1);
             // Reset eatenDots or handle next round...
         }
@@ -402,15 +402,15 @@ export default function WordFlashGame() {
             <div className="pacman-container">
                 <div 
                     className="pacman"
-                    style={{ transform: `translateX(${eatenDots * 18}px)` }}  // 18px = dot width (10px) + gap (8px)
+                    style={{ transform: `translateX(${eatenDots * 18}px)` }}
                 />
-                {[...Array(10)].map((_, index) => (
+                {[...Array(9)].map((_, index) => (
                     <div
                         key={index}
                         className={`pac-dot ${index < eatenDots ? 'eaten' : ''}`}
                     />
                 ))}
-                <div className={`power-pellet ${eatenDots >= 10 ? 'eaten' : ''}`} />
+                <div className={`power-pellet ${eatenDots >= 9 ? 'eaten' : ''}`} />
             </div>
 
             {showWelcome && (
