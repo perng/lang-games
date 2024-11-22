@@ -77,6 +77,7 @@ export default function WordFlashGame() {
     const [fastMode, setFastMode] = useState(false);
     const continueTimerRef = useRef<number>();
     const audioService = useRef<AudioService>();
+    const [eatenDots, setEatenDots] = useState(0);
 
     // Initialize audio service
     useEffect(() => {
@@ -211,6 +212,11 @@ export default function WordFlashGame() {
         const isAnswerCorrect = choice === currentWord.meaning.meaning_zh_TW;
         setSelectedChoice(choice);
         setIsCorrect(isAnswerCorrect);
+
+        // Add this line to update eaten dots when answer is correct
+        if (isAnswerCorrect) {
+            setEatenDots(prev => (prev + 1) % 11); // Reset after eating all dots including power pellet
+        }
 
         // Update cookie and word list with more punitive scoring for wrong answers
         const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
@@ -455,6 +461,20 @@ export default function WordFlashGame() {
                     <span className="stat-label">尚餘:</span>
                     <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>                
                 </div>
+            </div>
+
+            <div className="pacman-container">
+                <div 
+                    className="pacman"
+                    style={{ transform: `translateX(${eatenDots * 30}px)` }}
+                />
+                {[...Array(10)].map((_, index) => (
+                    <div
+                        key={index}
+                        className={`pac-dot ${index < eatenDots ? 'eaten' : ''}`}
+                    />
+                ))}
+                <div className={`power-pellet ${eatenDots >= 10 ? 'eaten' : ''}`} />
             </div>
 
             <div className="game-footer">
