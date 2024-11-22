@@ -462,7 +462,7 @@ input:checked + .toggle-slider:before {
     transition: transform 0.3s ease;
 }
 
-.pacman:not(.powered-up) {
+.pacman:not(.returning) {
     clip-path: polygon(
         100% 0,
         0 0,
@@ -475,7 +475,7 @@ input:checked + .toggle-slider:before {
     animation: eat 0.7s linear infinite;
 }
 
-.pacman.powered-up {
+.pacman.returning {
     animation: 
         eat 0.7s linear infinite,
         turnAndReturn 3s cubic-bezier(0.4, 0, 0.2, 1) forwards;

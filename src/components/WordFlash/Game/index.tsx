@@ -52,10 +52,6 @@ const loadWordFile = async (wordFile: string): Promise<WordFileData> => {
     }
 };
 
-// Update the constant to handle both modes
-const FAST_MODE_SLOGAN_INTERVAL = 25;  // Show slogan every 25 words in fast mode
-const NORMAL_MODE_SLOGAN_INTERVAL = 5;  // Show slogan every 5 words in normal mode
-
 export default function WordFlashGame() {
     console.log('Initializing WordFlashGame');
 
@@ -79,6 +75,9 @@ export default function WordFlashGame() {
     const audioService = useRef<AudioService>();
     const [eatenDots, setEatenDots] = useState(0);
     const [completedRounds, setCompletedRounds] = useState(0);
+    const [isReturning, setIsReturning] = useState(false);
+    const [wordsInRound, setWordsInRound] = useState(0);
+    const [correctWordsInRound, setCorrectWordsInRound] = useState(0);
 
     // Initialize audio service
     useEffect(() => {
@@ -196,17 +195,9 @@ export default function WordFlashGame() {
         console.log('isProcessing:', isProcessing);
     }, [isProcessing]);
 
-    // Modify handleChoice to add more logging
+    // Modify handleChoice to not automatically advance to next word when completing round
     const handleChoice = async (choice: string) => {
-        console.log('handleChoice called with:', choice);
-        console.log('isProcessing:', isProcessing);
-        
-        if (isProcessing) {
-            console.log('Skipping due to isProcessing');
-            return;
-        }
-        
-        setHasUserInteracted(true);
+        if (isProcessing) return;
         setIsProcessing(true);
         
         const currentWord = wordList[currentIndex];
@@ -214,86 +205,32 @@ export default function WordFlashGame() {
         setSelectedChoice(choice);
         setIsCorrect(isAnswerCorrect);
 
-        // Add this line to update eaten dots when answer is correct
         if (isAnswerCorrect) {
-            setEatenDots(prev => (prev + 1) % 11); // Reset after eating all dots including power pellet
-        }
-
-        // Update cookie and word list with more punitive scoring for wrong answers
-        const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
-        const currentScore = parseInt(getCookie(cookieKey) || '0');
-        // set lower limit to -1 for score
-        const newScore = Math.max(-1, currentScore + (isAnswerCorrect ? 1 : -1));  // -1 for wrong answers
-        setCookie(cookieKey, newScore.toString());
-
-        // Update wordList with new score
-        const newWordList = wordList.map(word => {
-            if (word.word === currentWord.word && word.meaning.index === currentWord.meaning.index) {
-                return { ...word, score: newScore };
-            }
-            return word;
-        });
-        setWordList(newWordList);
-
-        // Save progress after score update
-        if (levelId) {
-            const totalMeanings = newWordList.length;
-            const masteredMeanings = newWordList.filter(item => item.score > 0).length;
-            const progress = (masteredMeanings / totalMeanings * 100.0).toFixed(4);
-            setCookie(`wordFlash-progress-${levelId}`, progress);
-            setCookie(`wordFlash-mastered-${levelId}`, masteredMeanings.toString());
-            setCookie(`wordFlash-total-${levelId}`, totalMeanings.toString());
-        }
-
-        console.log('Fast mode:', fastMode);
-        try {
-            console.log('Fast mode:', fastMode);
-            if (fastMode) {
-                // Fast mode: just wait and play page turn
-                console.log('Fast mode: Starting delay');
-                await new Promise(resolve => setTimeout(resolve, 700));
-                console.log('Fast mode: Delay complete');
-            } else {
-                // Normal mode
+            const nextCorrectWords = correctWordsInRound + 1;
+            setCorrectWordsInRound(nextCorrectWords);
+            
+            if (nextCorrectWords < 10) {
+                setEatenDots(nextCorrectWords);
+                // Continue to next word normally
                 await new Promise(resolve => setTimeout(resolve, 500));
-                
-                if (readDefinition && currentWord && levelId) {
-                    const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)))
-                    const definitionPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedDefinition}.mp3`;
-                    await audioService.current?.playAudio(definitionPath);
-                    await new Promise(resolve => setTimeout(resolve, 500));
-                }
-
-                // Play word
-                if (currentWord && levelId) {
-                    const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
-                    await audioService.current?.playAudio(wordPath);
-                }
-            }
-
-            // Play page turn sound for both modes
-            if (audioService.current) {
-                await audioService.current.playAudio('/voices/turn-page.mp3');
-            }
-
-            // Check for slogan display
-            if ((currentIndex + 1) % (fastMode ? FAST_MODE_SLOGAN_INTERVAL : NORMAL_MODE_SLOGAN_INTERVAL) === 0) {
+                setSelectedChoice(null);
+                setIsCorrect(null);
+                setCurrentIndex((prev) => (prev + 1) % wordList.length);
+            } else if (nextCorrectWords === 10) {
+                // Show slogan and wait for handleSloganClick to handle the reset
                 const randomIndex = Math.floor(Math.random() * slogans.length);
                 setCurrentSlogan(slogans[randomIndex]);
                 setShowSlogan(true);
-                setIsProcessing(false);
-                return;
             }
-
-            // Move to next word
+        } else {
+            // Wrong answer, continue to next word normally
+            await new Promise(resolve => setTimeout(resolve, 500));
             setSelectedChoice(null);
             setIsCorrect(null);
             setCurrentIndex((prev) => (prev + 1) % wordList.length);
-            setIsProcessing(false);
-        } catch (error) {
-            console.error('Error in handleChoice:', error);
-            setIsProcessing(false);
         }
+        
+        setIsProcessing(false);
     };
 
     // Calculate stats
@@ -332,20 +269,20 @@ export default function WordFlashGame() {
         loadSlogans();
     }, []);
 
-    // Modify handleSloganClick to rebuild the word list
+    // Update handleSloganClick to handle the sequence
     const handleSloganClick = () => {
         setShowSlogan(false);
+        setIsReturning(true);
         
-        // Create a new copy of the word list and sort it
-        const newList = [...wordList];
-        sortWordList(newList);
-        setWordList(newList);
-        
-        // Reset states and move to next word
-        setCurrentIndex(0);  // Start from beginning of newly sorted list
-        setSelectedChoice(null);
-        setIsCorrect(null);
-        setIsProcessing(false);
+        // Wait for return animation to complete (3s) before resetting
+        setTimeout(() => {
+            setCompletedRounds(prev => prev + 1);
+            setEatenDots(0);
+            setCorrectWordsInRound(0);
+            setIsReturning(false);
+            // Move to next word only after Pacman has returned
+            setCurrentIndex((prev) => (prev + 1) % wordList.length);
+        }, 3000);
     };
 
     // Add this new handler function
@@ -370,17 +307,7 @@ export default function WordFlashGame() {
         setIsCorrect(null);
         setIsProcessing(false);
     };
-
-    useEffect(() => {
-        if (eatenDots === 9) {
-            // Wait for power-up and return animation to complete
-            setTimeout(() => {
-                setCompletedRounds(prev => prev + 1);
-                setEatenDots(0);
-            }, 3000);
-        }
-    }, [eatenDots]);
-
+  
     if (wordList.length === 0) return <div>Loading...</div>;
 
     const currentWord = wordList[currentIndex];
@@ -404,10 +331,10 @@ export default function WordFlashGame() {
 
             <div className="pacman-container">
                 <div 
-                    className={`pacman ${eatenDots >= 9 ? 'powered-up' : ''}`}
+                    className={`pacman ${isReturning ? 'returning' : ''}`}
                     style={{ 
                         '--current-x': `${eatenDots * 18}px`,
-                        transform: eatenDots >= 9 ? undefined : `translateX(${eatenDots * 18}px)`
+                        transform: !isReturning ? `translateX(${eatenDots * 18}px)` : undefined
                     } as React.CSSProperties}
                 />
                 {[...Array(9)].map((_, index) => (
@@ -416,7 +343,7 @@ export default function WordFlashGame() {
                         className={`pac-dot ${index < eatenDots ? 'eaten' : ''}`}
                     />
                 ))}
-                <div className={`power-pellet ${eatenDots >= 9 ? 'eaten' : ''}`} />
+                <div className={`power-pellet ${correctWordsInRound === 10 ? 'eaten' : ''}`} />
             </div>
 
             {showWelcome && (
@@ -537,7 +464,8 @@ export default function WordFlashGame() {
                     onClick={handleSloganClick}
                 >
                     <div className="slogan-content">
-                        <h2>{currentSlogan}</h2>                        
+                        <h2>{currentSlogan}</h2>
+                        <p>點擊繼續</p>
                     </div>
                 </div>
             )}
