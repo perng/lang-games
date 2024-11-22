@@ -78,6 +78,7 @@ export default function WordFlashGame() {
     const continueTimerRef = useRef<number>();
     const audioService = useRef<AudioService>();
     const [eatenDots, setEatenDots] = useState(0);
+    const [completedRounds, setCompletedRounds] = useState(0);
 
     // Initialize audio service
     useEffect(() => {
@@ -370,6 +371,13 @@ export default function WordFlashGame() {
         setIsProcessing(false);
     };
 
+    useEffect(() => {
+        if (eatenDots === 10) {
+            setCompletedRounds(prev => prev + 1);
+            // Reset eatenDots or handle next round...
+        }
+    }, [eatenDots]);
+
     if (wordList.length === 0) return <div>Loading...</div>;
 
     const currentWord = wordList[currentIndex];
@@ -438,26 +446,43 @@ export default function WordFlashGame() {
                     </button>
                 </div>
             </div>
-            <div className="choices" key={currentWord.word + currentIndex}>
-                {choices.map((choice, index) => (
-                    <button
-                        key={index}
-                        onClick={() => {
-                            console.log('Button clicked');
-                            handleChoice(choice);
-                        }}
-                        className={`
-                            choice-button
-                            ${selectedChoice === choice && 
-                                (choice === currentWord.meaning.meaning_zh_TW ? 'correct' : 'wrong')}
-                            ${selectedChoice && 
-                                choice === currentWord.meaning.meaning_zh_TW ? 'correct' : ''}
-                        `}
-                        disabled={isProcessing}
-                    >
-                        {choice}
-                    </button>
-                ))}
+            <div className="content-with-ghosts">
+                <div className="ghost-areas-container">
+                    <div className="ghost-area left-ghosts">
+                        {[...Array(5)].map((_, index) => (
+                            <div 
+                                key={index}
+                                className={`ghost ${index < Math.ceil(completedRounds/2) ? 'visible' : ''}`}
+                            />
+                        ))}
+                    </div>
+                    
+                    <div className="choices">
+                        {choices.map((choice, index) => (
+                            <button
+                                key={index}
+                                onClick={() => handleChoice(choice)}
+                                className={`choice-button ${selectedChoice === choice && 
+                                    (choice === currentWord.meaning.meaning_zh_TW ? 'correct' : 'wrong')}
+                                    ${selectedChoice && 
+                                        choice === currentWord.meaning.meaning_zh_TW ? 'correct' : ''}
+                                `}
+                                disabled={isProcessing}
+                            >
+                                {choice}
+                            </button>
+                        ))}
+                    </div>
+                    
+                    <div className="ghost-area right-ghosts">
+                        {[...Array(5)].map((_, index) => (
+                            <div 
+                                key={index}
+                                className={`ghost ${index < Math.floor(completedRounds/2) ? 'visible' : ''}`}
+                            />
+                        ))}
+                    </div>
+                </div>
             </div>
             {isCorrect !== null && (
                 <div className={`feedback ${isCorrect ? 'correct' : 'wrong'}`}>
