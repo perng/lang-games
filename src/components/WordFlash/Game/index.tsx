@@ -119,7 +119,7 @@ export default function WordFlashGame() {
                         };
                         
                         const cookieKey = `${word.word}-${index}`;
-                        const score = parseInt(getCookie(cookieKey) || '0');
+                        const score = parseFloat(getCookie(cookieKey) || '0.0');
                         preparedList.push({
                             word: word.word,
                             meaning: meaningWithIndex,
@@ -141,25 +141,25 @@ export default function WordFlashGame() {
         loadWords();
     }, [levelId]);
 
-    // Sort function to prioritize words with lower scores
+    // Sort function to avoid same words being close together
     const sortWordList = (list: WordWithScore[]) => {
         list.sort((a, b) => {
             if (a.word === b.word) return Math.random() - 0.5;
             return a.score - b.score;  // Lower scores come first
         });
+        return list;
     };
 
     // Add debug logging whenever currentIndex changes
     useEffect(() => {
         if (wordList.length > 0) {
-            console.log('Next 2 words:');
+            console.log('Next 10 words:');
             const nextWords = [];
             let index = currentIndex;
-            for (let i = 0; i < 2 && i < wordList.length; i++) {
+            for (let i = 0; i < 10 && i < wordList.length; i++) {
                 const word = wordList[index];
                 nextWords.push({
-                    word: word.word,
-                    meaning: word.meaning.meaning_zh_TW,
+                    word: word.word,                    
                     meaningIndex: word.meaning.index,
                     score: word.score
                 });
@@ -240,20 +240,20 @@ export default function WordFlashGame() {
             const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
             await audioService.current.playAudio(wordPath);
         }
+        const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
+        const currentScore = parseFloat(getCookie(cookieKey) || '0.0');
 
         if (isAnswerCorrect) {
             // Update cookie score when answer is correct
-            const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
-            const currentScore = parseInt(getCookie(cookieKey) || '0');
-            setCookie(cookieKey, (currentScore + 1).toString());
-            console.log(`Updated score for ${currentWord.word} to ${currentScore + 1}`);
+            setCookie(cookieKey, (currentScore + 1.0).toString());
+            console.log(`Updated score for ${currentWord.word} to ${getCookie(cookieKey)}`);
 
             // Update wordList with new score
             setWordList(prevList => {
                 return prevList.map(word => {
                     if (word.word === currentWord.word && 
                         word.meaning.index === currentWord.meaning.index) {
-                        return { ...word, score: currentScore + 1 };
+                        return { ...word, score: currentScore + 1.0 };
                     }
                     return word;
                 });
@@ -277,6 +277,9 @@ export default function WordFlashGame() {
                 setIsProcessing(false);
             }
         } else {
+            setCookie(cookieKey, Math.max(currentScore - 0.5, -0.5).toString());
+
+            console.log(`Updated score for ${currentWord.word} to ${getCookie(cookieKey)}`);
             await new Promise(resolve => setTimeout(resolve, 500));
             setSelectedChoice(null);
             setIsCorrect(null);
@@ -288,17 +291,6 @@ export default function WordFlashGame() {
     const startGame = async () => {
         setHasUserInteracted(true);
         setShowWelcome(false);
-
-        // First announce completed rounds if any
-        if (completedRounds > 0 && audioService.current && levelId) {
-            const roundText = `你已經完成了${completedRounds}輪`;
-            const encodedRoundText = btoa(unescape(encodeURIComponent(roundText)));
-            const roundPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedRoundText}.mp3`;
-            await audioService.current.playAudio(roundPath);
-            
-            // Add a small pause
-            await new Promise(resolve => setTimeout(resolve, 500));
-        }
 
         // Then play the current word
         if (currentWord && levelId) {
@@ -322,9 +314,14 @@ export default function WordFlashGame() {
     }, []);
 
     // Update handleSloganClick to handle the sequence
-    const handleSloganClick = () => {
+    const handleSloganClick = async () => {
         setShowSlogan(false);
         setIsReturning(true);
+        
+        // Play intermission sound and wait for Pacman's return animation
+        if (audioService.current) {
+            await audioService.current.playAudio('/voices/pacman_intermission.wav');
+        }
         
         setTimeout(() => {
             const newCompletedRounds = completedRounds + 1;
@@ -335,13 +332,16 @@ export default function WordFlashGame() {
                 setCookie(`${levelId}_completed_rounds`, newCompletedRounds.toString());
             }
 
+            // Sort words using the same logic as initial load
+            setWordList(prevList => sortWordList(prevList));
+
             setEatenDots(0);
             setCorrectWordsInRound(0);
             setIsReturning(false);
             setSelectedChoice(null);
             setIsCorrect(null);
             setIsProcessing(false);
-            setCurrentIndex((prev) => (prev + 1) % wordList.length);
+            setCurrentIndex(0);  // Start from beginning of newly sorted list
         }, 3000);
     };
 
