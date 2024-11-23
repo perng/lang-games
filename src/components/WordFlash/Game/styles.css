@@ -151,6 +151,7 @@
     opacity: 0.7;
 }
 
+/*
 .feedback {
     font-size: 1.5rem;
     font-weight: bold;
@@ -164,6 +165,7 @@
 .feedback.wrong {
     color: #f44336;
 }
+*/
 
 .stats-section {
     margin-top: 3rem;
@@ -688,5 +690,91 @@ input:checked + .toggle-slider:before {
 
 .ghost.visible {
     opacity: 1;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.progress-bar-container:hover {
+    opacity: 0.9;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0 0 2px white;
+}
+
+.stats-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.stats-popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+}
+
+.stats-popup h3 {
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: #333;
+}
+
+.stats-content {
+    margin-bottom: 20px;
+}
+
+.stats-content .stat-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.close-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.close-button:hover {
+    background-color: #45a049;
 }
  

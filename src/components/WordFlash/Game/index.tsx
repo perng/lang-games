@@ -76,6 +76,7 @@ export default function WordFlashGame() {
     const [completedRounds, setCompletedRounds] = useState(0);
     const [isReturning, setIsReturning] = useState(false);
     const [correctWordsInRound, setCorrectWordsInRound] = useState(0);
+    const [showStatsPopup, setShowStatsPopup] = useState(false);
 
     // Initialize audio service
     useEffect(() => {
@@ -497,21 +498,47 @@ export default function WordFlashGame() {
                     </div>
                 </div>
             </div>
-            {isCorrect !== null && (
-                <div className={`feedback ${isCorrect ? 'correct' : 'wrong'}`}>
-                    {isCorrect ? 'Correct!' : 'Wrong!'}
-                </div>
-            )}
             
             <div className="stats-section">
-                <div className="stat-item">
-                    <span className="stat-label">進度:</span>
-                    <span className="stat-value">{stats.progress}%</span>
+                <div 
+                    className="progress-bar-container"
+                    onClick={() => setShowStatsPopup(true)}
+                    style={{ cursor: 'pointer' }}
+                >
+                    <div 
+                        className="progress-bar-fill" 
+                        style={{ width: `${stats.progress}%` }}
+                    />
+                    <span className="progress-text">{stats.progress}%</span>
                 </div>
-                <div className="stat-item">
-                    <span className="stat-label">尚餘:</span>
-                    <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>                
-                </div>
+
+                {showStatsPopup && (
+                    <div className="stats-popup-overlay" onClick={() => setShowStatsPopup(false)}>
+                        <div className="stats-popup" onClick={e => e.stopPropagation()}>
+                            <h3>學習進度</h3>
+                            <div className="stats-content">
+                                <div className="stat-item">
+                                    <span className="stat-label">完成進度:</span>
+                                    <span className="stat-value">{stats.progress}%</span>
+                                </div>
+                                <div className="stat-item">
+                                    <span className="stat-label">尚餘單字:</span>
+                                    <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>
+                                </div>
+                                <div className="stat-item">
+                                    <span className="stat-label">完成回合:</span>
+                                    <span className="stat-value">{completedRounds}</span>
+                                </div>
+                            </div>
+                            <button 
+                                className="close-button"
+                                onClick={() => setShowStatsPopup(false)}
+                            >
+                                關閉
+                            </button>
+                        </div>
+                    </div>
+                )}
             </div>
 
             <div className="game-footer">
@@ -524,7 +551,7 @@ export default function WordFlashGame() {
                         />
                         <span className="toggle-slider"></span>
                     </label>
-                    <span className="toggle-label">讀中文定義</span>
+                    <span className="toggle-label">🀄</span>
 
                     <label className="toggle-switch">
                         <input
@@ -534,7 +561,7 @@ export default function WordFlashGame() {
                         />
                         <span className="toggle-slider"></span>
                     </label>
-                    <span className="toggle-label">快速模式</span>
+                    <span className="toggle-label">⚡</span>
                 </div>
             </div>
 
