@@ -227,9 +227,11 @@ export default function WordFlashGame() {
         setIsCorrect(isAnswerCorrect);
 
         // Read definition, pause, then play word
-        if (readDefinition && hasUserInteracted && audioService.current && levelId && !fastMode) {
-            // Read definition
-            await audioService.current.speakText(currentWord.meaning.meaning_zh_TW);
+        if (readDefinition && hasUserInteracted && audioService.current && levelId) {
+            // Play Chinese definition
+            const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)));
+            const definitionPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedDefinition}.mp3`;
+            await audioService.current.playAudio(definitionPath);
             
             // Pause for 0.7 seconds
             await new Promise(resolve => setTimeout(resolve, 700));
@@ -237,8 +239,6 @@ export default function WordFlashGame() {
             // Play word pronunciation
             const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
             await audioService.current.playAudio(wordPath);
-        } else {    
-            await new Promise(resolve => setTimeout(resolve, 700));
         }
 
         if (isAnswerCorrect) {
@@ -285,18 +285,20 @@ export default function WordFlashGame() {
         }
     };
 
-    const startGame = () => {
+    const startGame = async () => {
         setHasUserInteracted(true);
         setShowWelcome(false);
 
-        // // First announce completed rounds if any
-        // if (completedRounds > 0 && audioService.current) {
-        //     const roundText = `你已經完成了 ${completedRounds} 輪`;
-        //     await audioService.current.speakText(roundText);
+        // First announce completed rounds if any
+        if (completedRounds > 0 && audioService.current && levelId) {
+            const roundText = `你已經完成了${completedRounds}輪`;
+            const encodedRoundText = btoa(unescape(encodeURIComponent(roundText)));
+            const roundPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedRoundText}.mp3`;
+            await audioService.current.playAudio(roundPath);
             
-        //     // Add a small pause
-        //     await new Promise(resolve => setTimeout(resolve, 500));
-        // }
+            // Add a small pause
+            await new Promise(resolve => setTimeout(resolve, 500));
+        }
 
         // Then play the current word
         if (currentWord && levelId) {
