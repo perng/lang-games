@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import levelsData from '../../../data/VocabHero/levels.json';
-import { getStorage, getStorageWithCookie } from '../../../utils/storage';
+import { getStorageWithCookie } from '../../../utils/storage';
 import { IoArrowBack } from 'react-icons/io5';
 import './styles.css';
 import { useState, useEffect } from 'react';
