@@ -60,7 +60,6 @@ export default function WordFlashGame() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [choices, setChoices] = useState<string[]>([]);
     const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
-    const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
     const [isProcessing, setIsProcessing] = useState(false);
     const audioRef = useRef<HTMLAudioElement>(null);
     const [hasUserInteracted, setHasUserInteracted] = useState(false);
@@ -246,7 +245,6 @@ export default function WordFlashGame() {
         const currentWord = wordList[currentIndex];
         const isAnswerCorrect = choice === currentWord.meaning.meaning_zh_TW;
         setSelectedChoice(choice);
-        setIsCorrect(isAnswerCorrect);
 
         // Read definition, pause, then play word
         if (readDefinition && hasUserInteracted && audioService.current && levelId && !fastMode) {
@@ -288,7 +286,6 @@ export default function WordFlashGame() {
                 setEatenDots(nextCorrectWords);
                 await new Promise(resolve => setTimeout(resolve, 500));
                 setSelectedChoice(null);
-                setIsCorrect(null);
                 setIsProcessing(false);
                 setCurrentIndex((prev) => (prev + 1) % wordList.length);
             } else if (nextCorrectWords === 10) {
@@ -304,7 +301,6 @@ export default function WordFlashGame() {
             console.log(`Updated score for ${currentWord.word} to ${getStorageWithCookie(cookieKey)}`);
             await new Promise(resolve => setTimeout(resolve, 500));
             setSelectedChoice(null);
-            setIsCorrect(null);
             setIsProcessing(false);
             setCurrentIndex((prev) => (prev + 1) % wordList.length);
         }
@@ -361,7 +357,6 @@ export default function WordFlashGame() {
             setCorrectWordsInRound(0);
             setIsReturning(false);
             setSelectedChoice(null);
-            setIsCorrect(null);
             setIsProcessing(false);
             setCurrentIndex(0);  // Start from beginning of newly sorted list
         }, 3000);
@@ -386,7 +381,6 @@ export default function WordFlashGame() {
         
         // Reset states
         setSelectedChoice(null);
-        setIsCorrect(null);
         setIsProcessing(false);
     };
   
