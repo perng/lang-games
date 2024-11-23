@@ -258,7 +258,7 @@ export default function AnATheGame() {
   };
 
   return (
-    <div className="game-container">
+    <div className="an-a-the-game">
       <button 
         className="back-button"
         onClick={() => navigate('/an-a-the')}
@@ -294,7 +294,7 @@ export default function AnATheGame() {
             return (
               <span
                 key={idx}
-                className={getWordClassName(word)}
+                className={`ana-word ${getWordClassName(word)}`}
                 onClick={(e) => toggleArticle(word.index, e)}
               >
                 {results ? (

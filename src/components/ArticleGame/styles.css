@@ -514,3 +514,105 @@ button:hover {
   text-decoration: line-through;
   text-decoration-color: red;
 }
+
+/* Global reset for the game */
+.article-game {
+    font-size: 1rem;
+}
+
+.article-game *,
+.article-game *::before,
+.article-game *::after {
+    border: none !important;
+    border-bottom: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background: none !important;
+    background-image: none !important;
+    background-gradient: none !important;
+}
+
+.article-game .word-container {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: left;
+}
+
+.article-game .word {
+    display: inline !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    white-space: normal !important;
+    font-size: inherit !important;
+    box-shadow: none !important;
+    background: none !important;
+    border-radius: 0 !important;
+}
+
+.article-game .word.article {
+    cursor: pointer;
+    border-bottom: 1px solid #666 !important;
+    padding: 0 2px !important;
+}
+
+.article-game .word.article:hover {
+    background-color: #e3f2fd !important;
+}
+
+.article-game .word.article.correct {
+    background-color: #c8e6c9 !important;
+    color: #2e7d32;
+    border-bottom: none !important;
+}
+
+.article-game .word.article.error {
+    background-color: #ffcdd2 !important;
+    color: #c62828;
+    border-bottom: none !important;
+}
+
+.article-game .word.article.missed {
+    background-color: #bbdefb !important;
+    color: #1565c0;
+    border-bottom: none !important;
+}
+
+/* Button container */
+.article-game .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.article-game .explanation-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.article-game button {
+    background-color: #228be6 !important;
+    color: white !important;
+    padding: 8px 16px !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    font-size: 1rem !important;
+    border: none !important;
+}
+
+.article-game .try-again-button {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto !important;
+}
+
+.article-game button:hover {
+    background-color: #1c7ed6 !important;
+}
+
+.article-game button:active {
+    background-color: #1971c2 !important;
+}
