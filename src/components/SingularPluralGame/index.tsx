@@ -5,7 +5,7 @@ import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import articles from '../../data/singular.json';
 import './styles.css';
-import { setCookie, getCookie } from '../../utils/cookies';
+import { setStorage, getStorage } from '../../utils/storage';
 import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
 import { createFirework } from '../../utils/fireworks';
@@ -234,13 +234,13 @@ function SingularPluralGame() {
     if (storyId) {
       const cookieKey = getCookieKey(storyId);
       console.log('About to set cookie with key:', cookieKey);
-      setCookie(cookieKey, score.percentage.toString(), 365);
+      setStorage(cookieKey, score.percentage.toString());
       
       // Add this line to see all cookies
       console.log('All cookies:', document.cookie);
       
       // Verify cookie was set
-      const verifyScore = getCookie(cookieKey);
+      const verifyScore = getStorage(cookieKey);
       console.log('Verified cookie value:', verifyScore);
     }
 

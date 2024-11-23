@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import levelsData from '../../../data/WordFlash/levels.json';
-import { getCookie } from '../../../utils/cookies';
+import { getStorage } from '../../../utils/storage';
 import './styles.css';
 import { IoArrowBack } from 'react-icons/io5';
 
@@ -9,9 +9,9 @@ export default function WordFlashMenu() {
 
     const levels = levelsData.levels.map(level => ({
         ...level,
-        progress: parseFloat(getCookie(`wordFlash-progress-${level.id}`) || '0').toFixed(2),
-        masteredMeanings: parseInt(getCookie(`wordFlash-mastered-${level.id}`) || '0'),
-        totalMeanings: parseInt(getCookie(`wordFlash-total-${level.id}`) || '0')
+        progress: parseFloat(getStorage(`wordFlash-progress-${level.id}`) || '0').toFixed(2),
+        masteredMeanings: parseInt(getStorage(`wordFlash-mastered-${level.id}`) || '0'),
+        totalMeanings: parseInt(getStorage(`wordFlash-total-${level.id}`) || '0')
     }));
 
     const getImageUrl = (image_name: string) => {

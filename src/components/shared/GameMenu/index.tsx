@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getCookie } from '../../../utils/cookies';
+import { getStorage } from '../../../utils/storage';
 import { logPageView, logEvent } from '../../../utils/analytics';
 import { useLocation } from 'react-router-dom';
 import './styles.css';
@@ -37,7 +37,7 @@ export default function GameMenu({
 
     const getStoryScore = (index: number): number | null => {
         const cookieKey = getCookieKey(index);
-        const score = getCookie(cookieKey);
+        const score = getStorage(cookieKey);
         return score ? parseInt(score) : null;
     }
 

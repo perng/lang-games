@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { setCookie, getCookie } from '../../../utils/cookies';
+import { setStorage, getStorage } from '../../../utils/storage';
 import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
 import './styles.css';
 
@@ -58,7 +58,7 @@ export default function VocabHeroGame() {
         // Add scores to questions
         const questionsWithScores: QuestionWithScore[] = response.default.map((q: Question) => ({
           ...q,
-          score: parseInt(getCookie(`vocabHero-${q.id}`) || '0')
+          score: parseInt(getStorage(`vocabHero-${q.id}`) || '0')
         }));
 
         // Sort questions by score
@@ -129,7 +129,7 @@ export default function VocabHeroGame() {
     const currentScore = currentQuestion.score;
     const newScore = Math.max(-1, currentScore + (isAnswerCorrect ? 1 : -1));
     console.log('Updating score for', currentQuestion.answer, 'from', currentScore, ' to', newScore);
-    setCookie(cookieKey, newScore.toString());
+    setStorage(cookieKey, newScore.toString());
 
     // Update questions list with new score
     const newQuestions = questions.map(q => 
@@ -187,7 +187,7 @@ export default function VocabHeroGame() {
   const calculateStats = () => {
     const totalQuestions = questions.length;
     const masteredQuestions = questions.filter(q => 
-      parseInt(getCookie(`vocabHero-${q.id}`) || '0') > 0
+      parseInt(getStorage(`vocabHero-${q.id}`) || '0') > 0
     ).length;
     const questionsToReview = totalQuestions - masteredQuestions;
 

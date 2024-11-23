@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { setCookie, getCookie } from '../../../utils/cookies';
+import { setStorage, getStorage } from '../../../utils/storage';
 import { WordWithScore } from '../types';
 import './styles.css';
 import { FaPlay } from 'react-icons/fa';
@@ -85,7 +85,7 @@ export default function WordFlashGame() {
     // Restore completed rounds from cookie
     useEffect(() => {
         if (levelId) {
-            const savedRounds = parseInt(getCookie(`${levelId}_completed_rounds`) || '0');
+            const savedRounds = parseInt(getStorage(`${levelId}_completed_rounds`) || '0');
             console.log(`Restored ${savedRounds} completed rounds from cookie for level ${levelId}`);
             setCompletedRounds(savedRounds);
         }
@@ -119,7 +119,7 @@ export default function WordFlashGame() {
                         };
                         
                         const cookieKey = `${word.word}-${index}`;
-                        const score = parseFloat(getCookie(cookieKey) || '0.0');
+                        const score = parseFloat(getStorage(cookieKey) || '0.0');
                         preparedList.push({
                             word: word.word,
                             meaning: meaningWithIndex,
@@ -215,6 +215,27 @@ export default function WordFlashGame() {
         };
     }, [wordList]);
 
+    // Add this useEffect after the stats calculation
+    useEffect(() => {
+        if (levelId && wordList.length > 0) {
+            const totalMeanings = wordList.length;
+            const masteredMeanings = wordList.filter(item => item.score >= 1).length;
+            const progress = totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100) : 0;
+
+            // Store progress stats
+            setStorage(`wordFlash-progress-${levelId}`, progress.toString());
+            setStorage(`wordFlash-mastered-${levelId}`, masteredMeanings.toString());
+            setStorage(`wordFlash-total-${levelId}`, totalMeanings.toString());
+            
+            console.log('Updated progress stats:', {
+                levelId,
+                progress: progress.toFixed(2),
+                masteredMeanings,
+                totalMeanings
+            });
+        }
+    }, [wordList, levelId]);
+
     // Add useEffect to handle definition reading
     // Modify handleChoice to not automatically advance to next word when completing round
     const handleChoice = async (choice: string) => {
@@ -241,12 +262,12 @@ export default function WordFlashGame() {
             await audioService.current.playAudio(wordPath);
         }
         const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
-        const currentScore = parseFloat(getCookie(cookieKey) || '0.0');
+        const currentScore = parseFloat(getStorage(cookieKey) || '0.0');
 
         if (isAnswerCorrect) {
             // Update cookie score when answer is correct
-            setCookie(cookieKey, (currentScore + 1.0).toString());
-            console.log(`Updated score for ${currentWord.word} to ${getCookie(cookieKey)}`);
+            setStorage(cookieKey, (currentScore + 1.0).toString());
+            console.log(`Updated score for ${currentWord.word} to ${getStorage(cookieKey)}`);
 
             // Update wordList with new score
             setWordList(prevList => {
@@ -277,9 +298,9 @@ export default function WordFlashGame() {
                 setIsProcessing(false);
             }
         } else {
-            setCookie(cookieKey, Math.max(currentScore - 0.5, -0.5).toString());
+            setStorage(cookieKey, Math.max(currentScore - 0.5, -0.5).toString());
 
-            console.log(`Updated score for ${currentWord.word} to ${getCookie(cookieKey)}`);
+            console.log(`Updated score for ${currentWord.word} to ${getStorage(cookieKey)}`);
             await new Promise(resolve => setTimeout(resolve, 500));
             setSelectedChoice(null);
             setIsCorrect(null);
@@ -329,7 +350,7 @@ export default function WordFlashGame() {
             
             // Save to cookie whenever rounds are updated
             if (levelId) {
-                setCookie(`${levelId}_completed_rounds`, newCompletedRounds.toString());
+                setStorage(`${levelId}_completed_rounds`, newCompletedRounds.toString());
             }
 
             // Sort words using the same logic as initial load
