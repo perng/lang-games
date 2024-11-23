@@ -263,6 +263,11 @@ export default function WordFlashGame() {
             setCorrectWordsInRound(nextCorrectWords);
             
             if (nextCorrectWords < 10) {
+                // Play chomping sound when Pacman moves forward
+                if (audioService.current) {
+                    await audioService.current.playAudio('/voices/pacman_chomp.wav');
+                }
+                
                 setEatenDots(nextCorrectWords);
                 await new Promise(resolve => setTimeout(resolve, 500));
                 setSelectedChoice(null);
@@ -270,6 +275,8 @@ export default function WordFlashGame() {
                 setIsProcessing(false);
                 setCurrentIndex((prev) => (prev + 1) % wordList.length);
             } else if (nextCorrectWords === 10) {
+                // Play final chomp for power pellet
+                
                 await new Promise(resolve => setTimeout(resolve, 2000));
                 const randomIndex = Math.floor(Math.random() * slogans.length);
                 setCurrentSlogan(slogans[randomIndex]);
@@ -288,17 +295,6 @@ export default function WordFlashGame() {
     const startGame = async () => {
         setHasUserInteracted(true);
         setShowWelcome(false);
-
-        // First announce completed rounds if any
-        if (completedRounds > 0 && audioService.current && levelId) {
-            const roundText = `你已經完成了${completedRounds}輪`;
-            const encodedRoundText = btoa(unescape(encodeURIComponent(roundText)));
-            const roundPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedRoundText}.mp3`;
-            await audioService.current.playAudio(roundPath);
-            
-            // Add a small pause
-            await new Promise(resolve => setTimeout(resolve, 500));
-        }
 
         // Then play the current word
         if (currentWord && levelId) {
@@ -322,9 +318,14 @@ export default function WordFlashGame() {
     }, []);
 
     // Update handleSloganClick to handle the sequence
-    const handleSloganClick = () => {
+    const handleSloganClick = async () => {
         setShowSlogan(false);
         setIsReturning(true);
+        
+        // Play intermission sound and wait for Pacman's return animation
+        if (audioService.current) {
+            await audioService.current.playAudio('/voices/pacman_intermission.wav');
+        }
         
         setTimeout(() => {
             const newCompletedRounds = completedRounds + 1;
