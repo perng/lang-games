@@ -227,7 +227,7 @@ export default function WordFlashGame() {
         setIsCorrect(isAnswerCorrect);
 
         // Read definition, pause, then play word
-        if (readDefinition && hasUserInteracted && audioService.current && levelId) {
+        if (readDefinition && hasUserInteracted && audioService.current && levelId && !fastMode) {
             // Play Chinese definition
             const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)));
             const definitionPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedDefinition}.mp3`;
