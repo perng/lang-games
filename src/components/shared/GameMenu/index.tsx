@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { getStorage } from '../../../utils/storage';
+import { getCookie } from '../../../utils/cookies';
 import { logPageView, logEvent } from '../../../utils/analytics';
 import { useLocation } from 'react-router-dom';
 import './styles.css';
@@ -37,8 +38,11 @@ export default function GameMenu({
 
     const getStoryScore = (index: number): number | null => {
         const cookieKey = getCookieKey(index);
-        const score = getStorage(cookieKey);
-        return score ? parseInt(score) : null;
+        const scoreStr = getStorage(cookieKey);
+        const scoreFromStorage = scoreStr ? parseInt(scoreStr) : 0;
+        const scoreFromCookieStr = getCookie(cookieKey);
+        const scoreFromCookie = scoreFromCookieStr ? parseInt(scoreFromCookieStr) : 0;          
+        return Math.max(scoreFromStorage, scoreFromCookie);
     }
 
     const getCardClass = (score: number | null): string => {
