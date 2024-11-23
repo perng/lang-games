@@ -276,7 +276,7 @@
                 "type": "副詞",
                 "meaning_en_US": "A greater or additional amount.",
                 "meaning_zh_TW": "更多",
-                "wrong_meaning_zh_TW": ["更少", "相同", "全"],
+                "wrong_meaning_zh_TW": ["更少", "相同", "全部"],
                 "examples": [
                     {
                         "sentence": "I need [more] time to finish.",
@@ -303,7 +303,7 @@
                 "type": "副詞",
                 "meaning_en_US": "In or at that place.",
                 "meaning_zh_TW": "那裡",
-                "wrong_meaning_zh_TW": ["這裡", "哪裡", "任何地方"],
+                "wrong_meaning_zh_TW": ["這裡", "哪裡？", "任何地方"],
                 "examples": [
                     {
                         "sentence": "Look over [there]!",
@@ -330,7 +330,7 @@
                 "type": "名詞",
                 "meaning_en_US": "A measured or measurable period during which an action, process, or condition exists or continues.",
                 "meaning_zh_TW": "時間",
-                "wrong_meaning_zh_TW": ["計時器", "時鐘", "日時"],
+                "wrong_meaning_zh_TW": ["計時器", "時鐘", "太陽"],
                 "examples": [
                     {
                         "sentence": "What time do we need to leave?",
@@ -465,7 +465,7 @@
                 "type": "副詞",
                 "meaning_en_US": "In addition; too.",
                 "meaning_zh_TW": "也",
-                "wrong_meaning_zh_TW": ["不", "而且", "但"],
+                "wrong_meaning_zh_TW": ["不", "恐怕", "但"],
                 "examples": [
                     {
                         "sentence": "She likes coffee, and I also enjoy it.",
@@ -708,7 +708,7 @@
                 "type": "介系詞",
                 "meaning_en_US": "Expressing movement or action with the result that someone or something becomes enclosed or surrounded by something else.",
                 "meaning_zh_TW": "進入",
-                "wrong_meaning_zh_TW": ["離開", "停留", "進來"],
+                "wrong_meaning_zh_TW": ["離開", "停留", "上去"],
                 "examples": [
                     {
                         "sentence": "She walked [into] the room.",
@@ -762,7 +762,7 @@
                 "type": "動詞",
                 "meaning_en_US": "Perceive with the eyes; discern visually.",
                 "meaning_zh_TW": "看到",
-                "wrong_meaning_zh_TW": ["想像", "聽到", "觸摸"],
+                "wrong_meaning_zh_TW": ["聞到", "聽到", "觸摸"],
                 "examples": [
                     {
                         "sentence": "I can [see] the mountains from here.",
@@ -816,7 +816,7 @@
                 "type": "副詞",
                 "meaning_en_US": "At a later time; subsequently.",
                 "meaning_zh_TW": "在後面; 隨後",
-                "wrong_meaning_zh_TW": ["至於","之後的","之前的"],
+                "wrong_meaning_zh_TW": ["至於","下面的","之前的"],
                 "examples": [
                     {
                         "sentence": "We will meet [after] lunch.",
@@ -843,7 +843,7 @@
                 "type": "副詞",
                 "meaning_en_US": "At that time; at the time in question.",
                 "meaning_zh_TW": "那時候; 在該時間",
-                "wrong_meaning_zh_TW": ["當然","然後","接下來"],
+                "wrong_meaning_zh_TW": ["當然","有時","從不"],
                 "examples": [
                     {
                         "sentence": "I was living in Paris [then].",
@@ -870,7 +870,7 @@
                 "type": "介詞",
                 "meaning_en_US": "Above; higher than.",
                 "meaning_zh_TW": "在上面; 高於",
-                "wrong_meaning_zh_TW": ["結束","重疊","超過"],
+                "wrong_meaning_zh_TW": ["後面","裡面","小於"],
                 "examples": [
                     {
                         "sentence": "The plane flew [over] the mountains.",
@@ -896,8 +896,8 @@
             {
                 "type": "代詞",
                 "meaning_en_US": "Used to identify a specific set of items.",
-                "meaning_zh_TW": "用來識別特定的項目",
-                "wrong_meaning_zh_TW": ["這些人","那些","每一個"],
+                "meaning_zh_TW": "這些",
+                "wrong_meaning_zh_TW": ["沒有任何","那些","每一個"],
                 "examples": [
                     {
                         "sentence": "[These] are my favorite books.",
@@ -923,8 +923,8 @@
             {
                 "type": "動詞",
                 "meaning_en_US": "To have a particular belief or idea.",
-                "meaning_zh_TW": "擁有特定的信念或想法",
-                "wrong_meaning_zh_TW": ["過度思考","懷疑","聲明"],
+                "meaning_zh_TW": "思考",
+                "wrong_meaning_zh_TW": ["做夢","懷疑","聲明"],
                 "examples": [
                     {
                         "sentence": "I [think] it's going to rain today.",
@@ -951,7 +951,7 @@
                 "type": "動詞",
                 "meaning_en_US": "To move from one place to another.",
                 "meaning_zh_TW": "前往",
-                "wrong_meaning_zh_TW": ["留在","停下","開始"],
+                "wrong_meaning_zh_TW": ["留在","停下","倒退"],
                 "examples": [
                     {
                         "sentence": "Please [go] to the store.",
@@ -1221,7 +1221,7 @@
         "type": "副詞",
         "meaning_en_US": "Used for emphasis.",
         "meaning_zh_TW": "非常",
-        "wrong_meaning_zh_TW": ["有點", "十分", "幾乎"],
+        "wrong_meaning_zh_TW": ["有點", "不太", "幾乎"],
         "examples": [
           {
             "sentence": "She is [very] happy today.",
@@ -1329,7 +1329,7 @@
                 "type": "副詞",
                 "meaning_en_US": "In this place or location.",
                 "meaning_zh_TW": "這裡",
-                "wrong_meaning_zh_TW": ["那裡","過去","附近"],
+                "wrong_meaning_zh_TW": ["那裡","過去","鄰居"],
                 "examples": [
                     {
                         "sentence": "Please come [here] to see me.",
@@ -1356,7 +1356,7 @@
                 "type": "介詞",
                 "meaning_en_US": "At or during a time prior to a particular event or time.",
                 "meaning_zh_TW": "之前",
-                "wrong_meaning_zh_TW": ["之後","同時","當前"],
+                "wrong_meaning_zh_TW": ["之後","同時","現在"],
                 "examples": [
                     {
                         "sentence": "I always wake up [before] the sun rises.",
@@ -1464,7 +1464,7 @@
                 "type": "副詞",
                 "meaning_en_US": "Indicating a separation or distance from something.",
                 "meaning_zh_TW": "離開、脫離",
-                "wrong_meaning_zh_TW": ["關掉、停下", "虧損、損失", "周期、階段"],
+                "wrong_meaning_zh_TW": ["接上、連上", "向下、下沉", "周期、階段"],
                 "examples": [
                     {
                         "sentence": "She turned the lights [off] before leaving.",
@@ -1491,7 +1491,7 @@
                 "type": "副詞",
                 "meaning_en_US": "Up to and including the present or the time mentioned; even now.",
                 "meaning_zh_TW": "仍然、還是",
-                "wrong_meaning_zh_TW": ["靜止、不動", "液體、湯", "摔倒、跌倒"],
+                "wrong_meaning_zh_TW": ["快速、飛快", "液體、湯", "摔倒、跌倒"],
                 "examples": [
                     {
                         "sentence": "She is [still] waiting for a response.",
@@ -1653,7 +1653,7 @@
                 "type": "介系詞",
                 "meaning_en_US": "Moving in one side and out of the other side of (an opening, channel, or location).",
                 "meaning_zh_TW": "透過、穿過",
-                "wrong_meaning_zh_TW": ["經過", "在裡面", "穿著"],
+                "wrong_meaning_zh_TW": ["停住", "在裡面", "穿著"],
                 "examples": [
                     {
                         "sentence": "We walked [through] the park on our way home.",
@@ -1815,7 +1815,7 @@
         "type": "介詞",
         "meaning_en_US": "In the space separating two points, objects, or regions.",
         "meaning_zh_TW": "在...之間",
-        "wrong_meaning_zh_TW": ["和", "三者之間", "上方"],
+        "wrong_meaning_zh_TW": ["一起", "三者之間", "上方"],
         "examples": [
           {
             "sentence": "The store is located [between] the post office and the bank.",
@@ -1950,7 +1950,7 @@
                 "type": "名詞",
                 "meaning_en_US": "A piece or segment of something larger.",
                 "meaning_zh_TW": "部分、片段",
-                "wrong_meaning_zh_TW": ["全體、總數", "某物的影響範圍", "完美的結束"],
+                "wrong_meaning_zh_TW": ["全體、總數", "到來", "完美的結束"],
                 "examples": [
                     {
                         "sentence": "She played a major [part] in the play.",
@@ -1977,7 +1977,7 @@
                 "type": "名詞",
                 "meaning_en_US": "An unspecified or unknown object or entity.",
                 "meaning_zh_TW": "某事、某物",
-                "wrong_meaning_zh_TW": ["某個人", "任何事物", "不明物"],
+                "wrong_meaning_zh_TW": ["某個人", "任何事物", "我的東西"],
                 "examples": [
                     {
                         "sentence": "I need [something] to write with.",
