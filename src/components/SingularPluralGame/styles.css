@@ -1,230 +1,104 @@
-.word-container {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  max-width: 800px;
-  margin: 2rem auto;
-  text-align: left;
-  white-space: normal !important;
-  word-spacing: normal !important;
+/* Global reset for the game */
+.singular-plural-game {
+    font-size: 1rem;
 }
 
-.word {
-  display: inline !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  white-space: normal !important;
+.singular-plural-game *,
+.singular-plural-game *::before,
+.singular-plural-game *::after {
+    border: none !important;
+    border-bottom: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background: none !important;
+    background-image: none !important;
+    background-gradient: none !important;
 }
 
-.word.noun {
-  cursor: pointer;
-  padding: 2px 4px !important;
-  border-radius: 4px;
-  margin: 0 !important;
-  transition: background-color 0.2s;
-  border-bottom: 2px dotted #2c3e50;
-  text-decoration: none;
-}
-
-.word.noun:hover {
-  background-color: #e3f2fd;
-}
-
-.correct {
-  background-color: #c8e6c9;
-  color: #2e7d32;
-}
-
-.error {
-  background-color: #ffcdd2;
-  color: #c62828;
-}
-
-.missed {
-  background-color: #bbdefb;
-  color: #1565c0;
-}
-
-/* Rest of the styles can be similar to THE game */
-
-.explanation-section {
-  margin-top: 2rem;
-  width: 100%;
-  max-width: 800px;
-}
-
-.explanation-buttons {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-
-.explanation-button {
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 4px;
-  background-color: #2c3e50;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.explanation-button:hover {
-  background-color: #34495e;
-}
-
-.explanation-button.active {
-  background-color: #16a085;
-}
-
-.explanation-content {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  margin-top: 1rem;
-}
-
-.explanation-content h1,
-.explanation-content h2,
-.explanation-content h3 {
-  margin-top: 0;
-  color: #2c3e50;
-}
-
-.explanation-content p {
-  margin: 1rem 0;
-  line-height: 1.6;
-}
-
-.explanation-content ul,
-.explanation-content ol {
-  margin: 1rem 0;
-  padding-left: 2rem;
-}
-
-.try-again-button {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 4px;
-  background-color: #27ae60;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.try-again-button:hover {
-  background-color: #2ecc71;
-}
-
-/* Remove all spacing around punctuation */
-.word.punctuation {
-  display: inline !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Hide actual spaces but maintain their effect */
-.word.space {
-  display: inline !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 0.25em !important;
-}
-
-/* After checking answers, maintain underline but change color based on result */
-.word.noun.correct {
-  border-bottom-color: #2ecc71;
-}
-
-.word.noun.error {
-  border-bottom-color: #e74c3c;
-}
-
-.word.noun.missed {
-  border-bottom-color: #3498db;
-}
-
-.story-title {
-  text-align: center;
-  color: #34495e;
-  font-size: 1.5rem;
-  margin: 1rem 0;
-  padding: 0 1rem;
-}
-
-.results-summary {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  margin: 20px 0;
-}
-
-.explanation-content {
-  width: 100%;
-  max-width: 800px;
-  margin: 20px auto;
-  text-align: left;
-  padding: 0 20px;
-}
-
-.explanation-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  width: 100%;
-}
-
-.try-again-button {
-  margin: 10px auto;
-}
-
-.results-summary h3,
-.results-summary p {
-  width: 100%;
-  text-align: center;
-  margin: 5px 0;
-}
-
-.final-score {
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-/* Add a specific class for the Singular/Plural game */
 .singular-plural-game .word-container {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  max-width: 800px;
-  margin: 2rem auto;
-  text-align: left;
-  white-space: normal !important;
-  word-spacing: normal !important;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: left;
 }
 
 .singular-plural-game .word {
-  display: inline !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  white-space: normal !important;
+    display: inline !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    white-space: normal !important;
+    font-size: inherit !important;
+    box-shadow: none !important;
+    background: none !important;
+    border-radius: 0 !important;
 }
 
 .singular-plural-game .word.noun {
-  padding: 2px 4px !important;
-  margin: 0 !important;
+    cursor: pointer;
+    border-bottom: 1px solid #666 !important;
+    padding: 0 2px !important;
 }
 
-.singular-plural-game .word.space {
-  display: inline !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 0.25em !important;
+.singular-plural-game .word.noun:hover {
+    background-color: #e3f2fd !important;
 }
 
-.singular-plural-game .word.punctuation {
-  display: inline !important;
-  margin: 0 !important;
-  padding: 0 !important;
+.singular-plural-game .word.noun.correct {
+    background-color: #c8e6c9 !important;
+    color: #2e7d32;
+    border-bottom: none !important;
+}
+
+.singular-plural-game .word.noun.error {
+    background-color: #ffcdd2 !important;
+    color: #c62828;
+    border-bottom: none !important;
+}
+
+.singular-plural-game .word.noun.missed {
+    background-color: #bbdefb !important;
+    color: #1565c0;
+    border-bottom: none !important;
+}
+
+/* Container for buttons */
+.singular-plural-game .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+/* Row for explanation buttons */
+.singular-plural-game .explanation-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Style for all buttons */
+.singular-plural-game button {
+    background-color: #228be6 !important;
+    color: white !important;
+    padding: 8px 16px !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    font-size: 1rem !important;
+    border: none !important;
+}
+
+/* Try Again button takes full width */
+.singular-plural-game .try-again-button {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto !important;
+}
+
+.singular-plural-game button:hover {
+    background-color: #1c7ed6 !important;
+}
+
+.singular-plural-game button:active {
+    background-color: #1971c2 !important;
 }

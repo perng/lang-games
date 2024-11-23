@@ -164,3 +164,75 @@ del {
 .back-button:hover {
     background-color: #3a3a3a;
 }
+
+/* Global reset for the game */
+.an-a-the-game {
+    font-size: 1rem;
+}
+
+/* Aggressive reset for all words */
+.an-a-the-game .ana-word {
+    all: revert !important;
+    font-size: 1rem !important;
+    font-family: inherit !important;
+    font-weight: normal !important;
+    color: inherit !important;
+    display: inline !important;
+    margin: 0 0.25em !important;  /* Add horizontal spacing between words */
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    position: static !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
+    white-space: normal !important;
+}
+
+/* Add space after punctuation */
+.an-a-the-game .ana-word:after {
+    content: " " !important;
+}
+
+/* Style for articles */
+.an-a-the-game .ana-word.article {
+    cursor: pointer !important;
+    border-bottom: 1px solid #666 !important;
+    padding: 0 2px !important;
+}
+
+/* Interaction states */
+.an-a-the-game .ana-word.article:hover {
+    background-color: #e3f2fd !important;
+}
+
+.an-a-the-game .ana-word.article.correct {
+    background-color: #c8e6c9 !important;
+    color: #2e7d32;
+    border-bottom: none !important;
+}
+
+.an-a-the-game .ana-word.article.error {
+    background-color: #ffcdd2 !important;
+    color: #c62828;
+    border-bottom: none !important;
+}
+
+.an-a-the-game .ana-word.article.missed {
+    background-color: #bbdefb !important;
+    color: #1565c0;
+    border-bottom: none !important;
+}
+
+/* Container styles */
+.an-a-the-game .word-container {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: left;
+    font-size: 1rem;
+}
+
+/* Rest of your styles... */

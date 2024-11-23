@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import fruitsData from '../../data/fruits.json';
 import './styles.css';
-import { setCookie, getCookie } from '../../utils/cookies';
+import { setStorage, getStorage } from '../../utils/storage';
 import '../../styles/missionBrief.css';
 import '../../styles/explanationStyles.css';
 import { logPageView, logEvent } from '../../utils/analytics';
@@ -192,10 +192,10 @@ export default function AnATheGame() {
     
     const cookieName = `a-an-the-${fruitIndex}`;
     console.log('Saving score to cookie:', cookieName, percentage);
-    setCookie(cookieName, percentage.toString());
+    setStorage(cookieName, percentage.toString());
     
     // Verify cookie was set
-    const savedScore = getCookie(cookieName);
+    const savedScore = getStorage(cookieName);
     console.log('Verified saved score:', savedScore);
 
     if (savedScore !== percentage.toString()) {
@@ -215,7 +215,7 @@ export default function AnATheGame() {
   // Add useEffect to check cookie on component mount
   useEffect(() => {
     const cookieName = `anATheGame_score_${fruitIndex}`;
-    const savedScore = getCookie(cookieName);
+    const savedScore = getStorage(cookieName);
     console.log('Initial cookie check:', cookieName, savedScore);
   }, [fruitIndex]);
 
@@ -258,7 +258,7 @@ export default function AnATheGame() {
   };
 
   return (
-    <div className="game-container">
+    <div className="an-a-the-game">
       <button 
         className="back-button"
         onClick={() => navigate('/an-a-the')}
@@ -294,7 +294,7 @@ export default function AnATheGame() {
             return (
               <span
                 key={idx}
-                className={getWordClassName(word)}
+                className={`ana-word ${getWordClassName(word)}`}
                 onClick={(e) => toggleArticle(word.index, e)}
               >
                 {results ? (

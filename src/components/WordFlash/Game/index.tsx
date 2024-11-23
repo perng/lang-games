@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { setCookie, getCookie } from '../../../utils/cookies';
+import { setStorage, getStorageWithCookie } from '../../../utils/storage';
 import { WordWithScore } from '../types';
 import './styles.css';
 import { FaPlay } from 'react-icons/fa';
@@ -60,7 +60,6 @@ export default function WordFlashGame() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [choices, setChoices] = useState<string[]>([]);
     const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
-    const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
     const [isProcessing, setIsProcessing] = useState(false);
     const audioRef = useRef<HTMLAudioElement>(null);
     const [hasUserInteracted, setHasUserInteracted] = useState(false);
@@ -76,6 +75,7 @@ export default function WordFlashGame() {
     const [completedRounds, setCompletedRounds] = useState(0);
     const [isReturning, setIsReturning] = useState(false);
     const [correctWordsInRound, setCorrectWordsInRound] = useState(0);
+    const [showStatsPopup, setShowStatsPopup] = useState(false);
 
     // Initialize audio service
     useEffect(() => {
@@ -85,7 +85,7 @@ export default function WordFlashGame() {
     // Restore completed rounds from cookie
     useEffect(() => {
         if (levelId) {
-            const savedRounds = parseInt(getCookie(`${levelId}_completed_rounds`) || '0');
+            const savedRounds = parseInt(getStorageWithCookie(`${levelId}_completed_rounds`) || '0');
             console.log(`Restored ${savedRounds} completed rounds from cookie for level ${levelId}`);
             setCompletedRounds(savedRounds);
         }
@@ -119,7 +119,7 @@ export default function WordFlashGame() {
                         };
                         
                         const cookieKey = `${word.word}-${index}`;
-                        const score = parseInt(getCookie(cookieKey) || '0');
+                        const score = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
                         preparedList.push({
                             word: word.word,
                             meaning: meaningWithIndex,
@@ -141,25 +141,25 @@ export default function WordFlashGame() {
         loadWords();
     }, [levelId]);
 
-    // Sort function to prioritize words with lower scores
+    // Sort function to avoid same words being close together
     const sortWordList = (list: WordWithScore[]) => {
         list.sort((a, b) => {
             if (a.word === b.word) return Math.random() - 0.5;
             return a.score - b.score;  // Lower scores come first
         });
+        return list;
     };
 
     // Add debug logging whenever currentIndex changes
     useEffect(() => {
         if (wordList.length > 0) {
-            console.log('Next 2 words:');
+            console.log('Next 10 words:');
             const nextWords = [];
             let index = currentIndex;
-            for (let i = 0; i < 2 && i < wordList.length; i++) {
+            for (let i = 0; i < 10 && i < wordList.length; i++) {
                 const word = wordList[index];
                 nextWords.push({
-                    word: word.word,
-                    meaning: word.meaning.meaning_zh_TW,
+                    word: word.word,                    
                     meaningIndex: word.meaning.index,
                     score: word.score
                 });
@@ -215,6 +215,27 @@ export default function WordFlashGame() {
         };
     }, [wordList]);
 
+    // Add this useEffect after the stats calculation
+    useEffect(() => {
+        if (levelId && wordList.length > 0) {
+            const totalMeanings = wordList.length;
+            const masteredMeanings = wordList.filter(item => item.score >= 1).length;
+            const progress = totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100) : 0;
+
+            // Store progress stats
+            setStorage(`wordFlash-progress-${levelId}`, progress.toString());
+            setStorage(`wordFlash-mastered-${levelId}`, masteredMeanings.toString());
+            setStorage(`wordFlash-total-${levelId}`, totalMeanings.toString());
+            
+            console.log('Updated progress stats:', {
+                levelId,
+                progress: progress.toFixed(2),
+                masteredMeanings,
+                totalMeanings
+            });
+        }
+    }, [wordList, levelId]);
+
     // Add useEffect to handle definition reading
     // Modify handleChoice to not automatically advance to next word when completing round
     const handleChoice = async (choice: string) => {
@@ -224,7 +245,6 @@ export default function WordFlashGame() {
         const currentWord = wordList[currentIndex];
         const isAnswerCorrect = choice === currentWord.meaning.meaning_zh_TW;
         setSelectedChoice(choice);
-        setIsCorrect(isAnswerCorrect);
 
         // Read definition, pause, then play word
         if (readDefinition && hasUserInteracted && audioService.current && levelId && !fastMode) {
@@ -240,20 +260,20 @@ export default function WordFlashGame() {
             const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
             await audioService.current.playAudio(wordPath);
         }
+        const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
+        const currentScore = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
 
         if (isAnswerCorrect) {
             // Update cookie score when answer is correct
-            const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
-            const currentScore = parseInt(getCookie(cookieKey) || '0');
-            setCookie(cookieKey, (currentScore + 1).toString());
-            console.log(`Updated score for ${currentWord.word} to ${currentScore + 1}`);
+            setStorage(cookieKey, (currentScore + 1.0).toString());
+            console.log(`Updated score for ${currentWord.word} to ${getStorageWithCookie(cookieKey)}`);
 
             // Update wordList with new score
             setWordList(prevList => {
                 return prevList.map(word => {
                     if (word.word === currentWord.word && 
                         word.meaning.index === currentWord.meaning.index) {
-                        return { ...word, score: currentScore + 1 };
+                        return { ...word, score: currentScore + 1.0 };
                     }
                     return word;
                 });
@@ -271,7 +291,6 @@ export default function WordFlashGame() {
                 setEatenDots(nextCorrectWords);
                 await new Promise(resolve => setTimeout(resolve, 500));
                 setSelectedChoice(null);
-                setIsCorrect(null);
                 setIsProcessing(false);
                 setCurrentIndex((prev) => (prev + 1) % wordList.length);
             } else if (nextCorrectWords === 10) {
@@ -284,9 +303,11 @@ export default function WordFlashGame() {
                 setIsProcessing(false);
             }
         } else {
+            setStorage(cookieKey, Math.max(currentScore - 0.5, -0.5).toString());
+
+            console.log(`Updated score for ${currentWord.word} to ${getStorageWithCookie(cookieKey)}`);
             await new Promise(resolve => setTimeout(resolve, 500));
             setSelectedChoice(null);
-            setIsCorrect(null);
             setIsProcessing(false);
             setCurrentIndex((prev) => (prev + 1) % wordList.length);
         }
@@ -333,16 +354,18 @@ export default function WordFlashGame() {
             
             // Save to cookie whenever rounds are updated
             if (levelId) {
-                setCookie(`${levelId}_completed_rounds`, newCompletedRounds.toString());
+                setStorage(`${levelId}_completed_rounds`, newCompletedRounds.toString());
             }
+
+            // Sort words using the same logic as initial load
+            setWordList(prevList => sortWordList(prevList));
 
             setEatenDots(0);
             setCorrectWordsInRound(0);
             setIsReturning(false);
             setSelectedChoice(null);
-            setIsCorrect(null);
             setIsProcessing(false);
-            setCurrentIndex((prev) => (prev + 1) % wordList.length);
+            setCurrentIndex(0);  // Start from beginning of newly sorted list
         }, 3000);
     };
 
@@ -365,7 +388,6 @@ export default function WordFlashGame() {
         
         // Reset states
         setSelectedChoice(null);
-        setIsCorrect(null);
         setIsProcessing(false);
     };
   
@@ -477,21 +499,47 @@ export default function WordFlashGame() {
                     </div>
                 </div>
             </div>
-            {isCorrect !== null && (
-                <div className={`feedback ${isCorrect ? 'correct' : 'wrong'}`}>
-                    {isCorrect ? 'Correct!' : 'Wrong!'}
-                </div>
-            )}
             
             <div className="stats-section">
-                <div className="stat-item">
-                    <span className="stat-label">進度:</span>
-                    <span className="stat-value">{stats.progress}%</span>
+                <div 
+                    className="progress-bar-container"
+                    onClick={() => setShowStatsPopup(true)}
+                    style={{ cursor: 'pointer' }}
+                >
+                    <div 
+                        className="progress-bar-fill" 
+                        style={{ width: `${stats.progress}%` }}
+                    />
+                    <span className="progress-text">{stats.progress}%</span>
                 </div>
-                <div className="stat-item">
-                    <span className="stat-label">尚餘:</span>
-                    <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>                
-                </div>
+
+                {showStatsPopup && (
+                    <div className="stats-popup-overlay" onClick={() => setShowStatsPopup(false)}>
+                        <div className="stats-popup" onClick={e => e.stopPropagation()}>
+                            <h3>學習進度</h3>
+                            <div className="stats-content">
+                                <div className="stat-item">
+                                    <span className="stat-label">完成進度:</span>
+                                    <span className="stat-value">{stats.progress}%</span>
+                                </div>
+                                <div className="stat-item">
+                                    <span className="stat-label">尚餘單字:</span>
+                                    <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>
+                                </div>
+                                <div className="stat-item">
+                                    <span className="stat-label">完成回合:</span>
+                                    <span className="stat-value">{completedRounds}</span>
+                                </div>
+                            </div>
+                            <button 
+                                className="close-button"
+                                onClick={() => setShowStatsPopup(false)}
+                            >
+                                關閉
+                            </button>
+                        </div>
+                    </div>
+                )}
             </div>
 
             <div className="game-footer">
@@ -504,7 +552,7 @@ export default function WordFlashGame() {
                         />
                         <span className="toggle-slider"></span>
                     </label>
-                    <span className="toggle-label">讀中文定義</span>
+                    <span className="toggle-label">🀄</span>
 
                     <label className="toggle-switch">
                         <input
@@ -514,7 +562,7 @@ export default function WordFlashGame() {
                         />
                         <span className="toggle-slider"></span>
                     </label>
-                    <span className="toggle-label">快速模式</span>
+                    <span className="toggle-label">⚡</span>
                 </div>
             </div>
 

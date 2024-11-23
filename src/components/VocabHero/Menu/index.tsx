@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import levelsData from '../../../data/VocabHero/levels.json';
-import { getCookie } from '../../../utils/cookies';
+import { getStorageWithCookie } from '../../../utils/storage';
 import { IoArrowBack } from 'react-icons/io5';
 import './styles.css';
 import { useState, useEffect } from 'react';
@@ -32,7 +32,7 @@ export default function VocabHeroMenu() {
                     const questions: Question[] = levelData.default;
                     
                     const masteredWords = questions.filter((q: Question) => 
-                        parseInt(getCookie(`vocabHero-${q.id}`) || '0') > 0
+                        parseInt(getStorageWithCookie(`vocabHero-${q.id}`) || '0') > 0
                     ).length;
 
                     const totalWords = questions.length;
