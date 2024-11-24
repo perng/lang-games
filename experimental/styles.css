@@ -1,4 +1,4 @@
-/* Mobile-First Styles */
+/* General Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -8,148 +8,112 @@ body {
 }
 
 header {
+    text-align: center;
+    padding: 20px;
     background-color: #2a9df4;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px;
-}
-
-.logo {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.menu-toggle {
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-nav {
-    display: none;
-    flex-direction: column;
-    background-color: #2a9df4;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-}
-
-nav.active {
-    display: flex;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 main {
-    padding: 15px;
-}
-
-/* Profile Section */
-.profile {
-    margin-bottom: 20px;
-}
-
-.profile img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.profile h2 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.progress-bar {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    height: 10px;
-    width: 80%;
-    margin: 10px auto;
-    overflow: hidden;
-}
-
-.progress {
-    background-color: #2a9df4;
-    height: 100%;
-}
-
-/* Levels Section */
-.levels h1 {
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.world {
-    margin-bottom: 20px;
-}
-
-.world h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.level-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
-.level {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 16px;
-    cursor: pointer;
+/* Level Path Styles */
+.level-path {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.level-node {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 60px;
+}
+
+.level-node.left {
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.level-node.right {
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.level-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #ccc;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s, background-color 0.3s;
 }
 
-.level:hover {
-    background-color: #e0f7ff;
-}
-
-/* Footer */
-footer {
-    background-color: #2a9df4;
+.level-icon.completed {
+    background-color: #4caf50;
     color: white;
-    padding: 10px;
-    font-size: 14px;
+    border-color: #4caf50;
 }
 
-/* Responsive Styles for Larger Screens */
-@media (min-width: 600px) {
-    nav {
-        display: flex;
-        flex-direction: row;
-        position: static;
-        background-color: transparent;
-        justify-content: flex-end;
+.level-icon.locked {
+    background-color: #ddd;
+    color: #aaa;
+    border-color: #aaa;
+    cursor: not-allowed;
+}
+
+.level-icon:hover:not(.locked) {
+    transform: scale(1.1);
+}
+
+.path-line {
+    position: absolute;
+    top: 50%;
+    height: 60px;
+    width: 2px;
+    background-color: #ccc;
+}
+
+.level-node.left .path-line {
+    left: calc(50% + 30px); /* Adjust to align with the right side of the level icon */
+    transform: translateX(-50%);
+}
+
+.level-node.right .path-line {
+    right: calc(50% + 30px); /* Adjust to align with the left side of the level icon */
+    transform: translateX(50%);
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+    .level-icon {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
     }
 
-    nav a {
-        border: none;
-        padding: 0 15px;
-    }
-
-    .menu-toggle {
-        display: none;
-    }
-
-    .level-grid {
-        grid-template-columns: repeat(5, 1fr);
+    .path-line {
+        height: 80px;
     }
 }

@@ -69,42 +69,77 @@ header h1 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.level-shape {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 0.75rem;
+.level-path {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
     position: relative;
+}
+
+.level-node {
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.level-shape::before {
-    content: '';
-    position: absolute;
+    position: relative;
+    margin-bottom: 40px;
     width: 100%;
-    height: 100%;
-    background-color: #2a9df4;
-    opacity: 0.2;
-    border-radius: 8px;
+    max-width: 400px;
 }
 
-.level-shape::after {
+.level-node:not(:last-child)::after {
     content: '';
     position: absolute;
-    width: 70%;
-    height: 70%;
-    background-color: #2a9df4;
-    border-radius: 6px;
+    width: 3px;
+    height: 40px; /* Match margin-bottom of level-node */
+    background-color: #ccc;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
 }
 
-/* Alternate shapes for variety */
-.level-card:nth-child(3n) .level-shape::after {
+.level-node.left {
+    justify-content: flex-start;
+}
+
+.level-node.right {
+    justify-content: flex-end;
+}
+
+/* Connect lines for alternating left/right nodes */
+.level-node.left:not(:last-child)::after {
+    transform: rotate(45deg);
+    transform-origin: bottom left;
+    width: 56px; /* Approximately √2 * height for 45° angle */
+    left: 30px; /* Half of level-icon width */
+}
+
+.level-node.right:not(:last-child)::after {
+    transform: rotate(-45deg);
+    transform-origin: bottom right;
+    width: 56px;
+    right: 30px;
+    left: auto;
+}
+
+.level-icon {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-}
-
-.level-card:nth-child(3n+1) .level-shape::after {
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: #fff;
+    border: 3px solid #ccc;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s, background-color 0.3s;
 }
 
 .level-content {
@@ -154,10 +189,18 @@ header h1 {
         padding: 0.75rem;
     }
 
-    .level-shape {
-        width: 32px;
-        height: 32px;
-        margin-bottom: 0.5rem;
+    .level-node {
+        margin-bottom: 30px; /* Smaller spacing on mobile */
+    }
+
+    .level-node:not(:last-child)::after {
+        height: 30px;
+        bottom: -30px;
+    }
+
+    .level-node.left:not(:last-child)::after,
+    .level-node.right:not(:last-child)::after {
+        width: 42px; /* Adjusted for smaller spacing */
     }
 
     .level-content h2 {
