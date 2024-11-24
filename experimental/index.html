@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Quest - Mobile Optimized</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">English Quest</div>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+        <nav id="nav-menu">
+            <a href="#">Levels</a>
+            <a href="#">Achievements</a>
+            <a href="#">Profile</a>
+            <a href="#">Settings</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Profile Section -->
+        <section class="profile">
+            <img src="avatar.png" alt="User Avatar">
+            <h2>User123</h2>
+            <p>Level 23</p>
+            <div class="progress-bar">
+                <div class="progress" style="width: 23%;"></div>
+            </div>
+        </section>
+
+        <!-- Levels Section -->
+        <section class="levels">
+            <h1>Select a Level</h1>
+            <div class="world">
+                <h2>World 1: Basics</h2>
+                <div class="level-grid">
+                    <!-- Levels 1 to 10 -->
+                    <button class="level">1</button>
+                    <button class="level">2</button>
+                    <button class="level">3</button>
+                    <button class="level">4</button>
+                    <button class="level">5</button>
+                    <button class="level">6</button>
+                    <button class="level">7</button>
+                    <button class="level">8</button>
+                    <button class="level">9</button>
+                    <button class="level">10</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 English Quest</p>
+    </footer>
+
+    <script>
+        // JavaScript for hamburger menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,70 +1,60 @@
 import { Link, useNavigate } from 'react-router-dom';
-import levelsData from '../../../data/WordFlash/levels.json';
-import { getStorageWithCookie } from '../../../utils/storage';
-import './styles.css';
 import { IoArrowBack } from 'react-icons/io5';
+
+interface Level {
+    id: string;
+    title: string;
+    progress: number;
+    masteredMeanings: number;
+    totalMeanings: number;
+}
 
 export default function WordFlashMenu() {
     const navigate = useNavigate();
-
-    const levels = levelsData.levels.map(level => ({
-        ...level,
-        progress: parseFloat(getStorageWithCookie(`wordFlash-progress-${level.id}`) || '0').toFixed(2),
-        masteredMeanings: parseInt(getStorageWithCookie(`wordFlash-mastered-${level.id}`) || '0'),
-        totalMeanings: parseInt(getStorageWithCookie(`wordFlash-total-${level.id}`) || '0')
-    }));
-
-    const getImageUrl = (image_name: string) => {
-        try {
-            return new URL(`../../../images/word-flash/${image_name}.jpg`, import.meta.url).href;
-        } catch (error) {
-            console.error(`Failed to load image for ${image_name}:`, error);
-            return '';
-        }
+    
+    const generateLevels = (): Level[] => {
+        const totalLevels = 100;
+        return Array.from({ length: totalLevels }, (_, index) => ({
+            id: `word_flash_level_${index + 1}`,
+            title: `Level ${index + 1}`,
+            progress: 0, // This would come from your progress tracking system
+        }));
     };
 
-    return (
-        <div className="game-menu">
-            <button 
-                className="back-button"
-                onClick={() => navigate('/')}
-            >
-                <IoArrowBack size={24} />
-            </button>
+    const levels = generateLevels();
 
-            <h1>Word Flash</h1>
-            <div className="levels-grid">
+    return (
+        <div className="word-flash-menu">
+            <header>
+                <button 
+                    className="back-button"
+                    onClick={() => navigate('/')}
+                >
+                    <IoArrowBack size={24} />
+                </button>
+                <h1>Word Flash</h1>
+            </header>
+
+            <main className="levels-container">
                 {levels.map(level => (
                     <Link 
                         key={level.id} 
                         to={`/word-flash/${level.id}`} 
                         className="level-card"
                     >
-                        <div className="level-image">
-                            <img 
-                                src={getImageUrl(level.imageId)}
-                                alt={level.title} 
-                            />
-                        </div>
+                        <div className="level-shape" />
                         <div className="level-content">
                             <h2>{level.title}</h2>
-                            <p className="description">{level.description}</p>
-                            <div className="level-stats">
-                                <div className="progress-bar">
-                                    <div 
-                                        className="progress-fill" 
-                                        style={{ width: `${level.progress}%` }}
-                                    ></div>
-                                </div>
-                                <div className="stats-text">
-                                    <div>Progress: {level.progress}%</div>                                    
-                                    <div>Mastered: {level.masteredMeanings}/{level.totalMeanings}</div>
-                                </div>
+                            <div className="progress-bar">
+                                <div 
+                                    className="progress-fill" 
+                                    style={{ width: `${level.progress}%` }}
+                                />
                             </div>
                         </div>
                     </Link>
                 ))}
-            </div>
+            </main>
         </div>
     );
 } 

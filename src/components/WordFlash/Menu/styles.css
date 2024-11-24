@@ -1,119 +1,166 @@
-.game-menu {
-    padding: 2rem;
+.word-flash-menu {
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #2a9df4;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.back-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.levels-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.75rem;
+    padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.game-menu h1 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.levels-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    position: relative;
+    z-index: 1;
 }
 
 .level-card {
     background: white;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     color: inherit;
-    transition: transform 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    aspect-ratio: 1;
 }
 
 .level-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.level-image {
-    width: 240px;
-    height: 240px;
-    overflow: hidden;
-    margin: 0 auto;
+.level-shape {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.75rem;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.level-image img {
-    width: 240px;
-    height: 240px;
-    object-fit: contain;
+.level-shape::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2a9df4;
+    opacity: 0.2;
+    border-radius: 8px;
+}
+
+.level-shape::after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: #2a9df4;
+    border-radius: 6px;
+}
+
+/* Alternate shapes for variety */
+.level-card:nth-child(3n) .level-shape::after {
+    border-radius: 50%;
+}
+
+.level-card:nth-child(3n+1) .level-shape::after {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .level-content {
-    padding: 1.5rem;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .level-content h2 {
     margin: 0 0 0.5rem 0;
-}
-
-.level-content .description {
-    color: #666;
-    margin-bottom: 1rem;
-}
-
-.level-stats {
-    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 2.4em;
 }
 
 .progress-bar {
-    width: 100%;
-    height: 8px;
     background-color: #eee;
     border-radius: 4px;
+    height: 6px;
     overflow: hidden;
     margin-bottom: 0.5rem;
 }
 
 .progress-fill {
+    background-color: #2a9df4;
     height: 100%;
-    background-color: #4caf50;
     transition: width 0.3s ease;
 }
 
-.stats-text {
-    color: #666;
-    font-size: 0.9rem;
-}
+@media (max-width: 600px) {
+    .levels-container {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        padding: 0.75rem;
+        gap: 0.5rem;
+    }
 
-.stats-text div {
-    margin-bottom: 0.5rem;
-}
+    .level-card {
+        padding: 0.75rem;
+    }
 
-.clear-scores-button {
-    display: block;
-    margin: 2rem auto;
-    padding: 0.8rem 1.5rem;
-    background-color: #f44336;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.2s;
-}
+    .level-shape {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 0.5rem;
+    }
 
-.clear-scores-button:hover {
-    background-color: #d32f2f;
-}
-
-.home-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #4a4a4a;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-.home-button:hover {
-    background-color: #3a3a3a;
+    .level-content h2 {
+        font-size: 0.8rem;
+    }
 } 
