@@ -71,23 +71,27 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+.word-section {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Merged .word styles */
 .word {
     font-family: "Times New Roman", Times, serif;
     font-size: 4rem;
     font-weight: 700;
-    margin: 2rem auto;
+    margin: 1rem auto;
     color: #1F2937;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     letter-spacing: 0.05em;
     position: relative;
-    padding: 0.5em 1.5em;
+    padding: 0.3em 1.5em;
     background: linear-gradient(to right bottom, #ffffff, #f3f4f6);
-    border: 3px solid #4F46E5;
-    border-radius: 16px;
     display: inline-block;
     box-shadow: 
         0 4px 6px rgba(79, 70, 229, 0.1),
-        0 0 0 6px rgba(79, 70, 229, 0.1),
         inset 0 2px 4px rgba(255, 255, 255, 0.5);
     max-width: 90%;
     overflow-wrap: break-word;
@@ -195,11 +199,6 @@
     font-size: 1.2rem;
     font-weight: bold;
     color: #333;
-}
-
-.word-section {
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 .word {
@@ -450,18 +449,26 @@ input:checked + .toggle-slider:before {
     justify-content: center;
     gap: 8px;
     height: 40px;
-    width: 80%;
+    width: 70%;
     z-index: 10;
+    background-color: #000;
+    border: 2px solid #2121ff;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 .pacman {
-    width: 30px;
-    height: 30px;
-    background: #FFE737;
+    width: 20px;
+    height: 20px;
+    background-color: #ffff00;
     border-radius: 50%;
-    position: relative;
-    transform-origin: center;
+    position: absolute;
+    left: 50px;
     transition: transform 0.3s ease;
+}
+
+.pacman:not(.dying):not(.returning) {
+    transform: translateX(var(--current-x));
 }
 
 .pacman:not(.returning) {
@@ -540,7 +547,7 @@ input:checked + .toggle-slider:before {
 .pac-dot {
     width: 10px;
     height: 10px;
-    background: #FFB897;
+    background: #ffb8ae;
     border-radius: 50%;
     transition: opacity 0.3s ease;
     flex-shrink: 0;
@@ -553,7 +560,7 @@ input:checked + .toggle-slider:before {
 .power-pellet {
     width: 20px;
     height: 20px;
-    background: #FFB897;
+    background: #ffb8ae;
     border-radius: 50%;
     flex-shrink: 0;
     animation: pulsePellet 0.75s ease-in-out infinite;
@@ -776,5 +783,39 @@ input:checked + .toggle-slider:before {
 
 .close-button:hover {
     background-color: #45a049;
+}
+
+@keyframes death-spin {
+    0% {
+        transform: translateX(var(--current-x)) rotate(0deg);
+    }
+    100% {
+        transform: translateX(var(--current-x)) rotate(360deg);
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pacman.dying {
+    animation: 
+        death-spin 0.5s ease-in,
+        fade-out 0.5s ease-in,
+        fade-in 0.5s ease-in 1s;
 }
  

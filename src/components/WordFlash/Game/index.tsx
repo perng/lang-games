@@ -76,6 +76,7 @@ export default function WordFlashGame() {
     const [correctWordsInRound, setCorrectWordsInRound] = useState(0);
     const [showStatsPopup, setShowStatsPopup] = useState(false);
     const [pacmanMode, setPacmanMode] = useState(false);
+    const [isDying, setIsDying] = useState(false);
 
     // Initialize audio service
     useEffect(() => {
@@ -303,9 +304,13 @@ export default function WordFlashGame() {
                 setIsProcessing(false);
             }
         } else {
-            // Only play death sound if pacmanMode is on
+            // Only play death sound and animate if pacmanMode is on
             if (pacmanMode && audioService.current) {
+                setIsDying(true);
                 await audioService.current.playAudio('/voices/pacman_death.wav');
+                // Wait for death animation to complete
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                setIsDying(false);
             }
 
             setStorage(cookieKey, Math.max(currentScore - 0.5, -0.5).toString());
@@ -418,7 +423,7 @@ export default function WordFlashGame() {
 
             <div className="pacman-container">
                 <div 
-                    className={`pacman ${isReturning ? 'returning' : ''}`}
+                    className={`pacman ${isReturning ? 'returning' : ''} ${isDying ? 'dying' : ''}`}
                     style={{ 
                         '--current-x': `${eatenDots * 18}px`,
                         transform: !isReturning ? `translateX(${eatenDots * 18}px)` : undefined
