@@ -76,6 +76,7 @@ export default function WordFlashGame() {
     const [isReturning, setIsReturning] = useState(false);
     const [correctWordsInRound, setCorrectWordsInRound] = useState(0);
     const [showStatsPopup, setShowStatsPopup] = useState(false);
+    const [pacmanMode, setPacmanMode] = useState(false);
 
     // Initialize audio service
     useEffect(() => {
@@ -283,8 +284,8 @@ export default function WordFlashGame() {
             setCorrectWordsInRound(nextCorrectWords);
             
             if (nextCorrectWords < 10) {
-                // Play chomping sound when Pacman moves forward
-                if (audioService.current) {
+                // Only play chomping sound if pacmanMode is on
+                if (pacmanMode && audioService.current) {
                     await audioService.current.playAudio('/voices/pacman_chomp.wav');
                 }
                 
@@ -303,7 +304,8 @@ export default function WordFlashGame() {
                 setIsProcessing(false);
             }
         } else {
-            if (audioService.current) {
+            // Only play death sound if pacmanMode is on
+            if (pacmanMode && audioService.current) {
                 await audioService.current.playAudio('/voices/pacman_death.wav');
             }
 
@@ -567,6 +569,16 @@ export default function WordFlashGame() {
                         <span className="toggle-slider"></span>
                     </label>
                     <span className="toggle-label">⚡</span>
+
+                    <label className="toggle-switch">
+                        <input
+                            type="checkbox"
+                            checked={pacmanMode}
+                            onChange={(e) => setPacmanMode(e.target.checked)}
+                        />
+                        <span className="toggle-slider"></span>
+                    </label>
+                    <span className="toggle-label">👾</span>
                 </div>
             </div>
 
