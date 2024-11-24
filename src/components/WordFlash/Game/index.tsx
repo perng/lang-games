@@ -67,7 +67,6 @@ export default function WordFlashGame() {
     const [slogans, setSlogans] = useState<string[]>([]);
     const [showSlogan, setShowSlogan] = useState(false);
     const [currentSlogan, setCurrentSlogan] = useState('');
-    const [readDefinition, setReadDefinition] = useState(true);
     const [fastMode, setFastMode] = useState(false);
     const continueTimerRef = useRef<number>();
     const audioService = useRef<AudioService>();
@@ -248,7 +247,7 @@ export default function WordFlashGame() {
         setSelectedChoice(choice);
 
         // Read definition, pause, then play word
-        if (readDefinition && hasUserInteracted && audioService.current && levelId && !fastMode) {
+        if (hasUserInteracted && audioService.current && levelId && !fastMode) {
             // Play Chinese definition
             const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)));
             const definitionPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedDefinition}.mp3`;
@@ -550,16 +549,6 @@ export default function WordFlashGame() {
 
             <div className="game-footer">
                 <div className="toggle-container">
-                    <label className="toggle-switch">
-                        <input
-                            type="checkbox"
-                            checked={readDefinition}
-                            onChange={(e) => setReadDefinition(e.target.checked)}
-                        />
-                        <span className="toggle-slider"></span>
-                    </label>
-                    <span className="toggle-label">🀄</span>
-
                     <label className="toggle-switch">
                         <input
                             type="checkbox"
