@@ -303,6 +303,10 @@ export default function WordFlashGame() {
                 setIsProcessing(false);
             }
         } else {
+            if (audioService.current) {
+                await audioService.current.playAudio('/voices/pacman_death.wav');
+            }
+
             setStorage(cookieKey, Math.max(currentScore - 0.5, -0.5).toString());
 
             console.log(`Updated score for ${currentWord.word} to ${getStorageWithCookie(cookieKey)}`);
