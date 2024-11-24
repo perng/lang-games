@@ -474,7 +474,7 @@ export default function WordFlashGame() {
             <div className="content-with-ghosts">
                 <div className="ghost-areas-container">
                     <div className="ghost-area left-ghosts">
-                        {[...Array(5)].map((_, index) => (
+                        {[...Array(15)].map((_, index) => (
                             <div 
                                 key={index}
                                 className={`ghost ${index < Math.ceil(completedRounds/2) ? 'visible' : ''}`}
@@ -500,7 +500,7 @@ export default function WordFlashGame() {
                     </div>
                     
                     <div className="ghost-area right-ghosts">
-                        {[...Array(5)].map((_, index) => (
+                        {[...Array(15)].map((_, index) => (
                             <div 
                                 key={index}
                                 className={`ghost ${index < Math.floor(completedRounds/2) ? 'visible' : ''}`}
