@@ -36,8 +36,66 @@
 
 .toggle-container {
     display: flex;
+    gap: 20px;
     align-items: center;
-    gap: 8px;
+    justify-content: center;
+}
+
+.toggle-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.toggle-label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+    background-color: #2196F3;
+}
+
+input:checked + .toggle-slider:before {
+    transform: translateX(26px);
 }
 
 .back-button,
@@ -817,5 +875,85 @@ input:checked + .toggle-slider:before {
         death-spin 0.5s ease-in,
         fade-out 0.5s ease-in,
         fade-in 0.5s ease-in 1s;
+}
+
+.examples-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.examples-popup {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.examples-popup h3 {
+    color: #333;
+    margin: 20px 0 15px 0;
+}
+
+.popup-word {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.popup-word h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin: 0 0 5px 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.popup-word .word-type {
+    color: #666;
+    font-style: italic;
+    margin: 0;
+}
+
+.example-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.example-item:last-child {
+    border-bottom: none;
+}
+
+.example-sentence {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.example-translation {
+    color: #666;
+}
+
+.click-to-continue {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.example-sentence b {
+    font-weight: 700;
+    color: #4F46E5;  /* Or any color you prefer */
 }
  

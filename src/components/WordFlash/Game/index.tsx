@@ -52,6 +52,13 @@ const loadWordFile = async (wordFile: string): Promise<WordFileData> => {
     }
 };
 
+// Add this helper function
+const formatExampleSentence = (sentence: string, word: string) => {
+    // Replace [word] with <b>word</b>, case-insensitive
+    const regex = new RegExp(`\\[${word}\\]`, 'gi');
+    return sentence.replace(regex, `<b>${word}</b>`);
+};
+
 export default function WordFlashGame() {
     // All state declarations first
     const navigate = useNavigate();
@@ -77,6 +84,8 @@ export default function WordFlashGame() {
     const [showStatsPopup, setShowStatsPopup] = useState(false);
     const [pacmanMode, setPacmanMode] = useState(false);
     const [isDying, setIsDying] = useState(false);
+    const [showExamples, setShowExamples] = useState(false);
+    const [showExamplesPopup, setShowExamplesPopup] = useState(false);
 
     // Initialize audio service
     useEffect(() => {
@@ -291,9 +300,15 @@ export default function WordFlashGame() {
                 
                 setEatenDots(nextCorrectWords);
                 await new Promise(resolve => setTimeout(resolve, 500));
-                setSelectedChoice(null);
-                setIsProcessing(false);
-                setCurrentIndex((prev) => (prev + 1) % wordList.length);
+                
+                // Show examples popup if enabled
+                if (showExamples) {
+                    setShowExamplesPopup(true);
+                } else {
+                    setSelectedChoice(null);
+                    setIsProcessing(false);
+                    setCurrentIndex((prev) => (prev + 1) % wordList.length);
+                }
             } else if (nextCorrectWords === 10) {
                 // Play final chomp for power pellet
                 
@@ -400,7 +415,15 @@ export default function WordFlashGame() {
         setSelectedChoice(null);
         setIsProcessing(false);
     };
-  
+
+    // Add handler for closing examples popup
+    const handleExamplesPopupClick = () => {
+        setShowExamplesPopup(false);
+        setSelectedChoice(null);
+        setIsProcessing(false);
+        setCurrentIndex((prev) => (prev + 1) % wordList.length);
+    };
+
     if (wordList.length === 0) return <div>Loading...</div>;
 
     const currentWord = wordList[currentIndex];
@@ -554,25 +577,41 @@ export default function WordFlashGame() {
 
             <div className="game-footer">
                 <div className="toggle-container">
-                    <label className="toggle-switch">
-                        <input
-                            type="checkbox"
-                            checked={fastMode}
-                            onChange={(e) => setFastMode(e.target.checked)}
-                        />
-                        <span className="toggle-slider"></span>
-                    </label>
-                    <span className="toggle-label">⚡</span>
+                    <div className="toggle-group">
+                        <span className="toggle-label">⚡</span>
+                        <label className="toggle-switch">
+                            <input
+                                type="checkbox"
+                                checked={fastMode}
+                                onChange={(e) => setFastMode(e.target.checked)}
+                            />
+                            <span className="toggle-slider"></span>
+                        </label>
+                    </div>
 
-                    <label className="toggle-switch">
-                        <input
-                            type="checkbox"
-                            checked={pacmanMode}
-                            onChange={(e) => setPacmanMode(e.target.checked)}
-                        />
-                        <span className="toggle-slider"></span>
-                    </label>
-                    <span className="toggle-label">👾</span>
+                    <div className="toggle-group">
+                        <span className="toggle-label">👾</span>
+                        <label className="toggle-switch">
+                            <input
+                                type="checkbox"
+                                checked={pacmanMode}
+                                onChange={(e) => setPacmanMode(e.target.checked)}
+                            />
+                            <span className="toggle-slider"></span>
+                        </label>
+                    </div>
+
+                    <div className="toggle-group">
+                        <span className="toggle-label">📖</span>
+                        <label className="toggle-switch">
+                            <input
+                                type="checkbox"
+                                checked={showExamples}
+                                onChange={(e) => setShowExamples(e.target.checked)}
+                            />
+                            <span className="toggle-slider"></span>
+                        </label>
+                    </div>
                 </div>
             </div>
 
@@ -582,8 +621,39 @@ export default function WordFlashGame() {
                     onClick={handleSloganClick}
                 >
                     <div className="slogan-content">
-                        <h2>{currentSlogan}</h2>
-                        <p>點擊繼續</p>
+                        <h2>{currentSlogan}</h2>                        
+                    </div>
+                </div>
+            )}
+
+            {showExamplesPopup && (
+                <div 
+                    className="examples-popup-overlay"
+                    onClick={handleExamplesPopupClick}
+                >
+                    <div className="examples-popup">
+                        <div className="popup-word">
+                            <h2>{currentWord.word}</h2>
+                            <p className="word-type">{currentWord.meaning.type}</p>
+                        </div>
+                        <h3>例句</h3>
+                        {currentWord.meaning.examples.map((example, index) => (
+                            <div key={index} className="example-item">
+                                <p 
+                                    className="example-sentence"
+                                    dangerouslySetInnerHTML={{
+                                        __html: formatExampleSentence(example.sentence, currentWord.word)
+                                    }}
+                                />
+                                <p className="example-translation">{example.translation_zh_TW}</p>
+                            </div>
+                        ))}
+                        <div className="synonyms-section">
+                            <h3>同義詞</h3>
+                            <p className="synonyms-list">
+                                {currentWord.meaning.synonyms.join(', ')}
+                            </p>
+                        </div>
                     </div>
                 </div>
             )}
