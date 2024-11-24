@@ -4,7 +4,6 @@ import { setStorage, getStorageWithCookie } from '../../../utils/storage';
 import { WordWithScore } from '../types';
 import './styles.css';
 import { FaPlay } from 'react-icons/fa';
-import levelsData from '../../../data/WordFlash/levels.json';
 import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
 import { AudioService } from '../../../utils/audioService';
 
@@ -59,6 +58,25 @@ const formatExampleSentence = (sentence: string, word: string) => {
     return sentence.replace(regex, `<b>${word}</b>`);
 };
 
+// Add this interface
+interface Level {
+    id: string;
+    wordFile: string;
+}
+
+// Add this function to generate level data
+const getLevelData = (levelId: string): Level | null => {
+    // Extract level number from levelId (e.g., "word_flash_level_1" -> "1")
+    const levelNumber = levelId.split('_').pop();
+    
+    if (!levelNumber) return null;
+    
+    return {
+        id: levelId,
+        wordFile: `word_flash_level_${levelNumber}.json`
+    };
+};
+
 export default function WordFlashGame() {
     // All state declarations first
     const navigate = useNavigate();
@@ -110,7 +128,7 @@ export default function WordFlashGame() {
             }
 
             try {
-                const level = levelsData.levels.find(l => l.id === levelId);
+                const level = getLevelData(levelId);
                 if (!level) {
                     console.error('Level not found');
                     return;
