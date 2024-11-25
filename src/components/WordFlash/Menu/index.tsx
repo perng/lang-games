@@ -1,5 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { IoArrowBack } from 'react-icons/io5';
+import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import { getStorageWithCookie, setStorage } from '../../../utils/storage';
 
@@ -11,6 +12,15 @@ interface Level {
     wordFile: string;
     progress?: number; // Optional since it comes from progress tracking
 }
+
+const getProgressState = (progress: number): string => {
+    if (progress === 0) return "0";
+    if (progress === 100) return "complete";
+    if (progress >= 75) return "high";
+    if (progress >= 50) return "medium";
+    if (progress >= 25) return "low";
+    return "very-low";
+};
 
 export default function WordFlashMenu() {
     const navigate = useNavigate();
@@ -138,8 +148,13 @@ export default function WordFlashMenu() {
                             key={level.id} 
                             to={`/word-flash/${level.id}`} 
                             className="level-card"
+                            data-progress={getProgressState(level.progress ?? 0)}
                         >
-                            <div className="level-shape" />
+                            <div className="level-shape">
+                                {level.progress === 100 && (
+                                    <FaCheckCircle className="complete-check" />
+                                )}
+                            </div>
                             <div className="level-content">
                                 <h2>{level.title}</h2>
                                 <p>{level.description}</p>

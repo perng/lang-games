@@ -7,33 +7,36 @@
 header {
     text-align: center;
     padding: 20px;
-    background-color: #2a9df4;
-    color: white;
     margin-bottom: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(42, 157, 244, 0.2);
 }
 
 header h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color: #2196f3;
+    font-weight: 600;
+    letter-spacing: -0.5px;
 }
 
 .back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
     background: none;
     border: none;
-    color: white;
     cursor: pointer;
-    padding: 0.5rem;
+    color: #333;
+    padding: 8px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    z-index: 1000;
     transition: background-color 0.2s;
 }
 
 .back-button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .levels-container {
@@ -48,7 +51,10 @@ header h1 {
 }
 
 .level-card {
-    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    background: linear-gradient(135deg, 
+        var(--progress-color-light, #ffffff) 0%, 
+        var(--progress-color-lighter, #f8f9fa) 100%
+    );
     border-radius: 16px;
     overflow: hidden;
     text-decoration: none;
@@ -63,6 +69,7 @@ header h1 {
     align-items: center;
     aspect-ratio: 1;
     position: relative;
+    border: none;
 }
 
 .level-card::before {
@@ -71,7 +78,7 @@ header h1 {
     inset: 0;
     border-radius: 16px;
     padding: 2px;
-    background: linear-gradient(135deg, #2a9df4, #1e7ac1);
+    background: linear-gradient(135deg, var(--progress-color, #808080), var(--progress-color-dark, #666666));
     -webkit-mask: 
         linear-gradient(#fff 0 0) content-box, 
         linear-gradient(#fff 0 0);
@@ -87,8 +94,12 @@ header h1 {
 .level-card:hover {
     transform: translateY(-3px);
     box-shadow: 
-        0 8px 20px rgba(42, 157, 244, 0.15),
-        0 2px 4px rgba(0, 0, 0, 0.1);
+        0 8px 20px rgba(0, 0, 0, 0.1),
+        0 2px 4px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(135deg, 
+        var(--progress-color-lighter) 0%, 
+        var(--progress-color-light) 100%
+    );
 }
 
 .level-card:hover::before {
@@ -99,7 +110,8 @@ header h1 {
     width: 50px;
     height: 50px;
     border-radius: 12px;
-    background: linear-gradient(135deg, #2a9df4, #1e7ac1);
+    background-color: var(--progress-color);
+    background-image: none;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
@@ -109,6 +121,7 @@ header h1 {
     font-size: 1.25rem;
     box-shadow: 0 4px 10px rgba(42, 157, 244, 0.2);
     transition: transform 0.3s ease;
+    position: relative;
 }
 
 .level-card:hover .level-shape {
@@ -129,18 +142,63 @@ header h1 {
 }
 
 .progress-bar {
-    background-color: rgba(42, 157, 244, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     height: 8px;
     overflow: hidden;
+    margin-top: 8px;
     margin-bottom: 0.5rem;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .progress-fill {
-    background: linear-gradient(90deg, #2a9df4, #1e7ac1);
     height: 100%;
     transition: width 0.4s ease;
     border-radius: 6px;
+    background-color: var(--progress-color);
+}
+
+/* Progress-based card states with background gradients */
+.level-card[data-progress="0"] {
+    --progress-color: #808080;
+    --progress-color-dark: #666666;
+    --progress-color-light: #f5f5f5;
+    --progress-color-lighter: #ebebeb;
+}
+
+.level-card[data-progress="complete"] {
+    --progress-color: #4CAF50;
+    --progress-color-dark: #45a049;
+    --progress-color-light: #e8f5e9;
+    --progress-color-lighter: #c8e6c9;
+}
+
+.level-card[data-progress="high"] {
+    --progress-color: #90EE90;
+    --progress-color-dark: #7ed17e;
+    --progress-color-light: #f1f8e9;
+    --progress-color-lighter: #dcedc8;
+}
+
+.level-card[data-progress="medium"] {
+    --progress-color: #FFD700;
+    --progress-color-dark: #e6c200;
+    --progress-color-light: #fffde7;
+    --progress-color-lighter: #fff9c4;
+}
+
+.level-card[data-progress="low"] {
+    --progress-color: #FFA552;
+    --progress-color-dark: #ff8c1a;
+    --progress-color-light: #fff3e0;
+    --progress-color-lighter: #ffe0b2;
+}
+
+.level-card[data-progress="very-low"] {
+    --progress-color: #FF6B6B;
+    --progress-color-dark: #ff3838;
+    --progress-color-light: #ffebee;
+    --progress-color-lighter: #ffcdd2;
 }
 
 /* Completed state */
@@ -166,6 +224,35 @@ header h1 {
     background: linear-gradient(135deg, #9e9e9e, #757575);
 }
 
+.complete-check {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    color: #4CAF50;
+    background: white;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.2));
+}
+
+/* Add animation for the check mark */
+@keyframes checkPop {
+    0% {
+        transform: scale(0);
+    }
+    70% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.complete-check {
+    animation: checkPop 0.3s ease-out forwards;
+}
+
+/* Adjust for mobile */
 @media (max-width: 600px) {
     .level-card {
         padding: 1rem;
@@ -196,5 +283,15 @@ header h1 {
     
     .progress-bar {
         height: 6px;
+    }
+
+    .complete-check {
+        font-size: 1rem;
+        top: -3px;
+        right: -3px;
+    }
+
+    header h1 {
+        font-size: 2rem;
     }
 } 
