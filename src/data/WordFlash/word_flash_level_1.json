@@ -3351,7 +3351,7 @@
                 "type": "名詞",
                 "meaning_en_US": "A group of individuals working together toward a common goal.",
                 "meaning_zh_TW": "團隊",
-                "wrong_meaning_zh_TW": ["人員、成員", "任務、計劃", "賽季、時期"],
+                "wrong_meaning_zh_TW": ["個人", "任務、計劃", "賽季、時期"],
                 "examples": [
                     {
                         "sentence": "Our [team] won the championship last year.",
@@ -3432,7 +3432,7 @@
                 "type": "名詞",
                 "meaning_en_US": "An instance or example of a particular situation.",
                 "meaning_zh_TW": "情況、案例",
-                "wrong_meaning_zh_TW": ["盒子、容器", "理由、原因", "情景、景況"],
+                "wrong_meaning_zh_TW": ["說明，解釋", "理由、原因", "情景、景況"],
                 "examples": [
                     {
                         "sentence": "In this [case], we should take action.",
@@ -3830,8 +3830,8 @@
             {
                 "type": "形容詞",
                 "meaning_en_US": "Not under the control or in the power of another; able to act or be done as one wishes.",
-                "meaning_zh_TW": "自由的",
-                "wrong_meaning_zh_TW": ["成本", "免費的", "富裕的"],
+                "meaning_zh_TW": "自由的,免費的",
+                "wrong_meaning_zh_TW": ["成本", "昂貴的", "富裕的"],
                 "examples": [
                     {
                         "sentence": "You are [free] to make your own choices.",
@@ -4850,8 +4850,8 @@
             {
                 "type": "動詞",
                 "meaning_en_US": "To contact someone by phone.",
-                "meaning_zh_TW": "打電話",
-                "wrong_meaning_zh_TW": ["呼喚、喊叫", "叫喚、請求", "召集、聚集"],
+                "meaning_zh_TW": "打電話,呼喚",
+                "wrong_meaning_zh_TW": ["說話", "唱歌", "召集、聚集"],
                 "examples": [
                     {"sentence": "Please [call] me when you arrive.",
                      "translation_zh_TW": "請在你到達時打電話給我。"},
@@ -25583,8 +25583,8 @@
             {
                 "type": "名詞",
                 "meaning_en_US": "the father of one's father or mother.",
-                "meaning_zh_TW": "祖父",
-                "wrong_meaning_zh_TW": ["父親", "叔叔", "外公"],
+                "meaning_zh_TW": "祖父,外公",
+                "wrong_meaning_zh_TW": ["父親", "叔叔", "曾祖父"],
                 "examples": [
                     {
                         "sentence": "My [grandfather] taught me how to fish.",
@@ -25592,7 +25592,7 @@
                     },
                     {
                         "sentence": "He visits his [grandfather] every summer.",
-                        "translation_zh_TW": "他每年夏天都會拜訪他的祖父。"
+                        "translation_zh_TW": "他每年夏天都會拜訪他的外公。"
                     },
                     {
                         "sentence": "I have many stories from my [grandfather].",
@@ -26280,8 +26280,8 @@
       {
         "type": "名詞",
         "meaning_en_US": "The mother of one's father or mother.",
-        "meaning_zh_TW": "祖母",
-        "wrong_meaning_zh_TW": ["姑姑", "舅母", "外婆"],
+        "meaning_zh_TW": "祖母,外婆",
+        "wrong_meaning_zh_TW": ["姑姑", "舅母", "曾祖母"],
         "examples": [
           {
             "sentence": "My [grandmother] loves to bake cookies.",
