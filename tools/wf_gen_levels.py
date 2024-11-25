@@ -3,7 +3,7 @@ import glob
 
 def main():
     # Read all word files
-    word_files = sorted(glob.glob("../src/data/WordFlash/wf_level_*.json"))
+    word_files = sorted(glob.glob("../public/data/WordFlash/wf_level_*.json"))
     
     levels = []
     for i, word_file in enumerate(word_files, 1):
@@ -14,7 +14,7 @@ def main():
         
         # Create level entry
         level = {
-            "id": f"word_flash_level_{i}",
+            "id": f"word_flash_level_{i:03d}",
             "game_type": "word_flash",
             "title": first_word ,
             "description": f"Level {i}",
