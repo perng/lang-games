@@ -1,0 +1,784 @@
+[
+  {
+    "word": "danger",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The possibility of suffering harm or injury.",
+        "meaning_zh_TW": "危險",
+        "wrong_meaning_zh_TW": [
+          "機會",
+          "聲音",
+          "安全"
+        ],
+        "examples": [
+          {
+            "sentence": "There is a real [danger] of flooding this season.",
+            "translation_zh_TW": "這個季節有真正的洪水危險。"
+          },
+          {
+            "sentence": "He warned us about the [danger] of hiking alone.",
+            "translation_zh_TW": "他警告我們獨自爬山的危險。"
+          },
+          {
+            "sentence": "Avoiding [danger] is essential for survival.",
+            "translation_zh_TW": "避免危險對生存至關重要。"
+          }
+        ],
+        "synonyms": [
+          "risk",
+          "threat"
+        ]
+      }
+    ],
+    "confusion": [
+      "ranger",
+      "manager",
+      "dangerous",
+      "anger"
+    ]
+  },
+  {
+    "word": "feature",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A distinctive attribute or aspect of something.",
+        "meaning_zh_TW": "特徵",
+        "wrong_meaning_zh_TW": [
+          "缺點",
+          "問題",
+          "無能"
+        ],
+        "examples": [
+          {
+            "sentence": "The smartphone has several advanced [features].",
+            "translation_zh_TW": "這款智能手機有幾個先進的特徵。"
+          },
+          {
+            "sentence": "Her unique [features] make her stand out.",
+            "translation_zh_TW": "她獨特的特徵讓她脫穎而出。"
+          },
+          {
+            "sentence": "The new software includes a user-friendly [feature].",
+            "translation_zh_TW": "這款新軟體包含了一個使用者友好的特徵。"
+          }
+        ],
+        "synonyms": [
+          "attribute",
+          "characteristic"
+        ]
+      }
+    ],
+    "confusion": [
+      "fetcha",
+      "featurre",
+      "feeter",
+      "featrue"
+    ]
+  },
+  {
+    "word": "among",
+    "meanings": [
+      {
+        "type": "介詞",
+        "meaning_en_US": "In the midst of or surrounded by something.",
+        "meaning_zh_TW": "在…之中",
+        "wrong_meaning_zh_TW": [
+          "在旁邊",
+          "在之上",
+          "在外面"
+        ],
+        "examples": [
+          {
+            "sentence": "She felt at home [among] her friends.",
+            "translation_zh_TW": "她在朋友之中感到像在家裡。"
+          },
+          {
+            "sentence": "He was standing [among] the crowd.",
+            "translation_zh_TW": "他站在人群之中。"
+          },
+          {
+            "sentence": "This place is hidden [among] the trees.",
+            "translation_zh_TW": "這個地方隱藏在樹木之中。"
+          }
+        ],
+        "synonyms": [
+          "between",
+          "surrounded by"
+        ]
+      }
+    ],
+    "confusion": [
+      "amoung",
+      "amongst",
+      "amon",
+      "amonng"
+    ]
+  },
+  {
+    "word": "consideration",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Careful thought, typically over a period.",
+        "meaning_zh_TW": "考量",
+        "wrong_meaning_zh_TW": [
+          "期望",
+          "信念",
+          "隨意"
+        ],
+        "examples": [
+          {
+            "sentence": "Safety is an important [consideration] in this project.",
+            "translation_zh_TW": "安全是本專案中的一個重要考量。"
+          },
+          {
+            "sentence": "She gave the matter much [consideration].",
+            "translation_zh_TW": "她對此事給予了充分的考量。"
+          },
+          {
+            "sentence": "Financial [considerations] influenced their decision.",
+            "translation_zh_TW": "財務考量影響了他們的決定。"
+          }
+        ],
+        "synonyms": [
+          "deliberation",
+          "thought"
+        ]
+      }
+    ],
+    "confusion": [
+      "consider",
+      "concentration",
+      "connotation",
+      "consolation"
+    ]
+  },
+  {
+    "word": "ourselves",
+    "meanings": [
+      {
+        "type": "代詞",
+        "meaning_en_US": "Used we as the object of a verb or preposition to refer to the speaker and one or more other people.",
+        "meaning_zh_TW": "我們自己",
+        "wrong_meaning_zh_TW": [
+          "他們自己",
+          "你們自己",
+          "她們自己"
+        ],
+        "examples": [
+          {
+            "sentence": "We need to believe in [ourselves].",
+            "translation_zh_TW": "我們需要相信我們自己。"
+          },
+          {
+            "sentence": "Let's take care of [ourselves].",
+            "translation_zh_TW": "讓我們照顧好自己。"
+          },
+          {
+            "sentence": "[Ourselves] are our own worst critics.",
+            "translation_zh_TW": "我們自己是自己最嚴厲的批評者。"
+          }
+        ],
+        "synonyms": [
+          "we",
+          "us"
+        ]
+      }
+    ],
+    "confusion": [
+      "ours",
+      "other selves",
+      "ourselves*",
+      "ourself"
+    ]
+  },
+  {
+    "word": "discussion",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The action or process of talking about something to reach a decision.",
+        "meaning_zh_TW": "討論",
+        "wrong_meaning_zh_TW": [
+          "分配",
+          "執行",
+          "隱藏"
+        ],
+        "examples": [
+          {
+            "sentence": "The team had a [discussion] about strategy.",
+            "translation_zh_TW": "團隊討論了策略"
+          },
+          {
+            "sentence": "We’ll have a [discussion] after the presentation.",
+            "translation_zh_TW": "演講後我們會有一個討論"
+          },
+          {
+            "sentence": "The [discussion] was very productive.",
+            "translation_zh_TW": "這次討論非常有成效"
+          }
+        ],
+        "synonyms": [
+          "dialogue",
+          "debate",
+          "talk"
+        ]
+      }
+    ],
+    "confusion": [
+      "dissonance",
+      "dissect",
+      "discectomy",
+      "disguise"
+    ]
+  },
+  {
+    "word": "world",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The earth, together with all of its countries, peoples, and natural features.",
+        "meaning_zh_TW": "世界",
+        "wrong_meaning_zh_TW": [
+          "宇宙",
+          "平行宇宙",
+          "地球"
+        ],
+        "examples": [
+          {
+            "sentence": "The [world] is facing many challenges.",
+            "translation_zh_TW": "世界正面臨許多挑戰。"
+          },
+          {
+            "sentence": "She traveled around the [world] last year.",
+            "translation_zh_TW": "她去年環遊了世界。"
+          },
+          {
+            "sentence": "He wants to make a difference in the [world].",
+            "translation_zh_TW": "他想在世界上有所作為。"
+          }
+        ],
+        "synonyms": [
+          "globe",
+          "planet"
+        ]
+      }
+    ],
+    "confusion": [
+      "word",
+      "whirl",
+      "worled",
+      "wold"
+    ]
+  },
+  {
+    "word": "tax",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A compulsory financial charge or levy imposed by a government.",
+        "meaning_zh_TW": "稅",
+        "wrong_meaning_zh_TW": [
+          "自願貢獻",
+          "慈善捐贈",
+          "匯款"
+        ],
+        "examples": [
+          {
+            "sentence": "You need to pay your [tax] by April 15.",
+            "translation_zh_TW": "你需要在4月15日之前繳納稅款"
+          },
+          {
+            "sentence": "The income [tax] affects most workers.",
+            "translation_zh_TW": "所得稅影響到大多數工作者"
+          },
+          {
+            "sentence": "He's worried about the new [tax] laws.",
+            "translation_zh_TW": "他對新的稅收法規感到擔憂"
+          }
+        ],
+        "synonyms": [
+          "levy",
+          "duty"
+        ]
+      }
+    ],
+    "confusion": [
+      "fax",
+      "tack",
+      "taxi",
+      "tex"
+    ]
+  },
+  {
+    "word": "garbage",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Waste material; refuse or litter.",
+        "meaning_zh_TW": "垃圾",
+        "wrong_meaning_zh_TW": [
+          "財富",
+          "資源",
+          "舊物"
+        ],
+        "examples": [
+          {
+            "sentence": "Please take out the [garbage].",
+            "translation_zh_TW": "請把垃圾帶出去。"
+          },
+          {
+            "sentence": "The [garbage] was overflowing in the bin.",
+            "translation_zh_TW": "垃圾桶裡的垃圾溢出了。"
+          },
+          {
+            "sentence": "He sorted the [garbage] for recycling.",
+            "translation_zh_TW": "他將垃圾分類以便回收。"
+          }
+        ],
+        "synonyms": [
+          "waste",
+          "refuse"
+        ]
+      }
+    ],
+    "confusion": [
+      "garb",
+      "gorge",
+      "garnet",
+      "garbology"
+    ]
+  },
+  {
+    "word": "speaker",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who speaks, especially in public.",
+        "meaning_zh_TW": "演講者",
+        "wrong_meaning_zh_TW": [
+          "聽眾",
+          "講義",
+          "報告者"
+        ],
+        "examples": [
+          {
+            "sentence": "The [speaker] addressed the audience passionately.",
+            "translation_zh_TW": "演講者充滿熱情地對觀眾發言"
+          },
+          {
+            "sentence": "She is an experienced [speaker] on climate change.",
+            "translation_zh_TW": "她是氣候變化方面的資深演講者"
+          },
+          {
+            "sentence": "The conference will feature a keynote [speaker].",
+            "translation_zh_TW": "會議將邀請一位主題演講者"
+          }
+        ],
+        "synonyms": [
+          "orator",
+          "lecturer"
+        ]
+      }
+    ],
+    "confusion": [
+      "sneaker",
+      "spreader",
+      "sleeper",
+      "sparser"
+    ]
+  },
+  {
+    "word": "domestic",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to the running of a home or to family relations.",
+        "meaning_zh_TW": "家庭的、國內的",
+        "wrong_meaning_zh_TW": [
+          "外國的、海外的",
+          "專業的、商業的",
+          "工業的、製造的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [domestic] issues were discussed at the meeting.",
+            "translation_zh_TW": "會議上討論了家庭問題。"
+          },
+          {
+            "sentence": "She prefers [domestic] travel over international trips.",
+            "translation_zh_TW": "她更喜歡國內旅行而不是國際旅行。"
+          },
+          {
+            "sentence": "The [domestic] market is growing rapidly.",
+            "translation_zh_TW": "國內市場正在迅速增長。"
+          }
+        ],
+        "synonyms": [
+          "home",
+          "national"
+        ]
+      }
+    ],
+    "confusion": [
+      "dometic",
+      "domestik",
+      "domenstic",
+      "demestic"
+    ]
+  },
+  {
+    "word": "noodle",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A type of long, thin pasta.",
+        "meaning_zh_TW": "麵條",
+        "wrong_meaning_zh_TW": [
+          "湯",
+          "米飯",
+          "麵包"
+        ],
+        "examples": [
+          {
+            "sentence": "I love to eat [noodle] soup.",
+            "translation_zh_TW": "我喜歡吃麵條湯"
+          },
+          {
+            "sentence": "She made homemade [noodles] for dinner.",
+            "translation_zh_TW": "她為晚餐做了自製的麵條"
+          },
+          {
+            "sentence": "They ordered [noodles] from the new restaurant.",
+            "translation_zh_TW": "他們從新餐廳訂了麵條"
+          }
+        ],
+        "synonyms": [
+          "pasta",
+          "spaghetti"
+        ]
+      }
+    ],
+    "confusion": [
+      "noodle",
+      "foodle",
+      "doodle",
+      "noddle"
+    ]
+  },
+  {
+    "word": "skin",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The thin layer of tissue forming the complete covering of the body.",
+        "meaning_zh_TW": "皮膚",
+        "wrong_meaning_zh_TW": [
+          "外套",
+          "組織",
+          "細胞"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [skin] is very smooth.",
+            "translation_zh_TW": "她的皮膚非常光滑。"
+          },
+          {
+            "sentence": "Protect your [skin] from the sun.",
+            "translation_zh_TW": "保護你的皮膚免受陽光照射。"
+          },
+          {
+            "sentence": "He has sensitive [skin].",
+            "translation_zh_TW": "他有敏感的皮膚。"
+          }
+        ],
+        "synonyms": [
+          "epidermis",
+          "dermis"
+        ]
+      }
+    ],
+    "confusion": [
+      "skinn",
+      "sin",
+      "skinny",
+      "skien"
+    ]
+  },
+  {
+    "word": "soybean",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A species of legume native to East Asia, widely grown for its edible bean.",
+        "meaning_zh_TW": "大豆",
+        "wrong_meaning_zh_TW": [
+          "荳蔻",
+          "黑豆",
+          "豆腐"
+        ],
+        "examples": [
+          {
+            "sentence": "She added [soybean] oil to the salad.",
+            "translation_zh_TW": "她在沙拉中加入了大豆油"
+          },
+          {
+            "sentence": "Tofu is made from [soybean].",
+            "translation_zh_TW": "豆腐是用大豆製作的"
+          },
+          {
+            "sentence": "He prefers [soybean] milk over regular milk.",
+            "translation_zh_TW": "他喜歡大豆奶勝於牛奶"
+          }
+        ],
+        "synonyms": [
+          "glycine max",
+          "soja bean"
+        ]
+      }
+    ],
+    "confusion": [
+      "sorbean",
+      "soybeans",
+      "soy",
+      "soyabean"
+    ]
+  },
+  {
+    "word": "which",
+    "meanings": [
+      {
+        "type": "代名詞",
+        "meaning_en_US": "A question word used to ask about one or more items from a defined set.",
+        "meaning_zh_TW": "哪個",
+        "wrong_meaning_zh_TW": [
+          "什麼",
+          "誰",
+          "為什麼"
+        ],
+        "examples": [
+          {
+            "sentence": "Do you know [which] book he prefers?",
+            "translation_zh_TW": "你知道他偏好哪本書嗎？"
+          },
+          {
+            "sentence": "I can't remember [which] way to go.",
+            "translation_zh_TW": "我記不起來該走哪條路"
+          },
+          {
+            "sentence": "She asked [which] dress to wear.",
+            "translation_zh_TW": "她問該穿哪條裙子"
+          }
+        ],
+        "synonyms": [
+          "what",
+          "that one"
+        ]
+      }
+    ],
+    "confusion": [
+      "witch",
+      "whitch",
+      "while",
+      "whick"
+    ]
+  },
+  {
+    "word": "soda",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A drink consisting of carbonated water and flavoring.",
+        "meaning_zh_TW": "汽水",
+        "wrong_meaning_zh_TW": [
+          "果汁",
+          "啤酒",
+          "牛奶"
+        ],
+        "examples": [
+          {
+            "sentence": "I would like a cold [soda] with my meal.",
+            "translation_zh_TW": "我想要一杯冰汽水搭配我的餐點"
+          },
+          {
+            "sentence": "He enjoys dark [soda] like cola.",
+            "translation_zh_TW": "他喜歡可樂這種深色的汽水"
+          },
+          {
+            "sentence": "She brings a [soda] to the picnic.",
+            "translation_zh_TW": "她帶來了一罐汽水去野餐"
+          }
+        ],
+        "synonyms": [
+          "soft drink",
+          "fizzy drink"
+        ]
+      }
+    ],
+    "confusion": [
+      "sodae",
+      "sode",
+      "sodd",
+      "sorda"
+    ]
+  },
+  {
+    "word": "prison",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A building where people are kept as a punishment for a crime.",
+        "meaning_zh_TW": "監獄",
+        "wrong_meaning_zh_TW": [
+          "醫院",
+          "學校",
+          "倉庫"
+        ],
+        "examples": [
+          {
+            "sentence": "He was sent to [prison] for committing theft.",
+            "translation_zh_TW": "因為犯竊，他被送到監獄"
+          },
+          {
+            "sentence": "The [prison] was built in the 1800s.",
+            "translation_zh_TW": "這所監獄建於19世紀"
+          },
+          {
+            "sentence": "Life in [prison] can be very difficult.",
+            "translation_zh_TW": "監獄生活可能非常艱難"
+          }
+        ],
+        "synonyms": [
+          "jail",
+          "penitentiary"
+        ]
+      }
+    ],
+    "confusion": [
+      "prisoner",
+      "prisong",
+      "prisons",
+      "prislon"
+    ]
+  },
+  {
+    "word": "shelf",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A flat board or surface used for storing items.",
+        "meaning_zh_TW": "架子",
+        "wrong_meaning_zh_TW": [
+          "餐具",
+          "投影機",
+          "文件夾"
+        ],
+        "examples": [
+          {
+            "sentence": "The books are on the top [shelf].",
+            "translation_zh_TW": "書本在最上面的架子上。"
+          },
+          {
+            "sentence": "Please put the plates back on the [shelf].",
+            "translation_zh_TW": "請把盤子放回架子上。"
+          },
+          {
+            "sentence": "She organized the [shelf] by genre.",
+            "translation_zh_TW": "她按類型整理了架子。"
+          }
+        ],
+        "synonyms": [
+          "rack",
+          "ledge"
+        ]
+      }
+    ],
+    "confusion": [
+      "self",
+      "shelve",
+      "shelfie",
+      "shelf"
+    ]
+  },
+  {
+    "word": "railroad",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A track made of steel rails along which cars and trains run.",
+        "meaning_zh_TW": "鐵路",
+        "wrong_meaning_zh_TW": [
+          "公路",
+          "橋樑",
+          "隧道"
+        ],
+        "examples": [
+          {
+            "sentence": "The railroad connects several major cities.",
+            "translation_zh_TW": "這條鐵路連接幾個主要城市"
+          },
+          {
+            "sentence": "They built a new railroad last year.",
+            "translation_zh_TW": "他們去年建了一條新鐵路"
+          },
+          {
+            "sentence": "The railroad industry has seen significant changes.",
+            "translation_zh_TW": "鐵路行業經歷了重大變化"
+          }
+        ],
+        "synonyms": [
+          "train line",
+          "track"
+        ]
+      }
+    ],
+    "confusion": [
+      "railway",
+      "rainroad",
+      "railcar",
+      "railwayman"
+    ]
+  },
+  {
+    "word": "beyond",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "At or to the further side of.",
+        "meaning_zh_TW": "在...之外，超過",
+        "wrong_meaning_zh_TW": [
+          "在裡面，內部",
+          "低於，下面",
+          "附近，周圍"
+        ],
+        "examples": [
+          {
+            "sentence": "The mountains are [beyond] the river.",
+            "translation_zh_TW": "山脈在河的另一邊"
+          },
+          {
+            "sentence": "Her skills are [beyond] my comprehension.",
+            "translation_zh_TW": "她的技能超出了我的理解"
+          },
+          {
+            "sentence": "We traveled [beyond] the city limits.",
+            "translation_zh_TW": "我們走出城市的邊界"
+          }
+        ],
+        "synonyms": [
+          "further",
+          "past",
+          "over"
+        ]
+      }
+    ],
+    "confusion": [
+      "behold",
+      "beyondness",
+      "beyound",
+      "beyound"
+    ]
+  }
+]

@@ -1,3930 +1,835 @@
 [
   {
-    "word": "clause",
+    "word": "last",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A distinct article or provision in a formal document, such as a contract.",
-        "meaning_zh_TW": "條款",
+        "type": "形容詞",
+        "meaning_en_US": "Used to refer to the final person or thing in a series.",
+        "meaning_zh_TW": "最後的",
         "wrong_meaning_zh_TW": [
-          "案例",
-          "條件",
-          "附錄"
+          "第一的",
+          "中間的",
+          "略過"
         ],
         "examples": [
           {
-            "sentence": "The contract included a confidentiality [clause].",
-            "translation_zh_TW": "合同中包含了一個保密條款"
+            "sentence": "This is the [last] book in the series.",
+            "translation_zh_TW": "這是系列中的最後一本書。"
           },
           {
-            "sentence": "Each [clause] must be carefully reviewed.",
-            "translation_zh_TW": "每個條款都必須仔細審查"
+            "sentence": "She was the [last] to arrive.",
+            "translation_zh_TW": "她是最後一個到的。"
           },
           {
-            "sentence": "This [clause] specifies the duration of the agreement.",
-            "translation_zh_TW": "該條款指定協議的持續時間"
+            "sentence": "I cannot remember the [last] time we met.",
+            "translation_zh_TW": "我不記得我們上次見面是什麼時候。"
           }
         ],
         "synonyms": [
-          "provision",
-          "paragraph"
+          "final",
+          "ending"
         ]
       }
     ],
     "confusion": [
-      "cluas",
-      "clauses",
-      "clausez",
-      "cluase"
+      "lust",
+      "laste",
+      "lastt",
+      "lats"
     ]
   },
   {
-    "word": "cling",
+    "word": "high",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Of great vertical extent; measuring a long distance from bottom to top.",
+        "meaning_zh_TW": "高的",
+        "wrong_meaning_zh_TW": [
+          "短的",
+          "平的",
+          "低的"
+        ],
+        "examples": [
+          {
+            "sentence": "The mountain is very [high].",
+            "translation_zh_TW": "那座山非常高。"
+          },
+          {
+            "sentence": "He jumped to reach the [high] shelf.",
+            "translation_zh_TW": "他跳起來想要拿到高處的架子。"
+          },
+          {
+            "sentence": "Her grades are [high] this semester.",
+            "translation_zh_TW": "她這個學期的成績很高。"
+          }
+        ],
+        "synonyms": [
+          "tall",
+          "lofty"
+        ]
+      }
+    ],
+    "confusion": [
+      "hi",
+      "hie",
+      "hghi",
+      "hihg"
+    ]
+  },
+  {
+    "word": "Friday",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The day of the week before Saturday.",
+        "meaning_zh_TW": "星期五",
+        "wrong_meaning_zh_TW": [
+          "星期二",
+          "星期三",
+          "星期六"
+        ],
+        "examples": [
+          {
+            "sentence": "I usually go out on [Friday] nights.",
+            "translation_zh_TW": "我通常在星期五晚上出門。"
+          },
+          {
+            "sentence": "The meeting is scheduled for [Friday].",
+            "translation_zh_TW": "會議定於星期五舉行。"
+          },
+          {
+            "sentence": "[Friday] is the last weekday before the weekend.",
+            "translation_zh_TW": "星期五是周末前的最後一個工作日。"
+          }
+        ],
+        "synonyms": [
+          "the fifth day",
+          "星期五"
+        ]
+      }
+    ],
+    "confusion": [
+      "Fryday",
+      "Fridai",
+      "Frieday",
+      "Fridday"
+    ]
+  },
+  {
+    "word": "okay",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Used to express assent, agreement, or approval.",
+        "meaning_zh_TW": "好、可以",
+        "wrong_meaning_zh_TW": [
+          "不行、拒絕",
+          "錯誤、失誤",
+          "抗拒、拒絕"
+        ],
+        "examples": [
+          {
+            "sentence": "Is it [okay] to leave early today?",
+            "translation_zh_TW": "今天提前離開可以嗎？"
+          },
+          {
+            "sentence": "He said it was [okay] to continue working on the project.",
+            "translation_zh_TW": "他說可以繼續進行這個項目。"
+          },
+          {
+            "sentence": "We should be [okay] with the proposed changes.",
+            "translation_zh_TW": "我們應該對這些提議的變更感到滿意。"
+          }
+        ],
+        "synonyms": [
+          "fine",
+          "acceptable"
+        ]
+      }
+    ],
+    "confusion": [
+      "okey",
+      "okkay",
+      "ok",
+      "ookay"
+    ]
+  },
+  {
+    "word": "bell",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A hollow object that produces a ringing sound when struck.",
+        "meaning_zh_TW": "鐘",
+        "wrong_meaning_zh_TW": [
+          "銅器",
+          "錢包",
+          "襯衫"
+        ],
+        "examples": [
+          {
+            "sentence": "The church [bell] rang at noon.",
+            "translation_zh_TW": "教堂的鐘在中午響了"
+          },
+          {
+            "sentence": "She wore a [bell] on her necklace.",
+            "translation_zh_TW": "她的項鍊上掛著一個鈴鐺"
+          },
+          {
+            "sentence": "I heard the [bell] ring from afar.",
+            "translation_zh_TW": "我聽到遠處的鐘聲"
+          }
+        ],
+        "synonyms": [
+          "chime",
+          "toll"
+        ]
+      }
+    ],
+    "confusion": [
+      "ball",
+      "belle",
+      "belt",
+      "beel"
+    ]
+  },
+  {
+    "word": "enter",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To hold on tightly to something.",
-        "meaning_zh_TW": "緊緊抓住",
+        "meaning_en_US": "To come or go into a place.",
+        "meaning_zh_TW": "進入",
         "wrong_meaning_zh_TW": [
-          "放開",
-          "推開",
-          "分開"
+          "離開",
+          "逃跑",
+          "入住"
         ],
         "examples": [
           {
-            "sentence": "The child would [cling] to his mother in a crowd.",
-            "translation_zh_TW": "孩子在人群中會緊緊抓住媽媽"
+            "sentence": "Please [enter] your username and password.",
+            "translation_zh_TW": "請輸入您的用戶名和密碼"
           },
           {
-            "sentence": "The fabric can [cling] to your skin.",
-            "translation_zh_TW": "這種織物會緊貼在你的皮膚上"
+            "sentence": "You must [enter] the building through the main door.",
+            "translation_zh_TW": "你必須通過正門進入大樓"
           },
           {
-            "sentence": "She [clings] to the hope of a better future.",
-            "translation_zh_TW": "她緊緊抓住對更好未來的希望"
+            "sentence": "They will [enter] the competition next week.",
+            "translation_zh_TW": "他們將在下週參加比賽"
           }
         ],
         "synonyms": [
-          "adhere",
-          "cohere"
+          "access",
+          "join"
         ]
       }
     ],
     "confusion": [
-      "climg",
-      "clingy",
-      "clingz",
-      "claing"
+      "intern",
+      "entire",
+      "entren",
+      "entree"
     ]
   },
   {
-    "word": "clinical",
+    "word": "thirteen",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to the observation and treatment of actual patients rather than theoretical or laboratory studies.",
-        "meaning_zh_TW": "臨床的",
+        "type": "數字",
+        "meaning_en_US": "The number equivalent to the sum of three and ten; 13.",
+        "meaning_zh_TW": "十三",
         "wrong_meaning_zh_TW": [
-          "實驗的",
-          "研究的",
-          "理論的"
+          "十二",
+          "十四",
+          "十"
         ],
         "examples": [
           {
-            "sentence": "The doctor provided [clinical] care to the patients.",
-            "translation_zh_TW": "醫生對病人提供臨床護理"
+            "sentence": "I have [thirteen] apples in the basket.",
+            "translation_zh_TW": "我在籃子裡有十三個蘋果。"
           },
           {
-            "sentence": "She is undertaking [clinical] trials for new drugs.",
-            "translation_zh_TW": "她正在進行新藥的臨床試驗"
+            "sentence": "She was [thirteen] years old when she learned to ride a bike.",
+            "translation_zh_TW": "她十三歲時學會了騎自行車。"
           },
           {
-            "sentence": "His observations were grounded in [clinical] experience.",
-            "translation_zh_TW": "他的觀察基於臨床經驗"
+            "sentence": "The team won by [thirteen] points.",
+            "translation_zh_TW": "該隊以十三分的優勢獲勝。"
           }
         ],
-        "synonyms": [
-          "medical",
-          "therapeutic"
-        ]
+        "synonyms": []
       }
     ],
     "confusion": [
-      "clinicl",
-      "clincal",
-      "clinicc",
-      "clinicalz"
+      "thirtheen",
+      "thirteen",
+      "thirtn",
+      "thirteenn"
     ]
   },
   {
-    "word": "cluster",
+    "word": "time",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A group of similar things or people positioned or occurring closely together.",
-        "meaning_zh_TW": "群集、簇",
+        "meaning_en_US": "A measured or measurable period during which an action, process, or condition exists or continues.",
+        "meaning_zh_TW": "時間",
         "wrong_meaning_zh_TW": [
-          "散佈",
-          "分開",
-          "孤立"
+          "計時器",
+          "時鐘",
+          "太陽"
         ],
         "examples": [
           {
-            "sentence": "A [cluster] of stars was visible in the night sky.",
-            "translation_zh_TW": "夜空中可見一群星星"
+            "sentence": "What time do we need to leave?",
+            "translation_zh_TW": "我們什麼時候需要離開？"
           },
           {
-            "sentence": "The flowers grew in a [cluster].",
-            "translation_zh_TW": "這些花是成群生長的"
+            "sentence": "Time flies when you are having fun.",
+            "translation_zh_TW": "當你在享受時候，時間飛逝。"
           },
           {
-            "sentence": "They observed a [cluster] of data points.",
-            "translation_zh_TW": "他們觀察到一群數據點"
+            "sentence": "The time is now to make a change.",
+            "translation_zh_TW": "現在是改變的時候。"
           }
         ],
         "synonyms": [
-          "group",
-          "bunch"
+          "duration",
+          "interval"
         ]
       }
     ],
     "confusion": [
-      "clustr",
-      "clusterr",
-      "clustar",
-      "clutser"
+      "tame",
+      "dime",
+      "mime",
+      "timez"
     ]
   },
   {
-    "word": "cocaine",
+    "word": "bowl",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A powerful stimulant drug derived from the coca plant.",
-        "meaning_zh_TW": "可卡因",
+        "meaning_en_US": "A round, deep dish used for holding food or liquid.",
+        "meaning_zh_TW": "碗",
         "wrong_meaning_zh_TW": [
-          "咖啡因",
-          "可樂飲料",
-          "糖果"
+          "圓盤",
+          "杯子",
+          "大小"
         ],
         "examples": [
           {
-            "sentence": "He was arrested for possession of [cocaine].",
-            "translation_zh_TW": "他因持有可卡因被捕。"
+            "sentence": "She poured soup into the [bowl].",
+            "translation_zh_TW": "她把湯倒入碗中"
           },
           {
-            "sentence": "The effects of [cocaine] can be dangerous.",
-            "translation_zh_TW": "可卡因的影響可能很危險。"
+            "sentence": "Please hand me a clean [bowl].",
+            "translation_zh_TW": "請遞給我一個乾淨的碗"
           },
           {
-            "sentence": "Doctors study the impacts of [cocaine] on the brain.",
-            "translation_zh_TW": "醫生研究可卡因對大腦的影響。"
+            "sentence": "They served salad in a large [bowl].",
+            "translation_zh_TW": "他們在一個大碗裡上了沙拉"
           }
         ],
         "synonyms": [
-          "coca",
-          "stimulant"
+          "dish",
+          "container"
         ]
       }
     ],
     "confusion": [
-      "cocain",
-      "coceain",
-      "cocate",
-      "cocain"
+      "bowlers",
+      "bounce",
+      "bowel",
+      "bowlful"
     ]
   },
   {
-    "word": "coffin",
+    "word": "file",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A box or container for burying a deceased person.",
-        "meaning_zh_TW": "棺材",
+        "meaning_en_US": "A collection of data or documents stored together.",
+        "meaning_zh_TW": "檔案",
         "wrong_meaning_zh_TW": [
-          "櫃子",
-          "箱包",
-          "禮物盒"
+          "資料夾",
+          "文件",
+          "表格"
         ],
         "examples": [
           {
-            "sentence": "The family chose a beautiful [coffin] for the ceremony.",
-            "translation_zh_TW": "家族為儀式選擇了一個漂亮的棺材。"
+            "sentence": "Please save that document in the correct [file].",
+            "translation_zh_TW": "請將該文件保存在正確的檔案中"
           },
           {
-            "sentence": "The [coffin] was decorated with flowers.",
-            "translation_zh_TW": "棺材上裝飾了花朵。"
+            "sentence": "He reviewed the old [files] for information.",
+            "translation_zh_TW": "他查看舊檔案以尋找信息"
           },
           {
-            "sentence": "Traditionally, a [coffin] is used for burials.",
-            "translation_zh_TW": "傳統上，棺材用於埋葬。"
+            "sentence": "I need to organize my [files] more efficiently.",
+            "translation_zh_TW": "我需要更有效地整理我的檔案"
           }
         ],
         "synonyms": [
-          "grave",
-          "chest"
+          "document",
+          "record"
         ]
       }
     ],
     "confusion": [
-      "coffyn",
-      "coffinette",
-      "coffine",
-      "cofin"
+      "fill",
+      "fiel",
+      "tile",
+      "flile"
     ]
   },
   {
-    "word": "cognitive",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to the mental processes of perception, memory, judgment, and reasoning.",
-        "meaning_zh_TW": "認知",
-        "wrong_meaning_zh_TW": [
-          "情感的",
-          "生理的",
-          "社會的"
-        ],
-        "examples": [
-          {
-            "sentence": "Cognitive development is crucial in early childhood.",
-            "translation_zh_TW": "認知發展在早期童年至關重要。"
-          },
-          {
-            "sentence": "Researchers study cognitive behavior in different contexts.",
-            "translation_zh_TW": "研究人員在不同環境下研究認知行為。"
-          },
-          {
-            "sentence": "A teacher's role is to support cognitive growth.",
-            "translation_zh_TW": "教師的角色是支持認知成長。"
-          }
-        ],
-        "synonyms": [
-          "intellectual",
-          "mental"
-        ]
-      }
-    ],
-    "confusion": [
-      "cognitieve",
-      "cognative",
-      "cognitively",
-      "cognitions"
-    ]
-  },
-  {
-    "word": "coherent",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Logical and consistent; able to speak or express oneself clearly.",
-        "meaning_zh_TW": "連貫的，合邏輯且一致的",
-        "wrong_meaning_zh_TW": [
-          "不清晰的",
-          "模糊不清的",
-          "分散的"
-        ],
-        "examples": [
-          {
-            "sentence": "Her argument was clear and [coherent].",
-            "translation_zh_TW": "她的論點清晰且連貫。"
-          },
-          {
-            "sentence": "The report needs to be more [coherent] for better understanding.",
-            "translation_zh_TW": "報告需要更具連貫性以便更好地理解。"
-          },
-          {
-            "sentence": "A [coherent] presentation captivates the audience.",
-            "translation_zh_TW": "一個連貫的演示會吸引觀眾。"
-          }
-        ],
-        "synonyms": [
-          "logical",
-          "consistent"
-        ]
-      }
-    ],
-    "confusion": [
-      "coherant",
-      "coherently",
-      "coherance",
-      "coherency"
-    ]
-  },
-  {
-    "word": "coincidence",
+    "word": "cake",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A remarkable concurrence of events or circumstances without apparent causal connection.",
-        "meaning_zh_TW": "巧合",
+        "meaning_en_US": "A sweet baked food made from flour, sugar, and other ingredients.",
+        "meaning_zh_TW": "蛋糕",
         "wrong_meaning_zh_TW": [
-          "計算",
-          "統計",
-          "預測"
+          "饅頭",
+          "餅乾",
+          "巧克力"
         ],
         "examples": [
           {
-            "sentence": "It's a strange [coincidence] that we both arrived at the same time.",
-            "translation_zh_TW": "我們同時到達，真是奇怪的巧合。"
+            "sentence": "She baked a delicious [cake] for the party.",
+            "translation_zh_TW": "她為派對烤了一個美味的蛋糕。"
           },
           {
-            "sentence": "The events were purely a matter of [coincidence].",
-            "translation_zh_TW": "這些事件純粹是巧合的結果。"
+            "sentence": "They served [cake] after dinner.",
+            "translation_zh_TW": "他們在晚餐後提供了蛋糕。"
           },
           {
-            "sentence": "Finding her old friend was just a happy [coincidence].",
-            "translation_zh_TW": "找到她的老朋友只是一次愉快的巧合。"
+            "sentence": "The birthday [cake] was beautifully decorated.",
+            "translation_zh_TW": "生日蛋糕裝飾得很漂亮。"
           }
         ],
         "synonyms": [
-          "coincidental",
-          "unexpected event"
+          "pastry",
+          "dessert"
         ]
       }
     ],
     "confusion": [
-      "coincidencee",
-      "coincedence",
-      "coincidences",
-      "coincidense"
+      "bake",
+      "fake",
+      "cakewalk",
+      "cakelet"
     ]
   },
   {
-    "word": "collaboration",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The action of working with someone to produce or create something.",
-        "meaning_zh_TW": "合作",
-        "wrong_meaning_zh_TW": [
-          "競爭",
-          "衝突",
-          "失敗"
-        ],
-        "examples": [
-          {
-            "sentence": "The project was a successful [collaboration] between the two companies.",
-            "translation_zh_TW": "該項目是兩家公司成功的合作。"
-          },
-          {
-            "sentence": "Their [collaboration] led to innovative solutions.",
-            "translation_zh_TW": "他們的合作促成了創新的解決方案。"
-          },
-          {
-            "sentence": "Artists often seek [collaboration] to enhance creativity.",
-            "translation_zh_TW": "藝術家們經常尋求合作來提升創造力。"
-          }
-        ],
-        "synonyms": [
-          "cooperation",
-          "partnership"
-        ]
-      }
-    ],
-    "confusion": [
-      "collabration",
-      "collaboratione",
-      "colloboration",
-      "colaboration"
-    ]
-  },
-  {
-    "word": "collective",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A group of individuals acting together as a single entity.",
-        "meaning_zh_TW": "集體",
-        "wrong_meaning_zh_TW": [
-          "文獻",
-          "收集者",
-          "代理商"
-        ],
-        "examples": [
-          {
-            "sentence": "The [collective] decided to take action on the issue.",
-            "translation_zh_TW": "集體決定對此問題採取行動。"
-          },
-          {
-            "sentence": "They formed a [collective] to pool their resources.",
-            "translation_zh_TW": "他們組成一個集體以集中資源。"
-          },
-          {
-            "sentence": "The artists belong to a creative [collective].",
-            "translation_zh_TW": "這些藝術家屬於一個創意集體。"
-          }
-        ],
-        "synonyms": [
-          "group",
-          "association"
-        ]
-      }
-    ],
-    "confusion": [
-      "collect",
-      "collections",
-      "collectivee",
-      "collected"
-    ]
-  },
-  {
-    "word": "collector",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who gathers things of particular interest or value.",
-        "meaning_zh_TW": "收藏家",
-        "wrong_meaning_zh_TW": [
-          "檢查員",
-          "管理者",
-          "賣家"
-        ],
-        "examples": [
-          {
-            "sentence": "The [collector] proudly displayed his rare stamps.",
-            "translation_zh_TW": "收藏家驕傲地展示了他的稀有郵票。"
-          },
-          {
-            "sentence": "She is a passionate [collector] of vintage vinyl records.",
-            "translation_zh_TW": "她是一位充滿熱情的老式黑膠唱片收藏家。"
-          },
-          {
-            "sentence": "The [collector] attended many expos to find unique items.",
-            "translation_zh_TW": "這位收藏家參加了許多博覽會以尋找獨特的物品。"
-          }
-        ],
-        "synonyms": [
-          "gatherer",
-          "curator"
-        ]
-      }
-    ],
-    "confusion": [
-      "collecter",
-      "colleter",
-      "collceptor",
-      "collectioner"
-    ]
-  },
-  {
-    "word": "colonial",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to or characteristic of a colony or colonies.",
-        "meaning_zh_TW": "殖民的",
-        "wrong_meaning_zh_TW": [
-          "經典的",
-          "獨立的",
-          "傳奇的"
-        ],
-        "examples": [
-          {
-            "sentence": "The museum features [colonial] artifacts from the 18th century.",
-            "translation_zh_TW": "博物館展出了18世紀的殖民文物。"
-          },
-          {
-            "sentence": "The [colonial] architecture is a major tourist attraction.",
-            "translation_zh_TW": "這座殖民建築是主要的旅遊景點。"
-          },
-          {
-            "sentence": "Many [colonial] influences can be seen in the local culture.",
-            "translation_zh_TW": "當地文化中可以看到許多殖民影響。"
-          }
-        ],
-        "synonyms": [
-          "settler",
-          "imperial"
-        ]
-      }
-    ],
-    "confusion": [
-      "colonel",
-      "colony",
-      "colonize",
-      "colorful"
-    ]
-  },
-  {
-    "word": "columnist",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A journalist contributing regularly to a publication.",
-        "meaning_zh_TW": "專欄作家",
-        "wrong_meaning_zh_TW": [
-          "編輯",
-          "報導者",
-          "作家"
-        ],
-        "examples": [
-          {
-            "sentence": "The [columnist] shares insights on current events.",
-            "translation_zh_TW": "專欄作家分享當前事件的見解。"
-          },
-          {
-            "sentence": "As a respected [columnist], she influences public opinion.",
-            "translation_zh_TW": "作為一名受人尊敬的專欄作家，她影響著公眾意見。"
-          },
-          {
-            "sentence": "He writes a weekly [columnist] piece for the local newspaper.",
-            "translation_zh_TW": "他每週為當地報紙撰寫一篇專欄。"
-          }
-        ],
-        "synonyms": [
-          "editor",
-          "writer"
-        ]
-      }
-    ],
-    "confusion": [
-      "collumnist",
-      "columist",
-      "columnistc",
-      "columnis"
-    ]
-  },
-  {
-    "word": "combat",
+    "word": "answer",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To engage in active fighting or struggle.",
-        "meaning_zh_TW": "戰鬥",
+        "meaning_en_US": "To respond to a question or a request.",
+        "meaning_zh_TW": "回答",
         "wrong_meaning_zh_TW": [
-          "對話",
-          "協調",
-          "交流"
-        ],
-        "examples": [
-          {
-            "sentence": "Soldiers [combat] their enemies on the battlefield.",
-            "translation_zh_TW": "士兵們在戰場上與敵軍戰鬥。"
-          },
-          {
-            "sentence": "We need to [combat] climate change through collective efforts.",
-            "translation_zh_TW": "我們需要通過集體努力來對抗氣候變化。"
-          },
-          {
-            "sentence": "The organization aims to [combat] poverty in urban areas.",
-            "translation_zh_TW": "該組織旨在對抗城市地區的貧困。"
-          }
-        ],
-        "synonyms": [
-          "fight",
-          "battle"
-        ]
-      }
-    ],
-    "confusion": [
-      "combatant",
-      "comber",
-      "combate",
-      "commbat"
-    ]
-  },
-  {
-    "word": "comedian",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who entertains by making people laugh.",
-        "meaning_zh_TW": "喜劇演員",
-        "wrong_meaning_zh_TW": [
-          "音樂家",
-          "演員",
-          "導演"
-        ],
-        "examples": [
-          {
-            "sentence": "The [comedian] delivered a hilarious performance last night.",
-            "translation_zh_TW": "喜劇演員昨晚帶來了一場搞笑的表演。"
-          },
-          {
-            "sentence": "Many fans flocked to see their favorite [comedian].",
-            "translation_zh_TW": "許多粉絲湧來看他們最喜愛的喜劇演員。"
-          },
-          {
-            "sentence": "His career as a [comedian] started in local clubs.",
-            "translation_zh_TW": "他作為喜劇演員的職業生涯始於當地俱樂部。"
-          }
-        ],
-        "synonyms": [
-          "humorist",
-          "entertainer"
-        ]
-      }
-    ],
-    "confusion": [
-      "comedic",
-      "comediant",
-      "comedina",
-      "comedean"
-    ]
-  },
-  {
-    "word": "commentary",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A set of explanatory notes or a critical interpretation of a text.",
-        "meaning_zh_TW": "評論、解說",
-        "wrong_meaning_zh_TW": [
-          "筆記、備註",
-          "討論、爭吵",
-          "幽默、笑話"
-        ],
-        "examples": [
-          {
-            "sentence": "The professor provided a [commentary] on the novel's themes.",
-            "translation_zh_TW": "教授對小說的主題提供了評論。"
-          },
-          {
-            "sentence": "Her [commentary] during the game added excitement.",
-            "translation_zh_TW": "她在比賽中的解說增添了興奮感。"
-          },
-          {
-            "sentence": "The documentary included a [commentary] from the director.",
-            "translation_zh_TW": "這部紀錄片包括了導演的解說。"
-          }
-        ],
-        "synonyms": [
-          "analysis",
-          "explanation"
-        ]
-      }
-    ],
-    "confusion": [
-      "commentary",
-      "commenter",
-      "commantary",
-      "commetary"
-    ]
-  },
-  {
-    "word": "commentator",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who provides commentary on events, especially in sports.",
-        "meaning_zh_TW": "評論員",
-        "wrong_meaning_zh_TW": [
-          "參與者",
-          "觀眾",
-          "記者"
-        ],
-        "examples": [
-          {
-            "sentence": "The [commentator] explained the strategies used in the game.",
-            "translation_zh_TW": "評論員解釋了比賽中使用的策略。"
-          },
-          {
-            "sentence": "As a sports [commentator], he is well-respected.",
-            "translation_zh_TW": "作為一名體育評論員，他備受尊敬。"
-          },
-          {
-            "sentence": "The [commentator]'s insights were invaluable.",
-            "translation_zh_TW": "評論員的見解是無價的。"
-          }
-        ],
-        "synonyms": [
-          "analyst",
-          "broadcaster"
-        ]
-      }
-    ],
-    "confusion": [
-      "commantator",
-      "commentry",
-      "commentor",
-      "commenter"
-    ]
-  },
-  {
-    "word": "commission",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An instruction, command, or duty given to a person or group.",
-        "meaning_zh_TW": "委員會、任務",
-        "wrong_meaning_zh_TW": [
-          "獎金、報酬",
-          "合約、協議",
-          "學位、資格"
-        ],
-        "examples": [
-          {
-            "sentence": "The artist received a [commission] to create a mural.",
-            "translation_zh_TW": "這位藝術家獲得了創作壁畫的委託。"
-          },
-          {
-            "sentence": "The [commission] was held to discuss policy changes.",
-            "translation_zh_TW": "該委員會召開會議討論政策變更。"
-          },
-          {
-            "sentence": "She was appointed to a [commission] on climate change.",
-            "translation_zh_TW": "她被任命為氣候變化委員會成員。"
-          }
-        ],
-        "synonyms": [
-          "committee",
-          "task"
-        ]
-      }
-    ],
-    "confusion": [
-      "commissioner",
-      "commition",
-      "commisison",
-      "comission"
-    ]
-  },
-  {
-    "word": "commitment",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The state or quality of being dedicated to a cause or activity.",
-        "meaning_zh_TW": "承諾、專注",
-        "wrong_meaning_zh_TW": [
-          "妨礙、障礙",
-          "責備、譴責",
-          "懷疑、猶豫"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [commitment] to the project is commendable.",
-            "translation_zh_TW": "她對這個項目的承諾值得讚揚。"
-          },
-          {
-            "sentence": "He showed great [commitment] to his studies.",
-            "translation_zh_TW": "他對學業表現出了極大的專注。"
-          },
-          {
-            "sentence": "A strong [commitment] to teamwork is essential.",
-            "translation_zh_TW": "對團隊合作的強烈承諾是必不可少的。"
-          }
-        ],
-        "synonyms": [
-          "dedication",
-          "promise"
-        ]
-      }
-    ],
-    "confusion": [
-      "commitment",
-      "committment",
-      "comitment",
-      "comitment"
-    ]
-  },
-  {
-    "word": "commodity",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A raw material or primary agricultural product that can be bought and sold.",
-        "meaning_zh_TW": "商品、貨物",
-        "wrong_meaning_zh_TW": [
-          "服務、工作",
-          "禮物、贈品",
-          "故事、小說"
-        ],
-        "examples": [
-          {
-            "sentence": "Oil is a valuable [commodity] in the global market.",
-            "translation_zh_TW": "石油是全球市場上有價值的商品。"
-          },
-          {
-            "sentence": "The price of the [commodity] fluctuates frequently.",
-            "translation_zh_TW": "這個商品的價格變動頻繁。"
-          },
-          {
-            "sentence": "Farmers sell their [commodity] at local markets.",
-            "translation_zh_TW": "農民在當地市場上出售他們的商品。"
-          }
-        ],
-        "synonyms": [
-          "product",
-          "goods"
-        ]
-      }
-    ],
-    "confusion": [
-      "comedy",
-      "commodore",
-      "commodiy",
-      "commonity"
-    ]
-  },
-  {
-    "word": "communism",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A political ideology advocating for a classless system in which the means of production are owned communally.",
-        "meaning_zh_TW": "共產主義",
-        "wrong_meaning_zh_TW": [
-          "資本主義",
-          "社會主義",
-          "民主制度"
-        ],
-        "examples": [
-          {
-            "sentence": "Communism aims to abolish private property.",
-            "translation_zh_TW": "共產主義旨在廢除私有財產。"
-          },
-          {
-            "sentence": "The rise of [communism] changed the political landscape.",
-            "translation_zh_TW": "共產主義的興起改變了政治格局。"
-          },
-          {
-            "sentence": "Many countries struggled under [communism].",
-            "translation_zh_TW": "許多國家在共產主義的控制下掙扎。"
-          }
-        ],
-        "synonyms": [
-          "Marxism",
-          "socialism"
-        ]
-      }
-    ],
-    "confusion": [
-      "communicate",
-      "communicator",
-      "communist",
-      "comunism"
-    ]
-  },
-  {
-    "word": "communist",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person advocating or engaged in a political system based on the common ownership of property.",
-        "meaning_zh_TW": "共產主義者",
-        "wrong_meaning_zh_TW": [
-          "社會主義者",
-          "資本主義者",
-          "政治學家"
-        ],
-        "examples": [
-          {
-            "sentence": "The [communist] party gained significant support in the election.",
-            "translation_zh_TW": "共產黨在選舉中獲得了重大支持"
-          },
-          {
-            "sentence": "He identified as a [communist] during his college years.",
-            "translation_zh_TW": "他在大學時期自認為是共產主義者"
-          },
-          {
-            "sentence": "The [communist] ideology emphasizes class struggle.",
-            "translation_zh_TW": "共產主義意識形態強調階級鬥爭"
-          }
-        ],
-        "synonyms": [
-          "socialist",
-          "radical"
-        ]
-      }
-    ],
-    "confusion": [
-      "community",
-      "commute",
-      "communication",
-      "commander"
-    ]
-  },
-  {
-    "word": "commute",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To travel some distance between one's home and place of work on a regular basis.",
-        "meaning_zh_TW": "通勤",
-        "wrong_meaning_zh_TW": [
-          "度假",
-          "出差",
-          "散步"
-        ],
-        "examples": [
-          {
-            "sentence": "Many people [commute] to work by train.",
-            "translation_zh_TW": "許多人搭火車通勤上班"
-          },
-          {
-            "sentence": "I [commute] almost two hours each day.",
-            "translation_zh_TW": "我每天通勤幾乎要花兩個小時"
-          },
-          {
-            "sentence": "She enjoys reading while she [commutes].",
-            "translation_zh_TW": "她喜歡在通勤時閱讀"
-          }
-        ],
-        "synonyms": [
-          "travel",
-          "transit"
-        ]
-      }
-    ],
-    "confusion": [
-      "computer",
-      "community",
-      "commerce",
-      "complete"
-    ]
-  },
-  {
-    "word": "commuter",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who travels some distance to work on a regular basis.",
-        "meaning_zh_TW": "通勤者",
-        "wrong_meaning_zh_TW": [
-          "旅客",
-          "出租車司機",
-          "環遊者"
-        ],
-        "examples": [
-          {
-            "sentence": "The city has a large number of [commuters] every morning.",
-            "translation_zh_TW": "這座城市每天早上有很多通勤者"
-          },
-          {
-            "sentence": "He is a daily [commuter] by bus.",
-            "translation_zh_TW": "他是每天搭公車的通勤者"
-          },
-          {
-            "sentence": "The [commuter] train offers several convenient routes.",
-            "translation_zh_TW": "通勤火車提供幾條便利的路線"
-          }
-        ],
-        "synonyms": [
-          "traveler",
-          "worker"
-        ]
-      }
-    ],
-    "confusion": [
-      "computer",
-      "commute",
-      "commit",
-      "communion"
-    ]
-  },
-  {
-    "word": "compact",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Closely and neatly packed together; dense.",
-        "meaning_zh_TW": "緊湊的",
-        "wrong_meaning_zh_TW": [
-          "鬆散的",
-          "分散的",
-          "遼闊的"
-        ],
-        "examples": [
-          {
-            "sentence": "The design is [compact] and very efficient.",
-            "translation_zh_TW": "這個設計緊湊且非常高效"
-          },
-          {
-            "sentence": "Compact cars are easier to park in the city.",
-            "translation_zh_TW": "緊湊型車輛在市區停車更方便"
-          },
-          {
-            "sentence": "He prefers a [compact] laptop for travel.",
-            "translation_zh_TW": "他較喜歡緊湊型的筆記型電腦以便旅行"
-          }
-        ],
-        "synonyms": [
-          "dense",
-          "small"
-        ]
-      }
-    ],
-    "confusion": [
-      "compactness",
-      "commit",
-      "contrast",
-      "complacent"
-    ]
-  },
-  {
-    "word": "comparable",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Able to be likened to another; similar.",
-        "meaning_zh_TW": "可比較的",
-        "wrong_meaning_zh_TW": [
-          "獨特的",
-          "不同的",
-          "異常的"
-        ],
-        "examples": [
-          {
-            "sentence": "Her skills are [comparable] to those of the best in the industry.",
-            "translation_zh_TW": "她的技能可以與業界最優秀的相比"
-          },
-          {
-            "sentence": "They found several [comparable] products in different stores.",
-            "translation_zh_TW": "他們在不同的商店找到了幾種可比較的產品"
-          },
-          {
-            "sentence": "The study showed [comparable] results across various demographics.",
-            "translation_zh_TW": "該研究顯示各種人群中有可比較的結果"
-          }
-        ],
-        "synonyms": [
-          "similar",
-          "analogous"
-        ]
-      }
-    ],
-    "confusion": [
-      "compatible",
-      "comparison",
-      "compile",
-      "compulsory"
-    ]
-  },
-  {
-    "word": "compassion",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Sympathetic pity and concern for the sufferings or misfortunes of others.",
-        "meaning_zh_TW": "同情心",
-        "wrong_meaning_zh_TW": [
-          "冷漠",
-          "敵意",
-          "無感"
-        ],
-        "examples": [
-          {
-            "sentence": "She showed great [compassion] for the victims.",
-            "translation_zh_TW": "她對受害者表現出強烈的同情心"
-          },
-          {
-            "sentence": "Compassion is essential in helping those in need.",
-            "translation_zh_TW": "同情心在幫助有需要的人時是必不可少的"
-          },
-          {
-            "sentence": "He acted with [compassion] during the crisis.",
-            "translation_zh_TW": "在危機期間，他表現出同情心"
-          }
-        ],
-        "synonyms": [
-          "empathy",
-          "sympathy"
-        ]
-      }
-    ],
-    "confusion": [
-      "compulsion",
-      "compete",
-      "compound",
-      "composure"
-    ]
-  },
-  {
-    "word": "compassionate",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Feeling or showing sympathy and concern for others.",
-        "meaning_zh_TW": "富有同情心的",
-        "wrong_meaning_zh_TW": [
-          "自私的",
-          "冷漠的",
-          "嚴厲的"
-        ],
-        "examples": [
-          {
-            "sentence": "She is a very [compassionate] person who helps others.",
-            "translation_zh_TW": "她是一個非常富有同情心的人，幫助他人。"
-          },
-          {
-            "sentence": "His [compassionate] actions made a big difference in the community.",
-            "translation_zh_TW": "他的富有同情心的行動對社區帶來了很大的改變。"
-          },
-          {
-            "sentence": "Being [compassionate] is essential in healthcare.",
-            "translation_zh_TW": "在醫療中，擁有同情心是至關重要的。"
-          }
-        ],
-        "synonyms": [
-          "empathetic",
-          "kind-hearted"
-        ]
-      }
-    ],
-    "confusion": [
-      "compass",
-      "competition",
-      "compulsive",
-      "compliant"
-    ]
-  },
-  {
-    "word": "confidential",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Intended to be kept secret or private.",
-        "meaning_zh_TW": "機密的",
-        "wrong_meaning_zh_TW": [
-          "公開的",
-          "模糊的",
-          "複雜的"
-        ],
-        "examples": [
-          {
-            "sentence": "All [confidential] documents must be stored securely.",
-            "translation_zh_TW": "所有機密文件必須安全存放。"
-          },
-          {
-            "sentence": "He signed a [confidential] agreement with the company.",
-            "translation_zh_TW": "他與公司簽署了機密協議。"
-          },
-          {
-            "sentence": "The meeting will discuss [confidential] matters.",
-            "translation_zh_TW": "會議將討論機密事項。"
-          }
-        ],
-        "synonyms": [
-          "secret",
-          "private"
-        ]
-      }
-    ],
-    "confusion": [
-      "confidentiality",
-      "confidence",
-      "confident",
-      "confined"
-    ]
-  },
-  {
-    "word": "confine",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To restrict or limit someone or something.",
-        "meaning_zh_TW": "限制",
-        "wrong_meaning_zh_TW": [
-          "開放",
-          "鼓勵",
-          "擴展"
-        ],
-        "examples": [
-          {
-            "sentence": "They decided to [confine] the discussion to specific topics.",
-            "translation_zh_TW": "他們決定將討論限制在特定主題。"
-          },
-          {
-            "sentence": "Don't [confine] your creativity; let it flow.",
-            "translation_zh_TW": "不要限制你的創造力；讓它流暢。"
-          },
-          {
-            "sentence": "The law [confines] access to sensitive areas.",
-            "translation_zh_TW": "法律限制對敏感區域的訪問。"
-          }
-        ],
-        "synonyms": [
-          "restrict",
-          "limit"
-        ]
-      }
-    ],
-    "confusion": [
-      "confinement",
-      "config",
-      "confind",
-      "confined"
-    ]
-  },
-  {
-    "word": "conform",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To comply with rules, standards, or laws.",
-        "meaning_zh_TW": "遵循",
-        "wrong_meaning_zh_TW": [
-          "挑戰",
-          "抵抗",
-          "創新"
-        ],
-        "examples": [
-          {
-            "sentence": "You must [conform] to the guidelines set by the school.",
-            "translation_zh_TW": "你必須遵循學校設定的指導方針。"
-          },
-          {
-            "sentence": "They encourage students to [conform] to social norms.",
-            "translation_zh_TW": "他們鼓勵學生遵循社會規範。"
-          },
-          {
-            "sentence": "It's important to [conform] if you want to fit in.",
-            "translation_zh_TW": "如果你想融入，遵循是很重要的。"
-          }
-        ],
-        "synonyms": [
-          "comply",
-          "match"
-        ]
-      }
-    ],
-    "confusion": [
-      "confirm",
-      "confront",
-      "convert",
-      "conformity"
-    ]
-  },
-  {
-    "word": "confront",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To face someone or something in a challenging situation.",
-        "meaning_zh_TW": "對抗",
-        "wrong_meaning_zh_TW": [
-          "躲避",
           "忽視",
-          "接受"
+          "質問",
+          "猜測"
         ],
         "examples": [
           {
-            "sentence": "She decided to [confront] her fears head-on.",
-            "translation_zh_TW": "她決定直面自己的恐懼。"
+            "sentence": "Please [answer] the question as clearly as possible.",
+            "translation_zh_TW": "請儘量清楚地回答問題。"
           },
           {
-            "sentence": "The manager will [confront] the issues during the meeting.",
-            "translation_zh_TW": "經理將在會議中對抗這些問題。"
+            "sentence": "I didn’t know how to [answer] her query.",
+            "translation_zh_TW": "我不知道如何回答她的提問。"
           },
           {
-            "sentence": "He had to [confront] his colleague about the mistakes.",
-            "translation_zh_TW": "他必須對他的同事提出錯誤。"
+            "sentence": "Can you [answer] the call?",
+            "translation_zh_TW": "你能接這個電話嗎？"
           }
         ],
         "synonyms": [
-          "face",
-          "challenge"
-        ]
-      }
-    ],
-    "confusion": [
-      "comfortable",
-      "confident",
-      "conformation",
-      "confrontation"
-    ]
-  },
-  {
-    "word": "confrontation",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A hostile or argumentative meeting between two parties.",
-        "meaning_zh_TW": "對抗",
-        "wrong_meaning_zh_TW": [
-          "協商",
-          "合併",
-          "和解"
-        ],
-        "examples": [
-          {
-            "sentence": "The [confrontation] between the two leaders escalated quickly.",
-            "translation_zh_TW": "兩位領袖之間的對抗迅速升級。"
-          },
-          {
-            "sentence": "A [confrontation] can sometimes be necessary for resolution.",
-            "translation_zh_TW": "對抗有時對於解決問題是必要的。"
-          },
-          {
-            "sentence": "Avoid a [confrontation] unless absolutely necessary.",
-            "translation_zh_TW": "除非絕對必要，否則避免對抗。"
-          }
-        ],
-        "synonyms": [
-          "clash",
-          "conflict"
-        ]
-      }
-    ],
-    "confusion": [
-      "conformity",
-      "confront",
-      "confusion",
-      "confidential"
-    ]
-  },
-  {
-    "word": "consecutive",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Following one after another in orderly succession.",
-        "meaning_zh_TW": "連續的",
-        "wrong_meaning_zh_TW": [
-          "不連續的",
-          "間歇的",
-          "隨機的"
-        ],
-        "examples": [
-          {
-            "sentence": "She won the championship for three [consecutive] years.",
-            "translation_zh_TW": "她連續三年贏得這個冠軍。"
-          },
-          {
-            "sentence": "The show had [consecutive] performances every weekend.",
-            "translation_zh_TW": "這個表演每個周末都有連續的演出。"
-          },
-          {
-            "sentence": "They experienced [consecutive] failures before succeeding.",
-            "translation_zh_TW": "他們在成功之前經歷了一連串的失敗。"
-          }
-        ],
-        "synonyms": [
-          "successive",
-          "sequential"
-        ]
-      }
-    ],
-    "confusion": [
-      "consecutively",
-      "consecrate",
-      "concession",
-      "conceive"
-    ]
-  },
-  {
-    "word": "consensus",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "General agreement among a group of people.",
-        "meaning_zh_TW": "共識",
-        "wrong_meaning_zh_TW": [
-          "獨立意見",
-          "不同意見",
-          "分歧"
-        ],
-        "examples": [
-          {
-            "sentence": "The committee reached a [consensus] after lengthy discussions.",
-            "translation_zh_TW": "經過長時間的討論，委員會達成了共識。"
-          },
-          {
-            "sentence": "Finding a [consensus] is crucial for team success.",
-            "translation_zh_TW": "找到共識對團隊的成功至關重要。"
-          },
-          {
-            "sentence": "There is a [consensus] that change is necessary.",
-            "translation_zh_TW": "大家一致認為改變是必要的。"
-          }
-        ],
-        "synonyms": [
-          "agreement",
-          "accord"
-        ]
-      }
-    ],
-    "confusion": [
-      "consent",
-      "conscience",
-      "conservative",
-      "concession"
-    ]
-  },
-  {
-    "word": "consent",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Permission for something to happen or agreement to do something.",
-        "meaning_zh_TW": "同意",
-        "wrong_meaning_zh_TW": [
-          "拒絕",
-          "反對",
-          "無視"
-        ],
-        "examples": [
-          {
-            "sentence": "They obtained [consent] from the parents for the trip.",
-            "translation_zh_TW": "他們獲得了父母對這次旅行的同意。"
-          },
-          {
-            "sentence": "You must have [consent] to share personal information.",
-            "translation_zh_TW": "您必須有同意才能分享個人信息。"
-          },
-          {
-            "sentence": "Her [consent] was explicit and clear.",
-            "translation_zh_TW": "她的同意是明確且清晰的。"
-          }
-        ],
-        "synonyms": [
-          "agreement",
-          "approval"
-        ]
-      }
-    ],
-    "confusion": [
-      "consensus",
-      "content",
-      "consequence",
-      "contend"
-    ]
-  },
-  {
-    "word": "conservation",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The act of preserving, guarding, or protecting something.",
-        "meaning_zh_TW": "保護",
-        "wrong_meaning_zh_TW": [
-          "破壞",
-          "浪費",
-          "無視"
-        ],
-        "examples": [
-          {
-            "sentence": "Wildlife [conservation] efforts are essential.",
-            "translation_zh_TW": "野生動物保護工作是必不可少的。"
-          },
-          {
-            "sentence": "Water [conservation] is vital in dry areas.",
-            "translation_zh_TW": "在乾旱地區，水的保護至關重要。"
-          },
-          {
-            "sentence": "There is a need for [conservation] of our natural resources.",
-            "translation_zh_TW": "我們需要保護自然資源。"
-          }
-        ],
-        "synonyms": [
-          "preservation",
-          "protection"
-        ]
-      }
-    ],
-    "confusion": [
-      "conversation",
-      "conserve",
-      "conservatory",
-      "conversate"
-    ]
-  },
-  {
-    "word": "considerate",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Showing careful thought for the needs of other people.",
-        "meaning_zh_TW": "體貼的",
-        "wrong_meaning_zh_TW": [
-          "自私的",
-          "冷漠的",
-          "無所謂的"
-        ],
-        "examples": [
-          {
-            "sentence": "He is always [considerate] of others' feelings.",
-            "translation_zh_TW": "他總是考慮到他人的感受。"
-          },
-          {
-            "sentence": "Being [considerate] makes a big difference in relationships.",
-            "translation_zh_TW": "體貼在關係中會有很大的不同。"
-          },
-          {
-            "sentence": "She wrote a [considerate] note after the meeting.",
-            "translation_zh_TW": "會後她寫了一封體貼的便條。"
-          }
-        ],
-        "synonyms": [
-          "thoughtful",
-          "kind"
-        ]
-      }
-    ],
-    "confusion": [
-      "considerable",
-      "consistently",
-      "consultative",
-      "consequential"
-    ]
-  },
-  {
-    "word": "constitutional",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to an established set of principles governing a state.",
-        "meaning_zh_TW": "憲法的",
-        "wrong_meaning_zh_TW": [
-          "任意的",
-          "隨意的",
-          "不成文的"
-        ],
-        "examples": [
-          {
-            "sentence": "The rights are guaranteed by [constitutional] law.",
-            "translation_zh_TW": "這些權利由憲法法律保障。"
-          },
-          {
-            "sentence": "They are debating the [constitutional] amendments.",
-            "translation_zh_TW": "他們正在討論憲法修正案。"
-          },
-          {
-            "sentence": "Their actions were deemed [constitutional] under the law.",
-            "translation_zh_TW": "他們的行為在法律下被認為是合憲的。"
-          }
-        ],
-        "synonyms": [
-          "legal",
-          "institutional"
-        ]
-      }
-    ],
-    "confusion": [
-      "constitution",
-      "consultation",
-      "construction",
-      "constitutionalism"
-    ]
-  },
-  {
-    "word": "constraint",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A limitation or restriction.",
-        "meaning_zh_TW": "限制、約束",
-        "wrong_meaning_zh_TW": [
-          "鼓勵、支持",
-          "像樣、合適",
-          "身心自由"
-        ],
-        "examples": [
-          {
-            "sentence": "There are several [constraints] on the project.",
-            "translation_zh_TW": "這個項目有幾個限制。"
-          },
-          {
-            "sentence": "Financial [constraints] make it hard to expand.",
-            "translation_zh_TW": "財務限制使擴展變得困難。"
-          },
-          {
-            "sentence": "The new law introduces [constraints] on usage.",
-            "translation_zh_TW": "新法律對使用引入了限制。"
-          }
-        ],
-        "synonyms": [
-          "restriction",
-          "limitation"
-        ]
-      }
-    ],
-    "confusion": [
-      "constrain",
-      "constriction",
-      "construct",
-      "constrainted"
-    ]
-  },
-  {
-    "word": "consultation",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The action or process of formally consulting or discussing.",
-        "meaning_zh_TW": "諮詢、商討",
-        "wrong_meaning_zh_TW": [
-          "確認、批准",
-          "範圍、界限",
-          "激發、鼓舞"
-        ],
-        "examples": [
-          {
-            "sentence": "We will hold a [consultation] with the stakeholders.",
-            "translation_zh_TW": "我們將與利益相關者舉行一次諮詢。"
-          },
-          {
-            "sentence": "Her decision followed a period of [consultation] with experts.",
-            "translation_zh_TW": "她的決定是在與專家諮詢後作出的。"
-          },
-          {
-            "sentence": "The [consultation] process is vital for making informed decisions.",
-            "translation_zh_TW": "諮詢過程對做出明智決策至關重要。"
-          }
-        ],
-        "synonyms": [
-          "discussion",
-          "meeting"
-        ]
-      }
-    ],
-    "confusion": [
-      "consultant",
-      "consult",
-      "consolation",
-      "consultative"
-    ]
-  },
-  {
-    "word": "consumption",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The act of using up a resource or the state of being used up.",
-        "meaning_zh_TW": "消耗、使用",
-        "wrong_meaning_zh_TW": [
-          "生產、供應",
-          "儲存、保存",
-          "維護、守護"
-        ],
-        "examples": [
-          {
-            "sentence": "The [consumption] of energy is a major concern.",
-            "translation_zh_TW": "能源的消耗是一個主要的問題。"
-          },
-          {
-            "sentence": "High levels of [consumption] can lead to resource depletion.",
-            "translation_zh_TW": "高水平的消耗可能會導致資源枯竭。"
-          },
-          {
-            "sentence": "The study focuses on food [consumption] among teenagers.",
-            "translation_zh_TW": "該研究專注於青少年的食品消耗。"
-          }
-        ],
-        "synonyms": [
-          "use",
-          "utilization"
-        ]
-      }
-    ],
-    "confusion": [
-      "consumer",
-      "consume",
-      "concession",
-      "consuming"
-    ]
-  },
-  {
-    "word": "contagious",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Able to be transmitted through direct or indirect contact.",
-        "meaning_zh_TW": "傳染性的",
-        "wrong_meaning_zh_TW": [
-          "可控的、穩定的",
-          "特定的、明確的",
-          "致敬的、尊重的"
-        ],
-        "examples": [
-          {
-            "sentence": "The flu is highly [contagious] during the winter months.",
-            "translation_zh_TW": "流感在冬季是非常傳染性的。"
-          },
-          {
-            "sentence": "Not all illnesses are [contagious].",
-            "translation_zh_TW": "並非所有疾病都是傳染性的。"
-          },
-          {
-            "sentence": "Her laughter was [contagious], making everyone smile.",
-            "translation_zh_TW": "她的笑聲是有感染力的，讓每個人都微笑。"
-          }
-        ],
-        "synonyms": [
-          "infectious",
-          "transmittable"
-        ]
-      }
-    ],
-    "confusion": [
-      "contagion",
-      "contingent",
-      "contain",
-      "contagiouser"
-    ]
-  },
-  {
-    "word": "counselor",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person trained to give guidance on personal, social, or psychological issues.",
-        "meaning_zh_TW": "顧問、輔導員",
-        "wrong_meaning_zh_TW": [
-          "導演、監製",
-          "公司經理",
-          "公眾發言"
-        ],
-        "examples": [
-          {
-            "sentence": "The school [counselor] helps students with their issues.",
-            "translation_zh_TW": "學校的顧問幫助學生處理他們的問題。"
-          },
-          {
-            "sentence": "He works as a career [counselor] for recent graduates.",
-            "translation_zh_TW": "他作為最近畢業生的職業顧問工作。"
-          },
-          {
-            "sentence": "Seeking a [counselor] can be a wise decision.",
-            "translation_zh_TW": "尋求顧問的幫助可能是明智的決定。"
-          }
-        ],
-        "synonyms": [
-          "advisor",
-          "therapist"
-        ]
-      }
-    ],
-    "confusion": [
-      "counsel",
-      "consultant",
-      "counseling",
-      "counselour"
-    ]
-  },
-  {
-    "word": "courteous",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Polite, respectful, or considerate in manner.",
-        "meaning_zh_TW": "有禮貌的、客氣的",
-        "wrong_meaning_zh_TW": [
-          "粗魯的、不屑的",
-          "冷漠的、無情的",
-          "失禮的、無禮的"
-        ],
-        "examples": [
-          {
-            "sentence": "It is important to be [courteous] to others.",
-            "translation_zh_TW": "對他人有禮貌是很重要的。"
-          },
-          {
-            "sentence": "The staff is always [courteous] and helpful.",
-            "translation_zh_TW": "員工總是很有禮貌且樂於助人。"
-          },
-          {
-            "sentence": "His [courteous] demeanor impressed the guests.",
-            "translation_zh_TW": "他有禮貌的舉止給客人留下了深刻的印象。"
-          }
-        ],
-        "synonyms": [
-          "polite",
-          "gracious"
-        ]
-      }
-    ],
-    "confusion": [
-      "curious",
-      "courtney",
-      "courtesy",
-      "courtesien"
-    ]
-  },
-  {
-    "word": "coverage",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The extent to which something is covered or included.",
-        "meaning_zh_TW": "覆蓋範圍",
-        "wrong_meaning_zh_TW": [
-          "考量",
-          "定義",
-          "表達"
-        ],
-        "examples": [
-          {
-            "sentence": "The insurance policy provides wide [coverage].",
-            "translation_zh_TW": "這保險政策提供廣泛的覆蓋範圍"
-          },
-          {
-            "sentence": "Media [coverage] of the event was extensive.",
-            "translation_zh_TW": "媒體對該事件的報導非常廣泛"
-          },
-          {
-            "sentence": "We need to assess the [coverage] of the study.",
-            "translation_zh_TW": "我們需要評估這項研究的覆蓋範圍"
-          }
-        ],
-        "synonyms": [
-          "extent",
-          "scope"
-        ]
-      }
-    ],
-    "confusion": [
-      "cover",
-      "covet",
-      "coven",
-      "cove"
-    ]
-  },
-  {
-    "word": "credibility",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The quality of being trusted and believed in.",
-        "meaning_zh_TW": "可信度",
-        "wrong_meaning_zh_TW": [
-          "信任感",
-          "忠誠度",
-          "透明度"
-        ],
-        "examples": [
-          {
-            "sentence": "The witness's [credibility] was questioned.",
-            "translation_zh_TW": "證人的可信度受到質疑"
-          },
-          {
-            "sentence": "His [credibility] as a leader has been established over years.",
-            "translation_zh_TW": "他作為領導者的可信度已經建立多年"
-          },
-          {
-            "sentence": "Lack of [credibility] can harm a brand's reputation.",
-            "translation_zh_TW": "缺乏可信度會損害品牌的聲譽"
-          }
-        ],
-        "synonyms": [
-          "trustworthiness",
-          "reliability"
-        ]
-      }
-    ],
-    "confusion": [
-      "credibility",
-      "creditability",
-      "credibility",
-      "credibly"
-    ]
-  },
-  {
-    "word": "creek",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A small stream or minor tributary of a river.",
-        "meaning_zh_TW": "小溪",
-        "wrong_meaning_zh_TW": [
-          "湖泊",
-          "池塘",
-          "沙漠"
-        ],
-        "examples": [
-          {
-            "sentence": "We found a pleasant [creek] for fishing.",
-            "translation_zh_TW": "我們找到一條適合釣魚的小溪"
-          },
-          {
-            "sentence": "The children played by the [creek].",
-            "translation_zh_TW": "孩子們在小溪旁玩耍"
-          },
-          {
-            "sentence": "The [creek] flows into the larger river.",
-            "translation_zh_TW": "這條小溪流入更大的河流"
-          }
-        ],
-        "synonyms": [
-          "brook",
-          "stream"
-        ]
-      }
-    ],
-    "confusion": [
-      "creak",
-      "crack",
-      "creep",
-      "creosote"
-    ]
-  },
-  {
-    "word": "cripple",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To cause someone to become unable to walk or move properly.",
-        "meaning_zh_TW": "使殘障",
-        "wrong_meaning_zh_TW": [
-          "改變",
-          "修理",
-          "完好"
-        ],
-        "examples": [
-          {
-            "sentence": "The accident [crippled] him for life.",
-            "translation_zh_TW": "這次事故使他終身殘障"
-          },
-          {
-            "sentence": "A lack of funds could [cripple] the project.",
-            "translation_zh_TW": "資金短缺可能使該項目受到影響"
-          },
-          {
-            "sentence": "She felt [crippled] by fear.",
-            "translation_zh_TW": "她感到因恐懼而無能為力"
-          }
-        ],
-        "synonyms": [
-          "disable",
-          "hamper"
-        ]
-      }
-    ],
-    "confusion": [
-      "crinkle",
-      "crumble",
-      "cripple",
-      "crisscross"
-    ]
-  },
-  {
-    "word": "criterion",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A standard or principle by which something is judged or decided.",
-        "meaning_zh_TW": "標準",
-        "wrong_meaning_zh_TW": [
-          "需要",
-          "問題",
-          "挑戰"
-        ],
-        "examples": [
-          {
-            "sentence": "The main [criterion] for admission is academic performance.",
-            "translation_zh_TW": "入學的主要標準是學業表現"
-          },
-          {
-            "sentence": "They set their own [criteria] for success.",
-            "translation_zh_TW": "他們為成功設定了自己的標準"
-          },
-          {
-            "sentence": "Each [criterion] is important for evaluation.",
-            "translation_zh_TW": "每一個標準對評估都很重要"
-          }
-        ],
-        "synonyms": [
-          "standard",
-          "benchmark"
-        ]
-      }
-    ],
-    "confusion": [
-      "criteria",
-      "criterion",
-      "critique",
-      "critical"
-    ]
-  },
-  {
-    "word": "criteria",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Plural of criterion; standards or principles by which something is judged.",
-        "meaning_zh_TW": "標準",
-        "wrong_meaning_zh_TW": [
-          "案例",
-          "事例",
-          "異議"
-        ],
-        "examples": [
-          {
-            "sentence": "The admission [criteria] were clearly stated.",
-            "translation_zh_TW": "入學標準明確地列出"
-          },
-          {
-            "sentence": "Different professions have different [criteria] for hiring.",
-            "translation_zh_TW": "不同職業有不同的招聘標準"
-          },
-          {
-            "sentence": "We must meet all [criteria] to be eligible.",
-            "translation_zh_TW": "我們必須滿足所有標準才能符合條件"
-          }
-        ],
-        "synonyms": [
-          "standards",
-          "specifications"
-        ]
-      }
-    ],
-    "confusion": [
-      "criteria",
-      "critical",
-      "creed",
-      "creature"
-    ]
-  },
-  {
-    "word": "crucial",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Of great importance, decisive, or critical.",
-        "meaning_zh_TW": "重要的，關鍵的",
-        "wrong_meaning_zh_TW": [
-          "次要的",
-          "冗長的",
-          "乏味的"
-        ],
-        "examples": [
-          {
-            "sentence": "This decision is [crucial] to our success.",
-            "translation_zh_TW": "這個決定對我們的成功是關鍵的。"
-          },
-          {
-            "sentence": "It's [crucial] to meet the deadline.",
-            "translation_zh_TW": "準時完成是非常重要的。"
-          },
-          {
-            "sentence": "Communication is [crucial] in a team.",
-            "translation_zh_TW": "在團隊中，溝通是至關重要的。"
-          }
-        ],
-        "synonyms": [
-          "essential",
-          "vital"
-        ]
-      }
-    ],
-    "confusion": [
-      "crucify",
-      "crucifix",
-      "crushed",
-      "crocodile"
-    ]
-  },
-  {
-    "word": "crude",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "In a natural or raw state; not yet processed.",
-        "meaning_zh_TW": "粗糙的，自然的",
-        "wrong_meaning_zh_TW": [
-          "精緻的",
-          "透明的",
-          "柔軟的"
-        ],
-        "examples": [
-          {
-            "sentence": "The oil is extracted in its [crude] form.",
-            "translation_zh_TW": "這油是以其粗糙的形式提取的。"
-          },
-          {
-            "sentence": "He made a [crude] joke that offended many.",
-            "translation_zh_TW": "他開了一個粗俗的笑話，冒犯了許多人。"
-          },
-          {
-            "sentence": "The [crude] materials were sourced locally.",
-            "translation_zh_TW": "這些粗糙的材料都是當地採購的。"
-          }
-        ],
-        "synonyms": [
-          "raw",
-          "unrefined"
-        ]
-      }
-    ],
-    "confusion": [
-      "crudeness",
-      "cuddle",
-      "cruel",
-      "cruise"
-    ]
-  },
-  {
-    "word": "cruise",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To travel smoothly at a moderate speed.",
-        "meaning_zh_TW": "巡航，平穩航行",
-        "wrong_meaning_zh_TW": [
-          "飛行",
-          "急駛",
-          "淺行"
-        ],
-        "examples": [
-          {
-            "sentence": "We plan to [cruise] along the coast.",
-            "translation_zh_TW": "我們打算沿著海岸巡航。"
-          },
-          {
-            "sentence": "The pilot decided to [cruise] at a higher altitude.",
-            "translation_zh_TW": "飛行員決定在更高的高度巡航。"
-          },
-          {
-            "sentence": "They like to [cruise] on weekends.",
-            "translation_zh_TW": "他們喜歡在週末巡航。"
-          }
-        ],
-        "synonyms": [
-          "sail",
-          "glide"
-        ]
-      }
-    ],
-    "confusion": [
-      "crouch",
-      "cruise ship",
-      "crushed",
-      "crutch"
-    ]
-  },
-  {
-    "word": "crystal",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A solid where the atoms are arranged in a highly ordered, repeating pattern.",
-        "meaning_zh_TW": "水晶，晶體",
-        "wrong_meaning_zh_TW": [
-          "氣體",
-          "液體",
-          "粉末"
-        ],
-        "examples": [
-          {
-            "sentence": "She wore a beautiful [crystal] necklace.",
-            "translation_zh_TW": "她佩戴著一條美麗的水晶項鍊。"
-          },
-          {
-            "sentence": "The [crystal] structure was studied under a microscope.",
-            "translation_zh_TW": "水晶結構在顯微鏡下被研究。"
-          },
-          {
-            "sentence": "This glass is not just any glass; it's made of [crystal].",
-            "translation_zh_TW": "這個玻璃不僅僅是玻璃；它是用水晶製成的。"
-          }
-        ],
-        "synonyms": [
-          "gem",
-          "quartz"
-        ]
-      }
-    ],
-    "confusion": [
-      "crystalline",
-      "crispy",
-      "cystic",
-      "crux"
-    ]
-  },
-  {
-    "word": "cuisine",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A style or method of cooking, especially as characteristic of a particular country, region, or establishment.",
-        "meaning_zh_TW": "菜系，烹飪風格",
-        "wrong_meaning_zh_TW": [
-          "食物",
-          "調味品",
-          "餐具"
-        ],
-        "examples": [
-          {
-            "sentence": "Italian [cuisine] is known for its regional diversity.",
-            "translation_zh_TW": "意大利菜系以其地區多樣性而著稱。"
-          },
-          {
-            "sentence": "She loves experimenting with French [cuisine].",
-            "translation_zh_TW": "她喜歡嘗試法式烹飪。"
-          },
-          {
-            "sentence": "The restaurant offers authentic Asian [cuisine].",
-            "translation_zh_TW": "這家餐廳提供正宗的亞洲菜系。"
-          }
-        ],
-        "synonyms": [
-          "cookery",
-          "food"
-        ]
-      }
-    ],
-    "confusion": [
-      "quiz",
-      "quaint",
-      "quip",
-      "quiver"
-    ]
-  },
-  {
-    "word": "currency",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A system of money in general use in a particular country.",
-        "meaning_zh_TW": "貨幣，通貨",
-        "wrong_meaning_zh_TW": [
-          "債務",
-          "存款",
-          "利息"
-        ],
-        "examples": [
-          {
-            "sentence": "The dollar is the main [currency] in the USA.",
-            "translation_zh_TW": "美元是美國的主要貨幣。"
-          },
-          {
-            "sentence": "Exchange rates can affect the value of [currency].",
-            "translation_zh_TW": "匯率可以影響貨幣的價值。"
-          },
-          {
-            "sentence": "Cryptocurrency has gained popularity as a digital [currency].",
-            "translation_zh_TW": "加密貨幣作為數字貨幣已獲得人氣。"
-          }
-        ],
-        "synonyms": [
-          "money",
-          "cash"
-        ]
-      }
-    ],
-    "confusion": [
-      "current",
-      "curriculum",
-      "curtain",
-      "cursory"
-    ]
-  },
-  {
-    "word": "curriculum",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The subjects comprising a course of study in a school or college.",
-        "meaning_zh_TW": "課程",
-        "wrong_meaning_zh_TW": [
-          "娛樂活動",
-          "學校規章",
-          "學生服裝"
-        ],
-        "examples": [
-          {
-            "sentence": "The school revised its [curriculum] to include more science classes.",
-            "translation_zh_TW": "學校修訂了它的課程以包含更多的科學課程"
-          },
-          {
-            "sentence": "A well-rounded [curriculum] prepares students for future challenges.",
-            "translation_zh_TW": "全面的課程為學生未來的挑戰做好準備"
-          },
-          {
-            "sentence": "Parents are interested in the new [curriculum] being offered.",
-            "translation_zh_TW": "家長對新課程的提供感興趣"
-          }
-        ],
-        "synonyms": [
-          "syllabus",
-          "program"
-        ]
-      }
-    ],
-    "confusion": [
-      "curtail",
-      "correlate",
-      "currents",
-      "currion"
-    ]
-  },
-  {
-    "word": "custody",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The protective care or guardianship of someone or something.",
-        "meaning_zh_TW": "監護",
-        "wrong_meaning_zh_TW": [
-          "借貸",
-          "監視器",
-          "出售"
-        ],
-        "examples": [
-          {
-            "sentence": "The child was placed in the [custody] of her grandparents.",
-            "translation_zh_TW": "孩子被安置在祖父母的監護之下"
-          },
-          {
-            "sentence": "Legal battles often arise over [custody] arrangements.",
-            "translation_zh_TW": "法律糾紛經常圍繞監護安排展開"
-          },
-          {
-            "sentence": "He was denied [custody] rights due to his past.",
-            "translation_zh_TW": "由於他的過去，他被拒絕了監護權"
-          }
-        ],
-        "synonyms": [
-          "guardianship",
-          "care"
-        ]
-      }
-    ],
-    "confusion": [
-      "costody",
-      "custom",
-      "customer",
-      "casualty"
-    ]
-  },
-  {
-    "word": "compatible",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Able to exist or occur together without conflict.",
-        "meaning_zh_TW": "兼容的",
-        "wrong_meaning_zh_TW": [
-          "限製的",
-          "反對的",
-          "多餘的"
-        ],
-        "examples": [
-          {
-            "sentence": "The software is [compatible] with all operating systems.",
-            "translation_zh_TW": "該軟件與所有操作系統兼容"
-          },
-          {
-            "sentence": "They sought a [compatible] partner to work with on the project.",
-            "translation_zh_TW": "他們尋求一個可以在專案中合作的兼容夥伴"
-          },
-          {
-            "sentence": "Make sure your devices are [compatible] before connecting them.",
-            "translation_zh_TW": "在連接設備之前，確保它們是兼容的"
-          }
-        ],
-        "synonyms": [
-          "harmonious",
-          "consistent"
-        ]
-      }
-    ],
-    "confusion": [
-      "competitor",
-      "compliant",
-      "compensable",
-      "capable"
-    ]
-  },
-  {
-    "word": "compel",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To force or oblige someone to do something.",
-        "meaning_zh_TW": "強迫",
-        "wrong_meaning_zh_TW": [
-          "選擇",
-          "鼓勵",
-          "建議"
-        ],
-        "examples": [
-          {
-            "sentence": "The court may [compel] him to testify.",
-            "translation_zh_TW": "法院可能強迫他作證"
-          },
-          {
-            "sentence": "She felt [compelled] to help her friend in need.",
-            "translation_zh_TW": "她覺得有必要幫助她的朋友"
-          },
-          {
-            "sentence": "Economic pressures can [compel] changes in policy.",
-            "translation_zh_TW": "經濟壓力可以強迫政策變化"
-          }
-        ],
-        "synonyms": [
-          "force",
-          "oblige"
-        ]
-      }
-    ],
-    "confusion": [
-      "compelled",
-      "compile",
-      "complain",
-      "complement"
-    ]
-  },
-  {
-    "word": "compensate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make up for something unwelcome or unpleasant by exerting an opposite force or effect.",
-        "meaning_zh_TW": "補償",
-        "wrong_meaning_zh_TW": [
-          "分享",
-          "避免",
-          "增加"
-        ],
-        "examples": [
-          {
-            "sentence": "He tried to [compensate] for his lack of experience with hard work.",
-            "translation_zh_TW": "他試圖通過努力工作來補償自己經驗的缺乏"
-          },
-          {
-            "sentence": "The company will [compensate] employees for overtime.",
-            "translation_zh_TW": "公司將為加班工作補償員工"
-          },
-          {
-            "sentence": "She adjusted her schedule to [compensate] for the lost time.",
-            "translation_zh_TW": "她調整了日程以補償失去的時間"
-          }
-        ],
-        "synonyms": [
-          "reimburse",
-          "offset"
-        ]
-      }
-    ],
-    "confusion": [
-      "compensatory",
-      "composite",
-      "compliment",
-      "compulsory"
-    ]
-  },
-  {
-    "word": "compensation",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Something, typically money, awarded to someone as a recompense for loss, injury, or suffering.",
-        "meaning_zh_TW": "補償金",
-        "wrong_meaning_zh_TW": [
-          "贈品",
-          "貸款",
-          "獎學金"
-        ],
-        "examples": [
-          {
-            "sentence": "She received [compensation] for the damages to her car.",
-            "translation_zh_TW": "她因汽車損壞而獲得了補償金"
-          },
-          {
-            "sentence": "The miners demanded fair [compensation] for their work.",
-            "translation_zh_TW": "礦工要求為他們的工作獲得公平的補償"
-          },
-          {
-            "sentence": "The company offered [compensation] packages to laid-off employees.",
-            "translation_zh_TW": "公司為被裁員的員工提供了補償方案"
-          }
-        ],
-        "synonyms": [
-          "reparation",
-          "remuneration"
-        ]
-      }
-    ],
-    "confusion": [
-      "competition",
-      "compliance",
-      "complication",
-      "complacent"
-    ]
-  },
-  {
-    "word": "competence",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The ability to do something successfully or efficiently.",
-        "meaning_zh_TW": "能力、勝任",
-        "wrong_meaning_zh_TW": [
-          "失敗、挫折",
-          "超能力、特殊能力",
-          "知識、學問"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [competence] in the field earned her a promotion.",
-            "translation_zh_TW": "她在該領域的能力使她獲得了晉升。"
-          },
-          {
-            "sentence": "The manager assessed the [competence] of the new candidates.",
-            "translation_zh_TW": "經理評估了新候選人的能力。"
-          },
-          {
-            "sentence": "Continuous training can improve one's [competence].",
-            "translation_zh_TW": "持續的訓練可以提升一個人的能力。"
-          }
-        ],
-        "synonyms": [
-          "capability",
-          "skill"
-        ]
-      }
-    ],
-    "confusion": [
-      "competitance",
-      "competent",
-      "compliance",
-      "compitence"
-    ]
-  },
-  {
-    "word": "competent",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having the necessary ability, knowledge, or skill to do something successfully.",
-        "meaning_zh_TW": "有能力的、滿意的",
-        "wrong_meaning_zh_TW": [
-          "不合格的、無能的",
-          "不確定的、模糊的",
-          "粗心的、馬虎的"
-        ],
-        "examples": [
-          {
-            "sentence": "She is a highly [competent] engineer.",
-            "translation_zh_TW": "她是一位非常有能力的工程師。"
-          },
-          {
-            "sentence": "Only [competent] individuals are promoted to management positions.",
-            "translation_zh_TW": "只有有能力的人才能晉升到管理職位。"
-          },
-          {
-            "sentence": "The team performed better after hiring more [competent] staff.",
-            "translation_zh_TW": "在聘用更多有能力的員工後，團隊表現更好。"
-          }
-        ],
-        "synonyms": [
-          "capable",
-          "qualified"
-        ]
-      }
-    ],
-    "confusion": [
-      "competence",
-      "composure",
-      "compliant",
-      "complaint"
-    ]
-  },
-  {
-    "word": "complexity",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The state or quality of being intricate or complicated.",
-        "meaning_zh_TW": "複雜性、難度",
-        "wrong_meaning_zh_TW": [
-          "簡單性、易懂性",
-          "隨意性、隨機性",
-          "單調性、平淡性"
-        ],
-        "examples": [
-          {
-            "sentence": "The project's [complexity] surprised the team.",
-            "translation_zh_TW": "該項目的複雜性讓團隊感到驚訝。"
-          },
-          {
-            "sentence": "Understanding the [complexity] of the issue is crucial.",
-            "translation_zh_TW": "理解問題的複雜性是至關重要的。"
-          },
-          {
-            "sentence": "The [complexity] of the laws requires expert guidance.",
-            "translation_zh_TW": "法律的複雜性需要專家的指導。"
-          }
-        ],
-        "synonyms": [
-          "intricacy",
-          "complication"
-        ]
-      }
-    ],
-    "confusion": [
-      "complex",
-      "completeness",
-      "compliance",
-      "complexity"
-    ]
-  },
-  {
-    "word": "compliance",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The act of conforming to a rule, standard, or law.",
-        "meaning_zh_TW": "遵守、順應",
-        "wrong_meaning_zh_TW": [
-          "抵抗、反抗",
-          "無關、無義",
-          "懷疑、質疑"
-        ],
-        "examples": [
-          {
-            "sentence": "The company is committed to [compliance] with industry regulations.",
-            "translation_zh_TW": "該公司承諾遵守行業法規。"
-          },
-          {
-            "sentence": "Regular audits ensure [compliance] with safety standards.",
-            "translation_zh_TW": "定期審計確保遵循安全標準。"
-          },
-          {
-            "sentence": "Failure to ensure [compliance] can lead to penalties.",
-            "translation_zh_TW": "未能確保遵守可能導致懲罰。"
-          }
-        ],
-        "synonyms": [
-          "adherence",
-          "conformity"
-        ]
-      }
-    ],
-    "confusion": [
-      "compliant",
-      "complaint",
-      "compliance",
-      "complied"
-    ]
-  },
-  {
-    "word": "complication",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A circumstance that complicates something; a difficulty.",
-        "meaning_zh_TW": "併發症、複雜問題",
-        "wrong_meaning_zh_TW": [
-          "簡化、簡易",
-          "好處、利益",
-          "安慰、支持"
-        ],
-        "examples": [
-          {
-            "sentence": "The surgery has a risk of [complication].",
-            "translation_zh_TW": "手術有併發症的風險。"
-          },
-          {
-            "sentence": "There were several [complications] in the project timeline.",
-            "translation_zh_TW": "項目時間表中有幾個複雜問題。"
-          },
-          {
-            "sentence": "The patient's recovery was delayed due to [complications].",
-            "translation_zh_TW": "患者的恢復因併發症而延遲。"
-          }
-        ],
-        "synonyms": [
-          "issue",
-          "problem"
-        ]
-      }
-    ],
-    "confusion": [
-      "complicating",
-      "completion",
-      "complimentary",
-      "complicated"
-    ]
-  },
-  {
-    "word": "compliment",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A polite expression of praise or admiration.",
-        "meaning_zh_TW": "稱讚、恭維",
-        "wrong_meaning_zh_TW": [
-          "批評、指責",
-          "懷疑、質疑",
-          "懊悔、後悔"
-        ],
-        "examples": [
-          {
-            "sentence": "She received a lovely [compliment] about her dress.",
-            "translation_zh_TW": "她得到了關於她裙子的美好稱讚。"
-          },
-          {
-            "sentence": "Giving [compliments] can brighten someone's day.",
-            "translation_zh_TW": "讚美可以讓某人的一天變得更加美好。"
-          },
-          {
-            "sentence": "He often gives thoughtful [compliments] to his colleagues.",
-            "translation_zh_TW": "他經常給同事們真誠的稱讚。"
-          }
-        ],
-        "synonyms": [
-          "praise",
-          "commendation"
-        ]
-      }
-    ],
-    "confusion": [
-      "complement",
-      "complimentary",
-      "complaints",
-      "compltiment"
-    ]
-  },
-  {
-    "word": "comply",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To act in accordance with a wish or command.",
-        "meaning_zh_TW": "遵從，服從",
-        "wrong_meaning_zh_TW": [
-          "違反規則",
-          "獨立行動",
-          "加強控制"
-        ],
-        "examples": [
-          {
-            "sentence": "You must [comply] with the safety regulations.",
-            "translation_zh_TW": "你必須遵從安全規則。"
-          },
-          {
-            "sentence": "The company failed to [comply] with the environmental standards.",
-            "translation_zh_TW": "該公司未能遵從環境標準。"
-          },
-          {
-            "sentence": "He decided to [comply] with her request.",
-            "translation_zh_TW": "他決定遵從她的要求。"
-          }
-        ],
-        "synonyms": [
-          "adhere",
-          "obey"
-        ]
-      }
-    ],
-    "confusion": [
-      "compliant",
-      "completely",
-      "complain",
-      "complies"
-    ]
-  },
-  {
-    "word": "component",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A part or element of a larger whole.",
-        "meaning_zh_TW": "組成部分，元件",
-        "wrong_meaning_zh_TW": [
-          "負載",
-          "附件",
-          "收集"
-        ],
-        "examples": [
-          {
-            "sentence": "Each [component] contributes to the overall performance.",
-            "translation_zh_TW": "每個組成部分都對整體性能有貢獻。"
-          },
-          {
-            "sentence": "The engine has several important [components].",
-            "translation_zh_TW": "這台引擎有幾個重要的元件。"
-          },
-          {
-            "sentence": "You need to replace the faulty [component].",
-            "translation_zh_TW": "你需要更換故障的組成部分。"
-          }
-        ],
-        "synonyms": [
-          "element",
-          "ingredient"
-        ]
-      }
-    ],
-    "confusion": [
-      "complement",
-      "composure",
-      "componential",
-      "compote"
-    ]
-  },
-  {
-    "word": "compound",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A substance formed from two or more elements chemically bonded together.",
-        "meaning_zh_TW": "化合物",
-        "wrong_meaning_zh_TW": [
-          "單一元素",
-          "礦石",
-          "混合物"
-        ],
-        "examples": [
-          {
-            "sentence": "Water is a [compound] made of hydrogen and oxygen.",
-            "translation_zh_TW": "水是一種由氫和氧組成的化合物。"
-          },
-          {
-            "sentence": "Chemists study [compounds] to understand their properties.",
-            "translation_zh_TW": "化學家研究化合物以了解它們的特性。"
-          },
-          {
-            "sentence": "Salt is another common [compound].",
-            "translation_zh_TW": "鹽是另一個常見的化合物。"
-          }
-        ],
-        "synonyms": [
-          "mixture",
-          "combination"
-        ]
-      }
-    ],
-    "confusion": [
-      "compounding",
-      "composed",
-      "compulsory",
-      "compounder"
-    ]
-  },
-  {
-    "word": "comprehend",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To understand or grasp the meaning of something.",
-        "meaning_zh_TW": "理解，領悟",
-        "wrong_meaning_zh_TW": [
-          "混淆",
-          "忽視",
-          "簡化"
-        ],
-        "examples": [
-          {
-            "sentence": "She couldn't [comprehend] the complex instructions.",
-            "translation_zh_TW": "她無法理解那些複雜的指示。"
-          },
-          {
-            "sentence": "It's important to [comprehend] the context.",
-            "translation_zh_TW": "理解背景是很重要的。"
-          },
-          {
-            "sentence": "He struggled to [comprehend] the math problem.",
-            "translation_zh_TW": "他努力理解數學問題。"
-          }
-        ],
-        "synonyms": [
-          "understand",
-          "grasp"
-        ]
-      }
-    ],
-    "confusion": [
-      "comprehensive",
-      "comprehension",
-      "comprehendible",
-      "comprehensive"
-    ]
-  },
-  {
-    "word": "comprehension",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The ability to understand something.",
-        "meaning_zh_TW": "理解力，理解",
-        "wrong_meaning_zh_TW": [
-          "分辨能力",
-          "推理力",
-          "定位"
-        ],
-        "examples": [
-          {
-            "sentence": "Reading regularly improves your reading [comprehension].",
-            "translation_zh_TW": "定期閱讀提高你的閱讀理解能力。"
-          },
-          {
-            "sentence": "Her [comprehension] of the text was impressive.",
-            "translation_zh_TW": "她對文本的理解給人深刻的印象。"
-          },
-          {
-            "sentence": "Test your [comprehension] with these questions.",
-            "translation_zh_TW": "用這些問題測試你的理解能力。"
-          }
-        ],
-        "synonyms": [
-          "understanding",
-          "grasp"
-        ]
-      }
-    ],
-    "confusion": [
-      "comprehending",
-      "comprehensive",
-      "comprehensively",
-      "comprehensible"
-    ]
-  },
-  {
-    "word": "comprise",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To consist of or be made up of.",
-        "meaning_zh_TW": "包括，組成",
-        "wrong_meaning_zh_TW": [
-          "排除",
-          "改變",
-          "簡化"
-        ],
-        "examples": [
-          {
-            "sentence": "The committee [comprises] experts from various fields.",
-            "translation_zh_TW": "該委員會由來自各個領域的專家組成。"
-          },
-          {
-            "sentence": "Women [comprise] a large portion of the workforce.",
-            "translation_zh_TW": "女性佔勞動力的很大一部分。"
-          },
-          {
-            "sentence": "The team is [comprised] of five members.",
-            "translation_zh_TW": "該隊由五名成員組成。"
-          }
-        ],
-        "synonyms": [
-          "consist of",
-          "be composed of"
-        ]
-      }
-    ],
-    "confusion": [
-      "comprise",
-      "comprisable",
-      "composing",
-      "comprised"
-    ]
-  },
-  {
-    "word": "compromise",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An agreement or a settlement of a dispute that is reached by each side making concessions.",
-        "meaning_zh_TW": "妥協",
-        "wrong_meaning_zh_TW": [
-          "完全拒絕",
-          "抗爭",
-          "犧牲"
-        ],
-        "examples": [
-          {
-            "sentence": "They reached a [compromise] that satisfied both parties.",
-            "translation_zh_TW": "他們達成了一個雙方都滿意的妥協。"
-          },
-          {
-            "sentence": "In any relationship, it is important to find a [compromise].",
-            "translation_zh_TW": "在任何關係中，找到妥協是重要的。"
-          },
-          {
-            "sentence": "The negotiations ended in a [compromise].",
-            "translation_zh_TW": "談判以妥協告終。"
-          }
-        ],
-        "synonyms": [
-          "settlement",
-          "agreement"
+          "respond",
+          "reply"
         ]
       },
       {
-        "type": "動詞",
-        "meaning_en_US": "To settle a dispute by mutual concession.",
-        "meaning_zh_TW": "妥協",
+        "type": "名詞",
+        "meaning_en_US": "A response to a question or problem.",
+        "meaning_zh_TW": "答案",
         "wrong_meaning_zh_TW": [
-          "固執己見",
-          "逃避問題",
-          "激烈對抗"
+          "問題",
+          "疑問",
+          "辯論"
         ],
         "examples": [
           {
-            "sentence": "They had to [compromise] on some issues.",
-            "translation_zh_TW": "他們不得不在一些問題上妥協。"
+            "sentence": "The teacher gave the correct [answer] to the test.",
+            "translation_zh_TW": "老師給了測驗的正確答案。"
           },
           {
-            "sentence": "Sometimes you have to [compromise] to move forward.",
-            "translation_zh_TW": "有時你必須妥協才能前進。"
+            "sentence": "Her [answer] surprised everyone in the room.",
+            "translation_zh_TW": "她的答案讓房間裡的每個人都感到驚訝。"
           },
           {
-            "sentence": "It’s hard to [compromise] when you feel strongly about something.",
-            "translation_zh_TW": "當你對某事有強烈看法時，妥協是很難的。"
+            "sentence": "I have the solution, but I need to check the [answer].",
+            "translation_zh_TW": "我有解決方案，但我需要核實答案。"
           }
         ],
         "synonyms": [
-          "negotiate",
-          "mediate"
+          "response",
+          "solution"
         ]
       }
     ],
     "confusion": [
-      "compromise",
-      "compulsory",
-      "component",
-      "compromisee"
+      "antler",
+      "anger",
+      "ander",
+      "anser"
     ]
   },
   {
-    "word": "compulsory",
+    "word": "foreigner",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person born in or coming from a country other than one's own.",
+        "meaning_zh_TW": "外國人",
+        "wrong_meaning_zh_TW": [
+          "本國人",
+          "居民",
+          "旅客"
+        ],
+        "examples": [
+          {
+            "sentence": "As a [foreigner], she found the culture very fascinating.",
+            "translation_zh_TW": "作為外國人，她發現這個文化非常迷人"
+          },
+          {
+            "sentence": "The city welcomes [foreigners] to explore its history.",
+            "translation_zh_TW": "該城市歡迎外國人探索它的歷史"
+          },
+          {
+            "sentence": "He studied the language to better communicate with [foreigners].",
+            "translation_zh_TW": "他學習這種語言以便更好地與外國人交流"
+          }
+        ],
+        "synonyms": [
+          "alien",
+          "outsider"
+        ]
+      }
+    ],
+    "confusion": [
+      "foregner",
+      "foreighner",
+      "forener",
+      "foriegn"
+    ]
+  },
+  {
+    "word": "frog",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A tailless amphibian with bulging eyes and strong legs for jumping.",
+        "meaning_zh_TW": "青蛙",
+        "wrong_meaning_zh_TW": [
+          "蜥蜴",
+          "蛇",
+          "蝌蚪"
+        ],
+        "examples": [
+          {
+            "sentence": "The [frog] jumped into the pond.",
+            "translation_zh_TW": "青蛙跳進了池塘"
+          },
+          {
+            "sentence": "We heard a [frog] croaking at night.",
+            "translation_zh_TW": "我們聽到青蛙在晚上叫"
+          },
+          {
+            "sentence": "The little [frog] sat on a lily pad.",
+            "translation_zh_TW": "小青蛙坐在睡蓮葉上"
+          }
+        ],
+        "synonyms": [
+          "toad",
+          "anuran"
+        ]
+      }
+    ],
+    "confusion": [
+      "frogg",
+      "froge",
+      "frong",
+      "freg"
+    ]
+  },
+  {
+    "word": "monkey",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A small to medium-sized primate that is often characterized by its long arms and playful behavior.",
+        "meaning_zh_TW": "猴子",
+        "wrong_meaning_zh_TW": [
+          "狒狒",
+          "猩猩",
+          "獅子"
+        ],
+        "examples": [
+          {
+            "sentence": "The [monkey] climbed the tree effortlessly.",
+            "translation_zh_TW": "猴子輕鬆地爬上了樹。"
+          },
+          {
+            "sentence": "Monkeys are known for their intelligence.",
+            "translation_zh_TW": "猴子以其智慧而聞名。"
+          },
+          {
+            "sentence": "The zoo has a variety of [monkeys].",
+            "translation_zh_TW": "這家動物園有各種各樣的猴子。"
+          }
+        ],
+        "synonyms": [
+          "primate",
+          "ape"
+        ]
+      }
+    ],
+    "confusion": [
+      "money",
+      "monk",
+      "mickey",
+      "monastery"
+    ]
+  },
+  {
+    "word": "collect",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To gather items or data together.",
+        "meaning_zh_TW": "收集物品或數據",
+        "wrong_meaning_zh_TW": [
+          "扔掉物品",
+          "分散注意力",
+          "送出去"
+        ],
+        "examples": [
+          {
+            "sentence": "She began to [collect] stamps from around the world.",
+            "translation_zh_TW": "她開始收集來自世界各地的郵票。"
+          },
+          {
+            "sentence": "They plan to [collect] data for the research project.",
+            "translation_zh_TW": "他們計劃收集數據進行研究。"
+          },
+          {
+            "sentence": "He was eager to [collect] stories from the town's history.",
+            "translation_zh_TW": "他渴望收集這個小鎮的歷史故事。"
+          }
+        ],
+        "synonyms": [
+          "gather",
+          "amass"
+        ]
+      }
+    ],
+    "confusion": [
+      "connect",
+      "collec",
+      "collects",
+      "collectible"
+    ]
+  },
+  {
+    "word": "dangerous",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Required by law or a rule; obligatory.",
-        "meaning_zh_TW": "強制的",
+        "meaning_en_US": "Able or likely to cause harm or injury.",
+        "meaning_zh_TW": "危險的",
         "wrong_meaning_zh_TW": [
-          "自願的",
-          "選擇性的",
-          "非必要的"
+          "安全的",
+          "無害的",
+          "悠閒的"
         ],
         "examples": [
           {
-            "sentence": "Education is [compulsory] in most countries.",
-            "translation_zh_TW": "在大多數國家，教育是強制性的。"
+            "sentence": "Driving without a seatbelt is [dangerous].",
+            "translation_zh_TW": "不系安全帶駕駛是很危險的。"
           },
           {
-            "sentence": "Compulsory military service is a requirement in some nations.",
-            "translation_zh_TW": "在某些國家，強制服役是必要的。"
+            "sentence": "The abandoned building is [dangerous] to explore.",
+            "translation_zh_TW": "這棟廢棄的建築物探索是危險的。"
           },
           {
-            "sentence": "There are [compulsory] classes to attend.",
-            "translation_zh_TW": "有必須出席的課程。"
+            "sentence": "He made a [dangerous] decision that could cost him everything.",
+            "translation_zh_TW": "他做了個危險的決定，可能會讓他失去一切。"
           }
         ],
         "synonyms": [
-          "mandatory",
-          "obligatory"
+          "hazardous",
+          "unsafe"
         ]
       }
     ],
     "confusion": [
-      "compulsory",
-      "compulsively",
-      "compulsorily",
-      "competitively"
+      "endanger",
+      "danger",
+      "angerous",
+      "daring"
     ]
   },
   {
-    "word": "conceal",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To keep something hidden or secret.",
-        "meaning_zh_TW": "隱藏",
-        "wrong_meaning_zh_TW": [
-          "展示",
-          "公開",
-          "揭露"
-        ],
-        "examples": [
-          {
-            "sentence": "He tried to [conceal] his feelings.",
-            "translation_zh_TW": "他試著隱藏自己的感情。"
-          },
-          {
-            "sentence": "The evidence was [concealed] under a pile of papers.",
-            "translation_zh_TW": "證據被藏在一堆文件下。"
-          },
-          {
-            "sentence": "She did not [conceal] her excitement.",
-            "translation_zh_TW": "她沒有隱藏自己的興奮。"
-          }
-        ],
-        "synonyms": [
-          "hide",
-          "mask"
-        ]
-      }
-    ],
-    "confusion": [
-      "concede",
-      "conseal",
-      "conceiver",
-      "concede"
-    ]
-  },
-  {
-    "word": "concede",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To admit that something is true after first denying it.",
-        "meaning_zh_TW": "讓步",
-        "wrong_meaning_zh_TW": [
-          "拒絕",
-          "反駁",
-          "強硬"
-        ],
-        "examples": [
-          {
-            "sentence": "He had to [concede] that he was wrong.",
-            "translation_zh_TW": "他不得不承認自己錯了。"
-          },
-          {
-            "sentence": "She refused to [concede] any points in the argument.",
-            "translation_zh_TW": "她拒絕在爭論中讓步任何點。"
-          },
-          {
-            "sentence": "After much debate, they finally [conceded] some issues.",
-            "translation_zh_TW": "經過多次辯論，他們最終在一些問題上讓步。"
-          }
-        ],
-        "synonyms": [
-          "admit",
-          "yield"
-        ]
-      }
-    ],
-    "confusion": [
-      "concede",
-      "concede",
-      "conceded",
-      "condescend"
-    ]
-  },
-  {
-    "word": "conceive",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To form or devise a plan or idea in the mind.",
-        "meaning_zh_TW": "想像",
-        "wrong_meaning_zh_TW": [
-          "放棄",
-          "妨礙",
-          "忽略"
-        ],
-        "examples": [
-          {
-            "sentence": "She could not [conceive] of a world without war.",
-            "translation_zh_TW": "她無法想像沒有戰爭的世界。"
-          },
-          {
-            "sentence": "He [conceived] a brilliant idea for the project.",
-            "translation_zh_TW": "他為這個項目想出了個燦爛的主意。"
-          },
-          {
-            "sentence": "They [conceived] the plan during a brainstorming session.",
-            "translation_zh_TW": "他們在大腦風暴會議中構思了這個計劃。"
-          }
-        ],
-        "synonyms": [
-          "imagine",
-          "envision"
-        ]
-      }
-    ],
-    "confusion": [
-      "conceive",
-      "conceiver",
-      "concept",
-      "conceded"
-    ]
-  },
-  {
-    "word": "conception",
+    "word": "god",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The forming or devising of a plan or idea.",
-        "meaning_zh_TW": "概念",
+        "meaning_en_US": "A superhuman being, worshipped as having power over nature or human fortunes.",
+        "meaning_zh_TW": "神",
         "wrong_meaning_zh_TW": [
-          "實施",
-          "評估",
-          "應用"
+          "地方",
+          "人類",
+          "鳥類"
         ],
         "examples": [
           {
-            "sentence": "The [conception] of the project was innovative.",
-            "translation_zh_TW": "這個項目的概念是創新的。"
+            "sentence": "Many cultures have their own concept of [God].",
+            "translation_zh_TW": "許多文化都有自己對神的概念"
           },
           {
-            "sentence": "They had a unique [conception] of art.",
-            "translation_zh_TW": "他們對藝術有獨特的概念。"
+            "sentence": "In times of trouble, people often turn to [God].",
+            "translation_zh_TW": "在困難時期，人們經常向神祈求"
           },
           {
-            "sentence": "Her [conception] of freedom differs from others.",
-            "translation_zh_TW": "她對自由的理解與其他人不同。"
+            "sentence": "She felt a deep connection to [God].",
+            "translation_zh_TW": "她感到與神有深刻的聯繫"
           }
         ],
         "synonyms": [
-          "idea",
-          "notion"
+          "deity",
+          "divinity"
         ]
       }
     ],
     "confusion": [
-      "conception",
-      "concept",
-      "conceptor",
-      "concurrent"
+      "good",
+      "gog",
+      "gad",
+      "goad"
     ]
   },
   {
-    "word": "condemn",
+    "word": "leave",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To express a strong disapproval of something.",
-        "meaning_zh_TW": "譴責",
+        "meaning_en_US": "To go away from a place.",
+        "meaning_zh_TW": "離開",
         "wrong_meaning_zh_TW": [
-          "讚美",
-          "理解",
-          "隱瞞"
+          "來到",
+          "停留",
+          "邀請"
         ],
         "examples": [
           {
-            "sentence": "The mayor was quick to [condemn] the violence.",
-            "translation_zh_TW": "市長迅速譴責了暴力行為"
+            "sentence": "I will [leave] the office early today.",
+            "translation_zh_TW": "我今天會早點離開辦公室"
           },
           {
-            "sentence": "They condemned the policy for its unfairness.",
-            "translation_zh_TW": "他們譴責這項政策的不公平"
+            "sentence": "Please [leave] your shoes at the door.",
+            "translation_zh_TW": "請把鞋子留在門口"
           },
           {
-            "sentence": "Public figures often [condemn] acts of hate.",
-            "translation_zh_TW": "公眾人物經常譴責仇恨行為"
+            "sentence": "He decided to [leave] without saying goodbye.",
+            "translation_zh_TW": "他決定不說再見就離開"
           }
         ],
         "synonyms": [
-          "denounce",
-          "criticize"
+          "depart",
+          "exit"
         ]
-      }
-    ],
-    "confusion": [
-      "commend",
-      "convene",
-      "continent",
-      "contend"
-    ]
-  },
-  {
-    "word": "conduct",
-    "meanings": [
+      },
       {
-        "type": "動詞",
-        "meaning_en_US": "To lead or guide; to direct in action.",
-        "meaning_zh_TW": "指導",
+        "type": "名詞",
+        "meaning_en_US": "An act of allowing someone to go.",
+        "meaning_zh_TW": "假期",
         "wrong_meaning_zh_TW": [
-          "放任",
-          "隱藏",
-          "攪擾"
+          "責任",
+          "資源",
+          "事件"
         ],
         "examples": [
           {
-            "sentence": "She will [conduct] the meeting this afternoon.",
-            "translation_zh_TW": "她將在今天下午主持會議"
+            "sentence": "I took a week off [leave] to travel.",
+            "translation_zh_TW": "我請了週假來旅行"
           },
           {
-            "sentence": "They [conduct] experiments to test their theory.",
-            "translation_zh_TW": "他們進行實驗來測試他們的理論"
+            "sentence": "She is on maternity [leave].",
+            "translation_zh_TW": "她正在休產假"
           },
           {
-            "sentence": "The orchestra was [conducted] by a famous maestro.",
-            "translation_zh_TW": "樂團由一位著名的指揮指揮"
+            "sentence": "He applied for sick [leave].",
+            "translation_zh_TW": "他申請了病假"
           }
         ],
         "synonyms": [
-          "lead",
-          "manage"
+          "time off",
+          "vacation"
         ]
       }
     ],
     "confusion": [
-      "conductor",
-      "conduit",
-      "concord",
-      "contract"
+      "live",
+      "leaf",
+      "leaves",
+      "leavee"
     ]
   },
   {
-    "word": "confession",
+    "word": "television",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A formal statement admitting that one is guilty of a crime.",
-        "meaning_zh_TW": "懺悔",
+        "meaning_en_US": "A device that receives broadcast signals and displays them as visual images.",
+        "meaning_zh_TW": "電視",
         "wrong_meaning_zh_TW": [
-          "孤獨",
-          "賞賜",
-          "茫然"
+          "電話",
+          "傳真機",
+          "播音器"
         ],
         "examples": [
           {
-            "sentence": "He made a [confession] to the police.",
-            "translation_zh_TW": "他向警方做了懺悔"
+            "sentence": "They watched their favorite show on the [television].",
+            "translation_zh_TW": "他們在電視上看他們最喜歡的節目。"
           },
           {
-            "sentence": "Her [confession] surprised everyone in the room.",
-            "translation_zh_TW": "她的懺悔讓房間裡的每個人都驚訝"
+            "sentence": "The [television] screen was too small to see clearly.",
+            "translation_zh_TW": "電視屏幕太小，無法清楚看到。"
           },
           {
-            "sentence": "In his book, he shares a [confession] of his past mistakes.",
-            "translation_zh_TW": "在他的書中，他分享了自己過去錯誤的懺悔"
+            "sentence": "She turned off the [television] after the news.",
+            "translation_zh_TW": "新聞結束後，她關掉了電視。"
           }
         ],
         "synonyms": [
-          "admission",
-          "disclosure"
+          "TV",
+          "screen"
         ]
       }
     ],
     "confusion": [
-      "concession",
-      "composition",
-      "compression",
-      "confound"
-    ]
-  },
-  {
-    "word": "contaminate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make something impure by exposure to or addition of a poisonous or polluting substance.",
-        "meaning_zh_TW": "污染",
-        "wrong_meaning_zh_TW": [
-          "清理",
-          "疏通",
-          "增強"
-        ],
-        "examples": [
-          {
-            "sentence": "The spill could [contaminate] the water supply.",
-            "translation_zh_TW": "這次洩漏可能會污染水源"
-          },
-          {
-            "sentence": "They tested to see if the food was [contaminated].",
-            "translation_zh_TW": "他們測試食物是否被污染"
-          },
-          {
-            "sentence": "Chemicals can [contaminate] soil.",
-            "translation_zh_TW": "化學物質可以污染土壤"
-          }
-        ],
-        "synonyms": [
-          "pollute",
-          "infect"
-        ]
-      }
-    ],
-    "confusion": [
-      "contain",
-      "continue",
-      "contact",
-      "contrast"
-    ]
-  },
-  {
-    "word": "contemplate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To think about something deeply and at length.",
-        "meaning_zh_TW": "深思",
-        "wrong_meaning_zh_TW": [
-          "忽視",
-          "執行",
-          "迷惑"
-        ],
-        "examples": [
-          {
-            "sentence": "They sat quietly to [contemplate] their future.",
-            "translation_zh_TW": "他們靜靜地坐著深思未來"
-          },
-          {
-            "sentence": "He will [contemplate] his options before deciding.",
-            "translation_zh_TW": "在做決定之前他會深思自己的選擇"
-          },
-          {
-            "sentence": "She likes to [contemplate] the beauty of nature.",
-            "translation_zh_TW": "她喜歡深思自然的美"
-          }
-        ],
-        "synonyms": [
-          "ponder",
-          "consider"
-        ]
-      }
-    ],
-    "confusion": [
-      "comtemplate",
-      "contemplate",
-      "contemplate",
-      "contempation"
-    ]
-  },
-  {
-    "word": "contemporary",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Living or occurring at the same time.",
-        "meaning_zh_TW": "當代的",
-        "wrong_meaning_zh_TW": [
-          "古老的",
-          "未來的",
-          "過時的"
-        ],
-        "examples": [
-          {
-            "sentence": "She is one of the most famous [contemporary] artists.",
-            "translation_zh_TW": "她是最著名的當代藝術家之一"
-          },
-          {
-            "sentence": "The museum features [contemporary] works of art.",
-            "translation_zh_TW": "該博物館展示當代藝術作品"
-          },
-          {
-            "sentence": "He was a [contemporary] of Shakespeare.",
-            "translation_zh_TW": "他是莎士比亞的當代人"
-          }
-        ],
-        "synonyms": [
-          "modern",
-          "current"
-        ]
-      }
-    ],
-    "confusion": [
-      "contemplative",
-      "contemporaneous",
-      "contemporary",
-      "container"
-    ]
-  },
-  {
-    "word": "contempt",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The feeling that a person or a thing is beneath consideration, worthless, or deserving scorn.",
-        "meaning_zh_TW": "輕視",
-        "wrong_meaning_zh_TW": [
-          "尊敬",
-          "欣賞",
-          "喜愛"
-        ],
-        "examples": [
-          {
-            "sentence": "She looked at him with [contempt].",
-            "translation_zh_TW": "她用輕視的眼光看著他。"
-          },
-          {
-            "sentence": "His actions were met with [contempt] from the community.",
-            "translation_zh_TW": "社區對他的行為表示輕視。"
-          },
-          {
-            "sentence": "He felt a deep [contempt] for the dishonest politician.",
-            "translation_zh_TW": "他對這位不誠實的政治家感到深深的輕視。"
-          }
-        ],
-        "synonyms": [
-          "disdain",
-          "scorn"
-        ]
-      }
-    ],
-    "confusion": [
-      "content",
-      "contemplate",
-      "contemptuous",
-      "contend"
-    ]
-  },
-  {
-    "word": "contend",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To assert something as a position in an argument.",
-        "meaning_zh_TW": "主張",
-        "wrong_meaning_zh_TW": [
-          "妥協",
-          "輕視",
-          "爭論"
-        ],
-        "examples": [
-          {
-            "sentence": "She will [contend] for the championship title.",
-            "translation_zh_TW": "她將爭取冠軍頭銜。"
-          },
-          {
-            "sentence": "They [contend] that the policy is ineffective.",
-            "translation_zh_TW": "他們主張該政策無效。"
-          },
-          {
-            "sentence": "He had to [contend] with many challenges.",
-            "translation_zh_TW": "他不得不應對許多挑戰。"
-          }
-        ],
-        "synonyms": [
-          "argue",
-          "debate"
-        ]
-      }
-    ],
-    "confusion": [
-      "contend",
-      "content",
-      "contention",
-      "contest"
-    ]
-  },
-  {
-    "word": "continental",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Of or relating to a continent.",
-        "meaning_zh_TW": "大陸的",
-        "wrong_meaning_zh_TW": [
-          "海洋的",
-          "小島的",
-          "地下的"
-        ],
-        "examples": [
-          {
-            "sentence": "The [continental] divide separates watersheds.",
-            "translation_zh_TW": "大陸分水嶺區分水系。"
-          },
-          {
-            "sentence": "Continental drift helps explain the movement of the earth's plates.",
-            "translation_zh_TW": "大陸漂移有助於解釋地球板塊的運動。"
-          },
-          {
-            "sentence": "She loves [continental] cuisine.",
-            "translation_zh_TW": "她喜愛大陸菜。"
-          }
-        ],
-        "synonyms": [
-          "mainland",
-          "terrestrial"
-        ]
-      }
-    ],
-    "confusion": [
-      "continent",
-      "continual",
-      "continentality",
-      "continently"
-    ]
-  },
-  {
-    "word": "contractor",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person or company that undertakes a contract to provide materials or labor to perform a service or do a job.",
-        "meaning_zh_TW": "承包商",
-        "wrong_meaning_zh_TW": [
-          "雇員",
-          "業主",
-          "管理者"
-        ],
-        "examples": [
-          {
-            "sentence": "The [contractor] completed the project ahead of schedule.",
-            "translation_zh_TW": "承包商提前完成了該項目。"
-          },
-          {
-            "sentence": "She hired a [contractor] to renovate her home.",
-            "translation_zh_TW": "她聘請了一名承包商來翻新她的家。"
-          },
-          {
-            "sentence": "The [contractor] was responsible for adhering to safety regulations.",
-            "translation_zh_TW": "承包商負責遵循安全規定。"
-          }
-        ],
-        "synonyms": [
-          "builder",
-          "subcontractor"
-        ]
-      }
-    ],
-    "confusion": [
-      "contract",
-      "contractual",
-      "contracting",
-      "contracter"
-    ]
-  },
-  {
-    "word": "contradiction",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A statement or proposition that contradicts or denies another or itself.",
-        "meaning_zh_TW": "矛盾",
-        "wrong_meaning_zh_TW": [
-          "一致性",
-          "相似性",
-          "確認"
-        ],
-        "examples": [
-          {
-            "sentence": "There was a glaring [contradiction] in his testimony.",
-            "translation_zh_TW": "他的證詞中有明顯的矛盾。"
-          },
-          {
-            "sentence": "Her actions were a [contradiction] to her words.",
-            "translation_zh_TW": "她的行為與她的言辭相矛盾。"
-          },
-          {
-            "sentence": "Finding a [contradiction] in the theory was crucial.",
-            "translation_zh_TW": "在理論中找到矛盾是關鍵。"
-          }
-        ],
-        "synonyms": [
-          "discrepancy",
-          "inconsistency"
-        ]
-      }
-    ],
-    "confusion": [
-      "contradict",
-      "contradictory",
-      "contradicting",
-      "contradictor"
-    ]
-  },
-  {
-    "word": "controversial",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to or likely to provoke controversy.",
-        "meaning_zh_TW": "有爭議的",
-        "wrong_meaning_zh_TW": [
-          "無爭議的",
-          "平常的",
-          "簡單的"
-        ],
-        "examples": [
-          {
-            "sentence": "The proposal was met with [controversial] opinions.",
-            "translation_zh_TW": "該提案引起了有爭議的意見。"
-          },
-          {
-            "sentence": "Her [controversial] remarks sparked a heated debate.",
-            "translation_zh_TW": "她的有爭議言論引發了激烈的辯論。"
-          },
-          {
-            "sentence": "Some [controversial] topics are best avoided in conversation.",
-            "translation_zh_TW": "某些有爭議的主題最好在交談中避免。"
-          }
-        ],
-        "synonyms": [
-          "debate-provoking",
-          "disputed"
-        ]
-      }
-    ],
-    "confusion": [
-      "controversy",
-      "conversational",
-      "controverts",
-      "controversially"
-    ]
-  },
-  {
-    "word": "controversy",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A prolonged public dispute, debate, or contention.",
-        "meaning_zh_TW": "公共爭議",
-        "wrong_meaning_zh_TW": [
-          "公共事件",
-          "討論會議",
-          "主題演講"
-        ],
-        "examples": [
-          {
-            "sentence": "The new policy has sparked a [controversy] among citizens.",
-            "translation_zh_TW": "新政策在市民中引發了爭議"
-          },
-          {
-            "sentence": "This book raised a lot of [controversy] about its subject matter.",
-            "translation_zh_TW": "這本書對其主題引發了很多爭議"
-          },
-          {
-            "sentence": "There is ongoing [controversy] regarding the environmental impact.",
-            "translation_zh_TW": "有關環境影響的爭議仍在進行中"
-          }
-        ],
-        "synonyms": [
-          "dispute",
-          "debate"
-        ]
-      }
-    ],
-    "confusion": [
-      "controversial",
-      "converse",
-      "convertible",
-      "conventional"
-    ]
-  },
-  {
-    "word": "conversion",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The process of changing or causing something to change from one form to another.",
-        "meaning_zh_TW": "轉換過程",
-        "wrong_meaning_zh_TW": [
-          "進一步發展",
-          "外部融合",
-          "效果提升"
-        ],
-        "examples": [
-          {
-            "sentence": "The [conversion] of data from one format to another is crucial.",
-            "translation_zh_TW": "將數據從一種格式轉換為另一種格式是至關重要的"
-          },
-          {
-            "sentence": "The church focused on the [conversion] of new members.",
-            "translation_zh_TW": "教會專注於新成員的轉化"
-          },
-          {
-            "sentence": "He is working on the [conversion] of the old warehouse into apartments.",
-            "translation_zh_TW": "他正在將舊倉庫轉換成公寓"
-          }
-        ],
-        "synonyms": [
-          "transformation",
-          "adaptation"
-        ]
-      }
-    ],
-    "confusion": [
-      "conversional",
-      "convert",
-      "converse",
-      "convention"
-    ]
-  },
-  {
-    "word": "convert",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To change (something) into a different form or properties; to transform.",
-        "meaning_zh_TW": "轉換",
-        "wrong_meaning_zh_TW": [
-          "保護環境",
-          "包裝物品",
-          "創建計畫"
-        ],
-        "examples": [
-          {
-            "sentence": "They plan to [convert] the attic into a bedroom.",
-            "translation_zh_TW": "他們計劃將閣樓轉換成臥室"
-          },
-          {
-            "sentence": "He was able to [convert] the file format easily.",
-            "translation_zh_TW": "他能輕鬆地轉換文件格式"
-          },
-          {
-            "sentence": "Many people [convert] to different religions in search of peace.",
-            "translation_zh_TW": "許多人為了尋求和平而皈依不同的宗教"
-          }
-        ],
-        "synonyms": [
-          "transform",
-          "change"
-        ]
-      }
-    ],
-    "confusion": [
-      "convertible",
-      "conversion",
-      "conversant",
-      "convection"
-    ]
-  },
-  {
-    "word": "convict",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To declare someone to be guilty of a crime by the verdict of a jury or decision of a judge.",
-        "meaning_zh_TW": "宣判某人有罪",
-        "wrong_meaning_zh_TW": [
-          "刑罰複核",
-          "質疑假設",
-          "除罪因素"
-        ],
-        "examples": [
-          {
-            "sentence": "The jury decided to [convict] him after a lengthy trial.",
-            "translation_zh_TW": "陪審團在漫長的審判後決定判他有罪"
-          },
-          {
-            "sentence": "She is trying to [convict] the defendant based on new evidence.",
-            "translation_zh_TW": "她試圖根據新證據使被告定罪"
-          },
-          {
-            "sentence": "The judge will [convict] him if the evidence is sufficient.",
-            "translation_zh_TW": "如果證據足夠，法官將判他有罪"
-          }
-        ],
-        "synonyms": [
-          "sentence",
-          "declare guilty"
-        ]
-      }
-    ],
-    "confusion": [
-      "conviction",
-      "convene",
-      "conciliate",
-      "condition"
-    ]
-  },
-  {
-    "word": "conviction",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A formal declaration that someone is guilty of a criminal offense.",
-        "meaning_zh_TW": "判罪,有堅定的信念",
-        "wrong_meaning_zh_TW": [
-          "急件指控",
-          "私人意見",
-          "針對信念"
-        ],
-        "examples": [
-          {
-            "sentence": "He has a strong [conviction] about the importance of education.",
-            "translation_zh_TW": "他對教育重要性有堅定的信念"
-          },
-          {
-            "sentence": "The [conviction] of the suspect was a major breakthrough in the case.",
-            "translation_zh_TW": "對嫌疑人的定罪是此案的重大突破"
-          },
-          {
-            "sentence": "Her religious [conviction] influences her daily decisions.",
-            "translation_zh_TW": "她的宗教信仰影響她的日常決策"
-          }
-        ],
-        "synonyms": [
-          "belief",
-          "certainty"
-        ]
-      }
-    ],
-    "confusion": [
-      "convict",
-      "convoking",
-      "convection",
-      "clemency"
-    ]
-  },
-  {
-    "word": "coordinate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To bring the different elements of a complex activity or organization into a harmonious or efficient relationship.",
-        "meaning_zh_TW": "協調",
-        "wrong_meaning_zh_TW": [
-          "統一意見",
-          "調整時間",
-          "分組管理"
-        ],
-        "examples": [
-          {
-            "sentence": "She will [coordinate] the project with various departments.",
-            "translation_zh_TW": "她將協調各部門的項目"
-          },
-          {
-            "sentence": "It's crucial to [coordinate] our efforts for success.",
-            "translation_zh_TW": "協調我們的努力是成功的關鍵"
-          },
-          {
-            "sentence": "To solve the problem, they need to [coordinate] resources effectively.",
-            "translation_zh_TW": "為了解決問題，他們需要有效地協調資源"
-          }
-        ],
-        "synonyms": [
-          "organize",
-          "manage"
-        ]
-      }
-    ],
-    "confusion": [
-      "coordinator",
-      "coordinate system",
-      "correspond",
-      "correlate"
+      "telekinesis",
+      "telegraph",
+      "telescope",
+      "telemarketing"
     ]
   }
 ]

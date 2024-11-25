@@ -218,7 +218,7 @@ export default function WordFlashGame() {
     const handlePlayButton = () => {
         if (currentWord && levelId && audioService.current) {
             console.log('Play button clicked for word:', currentWord.word);
-            const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
+            const wordPath = `/voices/english/${currentWord.word}.mp3`;
             audioService.current.playAudio(wordPath);
         }
     };
@@ -231,8 +231,8 @@ export default function WordFlashGame() {
     // Move calculateStats to a memoized value
     const stats = useMemo(() => {
         const totalMeanings = wordList.length;
-        const masteredMeanings = wordList.filter(item => item.score >= 1).length;
-        const wordsToReview = wordList.filter(item => item.score < 1).length;
+        const masteredMeanings = wordList.filter(item => item.score >= 0).length;
+        const wordsToReview = wordList.filter(item => item.score < 0.4).length;
         
         return {
             progress: totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100).toFixed(2) : "0.00",

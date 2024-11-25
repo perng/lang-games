@@ -1,0 +1,811 @@
+[
+  {
+    "word": "cloth",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A piece of fabric produced by weaving or knitting textile fibers.",
+        "meaning_zh_TW": "布料",
+        "wrong_meaning_zh_TW": [
+          "紙張",
+          "金屬片",
+          "塑料薄膜"
+        ],
+        "examples": [
+          {
+            "sentence": "She bought some [cloth] to make a dress.",
+            "translation_zh_TW": "她購買了些布料來做衣服。"
+          },
+          {
+            "sentence": "The table was covered with a decorative [cloth].",
+            "translation_zh_TW": "桌子上覆蓋著一塊裝飾性的布。"
+          },
+          {
+            "sentence": "He used a clean [cloth] to wipe the table.",
+            "translation_zh_TW": "他用乾淨的布來抹桌子。"
+          }
+        ],
+        "synonyms": [
+          "fabric",
+          "material"
+        ]
+      }
+    ],
+    "confusion": [
+      "clothe",
+      "closet",
+      "clump",
+      "clone"
+    ]
+  },
+  {
+    "word": "sour",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having an acidic taste or smell, often associated with citric fruits.",
+        "meaning_zh_TW": "酸的",
+        "wrong_meaning_zh_TW": [
+          "甜食",
+          "辛辣的",
+          "平淡的"
+        ],
+        "examples": [
+          {
+            "sentence": "The lemonade was too [sour] for my taste.",
+            "translation_zh_TW": "檸檬水對我的口味來說太酸了"
+          },
+          {
+            "sentence": "He made a [sour] face after tasting the vinegar.",
+            "translation_zh_TW": "他在嘗到醋後做了個酸苦的臉"
+          },
+          {
+            "sentence": "The milk turned [sour] after a few days.",
+            "translation_zh_TW": "牛奶幾天後就變酸了"
+          }
+        ],
+        "synonyms": [
+          "acidic",
+          "tart"
+        ]
+      }
+    ],
+    "confusion": [
+      "sore",
+      "sourness",
+      "sourly",
+      "souri"
+    ]
+  },
+  {
+    "word": "desert",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A barren area of land where little precipitation occurs and consequently living conditions are hostile.",
+        "meaning_zh_TW": "沙漠",
+        "wrong_meaning_zh_TW": [
+          "草原",
+          "森林",
+          "湖泊"
+        ],
+        "examples": [
+          {
+            "sentence": "The [desert] is home to many unique species.",
+            "translation_zh_TW": "沙漠中棲息著許多獨特的物種。"
+          },
+          {
+            "sentence": "They traveled across the vast [desert].",
+            "translation_zh_TW": "他們穿越了廣闊的沙漠。"
+          },
+          {
+            "sentence": "Survival in the [desert] can be challenging.",
+            "translation_zh_TW": "在沙漠中生存可能很具挑戰性。"
+          }
+        ],
+        "synonyms": [
+          "wasteland",
+          "dry land"
+        ]
+      }
+    ],
+    "confusion": [
+      "dessert",
+      "deserter",
+      "design",
+      "destiny"
+    ]
+  },
+  {
+    "word": "relation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The way in which two or more people or groups feel and behave toward each other.",
+        "meaning_zh_TW": "關係、聯繫",
+        "wrong_meaning_zh_TW": [
+          "單獨、孤立",
+          "失去、放棄",
+          "變化、轉變"
+        ],
+        "examples": [
+          {
+            "sentence": "Their [relation] is built on trust and understanding.",
+            "translation_zh_TW": "他們的關係建立在信任和理解之上。"
+          },
+          {
+            "sentence": "This study examines the [relation] between diet and health.",
+            "translation_zh_TW": "這項研究考察飲食與健康之間的關係。"
+          },
+          {
+            "sentence": "There is a strong [relation] between the two variables.",
+            "translation_zh_TW": "這兩個變數之間有強烈的關係。"
+          }
+        ],
+        "synonyms": [
+          "connection",
+          "association"
+        ]
+      }
+    ],
+    "confusion": [
+      "relations",
+      "realtive",
+      "relatio",
+      "relatoin"
+    ]
+  },
+  {
+    "word": "flow",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To move along in a steady, continuous stream, typically referring to liquids.",
+        "meaning_zh_TW": "流動",
+        "wrong_meaning_zh_TW": [
+          "塌陷",
+          "凍結",
+          "停止"
+        ],
+        "examples": [
+          {
+            "sentence": "The river [flows] gently through the valley.",
+            "translation_zh_TW": "河流在山谷中緩緩流動。"
+          },
+          {
+            "sentence": "Blood [flows] through the arteries.",
+            "translation_zh_TW": "血液在動脈中流動。"
+          },
+          {
+            "sentence": "She watched the wine [flow] into the glass.",
+            "translation_zh_TW": "她看著紅酒流入杯中。"
+          }
+        ],
+        "synonyms": [
+          "stream",
+          "ran"
+        ]
+      }
+    ],
+    "confusion": [
+      "flo",
+      "blow",
+      "flour",
+      "flove"
+    ]
+  },
+  {
+    "word": "beat",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To strike repeatedly.",
+        "meaning_zh_TW": "敲打、打擊",
+        "wrong_meaning_zh_TW": [
+          "拍打",
+          "夢想",
+          "撒謊"
+        ],
+        "examples": [
+          {
+            "sentence": "He likes to [beat] the drum in the band.",
+            "translation_zh_TW": "他喜歡在樂隊中敲打鼓。"
+          },
+          {
+            "sentence": "She will [beat] her record in the upcoming competition.",
+            "translation_zh_TW": "她將在即將到來的比賽中打破自己的記錄。"
+          },
+          {
+            "sentence": "Make sure you [beat] the eggs well before cooking.",
+            "translation_zh_TW": "確保你在烹飪之前把蛋打得很好。"
+          }
+        ],
+        "synonyms": [
+          "strike",
+          "hit"
+        ]
+      }
+    ],
+    "confusion": [
+      "seat",
+      "beet",
+      "beaten",
+      "bait"
+    ]
+  },
+  {
+    "word": "pork",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The flesh of a pig used as food.",
+        "meaning_zh_TW": "用作食物的豬肉",
+        "wrong_meaning_zh_TW": [
+          "牛肉",
+          "羊肉",
+          "雞肉"
+        ],
+        "examples": [
+          {
+            "sentence": "I love to eat [pork] barbeque during the summer.",
+            "translation_zh_TW": "我喜歡在夏天吃豬肉燒烤。"
+          },
+          {
+            "sentence": "Pork can be prepared in many different ways.",
+            "translation_zh_TW": "豬肉可以用許多不同的方式製作。"
+          },
+          {
+            "sentence": "The recipe calls for minced [pork] and spices.",
+            "translation_zh_TW": "這個食譜需要剁碎的豬肉和香料。"
+          }
+        ],
+        "synonyms": [
+          "hog meat",
+          "swine meat"
+        ]
+      }
+    ],
+    "confusion": [
+      "porks",
+      "work",
+      "sork",
+      "fork"
+    ]
+  },
+  {
+    "word": "mass",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A coherent, typically large body of matter with no definite shape.",
+        "meaning_zh_TW": "質量、塊",
+        "wrong_meaning_zh_TW": [
+          "重量、體重",
+          "大量、多數",
+          "質數、質量"
+        ],
+        "examples": [
+          {
+            "sentence": "The [mass] of the ball is quite heavy.",
+            "translation_zh_TW": "這個球的質量相當重。"
+          },
+          {
+            "sentence": "Scientists measure the [mass] of objects.",
+            "translation_zh_TW": "科學家測量物體的質量。"
+          },
+          {
+            "sentence": "The [mass] of the crowd gathered in the square.",
+            "translation_zh_TW": "人群的塊聚集在廣場。"
+          }
+        ],
+        "synonyms": [
+          "bulk",
+          "body"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large number of people gathered together.",
+        "meaning_zh_TW": "人群、集合",
+        "wrong_meaning_zh_TW": [
+          "軍隊、部隊",
+          "聚會、會議",
+          "重聚、重合"
+        ],
+        "examples": [
+          {
+            "sentence": "A [mass] of fans gathered at the stadium.",
+            "translation_zh_TW": "一群球迷聚集在體育場。"
+          },
+          {
+            "sentence": "The [mass] of supporters cheered loudly.",
+            "translation_zh_TW": "支持者人潮大聲吼叫。"
+          },
+          {
+            "sentence": "There was a [mass] of people during the festival.",
+            "translation_zh_TW": "在節慶期間，聚集了很多人。"
+          }
+        ],
+        "synonyms": [
+          "crowd",
+          "throng"
+        ]
+      }
+    ],
+    "confusion": [
+      "mess",
+      "massive",
+      "masked",
+      "massed"
+    ]
+  },
+  {
+    "word": "responsible",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having an obligation to do something.",
+        "meaning_zh_TW": "負責的、應負責任的",
+        "wrong_meaning_zh_TW": [
+          "無辜的、自由的",
+          "不確定的、隨意的",
+          "臨時的、隨便的"
+        ],
+        "examples": [
+          {
+            "sentence": "He is a [responsible] person who always meets deadlines.",
+            "translation_zh_TW": "他是一個負責任的人，總是按時完成工作。"
+          },
+          {
+            "sentence": "As a team leader, you are [responsible] for your members’ performance.",
+            "translation_zh_TW": "作為團隊領導者，你需要對成員的表現負責。"
+          },
+          {
+            "sentence": "It is [responsible] to plan for the future.",
+            "translation_zh_TW": "為未來做計劃是負責任的行為。"
+          }
+        ],
+        "synonyms": [
+          "accountable",
+          "liable"
+        ]
+      }
+    ],
+    "confusion": [
+      "respondable",
+      "responsibleness",
+      "responsibly",
+      "respondible"
+    ]
+  },
+  {
+    "word": "selfish",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Concerned excessively or exclusively with oneself.",
+        "meaning_zh_TW": "自私的",
+        "wrong_meaning_zh_TW": [
+          "無私奉獻",
+          "關懷他人",
+          "親切友善"
+        ],
+        "examples": [
+          {
+            "sentence": "His [selfish] behavior alienated his friends.",
+            "translation_zh_TW": "他的自私行為疏遠了他的朋友。"
+          },
+          {
+            "sentence": "She made a [selfish] choice despite the consequences.",
+            "translation_zh_TW": "儘管後果，她還是做出了自私的選擇。"
+          },
+          {
+            "sentence": "It's [selfish] to think only of oneself.",
+            "translation_zh_TW": "只考慮自己是自私的。"
+          }
+        ],
+        "synonyms": [
+          "greedy",
+          "egotistical"
+        ]
+      }
+    ],
+    "confusion": [
+      "selfless",
+      "selfie",
+      "sellfish",
+      "seltzer"
+    ]
+  },
+  {
+    "word": "ignore",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To refuse to take notice of or acknowledge.",
+        "meaning_zh_TW": "忽視",
+        "wrong_meaning_zh_TW": [
+          "注意",
+          "尊重",
+          "回應"
+        ],
+        "examples": [
+          {
+            "sentence": "Sometimes it's better to [ignore] the noise.",
+            "translation_zh_TW": "有時忽視噪音更好。"
+          },
+          {
+            "sentence": "She chose to [ignore] their comments.",
+            "translation_zh_TW": "她選擇忽視他們的評論。"
+          },
+          {
+            "sentence": "Don't [ignore] the signs of trouble.",
+            "translation_zh_TW": "不要忽視困難的跡象。"
+          }
+        ],
+        "synonyms": [
+          "disregard",
+          "overlook"
+        ]
+      }
+    ],
+    "confusion": [
+      "ignite",
+      "ingore",
+      "ignores",
+      "igloo"
+    ]
+  },
+  {
+    "word": "papaya",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A tropical fruit with orange flesh and black seeds, known for its sweet flavor.",
+        "meaning_zh_TW": "木瓜",
+        "wrong_meaning_zh_TW": [
+          "蘋果",
+          "橙子",
+          "香蕉"
+        ],
+        "examples": [
+          {
+            "sentence": "She made a smoothie with [papaya].",
+            "translation_zh_TW": "她用木瓜做了冰沙。"
+          },
+          {
+            "sentence": "The [papaya] is rich in vitamins.",
+            "translation_zh_TW": "木瓜富含維他命。"
+          },
+          {
+            "sentence": "We had [papaya] salad for lunch.",
+            "translation_zh_TW": "我們午餐吃了木瓜沙拉。"
+          }
+        ],
+        "synonyms": [
+          "pawpaw",
+          "papaw"
+        ]
+      }
+    ],
+    "confusion": [
+      "papyri",
+      "paparazzi",
+      "paprika",
+      "papule"
+    ]
+  },
+  {
+    "word": "instead",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "In place of; as a substitute.",
+        "meaning_zh_TW": "而不是",
+        "wrong_meaning_zh_TW": [
+          "因此",
+          "而且",
+          "雖然"
+        ],
+        "examples": [
+          {
+            "sentence": "She chose tea [instead] of coffee.",
+            "translation_zh_TW": "她選擇茶而不是咖啡。"
+          },
+          {
+            "sentence": "You can take the bus [instead] of walking.",
+            "translation_zh_TW": "你可以搭巴士，而不是走路。"
+          },
+          {
+            "sentence": "He went to the party [instead].",
+            "translation_zh_TW": "他去參加派對而不是。"
+          }
+        ],
+        "synonyms": [
+          "rather",
+          "alternatively"
+        ]
+      }
+    ],
+    "confusion": [
+      "in stead",
+      "in set",
+      "instead of",
+      "in step"
+    ]
+  },
+  {
+    "word": "blackboard",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A dark surface on which you can write with chalk.",
+        "meaning_zh_TW": "黑板",
+        "wrong_meaning_zh_TW": [
+          "畫布",
+          "地板",
+          "頻道"
+        ],
+        "examples": [
+          {
+            "sentence": "She wrote the problem on the [blackboard].",
+            "translation_zh_TW": "她把問題寫在黑板上。"
+          },
+          {
+            "sentence": "The teacher erased the [blackboard] after the class.",
+            "translation_zh_TW": "老師在課後擦掉了黑板。"
+          },
+          {
+            "sentence": "Can you see the messages on the [blackboard]?",
+            "translation_zh_TW": "你能看到黑板上的信息嗎？"
+          }
+        ],
+        "synonyms": [
+          "chalkboard",
+          "board"
+        ]
+      }
+    ],
+    "confusion": [
+      "blackbird",
+      "blackboarder",
+      "blackbored",
+      "backboard"
+    ]
+  },
+  {
+    "word": "shut",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To close something.",
+        "meaning_zh_TW": "關閉",
+        "wrong_meaning_zh_TW": [
+          "打開",
+          "重啟",
+          "延續"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [shut] the door quietly.",
+            "translation_zh_TW": "請安靜地關上門。"
+          },
+          {
+            "sentence": "He forgot to [shut] the window before leaving.",
+            "translation_zh_TW": "他出門前忘了關窗。"
+          },
+          {
+            "sentence": "The store will [shut] at 9 PM.",
+            "translation_zh_TW": "商店將在晚上九點關門。"
+          }
+        ],
+        "synonyms": [
+          "close",
+          "seal"
+        ]
+      }
+    ],
+    "confusion": [
+      "shut-down",
+      "shutters",
+      "short",
+      "shutt"
+    ]
+  },
+  {
+    "word": "disease",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A disorder of structure or function in a human, animal, or plant.",
+        "meaning_zh_TW": "疾病",
+        "wrong_meaning_zh_TW": [
+          "療法",
+          "醫學",
+          "健康"
+        ],
+        "examples": [
+          {
+            "sentence": "He was diagnosed with a rare [disease].",
+            "translation_zh_TW": "他被診斷出患有罕見疾病"
+          },
+          {
+            "sentence": "Vaccines help prevent many serious [diseases].",
+            "translation_zh_TW": "疫苗有助於預防許多嚴重疾病"
+          },
+          {
+            "sentence": "Research is ongoing to find cures for this [disease].",
+            "translation_zh_TW": "研究仍在進行以找到這種疾病的治療方法"
+          }
+        ],
+        "synonyms": [
+          "illness",
+          "sickness",
+          "disorder"
+        ]
+      }
+    ],
+    "confusion": [
+      "diseased",
+      "dissolve",
+      "design",
+      "disease"
+    ]
+  },
+  {
+    "word": "exit",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A way out; an act of leaving.",
+        "meaning_zh_TW": "出口",
+        "wrong_meaning_zh_TW": [
+          "入口",
+          "停留",
+          "進入"
+        ],
+        "examples": [
+          {
+            "sentence": "Please locate the nearest [exit] in case of emergency.",
+            "translation_zh_TW": "請在緊急情況下找到最近的出口。"
+          },
+          {
+            "sentence": "The [exit] was blocked during the fire drill.",
+            "translation_zh_TW": "在消防演習期間，出口被阻塞了。"
+          },
+          {
+            "sentence": "You can find the [exit] signs throughout the building.",
+            "translation_zh_TW": "你可以在整棟建築中找到出口標誌。"
+          }
+        ],
+        "synonyms": [
+          "way out",
+          "egress"
+        ]
+      }
+    ],
+    "confusion": [
+      "exile",
+      "exile",
+      "excess",
+      "exhibit"
+    ]
+  },
+  {
+    "word": "well",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "In a good or satisfactory way.",
+        "meaning_zh_TW": "很好地",
+        "wrong_meaning_zh_TW": [
+          "不好地",
+          "糟糕地",
+          "勉強地"
+        ],
+        "examples": [
+          {
+            "sentence": "She sings very [well].",
+            "translation_zh_TW": "她唱得很好。"
+          },
+          {
+            "sentence": "He performed [well] on his exams.",
+            "translation_zh_TW": "他考試的表現很好。"
+          },
+          {
+            "sentence": "Everything is going [well] so far.",
+            "translation_zh_TW": "到目前為止一切都很順利。"
+          }
+        ],
+        "synonyms": [
+          "successfully",
+          "adequately"
+        ]
+      }
+    ],
+    "confusion": [
+      "well-being",
+      "weld",
+      "whale",
+      "whell"
+    ]
+  },
+  {
+    "word": "asleep",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "In a state of sleep.",
+        "meaning_zh_TW": "沉睡",
+        "wrong_meaning_zh_TW": [
+          "醒著",
+          "疲倦",
+          "昏迷"
+        ],
+        "examples": [
+          {
+            "sentence": "The baby is [asleep] in her crib.",
+            "translation_zh_TW": "嬰兒在搖籃裡沉睡"
+          },
+          {
+            "sentence": "He was still [asleep] when the alarm rang.",
+            "translation_zh_TW": "當鬧鐘響時，他仍然在沉睡"
+          },
+          {
+            "sentence": "The dog lay [asleep] by the fireplace.",
+            "translation_zh_TW": "狗躺在壁爐旁沉睡"
+          }
+        ],
+        "synonyms": [
+          "sleeping",
+          "unconscious"
+        ]
+      }
+    ],
+    "confusion": [
+      "asleeep",
+      "asleap",
+      "aslepp",
+      "asleap"
+    ]
+  },
+  {
+    "word": "want",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To have a desire to possess or do something.",
+        "meaning_zh_TW": "想要",
+        "wrong_meaning_zh_TW": [
+          "捨不得",
+          "推薦",
+          "獲得"
+        ],
+        "examples": [
+          {
+            "sentence": "I [want] to go to the beach.",
+            "translation_zh_TW": "我想要去海灘。"
+          },
+          {
+            "sentence": "She [wants] a new car.",
+            "translation_zh_TW": "她想要一輛新車。"
+          },
+          {
+            "sentence": "They [want] to learn more languages.",
+            "translation_zh_TW": "他們想要學習更多語言。"
+          }
+        ],
+        "synonyms": [
+          "desire",
+          "wish"
+        ]
+      }
+    ],
+    "confusion": [
+      "wont",
+      "wanting",
+      "waunt",
+      "haunt"
+    ]
+  }
+]
