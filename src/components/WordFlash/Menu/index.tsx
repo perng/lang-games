@@ -103,6 +103,19 @@ const rgbToHex = (r: number, g: number, b: number) => {
     }).join('');
 };
 
+const formatTitle = (title: string) => {
+    // Split the title into parts based on square brackets
+    const parts = title.split(/\[|\]/);
+    return parts.map((part, index) => {
+        // Even indices are normal text, odd indices are bold
+        return index % 2 === 0 ? (
+            <span key={index}>{part}</span>
+        ) : (
+            <strong key={index}>{part}</strong>
+        );
+    });
+};
+
 export default function WordFlashMenu() {
     const navigate = useNavigate();
     const [levels, setLevels] = useState<Level[]>([]);
@@ -228,21 +241,21 @@ export default function WordFlashMenu() {
                         <Link 
                             key={level.id} 
                             to={`/word-flash/${level.id}`} 
-                            className="level-card"
+                            className="level-item"
                             style={{
                                 '--bg-light': getBackgroundColors(level.progress ?? 0).light,
                                 '--bg-lighter': getBackgroundColors(level.progress ?? 0).lighter,
                                 '--progress-color': level.progress === 100 ? '#4CAF50' : '#2196f3',
                             } as React.CSSProperties}
                         >
-                            <div className="level-shape">
+                            <div className="level-number">
                                 {level.id.split('_').pop()}
                                 {level.progress === 100 && (
                                     <FaCheckCircle className="complete-check" />
                                 )}
                             </div>
-                            <div className="level-content">
-                                <p>{level.title}</p>
+                            <div className="level-info">
+                                <p className="level-title">{formatTitle(level.title)}</p>
                                 <div className="progress-bar">
                                     <div 
                                         className="progress-fill" 

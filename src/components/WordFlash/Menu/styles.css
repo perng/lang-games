@@ -40,39 +40,36 @@ header h1 {
 }
 
 .levels-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 
-.level-card {
+.level-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
     background: linear-gradient(135deg, 
         var(--bg-light) 0%, 
         var(--bg-lighter) 100%
     );
-    border-radius: 16px;
-    overflow: hidden;
+    border-radius: 12px;
     text-decoration: none;
     color: inherit;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: relative;
     border: 2px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 
-        0 4px 15px rgba(0, 0, 0, 0.05),
-        0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
 
-.level-card::before {
+.level-item::before {
     content: '';
     position: absolute;
     inset: 0;
-    border-radius: 16px;
+    border-radius: 12px;
     padding: 3px;
     background: linear-gradient(
         135deg,
@@ -92,48 +89,42 @@ header h1 {
     transition: opacity 0.3s ease;
 }
 
-.level-card:hover {
-    transform: translateY(-3px);
+.level-item:hover {
+    transform: translateX(8px);
     box-shadow: 
-        0 8px 20px rgba(0, 0, 0, 0.1),
-        0 2px 4px rgba(0, 0, 0, 0.05);
+        0 4px 15px rgba(0, 0, 0, 0.1),
+        0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.level-card:hover::before {
+.level-item:hover::before {
     opacity: 1;
-    box-shadow: 0 0 15px rgba(var(--progress-color), 0.3);
 }
 
-.level-shape {
+.level-number {
     width: 45px;
     height: 45px;
-    border-radius: 12px;
+    border-radius: 10px;
     background-color: var(--progress-color);
-    margin-bottom: 0.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-weight: bold;
     font-size: 1.25rem;
+    flex-shrink: 0;
+    position: relative;
     box-shadow: 
         0 4px 10px rgba(0, 0, 0, 0.1),
         inset 0 2px 4px rgba(255, 255, 255, 0.3);
-    transition: transform 0.3s ease;
-    position: relative;
 }
 
-.level-card:hover .level-shape {
-    transform: scale(1.1);
+.level-info {
+    flex-grow: 1;
+    min-width: 0; /* Allows text to truncate properly */
 }
 
-.level-content {
-    text-align: center;
-    width: 100%;
-}
-
-.level-content p {
-    margin: 0 0 0.75rem 0;
+.level-title {
+    margin: 0 0 0.5rem 0;
     font-size: 0.9rem;
     color: #666;
     line-height: 1.3;
@@ -226,4 +217,9 @@ header h1 {
     header h1 {
         font-size: 2rem;
     }
+}
+
+.level-title strong {
+    font-weight: 600;
+    color: #000;
 } 

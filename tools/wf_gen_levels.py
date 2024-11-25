@@ -10,7 +10,7 @@ def main():
         # Read the first word from each file
         with open(word_file, 'r', encoding='utf-8') as f:
             words = json.load(f)
-            first_word = words[0]['word'].capitalize()
+            first_word = words[0]['meanings'][0]['examples'][0]['sentence']
         
         # Create level entry
         level = {
