@@ -13,13 +13,94 @@ interface Level {
     progress?: number; // Optional since it comes from progress tracking
 }
 
-const getProgressState = (progress: number): string => {
-    if (progress === 0) return "0";
-    if (progress === 100) return "complete";
-    if (progress >= 75) return "high";
-    if (progress >= 50) return "medium";
-    if (progress >= 25) return "low";
-    return "very-low";
+const getBackgroundColors = (progress: number) => {
+    if (progress === 0) {
+        return {
+            light: '#f5f5f5',
+            lighter: '#ffffff'
+        };
+    }
+    
+    if (progress === 100) {
+        return {
+            light: '#e8f5e9',
+            lighter: '#f1f8f2'
+        };
+    }
+
+    // Create a color spectrum for backgrounds (using very light colors)
+    const colors = [
+        { percent: 0, light: '#ffebee', lighter: '#fff1f2' },    // Very light red
+        { percent: 25, light: '#fff3e0', lighter: '#fff8e7' },   // Very light orange
+        { percent: 50, light: '#fffde7', lighter: '#fffef2' },   // Very light yellow
+        { percent: 75, light: '#f1f8e9', lighter: '#f6faf0' },   // Very light green
+        { percent: 100, light: '#e8f5e9', lighter: '#f1f8f2' }   // Light green
+    ];
+
+    // Find the two colors to interpolate between
+    let startColor, endColor;
+    for (let i = 0; i < colors.length - 1; i++) {
+        if (progress >= colors[i].percent && progress <= colors[i + 1].percent) {
+            startColor = colors[i];
+            endColor = colors[i + 1];
+            break;
+        }
+    }
+
+    if (!startColor || !endColor) {
+        startColor = colors[0];
+        endColor = colors[1];
+    }
+
+    // Calculate the percentage between the two colors
+    const range = endColor.percent - startColor.percent;
+    const adjustedProgress = (progress - startColor.percent) / range;
+
+    return {
+        light: interpolateColor(startColor.light, endColor.light, adjustedProgress),
+        lighter: interpolateColor(startColor.lighter, endColor.lighter, adjustedProgress)
+    };
+};
+
+// Helper function to interpolate between two colors
+const interpolateColor = (color1: string, color2: string, factor: number) => {
+    const c1 = hexToRgb(color1);
+    const c2 = hexToRgb(color2);
+    
+    const r = Math.round(c1.r + (c2.r - c1.r) * factor);
+    const g = Math.round(c1.g + (c2.g - c1.g) * factor);
+    const b = Math.round(c1.b + (c2.b - c1.b) * factor);
+    
+    return rgbToHex(r, g, b);
+};
+
+// Helper function to adjust a color's brightness
+const adjustColor = (color: string, percent: number) => {
+    const { r, g, b } = hexToRgb(color);
+    const amount = Math.round(2.55 * percent);
+    
+    const nr = Math.min(255, Math.max(0, r + amount));
+    const ng = Math.min(255, Math.max(0, g + amount));
+    const nb = Math.min(255, Math.max(0, b + amount));
+    
+    return rgbToHex(nr, ng, nb);
+};
+
+// Helper functions for color conversion
+const hexToRgb = (hex: string) => {
+    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : { r: 0, g: 0, b: 0 };
+};
+
+const rgbToHex = (r: number, g: number, b: number) => {
+    return '#' + [r, g, b].map(x => {
+        const hex = x.toString(16);
+        return hex.length === 1 ? '0' + hex : hex;
+    }).join('');
 };
 
 export default function WordFlashMenu() {
@@ -148,7 +229,11 @@ export default function WordFlashMenu() {
                             key={level.id} 
                             to={`/word-flash/${level.id}`} 
                             className="level-card"
-                            data-progress={getProgressState(level.progress ?? 0)}
+                            style={{
+                                '--bg-light': getBackgroundColors(level.progress ?? 0).light,
+                                '--bg-lighter': getBackgroundColors(level.progress ?? 0).lighter,
+                                '--progress-color': level.progress === 100 ? '#4CAF50' : '#2196f3', // Use blue for progress bar
+                            } as React.CSSProperties}
                         >
                             <div className="level-shape">
                                 {level.progress === 100 && (

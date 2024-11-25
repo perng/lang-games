@@ -52,8 +52,8 @@ header h1 {
 
 .level-card {
     background: linear-gradient(135deg, 
-        var(--progress-color-light, #ffffff) 0%, 
-        var(--progress-color-lighter, #f8f9fa) 100%
+        var(--bg-light) 0%, 
+        var(--bg-lighter) 100%
     );
     border-radius: 16px;
     overflow: hidden;
@@ -69,7 +69,7 @@ header h1 {
     align-items: center;
     aspect-ratio: 1;
     position: relative;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .level-card::before {
@@ -97,8 +97,8 @@ header h1 {
         0 8px 20px rgba(0, 0, 0, 0.1),
         0 2px 4px rgba(0, 0, 0, 0.05);
     background: linear-gradient(135deg, 
-        var(--progress-color-lighter) 0%, 
-        var(--progress-color-light) 100%
+        var(--bg-lighter) 0%, 
+        var(--bg-light) 100%
     );
 }
 
@@ -156,49 +156,6 @@ header h1 {
     transition: width 0.4s ease;
     border-radius: 6px;
     background-color: var(--progress-color);
-}
-
-/* Progress-based card states with background gradients */
-.level-card[data-progress="0"] {
-    --progress-color: #808080;
-    --progress-color-dark: #666666;
-    --progress-color-light: #f5f5f5;
-    --progress-color-lighter: #ebebeb;
-}
-
-.level-card[data-progress="complete"] {
-    --progress-color: #4CAF50;
-    --progress-color-dark: #45a049;
-    --progress-color-light: #e8f5e9;
-    --progress-color-lighter: #c8e6c9;
-}
-
-.level-card[data-progress="high"] {
-    --progress-color: #90EE90;
-    --progress-color-dark: #7ed17e;
-    --progress-color-light: #f1f8e9;
-    --progress-color-lighter: #dcedc8;
-}
-
-.level-card[data-progress="medium"] {
-    --progress-color: #FFD700;
-    --progress-color-dark: #e6c200;
-    --progress-color-light: #fffde7;
-    --progress-color-lighter: #fff9c4;
-}
-
-.level-card[data-progress="low"] {
-    --progress-color: #FFA552;
-    --progress-color-dark: #ff8c1a;
-    --progress-color-light: #fff3e0;
-    --progress-color-lighter: #ffe0b2;
-}
-
-.level-card[data-progress="very-low"] {
-    --progress-color: #FF6B6B;
-    --progress-color-dark: #ff3838;
-    --progress-color-light: #ffebee;
-    --progress-color-lighter: #ffcdd2;
 }
 
 /* Completed state */
