@@ -232,17 +232,17 @@ export default function WordFlashMenu() {
                             style={{
                                 '--bg-light': getBackgroundColors(level.progress ?? 0).light,
                                 '--bg-lighter': getBackgroundColors(level.progress ?? 0).lighter,
-                                '--progress-color': level.progress === 100 ? '#4CAF50' : '#2196f3', // Use blue for progress bar
+                                '--progress-color': level.progress === 100 ? '#4CAF50' : '#2196f3',
                             } as React.CSSProperties}
                         >
                             <div className="level-shape">
+                                {level.id.split('_').pop()}
                                 {level.progress === 100 && (
                                     <FaCheckCircle className="complete-check" />
                                 )}
                             </div>
                             <div className="level-content">
-                                <h2>{level.title}</h2>
-                                <p>{level.description}</p>
+                                <p>{level.title}</p>
                                 <div className="progress-bar">
                                     <div 
                                         className="progress-fill" 
