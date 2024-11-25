@@ -1,27 +1,33 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { IoArrowBack } from 'react-icons/io5';
+import { useEffect, useState } from 'react';
 
 interface Level {
     id: string;
     title: string;
-    progress: number;
-    masteredMeanings: number;
-    totalMeanings: number;
+    description: string;
+    game_type: string;
+    wordFile: string;
+    progress?: number; // Optional since it comes from progress tracking
 }
 
 export default function WordFlashMenu() {
     const navigate = useNavigate();
-    
-    const generateLevels = (): Level[] => {
-        const totalLevels = 100;
-        return Array.from({ length: totalLevels }, (_, index) => ({
-            id: `word_flash_level_${index + 1}`,
-            title: `Level ${index + 1}`,
-            progress: 0, // This would come from your progress tracking system
-        }));
-    };
+    const [levels, setLevels] = useState<Level[]>([]);
+    const [isLoading, setIsLoading] = useState(true);
 
-    const levels = generateLevels();
+    useEffect(() => {
+        fetch('/data/WordFlash/levels.json')
+            .then(response => response.json())
+            .then(data => {
+                setLevels(data);
+                setIsLoading(false);
+            })
+            .catch(error => {
+                console.error('Error loading levels:', error);
+                setIsLoading(false);
+            });
+    }, []);
 
     return (
         <div className="word-flash-menu">
@@ -36,24 +42,29 @@ export default function WordFlashMenu() {
             </header>
 
             <main className="levels-container">
-                {levels.map(level => (
-                    <Link 
-                        key={level.id} 
-                        to={`/word-flash/${level.id}`} 
-                        className="level-card"
-                    >
-                        <div className="level-shape" />
-                        <div className="level-content">
-                            <h2>{level.title}</h2>
-                            <div className="progress-bar">
-                                <div 
-                                    className="progress-fill" 
-                                    style={{ width: `${level.progress}%` }}
-                                />
+                {isLoading ? (
+                    <div className="loading">Loading levels...</div>
+                ) : (
+                    levels.map(level => (
+                        <Link 
+                            key={level.id} 
+                            to={`/word-flash/${level.id}`} 
+                            className="level-card"
+                        >
+                            <div className="level-shape" />
+                            <div className="level-content">
+                                <h2>{level.title}</h2>
+                                <p>{level.description}</p>
+                                <div className="progress-bar">
+                                    <div 
+                                        className="progress-fill" 
+                                        style={{ width: `${level.progress ?? 0}%` }}
+                                    />
+                                </div>
                             </div>
-                        </div>
-                    </Link>
-                ))}
+                        </Link>
+                    ))
+                )}
             </main>
         </div>
     );

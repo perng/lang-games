@@ -33,21 +33,19 @@ interface WordFileData {
 
 // Add this helper function at the top level
 const loadWordFile = async (wordFile: string): Promise<WordFileData> => {
-    switch (wordFile) {
-        case 'word_flash_level_1.json':
-            return import('../../../data/WordFlash/word_flash_level_1.json') as Promise<WordFileData>;
-        case 'word_flash_level_2.json':
-            return import('../../../data/WordFlash/word_flash_level_2.json') as Promise<WordFileData>;
-        case 'word_flash_level_3.json':
-            return import('../../../data/WordFlash/word_flash_level_3.json') as Promise<WordFileData>;
-        case 'word_flash_level_4.json':
-            return import('../../../data/WordFlash/word_flash_level_4.json') as Promise<WordFileData>;
-        case 'word_flash_level_5.json':
-            return import('../../../data/WordFlash/word_flash_level_5.json') as Promise<WordFileData>;
-        case 'word_flash_level_6.json':
-            return import('../../../data/WordFlash/word_flash_level_6.json') as Promise<WordFileData>;
-        default:
-            throw new Error(`Unknown word file: ${wordFile}`);
+    // Extract the level number from the filename (e.g., "wf_level_001.json" -> "001")
+    const match = wordFile.match(/wf_level_(\d+)\.json/);
+    if (!match) {
+        throw new Error(`Invalid word file format: ${wordFile}`);
+    }
+
+    try {
+        // Pad the level number to 3 digits
+        const levelNumber = match[1].padStart(3, '0');
+        return import(`../../../data/WordFlash/wf_level_${levelNumber}.json`) as Promise<WordFileData>;
+    } catch (error) {
+        console.error(`Failed to load word file: ${wordFile}`, error);
+        throw new Error(`Failed to load word file: ${wordFile}`);
     }
 };
 
@@ -73,7 +71,7 @@ const getLevelData = (levelId: string): Level | null => {
     
     return {
         id: levelId,
-        wordFile: `word_flash_level_${levelNumber}.json`
+        wordFile: `wf_level_${levelNumber}.json`
     };
 };
 
@@ -212,7 +210,7 @@ export default function WordFlashGame() {
     // Play word when it changes
     useEffect(() => {
         if (hasUserInteracted && wordList.length > 0 && currentWord && levelId && !isProcessing) {
-            const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
+            const wordPath = `/voices/english/${currentWord.word}.mp3`;
             audioService.current?.playAudio(wordPath);
         }
     }, [currentIndex, hasUserInteracted, wordList.length, isProcessing]);
@@ -278,14 +276,14 @@ export default function WordFlashGame() {
         if (hasUserInteracted && audioService.current && levelId && !fastMode) {
             // Play Chinese definition
             const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)));
-            const definitionPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/chinese/${encodedDefinition}.mp3`;
+            const definitionPath = `/voices/chinese/${encodedDefinition}.mp3`;
             await audioService.current.playAudio(definitionPath);
             
             // Pause for 0.7 seconds
             await new Promise(resolve => setTimeout(resolve, 700));
             
             // Play word pronunciation
-            const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
+            const wordPath = `/voices/english/${currentWord.word}.mp3`;
             await audioService.current.playAudio(wordPath);
         }
         const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
@@ -362,7 +360,7 @@ export default function WordFlashGame() {
 
         // Then play the current word
         if (currentWord && levelId) {
-            const wordPath = `/voices/WordFlash/${levelId.replace('word_flash', 'vocab_hero')}/${currentWord.word}.mp3`;
+            const wordPath = `/voices/english/${currentWord.word}.mp3`;
             audioService.current?.playAudio(wordPath);
         }
     };
