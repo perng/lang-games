@@ -4,6 +4,8 @@ import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import { getStorageWithCookie, setStorage } from '../../../utils/storage';
 
+const PROGRESS_RECALC_FLAG = 'wf-312';
+
 interface Level {
     id: string;
     title: string;
@@ -152,7 +154,7 @@ export default function WordFlashMenu() {
             // Only proceed if:
             // 1. Levels are loaded (levels.length > 0)
             // 2. We haven't done this recalculation before (!getStorageWithCookie('wf-62'))
-            if (levels.length > 0 && !getStorageWithCookie('wf-62')) {
+            if (levels.length > 0 && !getStorageWithCookie(PROGRESS_RECALC_FLAG)) {
                 console.log('Recalculating progress for all levels...');
                 console.log('levels', levels);
                 
@@ -209,7 +211,7 @@ export default function WordFlashMenu() {
                 }
 
                 // Set flag to prevent future recalculations
-                setStorage('wf-62', 'true');
+                setStorage(PROGRESS_RECALC_FLAG, 'true');
                 console.log('Progress recalculation complete');
                 
                 // Update state with all the new progress values
