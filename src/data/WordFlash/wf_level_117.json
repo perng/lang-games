@@ -1,782 +1,761 @@
 [
   {
-    "word": "receiver",
+    "word": "track",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person or device that receives something.",
-        "meaning_zh_TW": "接收器、接受者",
+        "meaning_en_US": "A prepared course for athletes, usually in a stadium.",
+        "meaning_zh_TW": "追蹤",
         "wrong_meaning_zh_TW": [
-          "發送者",
-          "傳輸器",
-          "控制器"
+          "隱藏",
+          "改變",
+          "擺放"
         ],
         "examples": [
           {
-            "sentence": "She is the designated [receiver] of the package.",
-            "translation_zh_TW": "她是包裹的指定接收者"
+            "sentence": "The runners lined up on the [track].",
+            "translation_zh_TW": "跑步者們站在跑道上。"
           },
           {
-            "sentence": "The television [receiver] must be turned on to watch channels.",
-            "translation_zh_TW": "必須打開電視接收器才能觀看頻道"
+            "sentence": "He enjoys jogging on the local [track].",
+            "translation_zh_TW": "他喜歡在當地的跑道上慢跑。"
           },
           {
-            "sentence": "In communication systems, the [receiver] processes the incoming signals.",
-            "translation_zh_TW": "在通信系統中，接收器處理進來的信號"
+            "sentence": "The [track] was wet from the rain.",
+            "translation_zh_TW": "跑道因雨而潮濕。"
           }
         ],
         "synonyms": [
-          "recipient",
-          "acceptor",
-          "intercepting device"
+          "course",
+          "path"
+        ]
+      },
+      {
+        "type": "動詞",
+        "meaning_en_US": "To follow the course or trail of something.",
+        "meaning_zh_TW": "追蹤",
+        "wrong_meaning_zh_TW": [
+          "隱藏",
+          "改變",
+          "擺放"
+        ],
+        "examples": [
+          {
+            "sentence": "The detective had to [track] down the thief.",
+            "translation_zh_TW": "偵探必須追蹤小偷。"
+          },
+          {
+            "sentence": "She used her phone to [track] her location.",
+            "translation_zh_TW": "她用手機追蹤自己的位置。"
+          },
+          {
+            "sentence": "We can [track] our progress with this app.",
+            "translation_zh_TW": "我們可以用這個應用程式追蹤我們的進度。"
+          }
+        ],
+        "synonyms": [
+          "trace",
+          "follow"
         ]
       }
     ],
     "confusion": [
-      "reciever",
-      "recevier",
-      "receiver ",
-      "recover"
+      "tack",
+      "trackless",
+      "trick",
+      "tackling"
     ]
   },
   {
-    "word": "accuse",
+    "word": "suicide",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The act of intentionally causing one's own death.",
+        "meaning_zh_TW": "自殺",
+        "wrong_meaning_zh_TW": [
+          "自我提升",
+          "自我保護",
+          "勇氣"
+        ],
+        "examples": [
+          {
+            "sentence": "He spoke about the stigma surrounding [suicide].",
+            "translation_zh_TW": "他談到了圍繞自殺的污名"
+          },
+          {
+            "sentence": "Support groups exist to help those affected by [suicide].",
+            "translation_zh_TW": "存在支持小組以幫助受到自殺影響的人"
+          },
+          {
+            "sentence": "Preventing [suicide] is a crucial part of mental health care.",
+            "translation_zh_TW": "預防自殺是心理健康護理的重要部分"
+          }
+        ],
+        "synonyms": [
+          "self-harm",
+          "self-inflicted death"
+        ]
+      }
+    ],
+    "confusion": [
+      "sucid",
+      "suicde",
+      "suitcase",
+      "usb"
+    ]
+  },
+  {
+    "word": "tour",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A journey for pleasure in which several different places are visited.",
+        "meaning_zh_TW": "旅遊",
+        "wrong_meaning_zh_TW": [
+          "旅行社",
+          "交通工具",
+          "行李"
+        ],
+        "examples": [
+          {
+            "sentence": "They went on a [tour] of Europe last summer.",
+            "translation_zh_TW": "他們去年夏天進行了歐洲之旅。"
+          },
+          {
+            "sentence": "The museum offers a guided [tour] every Saturday.",
+            "translation_zh_TW": "那個博物館每週六提供導覽旅遊。"
+          },
+          {
+            "sentence": "He booked a [tour] to see the ancient ruins.",
+            "translation_zh_TW": "他預訂了一個旅行去參觀古代遺跡。"
+          }
+        ],
+        "synonyms": [
+          "excursion",
+          "trip"
+        ]
+      }
+    ],
+    "confusion": [
+      "tore",
+      "touring",
+      "tor",
+      "tourist"
+    ]
+  },
+  {
+    "word": "buffalo",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large, horned mammal found in North America, also known as bison.",
+        "meaning_zh_TW": "水牛",
+        "wrong_meaning_zh_TW": [
+          "馬",
+          "鹿",
+          "老虎"
+        ],
+        "examples": [
+          {
+            "sentence": "The [buffalo] roamed freely across the plains.",
+            "translation_zh_TW": "水牛在平原上自由走動"
+          },
+          {
+            "sentence": "Buffalo are known for their shaggy fur.",
+            "translation_zh_TW": "水牛以其毛茸茸的毛髮而聞名"
+          },
+          {
+            "sentence": "In the past, the [buffalo] was vital to the Native Americans.",
+            "translation_zh_TW": "在過去，水牛對美國原住民至關重要"
+          }
+        ],
+        "synonyms": [
+          "bison",
+          "buffalo bison"
+        ]
+      }
+    ],
+    "confusion": [
+      "buffalu",
+      "buffelo",
+      "bufflao",
+      "bafalo"
+    ]
+  },
+  {
+    "word": "typhoon",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A tropical cyclone occurring in the western Pacific or Indian Oceans.",
+        "meaning_zh_TW": "颱風",
+        "wrong_meaning_zh_TW": [
+          "熱帶風暴",
+          "地震",
+          "颶風"
+        ],
+        "examples": [
+          {
+            "sentence": "The [typhoon] caused significant damage to the coastal cities.",
+            "translation_zh_TW": "颱風對沿海城市造成了重大損失。"
+          },
+          {
+            "sentence": "People evacuated their homes before the [typhoon] hit.",
+            "translation_zh_TW": "人們在颱風來之前撤離了家園。"
+          },
+          {
+            "sentence": "The forecast warned of a powerful [typhoon] approaching the area.",
+            "translation_zh_TW": "預報警告一場強烈的颱風正逼近該地區。"
+          }
+        ],
+        "synonyms": [
+          "hurricane",
+          "cyclone"
+        ]
+      }
+    ],
+    "confusion": [
+      "typhoonic",
+      "typhooned",
+      "typhoid",
+      "typical"
+    ]
+  },
+  {
+    "word": "barely",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "By a small margin; only just.",
+        "meaning_zh_TW": "勉強地",
+        "wrong_meaning_zh_TW": [
+          "輕易地",
+          "隨意地",
+          "愉快地"
+        ],
+        "examples": [
+          {
+            "sentence": "She [barely] passed the exam.",
+            "translation_zh_TW": "她勉強通過了考試。"
+          },
+          {
+            "sentence": "I can [barely] hear you.",
+            "translation_zh_TW": "我勉強能聽見你。"
+          },
+          {
+            "sentence": "They [barely] made it to the train on time.",
+            "translation_zh_TW": "他們勉強按時趕上了火車。"
+          }
+        ],
+        "synonyms": [
+          "hardly",
+          "scarcely"
+        ]
+      }
+    ],
+    "confusion": [
+      "barley",
+      "bare",
+      "barkley",
+      "beeley"
+    ]
+  },
+  {
+    "word": "mushroom",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A fungus that typically grows in a rounded cap on a stalk.",
+        "meaning_zh_TW": "蘑菇",
+        "wrong_meaning_zh_TW": [
+          "木頭",
+          "石頭",
+          "花瓣"
+        ],
+        "examples": [
+          {
+            "sentence": "We found a [mushroom] in the forest.",
+            "translation_zh_TW": "我們在森林裡找到了一個蘑菇"
+          },
+          {
+            "sentence": "Mushrooms can be used in various dishes.",
+            "translation_zh_TW": "蘑菇可以用於各種菜餚中"
+          },
+          {
+            "sentence": "She enjoys picking [mushrooms] during the fall.",
+            "translation_zh_TW": "她在秋天喜歡採摘蘑菇"
+          }
+        ],
+        "synonyms": [
+          "fungus",
+          "toadstool"
+        ]
+      }
+    ],
+    "confusion": [
+      "mushrooming",
+      "mushrom",
+      "mushrum",
+      "mustroom"
+    ]
+  },
+  {
+    "word": "buzz",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To charge someone with an offense or crime.",
-        "meaning_zh_TW": "指控",
+        "meaning_en_US": "To make a low, continuous humming sound.",
+        "meaning_zh_TW": "發出嗡嗡聲",
         "wrong_meaning_zh_TW": [
-          "贊美",
-          "鼓勵",
-          "保護"
+          "靜音",
+          "安靜",
+          "沉默"
         ],
         "examples": [
           {
-            "sentence": "The lawyer decided to [accuse] the suspect in court.",
-            "translation_zh_TW": "律師決定在法庭上指控嫌疑人"
+            "sentence": "Bees [buzz] around the flowers in the garden.",
+            "translation_zh_TW": "蜜蜂在花園裡的花朵間嗡嗡作響。"
           },
           {
-            "sentence": "She didn't want to [accuse] him without proof.",
-            "translation_zh_TW": "她不想在沒有證據的情況下指控他"
+            "sentence": "I could hear the [buzz] of the city from my apartment.",
+            "translation_zh_TW": "我能聽到公寓外城市的嗡嗡聲。"
           },
           {
-            "sentence": "They were quick to [accuse] anyone who disagreed.",
-            "translation_zh_TW": "他們對任何不同意見的人都很快指控"
+            "sentence": "The excitement in the room began to [buzz] with energy.",
+            "translation_zh_TW": "房間裡的興奮感開始散發出嗡嗡的能量。"
           }
         ],
         "synonyms": [
-          "charge",
-          "blame"
+          "hum",
+          "drone"
         ]
       }
     ],
     "confusion": [
-      "excuse",
-      "recuse",
-      "accused",
-      "accuser"
+      "buzzard",
+      "buzzy",
+      "buz",
+      "buss"
     ]
   },
   {
-    "word": "marvelous",
+    "word": "dinosaur",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Causing great wonder; astonishing.",
-        "meaning_zh_TW": "驚人的",
+        "type": "名詞",
+        "meaning_en_US": "A group of reptiles that first appeared during the late Triassic period, and were the dominant terrestrial vertebrates for over 160 million years.",
+        "meaning_zh_TW": "恐龍",
         "wrong_meaning_zh_TW": [
-          "普通的",
-          "平凡的",
-          "無聊的"
+          "翼龍",
+          "古代爬行動物",
+          "大型灌木"
         ],
         "examples": [
           {
-            "sentence": "The performance was truly marvelous.",
-            "translation_zh_TW": "表演真的很驚人。"
+            "sentence": "The museum has a skeleton of a [dinosaur].",
+            "translation_zh_TW": "博物館有一具恐龍的骨架"
           },
           {
-            "sentence": "She had a marvelous time at the party.",
-            "translation_zh_TW": "她在派對上度過了驚人的時光。"
+            "sentence": "Children are fascinated by [dinosaurs].",
+            "translation_zh_TW": "孩子們對恐龍充滿好奇"
           },
           {
-            "sentence": "This painting is absolutely marvelous.",
-            "translation_zh_TW": "這幅畫真的是驚人。"
+            "sentence": "Many [dinosaurs] became extinct millions of years ago.",
+            "translation_zh_TW": "許多恐龍在數百萬年前已經滅絕"
           }
         ],
         "synonyms": [
-          "wonderful",
-          "fantastic"
+          "reptile",
+          "prehistoric creature"
         ]
       }
     ],
     "confusion": [
-      "marvel",
-      "marvelousness",
-      "marvely",
-      "marvellos"
+      "dinosaurian",
+      "dinasaur",
+      "dinosaurs",
+      "dinosour"
     ]
   },
   {
-    "word": "adopt",
+    "word": "exchange",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To take on or accept an idea, plan, or way of doing something.",
-        "meaning_zh_TW": "採取、接受",
+        "meaning_en_US": "To give something and receive something of the same kind in return.",
+        "meaning_zh_TW": "交換、互換",
         "wrong_meaning_zh_TW": [
-          "拒絕、不理",
-          "生育、產下",
-          "放棄、丟棄"
+          "保留",
+          "抵抗",
+          "隱藏"
         ],
         "examples": [
           {
-            "sentence": "They decided to [adopt] a new policy.",
-            "translation_zh_TW": "他們決定採取新的政策"
+            "sentence": "They decided to [exchange] gifts at the party.",
+            "translation_zh_TW": "他們決定在派對上互換禮物。"
           },
           {
-            "sentence": "He wants to [adopt] a child.",
-            "translation_zh_TW": "他想收養一個孩子"
+            "sentence": "It's common to [exchange] pleasantries in social situations.",
+            "translation_zh_TW": "在社交場合互致問候是很常見的。"
           },
           {
-            "sentence": "Many companies [adopt] new technologies.",
-            "translation_zh_TW": "許多公司採用新技術"
+            "sentence": "The students will [exchange] ideas during the workshop.",
+            "translation_zh_TW": "學生們在研討會上會互換想法。"
           }
         ],
         "synonyms": [
-          "embrace",
-          "accept"
+          "swap",
+          "trade"
         ]
       }
     ],
     "confusion": [
-      "adopted",
-      "adapt",
-      "dopt",
-      "oppose"
+      "exchanging",
+      "exclaim",
+      "experience",
+      "exceed"
     ]
   },
   {
-    "word": "applicant",
+    "word": "assemble",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A person who applies for something, such as a job or admission to a school.",
-        "meaning_zh_TW": "申請人",
+        "type": "動詞",
+        "meaning_en_US": "To bring together or gather into one place; to form a whole.",
+        "meaning_zh_TW": "組裝、集合",
         "wrong_meaning_zh_TW": [
-          "審核人",
-          "教導者",
-          "顧問"
+          "拆解、分開",
+          "分散、解散",
+          "壞掉、毀壞"
         ],
         "examples": [
           {
-            "sentence": "The [applicant] was well-prepared for the interview.",
-            "translation_zh_TW": "申請人對面試做好了充分準備"
+            "sentence": "They will [assemble] the parts of the machine tomorrow.",
+            "translation_zh_TW": "他們明天會組裝這台機器的零件。"
           },
           {
-            "sentence": "Each [applicant] must submit their resume.",
-            "translation_zh_TW": "每位申請人必須提交他們的履歷"
+            "sentence": "We need to [assemble] before the event starts.",
+            "translation_zh_TW": "活動開始之前我們需要集合。"
           },
           {
-            "sentence": "The [applicant] has extensive experience in the field.",
-            "translation_zh_TW": "該申請人在該領域有豐富的經驗"
+            "sentence": "The committee will [assemble] new guidelines.",
+            "translation_zh_TW": "委員會將會組織新的準則。"
           }
         ],
         "synonyms": [
-          "candidate",
-          "seeker"
+          "gather",
+          "convene"
         ]
       }
     ],
     "confusion": [
-      "apply",
-      "applicator",
-      "appliance",
-      "applicate"
+      "assembley",
+      "assmble",
+      "asamble",
+      "assmbl"
     ]
   },
   {
-    "word": "similarity",
+    "word": "import",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "The state of being similar to something else.",
-        "meaning_zh_TW": "相似性，類似",
+        "type": "動詞",
+        "meaning_en_US": "To bring goods or services into a country from abroad for sale.",
+        "meaning_zh_TW": "進口.",
         "wrong_meaning_zh_TW": [
-          "對比",
-          "差異",
-          "獨特性"
+          "進步",
+          "報導",
+          "假設"
         ],
         "examples": [
           {
-            "sentence": "There is a [similarity] between the two paintings.",
-            "translation_zh_TW": "這兩幅畫之間有相似性"
+            "sentence": "We need to [import] more raw materials for production.",
+            "translation_zh_TW": "我們需要進口更多的原材料以供生產。"
           },
           {
-            "sentence": "The study analyzed the [similarity] of behaviors.",
-            "translation_zh_TW": "這項研究分析了行為的相似性"
+            "sentence": "The government imposed tariffs on goods that are [imported].",
+            "translation_zh_TW": "政府對進口的商品徵收關稅。"
           },
           {
-            "sentence": "We noticed a [similarity] in their speech patterns.",
-            "translation_zh_TW": "我們注意到他們的語言模式有相似性"
+            "sentence": "Many countries [import] luxury items from Europe.",
+            "translation_zh_TW": "許多國家從歐洲進口奢侈品。"
           }
         ],
         "synonyms": [
-          "likeness",
-          "resemblance"
+          "bring in",
+          "purchase from abroad"
         ]
       }
     ],
     "confusion": [
-      "similarities",
-      "similarly",
-      "simile",
-      "similiarty"
+      "export",
+      "impart",
+      "importer",
+      "impost"
     ]
   },
   {
-    "word": "staff",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A group of people who work for an organization.",
-        "meaning_zh_TW": "工作人員",
-        "wrong_meaning_zh_TW": [
-          "客戶",
-          "顧問",
-          "供應商"
-        ],
-        "examples": [
-          {
-            "sentence": "The [staff] organized the event successfully.",
-            "translation_zh_TW": "工作人員成功地組織了活動。"
-          },
-          {
-            "sentence": "Every [staff] member contributed to the project.",
-            "translation_zh_TW": "每位工作人員對這個項目都有貢獻。"
-          },
-          {
-            "sentence": "The hospital has a dedicated [staff] for patient care.",
-            "translation_zh_TW": "醫院有專門的工作人員負責病人護理。"
-          }
-        ],
-        "synonyms": [
-          "personnel",
-          "employees"
-        ]
-      }
-    ],
-    "confusion": [
-      "staf",
-      "stafF",
-      "staffing",
-      "stafc"
-    ]
-  },
-  {
-    "word": "mental",
+    "word": "vacant",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Relating to the mind or mental processes.",
-        "meaning_zh_TW": "心理的",
+        "meaning_en_US": "Having no fixtures, furniture, or inhabitants; empty.",
+        "meaning_zh_TW": "空的、未佔用的",
         "wrong_meaning_zh_TW": [
-          "物理的",
-          "社會的",
-          "實質的"
+          "忙碌的、擁擠的",
+          "富裕的、豪華的",
+          "整齊的、乾淨的"
         ],
         "examples": [
           {
-            "sentence": "He faced several [mental] challenges during his recovery.",
-            "translation_zh_TW": "在康復過程中，他面對了幾個心理挑戰"
+            "sentence": "The vacant lot became a community garden.",
+            "translation_zh_TW": "那片空地變成了一個社區花園。"
           },
           {
-            "sentence": "The course focuses on [mental] well-being.",
-            "translation_zh_TW": "這門課程專注於心理健康"
+            "sentence": "They found a vacant seat at the back of the bus.",
+            "translation_zh_TW": "他們在公交車的後面找到了空位。"
           },
           {
-            "sentence": "Taking breaks is important for [mental] health.",
-            "translation_zh_TW": "休息對心理健康很重要"
+            "sentence": "Please let me know if you find a vacant room.",
+            "translation_zh_TW": "如果你找到空房間，請告訴我。"
           }
         ],
         "synonyms": [
-          "cognitive",
-          "psychological"
+          "empty",
+          "unoccupied",
+          "available"
         ]
       }
     ],
     "confusion": [
-      "metal",
-      "medial",
-      "mend",
-      "mentalities"
+      "vacate",
+      "vague",
+      "vaccant",
+      "vacun"
     ]
   },
   {
-    "word": "cone",
+    "word": "fade",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To gradually grow faint and disappear.",
+        "meaning_zh_TW": "消退",
+        "wrong_meaning_zh_TW": [
+          "聚集",
+          "增強",
+          "持續"
+        ],
+        "examples": [
+          {
+            "sentence": "The colors began to [fade] with time.",
+            "translation_zh_TW": "顏色隨著時間的推移開始消退"
+          },
+          {
+            "sentence": "The sound began to [fade] into silence.",
+            "translation_zh_TW": "聲音開始消退成為寂靜"
+          },
+          {
+            "sentence": "Feelings of sadness might [fade] away with support.",
+            "translation_zh_TW": "悲傷的感覺可能會隨著支持而消退"
+          }
+        ],
+        "synonyms": [
+          "diminish",
+          "dwindle"
+        ]
+      }
+    ],
+    "confusion": [
+      "fadeout",
+      "faded",
+      "fader",
+      "fadeaway"
+    ]
+  },
+  {
+    "word": "disc",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A three-dimensional geometric shape with a circular base tapering to a point.",
-        "meaning_zh_TW": "圓錐",
+        "meaning_en_US": "A flat, round object that is often used for storage or music.",
+        "meaning_zh_TW": "圓盤",
         "wrong_meaning_zh_TW": [
+          "圓環",
           "圓柱",
-          "方形",
-          "球體"
+          "錄音帶"
         ],
         "examples": [
           {
-            "sentence": "The ice cream was served in a waffle [cone].",
-            "translation_zh_TW": "冰淇淋放在華夫餅圓錐裡"
+            "sentence": "She played the music from the [disc].",
+            "translation_zh_TW": "她從唱片播放音樂。"
           },
           {
-            "sentence": "He drew a [cone] to illustrate the concept.",
-            "translation_zh_TW": "他畫了一個圓錐來說明這個概念"
+            "sentence": "The [disc] contains important files.",
+            "translation_zh_TW": "這個光碟包含重要文件。"
           },
           {
-            "sentence": "Traffic cones are placed to direct vehicles.",
-            "translation_zh_TW": "交通圓錐放置以指導車輛行駛"
+            "sentence": "His favorite band released a new [disc].",
+            "translation_zh_TW": "他最喜愛的樂隊發行了一張新唱片。"
           }
         ],
         "synonyms": [
-          "pyramid",
-          "tapered shape"
+          "disk"
         ]
       }
     ],
     "confusion": [
-      "conehead",
-      "coney",
-      "corner",
-      "coning"
+      "disk",
+      "discouraged",
+      "disco",
+      "discuss"
     ]
   },
   {
-    "word": "process",
+    "word": "journey",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A series of actions or steps taken to achieve a particular end.",
-        "meaning_zh_TW": "過程",
+        "meaning_en_US": "An act of traveling from one place to another.",
+        "meaning_zh_TW": "旅程",
         "wrong_meaning_zh_TW": [
-          "結果",
-          "目標",
-          "結局"
+          "冒險",
+          "旅行社",
+          "地圖"
         ],
         "examples": [
           {
-            "sentence": "The [process] of making bread takes several hours.",
-            "translation_zh_TW": "製作麵包的過程需要幾個小時。"
+            "sentence": "Her [journey] took her across many countries.",
+            "translation_zh_TW": "她的旅程帶她穿越了許多國家"
           },
           {
-            "sentence": "We need to streamline the [process] to improve efficiency.",
-            "translation_zh_TW": "我們需要簡化這個過程以提高效率。"
+            "sentence": "Every [journey] teaches us something new.",
+            "translation_zh_TW": "每一段旅程都教會我們一些新的東西"
           },
           {
-            "sentence": "Learning a new language is a long [process].",
-            "translation_zh_TW": "學習一門新語言是一個漫長的過程。"
+            "sentence": "He documented his [journey] in a fascinating blog.",
+            "translation_zh_TW": "他在一個迷人的部落格中記錄下他的旅程"
           }
         ],
         "synonyms": [
-          "procedure",
-          "method"
+          "trip",
+          "voyage"
         ]
       }
     ],
     "confusion": [
-      "proccess",
-      "proces",
-      "proccessing",
-      "processes"
+      "journeys",
+      "journeying",
+      "jurney",
+      "journii"
     ]
   },
   {
-    "word": "workbook",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A book containing practice problems and exercises for learning.",
-        "meaning_zh_TW": "練習本",
-        "wrong_meaning_zh_TW": [
-          "字典",
-          "手冊",
-          "手機"
-        ],
-        "examples": [
-          {
-            "sentence": "Students use a [workbook] to practice their math skills.",
-            "translation_zh_TW": "學生們使用練習本來練習數學技能"
-          },
-          {
-            "sentence": "The [workbook] has many exercises for the students.",
-            "translation_zh_TW": "這本練習本有很多供學生做的練習"
-          },
-          {
-            "sentence": "He completed the exercises in his [workbook].",
-            "translation_zh_TW": "他完成了練習本上的練習"
-          }
-        ],
-        "synonyms": [
-          "exercise book",
-          "practice book"
-        ]
-      }
-    ],
-    "confusion": [
-      "workbooklet",
-      "workpad",
-      "workstation",
-      "workbox"
-    ]
-  },
-  {
-    "word": "additional",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Added, extra, or supplementary.",
-        "meaning_zh_TW": "額外的、附加的",
-        "wrong_meaning_zh_TW": [
-          "缺少的",
-          "基本的",
-          "必要的"
-        ],
-        "examples": [
-          {
-            "sentence": "We require [additional] information for the application.",
-            "translation_zh_TW": "我們需要額外的資訊來完成申請。"
-          },
-          {
-            "sentence": "Please provide [additional] details about the project.",
-            "translation_zh_TW": "請提供有關該項目的額外細節。"
-          },
-          {
-            "sentence": "There is an [additional] fee for the service.",
-            "translation_zh_TW": "該服務有額外的費用。"
-          }
-        ],
-        "synonyms": [
-          "extra",
-          "supplementary"
-        ]
-      }
-    ],
-    "confusion": [
-      "addtional",
-      "addional",
-      "adittional",
-      "additonal"
-    ]
-  },
-  {
-    "word": "citizen",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A legally recognized subject or national of a state.",
-        "meaning_zh_TW": "公民",
-        "wrong_meaning_zh_TW": [
-          "居民",
-          "外來者",
-          "遊客"
-        ],
-        "examples": [
-          {
-            "sentence": "Every [citizen] has the right to vote.",
-            "translation_zh_TW": "每位公民都有投票權。"
-          },
-          {
-            "sentence": "As a [citizen], she is proud to serve her country.",
-            "translation_zh_TW": "作為一名公民，她為能服務國家感到自豪。"
-          },
-          {
-            "sentence": "He fulfilled his duties as a [citizen].",
-            "translation_zh_TW": "他履行了作為公民的責任。"
-          }
-        ],
-        "synonyms": [
-          "national",
-          "denizen"
-        ]
-      }
-    ],
-    "confusion": [
-      "citadel",
-      "citen",
-      "citron",
-      "cityzen"
-    ]
-  },
-  {
-    "word": "lily",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A type of flowering plant with large, prominent flowers.",
-        "meaning_zh_TW": "百合花",
-        "wrong_meaning_zh_TW": [
-          "玫瑰",
-          "雛菊",
-          "向日葵"
-        ],
-        "examples": [
-          {
-            "sentence": "She arranged the [lily] in a beautiful bouquet.",
-            "translation_zh_TW": "她把百合花安排成一束美麗的花卉。"
-          },
-          {
-            "sentence": "The [lily] is known for its fragrant blooms.",
-            "translation_zh_TW": "百合以其芬芳的花朵而聞名。"
-          },
-          {
-            "sentence": "In spring, the [lily] garden is in full bloom.",
-            "translation_zh_TW": "春天時，百合花園盛開。"
-          }
-        ],
-        "synonyms": [
-          "flower",
-          "blossom"
-        ]
-      }
-    ],
-    "confusion": [
-      "lily's",
-      "lilies",
-      "lilac",
-      "lilied"
-    ]
-  },
-  {
-    "word": "trick",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A crafty or cunning action meant to deceive others.",
-        "meaning_zh_TW": "把戲",
-        "wrong_meaning_zh_TW": [
-          "遊戲",
-          "活動",
-          "工作"
-        ],
-        "examples": [
-          {
-            "sentence": "He performed a magic [trick] at the party.",
-            "translation_zh_TW": "他在派對上表演了一個魔術把戲"
-          },
-          {
-            "sentence": "She learned a [trick] to solve the puzzle faster.",
-            "translation_zh_TW": "她學會了一個更快解謎的把戲"
-          },
-          {
-            "sentence": "The prank was just a harmless [trick].",
-            "translation_zh_TW": "這個惡作劇只是一個無害的把戲"
-          }
-        ],
-        "synonyms": [
-          "deception",
-          "ruse"
-        ]
-      }
-    ],
-    "confusion": [
-      "tricks",
-      "trike",
-      "trikk",
-      "tick"
-    ]
-  },
-  {
-    "word": "faith",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Complete trust or confidence in someone or something.",
-        "meaning_zh_TW": "信任、信心",
-        "wrong_meaning_zh_TW": [
-          "懷疑",
-          "恐懼",
-          "冷漠"
-        ],
-        "examples": [
-          {
-            "sentence": "She has a strong [faith] in her abilities.",
-            "translation_zh_TW": "她對自己的能力充滿信心"
-          },
-          {
-            "sentence": "He lost his [faith] in the system.",
-            "translation_zh_TW": "他對這個制度失去了信任"
-          },
-          {
-            "sentence": "Faith is important for personal growth.",
-            "translation_zh_TW": "信任對於個人成長是重要的"
-          }
-        ],
-        "synonyms": [
-          "trust",
-          "belief"
-        ]
-      }
-    ],
-    "confusion": [
-      "fifth",
-      "fate",
-      "faithful",
-      "faithless"
-    ]
-  },
-  {
-    "word": "bless",
+    "word": "chill",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To confer divine favor or protection.",
-        "meaning_zh_TW": "祝福",
+        "meaning_en_US": "To become or make cool or cooler.",
+        "meaning_zh_TW": "冷卻",
         "wrong_meaning_zh_TW": [
-          "詛咒",
-          "惡作劇",
-          "譴責"
+          "加熱",
+          "煮熟",
+          "融化"
         ],
         "examples": [
           {
-            "sentence": "May you be [blessed] with happiness and health.",
-            "translation_zh_TW": "願你獲得快樂和健康的祝福"
+            "sentence": "Please [chill] the drinks before serving.",
+            "translation_zh_TW": "請在上菜前冷卻飲料"
           },
           {
-            "sentence": "The priest will [bless] the congregation.",
-            "translation_zh_TW": "牧師將祝福會眾"
+            "sentence": "He likes to [chill] at home on weekends.",
+            "translation_zh_TW": "他喜歡在週末在家放鬆"
           },
           {
-            "sentence": "She felt [blessed] to have such wonderful friends.",
-            "translation_zh_TW": "她覺得擁有如此美好的朋友是她的祝福"
+            "sentence": "Don't forget to [chill] the dessert.",
+            "translation_zh_TW": "不要忘記冷卻甜點"
           }
         ],
         "synonyms": [
-          "sanctify",
-          "consecrate"
+          "cool",
+          "freeze"
         ]
       }
     ],
     "confusion": [
-      "blessful",
-      "blessings",
-      "blessedly",
-      "blest"
+      "chillai",
+      "chilled",
+      "chillout",
+      "chile"
     ]
   },
   {
-    "word": "misery",
+    "word": "summit",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A state or feeling of great distress or discomfort.",
-        "meaning_zh_TW": "極大的痛苦",
+        "meaning_en_US": "The highest point or peak, especially of a mountain.",
+        "meaning_zh_TW": "山峰、頂點",
         "wrong_meaning_zh_TW": [
-          "快樂的時刻",
-          "興奮的體驗",
-          "幸福的生活"
+          "河流",
+          "教堂",
+          "城市"
         ],
         "examples": [
           {
-            "sentence": "He lived in [misery] after losing his job.",
-            "translation_zh_TW": "失去工作後，他過著痛苦的生活"
+            "sentence": "We reached the [summit] after a long hike.",
+            "translation_zh_TW": "經過長途跋涉，我們終於到達了山峰。"
           },
           {
-            "sentence": "Many people experience [misery] due to poverty.",
-            "translation_zh_TW": "由於貧困，許多人都經歷了痛苦"
+            "sentence": "The conference will hold a [summit] of world leaders.",
+            "translation_zh_TW": "會議將舉行一場世界領袖高峰會。"
           },
           {
-            "sentence": "The book describes the character's [misery].",
-            "translation_zh_TW": "這本書描述了角色的痛苦"
+            "sentence": "Standing at the [summit], I felt a great sense of achievement.",
+            "translation_zh_TW": "站在頂端，我感受到巨大的成就感。"
           }
         ],
         "synonyms": [
-          "suffering",
-          "distress"
+          "peak",
+          "apex",
+          "top"
         ]
-      }
-    ],
-    "confusion": [
-      "miser",
-      "miserably",
-      "misere",
-      "missery"
-    ]
-  },
-  {
-    "word": "stubborn",
-    "meanings": [
+      },
       {
-        "type": "形容詞",
-        "meaning_en_US": "Having or showing dogged determination not to change one's attitude or position on something.",
-        "meaning_zh_TW": "固執的",
+        "type": "名詞",
+        "meaning_en_US": "A meeting or conference of leaders or experts.",
+        "meaning_zh_TW": "高峰會議",
         "wrong_meaning_zh_TW": [
-          "聰明的",
-          "無聊的",
-          "懦弱的"
+          "演講",
+          "旅游",
+          "聚會"
         ],
         "examples": [
           {
-            "sentence": "He remained [stubborn] despite all the evidence.",
-            "translation_zh_TW": "儘管所有的證據，他仍然固執。"
+            "sentence": "The [summit] focused on climate change initiatives.",
+            "translation_zh_TW": "高峰會議專注於氣候變遷計畫。"
           },
           {
-            "sentence": "Her [stubborn] nature often leads to conflicts.",
-            "translation_zh_TW": "她固執的性格常常導致衝突。"
+            "sentence": "Attendees discussed various issues during the [summit].",
+            "translation_zh_TW": "與會者在高峰會議期間討論了各種問題。"
           },
           {
-            "sentence": "It's hard to change his [stubborn] mind.",
-            "translation_zh_TW": "改變他的固執想法很困難。"
+            "sentence": "The upcoming [summit] promises to be transformative.",
+            "translation_zh_TW": "即將召開的高峰會議承諾帶來變革。"
           }
         ],
         "synonyms": [
-          "obstinate",
-          "headstrong"
+          "conference",
+          "meeting"
         ]
       }
     ],
     "confusion": [
-      "stubborn",
-      "stuber",
-      "suborn"
-    ]
-  },
-  {
-    "word": "religious",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to or believing in a religion.",
-        "meaning_zh_TW": "宗教的、信仰的",
-        "wrong_meaning_zh_TW": [
-          "世俗的",
-          "無神論的",
-          "混合的"
-        ],
-        "examples": [
-          {
-            "sentence": "He is very [religious] and attends church every Sunday.",
-            "translation_zh_TW": "他非常宗教，每個星期天都去教堂。"
-          },
-          {
-            "sentence": "The event has both cultural and [religious] significance.",
-            "translation_zh_TW": "這個事件具有文化和宗教的意義。"
-          },
-          {
-            "sentence": "Their [religious] practices are steeped in tradition.",
-            "translation_zh_TW": "他們的宗教習俗根植於傳統。"
-          }
-        ],
-        "synonyms": [
-          "spiritual",
-          "theological"
-        ]
-      }
-    ],
-    "confusion": [
-      "relious",
-      "regligious",
-      "relgious",
-      "religon"
+      "submittal",
+      "summer",
+      "summate",
+      "summoning"
     ]
   }
 ]

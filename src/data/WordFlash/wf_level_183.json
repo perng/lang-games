@@ -1,811 +1,772 @@
 [
   {
-    "word": "yawn",
+    "word": "magnetic",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having the properties of a magnet; capable of attracting iron and producing a magnetic field.",
+        "meaning_zh_TW": "磁性的",
+        "wrong_meaning_zh_TW": [
+          "美麗的",
+          "奇怪的",
+          "神秘的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [magnetic] force pulled the metal object towards it.",
+            "translation_zh_TW": "磁力將金屬物體拉向它。"
+          },
+          {
+            "sentence": "She was fascinated by the [magnetic] fields of the Earth.",
+            "translation_zh_TW": "她對地球的磁場感到著迷。"
+          },
+          {
+            "sentence": "He uses [magnetic] materials in his experiments.",
+            "translation_zh_TW": "他在實驗中使用了磁性材料。"
+          }
+        ],
+        "synonyms": [
+          "ferromagnetic",
+          "attracting"
+        ]
+      }
+    ],
+    "confusion": [
+      "magnet",
+      "magneto",
+      "magnetism",
+      "magnetize"
+    ]
+  },
+  {
+    "word": "eliminate",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To open the mouth wide and take a deep breath, typically as an involuntary reaction to tiredness or boredom.",
-        "meaning_zh_TW": "打哈欠、張嘴",
+        "meaning_en_US": "To completely remove or get rid of something.",
+        "meaning_zh_TW": "消除、排除",
         "wrong_meaning_zh_TW": [
-          "閉嘴",
-          "微笑",
-          "大笑"
+          "添加",
+          "強化",
+          "維持"
         ],
         "examples": [
           {
-            "sentence": "He couldn't help but [yawn] during the lecture.",
-            "translation_zh_TW": "他在演講時忍不住打了個哈欠。"
+            "sentence": "They plan to [eliminate] any distractions.",
+            "translation_zh_TW": "他們計劃消除所有的干擾。"
           },
           {
-            "sentence": "Feeling tired, she decided to [yawn] loudly.",
-            "translation_zh_TW": "感到疲倦的她決定大聲打哈欠。"
+            "sentence": "The team was eliminated from the competition.",
+            "translation_zh_TW": "該隊伍被淘汰出比賽。"
           },
           {
-            "sentence": "It's contagious; when one person [yawns], others often do too.",
-            "translation_zh_TW": "這是有感染性的；當一個人打哈欠時，其他人通常也會。"
-          }
-        ],
-        "synonyms": [
-          "gape",
-          "open mouth"
-        ]
-      }
-    ],
-    "confusion": [
-      "yawns",
-      "yawned",
-      "yawnig",
-      "yawned"
-    ]
-  },
-  {
-    "word": "revolutionary",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Involving or causing a complete or dramatic change.",
-        "meaning_zh_TW": "革命性的",
-        "wrong_meaning_zh_TW": [
-          "保守的",
-          "傳統的",
-          "守舊的"
-        ],
-        "examples": [
-          {
-            "sentence": "The invention was seen as a [revolutionary] breakthrough.",
-            "translation_zh_TW": "這項發明被視為革命性突破"
-          },
-          {
-            "sentence": "His ideas were deemed [revolutionary] by his peers.",
-            "translation_zh_TW": "他的想法被同儕視為革命性"
-          },
-          {
-            "sentence": "The design was a [revolutionary] approach to modern architecture.",
-            "translation_zh_TW": "這一設計是對現代建築的一種革命性方法"
-          }
-        ],
-        "synonyms": [
-          "radical",
-          "innovative"
-        ]
-      }
-    ],
-    "confusion": [
-      "revocation",
-      "revolting",
-      "resolutionary",
-      "revolutinary"
-    ]
-  },
-  {
-    "word": "fatal",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Causing death or destruction; deadly.",
-        "meaning_zh_TW": "致命的",
-        "wrong_meaning_zh_TW": [
-          "無辜的",
-          "安全的",
-          "果敢的"
-        ],
-        "examples": [
-          {
-            "sentence": "The accident resulted in a [fatal] outcome.",
-            "translation_zh_TW": "事故的結果是致命的。"
-          },
-          {
-            "sentence": "Ignoring warnings can have [fatal] consequences.",
-            "translation_zh_TW": "忽視警告可能會有致命的後果。"
-          },
-          {
-            "sentence": "He made a [fatal] mistake in his calculations.",
-            "translation_zh_TW": "他在計算中犯了一個致命的錯誤。"
-          }
-        ],
-        "synonyms": [
-          "deadly",
-          "lethal"
-        ]
-      }
-    ],
-    "confusion": [
-      "fatal",
-      "fetal",
-      "fable",
-      "fetal"
-    ]
-  },
-  {
-    "word": "inspiration",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The process of being mentally stimulated to do or feel something, especially to do something creative.",
-        "meaning_zh_TW": "靈感",
-        "wrong_meaning_zh_TW": [
-          "懷疑",
-          "介紹",
-          "反思"
-        ],
-        "examples": [
-          {
-            "sentence": "The artist found [inspiration] in nature.",
-            "translation_zh_TW": "這位藝術家從大自然中找到了靈感。"
-          },
-          {
-            "sentence": "She looked to her childhood for [inspiration] in her writing.",
-            "translation_zh_TW": "她從童年生活中尋找了寫作的靈感。"
-          },
-          {
-            "sentence": "His story served as a great source of [inspiration].",
-            "translation_zh_TW": "他的故事成為了靈感的重要來源。"
-          }
-        ],
-        "synonyms": [
-          "motivation",
-          "stimulation"
-        ]
-      }
-    ],
-    "confusion": [
-      "aspiration",
-      "perspiration",
-      "expiration",
-      "respiration"
-    ]
-  },
-  {
-    "word": "beggar",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who lives by asking others for money or food.",
-        "meaning_zh_TW": "乞丐",
-        "wrong_meaning_zh_TW": [
-          "富翁",
-          "工人",
-          "商人"
-        ],
-        "examples": [
-          {
-            "sentence": "The [beggar] sat on the corner asking for change.",
-            "translation_zh_TW": "乞丐坐在角落裡要施捨。"
-          },
-          {
-            "sentence": "She gave some food to the [beggar] on the street.",
-            "translation_zh_TW": "她給街上的乞丐一些食物。"
-          },
-          {
-            "sentence": "The [beggar] thanked her for the kind gesture.",
-            "translation_zh_TW": "乞丐感謝她的善舉。"
-          }
-        ],
-        "synonyms": [
-          "panhandler",
-          "mendicant"
-        ]
-      }
-    ],
-    "confusion": [
-      "begging",
-      "beggers",
-      "baggier",
-      "bigger"
-    ]
-  },
-  {
-    "word": "route",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A way or course taken in getting from a starting point to a destination.",
-        "meaning_zh_TW": "路線",
-        "wrong_meaning_zh_TW": [
-          "目的地",
-          "終點",
-          "站點"
-        ],
-        "examples": [
-          {
-            "sentence": "She took the scenic [route] to the village.",
-            "translation_zh_TW": "她選擇了風景如畫的路線前往村莊。"
-          },
-          {
-            "sentence": "The map shows the best [route] to take.",
-            "translation_zh_TW": "地圖顯示了最佳的路線。"
-          },
-          {
-            "sentence": "Traffic was heavy on the usual [route].",
-            "translation_zh_TW": "通常的路線交通繁忙。"
-          }
-        ],
-        "synonyms": [
-          "path",
-          "course"
-        ]
-      }
-    ],
-    "confusion": [
-      "root",
-      "routeing",
-      "rout",
-      "routinely"
-    ]
-  },
-  {
-    "word": "tribal",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to a tribe or tribes.",
-        "meaning_zh_TW": "部落的",
-        "wrong_meaning_zh_TW": [
-          "都市的",
-          "現代的",
-          "先進的"
-        ],
-        "examples": [
-          {
-            "sentence": "The [tribal] customs were preserved for generations.",
-            "translation_zh_TW": "部落的習俗已經保留了幾代。"
-          },
-          {
-            "sentence": "They had a [tribal] gathering to celebrate their culture.",
-            "translation_zh_TW": "他們舉行了一次部落聚會以慶祝他們的文化。"
-          },
-          {
-            "sentence": "The [tribal] leaders met to discuss important issues.",
-            "translation_zh_TW": "部落首領會面討論重要事項。"
-          }
-        ],
-        "synonyms": [
-          "clannish",
-          "indigenous"
-        ]
-      }
-    ],
-    "confusion": [
-      "tribe",
-      "tribunal",
-      "tribulation",
-      "triangular"
-    ]
-  },
-  {
-    "word": "objection",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An expression or feeling of disapproval or opposition.",
-        "meaning_zh_TW": "反對",
-        "wrong_meaning_zh_TW": [
-          "贊成",
-          "支持",
-          "認可"
-        ],
-        "examples": [
-          {
-            "sentence": "She raised an [objection] to the proposal.",
-            "translation_zh_TW": "她對這個提案提出了反對意見。"
-          },
-          {
-            "sentence": "There was no [objection] to the plan.",
-            "translation_zh_TW": "對這個計畫沒有反對意見。"
-          },
-          {
-            "sentence": "His [objection] was noted in the meeting.",
-            "translation_zh_TW": "他的反對意見在會議上被記錄了下來。"
-          }
-        ],
-        "synonyms": [
-          "disagreement",
-          "protest",
-          "dissent"
-        ]
-      }
-    ],
-    "confusion": [
-      "object",
-      "objective",
-      "objective",
-      "oblique"
-    ]
-  },
-  {
-    "word": "kneel",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To go down or rest on one or both knees.",
-        "meaning_zh_TW": "跪下",
-        "wrong_meaning_zh_TW": [
-          "坐下",
-          "站立",
-          "跳躍"
-        ],
-        "examples": [
-          {
-            "sentence": "He decided to [kneel] and pray.",
-            "translation_zh_TW": "他決定跪下祈禱"
-          },
-          {
-            "sentence": "They [kneel] during the ceremony.",
-            "translation_zh_TW": "他們在儀式上跪下"
-          },
-          {
-            "sentence": "She had to [kneel] to tie her shoes.",
-            "translation_zh_TW": "她不得不跪下來系鞋帶"
-          }
-        ],
-        "synonyms": [
-          "beseech",
-          "pray"
-        ]
-      }
-    ],
-    "confusion": [
-      "kneels",
-      "kneeling",
-      "kneelers",
-      "neel"
-    ]
-  },
-  {
-    "word": "informative",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Providing useful or interesting information.",
-        "meaning_zh_TW": "提供有用或有趣的資訊",
-        "wrong_meaning_zh_TW": [
-          "無聊的",
-          "冗長的",
-          "過於簡單的"
-        ],
-        "examples": [
-          {
-            "sentence": "The documentary was very [informative].",
-            "translation_zh_TW": "這部紀錄片非常提供有用的資訊。"
-          },
-          {
-            "sentence": "She found the lecture [informative] and engaging.",
-            "translation_zh_TW": "她發現這堂課提供了有用的資訊，而且引人入勝。"
-          },
-          {
-            "sentence": "I appreciate your [informative] email.",
-            "translation_zh_TW": "我很感謝你提供的有用資訊的電子郵件。"
-          }
-        ],
-        "synonyms": [
-          "educational",
-          "enlightening"
-        ]
-      }
-    ],
-    "confusion": [
-      "information",
-      "informer",
-      "informal",
-      "informant"
-    ]
-  },
-  {
-    "word": "offense",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A breach of a law or rule; an illegal act.",
-        "meaning_zh_TW": "違規、罪行",
-        "wrong_meaning_zh_TW": [
-          "正義、正確",
-          "保護、防衛",
-          "報告、宣布"
-        ],
-        "examples": [
-          {
-            "sentence": "Speeding is considered an [offense] in many countries.",
-            "translation_zh_TW": "超速在許多國家被認為是一種違規。"
-          },
-          {
-            "sentence": "He was charged with a serious [offense].",
-            "translation_zh_TW": "他被控以嚴重罪行。"
-          },
-          {
-            "sentence": "Minor [offenses] can lead to significant consequences.",
-            "translation_zh_TW": "輕微的違規可能會導致重大後果。"
-          }
-        ],
-        "synonyms": [
-          "crime",
-          "violation"
-        ]
-      }
-    ],
-    "confusion": [
-      "defense",
-      "offend",
-      "offensive",
-      "office"
-    ]
-  },
-  {
-    "word": "stem",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The main body or stalk of a plant or shrub.",
-        "meaning_zh_TW": "去掉莖",
-        "wrong_meaning_zh_TW": [
-          "種植",
-          "澆水",
-          "施肥"
-        ],
-        "examples": [
-          {
-            "sentence": "The rose [stem] was covered in thorns.",
-            "translation_zh_TW": "玫瑰的莖上布滿了尖刺。"
-          },
-          {
-            "sentence": "We cut the [stem] to help the plant grow better.",
-            "translation_zh_TW": "我們剪下莖以幫助植物更好地生長。"
-          },
-          {
-            "sentence": "Each flower grows from its own [stem].",
-            "translation_zh_TW": "每朵花都從它自己的莖上長出。"
-          }
-        ],
-        "synonyms": [
-          "stalk",
-          "trunk"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To remove the stem from a fruit or plant.",
-        "meaning_zh_TW": "去掉莖",
-        "wrong_meaning_zh_TW": [
-          "種植",
-          "澆水",
-          "施肥"
-        ],
-        "examples": [
-          {
-            "sentence": "Please [stem] the strawberries before serving.",
-            "translation_zh_TW": "在上桌前，請將草莓的莖去掉。"
-          },
-          {
-            "sentence": "They will [stem] the grapes for the wine.",
-            "translation_zh_TW": "他們會把葡萄的莖去掉以製作葡萄酒。"
-          },
-          {
-            "sentence": "We need to [stem] the vegetables before cooking.",
-            "translation_zh_TW": "我們需要在烹飪前去掉蔬菜的莖。"
+            "sentence": "We need to [eliminate] waste in our process.",
+            "translation_zh_TW": "我們需要在過程中消除浪費。"
           }
         ],
         "synonyms": [
           "remove",
-          "detach"
+          "eradicate"
         ]
       }
     ],
     "confusion": [
-      "stemmed",
-      "stammer",
-      "stream",
-      "steem"
+      "elminate",
+      "elipsoid",
+      "elevate",
+      "elinate"
     ]
   },
   {
-    "word": "peep",
+    "word": "circumstance",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A condition or fact affecting a situation.",
+        "meaning_zh_TW": "情況，環境",
+        "wrong_meaning_zh_TW": [
+          "目的",
+          "方法",
+          "工具"
+        ],
+        "examples": [
+          {
+            "sentence": "Under normal [circumstances], we would have left by now.",
+            "translation_zh_TW": "在正常情況下，我們早該離開了。"
+          },
+          {
+            "sentence": "The [circumstances] around his decision were unclear.",
+            "translation_zh_TW": "他做出決定的情況並不明確。"
+          },
+          {
+            "sentence": "In some [circumstances], it may be necessary to ask for help.",
+            "translation_zh_TW": "在某些情況下，或許有必要尋求幫助。"
+          }
+        ],
+        "synonyms": [
+          "situation",
+          "condition"
+        ]
+      }
+    ],
+    "confusion": [
+      "circumvent",
+      "circumcision",
+      "circular",
+      "circus"
+    ]
+  },
+  {
+    "word": "grammar",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The set of rules that govern the structure of sentences in a language.",
+        "meaning_zh_TW": "語法",
+        "wrong_meaning_zh_TW": [
+          "字彙",
+          "發音",
+          "語言"
+        ],
+        "examples": [
+          {
+            "sentence": "Understanding [grammar] is essential for writing well.",
+            "translation_zh_TW": "理解語法對於寫好文章至關重要。"
+          },
+          {
+            "sentence": "She studied [grammar] for her English exam.",
+            "translation_zh_TW": "她為了英語考試學習語法。"
+          },
+          {
+            "sentence": "Good [grammar] helps in effective communication.",
+            "translation_zh_TW": "良好的語法有助於有效的溝通。"
+          }
+        ],
+        "synonyms": [
+          "syntax",
+          "linguistic rules"
+        ]
+      }
+    ],
+    "confusion": [
+      "gram",
+      "gamer",
+      "grammy",
+      "grimer"
+    ]
+  },
+  {
+    "word": "tremble",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "to look quickly and furtively at something.",
-        "meaning_zh_TW": "窺視",
+        "meaning_en_US": "To shake involuntarily, typically as a result of anxiety or excitement.",
+        "meaning_zh_TW": "顫抖",
         "wrong_meaning_zh_TW": [
-          "大喊",
-          "呻吟",
-          "舞蹈"
+          "穩定",
+          "鎮定",
+          "平靜"
         ],
         "examples": [
           {
-            "sentence": "She decided to [peep] through the curtains.",
-            "translation_zh_TW": "她決定透過窗簾窺視。"
+            "sentence": "He began to [tremble] when he heard the loud noise.",
+            "translation_zh_TW": "當他聽到響亮的聲音時，他開始顫抖。"
           },
           {
-            "sentence": "He gave a little [peep] before running away.",
-            "translation_zh_TW": "他在跑開前發出了一聲小叫。"
+            "sentence": "She could not help but [tremble] with excitement.",
+            "translation_zh_TW": "她無法阻止自己因興奮而顫抖。"
           },
           {
-            "sentence": "The children love to [peep] at their presents.",
-            "translation_zh_TW": "孩子們喜歡窺視他們的禮物。"
+            "sentence": "The cold wind made everyone [tremble] on the street.",
+            "translation_zh_TW": "寒風讓街上的每個人都顫抖不已。"
           }
         ],
         "synonyms": [
-          "glance",
-          "snoop"
+          "shiver",
+          "quake"
         ]
       }
     ],
     "confusion": [
-      "peeped",
-      "peep-show",
-      "peep-hole",
-      "keep"
+      "tremor",
+      "trembling",
+      "trombone",
+      "temple"
     ]
   },
   {
-    "word": "publicity",
+    "word": "formula",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The attention or awareness given to someone or something by the media.",
-        "meaning_zh_TW": "宣傳",
+        "meaning_en_US": "A mathematical relationship or rule expressed in symbols.",
+        "meaning_zh_TW": "公式、數式",
         "wrong_meaning_zh_TW": [
-          "隱私的保護",
-          "私人生活",
-          "秘密的討論"
+          "食譜",
+          "規則",
+          "計劃"
         ],
         "examples": [
           {
-            "sentence": "The event gained a lot of [publicity] through social media.",
-            "translation_zh_TW": "該活動透過社交媒體獲得了很多關注。"
+            "sentence": "You need the right [formula] to solve this equation.",
+            "translation_zh_TW": "你需要正確的公式來解這個方程式。"
           },
           {
-            "sentence": "Good [publicity] can greatly influence a product's success.",
-            "translation_zh_TW": "良好的宣傳可以大大影響產品的成功。"
+            "sentence": "The [formula] for water is H2O.",
+            "translation_zh_TW": "水的公式是H2O。"
           },
           {
-            "sentence": "She managed the [publicity] for the new movie.",
-            "translation_zh_TW": "她負責新電影的宣傳工作。"
+            "sentence": "They derived a new [formula] in chemistry.",
+            "translation_zh_TW": "他們在化學中推導出了一個新公式。"
           }
         ],
         "synonyms": [
-          "advertising",
-          "promotion"
+          "equation",
+          "recipe"
         ]
       }
     ],
     "confusion": [
-      "publication",
-      "public",
-      "publishing",
-      "publically"
+      "formua",
+      "formulary",
+      "formulize",
+      "formilis"
     ]
   },
   {
-    "word": "mule",
+    "word": "nationality",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A hybrid animal resulting from the crossbreeding of a male donkey and a female horse.",
-        "meaning_zh_TW": "騾子",
+        "meaning_en_US": "The status of belonging to a particular nation.",
+        "meaning_zh_TW": "國籍",
         "wrong_meaning_zh_TW": [
-          "驢子",
-          "馬匹",
-          "牛"
+          "地域",
+          "文化",
+          "種族"
         ],
         "examples": [
           {
-            "sentence": "The farmer uses a [mule] for heavy lifting.",
-            "translation_zh_TW": "農夫用騾子來搬重物"
+            "sentence": "Her [nationality] is American.",
+            "translation_zh_TW": "她的國籍是美國人。"
           },
           {
-            "sentence": "Mules are known for their endurance.",
-            "translation_zh_TW": "騾子以其耐力而聞名"
+            "sentence": "He declared his [nationality] proudly.",
+            "translation_zh_TW": "他驕傲地宣告了他的國籍。"
           },
           {
-            "sentence": "He rode a [mule] up the mountain.",
-            "translation_zh_TW": "他騎著騾子上山"
+            "sentence": "Understanding [nationality] can help in cultural studies.",
+            "translation_zh_TW": "理解國籍有助於文化研究。"
           }
         ],
         "synonyms": [
-          "pack animal",
-          "beast of burden"
+          "citizenship",
+          "ethnicity"
         ]
       }
     ],
     "confusion": [
-      "mole",
-      "muleteer",
-      "mullet",
-      "mild"
+      "national",
+      "native",
+      "nation",
+      "nationalize"
     ]
   },
   {
-    "word": "bald",
+    "word": "differ",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To be unlike or distinct in nature, quality, or form.",
+        "meaning_zh_TW": "不同",
+        "wrong_meaning_zh_TW": [
+          "相同",
+          "一樣",
+          "一致"
+        ],
+        "examples": [
+          {
+            "sentence": "The two models [differ] significantly in design.",
+            "translation_zh_TW": "這兩個模型在設計上有顯著的不同。"
+          },
+          {
+            "sentence": "You may [differ] in opinion about the matter.",
+            "translation_zh_TW": "你在這個問題上可能會有不同的意見。"
+          },
+          {
+            "sentence": "How can they [differ] so much from each other?",
+            "translation_zh_TW": "他們怎麼會彼此之間有這麼大的不同？"
+          }
+        ],
+        "synonyms": [
+          "contrast",
+          "diverge"
+        ]
+      }
+    ],
+    "confusion": [
+      "differential",
+      "define",
+      "derive",
+      "diffuse"
+    ]
+  },
+  {
+    "word": "obtain",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To acquire or get something.",
+        "meaning_zh_TW": "獲得、取得",
+        "wrong_meaning_zh_TW": [
+          "放棄、丟掉",
+          "分享、劃分",
+          "提供、供應"
+        ],
+        "examples": [
+          {
+            "sentence": "He worked hard to [obtain] a scholarship.",
+            "translation_zh_TW": "他努力工作以獲得獎學金。"
+          },
+          {
+            "sentence": "You must [obtain] permission before entering.",
+            "translation_zh_TW": "進入前必須獲得許可。"
+          },
+          {
+            "sentence": "The team struggled to [obtain] the necessary resources.",
+            "translation_zh_TW": "該團隊努力獲得所需的資源。"
+          }
+        ],
+        "synonyms": [
+          "acquire",
+          "get",
+          "secure"
+        ]
+      }
+    ],
+    "confusion": [
+      "obtain",
+      "attain",
+      "abstain",
+      "maintain"
+    ]
+  },
+  {
+    "word": "violation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The act of violating something, such as a law or agreement.",
+        "meaning_zh_TW": "違反",
+        "wrong_meaning_zh_TW": [
+          "遵守",
+          "遵循",
+          "服從"
+        ],
+        "examples": [
+          {
+            "sentence": "The report detailed the [violation] of safety protocols.",
+            "translation_zh_TW": "報告詳細說明了安全協議的違反。"
+          },
+          {
+            "sentence": "His actions were deemed a serious [violation] of ethics.",
+            "translation_zh_TW": "他的行為被認為是嚴重的倫理違反。"
+          },
+          {
+            "sentence": "A [violation] of the law can result in penalties.",
+            "translation_zh_TW": "違法行為可能會導致懲罰。"
+          }
+        ],
+        "synonyms": [
+          "breach",
+          "infraction"
+        ]
+      }
+    ],
+    "confusion": [
+      "violate",
+      "visualization",
+      "violence",
+      "vigilance"
+    ]
+  },
+  {
+    "word": "barrier",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A fence or other obstacle that prevents movement or access.",
+        "meaning_zh_TW": "障礙",
+        "wrong_meaning_zh_TW": [
+          "開口",
+          "通道",
+          "引導"
+        ],
+        "examples": [
+          {
+            "sentence": "The barrier was too high for the kids to climb over.",
+            "translation_zh_TW": "這種障礙太高，讓孩子無法爬過去"
+          },
+          {
+            "sentence": "He faced many barriers in his pursuit of education.",
+            "translation_zh_TW": "在追求教育的過程中，他面臨著許多障礙"
+          },
+          {
+            "sentence": "Language can be a barrier to communication.",
+            "translation_zh_TW": "語言可能是交流的一個障礙"
+          }
+        ],
+        "synonyms": [
+          "obstacle",
+          "fence"
+        ]
+      }
+    ],
+    "confusion": [
+      "barriers",
+      "barrier-free",
+      "barriered",
+      "barriered"
+    ]
+  },
+  {
+    "word": "rural",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having no hair on the scalp.",
-        "meaning_zh_TW": "光禿禿的",
+        "meaning_en_US": "Relating to or characteristic of the countryside rather than the town.",
+        "meaning_zh_TW": "鄉村的、田園的",
         "wrong_meaning_zh_TW": [
-          "鬍子",
-          "披肩髮",
-          "中長髮"
+          "都市的",
+          "城市的",
+          "現代的"
         ],
         "examples": [
           {
-            "sentence": "He is going bald and has started to wear hats.",
-            "translation_zh_TW": "他開始禿頭，並開始戴帽子"
+            "sentence": "They live in a [rural] area away from the city.",
+            "translation_zh_TW": "他們住在遠離城市的鄉村地區。"
           },
           {
-            "sentence": "The bald eagle is a symbol of the United States.",
-            "translation_zh_TW": "白頭鷹是美國的象徵"
+            "sentence": "The [rural] landscape is known for its beauty.",
+            "translation_zh_TW": "那片鄉村風景以其美麗而聞名。"
           },
           {
-            "sentence": "She didn't like the idea of being bald.",
-            "translation_zh_TW": "她不喜歡禿頭的主意"
+            "sentence": "She prefers the [rural] lifestyle over urban living.",
+            "translation_zh_TW": "她更喜歡鄉村生活而非城市生活。"
           }
         ],
         "synonyms": [
-          "hairless",
-          "shorn"
+          " pastoral",
+          "countryside"
         ]
       }
     ],
     "confusion": [
-      "bald spot",
-      "bald eagle",
-      "baldness",
-      "balding"
+      "rurality",
+      "rurally",
+      "rurals",
+      "roular"
     ]
   },
   {
-    "word": "ingredient",
+    "word": "elastic",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Able to stretch and return to the original shape; flexible.",
+        "meaning_zh_TW": "有彈性的",
+        "wrong_meaning_zh_TW": [
+          "硬的",
+          "堅定的",
+          "固態的"
+        ],
+        "examples": [
+          {
+            "sentence": "The band is made of [elastic] material.",
+            "translation_zh_TW": "這條帶子是由有彈性的材料製成的。"
+          },
+          {
+            "sentence": "He prefers [elastic] waistbands for comfort.",
+            "translation_zh_TW": "他喜歡有彈性的腰帶，以便舒適。"
+          },
+          {
+            "sentence": "The [elastic] properties of the cloth are impressive.",
+            "translation_zh_TW": "這種布料的彈性特性令人印象深刻。"
+          }
+        ],
+        "synonyms": [
+          "flexible",
+          "stretchable"
+        ]
+      }
+    ],
+    "confusion": [
+      "elasticity",
+      "elapsed",
+      "electric",
+      "elation"
+    ]
+  },
+  {
+    "word": "claw",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "Any of the foods or substances that are combined to make a particular dish.",
-        "meaning_zh_TW": "食材",
+        "meaning_en_US": "A sharp, curved appendage on the foot or hand of an animal, used for grasping or climbing.",
+        "meaning_zh_TW": "爪子",
         "wrong_meaning_zh_TW": [
-          "藥劑",
-          "器具",
-          "包裝"
+          "螳螂",
+          "刀具",
+          "尖端"
         ],
         "examples": [
           {
-            "sentence": "Flour is a key [ingredient] in bread.",
-            "translation_zh_TW": "麵粉是麵包的主要食材。"
+            "sentence": "The cat extended its [claw] to scratch the post.",
+            "translation_zh_TW": "貓伸出爪子去抓柱子。"
           },
           {
-            "sentence": "Check the label for a full list of [ingredients].",
-            "translation_zh_TW": "查看標籤以獲取完整的食材清單。"
+            "sentence": "The bird gripped the branch with its sharp [claws].",
+            "translation_zh_TW": "鳥用鋒利的爪子緊抓樹枝。"
           },
           {
-            "sentence": "The secret [ingredient] makes this dish special.",
-            "translation_zh_TW": "秘密的食材讓這道菜獨特。"
+            "sentence": "The crab scuttled away, using its [claws] to move sideways.",
+            "translation_zh_TW": "螃蟹側著身子用爪子快速爬走。"
           }
         ],
         "synonyms": [
-          "component",
-          "element"
+          "digit",
+          "talon"
         ]
       }
     ],
     "confusion": [
-      "ingrediental",
-      "ingrate",
-      "integral",
-      "ingenuity"
+      "law",
+      "clawing",
+      "claustrophobia",
+      "clawback"
     ]
   },
   {
-    "word": "hasten",
+    "word": "pronunciation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The way in which a word is pronounced.",
+        "meaning_zh_TW": "發音",
+        "wrong_meaning_zh_TW": [
+          "寫作、拼字",
+          "翻譯、解釋",
+          "語法、句法"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [pronunciation] of the word was perfect.",
+            "translation_zh_TW": "她的發音是完美的。"
+          },
+          {
+            "sentence": "Correct [pronunciation] is important for clear communication.",
+            "translation_zh_TW": "正確的發音對於清晰的交流很重要。"
+          },
+          {
+            "sentence": "I need to improve my [pronunciation].",
+            "translation_zh_TW": "我需要改善我的發音。"
+          }
+        ],
+        "synonyms": [
+          "articulation",
+          "enunciation"
+        ]
+      }
+    ],
+    "confusion": [
+      "pronounce",
+      "pronoun",
+      "production",
+      "proclamation"
+    ]
+  },
+  {
+    "word": "defend",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To move or act quickly; to hurry.",
-        "meaning_zh_TW": "加快，催促",
+        "meaning_en_US": "To protect from harm or danger.",
+        "meaning_zh_TW": "防衛",
         "wrong_meaning_zh_TW": [
-          "拖延",
-          "慢吞吞",
-          "休息"
+          "攻擊",
+          "挑釁",
+          "放棄"
         ],
         "examples": [
           {
-            "sentence": "We must [hasten] our efforts to meet the deadline.",
-            "translation_zh_TW": "我們必須加快努力，以迎合截止日期。"
+            "sentence": "He vowed to [defend] his country.",
+            "translation_zh_TW": "他誓言要保衛他的國家。"
           },
           {
-            "sentence": "She tried to [hasten] her preparation for the exam.",
-            "translation_zh_TW": "她試圖加速準備考試。"
+            "sentence": "They hired a lawyer to [defend] their case.",
+            "translation_zh_TW": "他們聘請了一名律師來防衛他們的案件。"
           },
           {
-            "sentence": "Foul weather may [hasten] the arrival of winter.",
-            "translation_zh_TW": "惡劣的天氣可能會加快冬天的到來。"
+            "sentence": "She felt it was her duty to [defend] her friend.",
+            "translation_zh_TW": "她覺得保護她的朋友是她的責任。"
           }
         ],
         "synonyms": [
-          "accelerate",
-          "urge"
+          "protect",
+          "guard"
         ]
       }
     ],
     "confusion": [
-      "hastle",
-      "haste",
-      "hastening",
-      "masten"
+      "defence",
+      "defined",
+      "deferring",
+      "deferment"
     ]
   },
   {
-    "word": "indication",
+    "word": "diploma",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A sign or piece of information that indicates something.",
-        "meaning_zh_TW": "指示、跡象",
+        "meaning_en_US": "A certificate awarded to a student upon completion of a course of study.",
+        "meaning_zh_TW": "文憑",
         "wrong_meaning_zh_TW": [
-          "建議",
-          "問題",
-          "任務"
+          "學位",
+          "證書",
+          "合同"
         ],
         "examples": [
           {
-            "sentence": "The weather report is an [indication] of the coming storm.",
-            "translation_zh_TW": "氣象報告是即將來臨的暴風雨的指示"
+            "sentence": "She received her [diploma] during the graduation ceremony.",
+            "translation_zh_TW": "她在畢業典禮上領取了文憑。"
           },
           {
-            "sentence": "The doctor noted several [indications] of illness.",
-            "translation_zh_TW": "醫生注意到了幾個疾病的跡象"
+            "sentence": "A [diploma] is often required for many jobs.",
+            "translation_zh_TW": "許多工作常需要文憑。"
           },
           {
-            "sentence": "His smile was an [indication] of his happiness.",
-            "translation_zh_TW": "他的微笑是他快樂的指示"
+            "sentence": "He proudly hung his [diploma] on the wall.",
+            "translation_zh_TW": "他自豪地將文憑掛在牆上。"
           }
         ],
         "synonyms": [
-          "signal",
-          "sign"
+          "certificate",
+          "degree"
         ]
       }
     ],
     "confusion": [
-      "indication",
-      "indictment",
-      "indication",
-      "introductory"
+      "diplomat",
+      "diplomatic",
+      "diplomacy",
+      "dipoloma"
     ]
   },
   {
-    "word": "charity",
+    "word": "witness",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The voluntary giving of help, typically in the form of money, to those in need.",
-        "meaning_zh_TW": "捐款",
+        "meaning_en_US": "A person who sees an event, typically a crime or accident, take place.",
+        "meaning_zh_TW": "證人、目擊者",
         "wrong_meaning_zh_TW": [
-          "收費",
-          "投資",
-          "購買"
+          "嫌疑人",
+          "罪犯",
+          "共犯"
         ],
         "examples": [
           {
-            "sentence": "She donated to the local charity.",
-            "translation_zh_TW": "她向當地慈善機構捐款"
+            "sentence": "The [witness] testified in court yesterday.",
+            "translation_zh_TW": "目擊者昨天在法庭上作證。"
           },
           {
-            "sentence": "The charity organized a fundraising event.",
-            "translation_zh_TW": "該慈善機構組織了籌款活動"
+            "sentence": "Several [witnesses] saw the accident occur.",
+            "translation_zh_TW": "幾位目擊者看到了事故的發生。"
           },
           {
-            "sentence": "Volunteering for charity work can be rewarding.",
-            "translation_zh_TW": "參加慈善工作志願服務可以很有成就感"
+            "sentence": "As a [witness], she provided crucial information.",
+            "translation_zh_TW": "作為證人，她提供了關鍵信息。"
           }
         ],
         "synonyms": [
-          "philanthropy",
-          "donation"
+          "observer",
+          "testifier"
         ]
       }
     ],
     "confusion": [
-      "charitable",
-      "chairty",
-      "charityshop",
-      "chariot"
+      "witus",
+      "witless",
+      "witeness",
+      "witnesses"
+    ]
+  },
+  {
+    "word": "cunning",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having or showing skill in achieving one's ends by deceit.",
+        "meaning_zh_TW": "狡猾的",
+        "wrong_meaning_zh_TW": [
+          "誠實",
+          "直接",
+          "健壯"
+        ],
+        "examples": [
+          {
+            "sentence": "The [cunning] fox outsmarted the hunter.",
+            "translation_zh_TW": "狡猾的狐狸智勝獵人"
+          },
+          {
+            "sentence": "Her [cunning] plan surprised everyone.",
+            "translation_zh_TW": "她的狡猾計劃讓所有人驚訝"
+          },
+          {
+            "sentence": "He had a [cunning] look on his face.",
+            "translation_zh_TW": "他臉上露出狡猾的神情"
+          }
+        ],
+        "synonyms": [
+          "sly",
+          "wily"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "Skill in achieving one’s ends by deceit.",
+        "meaning_zh_TW": "狡猾，詭計",
+        "wrong_meaning_zh_TW": [
+          "誠意",
+          "真心",
+          "善良"
+        ],
+        "examples": [
+          {
+            "sentence": "His [cunning] allowed him to escape.",
+            "translation_zh_TW": "他的狡猾讓他逃脫"
+          },
+          {
+            "sentence": "She relied on her [cunning] to win the game.",
+            "translation_zh_TW": "她依靠狡猾贏得比賽"
+          },
+          {
+            "sentence": "Cunning can sometimes lead to trouble.",
+            "translation_zh_TW": "狡猾有時會導致麻煩"
+          }
+        ],
+        "synonyms": [
+          "deceitfulness",
+          "craftiness"
+        ]
+      }
+    ],
+    "confusion": [
+      "cunning",
+      "cunningly",
+      "cuddling",
+      "cunningness"
     ]
   }
 ]

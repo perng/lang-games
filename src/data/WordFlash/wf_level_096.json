@@ -1,782 +1,773 @@
 [
   {
-    "word": "cancer",
+    "word": "maintain",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A disease caused by an uncontrolled division of abnormal cells in a part of the body.",
-        "meaning_zh_TW": "癌症",
+        "type": "動詞",
+        "meaning_en_US": "To keep in an existing state, preserve from failure or decline.",
+        "meaning_zh_TW": "維持，保持",
         "wrong_meaning_zh_TW": [
-          "過敏",
-          "流感",
-          "糖尿病"
+          "建立，創造",
+          "申請，請求",
+          "破壞，損害"
         ],
         "examples": [
           {
-            "sentence": "She was diagnosed with [cancer] last year.",
-            "translation_zh_TW": "她去年被診斷出患有癌症。"
+            "sentence": "It is important to [maintain] a balanced diet.",
+            "translation_zh_TW": "保持均衡飲食是重要的。"
           },
           {
-            "sentence": "Early detection of [cancer] can improve the chances of recovery.",
-            "translation_zh_TW": "早期診斷癌症可以提高康復的機會。"
+            "sentence": "The company aims to [maintain] its market position.",
+            "translation_zh_TW": "該公司旨在保持其市場地位。"
           },
           {
-            "sentence": "He is participating in a marathon to raise awareness for [cancer] research.",
-            "translation_zh_TW": "他參加馬拉松以提高人們對癌症研究的認識。"
+            "sentence": "He works hard to [maintain] his car.",
+            "translation_zh_TW": "他努力維護他的車。"
           }
         ],
         "synonyms": [
-          "malignancy",
-          "tumor"
+          "preserve",
+          "sustain"
         ]
       }
     ],
     "confusion": [
-      "cancerous",
-      "candor",
-      "canter",
-      "canca"
+      "main",
+      "maintainable",
+      "maintainer",
+      "maintenance"
     ]
   },
   {
-    "word": "rude",
+    "word": "sort",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To arrange systematically in groups; to classify or categorize.",
+        "meaning_zh_TW": "分類",
+        "wrong_meaning_zh_TW": [
+          "攪拌",
+          "翻譯",
+          "毀壞"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [sort] these files by date.",
+            "translation_zh_TW": "請按日期對這些檔案進行分類。"
+          },
+          {
+            "sentence": "She needed to [sort] her thoughts before speaking.",
+            "translation_zh_TW": "她需要在講話前整理自己的想法。"
+          },
+          {
+            "sentence": "Can you [sort] the items into different categories?",
+            "translation_zh_TW": "你能把物品分類到不同的類別中嗎？"
+          }
+        ],
+        "synonyms": [
+          "classify",
+          "organize",
+          "arrange"
+        ]
+      }
+    ],
+    "confusion": [
+      "sor",
+      "sota",
+      "sport",
+      "saur"
+    ]
+  },
+  {
+    "word": "ill",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Offensively impolite or ill-mannered.",
-        "meaning_zh_TW": "粗魯",
+        "meaning_en_US": "Sick or unwell.",
+        "meaning_zh_TW": "生病的",
         "wrong_meaning_zh_TW": [
-          "善良",
-          "寬容",
-          "友好"
+          "健康的",
+          "強壯的",
+          "快樂的"
         ],
         "examples": [
           {
-            "sentence": "It is [rude] to interrupt someone while they are speaking.",
-            "translation_zh_TW": "在某人說話時打斷他是粗魯。"
+            "sentence": "He felt [ill] after eating too much.",
+            "translation_zh_TW": "他吃太多後感到生病。"
           },
           {
-            "sentence": "He made a [rude] comment about her appearance.",
-            "translation_zh_TW": "他對她的外貌做了一個粗魯的評論。"
+            "sentence": "The [ill] child needs rest.",
+            "translation_zh_TW": "這個生病的孩子需要休息。"
           },
           {
-            "sentence": "Being [rude] can lead to losing friends.",
-            "translation_zh_TW": "粗魯可能會導致失去朋友。"
+            "sentence": "She has been feeling [ill] for days.",
+            "translation_zh_TW": "她已經感覺生病好幾天。"
           }
         ],
         "synonyms": [
-          "impolite",
-          "offensive"
+          "sick",
+          "unwell"
         ]
       }
     ],
     "confusion": [
-      "food",
-      "dude",
-      "rudeness",
-      "rudder"
+      "illness",
+      "illicit",
+      "ilk",
+      "illogical"
     ]
   },
   {
-    "word": "broad",
+    "word": "hostess",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A woman who receives or entertains guests.",
+        "meaning_zh_TW": "女主人",
+        "wrong_meaning_zh_TW": [
+          "服務員",
+          "客人",
+          "廚師"
+        ],
+        "examples": [
+          {
+            "sentence": "The [hostess] welcomed us at the door.",
+            "translation_zh_TW": "女主人在門口歡迎我們。"
+          },
+          {
+            "sentence": "She has been a loyal [hostess] for many events.",
+            "translation_zh_TW": "她已作為許多活動的忠實女主人。"
+          },
+          {
+            "sentence": "The restaurant hired a charming [hostess].",
+            "translation_zh_TW": "這家餐廳雇了一位迷人的女主人。"
+          }
+        ],
+        "synonyms": [
+          "host",
+          "entertainer"
+        ]
+      }
+    ],
+    "confusion": [
+      "hostess",
+      "hostes",
+      "hostesss",
+      "hhostess"
+    ]
+  },
+  {
+    "word": "white",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having an ample distance from side to side; wide.",
-        "meaning_zh_TW": "寬廣的",
+        "meaning_en_US": "Of the color of pure snow or milk.",
+        "meaning_zh_TW": "白色的",
         "wrong_meaning_zh_TW": [
-          "狹窄的",
-          "有限的",
-          "細小的"
+          "黑色的",
+          "灰色的",
+          "藍色的"
         ],
         "examples": [
           {
-            "sentence": "They sat on the [broad] lawn.",
-            "translation_zh_TW": "他們坐在寬廣的草地上"
+            "sentence": "The walls are painted [white].",
+            "translation_zh_TW": "牆壁刷成了白色"
           },
           {
-            "sentence": "The river was [broad] in this section.",
-            "translation_zh_TW": "這段河流寬廣"
+            "sentence": "She wore a [white] dress to the party.",
+            "translation_zh_TW": "她穿著一條白色裙子參加派對"
           },
           {
-            "sentence": "He has a [broad] knowledge of history.",
-            "translation_zh_TW": "他對歷史有著廣泛的知識"
+            "sentence": "I prefer [white] bread to brown.",
+            "translation_zh_TW": "我喜歡白麵包勝於棕色麵包"
           }
         ],
         "synonyms": [
-          "wide",
-          "vast"
+          "pale",
+          "colorless"
         ]
       }
     ],
     "confusion": [
-      "brood",
-      "road",
-      "broached",
-      "broadly"
+      "wright",
+      "whit",
+      "wit",
+      "whited"
     ]
   },
   {
-    "word": "scared",
+    "word": "local",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Feeling afraid or frightened.",
-        "meaning_zh_TW": "感到害怕、驚慌",
+        "meaning_en_US": "Relating to a particular area or neighborhood.",
+        "meaning_zh_TW": "地方的",
         "wrong_meaning_zh_TW": [
-          "快樂",
-          "放鬆",
-          "自信"
+          "全球的",
+          "重要的",
+          "技術的"
         ],
         "examples": [
           {
-            "sentence": "She was [scared] of the dark.",
-            "translation_zh_TW": "她害怕黑暗。"
+            "sentence": "The [local] community held a festival.",
+            "translation_zh_TW": "地方社區舉辦了一個節日。"
           },
           {
-            "sentence": "I felt [scared] during the thunderstorm.",
-            "translation_zh_TW": "我在雷陣雨中感到害怕。"
+            "sentence": "He prefers to shop at [local] markets.",
+            "translation_zh_TW": "他偏好在當地市場購物。"
           },
           {
-            "sentence": "Are you [scared] of the haunted house?",
-            "translation_zh_TW": "你害怕鬼屋嗎？"
+            "sentence": "The [local] culture is rich and diverse.",
+            "translation_zh_TW": "當地文化豐富多樣。"
           }
         ],
         "synonyms": [
-          "frightened",
-          "alarmed"
+          "regional",
+          "neighborhood"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who lives in a particular area.",
+        "meaning_zh_TW": "當地人",
+        "wrong_meaning_zh_TW": [
+          "外地人",
+          "遊客",
+          "居民"
+        ],
+        "examples": [
+          {
+            "sentence": "As a [local], she knows all the best spots.",
+            "translation_zh_TW": "作為當地人，她知道所有的好地方。"
+          },
+          {
+            "sentence": "The [locals] are friendly and welcoming.",
+            "translation_zh_TW": "當地人友好而熱情。"
+          },
+          {
+            "sentence": "He met a few [locals] during his travels.",
+            "translation_zh_TW": "他在旅行中遇到了一些當地人。"
+          }
+        ],
+        "synonyms": [
+          "resident",
+          "inhabitant"
         ]
       }
     ],
     "confusion": [
-      "scarred",
-      "scarry",
-      "scarcity",
-      "sacred"
+      "locale",
+      "locate",
+      "locality",
+      "loyal"
     ]
   },
   {
-    "word": "silver",
+    "word": "dial",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A shiny gray-white metal, used for making coins, jewelry, and other items.",
-        "meaning_zh_TW": "銀",
+        "meaning_en_US": "A circular face on a device that indicates a measurement or setting.",
+        "meaning_zh_TW": "指針或刻度盤",
         "wrong_meaning_zh_TW": [
-          "金",
-          "銅",
-          "鋼"
+          "小圓盤",
+          "電話",
+          "時鐘"
         ],
         "examples": [
           {
-            "sentence": "She wore a beautiful [silver] necklace.",
-            "translation_zh_TW": "她戴著一條美麗的銀項鍊"
+            "sentence": "He turned the [dial] to adjust the volume.",
+            "translation_zh_TW": "他調整音量時旋轉了刻度盤。"
           },
           {
-            "sentence": "The [silver] coins shimmered in the light.",
-            "translation_zh_TW": "銀幣在光線下閃閃發光"
+            "sentence": "The [dial] on the oven shows the temperature.",
+            "translation_zh_TW": "烤箱上的指針顯示溫度。"
           },
           {
-            "sentence": "He earned a [silver] medal in the competition.",
-            "translation_zh_TW": "他在比賽中獲得了銀牌"
+            "sentence": "Please read the setting from the [dial].",
+            "translation_zh_TW": "請從刻度盤上讀取設置。"
           }
         ],
         "synonyms": [
-          "argent",
-          "metal"
+          "gauge",
+          "indicator"
         ]
       }
     ],
     "confusion": [
-      "silvery",
-      "silverware",
-      "silvering",
-      "silvers"
+      "dale",
+      "dialect",
+      "diadem",
+      "diaper"
     ]
   },
   {
-    "word": "relationship",
+    "word": "income",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The way in which two or more people or groups regard and behave toward each other.",
-        "meaning_zh_TW": "關係、聯繫",
+        "meaning_en_US": "Money received, especially on a regular basis, for work or through investments.",
+        "meaning_zh_TW": "收入",
         "wrong_meaning_zh_TW": [
-          "分離、隔絕",
-          "混淆、不明",
-          "對抗、衝突"
+          "支出",
+          "負債",
+          "報銷"
         ],
         "examples": [
           {
-            "sentence": "They have a close [relationship] built on years of friendship.",
-            "translation_zh_TW": "他們的關係基於多年的友誼，非常親密。"
+            "sentence": "Her monthly [income] allows her to save for her future.",
+            "translation_zh_TW": "她的每月收入使她能夠為未來存錢。"
           },
           {
-            "sentence": "The [relationship] between teacher and student is crucial.",
-            "translation_zh_TW": "師生之間的關係至關重要。"
+            "sentence": "Investments can significantly increase your [income].",
+            "translation_zh_TW": "投資可以顯著增加你的收入。"
           },
           {
-            "sentence": "Understanding the [relationship] dynamics can improve teamwork.",
-            "translation_zh_TW": "了解關係動態可以改善團隊合作。"
+            "sentence": "He plans to use his [income] to travel the world.",
+            "translation_zh_TW": "他計劃用自己的收入環遊世界。"
           }
         ],
         "synonyms": [
-          "connection",
-          "association"
+          "earnings",
+          "revenue"
         ]
       }
     ],
     "confusion": [
-      "relatioship",
-      "relationchip",
-      "relationshiip",
-      "relatoinship"
+      "outcome",
+      "incoming",
+      "incomes",
+      "inkcome"
     ]
   },
   {
-    "word": "daily",
+    "word": "bun",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A small bread roll, often round and soft.",
+        "meaning_zh_TW": "小圓麵包",
+        "wrong_meaning_zh_TW": [
+          "大餅",
+          "餡餅",
+          "麵團"
+        ],
+        "examples": [
+          {
+            "sentence": "I would like a sugar [bun] for breakfast.",
+            "translation_zh_TW": "我想要一個帶糖的小圓麵包作早餐。"
+          },
+          {
+            "sentence": "The bakery sells delicious cinnamon [buns].",
+            "translation_zh_TW": "這家麵包店賣美味的肉桂小圓麵包。"
+          },
+          {
+            "sentence": "She placed a [bun] on the plate.",
+            "translation_zh_TW": "她把一個圓麵包放在盤子上。"
+          }
+        ],
+        "synonyms": [
+          "roll",
+          "bread roll"
+        ]
+      }
+    ],
+    "confusion": [
+      "buns",
+      "bunh",
+      "burn",
+      "bunm"
+    ]
+  },
+  {
+    "word": "source",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The point of origin or the beginning of something.",
+        "meaning_zh_TW": "來源",
+        "wrong_meaning_zh_TW": [
+          "目標",
+          "水源",
+          "來源地"
+        ],
+        "examples": [
+          {
+            "sentence": "The river is the main [source] of water for the region.",
+            "translation_zh_TW": "這條河是該地區的主要水來源"
+          },
+          {
+            "sentence": "He is my [source] of inspiration.",
+            "translation_zh_TW": "他是我的靈感來源"
+          },
+          {
+            "sentence": "Please provide the [source] of your information.",
+            "translation_zh_TW": "請提供您資訊的來源"
+          }
+        ],
+        "synonyms": [
+          "origin",
+          "root"
+        ]
+      }
+    ],
+    "confusion": [
+      "sauce",
+      "saucepan",
+      "sore",
+      "sour"
+    ]
+  },
+  {
+    "word": "young",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Happening or done every day.",
-        "meaning_zh_TW": "每日的",
+        "meaning_en_US": "Being in the early stage of life, development, or growth.",
+        "meaning_zh_TW": "年輕的",
         "wrong_meaning_zh_TW": [
-          "偶爾的",
-          "週期的",
-          "隨意的"
+          "老的",
+          "腐爛的",
+          "複雜的"
         ],
         "examples": [
           {
-            "sentence": "I have a [daily] routine that keeps me healthy.",
-            "translation_zh_TW": "我有一個每日的例行公事讓我保持健康。"
+            "sentence": "She is a [young] artist with great talent.",
+            "translation_zh_TW": "她是一位擁有巨大才華的年輕藝術家"
           },
           {
-            "sentence": "Reading is a [daily] habit for many people.",
-            "translation_zh_TW": "閱讀是許多人每日的習慣。"
+            "sentence": "The [young] trees need plenty of water.",
+            "translation_zh_TW": "年輕的樹木需要大量的水"
           },
           {
-            "sentence": "She writes in her journal [daily].",
-            "translation_zh_TW": "她每日在日記中寫下內容。"
+            "sentence": "We must protect the [young] generation.",
+            "translation_zh_TW": "我們必須保護年輕一代"
           }
         ],
         "synonyms": [
-          "everyday",
-          "regular"
+          "juvenile",
+          "youthful"
         ]
       }
     ],
     "confusion": [
-      "dally",
-      "day",
-      "dailies",
-      "dail"
+      "yung",
+      "younge",
+      "yeung",
+      "jung"
     ]
   },
   {
-    "word": "conflict",
+    "word": "none",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A serious disagreement or argument.",
-        "meaning_zh_TW": "衝突",
+        "type": "代名詞",
+        "meaning_en_US": "Not any; no one.",
+        "meaning_zh_TW": "沒有一個",
         "wrong_meaning_zh_TW": [
-          "合作",
-          "完全",
-          "和平"
+          "每一個",
+          "某個",
+          "一些"
         ],
         "examples": [
           {
-            "sentence": "The two sides reached a [conflict].",
-            "translation_zh_TW": "雙方達成了衝突"
+            "sentence": "There were [none] left after the sale.",
+            "translation_zh_TW": "促銷後沒有剩下任何東西"
           },
           {
-            "sentence": "There is a [conflict] of interest in this case.",
-            "translation_zh_TW": "在此事件中存在利益衝突"
+            "sentence": "I asked for help, but [none] came.",
+            "translation_zh_TW": "我請求幫忙，但沒有任何人來"
           },
           {
-            "sentence": "They tried to resolve the [conflict] peacefully.",
-            "translation_zh_TW": "他們試圖和平解決衝突"
+            "sentence": "[None] of the answers were correct.",
+            "translation_zh_TW": "沒有任何答案是正確的"
           }
         ],
         "synonyms": [
-          "dispute",
-          "struggle"
+          "nobody",
+          "not one"
         ]
       }
     ],
     "confusion": [
-      "conflate",
-      "conflicted",
-      "confidential",
-      "conform"
+      "one",
+      "none",
+      "neon",
+      "hon"
     ]
   },
   {
-    "word": "equal",
+    "word": "gentle",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Being the same in quantity, quality, or degree.",
-        "meaning_zh_TW": "相等的",
+        "meaning_en_US": "Having or showing a mild, kind, or tender temperament.",
+        "meaning_zh_TW": "溫和的，柔和的",
         "wrong_meaning_zh_TW": [
-          "不相同的",
-          "優越的",
-          "劣質的"
+          "粗暴的、兇狠的",
+          "激烈的、猛烈的",
+          "強烈的、極端的"
         ],
         "examples": [
           {
-            "sentence": "All people should have [equal] rights.",
-            "translation_zh_TW": "所有人應該擁有平等的權利。"
+            "sentence": "The breeze was [gentle] and soothing.",
+            "translation_zh_TW": "微風輕柔而舒適。"
           },
           {
-            "sentence": "The two teams are [equal] in skill.",
-            "translation_zh_TW": "這兩支隊伍的技術是相等的。"
+            "sentence": "He has a [gentle] approach to training dogs.",
+            "translation_zh_TW": "他對訓練狗的方式很溫和。"
           },
           {
-            "sentence": "Make sure the measurements are [equal].",
-            "translation_zh_TW": "確保這些測量是相等的。"
+            "sentence": "She spoke in a [gentle] voice.",
+            "translation_zh_TW": "她用溫和的語氣說話。"
           }
         ],
         "synonyms": [
-          "identical",
-          "equivalent"
+          "mild",
+          "soft",
+          "tender"
         ]
       }
     ],
     "confusion": [
-      "equality",
-      "equate",
-      "equation",
-      "equaled"
+      "gentleness",
+      "gently",
+      "genteel",
+      "gent"
     ]
   },
   {
-    "word": "affair",
+    "word": "repair",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To restore something to a good condition by fixing it.",
+        "meaning_zh_TW": "修理",
+        "wrong_meaning_zh_TW": [
+          "破壞",
+          "更換",
+          "拆卸"
+        ],
+        "examples": [
+          {
+            "sentence": "He will [repair] the broken chair this weekend.",
+            "translation_zh_TW": "他這個周末會修理這把壞掉的椅子"
+          },
+          {
+            "sentence": "The mechanic can [repair] your car quickly.",
+            "translation_zh_TW": "技師可以快速修理你的車"
+          },
+          {
+            "sentence": "We need to [repair] the leaks in the roof.",
+            "translation_zh_TW": "我們需要修補屋頂的漏水"
+          }
+        ],
+        "synonyms": [
+          "fix",
+          "mend"
+        ]
+      }
+    ],
+    "confusion": [
+      "repir",
+      "reapir",
+      "repiar",
+      "repaire"
+    ]
+  },
+  {
+    "word": "cheer",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To shout for joy or in praise or encouragement.",
+        "meaning_zh_TW": "歡呼",
+        "wrong_meaning_zh_TW": [
+          "嘆息",
+          "沉默",
+          "哭泣"
+        ],
+        "examples": [
+          {
+            "sentence": "The crowd began to [cheer] loudly.",
+            "translation_zh_TW": "人群開始大聲歡呼。"
+          },
+          {
+            "sentence": "We will [cheer] for our team at the game.",
+            "translation_zh_TW": "我們將在比賽中為我們的隊伍歡呼。"
+          },
+          {
+            "sentence": "She loves to [cheer] during performances.",
+            "translation_zh_TW": "她喜歡在表演中歡呼。"
+          }
+        ],
+        "synonyms": [
+          "applaud",
+          "encourage"
+        ]
+      }
+    ],
+    "confusion": [
+      "cheerful",
+      "cheep",
+      "chain",
+      "chill"
+    ]
+  },
+  {
+    "word": "pumpkin",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An event or sequence of events of a specified kind.",
-        "meaning_zh_TW": "事件",
+        "meaning_en_US": "A large round orange fruit with a thick rind.",
+        "meaning_zh_TW": "南瓜",
         "wrong_meaning_zh_TW": [
-          "法律",
-          "商業",
-          "私人生活"
-        ],
-        "examples": [
-          {
-            "sentence": "The wedding was a grand [affair].",
-            "translation_zh_TW": "這場婚禮是個盛大的事件。"
-          },
-          {
-            "sentence": "The political [affair] received widespread media coverage.",
-            "translation_zh_TW": "這起政治事件獲得了廣泛的媒體報導。"
-          },
-          {
-            "sentence": "His complicated love [affair] made headlines.",
-            "translation_zh_TW": "他複雜的愛情事件成為了頭條新聞。"
-          }
-        ],
-        "synonyms": [
-          "event",
-          "incident"
-        ]
-      }
-    ],
-    "confusion": [
-      "affair",
-      "afair",
-      "a fair",
-      "affear"
-    ]
-  },
-  {
-    "word": "hardly",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "Barely; almost not; with great difficulty.",
-        "meaning_zh_TW": "幾乎不",
-        "wrong_meaning_zh_TW": [
-          "完全",
-          "非常",
-          "充分"
-        ],
-        "examples": [
-          {
-            "sentence": "I can [hardly] hear you.",
-            "translation_zh_TW": "我幾乎聽不見你。"
-          },
-          {
-            "sentence": "She hardly ever arrives on time.",
-            "translation_zh_TW": "她幾乎從不準時到達。"
-          },
-          {
-            "sentence": "They could hardly contain their excitement.",
-            "translation_zh_TW": "他們幾乎無法抑制住興奮。"
-          }
-        ],
-        "synonyms": [
-          "barely",
-          "scarcely"
-        ]
-      }
-    ],
-    "confusion": [
-      "hardlye",
-      "harly",
-      "hardely",
-      "harlyd"
-    ]
-  },
-  {
-    "word": "pear",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A sweet fruit with a green or yellow skin and a round shape.",
-        "meaning_zh_TW": "梨",
-        "wrong_meaning_zh_TW": [
-          "蘋果",
+          "荔枝",
           "香蕉",
-          "葡萄"
+          "辣椒"
         ],
         "examples": [
           {
-            "sentence": "She sliced a [pear] for the salad.",
-            "translation_zh_TW": "她為沙拉切了一片梨。"
+            "sentence": "We carved a [pumpkin] for Halloween.",
+            "translation_zh_TW": "我們為萬聖節雕刻了一個南瓜。"
           },
           {
-            "sentence": "The garden is full of [pear] trees.",
-            "translation_zh_TW": "花園裡到處都是梨樹。"
+            "sentence": "The soup was made from fresh [pumpkin].",
+            "translation_zh_TW": "這道湯是用新鮮南瓜製作的。"
           },
           {
-            "sentence": "He prefers to eat a ripe [pear] for dessert.",
-            "translation_zh_TW": "他喜歡吃成熟的梨作為甜點。"
+            "sentence": "She decorated the table with [pumpkins] and gourds.",
+            "translation_zh_TW": "她用南瓜和葫蘆裝飾了桌子。"
           }
         ],
         "synonyms": [
-          "fruit",
-          "pome"
+          "gourd",
+          "squash"
         ]
       }
     ],
     "confusion": [
-      "peer",
-      "pare",
-      "pier",
-      "purr"
+      "pumkin",
+      "pumpkins",
+      "puppkin",
+      "pumkinn"
     ]
   },
   {
-    "word": "judge",
+    "word": "personal",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to or affecting a person, especially in their private life.",
+        "meaning_zh_TW": "個人的",
+        "wrong_meaning_zh_TW": [
+          "公事的",
+          "一般的",
+          "共同的"
+        ],
+        "examples": [
+          {
+            "sentence": "She shared her [personal] feelings with her friend.",
+            "translation_zh_TW": "她和朋友分享了她的個人感受"
+          },
+          {
+            "sentence": "It's important to respect [personal] boundaries.",
+            "translation_zh_TW": "尊重個人界限很重要"
+          },
+          {
+            "sentence": "He has a very [personal] approach to therapy.",
+            "translation_zh_TW": "他對療法有著非常個人的方法"
+          }
+        ],
+        "synonyms": [
+          "individual",
+          "private"
+        ]
+      }
+    ],
+    "confusion": [
+      "person",
+      "persona",
+      "personnel",
+      "perusal"
+    ]
+  },
+  {
+    "word": "suggest",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To form an opinion or conclusion about something.",
-        "meaning_zh_TW": "評判、判斷",
+        "meaning_en_US": "To propose a plan or idea for someone to consider.",
+        "meaning_zh_TW": "提出想法",
         "wrong_meaning_zh_TW": [
-          "裁縫、縫紉",
-          "想像、幻想",
-          "分享、分配"
+          "否定",
+          "拒絕",
+          "隱藏"
         ],
         "examples": [
           {
-            "sentence": "It is not right to [judge] someone without knowing their story.",
-            "translation_zh_TW": "在不知道他人故事的情況下評判他人是不對的。"
+            "sentence": "I would like to [suggest] a different approach.",
+            "translation_zh_TW": "我想提出一個不同的方法。"
           },
           {
-            "sentence": "The committee will [judge] the entries based on creativity.",
-            "translation_zh_TW": "小組將根據創意來評判參賽作品。"
+            "sentence": "She [suggested] visiting the museum.",
+            "translation_zh_TW": "她建議參觀博物館。"
           },
           {
-            "sentence": "You should not [judge] people by their appearances.",
-            "translation_zh_TW": "你不應該以外表來評判人。"
+            "sentence": "Can you [suggest] a good restaurant?",
+            "translation_zh_TW": "你能推薦一家好的餐廳嗎？"
           }
         ],
         "synonyms": [
-          "evaluate",
-          "assess"
+          "propose",
+          "recommend"
         ]
       }
     ],
     "confusion": [
-      "gudge",
-      "jedge",
-      "udge",
-      "judger"
+      "siggest",
+      "suggset",
+      "sugegst",
+      "suggestion"
     ]
   },
   {
-    "word": "gym",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A place equipped for physical exercise and sports activities.",
-        "meaning_zh_TW": "健身房",
-        "wrong_meaning_zh_TW": [
-          "教室",
-          "辦公室",
-          "閱讀室"
-        ],
-        "examples": [
-          {
-            "sentence": "She works out at the [gym] every morning.",
-            "translation_zh_TW": "她每天早上都在健身房鍛鍊"
-          },
-          {
-            "sentence": "The [gym] offers various fitness classes.",
-            "translation_zh_TW": "健身房提供各種健身課程"
-          },
-          {
-            "sentence": "He enjoys lifting weights at the [gym].",
-            "translation_zh_TW": "他喜歡在健身房舉重"
-          }
-        ],
-        "synonyms": [
-          "fitness center",
-          "health club"
-        ]
-      }
-    ],
-    "confusion": [
-      "gim",
-      "gymn",
-      "gjm",
-      "gymm"
-    ]
-  },
-  {
-    "word": "cartoon",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A simple drawing showing the features of its subjects in a humorously exaggerated way, often used in magazines or animations.",
-        "meaning_zh_TW": "漫畫",
-        "wrong_meaning_zh_TW": [
-          "小說",
-          "電影",
-          "攝影"
-        ],
-        "examples": [
-          {
-            "sentence": "The [cartoon] made everyone laugh.",
-            "translation_zh_TW": "這部漫畫讓大家都笑了。"
-          },
-          {
-            "sentence": "She loves watching [cartoon] shows on Saturday mornings.",
-            "translation_zh_TW": "她喜歡在星期六早上看卡通。"
-          },
-          {
-            "sentence": "He drew a funny [cartoon] of his teacher.",
-            "translation_zh_TW": "他畫了一幅搞笑的老師漫畫。"
-          }
-        ],
-        "synonyms": [
-          "comic",
-          "animation"
-        ]
-      }
-    ],
-    "confusion": [
-      "carton",
-      "cardoon",
-      "cartonage",
-      "cart"
-    ]
-  },
-  {
-    "word": "seek",
+    "word": "wake",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To attempt to find or obtain something.",
-        "meaning_zh_TW": "尋找",
+        "meaning_en_US": "To cease to sleep; to become awake.",
+        "meaning_zh_TW": "醒來",
         "wrong_meaning_zh_TW": [
-          "等待",
-          "丟棄",
-          "購買"
+          "睡著",
+          "沉默",
+          "暴怒"
         ],
         "examples": [
           {
-            "sentence": "I will [seek] the truth behind the mystery.",
-            "translation_zh_TW": "我會尋找謎團背後的真相。"
+            "sentence": "I often [wake] up early in the morning.",
+            "translation_zh_TW": "我經常在早上醒來"
           },
           {
-            "sentence": "They [seek] new opportunities for growth.",
-            "translation_zh_TW": "他們尋求增長的新機會。"
+            "sentence": "He needs an alarm clock to [wake] him up.",
+            "translation_zh_TW": "他需要鬧鐘叫醒他"
           },
           {
-            "sentence": "She decided to [seek] advice from a mentor.",
-            "translation_zh_TW": "她決定向一位導師尋求建議。"
+            "sentence": "Did you [wake] him for breakfast?",
+            "translation_zh_TW": "你有叫他起床吃早餐嗎？"
           }
         ],
         "synonyms": [
-          "search",
-          "look for"
+          "arouse",
+          "awake"
         ]
       }
     ],
     "confusion": [
-      "sick",
-      "sneak",
-      "sickly",
-      "seem"
-    ]
-  },
-  {
-    "word": "lamb",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A young sheep, especially one that is less than one year old.",
-        "meaning_zh_TW": "小羊",
-        "wrong_meaning_zh_TW": [
-          "牛肉",
-          "豬肉",
-          "白鴿"
-        ],
-        "examples": [
-          {
-            "sentence": "The farmer raised [lambs] for meat.",
-            "translation_zh_TW": "農夫養小羊來獲取肉"
-          },
-          {
-            "sentence": "We saw a [lamb] playing in the field.",
-            "translation_zh_TW": "我們看到一隻小羊在田裡玩耍"
-          },
-          {
-            "sentence": "She knitted a sweater from [lamb] wool.",
-            "translation_zh_TW": "她用小羊毛編織了一件毛衣"
-          }
-        ],
-        "synonyms": [
-          "young sheep",
-          "ewe"
-        ]
-      }
-    ],
-    "confusion": [
-      "lamborghini",
-      "lambs",
-      "lam",
-      "clam"
-    ]
-  },
-  {
-    "word": "fridge",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A colloquial term for a refrigerator.",
-        "meaning_zh_TW": "冰箱",
-        "wrong_meaning_zh_TW": [
-          "冰櫃",
-          "冷凍庫",
-          "飲水機"
-        ],
-        "examples": [
-          {
-            "sentence": "I have leftovers in the [fridge].",
-            "translation_zh_TW": "我在冰箱裡有剩菜。"
-          },
-          {
-            "sentence": "Check the [fridge] for any expired food.",
-            "translation_zh_TW": "檢查冰箱裡是否有過期的食物。"
-          },
-          {
-            "sentence": "The [fridge] is surprisingly spacious.",
-            "translation_zh_TW": "這個冰箱意外地寬敞。"
-          }
-        ],
-        "synonyms": [
-          "refrigerator",
-          "cooler"
-        ]
-      }
-    ],
-    "confusion": [
-      "frigid",
-      "fragile",
-      "frit",
-      "freed"
-    ]
-  },
-  {
-    "word": "year",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A period of 365 days (or 366 days in a leap year) starting from January 1 to December 31.",
-        "meaning_zh_TW": "年",
-        "wrong_meaning_zh_TW": [
-          "豬肉",
-          "故事",
-          "冰箱"
-        ],
-        "examples": [
-          {
-            "sentence": "This [year] has been very challenging for many people.",
-            "translation_zh_TW": "這一年對許多人來說非常具有挑戰性。"
-          },
-          {
-            "sentence": "In one [year], I plan to travel around the world.",
-            "translation_zh_TW": "在一年內，我計劃環遊世界。"
-          },
-          {
-            "sentence": "Every [year], we celebrate the New Year with fireworks.",
-            "translation_zh_TW": "每年我們都用煙火慶祝新年。"
-          }
-        ],
-        "synonyms": [
-          "twelfth month",
-          "calendar year"
-        ]
-      }
-    ],
-    "confusion": [
-      "ear",
-      "gear",
-      "dear",
-      "fear"
-    ]
-  },
-  {
-    "word": "recover",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To return to a normal state of health, mind, or strength.",
-        "meaning_zh_TW": "恢復",
-        "wrong_meaning_zh_TW": [
-          "損失",
-          "降級",
-          "終止"
-        ],
-        "examples": [
-          {
-            "sentence": "She took a few days off to [recover] from her illness.",
-            "translation_zh_TW": "她休息幾天以恢復健康。"
-          },
-          {
-            "sentence": "He is trying to [recover] his lost files.",
-            "translation_zh_TW": "他正在嘗試恢復丟失的文件。"
-          },
-          {
-            "sentence": "The economy is slowly starting to [recover].",
-            "translation_zh_TW": "經濟正在緩慢開始恢復。"
-          }
-        ],
-        "synonyms": [
-          "regain",
-          "retrieve"
-        ]
-      }
-    ],
-    "confusion": [
-      "revert",
-      "reconquer",
-      "recovering",
-      "recoup"
+      "woke",
+      "wave",
+      "wakeful",
+      "wkae"
     ]
   }
 ]

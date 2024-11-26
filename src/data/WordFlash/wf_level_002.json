@@ -1,5 +1,84 @@
 [
   {
+    "word": "quiet",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Making little or no noise.",
+        "meaning_zh_TW": "安靜的",
+        "wrong_meaning_zh_TW": [
+          "嘈雜的",
+          "吵鬧的",
+          "喧鬧的"
+        ],
+        "examples": [
+          {
+            "sentence": "Please be [quiet] during the presentation.",
+            "translation_zh_TW": "在演講期間請保持安靜。"
+          },
+          {
+            "sentence": "The library is a [quiet] place to study.",
+            "translation_zh_TW": "圖書館是一個安靜的學習場所。"
+          },
+          {
+            "sentence": "She enjoys a [quiet] evening at home.",
+            "translation_zh_TW": "她喜歡在家度過安靜的晚上。"
+          }
+        ],
+        "synonyms": [
+          "靜謐的",
+          "沉默的"
+        ]
+      }
+    ],
+    "confusion": [
+      "quietly",
+      "quieter",
+      "qiiet",
+      "quiiet"
+    ]
+  },
+  {
+    "word": "death",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The end of life; the cessation of all biological functions that sustain a living organism.",
+        "meaning_zh_TW": "死亡",
+        "wrong_meaning_zh_TW": [
+          "生長",
+          "重生",
+          "再生"
+        ],
+        "examples": [
+          {
+            "sentence": "The novel explores the theme of [death].",
+            "translation_zh_TW": "這本小說探討了[死亡]的主題。"
+          },
+          {
+            "sentence": "He could not accept the [death] of his beloved pet.",
+            "translation_zh_TW": "他無法接受他心愛的寵物的[死亡]。"
+          },
+          {
+            "sentence": "Many cultures have rituals surrounding [death].",
+            "translation_zh_TW": "許多文化都有關於[死亡]的儀式。"
+          }
+        ],
+        "synonyms": [
+          "demise",
+          "passing",
+          "expiration"
+        ]
+      }
+    ],
+    "confusion": [
+      "deaf",
+      "depth",
+      "debt",
+      "defeat"
+    ]
+  },
+  {
     "word": "often",
     "meanings": [
       {
@@ -698,84 +777,6 @@
       "safeguard",
       "savage",
       "sieve"
-    ]
-  },
-  {
-    "word": "kick",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To strike or touch with the foot.",
-        "meaning_zh_TW": "踢",
-        "wrong_meaning_zh_TW": [
-          "握住",
-          "拉動",
-          "推動"
-        ],
-        "examples": [
-          {
-            "sentence": "He decided to [kick] the ball.",
-            "translation_zh_TW": "他決定去[踢]球。"
-          },
-          {
-            "sentence": "She [kicked] the door open.",
-            "translation_zh_TW": "她[踢]開了門。"
-          },
-          {
-            "sentence": "They will [kick] off the event at noon.",
-            "translation_zh_TW": "他們將在中午[踢]開始這個活動。"
-          }
-        ],
-        "synonyms": [
-          "strike",
-          "boot"
-        ]
-      }
-    ],
-    "confusion": [
-      "kickoff",
-      "kicked",
-      "tick",
-      "kickback"
-    ]
-  },
-  {
-    "word": "twice",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "Two times; on two occasions.",
-        "meaning_zh_TW": "兩次",
-        "wrong_meaning_zh_TW": [
-          "一次",
-          "三次",
-          "幾次"
-        ],
-        "examples": [
-          {
-            "sentence": "I have visited that museum [twice].",
-            "translation_zh_TW": "我去過那個博物館兩次。"
-          },
-          {
-            "sentence": "He called me [twice] yesterday.",
-            "translation_zh_TW": "他昨天給我打了兩次電話。"
-          },
-          {
-            "sentence": "She has seen that movie [twice].",
-            "translation_zh_TW": "她已經看過那部電影兩次。"
-          }
-        ],
-        "synonyms": [
-          "dually",
-          "two-fold"
-        ]
-      }
-    ],
-    "confusion": [
-      "twicey",
-      "twince",
-      "twize",
-      "twise"
     ]
   }
 ]

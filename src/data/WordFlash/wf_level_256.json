@@ -1,809 +1,781 @@
 [
   {
-    "word": "submit",
+    "word": "parallel",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having the same direction, course, nature, or tendency.",
+        "meaning_zh_TW": "平行的，同時發生的",
+        "wrong_meaning_zh_TW": [
+          "交叉的，碰撞的",
+          "隨機的，偶然的",
+          "分散的，偏離的"
+        ],
+        "examples": [
+          {
+            "sentence": "The two lines are [parallel] to each other.",
+            "translation_zh_TW": "這兩條線是平行的。"
+          },
+          {
+            "sentence": "Their lives ran in [parallel] paths.",
+            "translation_zh_TW": "他們的生活走上了平行的道路。"
+          },
+          {
+            "sentence": "The study found [parallel] trends in different countries.",
+            "translation_zh_TW": "這項研究發現不同國家的趨勢是平行的。"
+          }
+        ],
+        "synonyms": [
+          "equidistant",
+          "similar"
+        ]
+      }
+    ],
+    "confusion": [
+      "paralel",
+      "paraller",
+      "parallax",
+      "parellel"
+    ]
+  },
+  {
+    "word": "bodyguard",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person hired to protect someone.",
+        "meaning_zh_TW": "保鑣",
+        "wrong_meaning_zh_TW": [
+          "隨扈",
+          "學生",
+          "護理"
+        ],
+        "examples": [
+          {
+            "sentence": "The celebrity always travels with a [bodyguard].",
+            "translation_zh_TW": "那位名人總是帶著保鑣旅行。"
+          },
+          {
+            "sentence": "He hired a [bodyguard] for extra safety during the event.",
+            "translation_zh_TW": "他在活動期間僱用了一名保鑣以增加安全性。"
+          },
+          {
+            "sentence": "The [bodyguard] stood close to the client at all times.",
+            "translation_zh_TW": "保鑣始終靠近客戶。"
+          }
+        ],
+        "synonyms": [
+          "protector",
+          "guard"
+        ]
+      }
+    ],
+    "confusion": [
+      "body",
+      "buddy",
+      "god",
+      "gourd"
+    ]
+  },
+  {
+    "word": "confidential",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Intended to be kept secret or private.",
+        "meaning_zh_TW": "機密的",
+        "wrong_meaning_zh_TW": [
+          "公開的",
+          "模糊的",
+          "複雜的"
+        ],
+        "examples": [
+          {
+            "sentence": "All [confidential] documents must be stored securely.",
+            "translation_zh_TW": "所有機密文件必須安全存放。"
+          },
+          {
+            "sentence": "He signed a [confidential] agreement with the company.",
+            "translation_zh_TW": "他與公司簽署了機密協議。"
+          },
+          {
+            "sentence": "The meeting will discuss [confidential] matters.",
+            "translation_zh_TW": "會議將討論機密事項。"
+          }
+        ],
+        "synonyms": [
+          "secret",
+          "private"
+        ]
+      }
+    ],
+    "confusion": [
+      "confidentiality",
+      "confidence",
+      "confident",
+      "confined"
+    ]
+  },
+  {
+    "word": "spacious",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having ample space; large in size.",
+        "meaning_zh_TW": "寬敞的",
+        "wrong_meaning_zh_TW": [
+          "狹窄的",
+          "惡劣的",
+          "擁擠的"
+        ],
+        "examples": [
+          {
+            "sentence": "The hotel room was spacious and comfortable.",
+            "translation_zh_TW": "酒店房間寬敞舒適"
+          },
+          {
+            "sentence": "They moved to a more spacious apartment.",
+            "translation_zh_TW": "他們搬到了更寬敞的公寓"
+          },
+          {
+            "sentence": "The car's interior felt spacious and inviting.",
+            "translation_zh_TW": "車內感覺寬敞而舒適"
+          }
+        ],
+        "synonyms": [
+          "roomy",
+          "ample"
+        ]
+      }
+    ],
+    "confusion": [
+      "spacious",
+      "spaceous",
+      "spacioius",
+      "speacious"
+    ]
+  },
+  {
+    "word": "wig",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An artificial covering for the head made of human or synthetic hair.",
+        "meaning_zh_TW": "假髮",
+        "wrong_meaning_zh_TW": [
+          "髮圈",
+          "髮型",
+          "髮膠"
+        ],
+        "examples": [
+          {
+            "sentence": "She wore a [wig] for the costume party.",
+            "translation_zh_TW": "她為了化妝舞會戴上了假髮。"
+          },
+          {
+            "sentence": "The actress changed her style with a new [wig].",
+            "translation_zh_TW": "這位女演員用一頂新假髮改變了她的風格。"
+          },
+          {
+            "sentence": "He couldn't believe how realistic the [wig] looked.",
+            "translation_zh_TW": "他不敢相信這頂假髮看起來有多真實。"
+          }
+        ],
+        "synonyms": [
+          "hairpiece",
+          "toupee"
+        ]
+      }
+    ],
+    "confusion": [
+      "wiggle",
+      "widge",
+      "wog",
+      "dig"
+    ]
+  },
+  {
+    "word": "thesis",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A statement or theory that is put forward as a premise to be maintained or proved.",
+        "meaning_zh_TW": "論文",
+        "wrong_meaning_zh_TW": [
+          "簡報",
+          "報告",
+          "書信"
+        ],
+        "examples": [
+          {
+            "sentence": "Her thesis focused on renewable energy sources.",
+            "translation_zh_TW": "她的論文專注於可再生能源來源。"
+          },
+          {
+            "sentence": "He defended his thesis before the committee.",
+            "translation_zh_TW": "他在委員會前為自己的論文辯護。"
+          },
+          {
+            "sentence": "Writing a thesis can be a daunting task.",
+            "translation_zh_TW": "撰寫論文可能是一項艱巨的任務。"
+          }
+        ],
+        "synonyms": [
+          "dissertation",
+          "argument"
+        ]
+      }
+    ],
+    "confusion": [
+      "thessis",
+      "thesisx",
+      "thesiss",
+      "thesie"
+    ]
+  },
+  {
+    "word": "patch",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A piece of material used to cover a hole or a weak spot.",
+        "meaning_zh_TW": "補丁",
+        "wrong_meaning_zh_TW": [
+          "孔",
+          "線",
+          "衣服"
+        ],
+        "examples": [
+          {
+            "sentence": "She sewed a [patch] on her torn jeans.",
+            "translation_zh_TW": "她在破爛的牛仔褲上縫了補丁。"
+          },
+          {
+            "sentence": "The [patch] in the roof needs to be replaced.",
+            "translation_zh_TW": "屋頂的那個補丁需要更換。"
+          },
+          {
+            "sentence": "He applied a [patch] to fix the software issue.",
+            "translation_zh_TW": "他應用了一個補丁來修復軟體問題。"
+          }
+        ],
+        "synonyms": [
+          "piece",
+          "mend"
+        ]
+      }
+    ],
+    "confusion": [
+      "patchy",
+      "punch",
+      "peach"
+    ]
+  },
+  {
+    "word": "ecology",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The branch of biology that deals with the relations of organisms to one another and to their physical surroundings.",
+        "meaning_zh_TW": "生態學",
+        "wrong_meaning_zh_TW": [
+          "經濟學",
+          "地理學",
+          "環境科學"
+        ],
+        "examples": [
+          {
+            "sentence": "She studied [ecology] in college to understand environmental issues.",
+            "translation_zh_TW": "她在大學學習生態學以了解環境問題。"
+          },
+          {
+            "sentence": "The balance of [ecology] is crucial for the well-being of species.",
+            "translation_zh_TW": "生態的平衡對物種的福祉至關重要。"
+          },
+          {
+            "sentence": "The book provides insight into [ecology] and biodiversity.",
+            "translation_zh_TW": "這本書提供了生態學和生物多樣性的深刻見解。"
+          }
+        ],
+        "synonyms": [
+          "environmental science",
+          "biological community"
+        ]
+      }
+    ],
+    "confusion": [
+      "ecological",
+      "economy",
+      "icosahedron",
+      "etology"
+    ]
+  },
+  {
+    "word": "straightforward",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Easy to understand or simple to do.",
+        "meaning_zh_TW": "簡單明瞭的",
+        "wrong_meaning_zh_TW": [
+          "複雜的",
+          "不明瞭的",
+          "難以理解的"
+        ],
+        "examples": [
+          {
+            "sentence": "The instructions were very [straightforward].",
+            "translation_zh_TW": "這些指示非常簡單明瞭。"
+          },
+          {
+            "sentence": "She gave a [straightforward] answer to the question.",
+            "translation_zh_TW": "她對那個問題給了一個明確的回答。"
+          },
+          {
+            "sentence": "His explanation was [straightforward] and clear.",
+            "translation_zh_TW": "他的解釋簡單明瞭且清晰。"
+          }
+        ],
+        "synonyms": [
+          "clear-cut",
+          "uncomplicated"
+        ]
+      }
+    ],
+    "confusion": [
+      "straightforward",
+      "straightened",
+      "straight",
+      "straight"
+    ]
+  },
+  {
+    "word": "comprehension",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The ability to understand something.",
+        "meaning_zh_TW": "理解力，理解",
+        "wrong_meaning_zh_TW": [
+          "分辨能力",
+          "推理力",
+          "定位"
+        ],
+        "examples": [
+          {
+            "sentence": "Reading regularly improves your reading [comprehension].",
+            "translation_zh_TW": "定期閱讀提高你的閱讀理解能力。"
+          },
+          {
+            "sentence": "Her [comprehension] of the text was impressive.",
+            "translation_zh_TW": "她對文本的理解給人深刻的印象。"
+          },
+          {
+            "sentence": "Test your [comprehension] with these questions.",
+            "translation_zh_TW": "用這些問題測試你的理解能力。"
+          }
+        ],
+        "synonyms": [
+          "understanding",
+          "grasp"
+        ]
+      }
+    ],
+    "confusion": [
+      "comprehending",
+      "comprehensive",
+      "comprehensively",
+      "comprehensible"
+    ]
+  },
+  {
+    "word": "betray",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To present or propose something for consideration, approval, or judgment.",
-        "meaning_zh_TW": "提交",
+        "meaning_en_US": "To reveal secrets or information that should be kept confidential.",
+        "meaning_zh_TW": "背叛",
         "wrong_meaning_zh_TW": [
-          "否決",
-          "監視",
-          "反對"
+          "信任",
+          "友情",
+          "合作"
         ],
         "examples": [
           {
-            "sentence": "Please [submit] your report by Friday.",
-            "translation_zh_TW": "請在星期五之前提交你的報告。"
+            "sentence": "He would never [betray] his friends.",
+            "translation_zh_TW": "他絕不會背叛他的朋友"
           },
           {
-            "sentence": "They had to [submit] the application form online.",
-            "translation_zh_TW": "他們必須在線上提交申請表。"
+            "sentence": "She felt hurt when he [betrayed] her trust.",
+            "translation_zh_TW": "當他背叛了她的信任時，她感到受傷"
           },
           {
-            "sentence": "When you [submit] your work, ensure it is complete.",
-            "translation_zh_TW": "提交作品時，確保它是完整的。"
+            "sentence": "To [betray] your country is a serious crime.",
+            "translation_zh_TW": "背叛你的國家是一種嚴重的罪行"
           }
         ],
         "synonyms": [
-          "present",
-          "propose"
+          "betrayal",
+          "deceive"
         ]
       }
     ],
     "confusion": [
-      "suber",
-      "sumbit",
-      "submittal",
-      "subtraction"
+      "betraied",
+      "betrayed",
+      "betrayer",
+      "betrays"
     ]
   },
   {
-    "word": "columnist",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A journalist contributing regularly to a publication.",
-        "meaning_zh_TW": "專欄作家",
-        "wrong_meaning_zh_TW": [
-          "編輯",
-          "報導者",
-          "作家"
-        ],
-        "examples": [
-          {
-            "sentence": "The [columnist] shares insights on current events.",
-            "translation_zh_TW": "專欄作家分享當前事件的見解。"
-          },
-          {
-            "sentence": "As a respected [columnist], she influences public opinion.",
-            "translation_zh_TW": "作為一名受人尊敬的專欄作家，她影響著公眾意見。"
-          },
-          {
-            "sentence": "He writes a weekly [columnist] piece for the local newspaper.",
-            "translation_zh_TW": "他每週為當地報紙撰寫一篇專欄。"
-          }
-        ],
-        "synonyms": [
-          "editor",
-          "writer"
-        ]
-      }
-    ],
-    "confusion": [
-      "collumnist",
-      "columist",
-      "columnistc",
-      "columnis"
-    ]
-  },
-  {
-    "word": "mint",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A plant of the genus Mentha, commonly used for flavoring or fragrance.",
-        "meaning_zh_TW": "薄荷",
-        "wrong_meaning_zh_TW": [
-          "銀幣",
-          "草藥",
-          "果樹"
-        ],
-        "examples": [
-          {
-            "sentence": "She added [mint] to the tea for a fresh taste.",
-            "translation_zh_TW": "她在茶中加入薄荷以增添新鮮的味道"
-          },
-          {
-            "sentence": "The [mint] leaves are very aromatic.",
-            "translation_zh_TW": "薄荷葉香氣四溢"
-          },
-          {
-            "sentence": "He loves the flavor of [mint] chocolate.",
-            "translation_zh_TW": "他喜歡薄荷巧克力的味道"
-          }
-        ],
-        "synonyms": [
-          "herb",
-          "plant"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "A place where coins are made.",
-        "meaning_zh_TW": "造幣廠",
-        "wrong_meaning_zh_TW": [
-          "郵局",
-          "銀行",
-          "工廠"
-        ],
-        "examples": [
-          {
-            "sentence": "The government oversees the operations of the [mint].",
-            "translation_zh_TW": "政府監督造幣廠的運作"
-          },
-          {
-            "sentence": "The [mint] produces millions of coins every day.",
-            "translation_zh_TW": "這家造幣廠每天生產數百萬枚硬幣"
-          },
-          {
-            "sentence": "He visited the historic [mint] during his trip.",
-            "translation_zh_TW": "他在旅行中參觀了這家歷史悠久的造幣廠"
-          }
-        ],
-        "synonyms": [
-          "coinage",
-          "facility"
-        ]
-      }
-    ],
-    "confusion": [
-      "mink",
-      "minted",
-      "mine",
-      "mind"
-    ]
-  },
-  {
-    "word": "attorney",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person appointed to act for another in legal matters.",
-        "meaning_zh_TW": "律師、代理人",
-        "wrong_meaning_zh_TW": [
-          "醫生",
-          "工程師",
-          "教師"
-        ],
-        "examples": [
-          {
-            "sentence": "She sought the help of an [attorney] for her case.",
-            "translation_zh_TW": "為了她的案件，她尋求律師的幫助。"
-          },
-          {
-            "sentence": "An [attorney] can provide legal representation in court.",
-            "translation_zh_TW": "律師可以在法庭上提供法律代表。"
-          },
-          {
-            "sentence": "He is a well-respected [attorney] in the community.",
-            "translation_zh_TW": "他是社區裡受到尊敬的律師。"
-          }
-        ],
-        "synonyms": [
-          "lawyer",
-          "counsel"
-        ]
-      }
-    ],
-    "confusion": [
-      "attorneys",
-      "attorneyship",
-      "attorney-at-law",
-      "attorney's"
-    ]
-  },
-  {
-    "word": "advocate",
+    "word": "exceed",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "Publicly recommend or support.",
-        "meaning_zh_TW": "倡導",
+        "meaning_en_US": "To go beyond a limit or boundary.",
+        "meaning_zh_TW": "超過限制或邊界",
         "wrong_meaning_zh_TW": [
-          "攻擊",
-          "忽視",
-          "指責"
+          "包含在內",
+          "預期內的",
+          "符合要求"
         ],
         "examples": [
           {
-            "sentence": "She [advocates] for animal rights.",
-            "translation_zh_TW": "她倡導動物權益。"
+            "sentence": "Do not [exceed] the speed limit.",
+            "translation_zh_TW": "請勿超過速度限制。"
           },
           {
-            "sentence": "He has long [advocated] for climate change awareness.",
-            "translation_zh_TW": "他長期倡導提高氣候變化的意識。"
+            "sentence": "Her performance will [exceed] our expectations.",
+            "translation_zh_TW": "她的表現將超出我們的期望。"
           },
           {
-            "sentence": "They [advocate] changes in educational policy.",
-            "translation_zh_TW": "他們倡導教育政策的變革。"
+            "sentence": "You must [exceed] your previous record to win.",
+            "translation_zh_TW": "你必須超過你之前的紀錄才能獲勝。"
           }
         ],
         "synonyms": [
-          "support",
-          "promote"
+          "surpass",
+          "overstep"
         ]
       }
     ],
     "confusion": [
-      "arbitrate",
-      "advocator",
-      "advancing",
-      "advantage"
+      "access",
+      "succeed",
+      "exceedingly",
+      "proceed"
     ]
   },
   {
-    "word": "sustainable",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Able to be maintained at a certain rate or level.",
-        "meaning_zh_TW": "可持續的",
-        "wrong_meaning_zh_TW": [
-          "瞬間的",
-          "不穩定的",
-          "過度消耗的"
-        ],
-        "examples": [
-          {
-            "sentence": "The company is focusing on [sustainable] practices.",
-            "translation_zh_TW": "該公司專注於可持續做法"
-          },
-          {
-            "sentence": "Sustainable energy sources are vital for the future.",
-            "translation_zh_TW": "可持續的能源來源對未來至關重要"
-          },
-          {
-            "sentence": "We need to develop [sustainable] agricultural techniques.",
-            "translation_zh_TW": "我們需要開發可持續的農業技術"
-          }
-        ],
-        "synonyms": [
-          "renewable",
-          "eco-friendly"
-        ]
-      }
-    ],
-    "confusion": [
-      "sustained",
-      "susceptible",
-      "sustainablely",
-      "sustainer"
-    ]
-  },
-  {
-    "word": "sacred",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Regarded with reverence and respect.",
-        "meaning_zh_TW": "神聖的",
-        "wrong_meaning_zh_TW": [
-          "實用的",
-          "普通的",
-          "無趣的"
-        ],
-        "examples": [
-          {
-            "sentence": "The temple is a [sacred] place of worship.",
-            "translation_zh_TW": "這座寺廟是一個神聖的禮拜場所"
-          },
-          {
-            "sentence": "Many cultures have [sacred] rituals.",
-            "translation_zh_TW": "許多文化都有神聖的儀式"
-          },
-          {
-            "sentence": "For her, nature is a [sacred] gift.",
-            "translation_zh_TW": "對她來說，大自然是神聖的贈禮"
-          }
-        ],
-        "synonyms": [
-          "holy",
-          "divine"
-        ]
-      }
-    ],
-    "confusion": [
-      "sacredly",
-      "sacre",
-      "scared",
-      "sucker"
-    ]
-  },
-  {
-    "word": "judicial",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Of, by, or appropriate to a court or judge.",
-        "meaning_zh_TW": "司法的",
-        "wrong_meaning_zh_TW": [
-          "法律的",
-          "執行的",
-          "執法的"
-        ],
-        "examples": [
-          {
-            "sentence": "The [judicial] system needs reform.",
-            "translation_zh_TW": "司法系統需要改革。"
-          },
-          {
-            "sentence": "He held a [judicial] position for many years.",
-            "translation_zh_TW": "他擔任司法職位多年。"
-          },
-          {
-            "sentence": "Judicial review is vital for justice.",
-            "translation_zh_TW": "司法審查對於正義至關重要。"
-          }
-        ],
-        "synonyms": [
-          "legal",
-          "court-related"
-        ]
-      }
-    ],
-    "confusion": [
-      "judice",
-      "judiciary",
-      "judges",
-      "judging"
-    ]
-  },
-  {
-    "word": "outlet",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A means of expressing or releasing something.",
-        "meaning_zh_TW": "出口、發泄方式",
-        "wrong_meaning_zh_TW": [
-          "入口",
-          "障礙",
-          "限制"
-        ],
-        "examples": [
-          {
-            "sentence": "Writing can be a great [outlet] for emotions.",
-            "translation_zh_TW": "寫作可以是情感的一個很好的發泄方式"
-          },
-          {
-            "sentence": "The outlet for creativity is often through art.",
-            "translation_zh_TW": "創造力的出口往往是通過藝術"
-          },
-          {
-            "sentence": "He found an [outlet] in sports to relieve stress.",
-            "translation_zh_TW": "他在運動中找到了解壓的方式"
-          }
-        ],
-        "synonyms": [
-          "release",
-          "channel"
-        ]
-      }
-    ],
-    "confusion": [
-      "outline",
-      "outlook",
-      "outdoor",
-      "outbreak"
-    ]
-  },
-  {
-    "word": "swap",
+    "word": "combat",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To exchange one thing for another.",
-        "meaning_zh_TW": "交換",
+        "meaning_en_US": "To engage in active fighting or struggle.",
+        "meaning_zh_TW": "戰鬥",
         "wrong_meaning_zh_TW": [
-          "保留",
-          "購買",
-          "贈送"
+          "對話",
+          "協調",
+          "交流"
         ],
         "examples": [
           {
-            "sentence": "They decided to [swap] books for the summer.",
-            "translation_zh_TW": "他們決定在夏天交換書籍"
+            "sentence": "Soldiers [combat] their enemies on the battlefield.",
+            "translation_zh_TW": "士兵們在戰場上與敵軍戰鬥。"
           },
           {
-            "sentence": "Can we [swap] seats for the concert?",
-            "translation_zh_TW": "我們可以在音樂會上交換座位嗎？"
+            "sentence": "We need to [combat] climate change through collective efforts.",
+            "translation_zh_TW": "我們需要通過集體努力來對抗氣候變化。"
           },
           {
-            "sentence": "Let's [swap] stories about our travels.",
-            "translation_zh_TW": "讓我們交換旅行故事"
+            "sentence": "The organization aims to [combat] poverty in urban areas.",
+            "translation_zh_TW": "該組織旨在對抗城市地區的貧困。"
           }
         ],
         "synonyms": [
-          "exchange",
-          "replace"
+          "fight",
+          "battle"
         ]
       }
     ],
     "confusion": [
-      "slap",
-      "snap",
-      "swapper",
-      "slapstick"
+      "combatant",
+      "comber",
+      "combate",
+      "commbat"
     ]
   },
   {
-    "word": "conception",
+    "word": "controversy",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The forming or devising of a plan or idea.",
-        "meaning_zh_TW": "概念",
+        "meaning_en_US": "A prolonged public dispute, debate, or contention.",
+        "meaning_zh_TW": "公共爭議",
         "wrong_meaning_zh_TW": [
-          "實施",
-          "評估",
-          "應用"
+          "公共事件",
+          "討論會議",
+          "主題演講"
         ],
         "examples": [
           {
-            "sentence": "The [conception] of the project was innovative.",
-            "translation_zh_TW": "這個項目的概念是創新的。"
+            "sentence": "The new policy has sparked a [controversy] among citizens.",
+            "translation_zh_TW": "新政策在市民中引發了爭議"
           },
           {
-            "sentence": "They had a unique [conception] of art.",
-            "translation_zh_TW": "他們對藝術有獨特的概念。"
+            "sentence": "This book raised a lot of [controversy] about its subject matter.",
+            "translation_zh_TW": "這本書對其主題引發了很多爭議"
           },
           {
-            "sentence": "Her [conception] of freedom differs from others.",
-            "translation_zh_TW": "她對自由的理解與其他人不同。"
+            "sentence": "There is ongoing [controversy] regarding the environmental impact.",
+            "translation_zh_TW": "有關環境影響的爭議仍在進行中"
           }
         ],
         "synonyms": [
-          "idea",
-          "notion"
+          "dispute",
+          "debate"
         ]
       }
     ],
     "confusion": [
-      "conception",
-      "concept",
-      "conceptor",
-      "concurrent"
+      "controversial",
+      "converse",
+      "convertible",
+      "conventional"
     ]
   },
   {
-    "word": "bias",
+    "word": "grip",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A tendency to favor one thing over another, often in a way considered to be unfair.",
-        "meaning_zh_TW": "偏見、偏好",
+        "meaning_en_US": "A firm hold or control.",
+        "meaning_zh_TW": "掌握",
         "wrong_meaning_zh_TW": [
-          "中立",
-          "公平性",
-          "均衡"
+          "失去",
+          "放開",
+          "孤立"
         ],
         "examples": [
           {
-            "sentence": "There was a clear [bias] in the report.",
-            "translation_zh_TW": "報告中有明顯的偏見。"
+            "sentence": "He has a strong [grip] on the handlebars.",
+            "translation_zh_TW": "他緊緊握住車把"
           },
           {
-            "sentence": "His [bias] against the players affected his judgment.",
-            "translation_zh_TW": "他對選手的偏見影響了他的判斷。"
+            "sentence": "The athlete maintained [grip] throughout the competition.",
+            "translation_zh_TW": "運動員在比賽中保持了掌握"
           },
           {
-            "sentence": "The study aimed to eliminate [bias] from the results.",
-            "translation_zh_TW": "這項研究旨在消除結果中的偏見。"
+            "sentence": "The child slipped from her [grip].",
+            "translation_zh_TW": "孩子脫離了她的掌握"
           }
         ],
         "synonyms": [
-          "prejudice",
-          "leaning"
+          "hold",
+          "clutch"
         ]
       }
     ],
     "confusion": [
-      "bicuspid",
-      "biases",
-      "biopsy",
-      "biassed"
+      "gripz",
+      "clip",
+      "drop",
+      "grop"
     ]
   },
   {
-    "word": "mainstream",
+    "word": "rational",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Referring to ideas, attitudes, or activities that are accepted by most people.",
-        "meaning_zh_TW": "主流的",
+        "meaning_en_US": "Based on or in accordance with reason or logic.",
+        "meaning_zh_TW": "理性的",
         "wrong_meaning_zh_TW": [
-          "異端的",
-          "邊緣的",
-          "潛行的"
+          "情感化的",
+          "隨意的",
+          "非理性的"
         ],
         "examples": [
           {
-            "sentence": "The film was a [mainstream] success at the box office.",
-            "translation_zh_TW": "這部電影在票房上取得了主流的成功。"
+            "sentence": "He made a [rational] decision after analyzing the facts.",
+            "translation_zh_TW": "他在分析事實後做出了理性的決定"
           },
           {
-            "sentence": "He prefers [mainstream] music over underground genres.",
-            "translation_zh_TW": "他更喜歡主流音樂而不是地下音樂。"
+            "sentence": "It's important to stay [rational] during a crisis.",
+            "translation_zh_TW": "在危機中保持理性是很重要的"
           },
           {
-            "sentence": "Mainstream fashion trends change rapidly each season.",
-            "translation_zh_TW": "主流時尚潮流每個季度都會快速變化。"
+            "sentence": "A [rational] approach can lead to better results.",
+            "translation_zh_TW": "理性的方式可以帶來更好的結果"
           }
         ],
         "synonyms": [
-          "conventional",
-          "popular"
+          "logical",
+          "reasonable"
         ]
       }
     ],
     "confusion": [
-      "mainstreamed",
-      "mainstreaming",
-      "main",
-      "mainstain"
+      "rationale",
+      "ratinal",
+      "ratin",
+      "rationality"
     ]
   },
   {
-    "word": "sentiment",
+    "word": "equation",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A view or opinion that is held or expressed.",
-        "meaning_zh_TW": "觀點或意見",
+        "meaning_en_US": "A statement that the values of two mathematical expressions are equal.",
+        "meaning_zh_TW": "方程式",
         "wrong_meaning_zh_TW": [
-          "情緒、心情",
-          "感知、感覺",
-          "情緒化"
+          "不等式",
+          "數據集",
+          "演算法"
         ],
         "examples": [
           {
-            "sentence": "The public's [sentiment] on the issue is clear.",
-            "translation_zh_TW": "公眾對此問題的看法很明確。"
+            "sentence": "To solve the [equation], you must isolate the variable.",
+            "translation_zh_TW": "要解這個方程式，你必須孤立變量。"
           },
           {
-            "sentence": "Her [sentiment] towards the project was positive.",
-            "translation_zh_TW": "她對這個項目的看法是正面的。"
+            "sentence": "An algebraic [equation] can represent a line on a graph.",
+            "translation_zh_TW": "代數方程式可以在圖形上表示一條線。"
           },
           {
-            "sentence": "There was a strong [sentiment] for change.",
-            "translation_zh_TW": "有強烈的要求變革的聲音。"
+            "sentence": "This [equation] is crucial for understanding the problem.",
+            "translation_zh_TW": "這個方程式對於理解問題至關重要。"
           }
         ],
         "synonyms": [
-          "view",
-          "opinion"
+          "formula",
+          "expression"
         ]
       }
     ],
     "confusion": [
-      "sentimental",
-      "sentiments",
-      "sentinels",
-      "sentimentalist"
+      "equitable",
+      "equalize",
+      "equilibrium",
+      "equivalent"
     ]
   },
   {
-    "word": "anonymous",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Not identified by name; of unknown name.",
-        "meaning_zh_TW": "匿名的",
-        "wrong_meaning_zh_TW": [
-          "有名的",
-          "著名的",
-          "受歡迎的"
-        ],
-        "examples": [
-          {
-            "sentence": "The donor wished to remain [anonymous].",
-            "translation_zh_TW": "捐贈者希望保持匿名。"
-          },
-          {
-            "sentence": "The website allows [anonymous] comments.",
-            "translation_zh_TW": "這個網站允許匿名評論。"
-          },
-          {
-            "sentence": "She received an [anonymous] letter.",
-            "translation_zh_TW": "她收到了一封匿名信。"
-          }
-        ],
-        "synonyms": [
-          "unnamed",
-          "unknown"
-        ]
-      }
-    ],
-    "confusion": [
-      "anonyous",
-      "anomoous",
-      "nounymous",
-      "anomynous"
-    ]
-  },
-  {
-    "word": "recommend",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To suggest that someone or something would be good or suitable.",
-        "meaning_zh_TW": "推薦",
-        "wrong_meaning_zh_TW": [
-          "批評",
-          "忽視",
-          "誤導"
-        ],
-        "examples": [
-          {
-            "sentence": "I want to [recommend] a good restaurant.",
-            "translation_zh_TW": "我想推薦一家好餐廳。"
-          },
-          {
-            "sentence": "She always [recommends] the best books.",
-            "translation_zh_TW": "她總是推薦最好的書籍。"
-          },
-          {
-            "sentence": "Can you [recommend] a movie for us to watch?",
-            "translation_zh_TW": "你能推薦一部我們可以看的電影嗎？"
-          }
-        ],
-        "synonyms": [
-          "advise",
-          "suggest"
-        ]
-      }
-    ],
-    "confusion": [
-      "commend",
-      "recommence",
-      "recombinant",
-      "recommendation"
-    ]
-  },
-  {
-    "word": "diplomatic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Concerning or relating to diplomacy, or a diplomat.",
-        "meaning_zh_TW": "外交的",
-        "wrong_meaning_zh_TW": [
-          "軍事的",
-          "商業的",
-          "個人的"
-        ],
-        "examples": [
-          {
-            "sentence": "She has a [diplomatic] approach to negotiations.",
-            "translation_zh_TW": "她在談判中採取外交的方式。"
-          },
-          {
-            "sentence": "The [diplomatic] relations between the two countries improved.",
-            "translation_zh_TW": "兩國之間的外交關係改善了。"
-          },
-          {
-            "sentence": "He is known for his [diplomatic] skills in conflict resolution.",
-            "translation_zh_TW": "他在衝突解決方面以外交技能著稱。"
-          }
-        ],
-        "synonyms": [
-          "tactful",
-          "strategic"
-        ]
-      }
-    ],
-    "confusion": [
-      "diploma",
-      "diplo",
-      "diplomatico",
-      "diplos"
-    ]
-  },
-  {
-    "word": "generate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To produce or create something.",
-        "meaning_zh_TW": "生成、產生",
-        "wrong_meaning_zh_TW": [
-          "失去、放棄",
-          "毀壞、摧毀",
-          "懷疑、質疑"
-        ],
-        "examples": [
-          {
-            "sentence": "The new policy will [generate] more jobs in the area.",
-            "translation_zh_TW": "新政策將在該地區產生更多的工作機會"
-          },
-          {
-            "sentence": "This machine is designed to [generate] electricity.",
-            "translation_zh_TW": "這台機器被設計用來產生電力"
-          },
-          {
-            "sentence": "We need to [generate] new ideas for the project.",
-            "translation_zh_TW": "我們需要為這個項目產生新點子"
-          }
-        ],
-        "synonyms": [
-          "create",
-          "produce"
-        ]
-      }
-    ],
-    "confusion": [
-      "generator",
-      "generate",
-      "degenerate",
-      "generous"
-    ]
-  },
-  {
-    "word": "attic",
+    "word": "pier",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A space or room just below the roof of a building.",
-        "meaning_zh_TW": "閣樓",
+        "meaning_en_US": "A structure built on posts extending from land out over water.",
+        "meaning_zh_TW": "碼頭、橋墩",
         "wrong_meaning_zh_TW": [
-          "廚房",
-          "地下室",
-          "陽台"
+          "海岸、沙灘",
+          "碼頭、停泊處",
+          "船隻、航運"
         ],
         "examples": [
           {
-            "sentence": "We found our old toys in the [attic].",
-            "translation_zh_TW": "我們在閣樓裡找到了我們的舊玩具。"
+            "sentence": "We walked along the [pier] at sunset.",
+            "translation_zh_TW": "我們在日落時沿著碼頭散步"
           },
           {
-            "sentence": "The [attic] was filled with dust and memories.",
-            "translation_zh_TW": "閣樓裡滿是灰塵和回憶。"
+            "sentence": "Fishing from the [pier] is popular among locals.",
+            "translation_zh_TW": "當地人喜歡在碼頭釣魚"
           },
           {
-            "sentence": "She uses the [attic] for storage.",
-            "translation_zh_TW": "她把閣樓用作儲藏室。"
+            "sentence": "The [pier] was crowded with tourists.",
+            "translation_zh_TW": "碼頭擠滿了遊客"
           }
         ],
         "synonyms": [
-          "loft",
-          "storage space"
+          "jetty",
+          "wharf"
         ]
       }
     ],
     "confusion": [
-      "atticize",
-      "attical",
-      "attics",
-      "atticism"
+      "peer",
+      "pierce",
+      "pire",
+      "pair"
     ]
   },
   {
-    "word": "statistical",
+    "word": "absurd",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Relating to the use of statistics.",
-        "meaning_zh_TW": "統計的",
+        "meaning_en_US": "Wildly unreasonable, illogical, or inappropriate.",
+        "meaning_zh_TW": "荒謬的",
         "wrong_meaning_zh_TW": [
-          "指定的",
-          "結構的",
-          "意義的"
+          "合理的",
+          "恰當的",
+          "正常的"
         ],
         "examples": [
           {
-            "sentence": "The report includes [statistical] data on population growth.",
-            "translation_zh_TW": "該報告包括有關人口增長的統計資料"
+            "sentence": "It was an [absurd] idea that made no sense.",
+            "translation_zh_TW": "這是一個荒謬且毫無意義的想法"
           },
           {
-            "sentence": "Her research is based on [statistical] analysis.",
-            "translation_zh_TW": "她的研究基於統計分析"
+            "sentence": "They were confronted with the [absurd] reality of their situation.",
+            "translation_zh_TW": "他們面對過於荒謬的現實"
           },
           {
-            "sentence": "He used [statistical] methods to test the hypothesis.",
-            "translation_zh_TW": "他使用統計方法來檢驗假設"
+            "sentence": "His arguments were so [absurd] that nobody took him seriously.",
+            "translation_zh_TW": "他的論點荒謬到沒有人認真對待他"
           }
         ],
         "synonyms": [
-          "quantitative",
-          "numerical"
+          "ridiculous",
+          "foolish"
         ]
       }
     ],
     "confusion": [
-      "statestical",
-      "statiscal",
-      "statistic"
+      "abstruse",
+      "abstract",
+      "absent",
+      "abode"
+    ]
+  },
+  {
+    "word": "indispensable",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Absolutely necessary; essential.",
+        "meaning_zh_TW": "不可或缺的、必需的",
+        "wrong_meaning_zh_TW": [
+          "可有可無的",
+          "選擇性的",
+          "次要的"
+        ],
+        "examples": [
+          {
+            "sentence": "Water is [indispensable] for human survival.",
+            "translation_zh_TW": "水對人類的生存是不可或缺的"
+          },
+          {
+            "sentence": "Honesty is an [indispensable] quality in a leader.",
+            "translation_zh_TW": "誠實是領導者不可或缺的素質"
+          },
+          {
+            "sentence": "These tools are [indispensable] for the job.",
+            "translation_zh_TW": "這些工具對工作是必需的"
+          }
+        ],
+        "synonyms": [
+          "essential",
+          "necessary"
+        ]
+      }
+    ],
+    "confusion": [
+      "indecisive",
+      "indecent",
+      "independent",
+      "interdependence"
     ]
   }
 ]

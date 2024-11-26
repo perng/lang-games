@@ -1,5 +1,268 @@
 [
   {
+    "word": "drive",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To operate and control the direction and speed of a motor vehicle.",
+        "meaning_zh_TW": "駕駛",
+        "wrong_meaning_zh_TW": [
+          "走路",
+          "乘坐",
+          "修理"
+        ],
+        "examples": [
+          {
+            "sentence": "I like to [drive] on the highway.",
+            "translation_zh_TW": "我喜歡在高速公路上駕駛。"
+          },
+          {
+            "sentence": "Can you [drive] me home?",
+            "translation_zh_TW": "你可以開車送我回家嗎？"
+          },
+          {
+            "sentence": "He learned to [drive] at a young age.",
+            "translation_zh_TW": "他在年輕時學會了駕駛。"
+          }
+        ],
+        "synonyms": [
+          "operate",
+          "steer"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "A trip in a vehicle.",
+        "meaning_zh_TW": "駕車旅行",
+        "wrong_meaning_zh_TW": [
+          "步行",
+          "慢跑",
+          "公車"
+        ],
+        "examples": [
+          {
+            "sentence": "We took a long [drive] through the countryside.",
+            "translation_zh_TW": "我們沿著鄉村進行了一次長途駕車旅行。"
+          },
+          {
+            "sentence": "The [drive] was very scenic.",
+            "translation_zh_TW": "這次駕車旅行非常風景如畫。"
+          },
+          {
+            "sentence": "Let's go for a [drive] this weekend.",
+            "translation_zh_TW": "這周末我們去兜風吧。"
+          }
+        ],
+        "synonyms": [
+          "ride",
+          "trip"
+        ]
+      }
+    ],
+    "confusion": [
+      "drill",
+      "drave",
+      "drove",
+      "driveway"
+    ]
+  },
+  {
+    "word": "orange",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A round, sweet, citrus fruit with a tough, bright reddish-yellow rind.",
+        "meaning_zh_TW": "橙子",
+        "wrong_meaning_zh_TW": [
+          "蘋果",
+          "檸檬",
+          "香蕉"
+        ],
+        "examples": [
+          {
+            "sentence": "I like to drink [orange] juice in the morning.",
+            "translation_zh_TW": "我喜歡早上喝橙汁"
+          },
+          {
+            "sentence": "The [orange] tree is full of ripe fruit.",
+            "translation_zh_TW": "橙樹上滿是成熟的水果"
+          },
+          {
+            "sentence": "She wore a beautiful [orange] dress.",
+            "translation_zh_TW": "她穿著一件漂亮的橙色裙子"
+          }
+        ],
+        "synonyms": [
+          "citrus fruit",
+          "tangerine"
+        ]
+      }
+    ],
+    "confusion": [
+      "oranje",
+      "orge",
+      "oren",
+      "orangee"
+    ]
+  },
+  {
+    "word": "star",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A fixed luminous point in the night sky which is a large, remote incandescent body like the sun.",
+        "meaning_zh_TW": "星星",
+        "wrong_meaning_zh_TW": [
+          "月亮",
+          "行星",
+          "燈光"
+        ],
+        "examples": [
+          {
+            "sentence": "You can see many [stars] in the sky tonight.",
+            "translation_zh_TW": "你今晚可以在天空中看到許多星星。"
+          },
+          {
+            "sentence": "The [stars] are brighter in the countryside.",
+            "translation_zh_TW": "在鄉下，星星更亮。"
+          },
+          {
+            "sentence": "She wants to be a [star] in the movies.",
+            "translation_zh_TW": "她想成為電影明星。"
+          }
+        ],
+        "synonyms": [
+          "celestial body",
+          "luminary"
+        ]
+      }
+    ],
+    "confusion": [
+      "stare",
+      "starecase",
+      "staring",
+      "stark"
+    ]
+  },
+  {
+    "word": "supermarket",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large self-service store selling foods and other products.",
+        "meaning_zh_TW": "超級市場",
+        "wrong_meaning_zh_TW": [
+          "小商店",
+          "食品工廠",
+          "大型批發"
+        ],
+        "examples": [
+          {
+            "sentence": "I bought fruits and vegetables at the [supermarket].",
+            "translation_zh_TW": "我在超級市場買了水果和蔬菜。"
+          },
+          {
+            "sentence": "The [supermarket] is open 24 hours.",
+            "translation_zh_TW": "這家超級市場24小時營業。"
+          },
+          {
+            "sentence": "We need to go to the [supermarket] for supplies.",
+            "translation_zh_TW": "我們需要去超級市場購買日用品。"
+          }
+        ],
+        "synonyms": [
+          "grocery store",
+          "market"
+        ]
+      }
+    ],
+    "confusion": [
+      "superb market",
+      "supermaret",
+      "super mark",
+      "supermarketz"
+    ]
+  },
+  {
+    "word": "sleep",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To be in a state of rest, where consciousness is suspended.",
+        "meaning_zh_TW": "睡眠、休息",
+        "wrong_meaning_zh_TW": [
+          "清醒、活躍",
+          "工作、忙碌",
+          "焦慮、緊張"
+        ],
+        "examples": [
+          {
+            "sentence": "I need to [sleep] for at least eight hours.",
+            "translation_zh_TW": "我需要至少睡八個小時。"
+          },
+          {
+            "sentence": "She couldn't [sleep] because of the noise outside.",
+            "translation_zh_TW": "她因為外面的噪音而無法入睡。"
+          },
+          {
+            "sentence": "He will [sleep] better after a long day.",
+            "translation_zh_TW": "經過漫長的一天後，他會睡得更好。"
+          }
+        ],
+        "synonyms": [
+          "rest",
+          "slumber",
+          "nap"
+        ]
+      }
+    ],
+    "confusion": [
+      "sleap",
+      "slip",
+      "sleek",
+      "slep"
+    ]
+  },
+  {
+    "word": "road",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A wide way leading from one place to another, especially one with a prepared surface which vehicles can use.",
+        "meaning_zh_TW": "道路",
+        "wrong_meaning_zh_TW": [
+          "草地",
+          "城市",
+          "隧道"
+        ],
+        "examples": [
+          {
+            "sentence": "The [road] was closed for repairs.",
+            "translation_zh_TW": "道路因維修關閉。"
+          },
+          {
+            "sentence": "She walked down the empty [road].",
+            "translation_zh_TW": "她沿著空蕩蕩的道路走。"
+          },
+          {
+            "sentence": "There are many scenic views along the [road].",
+            "translation_zh_TW": "這條道路沿途有許多風景。"
+          }
+        ],
+        "synonyms": [
+          "path",
+          "route"
+        ]
+      }
+    ],
+    "confusion": [
+      "rode",
+      "load",
+      "brood",
+      "roadie"
+    ]
+  },
+  {
     "word": "mind",
     "meanings": [
       {
@@ -455,73 +718,6 @@
     ]
   },
   {
-    "word": "player",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who takes part in a game or sport.",
-        "meaning_zh_TW": "選手",
-        "wrong_meaning_zh_TW": [
-          "裁判",
-          "觀眾",
-          "教練"
-        ],
-        "examples": [
-          {
-            "sentence": "He is a skilled [player] on the basketball team.",
-            "translation_zh_TW": "他是籃球隊中一名技術高超的[選手]。"
-          },
-          {
-            "sentence": "Every [player] must wear a uniform.",
-            "translation_zh_TW": "每位[球員]必須穿著制服。"
-          },
-          {
-            "sentence": "She has always dreamed of being a professional [player].",
-            "translation_zh_TW": "她一直夢想成為一名專業的[運動員]。"
-          }
-        ],
-        "synonyms": [
-          "athlete",
-          "competitor"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "A device or software that plays media.",
-        "meaning_zh_TW": "播放器",
-        "wrong_meaning_zh_TW": [
-          "編輯器",
-          "製造商",
-          "視頻訊號"
-        ],
-        "examples": [
-          {
-            "sentence": "I need a new music [player] for my workouts.",
-            "translation_zh_TW": "我需要一個新的音樂[播放器]來健身。"
-          },
-          {
-            "sentence": "The DVD [player] stopped working suddenly.",
-            "translation_zh_TW": "DVD[播放機]突然停止工作了。"
-          },
-          {
-            "sentence": "She installed a media [player] on her computer.",
-            "translation_zh_TW": "她在電腦上安裝了一個媒體[播放器]。"
-          }
-        ],
-        "synonyms": [
-          "device",
-          "gadget"
-        ]
-      }
-    ],
-    "confusion": [
-      "player",
-      "payee",
-      "plater",
-      "plyer"
-    ]
-  },
-  {
     "word": "cross",
     "meanings": [
       {
@@ -558,309 +754,6 @@
       "crass",
       "cress",
       "crossed"
-    ]
-  },
-  {
-    "word": "surprise",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An unexpected event or occurrence.",
-        "meaning_zh_TW": "驚喜",
-        "wrong_meaning_zh_TW": [
-          "預測",
-          "計畫",
-          "日常"
-        ],
-        "examples": [
-          {
-            "sentence": "The party was a great [surprise] for her.",
-            "translation_zh_TW": "這個聚會對她來說是一個驚喜"
-          },
-          {
-            "sentence": "His arrival was a [surprise] to everyone.",
-            "translation_zh_TW": "他的到來對每個人來說都是驚喜"
-          },
-          {
-            "sentence": "She loves a good [surprise].",
-            "translation_zh_TW": "她喜歡驚喜"
-          }
-        ],
-        "synonyms": [
-          "astonishment",
-          "unexpectedness"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To cause someone to feel surprise.",
-        "meaning_zh_TW": "使驚訝",
-        "wrong_meaning_zh_TW": [
-          "取悅",
-          "吸引",
-          "告知"
-        ],
-        "examples": [
-          {
-            "sentence": "I didn't mean to [surprise] you.",
-            "translation_zh_TW": "我並不想讓你驚訝"
-          },
-          {
-            "sentence": "She wanted to [surprise] him for his birthday.",
-            "translation_zh_TW": "她想讓他在生日時驚訝"
-          },
-          {
-            "sentence": "They tried to [surprise] the guests.",
-            "translation_zh_TW": "他們試圖使客人驚訝"
-          }
-        ],
-        "synonyms": [
-          "astonish",
-          "shock"
-        ]
-      }
-    ],
-    "confusion": [
-      "surprised",
-      "surprize",
-      "supplies",
-      "surreal"
-    ]
-  },
-  {
-    "word": "ghost",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The spirit of a dead person, often believed to appear to the living.",
-        "meaning_zh_TW": "鬼魂",
-        "wrong_meaning_zh_TW": [
-          "紙飛機",
-          "月亮",
-          "情緒"
-        ],
-        "examples": [
-          {
-            "sentence": "The old house is said to be haunted by a [ghost].",
-            "translation_zh_TW": "據說這座老房子被一個鬼魂糾纏著。"
-          },
-          {
-            "sentence": "He felt a chill as he thought he saw a [ghost] in the forest.",
-            "translation_zh_TW": "他感到一陣寒意，因為他以為在森林裡看到了一個鬼魂。"
-          },
-          {
-            "sentence": "During Halloween, many people dress up as [ghosts].",
-            "translation_zh_TW": "在萬聖節期間，許多人打扮成鬼魂。"
-          }
-        ],
-        "synonyms": [
-          "specter",
-          "phantom"
-        ]
-      }
-    ],
-    "confusion": [
-      "ghastly",
-      "host",
-      "boast",
-      "goat"
-    ]
-  },
-  {
-    "word": "tooth",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "One of many hard structures in the jaws of humans and other animals, used for biting and chewing.",
-        "meaning_zh_TW": "牙齒",
-        "wrong_meaning_zh_TW": [
-          "裝飾",
-          "指甲",
-          "骨頭"
-        ],
-        "examples": [
-          {
-            "sentence": "She lost a [tooth] while eating an apple.",
-            "translation_zh_TW": "她在吃蘋果時掉了一顆牙齒。"
-          },
-          {
-            "sentence": "His [tooth] was hurting from the cavity.",
-            "translation_zh_TW": "他的牙齒因為蛀牙而疼痛。"
-          },
-          {
-            "sentence": "The [tooth] fairy is a popular figure in children's stories.",
-            "translation_zh_TW": "牙仙是兒童故事中的一個受歡迎角色。"
-          }
-        ],
-        "synonyms": [
-          "molar",
-          "incisor",
-          "canine"
-        ]
-      }
-    ],
-    "confusion": [
-      "toothpick",
-      "toothache",
-      "teeth",
-      "truth"
-    ]
-  },
-  {
-    "word": "understand",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To grasp the meaning, significance, or nature of something.",
-        "meaning_zh_TW": "理解",
-        "wrong_meaning_zh_TW": [
-          "相信",
-          "記住",
-          "分析"
-        ],
-        "examples": [
-          {
-            "sentence": "I hope you [understand] my situation.",
-            "translation_zh_TW": "我希望你能[理解]我的情況。"
-          },
-          {
-            "sentence": "Do you [understand] the instructions?",
-            "translation_zh_TW": "你[理解]這些指示嗎？"
-          },
-          {
-            "sentence": "It's important to [understand] the consequences.",
-            "translation_zh_TW": "理解後果是很重要的。"
-          }
-        ],
-        "synonyms": [
-          "comprehend",
-          "grasp"
-        ]
-      }
-    ],
-    "confusion": [
-      "understood",
-      "underlying",
-      "understudy",
-      "undersea"
-    ]
-  },
-  {
-    "word": "plan",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A detailed proposal for doing or achieving something.",
-        "meaning_zh_TW": "計劃",
-        "wrong_meaning_zh_TW": [
-          "隨意",
-          "想像",
-          "建築"
-        ],
-        "examples": [
-          {
-            "sentence": "They put the [plan] into action swiftly.",
-            "translation_zh_TW": "他們迅速實施了計劃。"
-          },
-          {
-            "sentence": "The [plan] was discussed in the meeting.",
-            "translation_zh_TW": "計劃在會議上討論。"
-          },
-          {
-            "sentence": "She has a secret [plan].",
-            "translation_zh_TW": "她有一個秘密計劃。"
-          }
-        ],
-        "synonyms": [
-          "strategy",
-          "scheme"
-        ],
-        "note": "Can refer to both a blueprint and the process of arranging."
-      }
-    ],
-    "confusion": [
-      "plain",
-      "plaan",
-      "planter",
-      "plank"
-    ]
-  },
-  {
-    "word": "radio",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The technology of signaling and communicating using radio waves.",
-        "meaning_zh_TW": "無線電",
-        "wrong_meaning_zh_TW": [
-          "電視",
-          "電話",
-          "網絡"
-        ],
-        "examples": [
-          {
-            "sentence": "He listens to [radio] every morning.",
-            "translation_zh_TW": "他每天早上都聽無線電"
-          },
-          {
-            "sentence": "The [radio] broadcast started at noon.",
-            "translation_zh_TW": "無線電廣播在中午開始"
-          },
-          {
-            "sentence": "She works at a local [radio] station.",
-            "translation_zh_TW": "她在當地的無線電台工作"
-          }
-        ],
-        "synonyms": [
-          "broadcast",
-          "transmission"
-        ]
-      }
-    ],
-    "confusion": [
-      "radios",
-      "raido",
-      "reido",
-      "radioo"
-    ]
-  },
-  {
-    "word": "part",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A piece or segment of something larger.",
-        "meaning_zh_TW": "部分、片段",
-        "wrong_meaning_zh_TW": [
-          "全體、總數",
-          "到來",
-          "完美的結束"
-        ],
-        "examples": [
-          {
-            "sentence": "She played a major [part] in the play.",
-            "translation_zh_TW": "她在劇中扮演重要的角色"
-          },
-          {
-            "sentence": "Can you bring that [part] of the machine?",
-            "translation_zh_TW": "你能帶來那台機器的一部分嗎？"
-          },
-          {
-            "sentence": "Every [part] of the puzzle is needed to complete it.",
-            "translation_zh_TW": "完成這個拼圖的每一部分都是必須的"
-          }
-        ],
-        "synonyms": [
-          "section",
-          "segment"
-        ]
-      }
-    ],
-    "confusion": [
-      "hart",
-      "cart",
-      "par",
-      "purt"
     ]
   }
 ]

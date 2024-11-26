@@ -1,839 +1,748 @@
 [
   {
-    "word": "free",
+    "word": "foreign",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Not under the control or in the power of another; able to act or be done as one wishes.",
-        "meaning_zh_TW": "自由的,免費的",
+        "meaning_en_US": "Of, from, in, or characteristic of a country or language other than one's own.",
+        "meaning_zh_TW": "外國的",
         "wrong_meaning_zh_TW": [
-          "成本",
-          "昂貴的",
-          "富裕的"
+          "本國的",
+          "傳統的",
+          "當地的"
         ],
         "examples": [
           {
-            "sentence": "You are [free] to make your own choices.",
-            "translation_zh_TW": "你可以自由地做出自己的選擇。"
+            "sentence": "She loves to try [foreign] cuisines.",
+            "translation_zh_TW": "她喜歡嘗試外國料理。"
           },
           {
-            "sentence": "The birds flew [free] in the open sky.",
-            "translation_zh_TW": "鳥兒在天空中自由地飛翔。"
+            "sentence": "He studied [foreign] languages at university.",
+            "translation_zh_TW": "他在大學學習外語。"
           },
           {
-            "sentence": "She felt [free] after quitting her job.",
-            "translation_zh_TW": "她在辭職後感到自由。"
+            "sentence": "The [foreign] market is growing rapidly.",
+            "translation_zh_TW": "外國市場正在快速增長。"
           }
         ],
         "synonyms": [
-          "unrestricted",
-          "liberated"
+          "overseas",
+          "exotic"
         ]
       }
     ],
     "confusion": [
-      "flee",
-      "fret",
-      "fee",
-      "fray"
+      "foren",
+      "foraging",
+      "foreigner",
+      "forensic"
     ]
   },
   {
-    "word": "race",
+    "word": "practice",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A competition of speed.",
-        "meaning_zh_TW": "比賽、賽跑",
+        "meaning_en_US": "The actual application or use of an idea, belief, or method, as opposed to theories relating to it.",
+        "meaning_zh_TW": "實踐",
         "wrong_meaning_zh_TW": [
-          "社會、階級",
-          "品種、類型",
-          "物種、分類"
+          "理論",
+          "理智",
+          "建議"
         ],
         "examples": [
           {
-            "sentence": "The [race] was exciting and very close.",
-            "translation_zh_TW": "這場比賽令人興奮且非常接近。"
+            "sentence": "Regular [practice] improves performance.",
+            "translation_zh_TW": "定期的實踐能改善表現"
           },
           {
-            "sentence": "She finished first in the [race].",
-            "translation_zh_TW": "她在這場比賽中獲得第一名。"
+            "sentence": "His [practice] in sports is impressive.",
+            "translation_zh_TW": "他的運動實踐令人印象深刻"
           },
           {
-            "sentence": "They are training hard for the upcoming [race].",
-            "translation_zh_TW": "他們在為即將到來的比賽而努力訓練。"
+            "sentence": "She believes in the value of [practice].",
+            "translation_zh_TW": "她相信實踐的價值"
           }
         ],
         "synonyms": [
-          "competition",
-          "contest",
-          "event"
+          "application",
+          "implementation"
         ]
       }
     ],
     "confusion": [
-      "rase",
-      "racy",
-      "ricer",
-      "rake"
+      "practise",
+      "pratice",
+      "practive",
+      "practic"
     ]
   },
   {
-    "word": "robot",
+    "word": "round",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having a shape like a circle or a sphere.",
+        "meaning_zh_TW": "圓形的",
+        "wrong_meaning_zh_TW": [
+          "方形的",
+          "尖銳的",
+          "凹陷的"
+        ],
+        "examples": [
+          {
+            "sentence": "The table is [round].",
+            "translation_zh_TW": "這張桌子是圓形的"
+          },
+          {
+            "sentence": "She smiled and made a [round] gesture.",
+            "translation_zh_TW": "她微笑並做了圓形的手勢"
+          },
+          {
+            "sentence": "The ball is [round].",
+            "translation_zh_TW": "這個球是圓形的"
+          }
+        ],
+        "synonyms": [
+          "circular",
+          "spherical"
+        ]
+      }
+    ],
+    "confusion": [
+      "found",
+      "rund",
+      "ground",
+      "wound"
+    ]
+  },
+  {
+    "word": "headache",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A machine capable of carrying out a complex series of actions automatically.",
-        "meaning_zh_TW": "機器人",
+        "meaning_en_US": "A continuous pain in the head.",
+        "meaning_zh_TW": "頭痛",
         "wrong_meaning_zh_TW": [
-          "玩具",
-          "手機",
-          "計算機"
+          "食慾不振",
+          "胸痛",
+          "鼻塞"
         ],
         "examples": [
           {
-            "sentence": "The [robot] can help with household chores.",
-            "translation_zh_TW": "這個機器人可以幫助做家務"
+            "sentence": "I have a terrible [headache] today.",
+            "translation_zh_TW": "我今天有個可怕的頭痛。"
           },
           {
-            "sentence": "They designed a new [robot] for manufacturing.",
-            "translation_zh_TW": "他們設計了一個新的機器人來進行製造"
+            "sentence": "She couldn't concentrate because of her [headache].",
+            "translation_zh_TW": "她因為頭痛無法集中精力。"
           },
           {
-            "sentence": "He built a [robot] that can walk and talk.",
-            "translation_zh_TW": "他建造了一個能走和說話的機器人"
+            "sentence": "A [headache] can sometimes be a sign of stress.",
+            "translation_zh_TW": "頭痛有時可能是壓力的徵兆。"
           }
         ],
         "synonyms": [
-          "automaton",
-          "android"
+          "migraine",
+          "pain"
         ]
       }
     ],
     "confusion": [
-      "robust",
-      "route",
-      "robotics",
-      "rob"
+      "headachey",
+      "headakes",
+      "headachy",
+      "headachs"
     ]
   },
   {
-    "word": "Days",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The period of 24 hours as a unit of time.",
-        "meaning_zh_TW": "天",
-        "wrong_meaning_zh_TW": [
-          "星期、週",
-          "時期、歷史",
-          "分、秒"
-        ],
-        "examples": [
-          {
-            "sentence": "There are seven [days] in a week.",
-            "translation_zh_TW": "一週有七天。"
-          },
-          {
-            "sentence": "She spent many [days] traveling across Europe.",
-            "translation_zh_TW": "她花了很多天在歐洲旅行。"
-          },
-          {
-            "sentence": "The [days] are getting longer as summer approaches.",
-            "translation_zh_TW": "隨著夏天的到來，白天越來越長。"
-          }
-        ],
-        "synonyms": [
-          "24 hours",
-          "time period"
-        ]
-      }
-    ],
-    "confusion": [
-      "daays",
-      "daze",
-      "dayz",
-      "daes"
-    ]
-  },
-  {
-    "word": "expect",
+    "word": "spend",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "Regard something as likely to happen.",
-        "meaning_zh_TW": "期待",
+        "meaning_en_US": "To use money to pay for goods or services.",
+        "meaning_zh_TW": "花費",
         "wrong_meaning_zh_TW": [
-          "拒絕",
-          "解釋",
-          "發現"
+          "儲蓄",
+          "交易",
+          "獲得"
         ],
         "examples": [
           {
-            "sentence": "I [expect] to receive my package soon.",
-            "translation_zh_TW": "我期待很快收到我的包裹。"
+            "sentence": "I plan to [spend] some money on clothes.",
+            "translation_zh_TW": "我打算花一些錢在衣服上。"
           },
           {
-            "sentence": "They [expect] a lot from their employees.",
-            "translation_zh_TW": "他們對員工的期待很高。"
+            "sentence": "They will [spend] the weekend at the beach.",
+            "translation_zh_TW": "他們將在海灘度過週末。"
           },
           {
-            "sentence": "We always [expect] the best outcomes.",
-            "translation_zh_TW": "我們總是期待最好的結果。"
+            "sentence": "How much do you usually [spend] on groceries?",
+            "translation_zh_TW": "你通常在雜貨上花多少錢？"
           }
         ],
         "synonyms": [
-          "anticipate",
-          "期望"
+          "expend",
+          "invest"
         ]
       }
     ],
     "confusion": [
-      "exspect",
-      "expec",
-      "expct",
-      "expext"
+      "spendthrift",
+      "spended",
+      "spende",
+      "send"
     ]
   },
   {
-    "word": "thousandth",
+    "word": "thin",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Being number 1000 in a sequence.",
-        "meaning_zh_TW": "第一千的",
+        "meaning_en_US": "Having a small distance between opposite sides.",
+        "meaning_zh_TW": "薄的",
         "wrong_meaning_zh_TW": [
-          "第一百的",
-          "第一千二百的",
-          "第二千的"
+          "厚的",
+          "堅固的",
+          "寬的"
         ],
         "examples": [
           {
-            "sentence": "She was the [thousandth] customer of the day.",
-            "translation_zh_TW": "她是今天的第一千位顧客"
+            "sentence": "She wore a [thin] sweater in winter.",
+            "translation_zh_TW": "她在冬天穿了一件薄毛衣。"
           },
           {
-            "sentence": "The event marked the [thousandth] anniversary of the city.",
-            "translation_zh_TW": "這個事件標誌著這座城市的第一千周年"
+            "sentence": "The ice was too [thin] to skate on.",
+            "translation_zh_TW": "冰面太薄，無法滑冰。"
           },
           {
-            "sentence": "He finished in [thousandth] place in the ranking.",
-            "translation_zh_TW": "他在排名中獲得第一千名"
+            "sentence": "He cut a [thin] slice of bread.",
+            "translation_zh_TW": "他切了一片薄麵包。"
           }
         ],
         "synonyms": [
-          "1000th",
-          "millennial"
+          "slim",
+          "fine"
         ]
       }
     ],
     "confusion": [
-      "thousand",
-      "hundredth",
-      "ten thousandth",
-      "thousands"
+      "thing",
+      "thinly",
+      "thine",
+      "thang"
     ]
   },
   {
-    "word": "small",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Of a size that is less than normal or usual.",
-        "meaning_zh_TW": "小的",
-        "wrong_meaning_zh_TW": [
-          "大大的",
-          "寬廣的",
-          "壯觀的"
-        ],
-        "examples": [
-          {
-            "sentence": "He has a [small] pet dog.",
-            "translation_zh_TW": "他有一隻小狗。"
-          },
-          {
-            "sentence": "The room is quite [small].",
-            "translation_zh_TW": "這間房間相當小。"
-          },
-          {
-            "sentence": "She wore a [small] hat that looked cute.",
-            "translation_zh_TW": "她戴著一頂看起來可愛的小帽子。"
-          }
-        ],
-        "synonyms": [
-          "tiny",
-          "little"
-        ]
-      }
-    ],
-    "confusion": [
-      "smal",
-      "smoll",
-      "smalel",
-      "smalley"
-    ]
-  },
-  {
-    "word": "sick",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Affected by physical or mental illness.",
-        "meaning_zh_TW": "生病的",
-        "wrong_meaning_zh_TW": [
-          "健康的",
-          "強壯的",
-          "聰明的"
-        ],
-        "examples": [
-          {
-            "sentence": "He stayed home because he was feeling [sick].",
-            "translation_zh_TW": "他因為感覺不適而待在家裡"
-          },
-          {
-            "sentence": "She looked [sick] after missing several meals.",
-            "translation_zh_TW": "她錯過幾餐後看起來很虛弱"
-          },
-          {
-            "sentence": "The [sick] child needs to see a doctor.",
-            "translation_zh_TW": "生病的孩子需要看醫生"
-          }
-        ],
-        "synonyms": [
-          "ill",
-          "unwell"
-        ]
-      }
-    ],
-    "confusion": [
-      "slick",
-      "sock",
-      "sickly",
-      "sics"
-    ]
-  },
-  {
-    "word": "newspaper",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A printed publication containing news, articles, advertisements, and other items.",
-        "meaning_zh_TW": "報紙",
-        "wrong_meaning_zh_TW": [
-          "期刊",
-          "雜誌",
-          "文具"
-        ],
-        "examples": [
-          {
-            "sentence": "He reads the [newspaper] every morning.",
-            "translation_zh_TW": "他每天早上讀報紙。"
-          },
-          {
-            "sentence": "The [newspaper] reported on the local events.",
-            "translation_zh_TW": "報紙報導了當地的事件。"
-          },
-          {
-            "sentence": "She writes articles for a [newspaper].",
-            "translation_zh_TW": "她為一家報紙寫文章。"
-          }
-        ],
-        "synonyms": [
-          "報刊",
-          "新聞"
-        ]
-      }
-    ],
-    "confusion": [
-      "newsppaper",
-      "newspapar",
-      "newspeper",
-      "papernews"
-    ]
-  },
-  {
-    "word": "fourteen",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The number equivalent to the sum of three and eleven.",
-        "meaning_zh_TW": "十四",
-        "wrong_meaning_zh_TW": [
-          "十三",
-          "十六",
-          "五十"
-        ],
-        "examples": [
-          {
-            "sentence": "I will turn [fourteen] next month.",
-            "translation_zh_TW": "我下個月就滿十四歲了"
-          },
-          {
-            "sentence": "There are [fourteen] days in the two-week period.",
-            "translation_zh_TW": "兩週中有十四天"
-          },
-          {
-            "sentence": "He scored [fourteen] points in the game.",
-            "translation_zh_TW": "他在比賽中得了十四分"
-          }
-        ],
-        "synonyms": [
-          "四",
-          "十以及四"
-        ]
-      }
-    ],
-    "confusion": [
-      "forteen",
-      "fourty",
-      "fourth",
-      "fourteens"
-    ]
-  },
-  {
-    "word": "repeat",
+    "word": "take",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To say or do something again.",
-        "meaning_zh_TW": "重複",
+        "meaning_en_US": "To grasp or seize something.",
+        "meaning_zh_TW": "拿取、取走",
         "wrong_meaning_zh_TW": [
-          "嘲笑",
-          "隱藏",
-          "抑制"
+          "提供、供給",
+          "給予、奉獻",
+          "賣出、交易"
         ],
         "examples": [
           {
-            "sentence": "Can you [repeat] that question?",
-            "translation_zh_TW": "你能重複那個問題嗎？"
+            "sentence": "Can you [take] this box for me?",
+            "translation_zh_TW": "你能幫我拿這個盒子嗎？"
           },
           {
-            "sentence": "He had to [repeat] his speech for the audience.",
-            "translation_zh_TW": "他不得不為觀眾重複他的演講。"
+            "sentence": "Please [take] a seat.",
+            "translation_zh_TW": "請坐。"
           },
           {
-            "sentence": "She played the song and asked him to [repeat] after her.",
-            "translation_zh_TW": "她播放了這首歌並要求他跟著她重複。"
+            "sentence": "I need to [take] a break.",
+            "translation_zh_TW": "我需要休息一下。"
           }
         ],
         "synonyms": [
-          "reiterate",
-          "recapitulate"
+          "grab",
+          "receive"
         ]
       }
     ],
     "confusion": [
-      "retreat",
-      "repeal",
-      "report",
-      "repetitive"
+      "took",
+      "tooke",
+      "tale",
+      "token"
     ]
   },
   {
-    "word": "oil",
+    "word": "attack",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To take aggressive action against someone or something.",
+        "meaning_zh_TW": "攻擊",
+        "wrong_meaning_zh_TW": [
+          "保護",
+          "援助",
+          "撤退"
+        ],
+        "examples": [
+          {
+            "sentence": "The dog began to [attack] the intruder.",
+            "translation_zh_TW": "狗開始攻擊入侵者。"
+          },
+          {
+            "sentence": "They plan to [attack] the problem from a different angle.",
+            "translation_zh_TW": "他們計劃從不同的角度來攻擊這個問題。"
+          },
+          {
+            "sentence": "In the game, you can [attack] your opponents.",
+            "translation_zh_TW": "在遊戲中，你可以攻擊你的對手。"
+          }
+        ],
+        "synonyms": [
+          "assault",
+          "strike"
+        ]
+      }
+    ],
+    "confusion": [
+      "track",
+      "attach",
+      "tack",
+      "attak"
+    ]
+  },
+  {
+    "word": "reason",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A viscous liquid derived from plants, animals, or minerals, used for cooking, lubrication, or as fuel.",
-        "meaning_zh_TW": "油",
+        "meaning_en_US": "A cause, explanation, or justification for an action or event.",
+        "meaning_zh_TW": "理由",
         "wrong_meaning_zh_TW": [
+          "結果",
+          "後果",
+          "過程"
+        ],
+        "examples": [
+          {
+            "sentence": "She gave a valid [reason] for her absence.",
+            "translation_zh_TW": "她給出了缺席的合理理由。"
+          },
+          {
+            "sentence": "We need to find a [reason] to celebrate.",
+            "translation_zh_TW": "我們需要找到慶祝的理由。"
+          },
+          {
+            "sentence": "Can you explain the [reason] behind your decision?",
+            "translation_zh_TW": "你能解釋一下你決定背後的理由嗎？"
+          }
+        ],
+        "synonyms": [
+          "explanation",
+          "justification"
+        ]
+      }
+    ],
+    "confusion": [
+      "reson",
+      "reaason",
+      "resonance",
+      "rason"
+    ]
+  },
+  {
+    "word": "glass",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A hard, brittle substance typically transparent or translucent, made by fusing sand with soda and lime, used for windows, bottles, and other items.",
+        "meaning_zh_TW": "玻璃",
+        "wrong_meaning_zh_TW": [
+          "牛奶",
           "水",
-          "糖",
-          "鹽"
+          "陶瓷"
         ],
         "examples": [
           {
-            "sentence": "She added a spoonful of [oil] to the pan.",
-            "translation_zh_TW": "她在鍋裡加了一勺油。"
+            "sentence": "The window is made of [glass].",
+            "translation_zh_TW": "窗戶是用玻璃製成的"
           },
           {
-            "sentence": "The car needs more [oil] to function smoothly.",
-            "translation_zh_TW": "這輛車需要更多的油才能正常運行。"
+            "sentence": "She drank water from a [glass].",
+            "translation_zh_TW": "她用杯子喝水"
           },
           {
-            "sentence": "The salad was dressed with olive [oil].",
-            "translation_zh_TW": "沙拉上淋上了橄欖油。"
+            "sentence": "The [glass] shattered when it fell.",
+            "translation_zh_TW": "當杯子掉下時碎了"
           }
         ],
         "synonyms": [
-          "grease",
-          "lubricant"
-        ]
-      }
-    ],
-    "confusion": [
-      "ore",
-      "oath",
-      "ail",
-      "owl"
-    ]
-  },
-  {
-    "word": "season",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Each of the four divisions of the year (spring, summer, autumn, winter).",
-        "meaning_zh_TW": "季節",
-        "wrong_meaning_zh_TW": [
-          "期間",
-          "節日",
-          "時間"
-        ],
-        "examples": [
-          {
-            "sentence": "Winter is my favorite [season].",
-            "translation_zh_TW": "冬天是我最喜歡的季節。"
-          },
-          {
-            "sentence": "The [season] for apples is in the fall.",
-            "translation_zh_TW": "蘋果的季節是在秋天。"
-          },
-          {
-            "sentence": "What is your favorite [season] of the year?",
-            "translation_zh_TW": "你一年中最喜歡的季節是什麼？"
-          }
-        ],
-        "synonyms": [
-          "period",
-          "time"
-        ]
-      }
-    ],
-    "confusion": [
-      "session",
-      "saison",
-      "seasoned",
-      "seasone"
-    ]
-  },
-  {
-    "word": "meeting",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An assembly of people for discussion or decision making.",
-        "meaning_zh_TW": "會議",
-        "wrong_meaning_zh_TW": [
-          "派對",
-          "集市",
-          "表演"
-        ],
-        "examples": [
-          {
-            "sentence": "The [meeting] is scheduled for 10 AM.",
-            "translation_zh_TW": "會議定於上午10點舉行。"
-          },
-          {
-            "sentence": "She prepared notes for the [meeting].",
-            "translation_zh_TW": "她為會議準備了筆記。"
-          },
-          {
-            "sentence": "They had a productive [meeting] last week.",
-            "translation_zh_TW": "他們上週舉行了一次有效的會議。"
-          }
-        ],
-        "synonyms": [
-          "conference",
-          "gathering"
-        ]
-      }
-    ],
-    "confusion": [
-      "meting",
-      "mating",
-      "meating",
-      "meetin"
-    ]
-  },
-  {
-    "word": "seed",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The unit of reproduction of a flowering plant, capable of developing into another such plant.",
-        "meaning_zh_TW": "種子",
-        "wrong_meaning_zh_TW": [
-          "果實",
-          "根部",
-          "莖"
-        ],
-        "examples": [
-          {
-            "sentence": "He planted a [seed] in the soil.",
-            "translation_zh_TW": "他把一顆種子種進了土壤。"
-          },
-          {
-            "sentence": "The [seed] needs sunlight and water to grow.",
-            "translation_zh_TW": "這顆種子需要陽光和水才能生長。"
-          },
-          {
-            "sentence": "Different types of [seeds] produce different plants.",
-            "translation_zh_TW": "不同類型的種子會產生不同的植物。"
-          }
-        ],
-        "synonyms": [
-          "kernel",
-          "grain"
-        ]
-      }
-    ],
-    "confusion": [
-      "see",
-      "cedar",
-      "ceed",
-      "seeds"
-    ]
-  },
-  {
-    "word": "much",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "To a great extent or degree.",
-        "meaning_zh_TW": "非常地",
-        "wrong_meaning_zh_TW": [
-          "少量地",
-          "稍微地",
-          "簡單地"
-        ],
-        "examples": [
-          {
-            "sentence": "I love you [much].",
-            "translation_zh_TW": "我非常愛你"
-          },
-          {
-            "sentence": "He doesn't care [much] about that.",
-            "translation_zh_TW": "他對那件事不是很在意"
-          },
-          {
-            "sentence": "There’s not [much] left.",
-            "translation_zh_TW": "剩下的不是很多"
-          }
-        ],
-        "synonyms": [
-          "greatly",
-          "really"
-        ]
-      }
-    ],
-    "confusion": [
-      "munch",
-      "mucho",
-      "muche",
-      "mach"
-    ]
-  },
-  {
-    "word": "duck",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "a waterbird with a broad blunt bill, short legs, and webbed feet.",
-        "meaning_zh_TW": "鴨子",
-        "wrong_meaning_zh_TW": [
-          "雞",
-          "鵝",
-          "鸚鵡"
-        ],
-        "examples": [
-          {
-            "sentence": "The [duck] swam across the pond.",
-            "translation_zh_TW": "這隻鴨子游過了池塘。"
-          },
-          {
-            "sentence": "He feed the [duck] at the park.",
-            "translation_zh_TW": "他在公園裡餵鴨子。"
-          },
-          {
-            "sentence": "A [duck] quacked loudly.",
-            "translation_zh_TW": "一隻鴨子吵鬧地叫。"
-          }
-        ],
-        "synonyms": [
-          "waterbird",
-          "fowl"
+          "pane",
+          "crystal"
         ]
       },
+      {
+        "type": "名詞",
+        "meaning_en_US": "An optical instrument consisting of a lens or combination of lenses for magnifying or viewing objects.",
+        "meaning_zh_TW": "眼鏡",
+        "wrong_meaning_zh_TW": [
+          "放大鏡",
+          "手電筒",
+          "顯微鏡"
+        ],
+        "examples": [
+          {
+            "sentence": "He wears [glasses] for reading.",
+            "translation_zh_TW": "他佩戴眼鏡以便閱讀"
+          },
+          {
+            "sentence": "She cleans her [glasses] regularly.",
+            "translation_zh_TW": "她經常清潔眼鏡"
+          },
+          {
+            "sentence": "My [glasses] are prescription ones.",
+            "translation_zh_TW": "我的眼鏡是處方眼鏡"
+          }
+        ],
+        "synonyms": [
+          "spectacles",
+          "lenses"
+        ]
+      }
+    ],
+    "confusion": [
+      "class",
+      "grass",
+      "gloss",
+      "glad"
+    ]
+  },
+  {
+    "word": "tree",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A perennial plant with an elongated stem, or trunk, supporting branches and leaves.",
+        "meaning_zh_TW": "樹",
+        "wrong_meaning_zh_TW": [
+          "灌木",
+          "草",
+          "藤"
+        ],
+        "examples": [
+          {
+            "sentence": "The [tree] provided shade on a hot day.",
+            "translation_zh_TW": "這棵樹在炎熱的日子裡提供了陰涼"
+          },
+          {
+            "sentence": "He climbed the [tree] to get a better view.",
+            "translation_zh_TW": "他爬上樹以獲得更好的視野"
+          },
+          {
+            "sentence": "They planted a [tree] in the park.",
+            "translation_zh_TW": "他們在公園裡種了一棵樹"
+          }
+        ],
+        "synonyms": [
+          "plant",
+          "timber"
+        ]
+      }
+    ],
+    "confusion": [
+      "try",
+      "train",
+      "true",
+      "treat"
+    ]
+  },
+  {
+    "word": "banana",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A long curved fruit that grows in clusters and has soft, pulpy flesh and yellow skin when ripe.",
+        "meaning_zh_TW": "香蕉",
+        "wrong_meaning_zh_TW": [
+          "蘋果",
+          "橙子",
+          "草莓"
+        ],
+        "examples": [
+          {
+            "sentence": "He ate a [banana] for a healthy snack.",
+            "translation_zh_TW": "他吃了一根香蕉作為健康的小吃"
+          },
+          {
+            "sentence": "She put a [banana] in her smoothie.",
+            "translation_zh_TW": "她在果昔裡放了一根香蕉"
+          },
+          {
+            "sentence": "The monkey loves to eat [bananas].",
+            "translation_zh_TW": "猴子喜歡吃香蕉"
+          }
+        ],
+        "synonyms": [
+          "fruit"
+        ]
+      }
+    ],
+    "confusion": [
+      "bandana",
+      "banjo",
+      "bana",
+      "banda"
+    ]
+  },
+  {
+    "word": "straight",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Extending or moving in a direct line.",
+        "meaning_zh_TW": "直的",
+        "wrong_meaning_zh_TW": [
+          "彎曲的",
+          "圓形的",
+          "曲線的"
+        ],
+        "examples": [
+          {
+            "sentence": "Drive [straight] for two miles.",
+            "translation_zh_TW": "直走兩英里。"
+          },
+          {
+            "sentence": "Make a [straight] line with your pencil.",
+            "translation_zh_TW": "用鉛筆畫一條直線。"
+          },
+          {
+            "sentence": "The road ahead is [straight].",
+            "translation_zh_TW": "前面的道路是直的。"
+          }
+        ],
+        "synonyms": [
+          "direct",
+          "linear"
+        ]
+      },
+      {
+        "type": "副詞",
+        "meaning_en_US": "In a direct line, without a curve or bend.",
+        "meaning_zh_TW": "直接",
+        "wrong_meaning_zh_TW": [
+          "間接",
+          "彎曲",
+          "轉彎"
+        ],
+        "examples": [
+          {
+            "sentence": "He walked [straight] to the door.",
+            "translation_zh_TW": "他直接走到門口。"
+          },
+          {
+            "sentence": "Turn [straight] left at the next intersection.",
+            "translation_zh_TW": "在下一個交叉口直接左轉。"
+          },
+          {
+            "sentence": "Look [straight] ahead while driving.",
+            "translation_zh_TW": "駕駛時要看著前方。"
+          }
+        ],
+        "synonyms": [
+          "directly",
+          "inline"
+        ]
+      }
+    ],
+    "confusion": [
+      "stray",
+      "strait",
+      "streak",
+      "strat"
+    ]
+  },
+  {
+    "word": "note",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A brief record of something written down for future reference.",
+        "meaning_zh_TW": "筆記",
+        "wrong_meaning_zh_TW": [
+          "日記",
+          "作業",
+          "信件"
+        ],
+        "examples": [
+          {
+            "sentence": "I made a [note] about the meeting.",
+            "translation_zh_TW": "我對會議做了筆記"
+          },
+          {
+            "sentence": "Please leave a [note] for the guests.",
+            "translation_zh_TW": "請為客人留個便條"
+          },
+          {
+            "sentence": "She wrote a [note] to remind herself.",
+            "translation_zh_TW": "她寫了一個便條提醒自己"
+          }
+        ],
+        "synonyms": [
+          "memo",
+          "message"
+        ]
+      }
+    ],
+    "confusion": [
+      "not",
+      "knot",
+      "nod",
+      "noot"
+    ]
+  },
+  {
+    "word": "run",
+    "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "to lower the head or body quickly.",
-        "meaning_zh_TW": "躲避",
+        "meaning_en_US": "To move at a speed faster than a walk.",
+        "meaning_zh_TW": "跑",
         "wrong_meaning_zh_TW": [
-          "站立",
-          "高舉",
-          "延遲"
+          "靜止不動",
+          "跳躍",
+          "慢走"
         ],
         "examples": [
           {
-            "sentence": "He had to [duck] to avoid the low branch.",
-            "translation_zh_TW": "他必須彎腰以避免碰到低樹枝。"
+            "sentence": "He decided to [run] in the marathon this year.",
+            "translation_zh_TW": "他決定今年參加馬拉松賽跑"
           },
           {
-            "sentence": "She [duck]ed under the table.",
-            "translation_zh_TW": "她躲到了桌子下。"
+            "sentence": "They [run] home every day after school.",
+            "translation_zh_TW": "他們每天放學後都跑回家"
           },
           {
-            "sentence": "You should [duck] when the ball comes.",
-            "translation_zh_TW": "當球來的時候你應該躲避。"
+            "sentence": "She can [run] very fast for her age.",
+            "translation_zh_TW": "對於她的年齡來說，她能跑得很快"
           }
         ],
         "synonyms": [
-          "dodge",
-          "lower"
-        ]
-      }
-    ],
-    "confusion": [
-      "dock",
-      "luck",
-      "stuck",
-      "ducked"
-    ]
-  },
-  {
-    "word": "toilet",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A fixture for urination and defecation, often found in bathrooms.",
-        "meaning_zh_TW": "廁所",
-        "wrong_meaning_zh_TW": [
-          "洗手槽",
-          "浴缸",
-          "更衣室"
-        ],
-        "examples": [
-          {
-            "sentence": "The [toilet] is located at the end of the hallway.",
-            "translation_zh_TW": "廁所位於走廊的盡頭。"
-          },
-          {
-            "sentence": "Please remember to flush the [toilet].",
-            "translation_zh_TW": "請記得沖洗廁所。"
-          },
-          {
-            "sentence": "She kept the [toilet] clean and tidy.",
-            "translation_zh_TW": "她保持廁所乾淨整齊。"
-          }
-        ],
-        "synonyms": [
-          "restroom",
-          "bathroom"
-        ]
-      }
-    ],
-    "confusion": [
-      "toil",
-      "toilest",
-      "toilete",
-      "toilr"
-    ]
-  },
-  {
-    "word": "loud",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Producing or capable of producing much noise; easily heard.",
-        "meaning_zh_TW": "響亮的",
-        "wrong_meaning_zh_TW": [
-          "安靜的",
-          "微弱的",
-          "輕柔的"
-        ],
-        "examples": [
-          {
-            "sentence": "The music was so [loud] that I couldn't hear what he said.",
-            "translation_zh_TW": "音樂太響亮了，我聽不清他在說什麼。"
-          },
-          {
-            "sentence": "She has a [loud] laugh that fills the room.",
-            "translation_zh_TW": "她的笑聲響亮，充滿了整個房間。"
-          },
-          {
-            "sentence": "The crowd became [loud] during the concert.",
-            "translation_zh_TW": "音樂會上人群變得非常吵鬧。"
-          }
-        ],
-        "synonyms": [
-          "noisy",
-          "boisterous"
-        ]
-      }
-    ],
-    "confusion": [
-      "load",
-      "cloud",
-      "mood",
-      "louder"
-    ]
-  },
-  {
-    "word": "far",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "At, to, or by a great distance; far away.",
-        "meaning_zh_TW": "遙遠地",
-        "wrong_meaning_zh_TW": [
-          "近地",
-          "隨便地",
-          "快速地"
-        ],
-        "examples": [
-          {
-            "sentence": "He lives [far] from here.",
-            "translation_zh_TW": "他住在離這裡很遠的地方"
-          },
-          {
-            "sentence": "She traveled [far] across the world.",
-            "translation_zh_TW": "她穿越世界旅遊"
-          },
-          {
-            "sentence": "It's not [far] to the nearest store.",
-            "translation_zh_TW": "到最近的商店不遠"
-          }
-        ],
-        "synonyms": [
-          "distant",
-          "remote"
+          "sprint",
+          "jog"
         ]
       },
       {
-        "type": "形容詞",
-        "meaning_en_US": "Distant in space or time.",
-        "meaning_zh_TW": "遙遠的",
+        "type": "名詞",
+        "meaning_en_US": "A period of running or exercise.",
+        "meaning_zh_TW": "跑步",
         "wrong_meaning_zh_TW": [
-          "接近的",
-          "即時的",
-          "更新的"
+          "散步",
+          "停留",
+          "拖延"
         ],
         "examples": [
           {
-            "sentence": "He took a [far] different approach.",
-            "translation_zh_TW": "他採取了完全不同的方法"
+            "sentence": "I go for a [run] every morning.",
+            "translation_zh_TW": "我每天早上去跑步"
           },
           {
-            "sentence": "They have [far] reaching effects.",
-            "translation_zh_TW": "它們有深遠的影響"
+            "sentence": "Her daily [run] keeps her fit.",
+            "translation_zh_TW": "她每天的跑步讓她保持健康"
           },
           {
-            "sentence": "We have [far] fewer options now.",
-            "translation_zh_TW": "我們現在的選擇少得多"
+            "sentence": "He is training for a long-distance [run].",
+            "translation_zh_TW": "他正在訓練參加長跑"
           }
         ],
         "synonyms": [
-          "remote",
-          "distant"
+          "jog",
+          "sprint"
         ]
       }
     ],
     "confusion": [
-      "fan",
-      "bar",
-      "car",
-      "farmer"
+      "runny",
+      "rung",
+      "rune",
+      "ruin"
+    ]
+  },
+  {
+    "word": "buy",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To acquire in exchange for payment.",
+        "meaning_zh_TW": "購買",
+        "wrong_meaning_zh_TW": [
+          "賣",
+          "借",
+          "交易"
+        ],
+        "examples": [
+          {
+            "sentence": "I need to [buy] some groceries.",
+            "translation_zh_TW": "我需要去購買一些雜貨"
+          },
+          {
+            "sentence": "She decided to [buy] a new car.",
+            "translation_zh_TW": "她決定購買一輛新車"
+          },
+          {
+            "sentence": "They went to [buy] tickets for the concert.",
+            "translation_zh_TW": "他們去購買音樂會的票"
+          }
+        ],
+        "synonyms": [
+          "purchase",
+          "acquire"
+        ]
+      }
+    ],
+    "confusion": [
+      "bye",
+      "by",
+      "buying",
+      "bight"
+    ]
+  },
+  {
+    "word": "sign",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A gesture or action used to convey information or instructions.",
+        "meaning_zh_TW": "標誌",
+        "wrong_meaning_zh_TW": [
+          "信號",
+          "指示",
+          "提示"
+        ],
+        "examples": [
+          {
+            "sentence": "Look for the stop [sign].",
+            "translation_zh_TW": "尋找停車標誌。"
+          },
+          {
+            "sentence": "The road [sign] indicates a detour.",
+            "translation_zh_TW": "這個路標誌示了一個繞行。"
+          },
+          {
+            "sentence": "She made a [sign] to enter.",
+            "translation_zh_TW": "她做了一個進入的手勢。"
+          }
+        ],
+        "synonyms": [
+          "indicator",
+          "symbol"
+        ]
+      }
+    ],
+    "confusion": [
+      "signe",
+      "sigh",
+      "sig",
+      "sin"
     ]
   }
 ]

@@ -1,809 +1,749 @@
 [
   {
-    "word": "juice",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A liquid obtained from fruit or vegetables.",
-        "meaning_zh_TW": "果汁或蔬菜汁",
-        "wrong_meaning_zh_TW": [
-          "葡萄酒",
-          "食物",
-          "醬汁"
-        ],
-        "examples": [
-          {
-            "sentence": "He poured a glass of [juice].",
-            "translation_zh_TW": "他倒了一杯果汁。"
-          },
-          {
-            "sentence": "Fresh orange [juice] is my favorite drink.",
-            "translation_zh_TW": "新鮮的橘子汁是我最喜歡的飲料。"
-          },
-          {
-            "sentence": "You can make [juice] from any fruit.",
-            "translation_zh_TW": "你可以用任何水果做果汁。"
-          }
-        ],
-        "synonyms": [
-          "liquid extract",
-          "nectar"
-        ]
-      }
-    ],
-    "confusion": [
-      "juicier",
-      "jounce",
-      "juxtapose",
-      "juke"
-    ]
-  },
-  {
-    "word": "celebrate",
+    "word": "pay",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To acknowledge a significant or happy day or event with a social gathering or enjoyable activity.",
-        "meaning_zh_TW": "慶祝",
+        "meaning_en_US": "To give money in exchange for goods or services.",
+        "meaning_zh_TW": "支付",
         "wrong_meaning_zh_TW": [
-          "哀悼",
-          "忽視",
-          "忘記"
+          "借貸",
+          "交易",
+          "送貨"
         ],
         "examples": [
           {
-            "sentence": "We will [celebrate] her birthday with a cake.",
-            "translation_zh_TW": "我們會用蛋糕來慶祝她的生日。"
+            "sentence": "I need to [pay] the bill today.",
+            "translation_zh_TW": "我今天需要[支付]帳單。"
           },
           {
-            "sentence": "They [celebrate] the New Year with fireworks.",
-            "translation_zh_TW": "他們用煙火來慶祝新年。"
+            "sentence": "He offered to [pay] for dinner.",
+            "translation_zh_TW": "他提出[支付]晚餐費用。"
           },
           {
-            "sentence": "Let's [celebrate] our achievements together.",
-            "translation_zh_TW": "讓我們一起慶祝我們的成就。"
+            "sentence": "You can [pay] with cash or credit.",
+            "translation_zh_TW": "你可以用現金或信用卡[支付]。"
           }
         ],
         "synonyms": [
-          "commemorate",
-          "observed"
+          "settle",
+          "remunerate"
         ]
       }
     ],
     "confusion": [
-      "celebate",
-      "celebrity",
-      "letter",
-      "separator"
+      "payee",
+      "pays",
+      "payable",
+      "played"
     ]
   },
   {
-    "word": "kitchen",
+    "word": "forty",
+    "meanings": [
+      {
+        "type": "數字",
+        "meaning_en_US": "The number equivalent to the product of four and ten.",
+        "meaning_zh_TW": "四十",
+        "wrong_meaning_zh_TW": [
+          "三十",
+          "五十",
+          "四"
+        ],
+        "examples": [
+          {
+            "sentence": "There are [forty] students in the class.",
+            "translation_zh_TW": "班上有四十位學生"
+          },
+          {
+            "sentence": "She is [forty] years old.",
+            "translation_zh_TW": "她四十歲了"
+          },
+          {
+            "sentence": "The temperature reached [forty] degrees.",
+            "translation_zh_TW": "氣溫達到四十度"
+          }
+        ],
+        "synonyms": [
+          "40",
+          "four tens"
+        ]
+      }
+    ],
+    "confusion": [
+      "forty",
+      "fourty",
+      "for",
+      "four"
+    ]
+  },
+  {
+    "word": "hand",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A room or area where food is prepared and cooked.",
-        "meaning_zh_TW": "廚房",
+        "meaning_en_US": "The terminal part of the upper limb in humans and primates.",
+        "meaning_zh_TW": "手",
         "wrong_meaning_zh_TW": [
-          "浴室",
-          "儲藏室",
-          "客廳"
+          "葡萄",
+          "工具",
+          "時鐘"
         ],
         "examples": [
           {
-            "sentence": "She spent all day in the [kitchen] preparing meals.",
-            "translation_zh_TW": "她整天在廚房裡準備餐點。"
+            "sentence": "He raised his [hand] to ask a question.",
+            "translation_zh_TW": "他舉手想問問題。"
           },
           {
-            "sentence": "The [kitchen] is equipped with modern appliances.",
-            "translation_zh_TW": "廚房配備了現代電器。"
+            "sentence": "She has a tattoo on her [hand].",
+            "translation_zh_TW": "她的手上有一個纹身。"
           },
           {
-            "sentence": "He loves to decorate the [kitchen] for the holidays.",
-            "translation_zh_TW": "他喜歡為假期裝飾廚房。"
+            "sentence": "Can you lend me a [hand] with this?",
+            "translation_zh_TW": "你能幫我一下嗎？"
           }
         ],
         "synonyms": [
-          "cooking area",
-          "cuisine"
+          "palm",
+          "appendage"
         ]
       }
     ],
     "confusion": [
-      "kitchener",
-      "kitten",
-      "itch",
-      "chick"
+      "band",
+      "sand",
+      "land",
+      "handy"
     ]
   },
   {
-    "word": "uniform",
+    "word": "bank",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "Distinctive clothing worn by members of the same organization or group.",
-        "meaning_zh_TW": "制服",
+        "meaning_en_US": "A financial institution that accepts deposits from the public.",
+        "meaning_zh_TW": "銀行",
         "wrong_meaning_zh_TW": [
-          "連衣裙",
-          "運動服",
-          "普通服裝"
+          "安全箱",
+          "商店",
+          "擔保"
         ],
         "examples": [
           {
-            "sentence": "The students wear a [uniform] to school.",
-            "translation_zh_TW": "學生上學時穿著制服。"
+            "sentence": "I need to go to the [bank] to withdraw cash.",
+            "translation_zh_TW": "我需要去銀行提款"
           },
           {
-            "sentence": "The police officer put on his [uniform] before duty.",
-            "translation_zh_TW": "警察在執勤前穿上他的制服。"
+            "sentence": "She deposited money into her [bank] account.",
+            "translation_zh_TW": "她將錢存入她的銀行帳戶"
           },
           {
-            "sentence": "Each team has its own [uniform] colors.",
-            "translation_zh_TW": "每隊都有自己獨特的制服顏色。"
+            "sentence": "Banks [bank] on customer trust.",
+            "translation_zh_TW": "銀行依賴客戶信任"
           }
         ],
         "synonyms": [
-          "outfit",
-          "costume"
+          "financial institution",
+          "depository"
         ]
       }
     ],
     "confusion": [
-      "uni-form",
-      "uni-foam",
-      "unicorn",
-      "unify"
+      "bark",
+      "blank",
+      "banking",
+      "brank"
     ]
   },
   {
-    "word": "she",
-    "meanings": [
-      {
-        "type": "代詞",
-        "meaning_en_US": "Used to refer to a woman, girl, or female animal previously mentioned or easily identified.",
-        "meaning_zh_TW": "她",
-        "wrong_meaning_zh_TW": [
-          "他",
-          "它",
-          "我們"
-        ],
-        "examples": [
-          {
-            "sentence": "She is my best friend.",
-            "translation_zh_TW": "她是我最好的朋友。"
-          },
-          {
-            "sentence": "Did she arrive yet?",
-            "translation_zh_TW": "她到了嗎？"
-          },
-          {
-            "sentence": "She loves to read books.",
-            "translation_zh_TW": "她喜歡閱讀書籍。"
-          }
-        ],
-        "synonyms": [
-          "her",
-          "that woman"
-        ]
-      }
-    ],
-    "confusion": [
-      "he",
-      "we",
-      "be",
-      "shez"
-    ]
-  },
-  {
-    "word": "topic",
+    "word": "uncle",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A subject of conversation or discussion.",
-        "meaning_zh_TW": "主題",
+        "meaning_en_US": "The brother of one's parent.",
+        "meaning_zh_TW": "叔叔/舅舅",
         "wrong_meaning_zh_TW": [
-          "問題",
-          "答案",
-          "段落"
+          "阿姨",
+          "祖父",
+          "親戚"
         ],
         "examples": [
           {
-            "sentence": "Let's choose a [topic] for our presentation.",
-            "translation_zh_TW": "讓我們選擇一個主題來做報告。"
+            "sentence": "My [uncle] is coming to visit this weekend.",
+            "translation_zh_TW": "我叔叔這個週末來拜訪。"
           },
           {
-            "sentence": "The essay covered a variety of [topics].",
-            "translation_zh_TW": "這篇論文涉及多種主題。"
+            "sentence": "He introduced me to his [uncle].",
+            "translation_zh_TW": "他把我介紹給他的舅舅。"
           },
           {
-            "sentence": "What [topic] are you interested in discussing?",
-            "translation_zh_TW": "你有興趣討論什麼主題？"
+            "sentence": "An [uncle] can be a great mentor.",
+            "translation_zh_TW": "叔叔可以是很好的導師。"
           }
         ],
         "synonyms": [
-          "subject",
-          "theme"
+          "relative",
+          "guardian"
         ]
       }
     ],
     "confusion": [
-      "tropic",
-      "topicus",
-      "top",
-      "toopic"
+      "aunt",
+      "uncleared",
+      "unke",
+      "unclean"
     ]
   },
   {
-    "word": "idea",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A thought, suggestion, or plan regarding a possible course of action.",
-        "meaning_zh_TW": "想法、主意",
-        "wrong_meaning_zh_TW": [
-          "花園",
-          "時間表",
-          "漫畫"
-        ],
-        "examples": [
-          {
-            "sentence": "She came up with a great [idea] for the project.",
-            "translation_zh_TW": "她提出了一個很好的想法來進行專案。"
-          },
-          {
-            "sentence": "Do you have any [ideas] for the weekend?",
-            "translation_zh_TW": "你有什麼想法可以用來安排週末嗎？"
-          },
-          {
-            "sentence": "His [idea] was to create a new app.",
-            "translation_zh_TW": "他的想法是創建一個新應用程序。"
-          }
-        ],
-        "synonyms": [
-          "concept",
-          "notion"
-        ]
-      }
-    ],
-    "confusion": [
-      "Idea",
-      "idear",
-      "ideal",
-      "id"
-    ]
-  },
-  {
-    "word": "hear",
+    "word": "guess",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To perceive sound through the ears.",
-        "meaning_zh_TW": "聽到",
+        "meaning_en_US": "To form an opinion or make a judgment about something without sufficient evidence.",
+        "meaning_zh_TW": "猜測",
         "wrong_meaning_zh_TW": [
-          "嗅到",
-          "看到",
-          "感覺到"
+          "確定",
+          "抵抗",
+          "保存"
         ],
         "examples": [
           {
-            "sentence": "Can you [hear] the music playing?",
-            "translation_zh_TW": "你能聽到音樂在播放嗎？"
+            "sentence": "I can only [guess] the answer to the riddle.",
+            "translation_zh_TW": "我只會猜謎語的答案。"
           },
           {
-            "sentence": "I can [hear] the birds singing outside.",
-            "translation_zh_TW": "我能聽到外面鳥兒在唱歌。"
+            "sentence": "Don't [guess]; let's check the facts.",
+            "translation_zh_TW": "不要猜測；我們來查查事實。"
           },
           {
-            "sentence": "She can't [hear] very well without her hearing aids.",
-            "translation_zh_TW": "沒有助聽器她聽不太清。"
+            "sentence": "Can you [guess] how many candies are in the jar?",
+            "translation_zh_TW": "你能猜出罐子裡有多少糖果嗎？"
           }
         ],
         "synonyms": [
-          "listen",
-          "auditory perception"
-        ]
-      }
-    ],
-    "confusion": [
-      "here",
-      "heart",
-      "hair",
-      "bear"
-    ]
-  },
-  {
-    "word": "engineer",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who designs, builds, or maintains engines, machines, or structures.",
-        "meaning_zh_TW": "工程師",
-        "wrong_meaning_zh_TW": [
-          "護士",
-          "教師",
-          "清潔工"
-        ],
-        "examples": [
-          {
-            "sentence": "She wants to become an [engineer] after studying physics.",
-            "translation_zh_TW": "她希望在學習物理後成為一名工程師。"
-          },
-          {
-            "sentence": "The [engineer] designed a new bridge.",
-            "translation_zh_TW": "那位工程師設計了一座新橋。"
-          },
-          {
-            "sentence": "Every [engineer] needs to understand basic mathematics.",
-            "translation_zh_TW": "每位工程師都需要理解基本的數學。"
-          }
-        ],
-        "synonyms": [
-          "developer",
-          "designer"
-        ]
-      }
-    ],
-    "confusion": [
-      "engine",
-      "engage",
-      "engineer-ing",
-      "ending"
-    ]
-  },
-  {
-    "word": "cow",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large domesticated ungulate that is raised for milk and meat.",
-        "meaning_zh_TW": "牛",
-        "wrong_meaning_zh_TW": [
-          "豬",
-          "羊",
-          "馬"
-        ],
-        "examples": [
-          {
-            "sentence": "The [cow] grazed peacefully in the field.",
-            "translation_zh_TW": "那頭牛在田野裡安靜地吃草。"
-          },
-          {
-            "sentence": "Cows are often seen on farms.",
-            "translation_zh_TW": "牛常常在農場上被看到。"
-          },
-          {
-            "sentence": "Milk comes from the [cow].",
-            "translation_zh_TW": "牛奶來自於牛。"
-          }
-        ],
-        "synonyms": [
-          "bovine",
-          "cattle"
-        ]
-      }
-    ],
-    "confusion": [
-      "crow",
-      "wow",
-      "cowboy",
-      "cowl"
-    ]
-  },
-  {
-    "word": "keep",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To have or retain possession of.",
-        "meaning_zh_TW": "保留，保持",
-        "wrong_meaning_zh_TW": [
-          "丟棄",
-          "展示",
-          "分享"
-        ],
-        "examples": [
-          {
-            "sentence": "Please [keep] your voice down.",
-            "translation_zh_TW": "請保持你的聲音小點。"
-          },
-          {
-            "sentence": "I want to [keep] this wonderful memory forever.",
-            "translation_zh_TW": "我想永遠保留這個美好的回憶。"
-          },
-          {
-            "sentence": "She decided to [keep] the secret.",
-            "translation_zh_TW": "她決定保守這個秘密。"
-          }
-        ],
-        "synonyms": [
-          "retain",
-          "hold"
-        ]
-      }
-    ],
-    "confusion": [
-      "kept",
-      "knee",
-      "keeped",
-      "kep"
-    ]
-  },
-  {
-    "word": "tape",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A long, narrow strip of material used for binding or fastening.",
-        "meaning_zh_TW": "膠帶",
-        "wrong_meaning_zh_TW": [
-          "繩子",
-          "線",
-          "磁帶"
-        ],
-        "examples": [
-          {
-            "sentence": "I need some [tape] to wrap the package.",
-            "translation_zh_TW": "我需要一些膠帶來包裝包裹"
-          },
-          {
-            "sentence": "He used [tape] to fix the broken toy.",
-            "translation_zh_TW": "他用膠帶修理壞掉的玩具"
-          },
-          {
-            "sentence": "Can you hand me the [tape]?",
-            "translation_zh_TW": "你可以把膠帶遞給我嗎？"
-          }
-        ],
-        "synonyms": [
-          "adhesive strip",
-          "sticky tape"
-        ]
-      }
-    ],
-    "confusion": [
-      "tapes",
-      "tap",
-      "cape",
-      "tav"
-    ]
-  },
-  {
-    "word": "string",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A thin piece of material, typically used for tying or fastening things.",
-        "meaning_zh_TW": "繩子",
-        "wrong_meaning_zh_TW": [
-          "線",
-          "織物",
-          "帶子"
-        ],
-        "examples": [
-          {
-            "sentence": "She used a [string] to tie the package.",
-            "translation_zh_TW": "她用一根繩子把包裹綁起來。"
-          },
-          {
-            "sentence": "The kite was held up by a long [string].",
-            "translation_zh_TW": "風箏是用一根長繩子固定的。"
-          },
-          {
-            "sentence": "He played a tune on the [string] instrument.",
-            "translation_zh_TW": "他在弦樂器上演奏了一首曲子。"
-          }
-        ],
-        "synonyms": [
-          "cord",
-          "twine"
-        ]
-      }
-    ],
-    "confusion": [
-      "stirng",
-      "sting",
-      "strang",
-      "stringed"
-    ]
-  },
-  {
-    "word": "except",
-    "meanings": [
-      {
-        "type": "介詞",
-        "meaning_en_US": "Excluding; not including.",
-        "meaning_zh_TW": "除了",
-        "wrong_meaning_zh_TW": [
-          "包含、包括",
-          "選擇、挑選",
-          "加入、收錄"
-        ],
-        "examples": [
-          {
-            "sentence": "Everyone was invited [except] John.",
-            "translation_zh_TW": "除了約翰，所有人都受邀。"
-          },
-          {
-            "sentence": "I eat all fruits [except] bananas.",
-            "translation_zh_TW": "我吃所有的水果，除了香蕉。"
-          },
-          {
-            "sentence": "He works every day [except] Sunday.",
-            "translation_zh_TW": "他每天都工作，除了星期天。"
-          }
-        ],
-        "synonyms": [
-          "excluding",
-          "besides"
-        ]
-      }
-    ],
-    "confusion": [
-      "accept",
-      "excepting",
-      "excel",
-      "exepct"
-    ]
-  },
-  {
-    "word": "ninety",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The number that is the product of nine and ten.",
-        "meaning_zh_TW": "九十",
-        "wrong_meaning_zh_TW": [
-          "八十",
-          "百",
-          "九十一"
-        ],
-        "examples": [
-          {
-            "sentence": "She is turning [ninety] next year.",
-            "translation_zh_TW": "她明年將滿九十歲。"
-          },
-          {
-            "sentence": "There are [ninety] students in the class.",
-            "translation_zh_TW": "班上有九十名學生。"
-          },
-          {
-            "sentence": "[Ninety] percent of the job is done.",
-            "translation_zh_TW": "這項工作的九十個百分比已經完成了。"
-          }
-        ],
-        "synonyms": []
-      }
-    ],
-    "confusion": [
-      "ninety",
-      "ninety-one",
-      "ninety-nine",
-      "ninty"
-    ]
-  },
-  {
-    "word": "sun",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The star at the center of our solar system.",
-        "meaning_zh_TW": "太陽",
-        "wrong_meaning_zh_TW": [
-          "月亮",
-          "星星",
-          "雲"
-        ],
-        "examples": [
-          {
-            "sentence": "The [sun] rises in the east.",
-            "translation_zh_TW": "太陽從東方升起。"
-          },
-          {
-            "sentence": "They enjoyed the warm [sun].",
-            "translation_zh_TW": "他們享受著溫暖的太陽。"
-          },
-          {
-            "sentence": "The [sun] set behind the mountains.",
-            "translation_zh_TW": "太陽在山後落下。"
-          }
-        ],
-        "synonyms": [
-          "star",
-          "solar body"
-        ]
-      }
-    ],
-    "confusion": [
-      "sune",
-      "son",
-      "sunset",
-      "sund"
-    ]
-  },
-  {
-    "word": "sad",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Feeling or showing sorrow; unhappy.",
-        "meaning_zh_TW": "悲傷的",
-        "wrong_meaning_zh_TW": [
-          "快樂的",
-          "興奮的",
-          "平靜的"
-        ],
-        "examples": [
-          {
-            "sentence": "He felt [sad] after the movie ended.",
-            "translation_zh_TW": "電影結束後他感到悲傷"
-          },
-          {
-            "sentence": "The [sad] song made her cry.",
-            "translation_zh_TW": "這首悲傷的歌讓她哭了"
-          },
-          {
-            "sentence": "It's [sad] to say goodbye to friends.",
-            "translation_zh_TW": "和朋友告別是悲傷的"
-          }
-        ],
-        "synonyms": [
-          "unhappy",
-          "sorrowful"
-        ]
-      }
-    ],
-    "confusion": [
-      "sod",
-      "sadly",
-      "sard",
-      "sade"
-    ]
-  },
-  {
-    "word": "bored",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Feeling weary and impatient because one is unoccupied or lacks interest in one's current activity.",
-        "meaning_zh_TW": "無聊的",
-        "wrong_meaning_zh_TW": [
-          "激動的",
-          "興奮的",
-          "忙碌的"
-        ],
-        "examples": [
-          {
-            "sentence": "I feel [bored] when there is nothing to do.",
-            "translation_zh_TW": "當沒有事情做時，我感到無聊。"
-          },
-          {
-            "sentence": "She was [bored] during the long lecture.",
-            "translation_zh_TW": "在冗長的講座中，她感到無聊。"
-          },
-          {
-            "sentence": "He often gets [bored] in class.",
-            "translation_zh_TW": "他在課堂上經常感到無聊。"
-          }
-        ],
-        "synonyms": [
-          "uninterested",
-          "weary"
-        ]
-      }
-    ],
-    "confusion": [
-      "boredom",
-      "bore",
-      "board",
-      "brood"
-    ]
-  },
-  {
-    "word": "treatment",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The manner in which someone behaves toward or deals with someone or something.",
-        "meaning_zh_TW": "處理、對待",
-        "wrong_meaning_zh_TW": [
-          "服裝、裝扮",
-          "保護、護理",
-          "劑量、容量"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [treatment] of the patients was compassionate.",
-            "translation_zh_TW": "她對病人的處理充滿同情心。"
-          },
-          {
-            "sentence": "He received immediate [treatment] for his injuries.",
-            "translation_zh_TW": "他立即獲得了對傷勢的治療。"
-          },
-          {
-            "sentence": "The [treatment] of the data was thorough and meticulous.",
-            "translation_zh_TW": "對數據的處理十分細緻徹底。"
-          }
-        ],
-        "synonyms": [
-          "handling",
-          "care",
-          "management"
+          "estimate",
+          "infer"
         ]
       },
       {
         "type": "名詞",
-        "meaning_en_US": "The medical management and care of a patient.",
-        "meaning_zh_TW": "醫療、治療",
+        "meaning_en_US": "An estimate or conjecture.",
+        "meaning_zh_TW": "估計，猜測",
         "wrong_meaning_zh_TW": [
-          "健身、鍛煉",
-          "保養、護理",
-          "娛樂、消遣"
+          "測量",
+          "計算",
+          "指數"
         ],
         "examples": [
           {
-            "sentence": "She is undergoing [treatment] for her illness.",
-            "translation_zh_TW": "她正在接受疾病的治療。"
+            "sentence": "Take a wild [guess] at the number of stars.",
+            "translation_zh_TW": "對星星的數量隨便猜測一下吧。"
           },
           {
-            "sentence": "The hospital specializes in cancer [treatment].",
-            "translation_zh_TW": "這家醫院專注於癌症的治療。"
+            "sentence": "His [guess] was surprisingly accurate.",
+            "translation_zh_TW": "他的估計出奇地準確。"
           },
           {
-            "sentence": "Effective [treatment] can often help patients recover faster.",
-            "translation_zh_TW": "有效的治療常常能幫助病人更快恢復。"
+            "sentence": "The teacher asked for a [guess] on the math problem.",
+            "translation_zh_TW": "老師要求對數學問題做一個估計。"
           }
         ],
         "synonyms": [
-          "therapy",
-          "care",
-          "intervention"
+          "prediction",
+          "estimate"
         ]
       }
     ],
     "confusion": [
-      "treat",
-      "treaty",
-      "treatise",
-      "treatments"
+      "gas",
+      "gaze",
+      "gush",
+      "gusset"
     ]
   },
   {
-    "word": "pants",
+    "word": "telephone",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An outer garment covering the body from the waist to the ankles, with a separate part for each leg.",
-        "meaning_zh_TW": "褲子",
+        "meaning_en_US": "A system that converts acoustic vibrations to electrical signals for transmission over wires.",
+        "meaning_zh_TW": "電話",
         "wrong_meaning_zh_TW": [
-          "裙子",
-          "鞋子",
-          "襪子"
+          "電視",
+          "鬧鐘",
+          "收音機"
         ],
         "examples": [
           {
-            "sentence": "He wore blue [pants] to the party.",
-            "translation_zh_TW": "他穿著藍色褲子去派對"
+            "sentence": "Please answer the [telephone].",
+            "translation_zh_TW": "請接電話。"
           },
           {
-            "sentence": "These [pants] are very comfortable.",
-            "translation_zh_TW": "這條褲子非常舒適"
+            "sentence": "I called him on the [telephone].",
+            "translation_zh_TW": "我用電話打給了他。"
           },
           {
-            "sentence": "She bought a pair of new [pants] for the trip.",
-            "translation_zh_TW": "她為旅行買了一條新褲子"
+            "sentence": "The [telephone] rang loudly in the other room.",
+            "translation_zh_TW": "電話在另一個房間響亮地響了。"
           }
         ],
         "synonyms": [
-          "trousers",
-          "slacks"
+          "phone",
+          "call"
         ]
       }
     ],
     "confusion": [
-      "pan",
-      "pant",
-      "paints",
-      "pantsu"
+      "telegraph",
+      "televison",
+      "telecommute",
+      "tephone"
+    ]
+  },
+  {
+    "word": "old",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having lived for a long time; no longer young.",
+        "meaning_zh_TW": "年長的",
+        "wrong_meaning_zh_TW": [
+          "新鮮的",
+          "時髦的",
+          "活潑的"
+        ],
+        "examples": [
+          {
+            "sentence": "She visited her [old] friend from school.",
+            "translation_zh_TW": "她拜訪了她的老朋友，從學校出來的。"
+          },
+          {
+            "sentence": "The building is very [old] but has charm.",
+            "translation_zh_TW": "那棟建築非常老舊，但很有魅力。"
+          },
+          {
+            "sentence": "He loves collecting [old] coins.",
+            "translation_zh_TW": "他喜歡收集舊幣。"
+          }
+        ],
+        "synonyms": [
+          "aged",
+          "ancient"
+        ]
+      }
+    ],
+    "confusion": [
+      "hold",
+      "gold",
+      "cold",
+      "fold"
+    ]
+  },
+  {
+    "word": "online",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Connected to a computer network, especially the Internet.",
+        "meaning_zh_TW": "線上",
+        "wrong_meaning_zh_TW": [
+          "離線",
+          "實體店面",
+          "人際接觸"
+        ],
+        "examples": [
+          {
+            "sentence": "You can shop [online] from the comfort of your home.",
+            "translation_zh_TW": "你可以在家裡舒適地進行線上購物。"
+          },
+          {
+            "sentence": "I prefer taking classes [online] rather than in person.",
+            "translation_zh_TW": "我比較喜歡線上上課，而不是面對面。"
+          },
+          {
+            "sentence": "Many services are now available [online].",
+            "translation_zh_TW": "許多服務現在都可以在線上獲得。"
+          }
+        ],
+        "synonyms": [
+          "connected",
+          "digital"
+        ]
+      },
+      {
+        "type": "副詞",
+        "meaning_en_US": "In a state of being connected to a network.",
+        "meaning_zh_TW": "在線上",
+        "wrong_meaning_zh_TW": [
+          "離線",
+          "固定",
+          "獨立"
+        ],
+        "examples": [
+          {
+            "sentence": "He is currently [online] and can respond to messages.",
+            "translation_zh_TW": "他目前在線上，可以回覆消息。"
+          },
+          {
+            "sentence": "Use the chat feature when you are [online].",
+            "translation_zh_TW": "當你在線上時，請使用聊天功能。"
+          },
+          {
+            "sentence": "I often browse [online] in my free time.",
+            "translation_zh_TW": "我經常在空閒時間瀏覽在線内容。"
+          }
+        ],
+        "synonyms": [
+          "connectedly",
+          "digitally"
+        ]
+      }
+    ],
+    "confusion": [
+      "on line",
+      "inline",
+      "inline",
+      "off-line"
+    ]
+  },
+  {
+    "word": "pair",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A set of two things used together or regarded as a unit.",
+        "meaning_zh_TW": "一對",
+        "wrong_meaning_zh_TW": [
+          "一隻",
+          "多個",
+          "組合拳"
+        ],
+        "examples": [
+          {
+            "sentence": "She bought a [pair] of shoes.",
+            "translation_zh_TW": "她買了一[對]鞋子。"
+          },
+          {
+            "sentence": "They are working as a [pair].",
+            "translation_zh_TW": "他們正以[一對]合作。"
+          },
+          {
+            "sentence": "This [pair] of socks is warm.",
+            "translation_zh_TW": "這[對]襪子很 warm。"
+          }
+        ],
+        "synonyms": [
+          "duo",
+          "couple"
+        ]
+      }
+    ],
+    "confusion": [
+      "pare",
+      "pear",
+      "payer",
+      "pain"
+    ]
+  },
+  {
+    "word": "ear",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The organ of hearing and balance in humans and other vertebrates.",
+        "meaning_zh_TW": "耳朵",
+        "wrong_meaning_zh_TW": [
+          "鼻子",
+          "嘴巴",
+          "眼睛"
+        ],
+        "examples": [
+          {
+            "sentence": "She whispered in my [ear].",
+            "translation_zh_TW": "她在我耳邊低語"
+          },
+          {
+            "sentence": "He has a piercing in his left [ear].",
+            "translation_zh_TW": "他左耳有個穿孔"
+          },
+          {
+            "sentence": "The sound echoed in my [ear].",
+            "translation_zh_TW": "聲音在我耳邊迴響"
+          }
+        ],
+        "synonyms": [
+          "auditory organ",
+          "hearing organ"
+        ]
+      }
+    ],
+    "confusion": [
+      "are",
+      "ior",
+      "earl",
+      "earn"
+    ]
+  },
+  {
+    "word": "interest",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The feeling of wanting to know or learn about something or someone.",
+        "meaning_zh_TW": "興趣",
+        "wrong_meaning_zh_TW": [
+          "厭倦",
+          "麻木",
+          "困惑"
+        ],
+        "examples": [
+          {
+            "sentence": "She has a deep [interest] in science.",
+            "translation_zh_TW": "她對科學有深厚的興趣。"
+          },
+          {
+            "sentence": "My [interest] in music began at a young age.",
+            "translation_zh_TW": "我對音樂的興趣始於年幼時。"
+          },
+          {
+            "sentence": "He expressed an [interest] in learning new languages.",
+            "translation_zh_TW": "他表達了學習新語言的興趣。"
+          }
+        ],
+        "synonyms": [
+          "curiosity",
+          "fascination"
+        ]
+      }
+    ],
+    "confusion": [
+      "interesting",
+      "interested",
+      "interior",
+      "inters"
+    ]
+  },
+  {
+    "word": "if",
+    "meanings": [
+      {
+        "type": "連接詞",
+        "meaning_en_US": "Used to introduce a conditional clause.",
+        "meaning_zh_TW": "如果",
+        "wrong_meaning_zh_TW": [
+          "雖然",
+          "但是",
+          "所以"
+        ],
+        "examples": [
+          {
+            "sentence": "[If] it rains, we will stay inside.",
+            "translation_zh_TW": "如果下雨，我們會待在裡面。"
+          },
+          {
+            "sentence": "You can come [if] you want.",
+            "translation_zh_TW": "如果你想，你可以來。"
+          },
+          {
+            "sentence": "I will help you [if] you ask.",
+            "translation_zh_TW": "如果你請求，我會幫助你。"
+          }
+        ],
+        "synonyms": [
+          "provided",
+          "assuming"
+        ]
+      }
+    ],
+    "confusion": [
+      "iff",
+      "of",
+      "in",
+      "is"
+    ]
+  },
+  {
+    "word": "breakfast",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The first meal of the day, typically eaten in the morning.",
+        "meaning_zh_TW": "早餐",
+        "wrong_meaning_zh_TW": [
+          "晚餐",
+          "小吃",
+          "飲料"
+        ],
+        "examples": [
+          {
+            "sentence": "I usually have cereal for [breakfast].",
+            "translation_zh_TW": "我通常早上吃麥片。"
+          },
+          {
+            "sentence": "He skipped [breakfast] today.",
+            "translation_zh_TW": "他今天跳過了早餐。"
+          },
+          {
+            "sentence": "They served pancakes for [breakfast].",
+            "translation_zh_TW": "他們供應了薄餅作為早餐。"
+          }
+        ],
+        "synonyms": [
+          "morning meal",
+          "first meal"
+        ]
+      }
+    ],
+    "confusion": [
+      "breakfust",
+      "breakfasts",
+      "breakfastt",
+      "brekfast"
+    ]
+  },
+  {
+    "word": "door",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A movable barrier used to open and close an entrance.",
+        "meaning_zh_TW": "門",
+        "wrong_meaning_zh_TW": [
+          "窗戶",
+          "牆壁",
+          "天花板"
+        ],
+        "examples": [
+          {
+            "sentence": "Please close the [door].",
+            "translation_zh_TW": "請關上門。"
+          },
+          {
+            "sentence": "He knocked on the [door] before entering.",
+            "translation_zh_TW": "他在進入前敲了門。"
+          },
+          {
+            "sentence": "The [door] is painted red.",
+            "translation_zh_TW": "這扇門漆成紅色。"
+          }
+        ],
+        "synonyms": [
+          "entrance",
+          "barrier"
+        ]
+      }
+    ],
+    "confusion": [
+      "doar",
+      "dor",
+      "dooer",
+      "dorr"
+    ]
+  },
+  {
+    "word": "lead",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To guide or direct in a course.",
+        "meaning_zh_TW": "引導、指引",
+        "wrong_meaning_zh_TW": [
+          "跟隨、追趕",
+          "推進、促進",
+          "告知、通知"
+        ],
+        "examples": [
+          {
+            "sentence": "She will [lead] the team in the project.",
+            "translation_zh_TW": "她將在這個項目中引導團隊。"
+          },
+          {
+            "sentence": "Can you [lead] the way to the conference room?",
+            "translation_zh_TW": "你能帶路去會議室嗎？"
+          },
+          {
+            "sentence": "He likes to [lead] discussions during meetings.",
+            "translation_zh_TW": "他喜歡在會議中引導討論。"
+          }
+        ],
+        "synonyms": [
+          "guide",
+          "direct"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who leads or conducts a group.",
+        "meaning_zh_TW": "領導者",
+        "wrong_meaning_zh_TW": [
+          "跟隨者",
+          "顧問",
+          "觀察者"
+        ],
+        "examples": [
+          {
+            "sentence": "The [lead] of the project is very experienced.",
+            "translation_zh_TW": "該項目的領導者非常有經驗。"
+          },
+          {
+            "sentence": "A good [lead] can inspire the team.",
+            "translation_zh_TW": "一位優秀的領導者可以激勵團隊。"
+          },
+          {
+            "sentence": "We need a strong [lead] for this initiative.",
+            "translation_zh_TW": "我們需要一位強有力的領導者來推動這一倡議。"
+          }
+        ],
+        "synonyms": [
+          "chief",
+          "head"
+        ]
+      }
+    ],
+    "confusion": [
+      "led",
+      "leed",
+      "leadership",
+      "leads"
+    ]
+  },
+  {
+    "word": "person",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A human being regarded as an individual.",
+        "meaning_zh_TW": "人",
+        "wrong_meaning_zh_TW": [
+          "生物",
+          "動物",
+          "物體"
+        ],
+        "examples": [
+          {
+            "sentence": "Every [person] has the right to their own opinion.",
+            "translation_zh_TW": "每個人都有權擁有自己的意見。"
+          },
+          {
+            "sentence": "She is an interesting [person] to talk to.",
+            "translation_zh_TW": "她是一個有趣的人可以交談。"
+          },
+          {
+            "sentence": "A kind [person] helps those in need.",
+            "translation_zh_TW": "善良的人會幫助有需要的人。"
+          }
+        ],
+        "synonyms": [
+          "individual",
+          "human"
+        ]
+      }
+    ],
+    "confusion": [
+      "persona",
+      "persons",
+      "personnel",
+      "personality"
     ]
   }
 ]

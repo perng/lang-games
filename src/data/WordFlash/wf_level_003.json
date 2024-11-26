@@ -1,5 +1,83 @@
 [
   {
+    "word": "kick",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To strike or touch with the foot.",
+        "meaning_zh_TW": "踢",
+        "wrong_meaning_zh_TW": [
+          "握住",
+          "拉動",
+          "推動"
+        ],
+        "examples": [
+          {
+            "sentence": "He decided to [kick] the ball.",
+            "translation_zh_TW": "他決定去[踢]球。"
+          },
+          {
+            "sentence": "She [kicked] the door open.",
+            "translation_zh_TW": "她[踢]開了門。"
+          },
+          {
+            "sentence": "They will [kick] off the event at noon.",
+            "translation_zh_TW": "他們將在中午[踢]開始這個活動。"
+          }
+        ],
+        "synonyms": [
+          "strike",
+          "boot"
+        ]
+      }
+    ],
+    "confusion": [
+      "kickoff",
+      "kicked",
+      "tick",
+      "kickback"
+    ]
+  },
+  {
+    "word": "twice",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "Two times; on two occasions.",
+        "meaning_zh_TW": "兩次",
+        "wrong_meaning_zh_TW": [
+          "一次",
+          "三次",
+          "幾次"
+        ],
+        "examples": [
+          {
+            "sentence": "I have visited that museum [twice].",
+            "translation_zh_TW": "我去過那個博物館兩次。"
+          },
+          {
+            "sentence": "He called me [twice] yesterday.",
+            "translation_zh_TW": "他昨天給我打了兩次電話。"
+          },
+          {
+            "sentence": "She has seen that movie [twice].",
+            "translation_zh_TW": "她已經看過那部電影兩次。"
+          }
+        ],
+        "synonyms": [
+          "dually",
+          "two-fold"
+        ]
+      }
+    ],
+    "confusion": [
+      "twicey",
+      "twince",
+      "twize",
+      "twise"
+    ]
+  },
+  {
     "word": "ship",
     "meanings": [
       {
@@ -688,151 +766,6 @@
       "tee",
       "teh",
       "t"
-    ]
-  },
-  {
-    "word": "place",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A particular position or point in space.",
-        "meaning_zh_TW": "位置",
-        "wrong_meaning_zh_TW": [
-          "運動場地",
-          "商店",
-          "地圖"
-        ],
-        "examples": [
-          {
-            "sentence": "This is the perfect [place] for a picnic.",
-            "translation_zh_TW": "這是野餐的完美位置。"
-          },
-          {
-            "sentence": "Have you found a [place] to live yet?",
-            "translation_zh_TW": "你找到住的地方了嗎？"
-          },
-          {
-            "sentence": "She marked the [place] on the map.",
-            "translation_zh_TW": "她在地圖上標記了位置。"
-          }
-        ],
-        "synonyms": [
-          "location",
-          "spot"
-        ]
-      }
-    ],
-    "confusion": [
-      "pace",
-      "placebo",
-      "plaque",
-      "plaster"
-    ]
-  },
-  {
-    "word": "money",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A current medium of exchange in the form of coins and banknotes.",
-        "meaning_zh_TW": "貨幣",
-        "wrong_meaning_zh_TW": [
-          "金屬",
-          "票據",
-          "財產"
-        ],
-        "examples": [
-          {
-            "sentence": "She saved [money] for her trip.",
-            "translation_zh_TW": "她為她的旅行省下了錢。"
-          },
-          {
-            "sentence": "Money can't buy happiness.",
-            "translation_zh_TW": "金錢無法購買幸福。"
-          },
-          {
-            "sentence": "He found some [money] on the street.",
-            "translation_zh_TW": "他在街上找到了一些錢。"
-          }
-        ],
-        "synonyms": [
-          "currency",
-          "cash"
-        ]
-      }
-    ],
-    "confusion": [
-      "monetary",
-      "monkeys",
-      "moneys",
-      "munny"
-    ]
-  },
-  {
-    "word": "station",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A regular stopping place on a public transportation route.",
-        "meaning_zh_TW": "車站",
-        "wrong_meaning_zh_TW": [
-          "站立",
-          "位置",
-          "障礙"
-        ],
-        "examples": [
-          {
-            "sentence": "We waited at the [station] for the train.",
-            "translation_zh_TW": "我們在車站等火車。"
-          },
-          {
-            "sentence": "The bus [station] was very crowded.",
-            "translation_zh_TW": "汽車站非常擁擠。"
-          },
-          {
-            "sentence": "She purchased a ticket at the [station].",
-            "translation_zh_TW": "她在車站買了一張票。"
-          }
-        ],
-        "synonyms": [
-          "terminal",
-          "depot"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To assign someone to a particular place or position.",
-        "meaning_zh_TW": "駐紮",
-        "wrong_meaning_zh_TW": [
-          "資助",
-          "訓練",
-          "分配"
-        ],
-        "examples": [
-          {
-            "sentence": "He was [stationed] overseas for a year.",
-            "translation_zh_TW": "他在海外駐紮了一年。"
-          },
-          {
-            "sentence": "They [station] volunteers at various locations.",
-            "translation_zh_TW": "他們在各個地點駐紮志工。"
-          },
-          {
-            "sentence": "The army units are [stationed] near the border.",
-            "translation_zh_TW": "陸軍部隊駐紮在邊境附近。"
-          }
-        ],
-        "synonyms": [
-          "post",
-          "place"
-        ]
-      }
-    ],
-    "confusion": [
-      "stationary",
-      "staging",
-      "statistic",
-      "stationery"
     ]
   }
 ]

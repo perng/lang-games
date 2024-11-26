@@ -1,784 +1,786 @@
 [
   {
-    "word": "feasible",
+    "word": "madam",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A polite form of address for a woman.",
+        "meaning_zh_TW": "女士",
+        "wrong_meaning_zh_TW": [
+          "男士",
+          "小姐",
+          "媽媽"
+        ],
+        "examples": [
+          {
+            "sentence": "Excuse me, [madam], may I help you?",
+            "translation_zh_TW": "對不起，女士，我可以幫您嗎？"
+          },
+          {
+            "sentence": "The shopkeeper greeted her as [madam].",
+            "translation_zh_TW": "店主稱呼她為女士。"
+          },
+          {
+            "sentence": "Madam, your order is ready.",
+            "translation_zh_TW": "女士，您的訂單已經準備好了。"
+          }
+        ],
+        "synonyms": [
+          "lady",
+          "ma'am"
+        ]
+      }
+    ],
+    "confusion": [
+      "madame",
+      "madams",
+      "madman",
+      "mad"
+    ]
+  },
+  {
+    "word": "religion",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A system of beliefs, practices, and values that relate humanity to spirituality and moral values.",
+        "meaning_zh_TW": "宗教",
+        "wrong_meaning_zh_TW": [
+          "科學",
+          "運動",
+          "娛樂"
+        ],
+        "examples": [
+          {
+            "sentence": "She practices her [religion] every Sunday.",
+            "translation_zh_TW": "她每個星期天都在信奉她的宗教。"
+          },
+          {
+            "sentence": "Different cultures have distinct forms of [religion].",
+            "translation_zh_TW": "不同文化有各自獨特的宗教形式。"
+          },
+          {
+            "sentence": "His view on [religion] was profoundly influenced by his upbringing.",
+            "translation_zh_TW": "他的宗教觀深受家庭背景的影響。"
+          }
+        ],
+        "synonyms": [
+          "faith",
+          "belief",
+          "spirituality"
+        ]
+      }
+    ],
+    "confusion": [
+      "relegion",
+      "region",
+      "religions",
+      "reliant"
+    ]
+  },
+  {
+    "word": "adaptation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The process of change by which an organism or species becomes better suited to its environment.",
+        "meaning_zh_TW": "適應",
+        "wrong_meaning_zh_TW": [
+          "運動",
+          "遺傳",
+          "分化"
+        ],
+        "examples": [
+          {
+            "sentence": "The [adaptation] of the species allowed it to survive in harsh climates.",
+            "translation_zh_TW": "該物種的適應讓它能在惡劣的氣候中生存。"
+          },
+          {
+            "sentence": "His [adaptation] to city life took time.",
+            "translation_zh_TW": "他對城市生活的適應需要時間。"
+          },
+          {
+            "sentence": "Film [adaptations] of novels can vary in quality.",
+            "translation_zh_TW": "小說的電影改編質量可能有所不同。"
+          }
+        ],
+        "synonyms": [
+          "adjustment",
+          "modification"
+        ]
+      }
+    ],
+    "confusion": [
+      "adaptations",
+      "addaptaton",
+      "adaptationed",
+      "adaption"
+    ]
+  },
+  {
+    "word": "setback",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A reversal or check in progress.",
+        "meaning_zh_TW": "挫折",
+        "wrong_meaning_zh_TW": [
+          "計畫",
+          "進展",
+          "改變"
+        ],
+        "examples": [
+          {
+            "sentence": "The team experienced a [setback] but quickly recovered.",
+            "translation_zh_TW": "團隊遇到了一次挫折，但很快就恢復了過來。"
+          },
+          {
+            "sentence": "Financial issues were a major [setback] for the project.",
+            "translation_zh_TW": "財務問題是這個項目的主要挫折。"
+          },
+          {
+            "sentence": "Despite the [setback], she remained optimistic.",
+            "translation_zh_TW": "儘管遇到了挫折，她仍保持樂觀。"
+          }
+        ],
+        "synonyms": [
+          "hindrance",
+          "obstacle"
+        ]
+      }
+    ],
+    "confusion": [
+      "setbacked",
+      "setbacker",
+      "setbacks",
+      "setbacking"
+    ]
+  },
+  {
+    "word": "spontaneous",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Capable of being done or carried out.",
-        "meaning_zh_TW": "可行的",
+        "meaning_en_US": "Performed or occurring as a result of a sudden inner impulse or inclination.",
+        "meaning_zh_TW": "自發的",
         "wrong_meaning_zh_TW": [
-          "不可能的",
-          "非常困難",
-          "極為繁瑣"
+          "計劃性的",
+          "精心的",
+          "操控的"
         ],
         "examples": [
           {
-            "sentence": "Is this plan [feasible] within the given timeframe?",
-            "translation_zh_TW": "這個計畫在給定的時間內可行嗎？"
+            "sentence": "Her laughter was [spontaneous] and infectious.",
+            "translation_zh_TW": "她的笑聲是自發的且具有感染力。"
           },
           {
-            "sentence": "They conducted a study to determine if the project was [feasible].",
-            "translation_zh_TW": "他們進行了一項研究以確定該項目是否可行。"
+            "sentence": "The crowd gave a [spontaneous] round of applause.",
+            "translation_zh_TW": "人群自發地報以一陣掌聲。"
           },
           {
-            "sentence": "Finding a [feasible] solution required innovative thinking.",
-            "translation_zh_TW": "找到一個可行的解決方案需要創新思維。"
+            "sentence": "They decided to take a [spontaneous] road trip.",
+            "translation_zh_TW": "他們決定進行一次自發的公路旅行。"
           }
         ],
         "synonyms": [
-          "viable",
-          "workable"
+          "unplanned",
+          "automatic"
         ]
       }
     ],
     "confusion": [
-      "feasable",
-      "feasibility",
-      "feasibillity",
-      "feasbile"
+      "spontaneity",
+      "spontanious",
+      "spontanous",
+      "spontainous"
     ]
   },
   {
-    "word": "suspension",
+    "word": "catastrophe",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The action of suspending someone or something or the condition of being suspended.",
-        "meaning_zh_TW": "暫停",
+        "meaning_en_US": "A sudden and widespread disaster.",
+        "meaning_zh_TW": "災難",
         "wrong_meaning_zh_TW": [
-          "設計",
-          "整體",
-          "系統"
+          "小事",
+          "福利",
+          "解決方案"
         ],
         "examples": [
           {
-            "sentence": "His [suspension] from school was due to repeated violations.",
-            "translation_zh_TW": "他因違規多次而被暫停學校的學籍。"
+            "sentence": "The earthquake was a major [catastrophe] for the region.",
+            "translation_zh_TW": "地震對該地區來說是一場重大災難。"
           },
           {
-            "sentence": "The [suspension] of the project was announced last week.",
-            "translation_zh_TW": "該項目的暫停上周已經宣布。"
+            "sentence": "They were unprepared for the [catastrophe] that struck.",
+            "translation_zh_TW": "他們對突如其來的災難毫無準備。"
           },
           {
-            "sentence": "She faced [suspension] from her job after the incident.",
-            "translation_zh_TW": "事件後她面臨暫停工作的處罰。"
+            "sentence": "Natural [catastrophes] can cause significant damage.",
+            "translation_zh_TW": "自然災害可能造成重大損失。"
           }
         ],
         "synonyms": [
-          "break",
-          "halt"
+          "disaster",
+          "tragedy"
         ]
       }
     ],
     "confusion": [
-      "suspend",
-      "suspense",
-      "suspen",
-      "suspensor"
+      "catastrophic",
+      "catastophy",
+      "ctastrophe",
+      "catastophee"
     ]
   },
   {
-    "word": "editorial",
+    "word": "stagger",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To walk or move unsteadily, as if about to fall.",
+        "meaning_zh_TW": "搖搖欲墜",
+        "wrong_meaning_zh_TW": [
+          "直立",
+          "穩固",
+          "快速"
+        ],
+        "examples": [
+          {
+            "sentence": "After the long race, he began to [stagger] towards the finish line.",
+            "translation_zh_TW": "在漫長的比賽後，他開始搖搖欲墜地朝終點線走去"
+          },
+          {
+            "sentence": "She felt dizzy and had to [stagger] to a nearby bench.",
+            "translation_zh_TW": "她感到暈眩，不得不搖搖欲墜地走到附近的長椅"
+          },
+          {
+            "sentence": "The unexpected news forced him to [stagger] back in shock.",
+            "translation_zh_TW": "這個意外的消息讓他震驚得搖搖欲墜"
+          }
+        ],
+        "synonyms": [
+          " stumble",
+          "waver"
+        ]
+      }
+    ],
+    "confusion": [
+      "staggered",
+      "sagger",
+      "snagger",
+      "jagger"
+    ]
+  },
+  {
+    "word": "nationalism",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An article in a publication expressing the opinion of its editors or publishers.",
-        "meaning_zh_TW": "社論",
+        "meaning_en_US": "A political ideology that emphasizes the interests and culture of a particular nation.",
+        "meaning_zh_TW": "民族主義",
         "wrong_meaning_zh_TW": [
-          "報導",
-          "編程",
-          "對話"
+          "國際主義",
+          "地方自治",
+          "全球化"
         ],
         "examples": [
           {
-            "sentence": "The [editorial] on climate change was thought-provoking.",
-            "translation_zh_TW": "關於氣候變化的社論引人深思。"
+            "sentence": "Nationalism can unite a country during times of crisis.",
+            "translation_zh_TW": "民族主義可以在危機時期團結一個國家。"
           },
           {
-            "sentence": "She wrote an [editorial] advocating for better education.",
-            "translation_zh_TW": "她寫了一篇社論主張改善教育。"
+            "sentence": "The rise of nationalism has led to discussions about sovereignty.",
+            "translation_zh_TW": "民族主義的興起引發了對主權的討論。"
           },
           {
-            "sentence": "The [editorial] team meets every week to discuss issues.",
-            "translation_zh_TW": "社論團隊每週會面討論問題。"
+            "sentence": "He expressed his views on nationalism in the debate.",
+            "translation_zh_TW": "他在辯論中表達了對民族主義的看法。"
           }
         ],
         "synonyms": [
-          "commentary",
-          "article"
+          "patriotism",
+          "national pride"
         ]
       }
     ],
     "confusion": [
-      "editor",
-      "editorials",
-      "editions",
-      "edifying"
+      "internationalism",
+      "nationalist",
+      "nationhood",
+      "nationals"
     ]
   },
   {
-    "word": "decisive",
+    "word": "outrage",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An extremely strong reaction of anger, shock, or indignation.",
+        "meaning_zh_TW": "憤怒",
+        "wrong_meaning_zh_TW": [
+          "快樂",
+          "感動",
+          "期待"
+        ],
+        "examples": [
+          {
+            "sentence": "The decision caused a public [outrage].",
+            "translation_zh_TW": "這項決定引發了公眾的憤怒。"
+          },
+          {
+            "sentence": "There was widespread [outrage] over the unfair treatment.",
+            "translation_zh_TW": "人們對不公正的待遇感到廣泛的憤怒。"
+          },
+          {
+            "sentence": "The scandal led to an [outrage] within the community.",
+            "translation_zh_TW": "這場醜聞引發了社區內的憤怒。"
+          }
+        ],
+        "synonyms": [
+          "furor",
+          "indignation"
+        ]
+      }
+    ],
+    "confusion": [
+      "outraged",
+      "outrages",
+      "outrunge",
+      "outrages"
+    ]
+  },
+  {
+    "word": "disclosure",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The action of making new or secret information known.",
+        "meaning_zh_TW": "揭露",
+        "wrong_meaning_zh_TW": [
+          "隱藏",
+          "模糊",
+          "遺忘"
+        ],
+        "examples": [
+          {
+            "sentence": "The [disclosure] of the report shocked everyone.",
+            "translation_zh_TW": "報告的揭露震驚了所有人。"
+          },
+          {
+            "sentence": "Full [disclosure] of the facts is necessary.",
+            "translation_zh_TW": "完全揭露事實是必要的。"
+          },
+          {
+            "sentence": "They required a [disclosure] statement.",
+            "translation_zh_TW": "他們要求一份揭露聲明。"
+          }
+        ],
+        "synonyms": [
+          "revelation",
+          "exposure"
+        ]
+      }
+    ],
+    "confusion": [
+      "declosure",
+      "discloser",
+      "discloser",
+      "disclousure"
+    ]
+  },
+  {
+    "word": "spokesperson",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who speaks on behalf of others.",
+        "meaning_zh_TW": "發言人",
+        "wrong_meaning_zh_TW": [
+          "隱藏者",
+          "騙子",
+          "侍從"
+        ],
+        "examples": [
+          {
+            "sentence": "The [spokesperson] addressed the media today.",
+            "translation_zh_TW": "發言人今天對媒體發表了講話。"
+          },
+          {
+            "sentence": "A company [spokesperson] announced the new policy.",
+            "translation_zh_TW": "公司發言人宣布了新政策。"
+          },
+          {
+            "sentence": "The [spokesperson] answered all the questions.",
+            "translation_zh_TW": "發言人回答了所有問題。"
+          }
+        ],
+        "synonyms": [
+          "representative",
+          "delegate"
+        ]
+      }
+    ],
+    "confusion": [
+      "spokesman",
+      "spokeswoman",
+      "spoke",
+      "spoking"
+    ]
+  },
+  {
+    "word": "seduce",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To entice someone into engaging in sexual activity.",
+        "meaning_zh_TW": "誘惑",
+        "wrong_meaning_zh_TW": [
+          "斷絕",
+          "監禁",
+          "欺騙"
+        ],
+        "examples": [
+          {
+            "sentence": "She tried to [seduce] him with her charms.",
+            "translation_zh_TW": "她試圖用她的魅力誘惑他。"
+          },
+          {
+            "sentence": "He was [seduced] by her beauty.",
+            "translation_zh_TW": "他被她的美貌所誘惑。"
+          },
+          {
+            "sentence": "They attempted to [seduce] the audience.",
+            "translation_zh_TW": "他們試圖誘惑觀眾。"
+          }
+        ],
+        "synonyms": [
+          "tempt",
+          "entice"
+        ]
+      }
+    ],
+    "confusion": [
+      "seduct",
+      "seduces",
+      "seduced",
+      "seducer"
+    ]
+  },
+  {
+    "word": "refute",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To prove that a statement or theory is false.",
+        "meaning_zh_TW": "駁斥",
+        "wrong_meaning_zh_TW": [
+          "批准",
+          "增強",
+          "鼓勵"
+        ],
+        "examples": [
+          {
+            "sentence": "The lawyer was able to [refute] the allegations against her client.",
+            "translation_zh_TW": "律師能夠駁斥對她客戶的指控。"
+          },
+          {
+            "sentence": "He presented evidence to [refute] the false claims.",
+            "translation_zh_TW": "他提供了證據來駁斥虛假指控。"
+          },
+          {
+            "sentence": "She tried to [refute] his argument with facts.",
+            "translation_zh_TW": "她試著用事實來駁斥他的論點。"
+          }
+        ],
+        "synonyms": [
+          "disprove",
+          "counter"
+        ]
+      }
+    ],
+    "confusion": [
+      "refutee",
+      "refuer",
+      "repute",
+      "refuter"
+    ]
+  },
+  {
+    "word": "symphony",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A lengthy musical composition for orchestra.",
+        "meaning_zh_TW": "交響曲",
+        "wrong_meaning_zh_TW": [
+          "交響樂隊",
+          "音樂會",
+          "旋律"
+        ],
+        "examples": [
+          {
+            "sentence": "The new [symphony] was well received by the audience.",
+            "translation_zh_TW": "這部新交響曲受到觀眾的好評。"
+          },
+          {
+            "sentence": "Beethoven composed many famous [symphonies].",
+            "translation_zh_TW": "貝多芬創作了許多著名的交響曲。"
+          },
+          {
+            "sentence": "They attended a [symphony] performance last night.",
+            "translation_zh_TW": "他們昨晚參加了一場交響樂演出。"
+          }
+        ],
+        "synonyms": [
+          "orchestral work",
+          "musical masterpiece"
+        ]
+      }
+    ],
+    "confusion": [
+      "symphonic",
+      "symphonist",
+      "symphonize",
+      "simphony"
+    ]
+  },
+  {
+    "word": "veterinarian",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person qualified to treat diseased animals.",
+        "meaning_zh_TW": "獸醫",
+        "wrong_meaning_zh_TW": [
+          "醫生",
+          "農夫",
+          "園丁"
+        ],
+        "examples": [
+          {
+            "sentence": "The [veterinarian] examined the sick dog.",
+            "translation_zh_TW": "獸醫檢查了生病的狗。"
+          },
+          {
+            "sentence": "Many pet owners trust their [veterinarian] for advice.",
+            "translation_zh_TW": "許多寵物主人信任他們的獸醫提供建議。"
+          },
+          {
+            "sentence": "A [veterinarian] must complete extensive training.",
+            "translation_zh_TW": "獸醫必須完成廣泛的訓練。"
+          }
+        ],
+        "synonyms": [
+          "animal doctor",
+          "vet"
+        ]
+      }
+    ],
+    "confusion": [
+      " veteran",
+      "vetrinarian",
+      "veternarian",
+      "veteran"
+    ]
+  },
+  {
+    "word": "hover",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To remain suspended in one place in the air.",
+        "meaning_zh_TW": "懸停",
+        "wrong_meaning_zh_TW": [
+          "下落",
+          "攀爬",
+          "飛行"
+        ],
+        "examples": [
+          {
+            "sentence": "The helicopter began to [hover] over the landing site.",
+            "translation_zh_TW": "直升機開始在降落點上懸停"
+          },
+          {
+            "sentence": "Butterflies can [hover] in one spot while feeding.",
+            "translation_zh_TW": "蝴蝶在吸食時可以在一個地方懸停"
+          },
+          {
+            "sentence": "She watched the drone [hover] above the garden.",
+            "translation_zh_TW": "她看著無人機在花園上方懸停"
+          }
+        ],
+        "synonyms": [
+          "suspend",
+          "float"
+        ]
+      }
+    ],
+    "confusion": [
+      "hoover",
+      "over",
+      "hovercraft",
+      "hovering"
+    ]
+  },
+  {
+    "word": "accusation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A charge of wrongdoing or error.",
+        "meaning_zh_TW": "指控",
+        "wrong_meaning_zh_TW": [
+          "辯護",
+          "證據",
+          "鼓勵"
+        ],
+        "examples": [
+          {
+            "sentence": "She made an [accusation] against her colleague.",
+            "translation_zh_TW": "她對她的同事提出了一個指控。"
+          },
+          {
+            "sentence": "The [accusation] was proven to be false.",
+            "translation_zh_TW": "這項指控被證明是虛假的。"
+          },
+          {
+            "sentence": "He denied any [accusation] of misconduct.",
+            "translation_zh_TW": "他否認任何不當行為的指控。"
+          }
+        ],
+        "synonyms": [
+          "claim",
+          "charge",
+          "allegation"
+        ]
+      }
+    ],
+    "confusion": [
+      "accusation",
+      "accuse",
+      "accuser",
+      "acquittal"
+    ]
+  },
+  {
+    "word": "reflective",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having the ability to make decisions quickly and effectively.",
-        "meaning_zh_TW": "果斷的",
+        "meaning_en_US": "Relating to or characterized by deep thought; thoughtful.",
+        "meaning_zh_TW": "反思的",
         "wrong_meaning_zh_TW": [
-          "猶豫不決的",
-          "模糊的",
-          "無效的"
+          "反應的",
+          "直觀的",
+          "形象的"
         ],
         "examples": [
           {
-            "sentence": "Her [decisive] actions led to a swift resolution.",
-            "translation_zh_TW": "她果斷的行動導致了迅速的解決"
+            "sentence": "He spent a [reflective] moment contemplating his choices.",
+            "translation_zh_TW": "他花了一個反思的時刻思考自己的選擇。"
           },
           {
-            "sentence": "He needs to be more [decisive] in his choices.",
-            "translation_zh_TW": "他在選擇上需要更加果斷"
+            "sentence": "Her [reflective] nature makes her a great problem solver.",
+            "translation_zh_TW": "她的反思性格使她成為出色的問題解決者。"
           },
           {
-            "sentence": "A [decisive] leader can inspire confidence in others.",
-            "translation_zh_TW": "果斷的領導者能夠激勵他人的信心"
+            "sentence": "The painting has a [reflective] quality that captivates viewers.",
+            "translation_zh_TW": "這幅畫具有吸引觀眾的反思特質。"
           }
         ],
         "synonyms": [
-          "resolute",
-          "conclusive"
+          "thoughtful",
+          "contemplative"
         ]
       }
     ],
     "confusion": [
-      "decisively",
-      "decide",
-      "decided",
-      "decisiveley"
+      "reflecting",
+      "reflectively",
+      "relectric",
+      "reflectivity"
     ]
   },
   {
-    "word": "diabetes",
+    "word": "complement",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A medical condition in which the body is unable to properly process food, resulting in high blood sugar levels.",
-        "meaning_zh_TW": "糖尿病",
+        "meaning_en_US": "Something that completes or goes well with something.",
+        "meaning_zh_TW": "補充物",
         "wrong_meaning_zh_TW": [
-          "高血壓",
-          "心臟病",
-          "過敏"
+          "對抗物",
+          "錯誤",
+          "缺陷"
         ],
         "examples": [
           {
-            "sentence": "He was diagnosed with [diabetes] last year.",
-            "translation_zh_TW": "他去年被診斷為糖尿病。"
+            "sentence": "Her dress was the perfect [complement] to her shoes.",
+            "translation_zh_TW": "她的裙子是和鞋子完美的補充物"
           },
           {
-            "sentence": "Managing [diabetes] requires careful diet and exercise.",
-            "translation_zh_TW": "控制糖尿病需要注意飲食和運動。"
+            "sentence": "The wine served as a [complement] to the meal.",
+            "translation_zh_TW": "這酒成為了餐點的補充物"
           },
           {
-            "sentence": "People with [diabetes] must monitor their blood sugar levels.",
-            "translation_zh_TW": "糖尿病患者必須監測自己的血糖水平。"
+            "sentence": "Their personalities are a great [complement] to each other.",
+            "translation_zh_TW": "他們的個性互補得很好"
           }
         ],
         "synonyms": [
-          "hyperglycemia",
-          "glycosuria"
+          "addition",
+          "enhancement",
+          "supplement"
         ]
       }
     ],
     "confusion": [
-      "diabetic",
-      "diadem",
-      "dialetic",
-      "diagnosis"
+      "complete",
+      "complication",
+      "complementary",
+      "compliment"
     ]
   },
   {
-    "word": "India",
+    "word": "dictatorship",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A country in South Asia known for its diverse culture and history.",
-        "meaning_zh_TW": "印度",
+        "meaning_en_US": "A form of government in which absolute power is concentrated in a dictator.",
+        "meaning_zh_TW": "獨裁統治",
         "wrong_meaning_zh_TW": [
-          "印象派",
-          "銀髮族",
-          "音調"
+          "民主制度",
+          "行政部門",
+          "兵役"
         ],
         "examples": [
           {
-            "sentence": "[India] is famous for its rich spices and cuisines.",
-            "translation_zh_TW": "[印度]以其豐富的香料和菜餚聞名。"
+            "sentence": "The country suffered under a brutal [dictatorship].",
+            "translation_zh_TW": "這個國家在殘酷的獨裁統治下受苦。"
           },
           {
-            "sentence": "She plans to travel to [India] for a spiritual retreat.",
-            "translation_zh_TW": "她計劃去[印度]進行靈性靜修。"
+            "sentence": "Many citizens opposed the [dictatorship] and fought for their rights.",
+            "translation_zh_TW": "許多公民反對獨裁統治，為他們的權利而戰。"
           },
           {
-            "sentence": "The Taj Mahal is an iconic landmark in [India].",
-            "translation_zh_TW": "[印度]的泰姬瑪哈陵是一個標誌性地標。"
+            "sentence": "The fall of the [dictatorship] brought about significant change.",
+            "translation_zh_TW": "獨裁統治的垮台帶來了重大變化。"
           }
         ],
         "synonyms": [
-          "Bharat",
-          "Republic of India"
+          "autocracy",
+          "tyranny",
+          "despotism"
         ]
       }
     ],
     "confusion": [
-      "Inda",
-      "Inida",
-      "Inda",
-      "Inidaa"
-    ]
-  },
-  {
-    "word": "cigar",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A cylindrical roll of tobacco that is smoked.",
-        "meaning_zh_TW": "雪茄",
-        "wrong_meaning_zh_TW": [
-          "包裝",
-          "糖果",
-          "煙霧"
-        ],
-        "examples": [
-          {
-            "sentence": "He lit a [cigar] while sitting on the porch.",
-            "translation_zh_TW": "他坐在門廊上時點燃了一根雪茄。"
-          },
-          {
-            "sentence": "The [cigar] has a rich flavor.",
-            "translation_zh_TW": "這根雪茄的味道很濃郁。"
-          },
-          {
-            "sentence": "She gifted him a box of [cigar]s.",
-            "translation_zh_TW": "她送了他一盒雪茄。"
-          }
-        ],
-        "synonyms": [
-          "tobacco",
-          "smoke"
-        ]
-      }
-    ],
-    "confusion": [
-      "cigaret",
-      "sigar",
-      "cigars",
-      "sigaret"
-    ]
-  },
-  {
-    "word": "counterpart",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person or thing that corresponds to another.",
-        "meaning_zh_TW": "對應的人或物",
-        "wrong_meaning_zh_TW": [
-          "無關的物件",
-          "常見的習慣",
-          "相似的特徵"
-        ],
-        "examples": [
-          {
-            "sentence": "The American CEO met with her French [counterpart].",
-            "translation_zh_TW": "美國的首席執行官與她的法國對應者會面"
-          },
-          {
-            "sentence": "Each member has a [counterpart] in another country.",
-            "translation_zh_TW": "每位成員在另一個國家都有一位對應者"
-          },
-          {
-            "sentence": "The two [counterparts] discussed collaboration.",
-            "translation_zh_TW": "兩位對應者討論了合作事宜"
-          }
-        ],
-        "synonyms": [
-          "equivalent",
-          "peer"
-        ]
-      }
-    ],
-    "confusion": [
-      "counterparties",
-      "counterparts",
-      "counterpoint",
-      "counterparted"
-    ]
-  },
-  {
-    "word": "expiration",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The end of the period for which something is valid.",
-        "meaning_zh_TW": "期滿",
-        "wrong_meaning_zh_TW": [
-          "開始",
-          "更新",
-          "延長"
-        ],
-        "examples": [
-          {
-            "sentence": "The [expiration] date on the milk is tomorrow.",
-            "translation_zh_TW": "牛奶的[期滿]日期是明天。"
-          },
-          {
-            "sentence": "Please check the [expiration] of your passport.",
-            "translation_zh_TW": "請檢查你的護照的[有效期]。"
-          },
-          {
-            "sentence": "After the [expiration], the product may not be safe to use.",
-            "translation_zh_TW": "在[到期]後，產品可能不再安全使用。"
-          }
-        ],
-        "synonyms": [
-          "expiry",
-          "termination",
-          "conclusion"
-        ]
-      }
-    ],
-    "confusion": [
-      "expire",
-      "expiratory",
-      "exploration",
-      "expirationary"
-    ]
-  },
-  {
-    "word": "narrate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To tell a story or account of something.",
-        "meaning_zh_TW": "敘述",
-        "wrong_meaning_zh_TW": [
-          "解釋",
-          "強調",
-          "描述"
-        ],
-        "examples": [
-          {
-            "sentence": "He was asked to [narrate] the documentary.",
-            "translation_zh_TW": "他被要求為該紀錄片敘述。"
-          },
-          {
-            "sentence": "She loves to [narrate] her adventures.",
-            "translation_zh_TW": "她喜歡敘述她的冒險故事。"
-          },
-          {
-            "sentence": "Could you [narrate] what happened at the event?",
-            "translation_zh_TW": "你能敘述一下活動中發生的事情嗎？"
-          }
-        ],
-        "synonyms": [
-          "tell",
-          " recount"
-        ]
-      }
-    ],
-    "confusion": [
-      "narrow",
-      "narrative",
-      "narrator",
-      "nart"
-    ]
-  },
-  {
-    "word": "affiliate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To officially attach or connect to an organization.",
-        "meaning_zh_TW": "附屬",
-        "wrong_meaning_zh_TW": [
-          "分開",
-          "獨立",
-          "鬆散"
-        ],
-        "examples": [
-          {
-            "sentence": "We decided to [affiliate] with a larger network.",
-            "translation_zh_TW": "我們決定與更大的網絡附屬。"
-          },
-          {
-            "sentence": "The company will [affiliate] with a non-profit.",
-            "translation_zh_TW": "該公司將與一家非營利機構附屬。"
-          },
-          {
-            "sentence": "Many clubs [affiliate] under one umbrella organization.",
-            "translation_zh_TW": "許多俱樂部在一個總體組織下附屬。"
-          }
-        ],
-        "synonyms": [
-          "associate",
-          "join"
-        ]
-      }
-    ],
-    "confusion": [
-      "affiliation",
-      "afflicted",
-      "affiliates",
-      "affilicate"
-    ]
-  },
-  {
-    "word": "diesel",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A type of fuel used in diesel engines, derived from crude oil.",
-        "meaning_zh_TW": "柴油",
-        "wrong_meaning_zh_TW": [
-          "汽油",
-          "潤滑油",
-          "煤油"
-        ],
-        "examples": [
-          {
-            "sentence": "The bus runs on [diesel].",
-            "translation_zh_TW": "這輛公車使用柴油。"
-          },
-          {
-            "sentence": "Prices for [diesel] fuel have increased this year.",
-            "translation_zh_TW": "今年柴油價格已上漲。"
-          },
-          {
-            "sentence": "He filled the tank with [diesel] before the trip.",
-            "translation_zh_TW": "他在出發前把油箱加滿了柴油。"
-          }
-        ],
-        "synonyms": [
-          "fuel",
-          "oil",
-          "petroleum"
-        ]
-      }
-    ],
-    "confusion": [
-      "dieselization",
-      "diseal",
-      "disel",
-      "dizel"
-    ]
-  },
-  {
-    "word": "salute",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make a gesture of respect or greeting.",
-        "meaning_zh_TW": "敬禮",
-        "wrong_meaning_zh_TW": [
-          "駐足",
-          "坐下",
-          "微笑"
-        ],
-        "examples": [
-          {
-            "sentence": "The soldiers [salute] their commanding officer.",
-            "translation_zh_TW": "士兵們向指揮官敬禮。"
-          },
-          {
-            "sentence": "We [salute] the bravery of those who fought.",
-            "translation_zh_TW": "我們敬禮那些曾經作戰的勇敢者。"
-          },
-          {
-            "sentence": "He raised his hand to [salute] the flag.",
-            "translation_zh_TW": "他舉起手敬禮國旗。"
-          }
-        ],
-        "synonyms": [
-          "greet",
-          "acknowledge"
-        ]
-      }
-    ],
-    "confusion": [
-      "salutes",
-      "salut",
-      "salutte",
-      "salutation"
-    ]
-  },
-  {
-    "word": "discharge",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To release someone from a duty or obligation.",
-        "meaning_zh_TW": "解除",
-        "wrong_meaning_zh_TW": [
-          "收費",
-          "責任",
-          "負擔"
-        ],
-        "examples": [
-          {
-            "sentence": "He was [discharged] from the hospital after recovery.",
-            "translation_zh_TW": "他康復後被[解除]醫院的檢查。"
-          },
-          {
-            "sentence": "They decided to [discharge] the contract.",
-            "translation_zh_TW": "他們決定[解除]合同。"
-          },
-          {
-            "sentence": "The officer was [discharged] from service.",
-            "translation_zh_TW": "該軍官[解除]了職務。"
-          }
-        ],
-        "synonyms": [
-          "release",
-          "dismiss"
-        ]
-      }
-    ],
-    "confusion": [
-      "dischargeable",
-      "discuss",
-      "dispatched",
-      "disengage"
-    ]
-  },
-  {
-    "word": "petroleum",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A liquid fossil fuel derived from crude oil, used to produce petrol and other fuels.",
-        "meaning_zh_TW": "石油",
-        "wrong_meaning_zh_TW": [
-          "鹽水",
-          "酒精",
-          "牛奶"
-        ],
-        "examples": [
-          {
-            "sentence": "The country’s economy relies heavily on [petroleum] exports.",
-            "translation_zh_TW": "該國的經濟嚴重依賴石油出口。"
-          },
-          {
-            "sentence": "Refining [petroleum] produces various fuels.",
-            "translation_zh_TW": "精煉石油可以生產各種燃料。"
-          },
-          {
-            "sentence": "Environmental concerns have arisen over [petroleum] drilling.",
-            "translation_zh_TW": "對石油鑽探的環境擔憂已經出現。"
-          }
-        ],
-        "synonyms": [
-          "crude oil"
-        ]
-      }
-    ],
-    "confusion": [
-      "petrol",
-      "petrole",
-      "petrolim",
-      "petroluem"
-    ]
-  },
-  {
-    "word": "narrator",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who tells a story or gives an account of events.",
-        "meaning_zh_TW": "敘述者",
-        "wrong_meaning_zh_TW": [
-          "監督",
-          "編輯",
-          "評論員"
-        ],
-        "examples": [
-          {
-            "sentence": "The [narrator] spoke in a calm, soothing voice.",
-            "translation_zh_TW": "敘述者用平靜舒緩的聲音講述。"
-          },
-          {
-            "sentence": "In the documentary, the [narrator] provided context for the events.",
-            "translation_zh_TW": "在紀錄片中，敘述者提供了事件的背景。"
-          },
-          {
-            "sentence": "The [narrator] helps the audience understand the plot.",
-            "translation_zh_TW": "敘述者幫助觀眾理解情節。"
-          }
-        ],
-        "synonyms": [
-          "storyteller",
-          "recounter"
-        ]
-      }
-    ],
-    "confusion": [
-      "narration",
-      "navigator",
-      "narrative",
-      "narrated"
-    ]
-  },
-  {
-    "word": "rotate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To turn around a center point or axis.",
-        "meaning_zh_TW": "旋轉",
-        "wrong_meaning_zh_TW": [
-          "停止",
-          "平靜",
-          "放置"
-        ],
-        "examples": [
-          {
-            "sentence": "You need to [rotate] the wheel to steer the cart.",
-            "translation_zh_TW": "你需要旋轉輪子來駕駛推車。"
-          },
-          {
-            "sentence": "The earth [rotates] on its axis once every 24 hours.",
-            "translation_zh_TW": "地球每24小時旋轉一次。"
-          },
-          {
-            "sentence": "She decided to [rotate] the plants to get even sunlight.",
-            "translation_zh_TW": "她決定旋轉植物以獲得均勻的陽光。"
-          }
-        ],
-        "synonyms": [
-          "revolve",
-          "turn"
-        ]
-      }
-    ],
-    "confusion": [
-      "rotator",
-      "rotatee",
-      "rooted",
-      "rout"
-    ]
-  },
-  {
-    "word": "hybrid",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A combination of two different elements.",
-        "meaning_zh_TW": "混合物",
-        "wrong_meaning_zh_TW": [
-          "純種",
-          "隔離",
-          "變異"
-        ],
-        "examples": [
-          {
-            "sentence": "The new car model is a [hybrid] of electric and gasoline power.",
-            "translation_zh_TW": "這款新車型是電動和汽油動力的混合物"
-          },
-          {
-            "sentence": "She created a [hybrid] recipe combining Italian and Mexican cuisine.",
-            "translation_zh_TW": "她創造了一個結合義大利和墨西哥料理的混合食譜"
-          },
-          {
-            "sentence": "Many plants are [hybrid] varieties designed for better yield.",
-            "translation_zh_TW": "許多植物是為了更好的產量而設計的混合品種"
-          }
-        ],
-        "synonyms": [
-          "mixture",
-          "combination"
-        ]
-      }
-    ],
-    "confusion": [
-      "hybrids",
-      "hydra",
-      "hyper",
-      "hybridize"
-    ]
-  },
-  {
-    "word": "underpass",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A passageway that goes under something, such as a road or railway.",
-        "meaning_zh_TW": "地下通道",
-        "wrong_meaning_zh_TW": [
-          "地鐵",
-          "空中走廊",
-          "高架橋"
-        ],
-        "examples": [
-          {
-            "sentence": "We walked through the [underpass] to cross the busy street.",
-            "translation_zh_TW": "我們走過地下通道過馬路。"
-          },
-          {
-            "sentence": "He waited for the train in the [underpass].",
-            "translation_zh_TW": "他在地下通道等火車。"
-          },
-          {
-            "sentence": "The new [underpass] connects the two neighborhoods.",
-            "translation_zh_TW": "新的地下通道連接了兩個社區。"
-          }
-        ],
-        "synonyms": [
-          "tunnel",
-          "subway"
-        ]
-      }
-    ],
-    "confusion": [
-      "underpassage",
-      "underpasss",
-      "overpass",
-      "underpast"
-    ]
-  },
-  {
-    "word": "conserve",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To protect something from being wasted or destroyed.",
-        "meaning_zh_TW": "保護",
-        "wrong_meaning_zh_TW": [
-          "保持健康",
-          "絕種動物",
-          "地球村"
-        ],
-        "examples": [
-          {
-            "sentence": "We must [conserve] water during the drought.",
-            "translation_zh_TW": "在乾旱期間，我們必須保護水源。"
-          },
-          {
-            "sentence": "They worked to [conserve] wildlife habitats.",
-            "translation_zh_TW": "他們為保護野生動物的棲息地而努力。"
-          },
-          {
-            "sentence": "It's important to [conserve] energy at home.",
-            "translation_zh_TW": "在家裡保護能源非常重要。"
-          }
-        ],
-        "synonyms": [
-          "preserve",
-          "protect",
-          "safeguard"
-        ]
-      }
-    ],
-    "confusion": [
-      "conserved",
-      "conserveful",
-      "conservatory",
-      "consent"
+      "dictate",
+      "dictionary",
+      "dictatorial",
+      "dictateorship"
     ]
   }
 ]

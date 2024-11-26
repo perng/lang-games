@@ -1,782 +1,772 @@
 [
   {
-    "word": "enormous",
+    "word": "oppose",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To disagree with or resist the actions or policies of someone or something.",
+        "meaning_zh_TW": "反對、抵制",
+        "wrong_meaning_zh_TW": [
+          "支持、贊成",
+          "接受、領受",
+          "鼓勵、促進"
+        ],
+        "examples": [
+          {
+            "sentence": "Many citizens decided to [oppose] the new law.",
+            "translation_zh_TW": "許多市民決定反對這項新法。"
+          },
+          {
+            "sentence": "They will [oppose] any attempts to change the regulations.",
+            "translation_zh_TW": "他們將反對任何改變規定的嘗試。"
+          },
+          {
+            "sentence": "The activists [oppose] the construction of the new highway.",
+            "translation_zh_TW": "活動人士反對新公路的建設。"
+          }
+        ],
+        "synonyms": [
+          "resist",
+          "contest"
+        ]
+      }
+    ],
+    "confusion": [
+      "compose",
+      "dispose",
+      "propose",
+      "oppose"
+    ]
+  },
+  {
+    "word": "graduation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The act of receiving or conferring an academic degree or diploma.",
+        "meaning_zh_TW": "畢業典禮",
+        "wrong_meaning_zh_TW": [
+          "入學測驗",
+          "學期考試",
+          "升級報告"
+        ],
+        "examples": [
+          {
+            "sentence": "She celebrated her graduation with a big party.",
+            "translation_zh_TW": "她舉辦了一個盛大的派對來慶祝畢業。"
+          },
+          {
+            "sentence": "His graduation was a proud moment for the family.",
+            "translation_zh_TW": "他的畢業是家庭的一個驕傲時刻。"
+          },
+          {
+            "sentence": "The graduation ceremony will be held in June.",
+            "translation_zh_TW": "畢業典禮將於六月舉行。"
+          }
+        ],
+        "synonyms": [
+          "commencement",
+          "completion"
+        ]
+      }
+    ],
+    "confusion": [
+      "graduate",
+      "gratuity",
+      "gradation",
+      "gradual"
+    ]
+  },
+  {
+    "word": "resolution",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A firm decision to do or not do something.",
+        "meaning_zh_TW": "果斷、堅決",
+        "wrong_meaning_zh_TW": [
+          "不安",
+          "猶豫",
+          "懶惰"
+        ],
+        "examples": [
+          {
+            "sentence": "She made a [resolution] to exercise more often.",
+            "translation_zh_TW": "她下定決心要更常運動。"
+          },
+          {
+            "sentence": "His [resolution] was to save money for a new car.",
+            "translation_zh_TW": "他的決心是儲錢買輛新車。"
+          },
+          {
+            "sentence": "The New Year brings new [resolutions].",
+            "translation_zh_TW": "新年帶來新的決心。"
+          }
+        ],
+        "synonyms": [
+          "decision",
+          "determination"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "The quality of being determined and resolute.",
+        "meaning_zh_TW": "果斷、堅決",
+        "wrong_meaning_zh_TW": [
+          "不安",
+          "猶豫",
+          "懶惰"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [resolution] in tackling the project impressed everyone.",
+            "translation_zh_TW": "她在處理專案時的果斷讓每個人印象深刻。"
+          },
+          {
+            "sentence": "He faced challenges with great [resolution].",
+            "translation_zh_TW": "他以極大的果斷面對挑戰。"
+          },
+          {
+            "sentence": "The team's [resolution] led them to success.",
+            "translation_zh_TW": "團隊的堅決使他們獲得成功。"
+          }
+        ],
+        "synonyms": [
+          "determination",
+          "firmness"
+        ]
+      }
+    ],
+    "confusion": [
+      "revolution",
+      "resolutionary",
+      "resolute",
+      "resolutions"
+    ]
+  },
+  {
+    "word": "orphan",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A child whose parents are dead.",
+        "meaning_zh_TW": "孤兒",
+        "wrong_meaning_zh_TW": [
+          "寵物",
+          "孤獨",
+          "寄養"
+        ],
+        "examples": [
+          {
+            "sentence": "The [orphan] was taken to a safe home.",
+            "translation_zh_TW": "孤兒被帶到了安全的家。"
+          },
+          {
+            "sentence": "She volunteers at a center for [orphans].",
+            "translation_zh_TW": "她在一個孤兒中心擔任志願者。"
+          },
+          {
+            "sentence": "Many [orphans] need love and care.",
+            "translation_zh_TW": "許多孤兒需要愛與關懷。"
+          }
+        ],
+        "synonyms": [
+          "waif",
+          "foundling"
+        ]
+      }
+    ],
+    "confusion": [
+      "organs",
+      "origin",
+      "orthodox",
+      "orphaned"
+    ]
+  },
+  {
+    "word": "influential",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Very large in size, quantity, or degree.",
+        "meaning_en_US": "Having great influence on someone or something.",
+        "meaning_zh_TW": "有影響力的",
+        "wrong_meaning_zh_TW": [
+          "微不足道的",
+          "普通的",
+          "不重要的"
+        ],
+        "examples": [
+          {
+            "sentence": "She is an [influential] figure in the world of politics.",
+            "translation_zh_TW": "她在政治界是一位有影響力的人物"
+          },
+          {
+            "sentence": "The book was written by an [influential] author.",
+            "translation_zh_TW": "這本書是由一位有影響力的作者所寫"
+          },
+          {
+            "sentence": "His ideas were [influential] in shaping modern art.",
+            "translation_zh_TW": "他的想法在塑造現代藝術方面有影響力"
+          }
+        ],
+        "synonyms": [
+          "powerful",
+          "important"
+        ]
+      }
+    ],
+    "confusion": [
+      "influence",
+      "influenza",
+      "influencer",
+      "influx"
+    ]
+  },
+  {
+    "word": "diversity",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The state of being diverse; variety.",
+        "meaning_zh_TW": "多樣性、差異性",
+        "wrong_meaning_zh_TW": [
+          "一致性、相同性",
+          "簡單性、單純性",
+          "同質性、相似性"
+        ],
+        "examples": [
+          {
+            "sentence": "Cultural [diversity] is celebrated in the festival.",
+            "translation_zh_TW": "文化的多樣性在這場慶典中受到讚揚。"
+          },
+          {
+            "sentence": "The team values [diversity] in its members.",
+            "translation_zh_TW": "該團隊重視成員的多樣性。"
+          },
+          {
+            "sentence": "Promoting [diversity] can lead to innovation.",
+            "translation_zh_TW": "促進多樣性可能導致創新。"
+          }
+        ],
+        "synonyms": [
+          "variety",
+          "heterogeneity",
+          "multiple types"
+        ]
+      }
+    ],
+    "confusion": [
+      "diverse",
+      "diversities",
+      "diversify",
+      "diversely"
+    ]
+  },
+  {
+    "word": "vast",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Of very great extent or quantity; immense.",
         "meaning_zh_TW": "巨大的",
         "wrong_meaning_zh_TW": [
           "微小的",
-          "普通的",
-          "平常的"
+          "狹小的",
+          "有限的"
         ],
         "examples": [
           {
-            "sentence": "The elephant is an [enormous] animal.",
-            "translation_zh_TW": "大象是一種巨大的動物。"
+            "sentence": "The ocean is a [vast] body of water.",
+            "translation_zh_TW": "海洋是一個巨大的水體。"
           },
           {
-            "sentence": "She felt [enormous] pressure to succeed.",
-            "translation_zh_TW": "她感受到巨大的成功壓力。"
+            "sentence": "They explored the [vast] landscape of the national park.",
+            "translation_zh_TW": "他們探索了國家公園的廣闊景觀。"
           },
           {
-            "sentence": "They faced an [enormous] challenge ahead.",
-            "translation_zh_TW": "他們面臨著一個巨大的挑戰。"
+            "sentence": "Her knowledge on the subject is [vast].",
+            "translation_zh_TW": "她對這個主題的知識是巨大的。"
           }
         ],
         "synonyms": [
-          "vast",
-          "huge"
+          "immense",
+          "enormous"
         ]
       }
     ],
     "confusion": [
-      "enormity",
-      "enormus",
-      "enoromous",
-      "enormousness"
+      "last",
+      "vastly",
+      "vaste",
+      "vasta"
     ]
   },
   {
-    "word": "tense",
+    "word": "vacancy",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A grammatical category determining the time of a verb's action or state.",
-        "meaning_zh_TW": "時態",
+        "meaning_en_US": "An unoccupied position or job.",
+        "meaning_zh_TW": "空缺",
         "wrong_meaning_zh_TW": [
-          "地點",
-          "人物",
-          "事件"
+          "滿員",
+          "飽和",
+          "充滿"
         ],
         "examples": [
           {
-            "sentence": "The present [tense] is used for actions happening now.",
-            "translation_zh_TW": "現在時態用於描述當前發生的行為。"
+            "sentence": "There is a [vacancy] for a manager in the company.",
+            "translation_zh_TW": "公司有一個經理的空缺"
           },
           {
-            "sentence": "In English, [tense] is crucial for expressing time.",
-            "translation_zh_TW": "在英語中，時態對於表達時間至關重要。"
+            "sentence": "Due to travel, the [vacancy] rate increased.",
+            "translation_zh_TW": "由於旅行，空缺率增加"
           },
           {
-            "sentence": "There are three main types of [tense] in English.",
-            "translation_zh_TW": "英語中主要有三種時態。"
+            "sentence": "I checked several hotels for [vacancy].",
+            "translation_zh_TW": "我檢查了幾家酒店的空缺情況"
           }
         ],
         "synonyms": [
-          "time form",
-          "verb form"
+          "open position",
+          "availability"
         ]
       }
     ],
     "confusion": [
-      "tensed",
-      "tens",
-      "tensile",
-      "tension"
+      "vacate",
+      "vacation",
+      "vacant",
+      "vaccination"
     ]
   },
   {
-    "word": "household",
+    "word": "wizard",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A group of people, often a family, living together in a single dwelling.",
-        "meaning_zh_TW": "家庭",
+        "meaning_en_US": "A man who has magical powers, especially in folklore and fantasy.",
+        "meaning_zh_TW": "巫師",
         "wrong_meaning_zh_TW": [
-          "鄰居",
-          "寵物",
-          "親戚"
+          "騎士",
+          "國王",
+          "士兵"
         ],
         "examples": [
           {
-            "sentence": "The [household] includes four members.",
-            "translation_zh_TW": "這個家庭包括四個成員。"
+            "sentence": "The tale tells of a powerful [wizard] who protects the kingdom.",
+            "translation_zh_TW": "這個故事講述了一位強大的巫師保護王國。"
           },
           {
-            "sentence": "They decided to invite the whole [household] for dinner.",
-            "translation_zh_TW": "他們決定邀請整個家庭來吃晚餐。"
+            "sentence": "He dressed as a [wizard] for the costume party.",
+            "translation_zh_TW": "他在化妝舞會上打扮成巫師。"
           },
           {
-            "sentence": "Each [household] receives a monthly budget.",
-            "translation_zh_TW": "每個家庭都有每月的預算。"
+            "sentence": "A [wizard] casts spells to change reality.",
+            "translation_zh_TW": "巫師施展法術改變現實。"
           }
         ],
         "synonyms": [
-          "family unit",
-          "domestic group"
+          "sorcerer",
+          "magician"
         ]
       }
     ],
     "confusion": [
-      "householder",
+      "wizards",
+      "wizardry",
+      "lizard",
+      "whiz"
+    ]
+  },
+  {
+    "word": "digest",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To break down food in the digestive system.",
+        "meaning_zh_TW": "消化",
+        "wrong_meaning_zh_TW": [
+          "諮詢",
+          "收集",
+          "研究"
+        ],
+        "examples": [
+          {
+            "sentence": "It's important to [digest] your food properly.",
+            "translation_zh_TW": "妥善消化食物是很重要的。"
+          },
+          {
+            "sentence": "She took time to [digest] the information.",
+            "translation_zh_TW": "她花時間來消化這些信息。"
+          },
+          {
+            "sentence": "As a child, I found it hard to [digest] vegetables.",
+            "translation_zh_TW": "作為一個孩子，我覺得消化蔬菜很困難。"
+          }
+        ],
+        "synonyms": [
+          "absorb",
+          "process"
+        ]
+      }
+    ],
+    "confusion": [
+      "digestive",
+      "dignify",
+      "diagram",
+      "diligent"
+    ]
+  },
+  {
+    "word": "dismiss",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To send away; to allow to leave.",
+        "meaning_zh_TW": "解雇；讓走",
+        "wrong_meaning_zh_TW": [
+          "接受",
+          "拒絕",
+          "要求"
+        ],
+        "examples": [
+          {
+            "sentence": "The manager decided to [dismiss] the employee.",
+            "translation_zh_TW": "經理決定解雇該員工。"
+          },
+          {
+            "sentence": "She was quick to [dismiss] the suggestion.",
+            "translation_zh_TW": "她很快就駁回了這個建議。"
+          },
+          {
+            "sentence": "They chose to [dismiss] the case.",
+            "translation_zh_TW": "他們選擇了不再理會這個案件。"
+          }
+        ],
+        "synonyms": [
+          "discharge",
+          "fire"
+        ]
+      }
+    ],
+    "confusion": [
+      "dismal",
+      "dismissal",
+      "discomfort",
+      "dismember"
+    ]
+  },
+  {
+    "word": "housework",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The tasks and duties necessary for maintaining a household.",
+        "meaning_zh_TW": "家務",
+        "wrong_meaning_zh_TW": [
+          "報紙",
+          "房間部門",
+          "家居娛樂"
+        ],
+        "examples": [
+          {
+            "sentence": "She shares the [housework] with her partner.",
+            "translation_zh_TW": "她和伴侶分擔家務。"
+          },
+          {
+            "sentence": "Doing [housework] can be tiring but rewarding.",
+            "translation_zh_TW": "做家務可能會讓人疲憊，但卻是值得的。"
+          },
+          {
+            "sentence": "Children can help with [housework] to learn responsibility.",
+            "translation_zh_TW": "孩子們可以幫忙做家務以學習負責任。"
+          }
+        ],
+        "synonyms": [
+          "domestic chores",
+          "household tasks"
+        ]
+      }
+    ],
+    "confusion": [
+      "housewarming",
       "housekeeping",
       "household",
       "house"
     ]
   },
   {
-    "word": "physician",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A qualified medical practitioner.",
-        "meaning_zh_TW": "醫生",
-        "wrong_meaning_zh_TW": [
-          "病人",
-          "藥劑師",
-          "護士"
-        ],
-        "examples": [
-          {
-            "sentence": "She is a respected [physician] in her community.",
-            "translation_zh_TW": "她在社區中是一位受人尊敬的醫生。"
-          },
-          {
-            "sentence": "The [physician] diagnosed the illness accurately.",
-            "translation_zh_TW": "醫生準確地診斷了疾病。"
-          },
-          {
-            "sentence": "I need to schedule an appointment with my [physician].",
-            "translation_zh_TW": "我需要預約我的醫生。"
-          }
-        ],
-        "synonyms": [
-          "doctor",
-          "medical practitioner"
-        ]
-      }
-    ],
-    "confusion": [
-      "physicist",
-      "physique",
-      "physic",
-      "physicist"
-    ]
-  },
-  {
-    "word": "economic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to the economy or the use of resources.",
-        "meaning_zh_TW": "經濟的",
-        "wrong_meaning_zh_TW": [
-          "社會的",
-          "文化的",
-          "環境的"
-        ],
-        "examples": [
-          {
-            "sentence": "The country is facing serious [economic] challenges.",
-            "translation_zh_TW": "該國正面臨嚴重的經濟挑戰。"
-          },
-          {
-            "sentence": "They studied the [economic] impacts of the policy.",
-            "translation_zh_TW": "他們研究了該政策的經濟影響。"
-          },
-          {
-            "sentence": "This plan is not only [economic] but also sustainable.",
-            "translation_zh_TW": "這個計劃不僅經濟實惠，而且可持續。"
-          }
-        ],
-        "synonyms": [
-          "financial",
-          "commercial"
-        ]
-      }
-    ],
-    "confusion": [
-      "economical",
-      "ecological",
-      "economy",
-      "econometrics"
-    ]
-  },
-  {
-    "word": "sketch",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A rough or unfinished drawing, typically representing the main features of a person or thing.",
-        "meaning_zh_TW": "草圖、草稿",
-        "wrong_meaning_zh_TW": [
-          "成品",
-          "定稿",
-          "畫作"
-        ],
-        "examples": [
-          {
-            "sentence": "She created a quick [sketch] of the landscape.",
-            "translation_zh_TW": "她迅速繪製了一幅風景的草圖。"
-          },
-          {
-            "sentence": "The artist's [sketch] was the basis for the final painting.",
-            "translation_zh_TW": "這位藝術家的草圖是最終繪畫的基礎。"
-          },
-          {
-            "sentence": "He pulled out a pencil to make a [sketch] of his idea.",
-            "translation_zh_TW": "他拿出鉛筆畫下他的想法的草圖。"
-          }
-        ],
-        "synonyms": [
-          "drawing",
-          "draft"
-        ]
-      }
-    ],
-    "confusion": [
-      "stretch",
-      "stash",
-      "scoff",
-      "sneech"
-    ]
-  },
-  {
-    "word": "loan",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A thing that is borrowed, especially a sum of money that is expected to be paid back with interest.",
-        "meaning_zh_TW": "貸款",
-        "wrong_meaning_zh_TW": [
-          "捐贈",
-          "贈品",
-          "投資"
-        ],
-        "examples": [
-          {
-            "sentence": "She took out a [loan] to buy a new car.",
-            "translation_zh_TW": "她貸款買了一輛新車"
-          },
-          {
-            "sentence": "A [loan] can help you achieve your goals.",
-            "translation_zh_TW": "貸款可以幫助你實現目標"
-          },
-          {
-            "sentence": "The bank approved her [loan] application.",
-            "translation_zh_TW": "銀行批准了她的貸款申請"
-          }
-        ],
-        "synonyms": [
-          "借款",
-          "貸款"
-        ]
-      }
-    ],
-    "confusion": [
-      "loon",
-      "loaner",
-      "loam",
-      "loaned"
-    ]
-  },
-  {
-    "word": "tragedy",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A dramatic representation of serious and important actions that often end in disaster.",
-        "meaning_zh_TW": "悲劇",
-        "wrong_meaning_zh_TW": [
-          "喜劇",
-          "戲劇",
-          "鬧劇"
-        ],
-        "examples": [
-          {
-            "sentence": "The play is a classic Greek [tragedy].",
-            "translation_zh_TW": "這部劇是經典的希臘悲劇。"
-          },
-          {
-            "sentence": "The news of the accident was a terrible [tragedy] for the community.",
-            "translation_zh_TW": "這起事故的消息對社區來說是一場可怕的悲劇。"
-          },
-          {
-            "sentence": "He wrote a [tragedy] about lost love.",
-            "translation_zh_TW": "他寫了一部關於失去的愛的悲劇。"
-          }
-        ],
-        "synonyms": [
-          "catastrophe",
-          "disaster"
-        ]
-      }
-    ],
-    "confusion": [
-      "strategy",
-      "tragic",
-      "trig",
-      "tradition"
-    ]
-  },
-  {
-    "word": "impression",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An effect or influence that something has on someone.",
-        "meaning_zh_TW": "印象",
-        "wrong_meaning_zh_TW": [
-          "真相",
-          "模仿",
-          "印刷"
-        ],
-        "examples": [
-          {
-            "sentence": "She made a positive [impression] on her interviewers.",
-            "translation_zh_TW": "她在面試官身上留下了好印象。"
-          },
-          {
-            "sentence": "The first [impression] is often the most lasting.",
-            "translation_zh_TW": "第一印象往往是最持久的。"
-          },
-          {
-            "sentence": "His [impression] of the movie was not very favorable.",
-            "translation_zh_TW": "他對這部電影的印象並不太好。"
-          }
-        ],
-        "synonyms": [
-          "influence",
-          "impact"
-        ]
-      }
-    ],
-    "confusion": [
-      "expression",
-      "compression",
-      "depression",
-      "oppression"
-    ]
-  },
-  {
-    "word": "hardship",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Severe suffering or privation.",
-        "meaning_zh_TW": "困苦",
-        "wrong_meaning_zh_TW": [
-          "快樂",
-          "舒適",
-          "富裕"
-        ],
-        "examples": [
-          {
-            "sentence": "They faced many [hardships] during the war.",
-            "translation_zh_TW": "他們在戰爭中面對了很多困苦。"
-          },
-          {
-            "sentence": "The charity aims to alleviate [hardship] for the homeless.",
-            "translation_zh_TW": "該慈善機構旨在減輕無家可歸者的困苦。"
-          },
-          {
-            "sentence": "Enduring [hardship] can build character.",
-            "translation_zh_TW": "忍受困苦可以塑造性格。"
-          }
-        ],
-        "synonyms": [
-          "struggle",
-          "difficulty"
-        ]
-      }
-    ],
-    "confusion": [
-      "hardchips",
-      "hardships",
-      "hardskips",
-      "hardshipz"
-    ]
-  },
-  {
-    "word": "involvement",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The fact or condition of being involved with or participating in something.",
-        "meaning_zh_TW": "參與",
-        "wrong_meaning_zh_TW": [
-          "排除",
-          "捷徑",
-          "逃避"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [involvement] in the project was crucial.",
-            "translation_zh_TW": "她在這個專案中的參與至關重要。"
-          },
-          {
-            "sentence": "Community [involvement] is encouraged in our programs.",
-            "translation_zh_TW": "我們的計畫鼓勵社區參與。"
-          },
-          {
-            "sentence": "Active [involvement] in discussions is welcomed.",
-            "translation_zh_TW": "我們歡迎在討論中的主動參與。"
-          }
-        ],
-        "synonyms": [
-          "participation",
-          "engagement"
-        ]
-      }
-    ],
-    "confusion": [
-      "envelopment",
-      "revolvement",
-      "involution",
-      "involuntary"
-    ]
-  },
-  {
-    "word": "funeral",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A ceremony honoring a deceased person.",
-        "meaning_zh_TW": "葬禮",
-        "wrong_meaning_zh_TW": [
-          "婚禮",
-          "慶典",
-          "聚會"
-        ],
-        "examples": [
-          {
-            "sentence": "The family held a private [funeral] for their loved one.",
-            "translation_zh_TW": "家人為他們摯愛的人舉行了一個私人葬禮"
-          },
-          {
-            "sentence": "Attending a [funeral] can be a difficult experience.",
-            "translation_zh_TW": "參加葬禮可能是一段艱難的經歷"
-          },
-          {
-            "sentence": "Traditionally, a [funeral] involves several rituals.",
-            "translation_zh_TW": "傳統上，葬禮涉及多種儀式"
-          }
-        ],
-        "synonyms": [
-          "memorial",
-          "ceremony"
-        ]
-      }
-    ],
-    "confusion": [
-      "funnel",
-      "fundamental",
-      "funny",
-      "functional"
-    ]
-  },
-  {
-    "word": "imaginative",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having or showing creativity or inventiveness.",
-        "meaning_zh_TW": "有想像力的",
-        "wrong_meaning_zh_TW": [
-          "循規蹈矩的",
-          "平庸的",
-          "無趣的"
-        ],
-        "examples": [
-          {
-            "sentence": "The artist's [imaginative] style sets her apart from others.",
-            "translation_zh_TW": "這位藝術家富有想像力的風格讓她與眾不同。"
-          },
-          {
-            "sentence": "Children are naturally [imaginative] and enjoy pretending.",
-            "translation_zh_TW": "孩子們天生富有想像力，喜歡假裝。"
-          },
-          {
-            "sentence": "His [imaginative] solutions to problems impressed the team.",
-            "translation_zh_TW": "他對問題的創新解決方案讓團隊印象深刻。"
-          }
-        ],
-        "synonyms": [
-          "creative",
-          "inventive"
-        ]
-      }
-    ],
-    "confusion": [
-      "imagination",
-      "imaginary",
-      "imagined",
-      "immediate"
-    ]
-  },
-  {
-    "word": "intellectual",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to the intellect or involving the use of the mind.",
-        "meaning_zh_TW": "智力的",
-        "wrong_meaning_zh_TW": [
-          "情感的",
-          "物理的",
-          "生理的"
-        ],
-        "examples": [
-          {
-            "sentence": "He engaged in an [intellectual] debate.",
-            "translation_zh_TW": "他參加了智力辯論。"
-          },
-          {
-            "sentence": "They appreciate [intellectual] pursuits like reading.",
-            "translation_zh_TW": "他們欣賞像閱讀這樣的智力追求。"
-          },
-          {
-            "sentence": "The film offers an [intellectual] challenge.",
-            "translation_zh_TW": "這部電影提供了智力上的挑戰。"
-          }
-        ],
-        "synonyms": [
-          "cerebral",
-          "thoughtful"
-        ]
-      }
-    ],
-    "confusion": [
-      "intellect",
-      "intelligence",
-      "intensive",
-      "interlectual"
-    ]
-  },
-  {
-    "word": "moreover",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "As a further matter; besides.",
-        "meaning_zh_TW": "此外",
-        "wrong_meaning_zh_TW": [
-          "基於此",
-          "相似的",
-          "以下"
-        ],
-        "examples": [
-          {
-            "sentence": "She is an excellent writer; [moreover], she is a great speaker.",
-            "translation_zh_TW": "她是一位優秀的作家；此外，她還是一位出色的演講者。"
-          },
-          {
-            "sentence": "The project is behind schedule; [moreover], we are over budget.",
-            "translation_zh_TW": "這個項目落後於進度；此外，我們的預算也超出了。"
-          },
-          {
-            "sentence": "[Moreover], this approach can save money.",
-            "translation_zh_TW": "此外，這種方法可以節省開支。"
-          }
-        ],
-        "synonyms": [
-          "furthermore",
-          "in addition"
-        ]
-      }
-    ],
-    "confusion": [
-      "morover",
-      "mortuary",
-      "motor",
-      "mover"
-    ]
-  },
-  {
-    "word": "noble",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having or showing fine personal qualities or high moral principles.",
-        "meaning_zh_TW": "高尚的",
-        "wrong_meaning_zh_TW": [
-          "卑鄙的",
-          "平常的",
-          "粗魯的"
-        ],
-        "examples": [
-          {
-            "sentence": "She performed a [noble] deed by helping the less fortunate.",
-            "translation_zh_TW": "她通過幫助不幸者做了一件高尚的事情。"
-          },
-          {
-            "sentence": "The [noble] intentions behind his actions were clear.",
-            "translation_zh_TW": "他行動背後的高尚意圖很明顯。"
-          },
-          {
-            "sentence": "He was known for his [noble] character.",
-            "translation_zh_TW": "他以高尚的品格而聞名。"
-          }
-        ],
-        "synonyms": [
-          "honorable",
-          "righteous"
-        ]
-      }
-    ],
-    "confusion": [
-      "nobble",
-      "nobleman",
-      "noodle",
-      "nobly"
-    ]
-  },
-  {
-    "word": "correspond",
+    "word": "complicate",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To communicate by exchanging letters or messages.",
-        "meaning_zh_TW": "通信",
+        "meaning_en_US": "To make something more difficult or complex.",
+        "meaning_zh_TW": "使複雜化",
         "wrong_meaning_zh_TW": [
-          "對應數學方程",
-          "相對於某物",
-          "回應事件"
+          "製造淨利",
+          "簡單出行",
+          "定義範圍"
         ],
         "examples": [
           {
-            "sentence": "They [correspond] regularly to share their ideas.",
-            "translation_zh_TW": "他們定期通信以分享他們的想法。"
+            "sentence": "Don't [complicate] matters by adding too many details.",
+            "translation_zh_TW": "不要因為添加太多細節而使事情變得複雜。"
           },
           {
-            "sentence": "I have been [corresponding] with my old friend for years.",
-            "translation_zh_TW": "我已經和我的老朋友通信好多年了。"
+            "sentence": "The situation was [complicated] by unforeseen circumstances.",
+            "translation_zh_TW": "這種情況因為不可預測的情況而變得複雜。"
           },
           {
-            "sentence": "Please [correspond] if you have any questions.",
-            "translation_zh_TW": "如果您有任何問題，請回覆。"
+            "sentence": "He tends to [complicate] simple tasks.",
+            "translation_zh_TW": "他傾向於使簡單的任務變得複雜。"
           }
         ],
         "synonyms": [
-          "communicate",
-          "reply"
+          "intricate",
+          "confuse"
         ]
       }
     ],
     "confusion": [
-      "correspondence",
-      "correction",
-      "corresponding",
-      "corrupt"
+      "complicator",
+      "complacent",
+      "complete",
+      "composite"
     ]
   },
   {
-    "word": "competitive",
+    "word": "portray",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To depict someone or something in a work of art or literature.",
+        "meaning_zh_TW": "描繪",
+        "wrong_meaning_zh_TW": [
+          "強調",
+          "忽視",
+          "刪除"
+        ],
+        "examples": [
+          {
+            "sentence": "The artist chose to [portray] the landscape in vivid colors.",
+            "translation_zh_TW": "藝術家選擇用鮮豔的顏色描繪風景。"
+          },
+          {
+            "sentence": "The novel aims to [portray] the struggles of the main character.",
+            "translation_zh_TW": "這部小說旨在描繪主角的掙扎。"
+          },
+          {
+            "sentence": "They decided to [portray] historical figures in their next project.",
+            "translation_zh_TW": "他們決定在下一個項目中描繪歷史人物。"
+          }
+        ],
+        "synonyms": [
+          "depict",
+          "represent"
+        ]
+      }
+    ],
+    "confusion": [
+      "protray",
+      "portrey",
+      "portrayed",
+      "portraya"
+    ]
+  },
+  {
+    "word": "urgent",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Relating to or characterized by competition.",
-        "meaning_zh_TW": "競爭的、好勝的",
+        "meaning_en_US": "Requiring immediate attention or action.",
+        "meaning_zh_TW": "緊急的",
         "wrong_meaning_zh_TW": [
-          "協作的、合作的",
-          "安靜的、靜止的",
-          "反社會的、獨立的"
+          "不急的",
+          "緩慢的",
+          "從容的"
         ],
         "examples": [
           {
-            "sentence": "The job market is very [competitive] these days.",
-            "translation_zh_TW": "如今的就業市場非常競爭"
+            "sentence": "The doctor said my condition was [urgent].",
+            "translation_zh_TW": "醫生說我的狀況是緊急的"
           },
           {
-            "sentence": "She has a [competitive] spirit that drives her to excel.",
-            "translation_zh_TW": "她有一種讓她追求卓越的好勝精神"
+            "sentence": "Please handle this matter as [urgent].",
+            "translation_zh_TW": "請將這件事當作緊急處理"
           },
           {
-            "sentence": "[Competitive] athletes train rigorously to win.",
-            "translation_zh_TW": "競爭激烈的運動員進行嚴格的訓練以求勝利"
+            "sentence": "They sent an [urgent] request for help.",
+            "translation_zh_TW": "他們發送了一條緊急的求助請求"
           }
         ],
         "synonyms": [
-          "challenging",
-          "cutthroat"
+          "pressing",
+          "critical"
         ]
       }
     ],
     "confusion": [
-      "compliant",
-      "competence",
-      "compensate",
-      "compile"
+      "urgency",
+      "urgentist",
+      "urgently",
+      "urgents"
     ]
   },
   {
-    "word": "recreation",
+    "word": "protein",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "Activities done for enjoyment when one is not working.",
-        "meaning_zh_TW": "消遣，娛樂",
+        "meaning_en_US": "A natural substance found in many foods that is essential for the body's growth and repair.",
+        "meaning_zh_TW": "蛋白質",
         "wrong_meaning_zh_TW": [
-          "工作，職業",
-          "學術研究",
-          "財務報告"
+          "糖",
+          "脂肪",
+          "維他命"
         ],
         "examples": [
           {
-            "sentence": "They spend their weekends in [recreation] at the park.",
-            "translation_zh_TW": "他們在公園裡度過周末的消遣時光。"
+            "sentence": "Eggs are a great source of [protein].",
+            "translation_zh_TW": "雞蛋是蛋白質的極佳來源"
           },
           {
-            "sentence": "The city offers various [recreation] options for families.",
-            "translation_zh_TW": "該市為家庭提供多種消遣選擇。"
+            "sentence": "Athletes need higher levels of [protein] in their diets.",
+            "translation_zh_TW": "運動員的飲食需要更高水平的蛋白質"
           },
           {
-            "sentence": "Hiking is a popular form of [recreation] in that area.",
-            "translation_zh_TW": "健行在那個地區是一種受歡迎的消遣形式。"
+            "sentence": "She supplements her diet with [protein] shakes.",
+            "translation_zh_TW": "她用蛋白質飲品來補充飲食"
           }
         ],
         "synonyms": [
-          "entertainment",
-          "leisure"
+          "amino acids",
+          "nutrient"
         ]
       }
     ],
     "confusion": [
-      "recollect",
-      "reciprocate",
-      "recreationist",
-      "recurrent"
+      "proton",
+      "prolific",
+      "protector",
+      "protest"
     ]
   },
   {
-    "word": "blade",
+    "word": "contribution",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The flat cutting part of a tool or weapon, such as a knife or sword.",
-        "meaning_zh_TW": "刀片",
+        "meaning_en_US": "Something that you give or do in order to help achieve or provide something.",
+        "meaning_zh_TW": "貢獻",
         "wrong_meaning_zh_TW": [
-          "劍柄",
-          "鋼鐵",
-          "手把"
+          "不足",
+          "優惠",
+          "剝削"
         ],
         "examples": [
           {
-            "sentence": "He sharpened the [blade] of his knife.",
-            "translation_zh_TW": "他磨利了他的刀片"
+            "sentence": "Her contribution to the project was invaluable.",
+            "translation_zh_TW": "她對這個項目的貢獻是無價的。"
           },
           {
-            "sentence": "The [blade] of the sword gleamed in the sunlight.",
-            "translation_zh_TW": "劍的刀片在陽光下閃閃發光"
+            "sentence": "The charity relies on donations as its main contribution.",
+            "translation_zh_TW": "這個慈善機構依賴捐款作為其主要貢獻。"
           },
           {
-            "sentence": "Always handle the [blade] with care to avoid accidents.",
-            "translation_zh_TW": "總是小心處理刀片以避免事故"
+            "sentence": "Every contribution counts towards the goal.",
+            "translation_zh_TW": "每一筆貢獻都對達成目標至關重要。"
           }
         ],
         "synonyms": [
-          "edge",
-          "cutting edge"
+          "donation",
+          "input"
         ]
       }
     ],
     "confusion": [
-      "blades",
-      "bade",
-      "blase",
-      "blad"
+      "contributory",
+      "composition",
+      "contradiction",
+      "contributer"
+    ]
+  },
+  {
+    "word": "enlargement",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The process of increasing in size or scope.",
+        "meaning_zh_TW": "擴大、增大",
+        "wrong_meaning_zh_TW": [
+          "縮小、收縮",
+          "維持、保持",
+          "減少、削弱"
+        ],
+        "examples": [
+          {
+            "sentence": "The [enlargement] of the image improved its clarity.",
+            "translation_zh_TW": "圖像的增大改善了其清晰度。"
+          },
+          {
+            "sentence": "The [enlargement] of the company required more staff.",
+            "translation_zh_TW": "公司的擴大需要更多的員工。"
+          },
+          {
+            "sentence": "He noticed an [enlargement] in the size of his collection.",
+            "translation_zh_TW": "他注意到他收藏品的增大。"
+          }
+        ],
+        "synonyms": [
+          "expansion",
+          "increase"
+        ]
+      }
+    ],
+    "confusion": [
+      "enlarged",
+      "enlarges",
+      "enlarg",
+      "enlargement"
+    ]
+  },
+  {
+    "word": "durable",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Able to withstand wear, pressure, or damage; hard-wearing.",
+        "meaning_zh_TW": "耐磨損的，耐用的",
+        "wrong_meaning_zh_TW": [
+          "易碎的",
+          "短暫的",
+          "脆弱的"
+        ],
+        "examples": [
+          {
+            "sentence": "These shoes are made from [durable] materials.",
+            "translation_zh_TW": "這些鞋子用耐用的材料製成。"
+          },
+          {
+            "sentence": "The backpack is designed to be [durable] and lightweight.",
+            "translation_zh_TW": "這款背包旨在耐用且輕便。"
+          },
+          {
+            "sentence": "Investing in [durable] products saves money in the long run.",
+            "translation_zh_TW": "投資耐用的產品在長期內能省錢。"
+          }
+        ],
+        "synonyms": [
+          "sturdy",
+          "long-lasting"
+        ]
+      }
+    ],
+    "confusion": [
+      "durably",
+      "surely",
+      "durablely",
+      "curable"
     ]
   }
 ]

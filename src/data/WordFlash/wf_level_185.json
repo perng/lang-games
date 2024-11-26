@@ -1,783 +1,761 @@
 [
   {
-    "word": "occupation",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person's job or profession.",
-        "meaning_zh_TW": "職業、工作",
-        "wrong_meaning_zh_TW": [
-          "合作、分享",
-          "休閒、娛樂",
-          "定位、標示"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [occupation] requires a great deal of skill.",
-            "translation_zh_TW": "她的職業需要大量的技能。"
-          },
-          {
-            "sentence": "They discussed various [occupations] at the fair.",
-            "translation_zh_TW": "他們在博覽會上討論各種職業。"
-          },
-          {
-            "sentence": "Choosing the right [occupation] can be challenging.",
-            "translation_zh_TW": "選擇正確的職業可能會很有挑戰性。"
-          }
-        ],
-        "synonyms": [
-          "profession",
-          "job",
-          "career"
-        ]
-      }
-    ],
-    "confusion": [
-      "occupation",
-      "occupant",
-      "operation",
-      "occlusion"
-    ]
-  },
-  {
-    "word": "diagram",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A simplified drawing showing the appearance, structure, or workings of something.",
-        "meaning_zh_TW": "圖解",
-        "wrong_meaning_zh_TW": [
-          "圖片",
-          "文獻",
-          "數據"
-        ],
-        "examples": [
-          {
-            "sentence": "Please refer to the [diagram] for clarity.",
-            "translation_zh_TW": "請參考圖解以明白。"
-          },
-          {
-            "sentence": "The [diagram] illustrates the process clearly.",
-            "translation_zh_TW": "該圖解清楚地說明了這一過程。"
-          },
-          {
-            "sentence": "He drew a [diagram] to explain his point.",
-            "translation_zh_TW": "他畫了一個圖解來解釋他的觀點。"
-          }
-        ],
-        "synonyms": [
-          "chart",
-          "illustration"
-        ]
-      }
-    ],
-    "confusion": [
-      "dialogue",
-      "diagrammatic",
-      "diagonal",
-      "diagrams"
-    ]
-  },
-  {
-    "word": "illustration",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A picture or diagram that helps explain or decorate a text.",
-        "meaning_zh_TW": "插圖",
-        "wrong_meaning_zh_TW": [
-          "單調的文本",
-          "簡單的字元",
-          "平淡的圖像"
-        ],
-        "examples": [
-          {
-            "sentence": "He included an [illustration] in his report to clarify his findings.",
-            "translation_zh_TW": "他在報告中加入了一幅插圖以澄清他的發現。"
-          },
-          {
-            "sentence": "The [illustration] beautifully captured the essence of the story.",
-            "translation_zh_TW": "這幅插圖美麗地捕捉到了故事的精髓。"
-          },
-          {
-            "sentence": "An [illustration] can make difficult subjects easier to understand.",
-            "translation_zh_TW": "插圖可以使難懂的主題更易於理解。"
-          }
-        ],
-        "synonyms": [
-          "drawing",
-          "image"
-        ]
-      }
-    ],
-    "confusion": [
-      "illustrate",
-      "illumination",
-      "installation",
-      "illegitimate"
-    ]
-  },
-  {
-    "word": "timetable",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A schedule of the times at which certain events occur.",
-        "meaning_zh_TW": "時間表",
-        "wrong_meaning_zh_TW": [
-          "隨意安排",
-          "即興計畫",
-          "無序安排"
-        ],
-        "examples": [
-          {
-            "sentence": "The school's [timetable] is available online.",
-            "translation_zh_TW": "學校的時間表可以在網上找到。"
-          },
-          {
-            "sentence": "I always check the bus [timetable] to avoid waiting.",
-            "translation_zh_TW": "我總是查看公車時間表以避免等待。"
-          },
-          {
-            "sentence": "Her [timetable] was packed with meetings and appointments.",
-            "translation_zh_TW": "她的時間表排滿了會議和約會。"
-          }
-        ],
-        "synonyms": [
-          "schedule",
-          "agenda"
-        ]
-      }
-    ],
-    "confusion": [
-      "timetake",
-      "timecard",
-      "timeline",
-      "timetale"
-    ]
-  },
-  {
-    "word": "flatter",
+    "word": "scold",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To praise someone excessively, often insincerely.",
-        "meaning_zh_TW": "奉承、阿諛",
+        "meaning_en_US": "To reprimand or criticize someone angrily.",
+        "meaning_zh_TW": "斥責",
         "wrong_meaning_zh_TW": [
-          "誹謗",
-          "羞辱",
-          "抨擊"
+          "表揚",
+          "讚美",
+          "鼓勵"
         ],
         "examples": [
           {
-            "sentence": "He tried to [flatter] her to gain favor.",
-            "translation_zh_TW": "他試圖奉承她以獲得青睞。"
+            "sentence": "The teacher had to [scold] the students for their behavior.",
+            "translation_zh_TW": "老師不得不因學生的行為而斥責他們"
           },
           {
-            "sentence": "It’s not polite to [flatter] for personal gain.",
-            "translation_zh_TW": "為了個人利益而奉承是不禮貌的。"
+            "sentence": "Don’t [scold] me for making a mistake.",
+            "translation_zh_TW": "不要因我犯錯而責備我"
           },
           {
-            "sentence": "The compliments seemed like mere [flattery].",
-            "translation_zh_TW": "那些讚美聽起來只是單純的奉承。"
+            "sentence": "She [scolded] her dog for chewing on the furniture.",
+            "translation_zh_TW": "她責罵了她的狗，因為它啃咬家具"
           }
         ],
         "synonyms": [
-          "praise",
-          "compliment"
+          "rebuke",
+          "admonish"
         ]
       }
     ],
     "confusion": [
-      "flutter",
-      "falter",
-      "flatterer",
-      "flat"
+      "cold",
+      "gold",
+      "hold",
+      "told"
     ]
   },
   {
-    "word": "refer",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To direct the attention or to mention something.",
-        "meaning_zh_TW": "提到，參考",
-        "wrong_meaning_zh_TW": [
-          "詢問，請教",
-          "尋找，探索",
-          "解釋，闡述"
-        ],
-        "examples": [
-          {
-            "sentence": "Please [refer] to the user manual for instructions.",
-            "translation_zh_TW": "請參考使用手冊中的說明。"
-          },
-          {
-            "sentence": "He [referred] to several studies during his presentation.",
-            "translation_zh_TW": "他在報告中提到了幾項研究。"
-          },
-          {
-            "sentence": "You should [refer] your question to the appropriate department.",
-            "translation_zh_TW": "您應該把問題轉交給相關部門。"
-          }
-        ],
-        "synonyms": [
-          "mention",
-          "cite"
-        ]
-      }
-    ],
-    "confusion": [
-      "referred",
-      "referencing",
-      "referrer",
-      "refed"
-    ]
-  },
-  {
-    "word": "tolerant",
+    "word": "continual",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Showing willingness to allow the existence of opinions or behavior that one does not necessarily agree with.",
-        "meaning_zh_TW": "寬容的",
+        "meaning_en_US": "Occurring frequently or repeatedly over a period of time.",
+        "meaning_zh_TW": "持續的",
         "wrong_meaning_zh_TW": [
-          "不寬容的",
-          "偏執的",
-          "狹隘的"
+          "斷斷續續的",
+          "一次性的",
+          "非正規的"
         ],
         "examples": [
           {
-            "sentence": "She is very [tolerant] of different cultures.",
-            "translation_zh_TW": "她對不同文化非常寬容。"
+            "sentence": "The continual noise from the construction site was annoying.",
+            "translation_zh_TW": "施工現場的不斷噪音令人厭煩。"
           },
           {
-            "sentence": "Being [tolerant] is important in a diverse society.",
-            "translation_zh_TW": "在多元的社會中，寬容是重要的。"
+            "sentence": "She made continual adjustments to the plan.",
+            "translation_zh_TW": "她不斷地對計劃進行調整。"
           },
           {
-            "sentence": "His [tolerant] nature makes him easy to be around.",
-            "translation_zh_TW": "他的寬容性格讓他很容易相處。"
+            "sentence": "Continual meetings can lead to burnout.",
+            "translation_zh_TW": "不斷的會議會導致疲倦。"
           }
         ],
         "synonyms": [
-          "forbearing",
-          "accepting"
+          "repeated",
+          "frequent"
         ]
       }
     ],
     "confusion": [
-      "intolerant",
-      "toll",
-      "trolly",
-      "tolerated"
+      "continuality",
+      "continent",
+      "contingent",
+      "continuation"
     ]
   },
   {
-    "word": "expand",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To increase in size, range, or amount.",
-        "meaning_zh_TW": "擴展",
-        "wrong_meaning_zh_TW": [
-          "縮小",
-          "限制",
-          "堅持"
-        ],
-        "examples": [
-          {
-            "sentence": "The company plans to [expand] its operations overseas.",
-            "translation_zh_TW": "公司計劃擴展其在海外的業務。"
-          },
-          {
-            "sentence": "We need to [expand] our knowledge to succeed.",
-            "translation_zh_TW": "我們需要擴展我們的知識以獲得成功。"
-          },
-          {
-            "sentence": "The universe continues to [expand] over time.",
-            "translation_zh_TW": "宇宙隨著時間不斷擴大。"
-          }
-        ],
-        "synonyms": [
-          "enlarge",
-          "increase"
-        ]
-      }
-    ],
-    "confusion": [
-      "expandable",
-      "expansion",
-      "expansive",
-      "expands"
-    ]
-  },
-  {
-    "word": "contentment",
+    "word": "consumer",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A state of happiness and satisfaction.",
-        "meaning_zh_TW": "滿足感",
+        "meaning_en_US": "A person who purchases goods and services for personal use.",
+        "meaning_zh_TW": "消費者",
         "wrong_meaning_zh_TW": [
-          "不安感",
-          "失望",
-          "渴望"
+          "生產者",
+          "供應商",
+          "批發商"
         ],
         "examples": [
           {
-            "sentence": "He enjoyed a feeling of [contentment] after a long day.",
-            "translation_zh_TW": "經過漫長的一天後，他感受到滿足感。"
+            "sentence": "Consumers are becoming increasingly aware of their rights.",
+            "translation_zh_TW": "消費者越來越意識到他們的權利。"
           },
           {
-            "sentence": "Finding [contentment] in simple things is important.",
-            "translation_zh_TW": "在簡單的事物中找到滿足感是重要的。"
+            "sentence": "The [consumer] market is evolving rapidly with technology.",
+            "translation_zh_TW": "消費者市場正隨著技術快速發展。"
           },
           {
-            "sentence": "Her [contentment] was evident during the celebration.",
-            "translation_zh_TW": "她的滿足感在慶祝活動中顯而易見。"
+            "sentence": "Good companies listen to their [consumers].",
+            "translation_zh_TW": "好的公司聆聽他們的消費者。"
           }
         ],
         "synonyms": [
-          "satisfaction",
-          "happiness"
+          "buyer",
+          "customer"
         ]
       }
     ],
     "confusion": [
-      "content",
-      "contest",
-      "contour",
-      "contingent"
+      "consumption",
+      "consul",
+      "conserve",
+      "customer"
     ]
   },
   {
-    "word": "radar",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A system for detecting the presence, direction, distance, and speed of objects.",
-        "meaning_zh_TW": "雷達",
-        "wrong_meaning_zh_TW": [
-          "信號",
-          "頻譜",
-          "儀器"
-        ],
-        "examples": [
-          {
-            "sentence": "The airplane was detected by [radar] as it entered the airspace.",
-            "translation_zh_TW": "當飛機進入空域時，它被雷達偵測到。"
-          },
-          {
-            "sentence": "The ship used [radar] to navigate through the fog.",
-            "translation_zh_TW": "這艘船利用雷達在霧中航行。"
-          },
-          {
-            "sentence": "We need to check the [radar] to track the storm's path.",
-            "translation_zh_TW": "我們需要檢查雷達以追蹤風暴的路徑。"
-          }
-        ],
-        "synonyms": [
-          "sonar",
-          "detection system"
-        ]
-      }
-    ],
-    "confusion": [
-      "radarange",
-      "raider",
-      "radon",
-      "radics"
-    ]
-  },
-  {
-    "word": "occupy",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To take up space or time, to fill or hold a position.",
-        "meaning_zh_TW": "佔據、占用",
-        "wrong_meaning_zh_TW": [
-          "逃避、避開",
-          "破壞、損壞",
-          "分散、漂流"
-        ],
-        "examples": [
-          {
-            "sentence": "The students will [occupy] the classroom for an hour.",
-            "translation_zh_TW": "學生們將佔用教室一小時。"
-          },
-          {
-            "sentence": "The army began to [occupy] the territory.",
-            "translation_zh_TW": "軍隊開始佔據該地區。"
-          },
-          {
-            "sentence": "She works to [occupy] her time with hobbies.",
-            "translation_zh_TW": "她通過愛好來佔用自己的時間。"
-          }
-        ],
-        "synonyms": [
-          "fill",
-          "inhabit"
-        ]
-      }
-    ],
-    "confusion": [
-      "occupy",
-      "occupation",
-      "occupied",
-      "occupant"
-    ]
-  },
-  {
-    "word": "clumsy",
+    "word": "conservative",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Awkward in movement or in handling things.",
-        "meaning_zh_TW": "笨拙的",
+        "meaning_en_US": "Holding to traditional attitudes and values; cautious about change or innovation.",
+        "meaning_zh_TW": "保守的",
         "wrong_meaning_zh_TW": [
-          "靈巧的",
-          "優雅的",
-          "精緻的"
+          "激進的",
+          "開放的",
+          "冒險的"
         ],
         "examples": [
           {
-            "sentence": "His [clumsy] attempt to catch the ball only made it bounce away.",
-            "translation_zh_TW": "他笨拙的觸球嘗試只讓球彈開了。"
+            "sentence": "He has a very [conservative] approach to investing.",
+            "translation_zh_TW": "他對投資有非常保守的方式。"
           },
           {
-            "sentence": "She dropped the vase because of her [clumsy] hands.",
-            "translation_zh_TW": "她因為手笨拙而掉了花瓶。"
+            "sentence": "Her fashion sense is quite [conservative], sticking mostly to neutral colors.",
+            "translation_zh_TW": "她的時尚品味相當保守，大多偏好中性色。"
           },
           {
-            "sentence": "The [clumsy] dancer stumbled across the stage.",
-            "translation_zh_TW": "那位笨拙的舞者跌跌撞撞地走過舞台。"
+            "sentence": "The party is known for its [conservative] policies.",
+            "translation_zh_TW": "這個政黨以其保守的政策而聞名。"
           }
         ],
         "synonyms": [
-          "awkward",
-          "graceless"
+          "traditional",
+          "cautious",
+          "moderate"
         ]
       }
     ],
     "confusion": [
-      "cumbersome",
-      "clamp",
-      "cloudy",
-      "clammy"
+      "conservatism",
+      "conversive",
+      "concernative",
+      "converter"
     ]
   },
   {
-    "word": "tolerable",
+    "word": "damp",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Able to be endured or accepted.",
-        "meaning_zh_TW": "可忍受的",
+        "meaning_en_US": "Slightly wet; moist.",
+        "meaning_zh_TW": "潮濕的",
         "wrong_meaning_zh_TW": [
-          "不可忍受的",
-          "無法容忍的",
-          "難以忍受的"
+          "乾燥的",
+          "炎熱的",
+          "刺眼的"
         ],
         "examples": [
           {
-            "sentence": "The temperature was [tolerable] for spending time outside.",
-            "translation_zh_TW": "這個溫度讓人可以忍受在外面待一段時間。"
+            "sentence": "The ground was still [damp] after the rain.",
+            "translation_zh_TW": "雨後地面仍然潮濕。"
           },
           {
-            "sentence": "The noise level in the room was [tolerable], but not ideal.",
-            "translation_zh_TW": "房間裡的噪音水平是可以忍受的，但並不理想。"
+            "sentence": "She wrung out the [damp] towel.",
+            "translation_zh_TW": "她擰乾了潮濕的毛巾。"
           },
           {
-            "sentence": "They found the conditions to be [tolerable] despite the challenges.",
-            "translation_zh_TW": "儘管面臨挑戰，他們發現這些條件是可以忍受的。"
+            "sentence": "It was a chilly, [damp] day at the beach.",
+            "translation_zh_TW": "沙灘上是一個寒冷而潮濕的日子。"
           }
         ],
         "synonyms": [
-          "bearable",
-          "acceptable"
+          "moist",
+          "wet"
+        ]
+      },
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make something slightly wet.",
+        "meaning_zh_TW": "使潮濕",
+        "wrong_meaning_zh_TW": [
+          "乾燥",
+          "加熱",
+          "變硬"
+        ],
+        "examples": [
+          {
+            "sentence": "You should [damp] the paper before folding it.",
+            "translation_zh_TW": "在摺紙之前應該讓紙稍微潮濕。"
+          },
+          {
+            "sentence": "He [damped] the sponge before cleaning the table.",
+            "translation_zh_TW": "他在清潔桌子之前將海綿弄濕。"
+          },
+          {
+            "sentence": "The gardener [damp]ed the soil to help the plants grow.",
+            "translation_zh_TW": "園丁讓土壤變得潮濕，以促進植物生長。"
+          }
+        ],
+        "synonyms": [
+          "moisten",
+          "wet"
         ]
       }
     ],
     "confusion": [
-      "tolerate",
-      "tollable",
-      "tolerator",
-      "tollerable"
+      "dump",
+      "lamp",
+      "dam",
+      "dampness"
     ]
   },
   {
-    "word": "cane",
+    "word": "crack",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A long stick used to help a person walk.",
-        "meaning_zh_TW": "手杖",
+        "meaning_en_US": "A narrow break or fissure in something.",
+        "meaning_zh_TW": "裂縫",
         "wrong_meaning_zh_TW": [
-          "水管",
-          "塑料筆",
-          "柳樹"
+          "整體",
+          "圓滑",
+          "完整"
         ],
         "examples": [
           {
-            "sentence": "He walked with a [cane] after his surgery.",
-            "translation_zh_TW": "手術後他用手杖走路"
+            "sentence": "There was a small [crack] in the wall.",
+            "translation_zh_TW": "牆上有一條小裂縫。"
           },
           {
-            "sentence": "She uses a [cane] to support her balance.",
-            "translation_zh_TW": "她用手杖來支撐她的平衡"
+            "sentence": "She heard a loud [crack] when the branch broke.",
+            "translation_zh_TW": "當樹枝折斷時她聽到了巨大的裂響。"
           },
           {
-            "sentence": "The old man always carries his [cane] while walking.",
-            "translation_zh_TW": "老人走路時總是帶著手杖"
+            "sentence": "The [crack] in the glass made it weak.",
+            "translation_zh_TW": "玻璃上的裂縫使其變得脆弱。"
           }
         ],
         "synonyms": [
-          "walker",
-          "staff"
+          "fissure",
+          "fracture"
+        ]
+      },
+      {
+        "type": "動詞",
+        "meaning_en_US": "To break something either intentionally or unintentionally.",
+        "meaning_zh_TW": "打破",
+        "wrong_meaning_zh_TW": [
+          "修補",
+          "組裝",
+          "沉默"
+        ],
+        "examples": [
+          {
+            "sentence": "Don't [crack] the egg before you use it.",
+            "translation_zh_TW": "在使用之前不要打破這顆蛋。"
+          },
+          {
+            "sentence": "He tried to [crack] the code on his own.",
+            "translation_zh_TW": "他試著獨自破譯密碼。"
+          },
+          {
+            "sentence": "The thunder seemed to [crack] the sky.",
+            "translation_zh_TW": "雷聲似乎撕裂了天空。"
+          }
+        ],
+        "synonyms": [
+          "break",
+          "shatter"
         ]
       }
     ],
     "confusion": [
-      "canes",
-      "canned",
-      "canny",
-      "cone"
+      "track",
+      "crackup",
+      "cracked",
+      "cracking"
     ]
   },
   {
-    "word": "regulate",
+    "word": "transfer",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To control or maintain the rate or speed of a machine or process.",
-        "meaning_zh_TW": "調節",
+        "meaning_en_US": "To move from one place to another.",
+        "meaning_zh_TW": "轉移",
         "wrong_meaning_zh_TW": [
-          "失控",
-          "擾亂",
-          "破壞"
+          "保留",
+          "維持",
+          "保持"
         ],
         "examples": [
           {
-            "sentence": "They need to [regulate] the temperature in the room.",
-            "translation_zh_TW": "他們需要調節房間內的溫度。"
+            "sentence": "I need to [transfer] files to my new computer.",
+            "translation_zh_TW": "我需要將文件轉移到我的新電腦上。"
           },
           {
-            "sentence": "The government will [regulate] the new industry standards.",
-            "translation_zh_TW": "政府將調節新的行業標準。"
+            "sentence": "They will [transfer] the call to the manager.",
+            "translation_zh_TW": "他們會將通話轉移到經理。"
           },
           {
-            "sentence": "We must [regulate] our use of resources.",
-            "translation_zh_TW": "我們必須調節我們對資源的使用。"
+            "sentence": "You can [transfer] your tickets to a friend if you cannot attend.",
+            "translation_zh_TW": "如果你無法參加，可以將票轉移給朋友。"
           }
         ],
         "synonyms": [
-          "control",
-          "manage"
+          "move",
+          "shift"
         ]
       }
     ],
     "confusion": [
-      "regulator",
-      "regulation",
-      "relate",
-      "regular"
+      "transferr",
+      "transfar",
+      "transfered",
+      "transfur"
     ]
   },
   {
-    "word": "comment",
+    "word": "modest",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To express an opinion or reaction to something.",
-        "meaning_zh_TW": "評論",
+        "type": "形容詞",
+        "meaning_en_US": "Having or showing a moderate or humble estimate of one's merits.",
+        "meaning_zh_TW": "謙虛的",
         "wrong_meaning_zh_TW": [
-          "誇獎",
-          "忽視",
-          "決定"
+          "誇張的",
+          "自大的",
+          "尖銳的"
         ],
         "examples": [
           {
-            "sentence": "Please [comment] on the proposal during the meeting.",
-            "translation_zh_TW": "請在會議中對提案評論"
+            "sentence": "She is quite [modest] about her achievements.",
+            "translation_zh_TW": "她對自己的成就相當謙虛。"
           },
           {
-            "sentence": "He always has something to [comment] on the news.",
-            "translation_zh_TW": "他總是對新聞有一些評論"
+            "sentence": "He lives in a [modest] home despite his wealth.",
+            "translation_zh_TW": "儘管富有，他卻住在一個簡樸的家裡。"
           },
           {
-            "sentence": "I would like to [comment] about your performance.",
-            "translation_zh_TW": "我想對你的表現做出評論"
+            "sentence": "They made a [modest] request for help.",
+            "translation_zh_TW": "他們做了一個謙虛的求助要求。"
           }
         ],
         "synonyms": [
-          "remark",
-          "feedback"
+          "humble",
+          "unassuming"
         ]
       }
     ],
     "confusion": [
-      "commit",
-      "comet",
-      "commute",
-      "commander"
+      "modish",
+      "modular",
+      "model",
+      "modicum"
     ]
   },
   {
-    "word": "millionaire",
+    "word": "distinct",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A person whose wealth is equal to a million units of currency or more.",
-        "meaning_zh_TW": "百萬富翁",
+        "type": "形容詞",
+        "meaning_en_US": "Recognizably different in nature from something else.",
+        "meaning_zh_TW": "明顯不同的；獨特的",
         "wrong_meaning_zh_TW": [
-          "貧民",
-          "商人",
-          "專家"
+          "模糊的",
+          "相似的",
+          "普通的"
         ],
         "examples": [
           {
-            "sentence": "The [millionaire] donated a large sum to charity.",
-            "translation_zh_TW": "這位百萬富翁向慈善機構捐贈了巨額款項。"
+            "sentence": "There are two [distinct] species of birds in this area.",
+            "translation_zh_TW": "這個區域有兩種明顯不同的鳥類。"
           },
           {
-            "sentence": "Becoming a [millionaire] is a dream for many.",
-            "translation_zh_TW": "成為百萬富翁是許多人的夢想。"
+            "sentence": "His style of painting is quite [distinct].",
+            "translation_zh_TW": "他的繪畫風格相當獨特。"
           },
           {
-            "sentence": "The young [millionaire] invested in technology startups.",
-            "translation_zh_TW": "這位年輕的百萬富翁投資了科技初創公司。"
+            "sentence": "The flavors in this dish are [distinct].",
+            "translation_zh_TW": "這道菜中的味道十分明顯。"
           }
         ],
         "synonyms": [
-          "tycoon",
-          "billionaire"
+          "clear",
+          "unique"
         ]
       }
     ],
     "confusion": [
-      "million",
-      "millionth",
-      "military",
-      "milwaukee"
+      "distant",
+      "distinctive",
+      "dissolve",
+      "distinctly"
     ]
   },
   {
-    "word": "resistance",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The refusal to accept or comply with something.",
-        "meaning_zh_TW": "抵抗",
-        "wrong_meaning_zh_TW": [
-          "接受",
-          "順從",
-          "同意"
-        ],
-        "examples": [
-          {
-            "sentence": "There was strong [resistance] to the new policy.",
-            "translation_zh_TW": "對新政策有強烈的抵抗。"
-          },
-          {
-            "sentence": "The group organized a [resistance] against the changes.",
-            "translation_zh_TW": "該團體組織了一場抵抗變革的行動。"
-          },
-          {
-            "sentence": "His [resistance] to authority was well known.",
-            "translation_zh_TW": "他對權威的抵抗是眾所周知的。"
-          }
-        ],
-        "synonyms": [
-          "opposition",
-          "defiance"
-        ]
-      }
-    ],
-    "confusion": [
-      "resist",
-      "resistant",
-      "consistency",
-      "resistive"
-    ]
-  },
-  {
-    "word": "convey",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To communicate or express something.",
-        "meaning_zh_TW": "傳達、表達",
-        "wrong_meaning_zh_TW": [
-          "隱藏、保留",
-          "請求、需求",
-          "抓取、握住"
-        ],
-        "examples": [
-          {
-            "sentence": "She wanted to [convey] her feelings through art.",
-            "translation_zh_TW": "她想通過藝術傳達她的感受"
-          },
-          {
-            "sentence": "The message failed to [convey] its true meaning.",
-            "translation_zh_TW": "這條消息未能傳達其真正的意思"
-          },
-          {
-            "sentence": "Pictures can often [convey] emotions more effectively than words.",
-            "translation_zh_TW": "圖片往往能比文字更有效地傳達情感"
-          }
-        ],
-        "synonyms": [
-          "communicate",
-          "express"
-        ]
-      }
-    ],
-    "confusion": [
-      "convention",
-      "convince",
-      "convert",
-      "converse"
-    ]
-  },
-  {
-    "word": "psychology",
+    "word": "cliff",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The scientific study of the mind and behavior.",
-        "meaning_zh_TW": "心理學",
+        "meaning_en_US": "A steep rock face, especially at the edge of the sea or a river.",
+        "meaning_zh_TW": "懸崖",
         "wrong_meaning_zh_TW": [
-          "生理學",
-          "社會學",
-          "倫理學"
+          "平地",
+          "山谷",
+          "山丘"
         ],
         "examples": [
           {
-            "sentence": "She majored in [psychology] at the university.",
-            "translation_zh_TW": "她在大學主修心理學"
+            "sentence": "The hiker stood at the edge of the [cliff], admiring the view.",
+            "translation_zh_TW": "登山者站在懸崖邊緣，欣賞風景。"
           },
           {
-            "sentence": "Understanding [psychology] can help improve relationships.",
-            "translation_zh_TW": "了解心理學可以幫助改善人際關係"
+            "sentence": "They built a house on the [cliff] to have an ocean view.",
+            "translation_zh_TW": "他們在懸崖上建了一棟房子以俯瞰海洋。"
           },
           {
-            "sentence": "He wrote a book on the principles of [psychology].",
-            "translation_zh_TW": "他寫了一本關於心理學原則的書"
+            "sentence": "The waves crashed against the base of the [cliff], sending sprays of water into the air.",
+            "translation_zh_TW": "浪潮衝擊懸崖底部，將水花四濺。"
           }
         ],
         "synonyms": [
-          "mental science",
-          "behavioral science"
+          "precipice",
+          "bluff"
         ]
       }
     ],
     "confusion": [
-      "psychopathology",
-      "psychotics",
-      "physiology",
-      "psychometrics"
+      "clift",
+      "cleft",
+      "cliffhanger",
+      "clifford"
+    ]
+  },
+  {
+    "word": "profitable",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Yielding profit; advantageous or beneficial.",
+        "meaning_zh_TW": "有利可圖的",
+        "wrong_meaning_zh_TW": [
+          "虧本的",
+          "不划算的",
+          "無用的"
+        ],
+        "examples": [
+          {
+            "sentence": "Investing in stocks can be very [profitable].",
+            "translation_zh_TW": "投資股票可能非常有利可圖"
+          },
+          {
+            "sentence": "She runs a [profitable] business.",
+            "translation_zh_TW": "她經營著一個有利可圖的生意"
+          },
+          {
+            "sentence": "The new marketing strategy proved [profitable].",
+            "translation_zh_TW": "新的行銷策略被證明是有利可圖的"
+          }
+        ],
+        "synonyms": [
+          "lucrative",
+          "beneficial"
+        ]
+      }
+    ],
+    "confusion": [
+      "profitless",
+      "profundity",
+      "proficient",
+      "provisional"
+    ]
+  },
+  {
+    "word": "lecturer",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who gives lectures, typically as a teacher in a college or university.",
+        "meaning_zh_TW": "講師",
+        "wrong_meaning_zh_TW": [
+          "學生",
+          "校長",
+          "教科書"
+        ],
+        "examples": [
+          {
+            "sentence": "The [lecturer] explained the complex theory clearly.",
+            "translation_zh_TW": "講師清楚地解釋了這個複雜的理論。"
+          },
+          {
+            "sentence": "She invited a famous [lecturer] to the seminar.",
+            "translation_zh_TW": "她邀請了一位著名的講師來參加研討會。"
+          },
+          {
+            "sentence": "As a [lecturer], he enjoys engaging with students.",
+            "translation_zh_TW": "作為講師，他喜歡與學生互動。"
+          }
+        ],
+        "synonyms": [
+          "instructor",
+          "teacher"
+        ]
+      }
+    ],
+    "confusion": [
+      "lectern",
+      "lecture",
+      "lector",
+      "lecturing"
+    ]
+  },
+  {
+    "word": "civilian",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who is not a member of the armed forces or a police force.",
+        "meaning_zh_TW": "平民",
+        "wrong_meaning_zh_TW": [
+          "軍人",
+          "警察",
+          "官員"
+        ],
+        "examples": [
+          {
+            "sentence": "The [civilian] population was evacuated before the conflict began.",
+            "translation_zh_TW": "衝突開始前，平民人口被撤離。"
+          },
+          {
+            "sentence": "He decided to pursue a career as a [civilian] technician after serving in the army.",
+            "translation_zh_TW": "服役後，他決定成為一名平民技術員。"
+          },
+          {
+            "sentence": "During the war, many [civilians] were caught in the crossfire.",
+            "translation_zh_TW": "在戰爭中，許多平民被夾在交火中。"
+          }
+        ],
+        "synonyms": [
+          "non-military person",
+          "private citizen"
+        ]
+      }
+    ],
+    "confusion": [
+      "civilians",
+      "civil",
+      "civilize",
+      "civilly"
+    ]
+  },
+  {
+    "word": "burglar",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who illegally enters a building with the intent to commit a crime, usually theft.",
+        "meaning_zh_TW": "竊賊",
+        "wrong_meaning_zh_TW": [
+          "警察",
+          "保安",
+          "商人"
+        ],
+        "examples": [
+          {
+            "sentence": "The [burglar] was caught on camera breaking into the house.",
+            "translation_zh_TW": "該竊賊在攝影機上被拍到闖入房子。"
+          },
+          {
+            "sentence": "She installed a security system to deter the [burglar].",
+            "translation_zh_TW": "她安裝了一個安全系統來嚇阻竊賊。"
+          },
+          {
+            "sentence": "The [burglar] fled the scene after setting off the alarm.",
+            "translation_zh_TW": "該竊賊在觸發警報後逃離現場。"
+          }
+        ],
+        "synonyms": [
+          "thief",
+          "intruder"
+        ]
+      }
+    ],
+    "confusion": [
+      "burgle",
+      "bugler",
+      "burglary",
+      "burgher"
+    ]
+  },
+  {
+    "word": "carrier",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person or thing that carries or transports something.",
+        "meaning_zh_TW": "承運人",
+        "wrong_meaning_zh_TW": [
+          "乘客",
+          "接收者",
+          "寄件人"
+        ],
+        "examples": [
+          {
+            "sentence": "The postal [carrier] delivered the mail every morning.",
+            "translation_zh_TW": "郵政承運人每天早上投遞郵件"
+          },
+          {
+            "sentence": "She is a [carrier] of good news.",
+            "translation_zh_TW": "她是好消息的承載者"
+          },
+          {
+            "sentence": "The company hired a reliable [carrier] for shipments.",
+            "translation_zh_TW": "該公司聘請了一家可靠的承運人進行運輸"
+          }
+        ],
+        "synonyms": [
+          "transporter",
+          "conveyor"
+        ]
+      }
+    ],
+    "confusion": [
+      "carriers",
+      "carrie",
+      "carier",
+      "careers"
+    ]
+  },
+  {
+    "word": "celebration",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The action of marking one's pleasure at an important event or occasion by engaging in enjoyable, typically social, activities.",
+        "meaning_zh_TW": "慶祝活動",
+        "wrong_meaning_zh_TW": [
+          "悲傷",
+          "哀悼",
+          "懺悔"
+        ],
+        "examples": [
+          {
+            "sentence": "The town held a big [celebration] for the festival.",
+            "translation_zh_TW": "城鎮舉辦了一個大型的慶祝活動來慶祝節日"
+          },
+          {
+            "sentence": "Her birthday [celebration] was a wonderful surprise.",
+            "translation_zh_TW": "她的生日慶祝活動是一個精彩的驚喜"
+          },
+          {
+            "sentence": "We attended a [celebration] for the new year.",
+            "translation_zh_TW": "我們參加了新年的慶祝活動"
+          }
+        ],
+        "synonyms": [
+          "festivity",
+          "observance"
+        ]
+      }
+    ],
+    "confusion": [
+      "celebrate",
+      "celebratory",
+      "celibration",
+      "celebrite"
+    ]
+  },
+  {
+    "word": "finance",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The management of large amounts of money, especially by governments or large companies.",
+        "meaning_zh_TW": "財務管理",
+        "wrong_meaning_zh_TW": [
+          "文學作品",
+          "小型企業",
+          "藝術創作"
+        ],
+        "examples": [
+          {
+            "sentence": "He studied [finance] at the university.",
+            "translation_zh_TW": "他在大學學習財務管理"
+          },
+          {
+            "sentence": "Finance is crucial for business success.",
+            "translation_zh_TW": "財務對企業成功至關重要"
+          },
+          {
+            "sentence": "She works in [finance] for a multinational corporation.",
+            "translation_zh_TW": "她在一家跨國公司從事財務工作"
+          }
+        ],
+        "synonyms": [
+          "funding",
+          "capital"
+        ]
+      }
+    ],
+    "confusion": [
+      "fine",
+      "fancy",
+      "finnish",
+      "finalize"
+    ]
+  },
+  {
+    "word": "volunteer",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who freely offers to take part in an activity.",
+        "meaning_zh_TW": "志願者",
+        "wrong_meaning_zh_TW": [
+          "僱員",
+          "雇主",
+          "主管"
+        ],
+        "examples": [
+          {
+            "sentence": "She is a [volunteer] at the local shelter.",
+            "translation_zh_TW": "她是當地收容所的志願者"
+          },
+          {
+            "sentence": "The program relies on [volunteers] for support.",
+            "translation_zh_TW": "該計畫依靠志願者的支持"
+          },
+          {
+            "sentence": "As a [volunteer], he helps organize community events.",
+            "translation_zh_TW": "作為志願者，他幫助組織社區活動"
+          }
+        ],
+        "synonyms": [
+          "helper",
+          "donor"
+        ]
+      }
+    ],
+    "confusion": [
+      "voluntary",
+      "volume",
+      "volatile",
+      "vortex"
     ]
   }
 ]

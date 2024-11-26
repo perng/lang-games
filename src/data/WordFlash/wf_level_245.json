@@ -1,782 +1,785 @@
 [
   {
-    "word": "undertake",
+    "word": "grill",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A framework for cooking food over a fire or hot coals.",
+        "meaning_zh_TW": "燒烤架",
+        "wrong_meaning_zh_TW": [
+          "電鍋",
+          "煮食鍋",
+          "烤箱"
+        ],
+        "examples": [
+          {
+            "sentence": "We cooked burgers on the [grill] all afternoon.",
+            "translation_zh_TW": "我們整個下午都在燒烤架上煮漢堡"
+          },
+          {
+            "sentence": "Using a [grill] gives food a delicious smoky flavor.",
+            "translation_zh_TW": "使用燒烤架能使食物帶有美味的煙熏味"
+          },
+          {
+            "sentence": "Make sure the [grill] is hot before putting on the meat.",
+            "translation_zh_TW": "在放肉之前確保燒烤架是熱的"
+          }
+        ],
+        "synonyms": [
+          "barbecue",
+          "roaster"
+        ]
+      }
+    ],
+    "confusion": [
+      "grilled",
+      "grillz",
+      "grillie",
+      "grillie"
+    ]
+  },
+  {
+    "word": "cathedral",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large and important church, often the seat of a bishop.",
+        "meaning_zh_TW": "大教堂",
+        "wrong_meaning_zh_TW": [
+          "寺廟",
+          "清真寺",
+          "禪堂"
+        ],
+        "examples": [
+          {
+            "sentence": "The cathedral was built in the 13th century.",
+            "translation_zh_TW": "這座大教堂建於13世紀"
+          },
+          {
+            "sentence": "People flock to the cathedral for services every Sunday.",
+            "translation_zh_TW": "每個星期日，人們都會湧向大教堂參加禮拜"
+          },
+          {
+            "sentence": "The stained glass windows of the cathedral are breathtaking.",
+            "translation_zh_TW": "大教堂的彩色玻璃窗令人讚嘆"
+          }
+        ],
+        "synonyms": [
+          "church",
+          "cathedra"
+        ]
+      }
+    ],
+    "confusion": [
+      "cathederal",
+      "cathedra",
+      "cathetral",
+      "cathal"
+    ]
+  },
+  {
+    "word": "execution",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The carrying out or putting into effect of a plan, order, or course of action.",
+        "meaning_zh_TW": "執行、實行",
+        "wrong_meaning_zh_TW": [
+          "設計、繪製",
+          "停止、中止",
+          "評估、檢查"
+        ],
+        "examples": [
+          {
+            "sentence": "The [execution] of the plan was flawless.",
+            "translation_zh_TW": "計劃的執行毫無瑕疵。"
+          },
+          {
+            "sentence": "The court discussed the [execution] of the sentence.",
+            "translation_zh_TW": "法庭討論了判決的執行。"
+          },
+          {
+            "sentence": "Timely [execution] can determine the project's success.",
+            "translation_zh_TW": "及時的執行將決定專案的成功。"
+          }
+        ],
+        "synonyms": [
+          "implementation",
+          "administration",
+          "performance"
+        ]
+      }
+    ],
+    "confusion": [
+      "executive",
+      "executed",
+      "excretion",
+      "executioner"
+    ]
+  },
+  {
+    "word": "yield",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To commit oneself to begin a task or responsibility.",
-        "meaning_zh_TW": "承擔、進行",
+        "meaning_en_US": "To produce or provide.",
+        "meaning_zh_TW": "產生",
         "wrong_meaning_zh_TW": [
-          "放棄、拒絕",
-          "結束、終止",
-          "簡化、縮短"
+          "停止",
+          "發揮",
+          "回收"
         ],
         "examples": [
           {
-            "sentence": "They decided to [undertake] a new project.",
-            "translation_zh_TW": "他們決定進行一個新項目"
+            "sentence": "The investment will [yield] significant returns.",
+            "translation_zh_TW": "這項投資將產生可觀的回報。"
           },
           {
-            "sentence": "She will [undertake] the responsibility of managing the event.",
-            "translation_zh_TW": "她將承擔管理事件的責任"
+            "sentence": "Farmers [yield] crops every season.",
+            "translation_zh_TW": "農民每個季節都會產生作物。"
           },
           {
-            "sentence": "It is important to [undertake] necessary safety measures.",
-            "translation_zh_TW": "採取必要的安全措施是很重要的"
+            "sentence": "This process can [yield] better results.",
+            "translation_zh_TW": "這個過程可以產生更好的結果。"
           }
         ],
         "synonyms": [
-          "take on",
-          "engage in"
+          "produce",
+          "generate"
         ]
       }
     ],
     "confusion": [
-      "understate",
-      "undermine",
-      "undercover",
-      "undergo"
+      "yeld",
+      "yieled",
+      "yielded",
+      "yeild"
     ]
   },
   {
-    "word": "tribute",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An acknowledgment or expression of gratitude or respect.",
-        "meaning_zh_TW": "貢品、致敬",
-        "wrong_meaning_zh_TW": [
-          "批評、指責",
-          "責任、負擔",
-          "遺產、紀念"
-        ],
-        "examples": [
-          {
-            "sentence": "The film is a [tribute] to the legendary director.",
-            "translation_zh_TW": "這部影片是對這位傳奇導演的致敬"
-          },
-          {
-            "sentence": "They paid [tribute] to the fallen soldiers.",
-            "translation_zh_TW": "他們向陣亡士兵致敬"
-          },
-          {
-            "sentence": "The concert was a fantastic [tribute] to rock music.",
-            "translation_zh_TW": "這場音樂會是對搖滾音樂的精彩致敬"
-          }
-        ],
-        "synonyms": [
-          "homage",
-          "salute"
-        ]
-      }
-    ],
-    "confusion": [
-      "disturb",
-      "treat",
-      "contribute",
-      "attribute"
-    ]
-  },
-  {
-    "word": "mortgage",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A legal agreement in which a bank lends money at interest in exchange for taking title of the debtor’s property, with the condition that the conveyance of title becomes void upon payment of the debt.",
-        "meaning_zh_TW": "抵押貸款",
-        "wrong_meaning_zh_TW": [
-          "股權",
-          "租約",
-          "保險"
-        ],
-        "examples": [
-          {
-            "sentence": "She decided to take out a [mortgage] to buy her first home.",
-            "translation_zh_TW": "她決定申請抵押貸款來購買她的第一套房子。"
-          },
-          {
-            "sentence": "Understanding the terms of your [mortgage] is crucial.",
-            "translation_zh_TW": "了解你抵押貸款的條款是至關重要的。"
-          },
-          {
-            "sentence": "The bank has strict policies regarding [mortgage] approvals.",
-            "translation_zh_TW": "銀行對於抵押貸款的批准有嚴格的政策。"
-          }
-        ],
-        "synonyms": [
-          "loan",
-          "debt"
-        ]
-      }
-    ],
-    "confusion": [
-      "mortuary",
-      "mortification",
-      "mortice",
-      "message"
-    ]
-  },
-  {
-    "word": "rehearsal",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A practice session for a performance or event before it is presented to an audience.",
-        "meaning_zh_TW": "排練，彩排",
-        "wrong_meaning_zh_TW": [
-          "納妾",
-          "音樂會",
-          "演出"
-        ],
-        "examples": [
-          {
-            "sentence": "The cast gathered for a final [rehearsal] before the opening night.",
-            "translation_zh_TW": "演員們在首演前聚集進行最後的彩排。"
-          },
-          {
-            "sentence": "She was nervous before the [rehearsal] for her big performance.",
-            "translation_zh_TW": "在她的大型表演排練前，她感到緊張。"
-          },
-          {
-            "sentence": "They scheduled a [rehearsal] in the theater two days before the show.",
-            "translation_zh_TW": "他們在演出前兩天安排了一次劇院的彩排。"
-          }
-        ],
-        "synonyms": [
-          "practice",
-          "drill"
-        ]
-      }
-    ],
-    "confusion": [
-      "rehears",
-      "rehersal",
-      "reheasral",
-      "rehursel"
-    ]
-  },
-  {
-    "word": "destiny",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The events that will necessarily happen to a particular person or thing in the future.",
-        "meaning_zh_TW": "命運",
-        "wrong_meaning_zh_TW": [
-          "選擇",
-          "經歷",
-          "願望"
-        ],
-        "examples": [
-          {
-            "sentence": "She believed in her [destiny] from a young age.",
-            "translation_zh_TW": "她從小就相信自己的命運。"
-          },
-          {
-            "sentence": "They are trying to change their [destiny].",
-            "translation_zh_TW": "他們試著改變自己的命運。"
-          },
-          {
-            "sentence": "His [destiny] seemed preordained.",
-            "translation_zh_TW": "他的命運似乎是注定的。"
-          }
-        ],
-        "synonyms": [
-          "fate",
-          "kismet"
-        ]
-      }
-    ],
-    "confusion": [
-      "destination",
-      "dastiny",
-      "destinies",
-      "destenation"
-    ]
-  },
-  {
-    "word": "journalist",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who writes for newspapers, magazines, or news websites or prepares news to be broadcast.",
-        "meaning_zh_TW": "記者",
-        "wrong_meaning_zh_TW": [
-          "編輯",
-          "小說家",
-          "專欄作家"
-        ],
-        "examples": [
-          {
-            "sentence": "The [journalist] interviewed the politician.",
-            "translation_zh_TW": "這位記者採訪了這位政治家。"
-          },
-          {
-            "sentence": "She is a well-respected [journalist] in her field.",
-            "translation_zh_TW": "她是其領域內備受尊敬的記者。"
-          },
-          {
-            "sentence": "Many [journalists] work under tight deadlines.",
-            "translation_zh_TW": "許多記者在緊迫的截止日期下工作。"
-          }
-        ],
-        "synonyms": [
-          "reporter",
-          "news writer"
-        ]
-      }
-    ],
-    "confusion": [
-      "journalist's",
-      "journalists'",
-      "journalistic",
-      "journals"
-    ]
-  },
-  {
-    "word": "backyard",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An area of land at the back of a house.",
-        "meaning_zh_TW": "後院",
-        "wrong_meaning_zh_TW": [
-          "前院",
-          "陽台",
-          "車庫"
-        ],
-        "examples": [
-          {
-            "sentence": "The kids played in the [backyard] all afternoon.",
-            "translation_zh_TW": "孩子們整個下午都在後院玩耍。"
-          },
-          {
-            "sentence": "She planted flowers in her [backyard].",
-            "translation_zh_TW": "她在後院種了花。"
-          },
-          {
-            "sentence": "They set up a barbecue in the [backyard].",
-            "translation_zh_TW": "他們在後院搭起了燒烤架。"
-          }
-        ],
-        "synonyms": [
-          "garden",
-          "yard"
-        ]
-      }
-    ],
-    "confusion": [
-      "backwards",
-      "backing",
-      "backache",
-      "backyarder"
-    ]
-  },
-  {
-    "word": "substitute",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person or thing that takes the place or function of another.",
-        "meaning_zh_TW": "替代品",
-        "wrong_meaning_zh_TW": [
-          "原件",
-          "損失",
-          "增加"
-        ],
-        "examples": [
-          {
-            "sentence": "He was used as a [substitute] when the teacher was absent.",
-            "translation_zh_TW": "當老師缺席時，他被用作替代者。"
-          },
-          {
-            "sentence": "I opted for a [substitute] for sugar in my recipe.",
-            "translation_zh_TW": "我在食譜中選擇了糖的替代品。"
-          },
-          {
-            "sentence": "The team found a good [substitute] for their injured player.",
-            "translation_zh_TW": "球隊為受傷的球員找到了好替代者。"
-          }
-        ],
-        "synonyms": [
-          "replacement",
-          "alternative"
-        ]
-      }
-    ],
-    "confusion": [
-      "substitue",
-      "sustitute",
-      "substantiate",
-      "subsecution"
-    ]
-  },
-  {
-    "word": "component",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A part or element of a larger whole.",
-        "meaning_zh_TW": "組成部分，元件",
-        "wrong_meaning_zh_TW": [
-          "負載",
-          "附件",
-          "收集"
-        ],
-        "examples": [
-          {
-            "sentence": "Each [component] contributes to the overall performance.",
-            "translation_zh_TW": "每個組成部分都對整體性能有貢獻。"
-          },
-          {
-            "sentence": "The engine has several important [components].",
-            "translation_zh_TW": "這台引擎有幾個重要的元件。"
-          },
-          {
-            "sentence": "You need to replace the faulty [component].",
-            "translation_zh_TW": "你需要更換故障的組成部分。"
-          }
-        ],
-        "synonyms": [
-          "element",
-          "ingredient"
-        ]
-      }
-    ],
-    "confusion": [
-      "complement",
-      "composure",
-      "componential",
-      "compote"
-    ]
-  },
-  {
-    "word": "metropolitan",
+    "word": "extensive",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Relating to a large city or its surrounding communities.",
-        "meaning_zh_TW": "大都市的",
+        "meaning_en_US": "Covering or affecting a large area.",
+        "meaning_zh_TW": "廣泛的",
         "wrong_meaning_zh_TW": [
-          "鄉村的",
-          "小城鎮的",
-          "外地的"
+          "簡單的",
+          "狹窄的",
+          "有限的"
         ],
         "examples": [
           {
-            "sentence": "The [metropolitan] area is known for its diversity.",
-            "translation_zh_TW": "該大都市區因其多樣性而聞名。"
+            "sentence": "The research was based on an [extensive] study of the topic.",
+            "translation_zh_TW": "研究是基於對該主題的廣泛研究。"
           },
           {
-            "sentence": "They moved to a more [metropolitan] lifestyle.",
-            "translation_zh_TW": "他們轉向了更大都市化的生活方式。"
+            "sentence": "They have [extensive] experience in international business.",
+            "translation_zh_TW": "他們在國際商務方面有廣泛的經驗。"
           },
           {
-            "sentence": "Many [metropolitan] cities offer public transportation.",
-            "translation_zh_TW": "許多大城市提供公共交通。"
+            "sentence": "The library offers [extensive] resources for students.",
+            "translation_zh_TW": "圖書館為學生提供廣泛的資源。"
           }
         ],
         "synonyms": [
-          "urban",
-          "city-related"
+          "wide-ranging",
+          "far-reaching"
         ]
       }
     ],
     "confusion": [
-      "metropolatin",
-      "metropolotian",
-      "metropolitian",
-      "metropolan"
+      "intensive",
+      "intensive",
+      "extensiveness",
+      "extent"
     ]
   },
   {
-    "word": "skeleton",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The internal structure that supports the body of a vertebrate.",
-        "meaning_zh_TW": "骨架",
-        "wrong_meaning_zh_TW": [
-          "骸骨",
-          "傢俱",
-          "器官"
-        ],
-        "examples": [
-          {
-            "sentence": "The doctor examined the patient's [skeleton].",
-            "translation_zh_TW": "醫生檢查了病人的骨架"
-          },
-          {
-            "sentence": "A [skeleton] provides support and shape to the body.",
-            "translation_zh_TW": "骨架為身體提供支撐和形狀"
-          },
-          {
-            "sentence": "The museum displayed a [skeleton] of a dinosaur.",
-            "translation_zh_TW": "博物館展出了恐龍的骨架"
-          }
-        ],
-        "synonyms": [
-          "framework",
-          "structure"
-        ]
-      }
-    ],
-    "confusion": [
-      "skeletons",
-      "skeletone",
-      "skeleten",
-      "skeletin"
-    ]
-  },
-  {
-    "word": "exploration",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The action of traveling in or through an unfamiliar area for the purpose of discovery.",
-        "meaning_zh_TW": "探索",
-        "wrong_meaning_zh_TW": [
-          "定位",
-          "修訂",
-          "測量"
-        ],
-        "examples": [
-          {
-            "sentence": "The [exploration] of the ocean is still ongoing.",
-            "translation_zh_TW": "對海洋的探索仍在繼續。"
-          },
-          {
-            "sentence": "They launched an [exploration] mission to Mars.",
-            "translation_zh_TW": "他們啟動了一個火星探索任務。"
-          },
-          {
-            "sentence": "Her [exploration] of different cultures enriched her perspective.",
-            "translation_zh_TW": "她對不同文化的探索豐富了她的視野。"
-          }
-        ],
-        "synonyms": [
-          "investigation",
-          "discovery"
-        ]
-      }
-    ],
-    "confusion": [
-      "exploit",
-      "experience",
-      "exportation",
-      "exposition"
-    ]
-  },
-  {
-    "word": "noticeable",
+    "word": "beneficial",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Easily seen or noticed; clear or apparent.",
-        "meaning_zh_TW": "明顯的",
+        "meaning_en_US": "Producing good results or helpful effects.",
+        "meaning_zh_TW": "有益的",
         "wrong_meaning_zh_TW": [
-          "微弱的",
-          "不顯眼的",
-          "隱藏的"
+          "有害的",
+          "無效的",
+          "相對的"
         ],
         "examples": [
           {
-            "sentence": "There was a [noticeable] change in her attitude.",
-            "translation_zh_TW": "她的態度有明顯的改變。"
+            "sentence": "Regular exercise is [beneficial] for health.",
+            "translation_zh_TW": "定期運動對健康是有益的"
           },
           {
-            "sentence": "He made a [noticeable] effort to improve.",
-            "translation_zh_TW": "他在改進上做出了明顯的努力。"
+            "sentence": "The program aims to provide [beneficial] resources.",
+            "translation_zh_TW": "該計劃旨在提供有益的資源"
           },
           {
-            "sentence": "The speaker's [noticeable] passion captured the audience.",
-            "translation_zh_TW": "演講者的明顯熱情吸引了觀眾。"
+            "sentence": "These changes can have [beneficial] impacts.",
+            "translation_zh_TW": "這些變化可以產生有益的影響"
           }
         ],
         "synonyms": [
-          "evident",
-          "apparent"
+          "advantageous",
+          "helpful"
         ]
       }
     ],
     "confusion": [
-      "notable",
-      "notice",
-      "noticefully",
-      "notices"
+      "benificial",
+      "benefit",
+      "benefits",
+      "benefice"
     ]
   },
   {
-    "word": "overall",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Taking everything into account; generally.",
-        "meaning_zh_TW": "總體的、全面的",
-        "wrong_meaning_zh_TW": [
-          "細節的",
-          "局部的",
-          "偶然的"
-        ],
-        "examples": [
-          {
-            "sentence": "The project's [overall] progress has been satisfactory.",
-            "translation_zh_TW": "該項目的總體進展令人滿意。"
-          },
-          {
-            "sentence": "In [overall] terms, the results were promising.",
-            "translation_zh_TW": "在總體上，結果是有希望的。"
-          },
-          {
-            "sentence": "Her [overall] performance impressed the judges.",
-            "translation_zh_TW": "她的總體表現給評委留下了深刻的印象。"
-          }
-        ],
-        "synonyms": [
-          "general",
-          "comprehensive"
-        ]
-      }
-    ],
-    "confusion": [
-      "overalls",
-      "overhaul",
-      "overlook",
-      "overallness"
-    ]
-  },
-  {
-    "word": "mode",
+    "word": "executive",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A way or manner of doing something.",
-        "meaning_zh_TW": "模式",
+        "meaning_en_US": "A person with senior managerial responsibility in a business.",
+        "meaning_zh_TW": "高級管理人員、執行者",
         "wrong_meaning_zh_TW": [
-          "材料",
-          "工具",
-          "顏色"
+          "員工、下級",
+          "合夥人、盟友",
+          "顧問、顧客"
         ],
         "examples": [
           {
-            "sentence": "He switched the camera to portrait [mode].",
-            "translation_zh_TW": "他將相機切換到肖像模式"
+            "sentence": "The [executive] team will meet this afternoon.",
+            "translation_zh_TW": "高級管理團隊將在今天下午開會。"
           },
           {
-            "sentence": "The phone has a silent [mode] for meetings.",
-            "translation_zh_TW": "這部手機有會議靜音模式"
+            "sentence": "She has been promoted to an [executive] position.",
+            "translation_zh_TW": "她已晉升至高級管理職位。"
           },
           {
-            "sentence": "She prefers working in distraction-free [mode].",
-            "translation_zh_TW": "她更喜歡在無干擾模式下工作"
+            "sentence": "The company's [executive] decisions are crucial for success.",
+            "translation_zh_TW": "公司的高階決策對成功至關重要。"
           }
         ],
         "synonyms": [
-          "manner",
-          "method"
+          "manager",
+          "administrator",
+          "director"
         ]
       }
     ],
     "confusion": [
-      "mold",
-      "mood",
-      "model",
-      "modes"
+      "execution",
+      "exert",
+      "executable",
+      "exhaustive"
     ]
   },
   {
-    "word": "suite",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A set of rooms designated for a particular purpose, often used in hotels or residences.",
-        "meaning_zh_TW": "套房",
-        "wrong_meaning_zh_TW": [
-          "單間",
-          "辦公室",
-          "儲藏室"
-        ],
-        "examples": [
-          {
-            "sentence": "We booked a luxury [suite] for our vacation.",
-            "translation_zh_TW": "我們為假期預訂了一個豪華的套房。"
-          },
-          {
-            "sentence": "The hotel offers a spacious [suite] with ocean views.",
-            "translation_zh_TW": "這家酒店提供一個寬敞的套房，可以俯瞰海洋。"
-          },
-          {
-            "sentence": "They moved into a [suite] in the city center.",
-            "translation_zh_TW": "他們搬進了市中心的一個套房。"
-          }
-        ],
-        "synonyms": [
-          "apartment",
-          "set of rooms"
-        ]
-      }
-    ],
-    "confusion": [
-      "suit",
-      "suitcase",
-      "sweet",
-      "suitee"
-    ]
-  },
-  {
-    "word": "script",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A written text of a play, film, or broadcast.",
-        "meaning_zh_TW": "劇本",
-        "wrong_meaning_zh_TW": [
-          "圖表",
-          "筆跡",
-          "語言"
-        ],
-        "examples": [
-          {
-            "sentence": "The actor forgot his lines in the [script].",
-            "translation_zh_TW": "演員忘記了劇本中的台詞"
-          },
-          {
-            "sentence": "She read the [script] before filming began.",
-            "translation_zh_TW": "她在拍攝開始前讀了劇本"
-          },
-          {
-            "sentence": "The [script] was well written and engaging.",
-            "translation_zh_TW": "劇本寫得很好，吸引人"
-          }
-        ],
-        "synonyms": [
-          "text",
-          "manuscript"
-        ]
-      }
-    ],
-    "confusion": [
-      "scribed",
-      "scripting",
-      "scripe",
-      "skrypt"
-    ]
-  },
-  {
-    "word": "mock",
+    "word": "condemn",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To make fun of someone or something by imitating them.",
-        "meaning_zh_TW": "嘲弄",
+        "meaning_en_US": "To express a strong disapproval of something.",
+        "meaning_zh_TW": "譴責",
         "wrong_meaning_zh_TW": [
           "讚美",
-          "支持",
-          "幫助"
+          "理解",
+          "隱瞞"
         ],
         "examples": [
           {
-            "sentence": "The children began to [mock] the teacher’s voice.",
-            "translation_zh_TW": "孩子們開始嘲弄老師的聲音"
+            "sentence": "The mayor was quick to [condemn] the violence.",
+            "translation_zh_TW": "市長迅速譴責了暴力行為"
           },
           {
-            "sentence": "They would [mock] their friends playfully.",
-            "translation_zh_TW": "他們會嬉戲地嘲弄朋友"
+            "sentence": "They condemned the policy for its unfairness.",
+            "translation_zh_TW": "他們譴責這項政策的不公平"
           },
           {
-            "sentence": "It’s not nice to [mock] others.",
-            "translation_zh_TW": "嘲弄他人是不好的"
+            "sentence": "Public figures often [condemn] acts of hate.",
+            "translation_zh_TW": "公眾人物經常譴責仇恨行為"
           }
         ],
         "synonyms": [
-          "ridicule",
-          "tease"
+          "denounce",
+          "criticize"
         ]
       }
     ],
     "confusion": [
-      "muck",
-      "moc",
-      "mocked",
-      "mocks"
+      "commend",
+      "convene",
+      "continent",
+      "contend"
     ]
   },
   {
-    "word": "abnormal",
+    "word": "resort",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A place where people go for vacation or recreation, often located in a scenic area.",
+        "meaning_zh_TW": "度假勝地",
+        "wrong_meaning_zh_TW": [
+          "城市中心",
+          "娛樂場所",
+          "工作地點"
+        ],
+        "examples": [
+          {
+            "sentence": "We are planning a trip to the beach [resort] next month.",
+            "translation_zh_TW": "我們計劃下個月去海灘度假勝地。"
+          },
+          {
+            "sentence": "The mountain [resort] offers skiing in the winter.",
+            "translation_zh_TW": "這個山上度假勝地冬天提供滑雪活動。"
+          },
+          {
+            "sentence": "She loves visiting the [resort] for relaxation.",
+            "translation_zh_TW": "她喜歡去度假勝地放鬆心情。"
+          }
+        ],
+        "synonyms": [
+          "retreat",
+          "sanctuary"
+        ]
+      }
+    ],
+    "confusion": [
+      "resorts",
+      "restort",
+      "resor",
+      "reward"
+    ]
+  },
+  {
+    "word": "administrator",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person responsible for running a business, organization, etc.",
+        "meaning_zh_TW": "管理者",
+        "wrong_meaning_zh_TW": [
+          "顧客",
+          "供應商",
+          "創造者"
+        ],
+        "examples": [
+          {
+            "sentence": "The [administrator] ensured everything ran smoothly.",
+            "translation_zh_TW": "管理者確保一切運行順利。"
+          },
+          {
+            "sentence": "As an [administrator], she has many responsibilities.",
+            "translation_zh_TW": "作為管理者，她有許多責任。"
+          },
+          {
+            "sentence": "He is a skilled [administrator] in the education sector.",
+            "translation_zh_TW": "他是一位在教育界擁有技能的管理者。"
+          }
+        ],
+        "synonyms": [
+          "manager",
+          "director"
+        ]
+      }
+    ],
+    "confusion": [
+      "adjudicator",
+      "administrator",
+      "advocator",
+      "admirator"
+    ]
+  },
+  {
+    "word": "revenue",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The income generated from normal business operations and the sales of goods and services.",
+        "meaning_zh_TW": "收益",
+        "wrong_meaning_zh_TW": [
+          "支出",
+          "盈利",
+          "運營成本"
+        ],
+        "examples": [
+          {
+            "sentence": "The company reported a significant increase in [revenue].",
+            "translation_zh_TW": "該公司報告了收益的顯著增長。"
+          },
+          {
+            "sentence": "Tax policies can affect the overall [revenue] collected by the government.",
+            "translation_zh_TW": "稅收政策會影響政府所徵收的整體收益。"
+          },
+          {
+            "sentence": "Investors are interested in the company's [revenue] growth.",
+            "translation_zh_TW": "投資者對該公司的收益增長感興趣。"
+          }
+        ],
+        "synonyms": [
+          "income",
+          "profits"
+        ]
+      }
+    ],
+    "confusion": [
+      "revenant",
+      "revenue",
+      "revenue",
+      "revue"
+    ]
+  },
+  {
+    "word": "vulnerable",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Deviating from what is normal or usual, typically in a way that is undesirable.",
-        "meaning_zh_TW": "異常的",
+        "meaning_en_US": "Open to physical or emotional harm.",
+        "meaning_zh_TW": "易受傷的、脆弱的",
         "wrong_meaning_zh_TW": [
-          "正常的",
-          "平常的",
-          "常見的"
+          "堅強的",
+          "快速的",
+          "敏捷的"
         ],
         "examples": [
           {
-            "sentence": "The doctor noted some [abnormal] tests results.",
-            "translation_zh_TW": "醫生注意到一些異常的檢測結果"
+            "sentence": "The injured animal felt [vulnerable] in the open.",
+            "translation_zh_TW": "受傷的動物在外面感到脆弱。"
           },
           {
-            "sentence": "Her behavior seemed quite [abnormal] after the incident.",
-            "translation_zh_TW": "事件發生後，她的行為看起來相當異常"
+            "sentence": "Children are often [vulnerable] to bullying.",
+            "translation_zh_TW": "孩子常常容易受到霸凌。"
           },
           {
-            "sentence": "In science, [abnormal] phenomena are often investigated.",
-            "translation_zh_TW": "在科學中，異常現象經常被研究"
+            "sentence": "In a crisis, people can feel [vulnerable].",
+            "translation_zh_TW": "在危機中，人們會感到脆弱。"
           }
         ],
         "synonyms": [
-          "unusual",
-          "irregular"
+          "susceptible",
+          "defenseless"
         ]
       }
     ],
     "confusion": [
-      "abnormality",
-      "abnormals",
-      "abram",
-      "abnormalcy"
+      "invulnerable",
+      "veneration",
+      "vortex",
+      "vigilante"
     ]
   },
   {
-    "word": "derive",
+    "word": "prohibit",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To obtain something from (a specified source).",
-        "meaning_zh_TW": "衍生",
+        "meaning_en_US": "To formally forbid something by law, rule, or other authority.",
+        "meaning_zh_TW": "禁止",
         "wrong_meaning_zh_TW": [
-          "失去",
-          "放棄",
-          "採用"
+          "允許",
+          "支持",
+          "促進"
         ],
         "examples": [
           {
-            "sentence": "We can [derive] satisfaction from helping others.",
-            "translation_zh_TW": "我們可以從幫助他人中獲得滿足感"
+            "sentence": "The school plans to [prohibit] cell phone use during classes.",
+            "translation_zh_TW": "學校計劃在課堂上禁止使用手機"
           },
           {
-            "sentence": "Many English words [derive] from Latin.",
-            "translation_zh_TW": "許多英語單詞源自拉丁語"
+            "sentence": "Local authorities [prohibit] smoking in public areas.",
+            "translation_zh_TW": "當地當局禁止在公共場所吸煙"
           },
           {
-            "sentence": "The researchers aim to [derive] meaningful insights from the data.",
-            "translation_zh_TW": "研究人員的目的是從數據中獲得有意義的見解"
+            "sentence": "They cannot [prohibit] freedom of speech.",
+            "translation_zh_TW": "他們不能禁止言論自由"
           }
         ],
         "synonyms": [
-          "obtained",
-          "extract"
+          "forbid",
+          "ban",
+          "restrict"
         ]
       }
     ],
     "confusion": [
-      "derived",
-      "derivation",
-      "derivee",
-      "deriveable"
+      "prohibit",
+      "prohibition",
+      "prohibitive",
+      "prohibitly"
+    ]
+  },
+  {
+    "word": "entitle",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To give (someone) the right to do or have something.",
+        "meaning_zh_TW": "獲得權利",
+        "wrong_meaning_zh_TW": [
+          "剝奪權利",
+          "限制",
+          "禁止"
+        ],
+        "examples": [
+          {
+            "sentence": "Her promotion will [entitle] her to a higher salary.",
+            "translation_zh_TW": "她的晉升將使她有資格獲得更高的薪水"
+          },
+          {
+            "sentence": "This card will [entitle] you to special discounts.",
+            "translation_zh_TW": "這張卡將使您有資格獲得特別折扣"
+          },
+          {
+            "sentence": "The new policy [entitles] all employees to more vacation days.",
+            "translation_zh_TW": "新政策使所有員工有權享有更多的假期"
+          }
+        ],
+        "synonyms": [
+          "authorize",
+          "allow",
+          "qualify"
+        ]
+      }
+    ],
+    "confusion": [
+      "entitled",
+      "entitlements",
+      "in title",
+      "entitling"
+    ]
+  },
+  {
+    "word": "therapy",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Treatment intended to relieve or heal a disorder.",
+        "meaning_zh_TW": "治療",
+        "wrong_meaning_zh_TW": [
+          "藥物",
+          "手術",
+          "觀察"
+        ],
+        "examples": [
+          {
+            "sentence": "He is undergoing [therapy] for his anxiety.",
+            "translation_zh_TW": "他正在接受治療以緩解焦慮。"
+          },
+          {
+            "sentence": "Physical [therapy] can help with recovery after an injury.",
+            "translation_zh_TW": "物理治療可以幫助在受傷後恢復。"
+          },
+          {
+            "sentence": "Group [therapy] provides a supportive environment.",
+            "translation_zh_TW": "團體治療提供了一個支持性環境。"
+          }
+        ],
+        "synonyms": [
+          "treatment",
+          "rehabilitation"
+        ]
+      }
+    ],
+    "confusion": [
+      "therpay",
+      "theraypy",
+      "therapyy",
+      "threrapy"
+    ]
+  },
+  {
+    "word": "essence",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The intrinsic nature or indispensable quality of something.",
+        "meaning_zh_TW": "本質、精髓",
+        "wrong_meaning_zh_TW": [
+          "外表",
+          "形式",
+          "狀態"
+        ],
+        "examples": [
+          {
+            "sentence": "The essence of the argument was lost.",
+            "translation_zh_TW": "論點的本質被忽略了。"
+          },
+          {
+            "sentence": "In essence, we all want the same thing.",
+            "translation_zh_TW": "本質上，我們都想要相同的東西。"
+          },
+          {
+            "sentence": "Her essence is reflected in her artwork.",
+            "translation_zh_TW": "她的藝術作品反映了她的本質。"
+          }
+        ],
+        "synonyms": [
+          "nature",
+          "substance"
+        ]
+      }
+    ],
+    "confusion": [
+      "presence",
+      "essence's",
+      "absence",
+      "essential"
+    ]
+  },
+  {
+    "word": "compliance",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The act of conforming to a rule, standard, or law.",
+        "meaning_zh_TW": "遵守、順應",
+        "wrong_meaning_zh_TW": [
+          "抵抗、反抗",
+          "無關、無義",
+          "懷疑、質疑"
+        ],
+        "examples": [
+          {
+            "sentence": "The company is committed to [compliance] with industry regulations.",
+            "translation_zh_TW": "該公司承諾遵守行業法規。"
+          },
+          {
+            "sentence": "Regular audits ensure [compliance] with safety standards.",
+            "translation_zh_TW": "定期審計確保遵循安全標準。"
+          },
+          {
+            "sentence": "Failure to ensure [compliance] can lead to penalties.",
+            "translation_zh_TW": "未能確保遵守可能導致懲罰。"
+          }
+        ],
+        "synonyms": [
+          "adherence",
+          "conformity"
+        ]
+      }
+    ],
+    "confusion": [
+      "compliant",
+      "complaint",
+      "compliance",
+      "complied"
+    ]
+  },
+  {
+    "word": "laser",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A device that generates an intense beam of coherent monochromatic light.",
+        "meaning_zh_TW": "激光",
+        "wrong_meaning_zh_TW": [
+          "燈泡",
+          "手電筒",
+          "火焰"
+        ],
+        "examples": [
+          {
+            "sentence": "They used a [laser] to cut through the metal.",
+            "translation_zh_TW": "他們使用激光切割金屬"
+          },
+          {
+            "sentence": "The [laser] printer produces high-quality images.",
+            "translation_zh_TW": "激光印表機產生高品質圖像"
+          },
+          {
+            "sentence": "Doctors often use [lasers] for precise surgeries.",
+            "translation_zh_TW": "醫生通常使用激光進行精確手術"
+          }
+        ],
+        "synonyms": [
+          "light amplification",
+          "beams"
+        ]
+      }
+    ],
+    "confusion": [
+      "lazer",
+      "lase",
+      "lasers",
+      "laisser"
+    ]
+  },
+  {
+    "word": "patent",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A government authority or license conferring a right or privilege.",
+        "meaning_zh_TW": "專利",
+        "wrong_meaning_zh_TW": [
+          "商標",
+          "證書",
+          "公文"
+        ],
+        "examples": [
+          {
+            "sentence": "He applied for a [patent] on his invention.",
+            "translation_zh_TW": "他對他的發明申請了專利。"
+          },
+          {
+            "sentence": "The company holds a [patent] for this technology.",
+            "translation_zh_TW": "該公司擁有這項技術的專利。"
+          },
+          {
+            "sentence": "Obtaining a [patent] can be a lengthy process.",
+            "translation_zh_TW": "獲得專利可能是一個漫長的過程。"
+          }
+        ],
+        "synonyms": [
+          "license",
+          "exclusive rights"
+        ]
+      }
+    ],
+    "confusion": [
+      "patients",
+      "patenting",
+      "patience"
+    ]
+  },
+  {
+    "word": "operational",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to the operation of a business or system.",
+        "meaning_zh_TW": "操作的、運行的",
+        "wrong_meaning_zh_TW": [
+          "理論的",
+          "虛擬的",
+          "健康的"
+        ],
+        "examples": [
+          {
+            "sentence": "The systems are fully [operational] now.",
+            "translation_zh_TW": "這些系統現在完全可以運行了。"
+          },
+          {
+            "sentence": "They are working on improving [operational] efficiency.",
+            "translation_zh_TW": "他們正在努力提高運行效率。"
+          },
+          {
+            "sentence": "The [operational] protocols are being reviewed.",
+            "translation_zh_TW": "操作協議正在進行審核。"
+          }
+        ],
+        "synonyms": [
+          "functional",
+          "working"
+        ]
+      }
+    ],
+    "confusion": [
+      "operation",
+      "operationalize",
+      "operationary",
+      "oppression"
     ]
   }
 ]

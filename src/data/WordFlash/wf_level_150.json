@@ -1,841 +1,773 @@
 [
   {
-    "word": "atom",
+    "word": "pub",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The smallest unit of a chemical element.",
-        "meaning_zh_TW": "原子",
+        "meaning_en_US": "A tavern or bar, especially in Britain.",
+        "meaning_zh_TW": "酒吧",
         "wrong_meaning_zh_TW": [
-          "分子、粒子",
-          "離子、電子",
-          "細胞、機構"
-        ],
-        "examples": [
-          {
-            "sentence": "An [atom] consists of protons, neutrons, and electrons.",
-            "translation_zh_TW": "一個原子由質子、中子和電子組成"
-          },
-          {
-            "sentence": "Atoms combine to form molecules.",
-            "translation_zh_TW": "原子結合形成分子"
-          },
-          {
-            "sentence": "The study of [atom] is essential in chemistry.",
-            "translation_zh_TW": "原子的研究在化學中是必不可少的"
-          }
-        ],
-        "synonyms": [
-          "particle",
-          "element"
-        ]
-      }
-    ],
-    "confusion": [
-      "atoms",
-      "atomic",
-      "atomize",
-      "atome"
-    ]
-  },
-  {
-    "word": "junk",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Old or discarded items that are regarded as worthless.",
-        "meaning_zh_TW": "垃圾，廢物",
-        "wrong_meaning_zh_TW": [
-          "貴重物品",
-          "裝飾品",
-          "資產"
-        ],
-        "examples": [
-          {
-            "sentence": "They cleared out the garage, getting rid of all the [junk].",
-            "translation_zh_TW": "他們清理了車庫，擺脫了所有的垃圾。"
-          },
-          {
-            "sentence": "There's always [junk] lying around the house.",
-            "translation_zh_TW": "房子周圍總是有垃圾。"
-          },
-          {
-            "sentence": "He loves collecting [junk] that might be useful.",
-            "translation_zh_TW": "他喜歡收集可能有用的垃圾。"
-          }
-        ],
-        "synonyms": [
-          "trash",
-          "rubbish",
-          "debris"
-        ]
-      }
-    ],
-    "confusion": [
-      "junky",
-      "junks",
-      "junkie",
-      "junks"
-    ]
-  },
-  {
-    "word": "client",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person or organization using the services of a lawyer or other professional.",
-        "meaning_zh_TW": "客戶",
-        "wrong_meaning_zh_TW": [
-          "顧客",
-          "業主",
-          "供應商"
-        ],
-        "examples": [
-          {
-            "sentence": "The lawyer met with a [client] to discuss the case.",
-            "translation_zh_TW": "律師與客戶會面以討論案件。"
-          },
-          {
-            "sentence": "She has several regular [clients].",
-            "translation_zh_TW": "她有幾位固定客戶。"
-          },
-          {
-            "sentence": "The agency helps [clients] find suitable jobs.",
-            "translation_zh_TW": "該機構幫助客戶尋找合適的工作。"
-          }
-        ],
-        "synonyms": [
-          "customer",
-          "patron"
-        ]
-      }
-    ],
-    "confusion": [
-      "cliant",
-      "clinet",
-      "clientele",
-      "cliance"
-    ]
-  },
-  {
-    "word": "romantic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Conducive to or characterized by the expression of love.",
-        "meaning_zh_TW": "浪漫的、戀愛的",
-        "wrong_meaning_zh_TW": [
-          "現實的",
-          "平淡的",
-          "無情的"
-        ],
-        "examples": [
-          {
-            "sentence": "They had a [romantic] dinner by the candlelight.",
-            "translation_zh_TW": "他們在燭光下享用浪漫的晚餐。"
-          },
-          {
-            "sentence": "He wrote her a [romantic] poem.",
-            "translation_zh_TW": "他為她寫了一首浪漫的詩。"
-          },
-          {
-            "sentence": "The movie was full of [romantic] moments.",
-            "translation_zh_TW": "這部電影充滿了浪漫的瞬間。"
-          }
-        ],
-        "synonyms": [
-          "loving",
-          "passionate"
-        ]
-      }
-    ],
-    "confusion": [
-      "romantick",
-      "romantiq",
-      "romantical",
-      "romantice"
-    ]
-  },
-  {
-    "word": "cooker",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A device used to cook food, typically a stove or a pot.",
-        "meaning_zh_TW": "烹飪器具",
-        "wrong_meaning_zh_TW": [
-          "冷凍機",
-          "微波爐",
-          "清洗機"
-        ],
-        "examples": [
-          {
-            "sentence": "She bought a new [cooker] for the kitchen.",
-            "translation_zh_TW": "她為廚房購買了一個新的烹飪器具。"
-          },
-          {
-            "sentence": "The electric [cooker] makes cooking easier.",
-            "translation_zh_TW": "電烹飪器具使烹飪更簡單。"
-          },
-          {
-            "sentence": "He forgot to turn off the [cooker] before leaving.",
-            "translation_zh_TW": "他離開前忘記關掉烹飪器具。"
-          }
-        ],
-        "synonyms": [
-          "stove",
-          "pot"
-        ]
-      }
-    ],
-    "confusion": [
-      "booker",
-      "cooker",
-      "cookie",
-      "cooking"
-    ]
-  },
-  {
-    "word": "hum",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make a low, steady continuous sound like that of a bee; to sing with closed lips.",
-        "meaning_zh_TW": "哼唱",
-        "wrong_meaning_zh_TW": [
-          "喧鬧",
-          "呼叫",
-          "喊叫"
-        ],
-        "examples": [
-          {
-            "sentence": "He likes to [hum] his favorite tune while working.",
-            "translation_zh_TW": "他喜歡在工作時哼唱他最喜歡的旋律。"
-          },
-          {
-            "sentence": "The children began to [hum] a familiar song.",
-            "translation_zh_TW": "孩子們開始哼唱一首熟悉的歌曲。"
-          },
-          {
-            "sentence": "She could hear him [hum] from the other room.",
-            "translation_zh_TW": "她能從另一個房間聽到他的哼唱。"
-          }
-        ],
-        "synonyms": [
-          "buzz",
-          "sing",
-          "murmur"
-        ]
-      }
-    ],
-    "confusion": [
-      "humm",
-      "humor",
-      "hums",
-      "hummm"
-    ]
-  },
-  {
-    "word": "bravery",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Courageous behavior or character.",
-        "meaning_zh_TW": "勇敢的行為或性格",
-        "wrong_meaning_zh_TW": [
-          "恐懼的表現",
-          "懦弱的行為",
-          "冷漠的性格"
-        ],
-        "examples": [
-          {
-            "sentence": "His act of [bravery] saved many lives.",
-            "translation_zh_TW": "他的勇敢行為拯救了許多生命"
-          },
-          {
-            "sentence": "She was honored for her [bravery] in the face of danger.",
-            "translation_zh_TW": "她因在危險面前的勇敢而受到表彰"
-          },
-          {
-            "sentence": "Bravery is often recognized in times of crisis.",
-            "translation_zh_TW": "在危機時期，勇敢常常受到認可"
-          }
-        ],
-        "synonyms": [
-          "courage",
-          "valor"
-        ]
-      }
-    ],
-    "confusion": [
-      "bravery",
-      "bravery",
-      "bravery",
-      "bravery"
-    ]
-  },
-  {
-    "word": "resource",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A source of supply or support.",
-        "meaning_zh_TW": "供應資源",
-        "wrong_meaning_zh_TW": [
-          "減少需求",
-          "增加支出",
-          "不必要的投資"
-        ],
-        "examples": [
-          {
-            "sentence": "Education is an important [resource] for personal growth.",
-            "translation_zh_TW": "教育是個人成長的重要資源。"
-          },
-          {
-            "sentence": "Natural [resources] include water and minerals.",
-            "translation_zh_TW": "自然資源包括水和礦物。"
-          },
-          {
-            "sentence": "They used their financial [resources] wisely.",
-            "translation_zh_TW": "他們明智地使用了他們的財務資源。"
-          }
-        ],
-        "synonyms": [
-          "supplies",
-          "assets"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To provide resources for something.",
-        "meaning_zh_TW": "供應資源",
-        "wrong_meaning_zh_TW": [
-          "減少需求",
-          "增加支出",
-          "不必要的投資"
-        ],
-        "examples": [
-          {
-            "sentence": "The government should [resource] the schools adequately.",
-            "translation_zh_TW": "政府應該適當地供應學校的資源。"
-          },
-          {
-            "sentence": "He worked hard to [resource] the team’s needs.",
-            "translation_zh_TW": "他努力為團隊的需求供應資源。"
-          },
-          {
-            "sentence": "They will [resource] the project with the right tools.",
-            "translation_zh_TW": "他們將用合適的工具供應這個項目。"
-          }
-        ],
-        "synonyms": [
-          "supply",
-          "equip"
-        ]
-      }
-    ],
-    "confusion": [
-      "resourcing",
-      "resourcesful",
-      "resorcer",
-      "resourcers"
-    ]
-  },
-  {
-    "word": "awkward",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Causing difficulty; hard to do or deal with.",
-        "meaning_zh_TW": "尷尬",
-        "wrong_meaning_zh_TW": [
-          "流利",
-          "自然",
-          "簡單"
-        ],
-        "examples": [
-          {
-            "sentence": "He felt [awkward] at the party without his friends.",
-            "translation_zh_TW": "他在沒有朋友的派對上感到尷尬。"
-          },
-          {
-            "sentence": "The silence after the joke was quite [awkward].",
-            "translation_zh_TW": "笑話後的沉默相當尷尬。"
-          },
-          {
-            "sentence": "Her [awkward] movements made everyone laugh.",
-            "translation_zh_TW": "她的笨拙動作讓大家都笑了。"
-          }
-        ],
-        "synonyms": [
-          "clumsy",
-          "uncomfortable"
-        ]
-      }
-    ],
-    "confusion": [
-      "awkard",
-      "awkwardly",
-      "aqlward",
-      "awk"
-    ]
-  },
-  {
-    "word": "log",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large piece of cut or fallen tree.",
-        "meaning_zh_TW": "原木",
-        "wrong_meaning_zh_TW": [
-          "條目，記錄",
-          "麻煩，困難",
-          "長度，範圍"
-        ],
-        "examples": [
-          {
-            "sentence": "We sat on a [log] by the river.",
-            "translation_zh_TW": "我們坐在河邊的一根原木上。"
-          },
-          {
-            "sentence": "The campsite had a pile of [logs] for the fire.",
-            "translation_zh_TW": "露營地有一堆原木用來生火。"
-          },
-          {
-            "sentence": "He used the [log] to cross the stream.",
-            "translation_zh_TW": "他用原木來過溪流。"
-          }
-        ],
-        "synonyms": [
-          "timber",
-          "wood",
-          "stump"
-        ]
-      }
-    ],
-    "confusion": [
-      "fog",
-      "login",
-      "logistics",
-      "logarithm"
-    ]
-  },
-  {
-    "word": "cave",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large underground chamber, typically of natural origin.",
-        "meaning_zh_TW": "洞穴",
-        "wrong_meaning_zh_TW": [
-          "洞口",
-          "隧道",
-          "坑道"
-        ],
-        "examples": [
-          {
-            "sentence": "The explorers discovered a dark [cave].",
-            "translation_zh_TW": "探險者發現了一個黑暗的洞穴"
-          },
-          {
-            "sentence": "Bats often roost in [caves].",
-            "translation_zh_TW": "蝙蝠經常棲息在洞穴裡"
-          },
-          {
-            "sentence": "They camped near the entrance of the [cave].",
-            "translation_zh_TW": "他們在洞穴的入口附近露營"
-          }
-        ],
-        "synonyms": [
-          "grottos",
-          "hollows"
-        ]
-      }
-    ],
-    "confusion": [
-      "caveat",
-      "caved",
-      "cavalry",
-      "cave-in"
-    ]
-  },
-  {
-    "word": "autobiography",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An account of a person's life written by that person.",
-        "meaning_zh_TW": "自傳",
-        "wrong_meaning_zh_TW": [
-          "小說",
-          "傳記",
-          "詩集"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [autobiography] reveals much about her childhood.",
-            "translation_zh_TW": "她的自傳透露了很多關於她童年的事"
-          },
-          {
-            "sentence": "He spent years writing his [autobiography].",
-            "translation_zh_TW": "他花了好幾年寫他的自傳"
-          },
-          {
-            "sentence": "An [autobiography] can provide insights into a person's thoughts.",
-            "translation_zh_TW": "自傳可以提供對一個人思想的見解"
-          }
-        ],
-        "synonyms": [
-          "life story",
-          "memoir"
-        ]
-      }
-    ],
-    "confusion": [
-      "biography",
-      "auto biography",
-      "autobiographies",
-      "autobigraphy"
-    ]
-  },
-  {
-    "word": "hesitate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To pause before saying or doing something, often due to uncertainty.",
-        "meaning_zh_TW": "猶豫",
-        "wrong_meaning_zh_TW": [
-          "快速",
-          "直接",
-          "肯定"
-        ],
-        "examples": [
-          {
-            "sentence": "She did not [hesitate] to speak her mind.",
-            "translation_zh_TW": "她毫不猶豫地表達了自己的想法"
-          },
-          {
-            "sentence": "If you [hesitate], you might miss the opportunity.",
-            "translation_zh_TW": "如果你猶豫不決，你可能會錯過這個機會"
-          },
-          {
-            "sentence": "He always [hesitates] when making important decisions.",
-            "translation_zh_TW": "在做重要決定時，他總是會猶豫"
-          }
-        ],
-        "synonyms": [
-          "waver",
-          "pause"
-        ]
-      }
-    ],
-    "confusion": [
-      "hesitat",
-      "hesatate",
-      "hesitaite",
-      "hesitance"
-    ]
-  },
-  {
-    "word": "casual",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relaxed and unconcerned; not formal or serious.",
-        "meaning_zh_TW": "隨意的、輕鬆的",
-        "wrong_meaning_zh_TW": [
-          "正式的、嚴肅的",
-          "繁瑣的、拘謹的",
-          "例行的、例行公事的"
-        ],
-        "examples": [
-          {
-            "sentence": "He prefers a [casual] style of clothing.",
-            "translation_zh_TW": "他偏好隨意的穿著風格"
-          },
-          {
-            "sentence": "This meeting has a [casual] tone.",
-            "translation_zh_TW": "這次會議的氛圍很輕鬆"
-          },
-          {
-            "sentence": "A [casual] approach can be refreshing.",
-            "translation_zh_TW": "隨意的方式可以讓人耳目一新"
-          }
-        ],
-        "synonyms": [
-          "informal",
-          "relaxed"
-        ]
-      }
-    ],
-    "confusion": [
-      "casually",
-      "casualty",
-      "castle",
-      "cable"
-    ]
-  },
-  {
-    "word": "inn",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A small hotel or lodging place, typically in a rural area.",
-        "meaning_zh_TW": "小旅館",
-        "wrong_meaning_zh_TW": [
+          "咖啡館",
           "餐廳",
-          "酒吧",
-          "商店"
+          "酒瓶"
         ],
         "examples": [
           {
-            "sentence": "We stayed at a charming [inn] in the countryside.",
-            "translation_zh_TW": "我們住在鄉村裡一個迷人的小旅館。"
+            "sentence": "They met at the local [pub] for a drink.",
+            "translation_zh_TW": "他們在當地酒吧見面喝酒。"
           },
           {
-            "sentence": "The [inn] offers a beautiful view of the mountains.",
-            "translation_zh_TW": "這個小旅館提供美麗的山景。"
+            "sentence": "The [pub] was crowded on Friday night.",
+            "translation_zh_TW": "酒吧在星期五晚上很擁擠。"
           },
           {
-            "sentence": "Guests at the [inn] are treated to a complimentary breakfast.",
-            "translation_zh_TW": "小旅館的客人可享用免費早餐。"
+            "sentence": "He enjoys listening to music at the [pub].",
+            "translation_zh_TW": "他喜歡在酒吧裡聽音樂。"
           }
         ],
         "synonyms": [
-          "lodging",
-          "hostel"
+          "tavern",
+          "bar"
         ]
       }
     ],
     "confusion": [
-      "inns",
-      "in",
-      "inner",
-      "inane"
+      "pup",
+      "pubs",
+      "plug",
+      "pubic"
     ]
   },
   {
-    "word": "handy",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Convenient to handle or use.",
-        "meaning_zh_TW": "方便的",
-        "wrong_meaning_zh_TW": [
-          "不方便的",
-          "笨重的",
-          "複雜的"
-        ],
-        "examples": [
-          {
-            "sentence": "The tool is quite [handy] for small repairs.",
-            "translation_zh_TW": "這個工具對於小修理非常方便"
-          },
-          {
-            "sentence": "She always keeps a notebook [handy].",
-            "translation_zh_TW": "她總是把筆記本放在身邊"
-          },
-          {
-            "sentence": "Having a map app is very [handy] when traveling.",
-            "translation_zh_TW": "旅行時擁有地圖應用程序是非常方便的"
-          }
-        ],
-        "synonyms": [
-          "useful",
-          "accessible"
-        ]
-      }
-    ],
-    "confusion": [
-      "handie",
-      "handys",
-      "handly",
-      "hanby"
-    ]
-  },
-  {
-    "word": "oral",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to the mouth.",
-        "meaning_zh_TW": "與嘴巴有關",
-        "wrong_meaning_zh_TW": [
-          "身體的",
-          "心靈的",
-          "書面的"
-        ],
-        "examples": [
-          {
-            "sentence": "He has an [oral] exam next week.",
-            "translation_zh_TW": "他下週有一次口試。"
-          },
-          {
-            "sentence": "The doctor checked his [oral] health.",
-            "translation_zh_TW": "醫生檢查了他的口腔健康。"
-          },
-          {
-            "sentence": "She gave an [oral] presentation to the class.",
-            "translation_zh_TW": "她在班上做了一次口頭報告。"
-          }
-        ],
-        "synonyms": [
-          "verbal",
-          "spoken"
-        ]
-      }
-    ],
-    "confusion": [
-      "ovular",
-      "oralist",
-      "orally",
-      "orator"
-    ]
-  },
-  {
-    "word": "background",
+    "word": "jar",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The area or scenery behind the main object of contemplation.",
-        "meaning_zh_TW": "背景",
+        "meaning_en_US": "A cylindrical container, usually made of glass or pottery.",
+        "meaning_zh_TW": "罐子",
         "wrong_meaning_zh_TW": [
-          "前景",
-          "主題",
-          "焦點"
+          "盒子",
+          "瓶子",
+          "盤子"
         ],
         "examples": [
           {
-            "sentence": "The mountains are a beautiful [background] for the photo.",
-            "translation_zh_TW": "這些山脈是照片的美麗背景。"
+            "sentence": "She opened a [jar] of pickles.",
+            "translation_zh_TW": "她打開了一罐醃菜"
           },
           {
-            "sentence": "She has a strong academic [background].",
-            "translation_zh_TW": "她有一個堅實的學術背景。"
+            "sentence": "I bought a [jar] of honey from the market.",
+            "translation_zh_TW": "我在市場上買了一罐蜂蜜"
           },
           {
-            "sentence": "The [background] music enhanced the mood of the scene.",
-            "translation_zh_TW": "背景音樂增添了場景的氛圍。"
+            "sentence": "The cookie [jar] was empty.",
+            "translation_zh_TW": "餅干罐是空的"
           }
         ],
         "synonyms": [
-          "setting",
-          "context"
+          "container",
+          "vessel"
         ]
       }
     ],
     "confusion": [
-      "backgroup",
-      "backgrounds",
-      "foreground",
-      "backround"
+      "jars",
+      "jardiniere",
+      "jarring",
+      "jart"
     ]
   },
   {
-    "word": "trade",
+    "word": "energetic",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "The action of buying and selling goods and services.",
-        "meaning_zh_TW": "貿易",
+        "type": "形容詞",
+        "meaning_en_US": "Showing or involving great activity or vitality.",
+        "meaning_zh_TW": "精力充沛，活躍的",
         "wrong_meaning_zh_TW": [
-          "偷竊",
-          "求婚",
-          "收穫"
+          "疲倦的",
+          "無精打采的",
+          "靜止的"
         ],
         "examples": [
           {
-            "sentence": "International [trade] is crucial for economic growth.",
-            "translation_zh_TW": "國際貿易對經濟增長至關重要。"
+            "sentence": "The dog was [energetic] and loved to play fetch.",
+            "translation_zh_TW": "這隻狗精力充沛，喜歡玩接球遊戲。"
           },
           {
-            "sentence": "The city thrives on its [trade] relations.",
-            "translation_zh_TW": "這座城市依賴於其貿易關係蓬勃發展。"
+            "sentence": "She had an [energetic] personality that attracted everyone.",
+            "translation_zh_TW": "她擁有迷人的活潑個性，吸引了每個人。"
           },
           {
-            "sentence": "She works in the field of [trade] regulation.",
-            "translation_zh_TW": "她在貿易監管領域工作。"
+            "sentence": "The [energetic] music got everyone dancing.",
+            "translation_zh_TW": "那活潑的音樂讓每個人都開始跳舞。"
           }
         ],
         "synonyms": [
-          "commerce",
-          "business"
+          "lively",
+          "vigorous"
+        ]
+      }
+    ],
+    "confusion": [
+      "energy",
+      "energies",
+      "energetically",
+      "energize"
+    ]
+  },
+  {
+    "word": "lick",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To pass the tongue over something, especially in order to taste, moisten, or clean it.",
+        "meaning_zh_TW": "舔",
+        "wrong_meaning_zh_TW": [
+          "咬",
+          "抓",
+          "挤"
+        ],
+        "examples": [
+          {
+            "sentence": "The dog began to [lick] its paw.",
+            "translation_zh_TW": "狗開始舔它的爪子。"
+          },
+          {
+            "sentence": "She had to [lick] the ice cream cone carefully.",
+            "translation_zh_TW": "她必須小心地舔冰淇淋圓錐。"
+          },
+          {
+            "sentence": "He watched as the child [licked] the frosting off the cake.",
+            "translation_zh_TW": "他看著孩子舔蛋糕上的糖霜。"
+          }
+        ],
+        "synonyms": [
+          "taste",
+          "moisten"
+        ]
+      }
+    ],
+    "confusion": [
+      "licker",
+      "licks",
+      "licked",
+      "flick"
+    ]
+  },
+  {
+    "word": "transport",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The act of moving people or goods from one place to another.",
+        "meaning_zh_TW": "運輸",
+        "wrong_meaning_zh_TW": [
+          "傳輸媒介",
+          "交通工具",
+          "貨運方式"
+        ],
+        "examples": [
+          {
+            "sentence": "The city provides public [transport] for its residents.",
+            "translation_zh_TW": "這座城市為居民提供公共運輸。"
+          },
+          {
+            "sentence": "They used trucks for the [transport] of the goods.",
+            "translation_zh_TW": "他們用卡車運輸貨物。"
+          },
+          {
+            "sentence": "Air [transport] has become very popular.",
+            "translation_zh_TW": "空中運輸已變得非常受歡迎。"
+          }
+        ],
+        "synonyms": [
+          "conveyance",
+          "shipping"
+        ]
+      }
+    ],
+    "confusion": [
+      "transplant",
+      "transportation",
+      "transform",
+      "transmit"
+    ]
+  },
+  {
+    "word": "extreme",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Reaching a high or the highest degree; very severe or serious.",
+        "meaning_zh_TW": "極端的",
+        "wrong_meaning_zh_TW": [
+          "普通的",
+          "平常的",
+          "安靜的"
+        ],
+        "examples": [
+          {
+            "sentence": "The weather conditions were [extreme] during the storm.",
+            "translation_zh_TW": "暴風雨期間天氣條件非常極端"
+          },
+          {
+            "sentence": "She has an [extreme] fear of heights.",
+            "translation_zh_TW": "她有對高處的極端恐懼"
+          },
+          {
+            "sentence": "The athlete trains under [extreme] conditions.",
+            "translation_zh_TW": "這位運動員在極端條件下訓練"
+          }
+        ],
+        "synonyms": [
+          "intense",
+          "severe"
+        ]
+      }
+    ],
+    "confusion": [
+      "intreme",
+      "extrude",
+      "examine",
+      "extremity"
+    ]
+  },
+  {
+    "word": "oven",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A chamber or compartment for heating, baking, or roasting food.",
+        "meaning_zh_TW": "烤箱、爐子",
+        "wrong_meaning_zh_TW": [
+          "冰箱",
+          "微波爐",
+          "鍋子"
+        ],
+        "examples": [
+          {
+            "sentence": "Preheat the [oven] to 350 degrees before baking.",
+            "translation_zh_TW": "在烘焙之前，將烤箱預熱至350華氏度。"
+          },
+          {
+            "sentence": "She placed the tray in the [oven] to cook the meal.",
+            "translation_zh_TW": "她把托盤放入烤箱中烹飪。"
+          },
+          {
+            "sentence": "The [oven] needs cleaning after baking.",
+            "translation_zh_TW": "在烘烤之後，烤箱需要清潔。"
+          }
+        ],
+        "synonyms": [
+          "range",
+          "kiln"
+        ]
+      }
+    ],
+    "confusion": [
+      "ocean",
+      "even",
+      "ovenware",
+      "over"
+    ]
+  },
+  {
+    "word": "automatic",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Working by itself with little or no direct human control.",
+        "meaning_zh_TW": "自動的",
+        "wrong_meaning_zh_TW": [
+          "手動的",
+          "有意的",
+          "可選的"
+        ],
+        "examples": [
+          {
+            "sentence": "The doors open [automatic] at the touch of a button.",
+            "translation_zh_TW": "按一個按鈕，門就會自動打開。"
+          },
+          {
+            "sentence": "She has an [automatic] response to that question.",
+            "translation_zh_TW": "對那個問題，她有一個自動性的回答。"
+          },
+          {
+            "sentence": "The system is designed to provide [automatic] updates.",
+            "translation_zh_TW": "該系統設計為提供自動更新。"
+          }
+        ],
+        "synonyms": [
+          "self-operating",
+          "unmanned"
+        ]
+      }
+    ],
+    "confusion": [
+      "automated",
+      "automobile",
+      "autonomous",
+      "autopilot"
+    ]
+  },
+  {
+    "word": "ambition",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A strong desire to achieve something, typically requiring determination and hard work.",
+        "meaning_zh_TW": "抱負",
+        "wrong_meaning_zh_TW": [
+          "安逸",
+          "怠惰",
+          "猶豫"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [ambition] is to become a successful doctor.",
+            "translation_zh_TW": "她的抱負是成為一位成功的醫生。"
+          },
+          {
+            "sentence": "He pursued his [ambition] with great passion.",
+            "translation_zh_TW": "他以極大的熱情追求他的抱負。"
+          },
+          {
+            "sentence": "The company's [ambition] is to lead the market.",
+            "translation_zh_TW": "該公司的抱負是引領市場。"
+          }
+        ],
+        "synonyms": [
+          "aspiration",
+          "goal"
+        ]
+      }
+    ],
+    "confusion": [
+      "ambitions",
+      "ambitons",
+      "abmition",
+      "amition"
+    ]
+  },
+  {
+    "word": "wander",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To move about without a fixed course, aim, or goal.",
+        "meaning_zh_TW": "漫遊",
+        "wrong_meaning_zh_TW": [
+          "前進",
+          "追求",
+          "旅行"
+        ],
+        "examples": [
+          {
+            "sentence": "I like to [wander] through the city on weekends.",
+            "translation_zh_TW": "我喜歡在週末漫遊城市。"
+          },
+          {
+            "sentence": "He tends to [wander] off during long conversations.",
+            "translation_zh_TW": "他在長時間的談話中容易走神。"
+          },
+          {
+            "sentence": "They decided to [wander] in the woods for a while.",
+            "translation_zh_TW": "他們決定在森林裡漫遊一會。"
+          }
+        ],
+        "synonyms": [
+          "roam",
+          "meander"
+        ]
+      }
+    ],
+    "confusion": [
+      "wanderer",
+      "wanderlust",
+      "wender",
+      "wandering"
+    ]
+  },
+  {
+    "word": "assure",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To tell someone something positively to dispel any doubts.",
+        "meaning_zh_TW": "保證、向…確信",
+        "wrong_meaning_zh_TW": [
+          "懷疑、質疑",
+          "放棄、拋棄",
+          "懲罰、制裁"
+        ],
+        "examples": [
+          {
+            "sentence": "I [assure] you that everything will be fine.",
+            "translation_zh_TW": "我向你保證一切都會好"
+          },
+          {
+            "sentence": "The manager [assured] the staff of their roles.",
+            "translation_zh_TW": "經理向員工們保證了他們的角色"
+          },
+          {
+            "sentence": "Please [assure] him of my support.",
+            "translation_zh_TW": "請向他保證我會支持他"
+          }
+        ],
+        "synonyms": [
+          "guarantee",
+          "ensure"
+        ]
+      }
+    ],
+    "confusion": [
+      "ensure",
+      "ensure",
+      "assured",
+      "assuredly"
+    ]
+  },
+  {
+    "word": "paradise",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A place or state of perfect happiness; an ideal or idyllic place.",
+        "meaning_zh_TW": "樂園",
+        "wrong_meaning_zh_TW": [
+          "地獄",
+          "煩惱",
+          "沮喪"
+        ],
+        "examples": [
+          {
+            "sentence": "The island is considered a [paradise] for tourists.",
+            "translation_zh_TW": "這個島嶼被認為是遊客的天堂。"
+          },
+          {
+            "sentence": "She felt like she was in [paradise] when she visited the garden.",
+            "translation_zh_TW": "當她參觀花園時，感覺像是在樂園中。"
+          },
+          {
+            "sentence": "For many, reading is a [paradise] of escape.",
+            "translation_zh_TW": "對許多人來說，閱讀是一種逃避的樂園。"
+          }
+        ],
+        "synonyms": [
+          "heaven",
+          "utopia"
+        ]
+      }
+    ],
+    "confusion": [
+      "parade",
+      "parades",
+      "paradiso",
+      "paradys"
+    ]
+  },
+  {
+    "word": "superior",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Higher in rank, status, or quality.",
+        "meaning_zh_TW": "更高的、優越的",
+        "wrong_meaning_zh_TW": [
+          "劣勢的",
+          "普通的",
+          "低下的"
+        ],
+        "examples": [
+          {
+            "sentence": "Her performance was [superior] to the others.",
+            "translation_zh_TW": "她的表現比其他人更優越。"
+          },
+          {
+            "sentence": "The company's [superior] products are well-known.",
+            "translation_zh_TW": "該公司的優質產品廣為人知。"
+          },
+          {
+            "sentence": "He has a superior understanding of the subject.",
+            "translation_zh_TW": "他對這個主題有更深刻的理解。"
+          }
+        ],
+        "synonyms": [
+          "better",
+          "higher",
+          "greater"
         ]
       },
       {
-        "type": "動詞",
-        "meaning_en_US": "To engage in the exchange of goods and services.",
-        "meaning_zh_TW": "交易",
+        "type": "名詞",
+        "meaning_en_US": "A person of higher rank or status.",
+        "meaning_zh_TW": "上級",
         "wrong_meaning_zh_TW": [
-          "收費",
-          "價值",
-          "修理"
+          "同事",
+          "助手",
+          "朋友"
         ],
         "examples": [
           {
-            "sentence": "He decided to [trade] his old car for a new one.",
-            "translation_zh_TW": "他決定把舊車交易成新車。"
+            "sentence": "I reported directly to my [superior] on the project.",
+            "translation_zh_TW": "我在專案中直接向上級報告。"
           },
           {
-            "sentence": "They [trade] goods with neighboring countries.",
-            "translation_zh_TW": "他們與鄰國交易商品。"
+            "sentence": "Her [superior] praised her hard work.",
+            "translation_zh_TW": "她的上級讚揚了她的努力工作。"
           },
           {
-            "sentence": "We need to [trade] ideas to improve our project.",
-            "translation_zh_TW": "我們需要交換想法來改善我們的項目。"
+            "sentence": "You should consult your [superior] before making decisions.",
+            "translation_zh_TW": "在做決定之前，你應該諮詢你的上級。"
           }
         ],
         "synonyms": [
-          "exchange",
-          "barter"
+          "boss",
+          "chief",
+          "manager"
         ]
       }
     ],
     "confusion": [
-      "traded",
-      "trailer",
-      "tradeoff",
-      "tradesman"
+      "superb",
+      "superfluous",
+      "supernova",
+      "superbowl"
     ]
   },
   {
-    "word": "melt",
+    "word": "valley",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To make or become liquefied by heat.",
-        "meaning_zh_TW": "融化",
+        "type": "名詞",
+        "meaning_en_US": "A low area of land between hills or mountains, typically with a river running through it.",
+        "meaning_zh_TW": "山谷",
         "wrong_meaning_zh_TW": [
-          "凍結",
-          "攪拌",
-          "煮熟"
+          "高地",
+          "海洋",
+          "沙漠"
         ],
         "examples": [
           {
-            "sentence": "The ice will [melt] in the sun.",
-            "translation_zh_TW": "冰會在陽光下融化。"
+            "sentence": "The river flows through the [valley].",
+            "translation_zh_TW": "河流流經這個山谷。"
           },
           {
-            "sentence": "Please [melt] the chocolate for the cake.",
-            "translation_zh_TW": "請將巧克力融化以便做蛋糕。"
+            "sentence": "The valley is surrounded by tall mountains.",
+            "translation_zh_TW": "這個山谷四周環繞著高山。"
           },
           {
-            "sentence": "She watched the butter [melt] in the pan.",
-            "translation_zh_TW": "她看著黃油在鍋中融化。"
+            "sentence": "We hiked down into the [valley] to explore.",
+            "translation_zh_TW": "我們爬下山谷去探險。"
           }
         ],
         "synonyms": [
-          "liquefy",
-          "dissolve"
+          "glen",
+          "dale"
         ]
       }
     ],
     "confusion": [
-      "melted",
-      "meltan",
-      "melted",
-      "melting"
+      "vally",
+      "vallet",
+      "vallye",
+      "valli"
+    ]
+  },
+  {
+    "word": "acquire",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To gain possession of something, typically through effort.",
+        "meaning_zh_TW": "獲得",
+        "wrong_meaning_zh_TW": [
+          "失去",
+          "遺失",
+          "拒絕"
+        ],
+        "examples": [
+          {
+            "sentence": "He plans to [acquire] new skills this summer.",
+            "translation_zh_TW": "他計畫在這個夏天獲得新技能。"
+          },
+          {
+            "sentence": "They hope to [acquire] enough funds for the project.",
+            "translation_zh_TW": "他們希望為該項目獲得足夠的資金。"
+          },
+          {
+            "sentence": "To [acquire] knowledge, one must study regularly.",
+            "translation_zh_TW": "為了獲得知識，必須定期學習。"
+          }
+        ],
+        "synonyms": [
+          "obtain",
+          "gain"
+        ]
+      }
+    ],
+    "confusion": [
+      "acquiree",
+      "acquaire",
+      "aquire",
+      "acquir"
+    ]
+  },
+  {
+    "word": "toast",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Sliced bread that has been browned in a toaster.",
+        "meaning_zh_TW": "吐司",
+        "wrong_meaning_zh_TW": [
+          "冰淇淋",
+          "餅乾",
+          "糕點"
+        ],
+        "examples": [
+          {
+            "sentence": "I like my [toast] with butter and jam.",
+            "translation_zh_TW": "我喜歡我的吐司抹上奶油和果醬"
+          },
+          {
+            "sentence": "The breakfast included eggs and [toast].",
+            "translation_zh_TW": "早餐包括雞蛋和吐司"
+          },
+          {
+            "sentence": "She served [toast] with the salad.",
+            "translation_zh_TW": "她把吐司和沙拉一起上"
+          }
+        ],
+        "synonyms": [
+          "bread",
+          "toasted bread"
+        ]
+      }
+    ],
+    "confusion": [
+      "toaste",
+      "toasts",
+      "toest",
+      "tost"
+    ]
+  },
+  {
+    "word": "gallon",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A unit of volume equal to eight pints, mainly used to measure liquids.",
+        "meaning_zh_TW": "加侖",
+        "wrong_meaning_zh_TW": [
+          "克",
+          "磅",
+          "升"
+        ],
+        "examples": [
+          {
+            "sentence": "The car's tank holds fifteen [gallons].",
+            "translation_zh_TW": "這輛車的油箱可以容納十五加侖"
+          },
+          {
+            "sentence": "How many [gallons] are in this barrel?",
+            "translation_zh_TW": "這個桶裡有多少加侖？"
+          },
+          {
+            "sentence": "We bought a [gallon] of milk.",
+            "translation_zh_TW": "我們買了一加侖的牛奶"
+          }
+        ],
+        "synonyms": [
+          "liquid measure",
+          "volume unit"
+        ]
+      }
+    ],
+    "confusion": [
+      "gallop",
+      "gallant",
+      "galley",
+      "galon"
+    ]
+  },
+  {
+    "word": "outer",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Located on the outside or external part, or further away from the center.",
+        "meaning_zh_TW": "外部的、外側的",
+        "wrong_meaning_zh_TW": [
+          "內部的",
+          "中間的",
+          "底部的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [outer] layer of the cake is decorated with icing.",
+            "translation_zh_TW": "蛋糕的外層用糖霜裝飾。"
+          },
+          {
+            "sentence": "The [outer] walls of the building are painted white.",
+            "translation_zh_TW": "該建築的外牆是白色的。"
+          },
+          {
+            "sentence": "We walked along the [outer] perimeter of the park.",
+            "translation_zh_TW": "我們沿著公園的外圍散步。"
+          }
+        ],
+        "synonyms": [
+          "external",
+          "outlying"
+        ]
+      }
+    ],
+    "confusion": [
+      "utter",
+      "oiler",
+      "owler",
+      "outermost"
+    ]
+  },
+  {
+    "word": "upstairs",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "To or on a higher floor of a building.",
+        "meaning_zh_TW": "樓上",
+        "wrong_meaning_zh_TW": [
+          "樓下的",
+          "隔壁的",
+          "屋外的"
+        ],
+        "examples": [
+          {
+            "sentence": "She went [upstairs] to check on the kids.",
+            "translation_zh_TW": "她上樓去查看孩子們"
+          },
+          {
+            "sentence": "The bedroom is [upstairs].",
+            "translation_zh_TW": "臥室在樓上"
+          },
+          {
+            "sentence": "He heard noises [upstairs].",
+            "translation_zh_TW": "他聽到了樓上的聲音"
+          }
+        ],
+        "synonyms": [
+          "above",
+          "higher up"
+        ]
+      }
+    ],
+    "confusion": [
+      "upstares",
+      "upstair",
+      "upstrairs",
+      "upstaris"
     ]
   }
 ]

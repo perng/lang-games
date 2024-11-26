@@ -1,5 +1,462 @@
 [
   {
+    "word": "inside",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "Within the confines of something.",
+        "meaning_zh_TW": "在...裡面",
+        "wrong_meaning_zh_TW": [
+          "在外面",
+          "在前面",
+          "在上面"
+        ],
+        "examples": [
+          {
+            "sentence": "The cat is sitting [inside] the box.",
+            "translation_zh_TW": "貓坐在箱子裡面。"
+          },
+          {
+            "sentence": "[Inside] the building, it was quiet.",
+            "translation_zh_TW": "在大樓裡面，裡面很安靜。"
+          },
+          {
+            "sentence": "She found the keys [inside] her bag.",
+            "translation_zh_TW": "她在包包裡面找到了鑰匙。"
+          }
+        ],
+        "synonyms": [
+          "within",
+          "inward"
+        ]
+      }
+    ],
+    "confusion": [
+      "insider",
+      "inset",
+      "in sides",
+      "in sight"
+    ]
+  },
+  {
+    "word": "knee",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The joint between the thigh and the lower leg in humans.",
+        "meaning_zh_TW": "膝蓋",
+        "wrong_meaning_zh_TW": [
+          "踝關節",
+          "手腕",
+          "肩膀"
+        ],
+        "examples": [
+          {
+            "sentence": "She hurt her [knee] while playing soccer.",
+            "translation_zh_TW": "她在踢足球時傷到了膝蓋。"
+          },
+          {
+            "sentence": "He bent down on one [knee] to tie his shoe.",
+            "translation_zh_TW": "他單膝跪下綁鞋帶。"
+          },
+          {
+            "sentence": "The doctor examined her injured [knee].",
+            "translation_zh_TW": "醫生檢查了她受傷的膝蓋。"
+          }
+        ],
+        "synonyms": [
+          "joint",
+          "articulation"
+        ]
+      }
+    ],
+    "confusion": [
+      "kneeing",
+      "kneeled",
+      "keen",
+      "knee-cap"
+    ]
+  },
+  {
+    "word": "root",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The part of a plant that attaches it to the ground and absorbs water and nutrients.",
+        "meaning_zh_TW": "根",
+        "wrong_meaning_zh_TW": [
+          "幹",
+          "葉子",
+          "樹枝"
+        ],
+        "examples": [
+          {
+            "sentence": "The [root] of the tree is underground.",
+            "translation_zh_TW": "樹的根在地下。"
+          },
+          {
+            "sentence": "You can see the [roots] of the plant.",
+            "translation_zh_TW": "你可以看到這株植物的根。"
+          },
+          {
+            "sentence": "The gardener dug up the [roots] to replant them.",
+            "translation_zh_TW": "園丁挖開根部以重新種植它們。"
+          }
+        ],
+        "synonyms": [
+          "base",
+          "foundation"
+        ]
+      }
+    ],
+    "confusion": [
+      "route",
+      "rout",
+      "rooted",
+      "roote"
+    ]
+  },
+  {
+    "word": "toe",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Any of the five digits at the end of the human foot.",
+        "meaning_zh_TW": "腳趾",
+        "wrong_meaning_zh_TW": [
+          "手指",
+          "膝蓋",
+          "腳踝"
+        ],
+        "examples": [
+          {
+            "sentence": "He stubbed his [toe] on the furniture.",
+            "translation_zh_TW": "他在家具上撞到了腳趾。"
+          },
+          {
+            "sentence": "She painted her [toes] a bright color.",
+            "translation_zh_TW": "她把腳趾漆成了亮色。"
+          },
+          {
+            "sentence": "Wearing tight shoes can hurt your [toes].",
+            "translation_zh_TW": "穿緊鞋會傷到你的腳趾。"
+          }
+        ],
+        "synonyms": [
+          "digit",
+          "appendage"
+        ]
+      }
+    ],
+    "confusion": [
+      "toe",
+      "toes",
+      "toezz",
+      "toeey"
+    ]
+  },
+  {
+    "word": "popular",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Liked or admired by many people.",
+        "meaning_zh_TW": "受歡迎的",
+        "wrong_meaning_zh_TW": [
+          "普及的",
+          "流行音樂",
+          "公眾演講"
+        ],
+        "examples": [
+          {
+            "sentence": "This movie is very [popular] among teenagers.",
+            "translation_zh_TW": "這部電影在青少年中非常受歡迎。"
+          },
+          {
+            "sentence": "His ideas are [popular] on social media.",
+            "translation_zh_TW": "他的想法在社交媒體上非常受歡迎。"
+          },
+          {
+            "sentence": "She is [popular] in her school for her achievements.",
+            "translation_zh_TW": "她因為成就而在學校中很受歡迎。"
+          }
+        ],
+        "synonyms": [
+          "well-liked",
+          "fashionable"
+        ]
+      }
+    ],
+    "confusion": [
+      "poplar",
+      "popularity",
+      "publication",
+      "populate"
+    ]
+  },
+  {
+    "word": "tiger",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large cat species native to Asia, known for its distinctive orange coat with black stripes.",
+        "meaning_zh_TW": "老虎",
+        "wrong_meaning_zh_TW": [
+          "松鼠",
+          "豹",
+          "獅子"
+        ],
+        "examples": [
+          {
+            "sentence": "The [tiger] is an apex predator.",
+            "translation_zh_TW": "老虎是一種頂級捕食者。"
+          },
+          {
+            "sentence": "We visited the sanctuary to see a [tiger].",
+            "translation_zh_TW": "我們參觀了庇護所，看到了老虎。"
+          },
+          {
+            "sentence": "The [tiger] is a symbol of strength and courage.",
+            "translation_zh_TW": "老虎是力量和勇氣的象徵。"
+          }
+        ],
+        "synonyms": [
+          "feline",
+          "big cat"
+        ]
+      }
+    ],
+    "confusion": [
+      "tigger",
+      "tigeress",
+      "tigress",
+      "tyger"
+    ]
+  },
+  {
+    "word": "fill",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make something full by putting something into it.",
+        "meaning_zh_TW": "填滿",
+        "wrong_meaning_zh_TW": [
+          "清空",
+          "搶奪",
+          "計劃"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [fill] the cup with water.",
+            "translation_zh_TW": "請把杯子填滿水。"
+          },
+          {
+            "sentence": "She decided to [fill] the form out online.",
+            "translation_zh_TW": "她決定在線填寫表格。"
+          },
+          {
+            "sentence": "He needs to [fill] the gas tank before the trip.",
+            "translation_zh_TW": "他需要在旅行前加油。"
+          }
+        ],
+        "synonyms": [
+          "stuff",
+          "load"
+        ]
+      }
+    ],
+    "confusion": [
+      "fillter",
+      "fail",
+      "fil",
+      "fillet"
+    ]
+  },
+  {
+    "word": "gray",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "A color that is a blend of black and white.",
+        "meaning_zh_TW": "灰色",
+        "wrong_meaning_zh_TW": [
+          "深藍",
+          "黃色",
+          "紅色"
+        ],
+        "examples": [
+          {
+            "sentence": "The sky was overcast, turning a dull [gray].",
+            "translation_zh_TW": "天空陰沉，變成了暗淡的灰色。"
+          },
+          {
+            "sentence": "She wore a beautiful dress that was a shade of [gray].",
+            "translation_zh_TW": "她穿著一件美麗的灰色衣裙。"
+          },
+          {
+            "sentence": "His hair started to turn [gray] as he aged.",
+            "translation_zh_TW": "隨著年齡的增長，他的頭髮開始變灰。"
+          }
+        ],
+        "synonyms": [
+          "ash",
+          "slate"
+        ]
+      }
+    ],
+    "confusion": [
+      "grey",
+      "play",
+      "tray",
+      "ray"
+    ]
+  },
+  {
+    "word": "chocolate",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A sweet, usually brown food made from roasted and ground cacao seeds.",
+        "meaning_zh_TW": "巧克力",
+        "wrong_meaning_zh_TW": [
+          "糖果",
+          "冰淇淋",
+          "牛奶"
+        ],
+        "examples": [
+          {
+            "sentence": "I love to eat [chocolate] when I feel down.",
+            "translation_zh_TW": "我喜歡在心情不好時吃巧克力。"
+          },
+          {
+            "sentence": "She makes delicious [chocolate] cakes.",
+            "translation_zh_TW": "她做的巧克力蛋糕非常好吃。"
+          },
+          {
+            "sentence": "He prefers dark [chocolate] over milk [chocolate].",
+            "translation_zh_TW": "他喜歡黑巧克力而不是牛奶巧克力。"
+          }
+        ],
+        "synonyms": [
+          "cacao",
+          "sweet treat"
+        ]
+      }
+    ],
+    "confusion": [
+      "chocolat",
+      "choclate",
+      "chocolates",
+      "choclate"
+    ]
+  },
+  {
+    "word": "type",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A category of people or things having common characteristics.",
+        "meaning_zh_TW": "類型",
+        "wrong_meaning_zh_TW": [
+          "物品",
+          "日誌",
+          "名冊"
+        ],
+        "examples": [
+          {
+            "sentence": "What type of music do you prefer?",
+            "translation_zh_TW": "你喜歡什麼類型的音樂？"
+          },
+          {
+            "sentence": "He is not the type to give up easily.",
+            "translation_zh_TW": "他不是那種容易放棄的人"
+          },
+          {
+            "sentence": "There are many different types of fruit.",
+            "translation_zh_TW": "有許多不同類型的水果"
+          }
+        ],
+        "synonyms": [
+          "kind",
+          "sort"
+        ]
+      }
+    ],
+    "confusion": [
+      "typo",
+      "tip",
+      "tape",
+      "typewriter"
+    ]
+  },
+  {
+    "word": "music",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Vocal or instrumental sounds combined to produce harmony.",
+        "meaning_zh_TW": "音樂",
+        "wrong_meaning_zh_TW": [
+          "噪音",
+          "聲響",
+          "歌曲"
+        ],
+        "examples": [
+          {
+            "sentence": "She loves classical [music].",
+            "translation_zh_TW": "她喜歡古典音樂"
+          },
+          {
+            "sentence": "They played [music] at the party.",
+            "translation_zh_TW": "他們在派對上播放了音樂"
+          },
+          {
+            "sentence": "He is learning to create [music].",
+            "translation_zh_TW": "他正在學習創作音樂"
+          }
+        ],
+        "synonyms": [
+          "melody",
+          "harmony"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "The art of sound in time expressed through tones and silence.",
+        "meaning_zh_TW": "音樂藝術",
+        "wrong_meaning_zh_TW": [
+          "靜音",
+          "無聲",
+          "噪聲"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [music] captivates many listeners.",
+            "translation_zh_TW": "她的音樂吸引了許多聽眾"
+          },
+          {
+            "sentence": "The [music] industry is very competitive.",
+            "translation_zh_TW": "音樂產業競爭非常激烈"
+          },
+          {
+            "sentence": "He plays [music] to relax.",
+            "translation_zh_TW": "他播放音樂來放鬆"
+          }
+        ],
+        "synonyms": [
+          "tune",
+          "song"
+        ]
+      }
+    ],
+    "confusion": [
+      "musics",
+      "muscle",
+      "musky",
+      "muse"
+    ]
+  },
+  {
     "word": "believe",
     "meanings": [
       {
@@ -287,608 +744,6 @@
       "interrupt",
       "interval",
       "internal"
-    ]
-  },
-  {
-    "word": "package",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A bundle of something, usually for shipping or delivery.",
-        "meaning_zh_TW": "包裹",
-        "wrong_meaning_zh_TW": [
-          "行李",
-          "資料",
-          "貨物"
-        ],
-        "examples": [
-          {
-            "sentence": "I received a [package] in the mail today.",
-            "translation_zh_TW": "我今天收到了郵件中的包裹。"
-          },
-          {
-            "sentence": "The [package] was marked fragile.",
-            "translation_zh_TW": "該包裹被標記為易碎。"
-          },
-          {
-            "sentence": "She opened the [package] with excitement.",
-            "translation_zh_TW": "她興奮地打開了包裹。"
-          }
-        ],
-        "synonyms": [
-          "parcel",
-          "bundle"
-        ]
-      }
-    ],
-    "confusion": [
-      "packaged",
-      "packet",
-      "pack",
-      "packagee"
-    ]
-  },
-  {
-    "word": "those",
-    "meanings": [
-      {
-        "type": "代詞",
-        "meaning_en_US": "Used to refer to specific items or people that are not near.",
-        "meaning_zh_TW": "那些",
-        "wrong_meaning_zh_TW": [
-          "這些、這些東西",
-          "某些、一些",
-          "人們、大家"
-        ],
-        "examples": [
-          {
-            "sentence": "[Those] books are on the shelf.",
-            "translation_zh_TW": "那些書在書架上。"
-          },
-          {
-            "sentence": "Are [those] your friends over there?",
-            "translation_zh_TW": "那些是你那邊的朋友嗎？"
-          },
-          {
-            "sentence": "I like [those] shoes.",
-            "translation_zh_TW": "我喜歡那些鞋子。"
-          }
-        ],
-        "synonyms": [
-          "them",
-          "the aforementioned"
-        ]
-      }
-    ],
-    "confusion": [
-      "this",
-      "that",
-      "thosees",
-      "thoes"
-    ]
-  },
-  {
-    "word": "tonight",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "On the night of the present day.",
-        "meaning_zh_TW": "今晚",
-        "wrong_meaning_zh_TW": [
-          "明天",
-          "昨日",
-          "早上"
-        ],
-        "examples": [
-          {
-            "sentence": "We will have dinner together [tonight].",
-            "translation_zh_TW": "我們今晚會一起吃晚餐。"
-          },
-          {
-            "sentence": "I plan to watch a movie [tonight].",
-            "translation_zh_TW": "我打算今晚看一部電影。"
-          },
-          {
-            "sentence": "Let's meet at the park [tonight].",
-            "translation_zh_TW": "我們今晚在公園見面。"
-          }
-        ],
-        "synonyms": [
-          "this evening",
-          "tonite"
-        ]
-      }
-    ],
-    "confusion": [
-      "tonite",
-      "tonal",
-      "tonnage",
-      "ton"
-    ]
-  },
-  {
-    "word": "hang",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To suspend something from a support or to be suspended.",
-        "meaning_zh_TW": "懸掛",
-        "wrong_meaning_zh_TW": [
-          "掉落",
-          "放置",
-          "打掃"
-        ],
-        "examples": [
-          {
-            "sentence": "Please [hang] your coat on the hook.",
-            "translation_zh_TW": "請把你的外套掛在鉤子上。"
-          },
-          {
-            "sentence": "The picture will [hang] nicely on that wall.",
-            "translation_zh_TW": "那幅畫會漂亮地懸掛在那面牆上。"
-          },
-          {
-            "sentence": "They [hang] decorations for the party.",
-            "translation_zh_TW": "他們為派對懸掛裝飾品。"
-          }
-        ],
-        "synonyms": [
-          "suspend",
-          "drape"
-        ]
-      }
-    ],
-    "confusion": [
-      "hng",
-      "hangs",
-      "hange",
-      "hagn"
-    ]
-  },
-  {
-    "word": "hundredth",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Being number 100 in a sequence.",
-        "meaning_zh_TW": "第一百的",
-        "wrong_meaning_zh_TW": [
-          "第一百二的",
-          "第九十的",
-          "第一千的"
-        ],
-        "examples": [
-          {
-            "sentence": "This is her [hundredth] time visiting the museum.",
-            "translation_zh_TW": "這是她第百次參觀博物館"
-          },
-          {
-            "sentence": "They celebrated their [hundredth] anniversary.",
-            "translation_zh_TW": "他們慶祝了第百個周年"
-          },
-          {
-            "sentence": "He finished in [hundredth] place in the race.",
-            "translation_zh_TW": "他在比賽中獲得第一百名"
-          }
-        ],
-        "synonyms": [
-          "100th",
-          "centennial"
-        ]
-      }
-    ],
-    "confusion": [
-      "hundred",
-      "thousandth",
-      "first hundred",
-      "hundreds"
-    ]
-  },
-  {
-    "word": "because",
-    "meanings": [
-      {
-        "type": "連詞",
-        "meaning_en_US": "For the reason that; due to.",
-        "meaning_zh_TW": "因為",
-        "wrong_meaning_zh_TW": [
-          "雖然",
-          "直到",
-          "無論"
-        ],
-        "examples": [
-          {
-            "sentence": "He left early [because] he was tired.",
-            "translation_zh_TW": "他早早離開，因為他感到疲憊"
-          },
-          {
-            "sentence": "I didn't go out [because] it was raining.",
-            "translation_zh_TW": "我沒有出去，因為下雨了"
-          },
-          {
-            "sentence": "She studies hard [because] she wants to pass the exam.",
-            "translation_zh_TW": "她努力學習，因為她想通過考試"
-          }
-        ],
-        "synonyms": [
-          "since",
-          "as"
-        ]
-      }
-    ],
-    "confusion": [
-      "become",
-      "because",
-      "before",
-      "beyond"
-    ]
-  },
-  {
-    "word": "choice",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The act of selecting or making a decision when faced with two or more possibilities.",
-        "meaning_zh_TW": "選擇",
-        "wrong_meaning_zh_TW": [
-          "拒絕、放棄",
-          "緊急、災難",
-          "等待、猶豫"
-        ],
-        "examples": [
-          {
-            "sentence": "You have a [choice] between tea and coffee.",
-            "translation_zh_TW": "你可以在茶和咖啡之間選擇。"
-          },
-          {
-            "sentence": "Making the right [choice] is crucial.",
-            "translation_zh_TW": "做出正確的選擇至關重要。"
-          },
-          {
-            "sentence": "The [choice] was difficult but necessary.",
-            "translation_zh_TW": "這個選擇雖然困難但卻是必要的。"
-          }
-        ],
-        "synonyms": [
-          "option",
-          "selection"
-        ]
-      }
-    ],
-    "confusion": [
-      "choise",
-      "choos",
-      "chose",
-      "choicee"
-    ]
-  },
-  {
-    "word": "cat",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws.",
-        "meaning_zh_TW": "貓",
-        "wrong_meaning_zh_TW": [
-          "狗",
-          "老虎",
-          "企鵝"
-        ],
-        "examples": [
-          {
-            "sentence": "The [cat] sat on the windowsill, basking in the sun.",
-            "translation_zh_TW": "這隻貓坐在窗台上，享受陽光。"
-          },
-          {
-            "sentence": "She adopted a fluffy [cat] from the shelter.",
-            "translation_zh_TW": "她從收容所收養了一隻毛茸茸的貓。"
-          },
-          {
-            "sentence": "My [cat] loves to chase after strings.",
-            "translation_zh_TW": "我的貓喜歡追著繩子跑。"
-          }
-        ],
-        "synonyms": [
-          "kitten",
-          "feline"
-        ]
-      }
-    ],
-    "confusion": [
-      "bat",
-      "rat",
-      "cab",
-      "catastrophe"
-    ]
-  },
-  {
-    "word": "island",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A piece of land surrounded by water.",
-        "meaning_zh_TW": "島嶼",
-        "wrong_meaning_zh_TW": [
-          "海洋",
-          "沙洲",
-          "礁石"
-        ],
-        "examples": [
-          {
-            "sentence": "The vacation resort is on a beautiful [island].",
-            "translation_zh_TW": "度假村位於一個美麗的島嶼上。"
-          },
-          {
-            "sentence": "They visited a remote [island] last summer.",
-            "translation_zh_TW": "他們去年夏天造訪了一個偏遠的島嶼。"
-          },
-          {
-            "sentence": "The [island] is known for its tropical wildlife.",
-            "translation_zh_TW": "這個島嶼以其熱帶野生動物而聞名。"
-          }
-        ],
-        "synonyms": [
-          "landmass",
-          "islet"
-        ]
-      }
-    ],
-    "confusion": [
-      "islandd",
-      "islandn",
-      "islad",
-      "islandt"
-    ]
-  },
-  {
-    "word": "quarter",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "One-fourth of something.",
-        "meaning_zh_TW": "四分之一",
-        "wrong_meaning_zh_TW": [
-          "三分之一",
-          "五分之一",
-          "二分之一"
-        ],
-        "examples": [
-          {
-            "sentence": "Half of a [quarter] is an eighth.",
-            "translation_zh_TW": "四分之一的一半是八分之一"
-          },
-          {
-            "sentence": "I received a [quarter] in change.",
-            "translation_zh_TW": "我收到了一個四分之一的零錢"
-          },
-          {
-            "sentence": "He scored a touchdown in the last [quarter].",
-            "translation_zh_TW": "他在最後一節中得分"
-          }
-        ],
-        "synonyms": [
-          "fourth",
-          "one-fourth"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "A part of a city or town, often with a specific character.",
-        "meaning_zh_TW": "區域",
-        "wrong_meaning_zh_TW": [
-          "街道",
-          "城市",
-          "社區"
-        ],
-        "examples": [
-          {
-            "sentence": "She lives in a historic [quarter].",
-            "translation_zh_TW": "她住在一個歷史悠久的區域"
-          },
-          {
-            "sentence": "The arts [quarter] is lively with galleries.",
-            "translation_zh_TW": "藝術區充滿了畫廊"
-          },
-          {
-            "sentence": "They visited the business [quarter].",
-            "translation_zh_TW": "他們參觀了商業區"
-          }
-        ],
-        "synonyms": [
-          "district",
-          "neighborhood"
-        ]
-      }
-    ],
-    "confusion": [
-      "quart",
-      "quater",
-      "quarte",
-      "quar"
-    ]
-  },
-  {
-    "word": "hide",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To conceal oneself from view or to keep something out of sight.",
-        "meaning_zh_TW": "隱藏、藏匿",
-        "wrong_meaning_zh_TW": [
-          "顯現",
-          "展示",
-          "暴露"
-        ],
-        "examples": [
-          {
-            "sentence": "She decided to [hide] in the closet.",
-            "translation_zh_TW": "她決定藏在衣櫃裡。"
-          },
-          {
-            "sentence": "He tried to [hide] his feelings.",
-            "translation_zh_TW": "他試著隱藏自己的感受。"
-          },
-          {
-            "sentence": "The child likes to [hide] during games of hide and seek.",
-            "translation_zh_TW": "這個孩子喜歡在捉迷藏遊戲中隱藏。"
-          }
-        ],
-        "synonyms": [
-          "conceal",
-          "bury"
-        ]
-      }
-    ],
-    "confusion": [
-      "high",
-      "hive",
-      "hideout",
-      "hid"
-    ]
-  },
-  {
-    "word": "subject",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The topic or focus of a discussion, study, or area of knowledge.",
-        "meaning_zh_TW": "主題",
-        "wrong_meaning_zh_TW": [
-          "人",
-          "地點",
-          "事件"
-        ],
-        "examples": [
-          {
-            "sentence": "The primary [subject] of the lecture was history.",
-            "translation_zh_TW": "講座的主要主題是歷史。"
-          },
-          {
-            "sentence": "Her favorite [subject] in school was mathematics.",
-            "translation_zh_TW": "她在學校最喜歡的科目是數學。"
-          },
-          {
-            "sentence": "Chemistry is a challenging [subject] for many students.",
-            "translation_zh_TW": "對許多學生來說，化學是一個具有挑戰性的科目。"
-          }
-        ],
-        "synonyms": [
-          "topic",
-          "theme"
-        ]
-      }
-    ],
-    "confusion": [
-      "object",
-      "project",
-      "reject",
-      "subjet"
-    ]
-  },
-  {
-    "word": "exciting",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Causing great enthusiasm and eagerness.",
-        "meaning_zh_TW": "令人興奮的",
-        "wrong_meaning_zh_TW": [
-          "無聊的",
-          "乏味的",
-          "平常的"
-        ],
-        "examples": [
-          {
-            "sentence": "The movie was really [exciting] and kept everyone on the edge of their seats.",
-            "translation_zh_TW": "這部電影真的很令人興奮，讓每個人都坐立不安。"
-          },
-          {
-            "sentence": "He finds [exciting] adventures in every new book he reads.",
-            "translation_zh_TW": "他在每本新書中都能找到令人興奮的冒險。"
-          },
-          {
-            "sentence": "Winning the game was an [exciting] moment for the team.",
-            "translation_zh_TW": "贏得比賽對隊伍來說是個令人興奮的時刻。"
-          }
-        ],
-        "synonyms": [
-          "thrilling",
-          "stimulating"
-        ]
-      }
-    ],
-    "confusion": [
-      "excite",
-      "excitement",
-      "executive",
-      "exercise"
-    ]
-  },
-  {
-    "word": "face",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The front part of a person's head, including the forehead, eyes, nose, and mouth.",
-        "meaning_zh_TW": "臉",
-        "wrong_meaning_zh_TW": [
-          "面具",
-          "鬼臉",
-          "自拍"
-        ],
-        "examples": [
-          {
-            "sentence": "She washed her [face] in the morning.",
-            "translation_zh_TW": "她早上洗了臉。"
-          },
-          {
-            "sentence": "His [face] showed surprise when he heard the news.",
-            "translation_zh_TW": "聽到這個消息時，他的臉上露出了驚訝的表情。"
-          },
-          {
-            "sentence": "The artist painted a beautiful [face] on the canvas.",
-            "translation_zh_TW": "藝術家在畫布上畫了一張美麗的臉。"
-          }
-        ],
-        "synonyms": [
-          "visage",
-          "countenance"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To confront or deal with something difficult.",
-        "meaning_zh_TW": "面對",
-        "wrong_meaning_zh_TW": [
-          "轉身",
-          "逃避",
-          "閉嘴"
-        ],
-        "examples": [
-          {
-            "sentence": "We must [face] the challenges head-on.",
-            "translation_zh_TW": "我們必須直面挑戰。"
-          },
-          {
-            "sentence": "She decided to [face] her fears.",
-            "translation_zh_TW": "她決定面對自己的恐懼。"
-          },
-          {
-            "sentence": "He had to [face] the consequences of his actions.",
-            "translation_zh_TW": "他必須面對自己行為的後果。"
-          }
-        ],
-        "synonyms": [
-          "confront",
-          "approach"
-        ]
-      }
-    ],
-    "confusion": [
-      "place",
-      "race",
-      "case",
-      "facade"
     ]
   }
 ]

@@ -1,810 +1,782 @@
 [
   {
-    "word": "shatter",
+    "word": "administration",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The process or activity of running a business, organization, etc.",
+        "meaning_zh_TW": "管理",
+        "wrong_meaning_zh_TW": [
+          "解散",
+          "發展",
+          "增加"
+        ],
+        "examples": [
+          {
+            "sentence": "The [administration] of the school is very efficient.",
+            "translation_zh_TW": "這所學校的管理非常高效。"
+          },
+          {
+            "sentence": "He works in the [administration] department.",
+            "translation_zh_TW": "他在管理部門工作。"
+          },
+          {
+            "sentence": "She is studying [administration] at university.",
+            "translation_zh_TW": "她正在大學學習管理學。"
+          }
+        ],
+        "synonyms": [
+          "management",
+          "direction"
+        ]
+      }
+    ],
+    "confusion": [
+      "administrative",
+      "admission",
+      "admonition",
+      "administrate"
+    ]
+  },
+  {
+    "word": "transition",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The process of changing from one state or condition to another.",
+        "meaning_zh_TW": "過渡、轉變",
+        "wrong_meaning_zh_TW": [
+          "翅膀、尾巴",
+          "白話、段落",
+          "獨立、孤立"
+        ],
+        "examples": [
+          {
+            "sentence": "The country is in a state of [transition] to democracy.",
+            "translation_zh_TW": "該國正處於過渡到民主的狀態"
+          },
+          {
+            "sentence": "She experienced a difficult [transition] during her career.",
+            "translation_zh_TW": "她在職業生涯中經歷了一次艱難的過渡"
+          },
+          {
+            "sentence": "The project involves a [transition] to renewable energy.",
+            "translation_zh_TW": "該項目涉及向可再生能源的轉變"
+          }
+        ],
+        "synonyms": [
+          "change",
+          "conversion"
+        ]
+      }
+    ],
+    "confusion": [
+      "transmission",
+      "translation",
+      "transactions",
+      "transgress"
+    ]
+  },
+  {
+    "word": "document",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A written or printed paper that provides information or evidence.",
+        "meaning_zh_TW": "文件",
+        "wrong_meaning_zh_TW": [
+          "報告",
+          "圖像",
+          "資料夾"
+        ],
+        "examples": [
+          {
+            "sentence": "Please submit the required [document] by the deadline.",
+            "translation_zh_TW": "請在截止日期前提交所需的文件。"
+          },
+          {
+            "sentence": "This [document] contains important information.",
+            "translation_zh_TW": "這份文件包含重要信息。"
+          },
+          {
+            "sentence": "Make sure to review the [document] carefully.",
+            "translation_zh_TW": "請確保仔細審查該文件。"
+          }
+        ],
+        "synonyms": [
+          "file",
+          "record"
+        ]
+      }
+    ],
+    "confusion": [
+      "document",
+      "documet",
+      "dockument",
+      "dokument"
+    ]
+  },
+  {
+    "word": "accounting",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The process of recording financial transactions pertaining to a business.",
+        "meaning_zh_TW": "會計",
+        "wrong_meaning_zh_TW": [
+          "授權",
+          "分析",
+          "計劃"
+        ],
+        "examples": [
+          {
+            "sentence": "He is studying [accounting] at university.",
+            "translation_zh_TW": "他在大學學習會計。"
+          },
+          {
+            "sentence": "Accurate [accounting] is essential for business success.",
+            "translation_zh_TW": "準確的會計對於商業成功至關重要。"
+          },
+          {
+            "sentence": "She works in [accounting] for a large corporation.",
+            "translation_zh_TW": "她在一家大型公司從事會計工作。"
+          }
+        ],
+        "synonyms": [
+          "bookkeeping",
+          "financial reporting"
+        ]
+      }
+    ],
+    "confusion": [
+      "account",
+      "accountable",
+      "accountant",
+      "acquitting"
+    ]
+  },
+  {
+    "word": "straighten",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To break suddenly and violently into pieces.",
-        "meaning_zh_TW": "粉碎",
+        "meaning_en_US": "To make something straight or to correct its position.",
+        "meaning_zh_TW": "使變直,矯正",
         "wrong_meaning_zh_TW": [
-          "連接",
-          "修復",
-          "聚合"
+          "扭轉",
+          "彎曲",
+          "增加重量"
         ],
         "examples": [
           {
-            "sentence": "The vase will [shatter] if it falls to the ground.",
-            "translation_zh_TW": "花瓶如果掉到地上會粉碎"
+            "sentence": "Please [straighten] your tie before the meeting.",
+            "translation_zh_TW": "在會議前請整理你的領帶。"
           },
           {
-            "sentence": "His dreams were [shattered] by the unexpected news.",
-            "translation_zh_TW": "他的夢想被意外的消息粉碎了"
+            "sentence": "He tried to [straighten] the bent nails.",
+            "translation_zh_TW": "他試著把彎曲的釘子弄直。"
           },
           {
-            "sentence": "The critics' comments were enough to [shatter] her confidence.",
-            "translation_zh_TW": "評論家的評論足以粉碎她的自信"
+            "sentence": "You need to [straighten] your posture.",
+            "translation_zh_TW": "你需要矯正你的姿勢。"
           }
         ],
         "synonyms": [
-          "break",
-          "smash"
+          "align",
+          "rectify"
         ]
       }
     ],
     "confusion": [
-      "scatter",
-      "shutter",
-      "shatterer",
-      "chatter"
+      "straighten",
+      "strengthen",
+      "stray",
+      "straighten"
     ]
   },
   {
-    "word": "ceremony",
+    "word": "array",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A formal activity performed on a special occasion.",
-        "meaning_zh_TW": "儀式、典禮",
+        "meaning_en_US": "A systematic arrangement of similar objects, typically in rows and columns.",
+        "meaning_zh_TW": "陣列，排列",
         "wrong_meaning_zh_TW": [
-          "慶祝活動、派對",
-          "談話、交流",
-          "競賽、比賽"
+          "混亂，雜亂",
+          "方向，趨勢",
+          "團隊，組織"
         ],
         "examples": [
           {
-            "sentence": "The graduation [ceremony] was held in the auditorium.",
-            "translation_zh_TW": "畢業典禮在禮堂舉行。"
+            "sentence": "The shop displayed an [array] of colorful dresses.",
+            "translation_zh_TW": "那家店展示了一系列色彩繽紛的裙子。"
           },
           {
-            "sentence": "They prepared for the wedding [ceremony] weeks in advance.",
-            "translation_zh_TW": "他們提前幾週準備婚禮儀式。"
+            "sentence": "He presented an impressive [array] of data during the meeting.",
+            "translation_zh_TW": "在會議中，他展示了一個令人印象深刻的數據陣列。"
           },
           {
-            "sentence": "A [ceremony] was conducted to honor the veterans.",
-            "translation_zh_TW": "舉行了一場儀式以表彰退伍軍人。"
+            "sentence": "We saw an [array] of artwork at the gallery.",
+            "translation_zh_TW": "我們在畫廊看到了各種藝術作品。"
           }
         ],
         "synonyms": [
-          "ritual",
-          "celebration"
+          "range",
+          "collection"
         ]
       }
     ],
     "confusion": [
-      "ceremonial",
-      "ceremonies",
-      "ceramic",
-      "sermon"
+      "aray",
+      "arry",
+      "arrey",
+      "arr"
     ]
   },
   {
-    "word": "foster",
+    "word": "update",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To encourage the development of something (typically something regarded as good).",
-        "meaning_zh_TW": "促進、培養",
+        "meaning_en_US": "To make something more modern or up to date.",
+        "meaning_zh_TW": "更新",
         "wrong_meaning_zh_TW": [
-          "扇子",
-          "投擲",
-          "導向"
+          "降級",
+          "減少",
+          "簡化"
         ],
         "examples": [
           {
-            "sentence": "We aim to [foster] creativity in our students.",
-            "translation_zh_TW": "我們的目標是促進學生的創造力。"
+            "sentence": "Please [update] your contact information.",
+            "translation_zh_TW": "請更新您的聯絡資訊。"
           },
           {
-            "sentence": "The program is designed to [foster] community ties.",
-            "translation_zh_TW": "這個計劃旨在促進社區聯繫。"
+            "sentence": "He needs to [update] the software on his computer.",
+            "translation_zh_TW": "他需要更新他電腦上的軟件。"
           },
           {
-            "sentence": "She hopes to [foster] a love for reading in children.",
-            "translation_zh_TW": "她希望能在孩子們心中培養對閱讀的熱愛。"
+            "sentence": "I will [update] you on the progress of the project.",
+            "translation_zh_TW": "我會向您更新項目的進展情況。"
           }
         ],
         "synonyms": [
-          "support",
-          "encourage"
+          "revise",
+          "refresh"
         ]
       }
     ],
     "confusion": [
-      "fostering",
-      "fostered",
-      "faster",
-      "forster"
+      "upload",
+      "upgrade",
+      "outdate",
+      "updater"
     ]
   },
   {
-    "word": "whine",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make a high, complaining noise.",
-        "meaning_zh_TW": "發出抱怨的聲音",
-        "wrong_meaning_zh_TW": [
-          "大聲喝彩",
-          "熱情呼喊",
-          "輕聲低語"
-        ],
-        "examples": [
-          {
-            "sentence": "The dog began to [whine] when it was left alone.",
-            "translation_zh_TW": "當狗被單獨留下時，它開始發出抱怨的聲音。"
-          },
-          {
-            "sentence": "She tends to [whine] about her work schedule.",
-            "translation_zh_TW": "她經常抱怨她的工作時間表。"
-          },
-          {
-            "sentence": "I could hear him [whine] about the unfairness of the situation.",
-            "translation_zh_TW": "我可以聽到他抱怨情況的不公平。"
-          }
-        ],
-        "synonyms": [
-          "complain",
-          "moan"
-        ]
-      }
-    ],
-    "confusion": [
-      "whiney",
-      "whiz",
-      "wine",
-      "whinny"
-    ]
-  },
-  {
-    "word": "comply",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To act in accordance with a wish or command.",
-        "meaning_zh_TW": "遵從，服從",
-        "wrong_meaning_zh_TW": [
-          "違反規則",
-          "獨立行動",
-          "加強控制"
-        ],
-        "examples": [
-          {
-            "sentence": "You must [comply] with the safety regulations.",
-            "translation_zh_TW": "你必須遵從安全規則。"
-          },
-          {
-            "sentence": "The company failed to [comply] with the environmental standards.",
-            "translation_zh_TW": "該公司未能遵從環境標準。"
-          },
-          {
-            "sentence": "He decided to [comply] with her request.",
-            "translation_zh_TW": "他決定遵從她的要求。"
-          }
-        ],
-        "synonyms": [
-          "adhere",
-          "obey"
-        ]
-      }
-    ],
-    "confusion": [
-      "compliant",
-      "completely",
-      "complain",
-      "complies"
-    ]
-  },
-  {
-    "word": "optional",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Available to be chosen but not obligatory.",
-        "meaning_zh_TW": "可選擇的、非強制的",
-        "wrong_meaning_zh_TW": [
-          "必要的",
-          "強制性的",
-          "限制性的"
-        ],
-        "examples": [
-          {
-            "sentence": "The course has an [optional] project.",
-            "translation_zh_TW": "這門課有一個可選擇的專案"
-          },
-          {
-            "sentence": "Attendance is [optional] for this session.",
-            "translation_zh_TW": "這一場次的出席是可選的"
-          },
-          {
-            "sentence": "You can choose to take [optional] classes.",
-            "translation_zh_TW": "你可以選擇修習可選的課程"
-          }
-        ],
-        "synonyms": [
-          "voluntary",
-          "discretionary"
-        ]
-      }
-    ],
-    "confusion": [
-      "option",
-      "operation",
-      "optical",
-      "optimistic"
-    ]
-  },
-  {
-    "word": "peasant",
+    "word": "mandate",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A poor farmer or agricultural worker.",
-        "meaning_zh_TW": "農民",
+        "meaning_en_US": "An official order or commission to do something.",
+        "meaning_zh_TW": "命令；授權",
         "wrong_meaning_zh_TW": [
-          "城市人",
-          "地主",
-          "商人"
+          "建議",
+          "辭令",
+          "請求"
         ],
         "examples": [
           {
-            "sentence": "The [peasant] worked hard in the fields.",
-            "translation_zh_TW": "農民在田裡努力工作。"
+            "sentence": "The governor received a [mandate] from the people.",
+            "translation_zh_TW": "州長收到了人民的命令."
           },
           {
-            "sentence": "Many [peasants] struggle to make a living.",
-            "translation_zh_TW": "許多農民為生計而掙扎。"
+            "sentence": "The council issued a new [mandate] for safety regulations.",
+            "translation_zh_TW": "委員會發布了新的安全規定命令."
           },
           {
-            "sentence": "The [peasants] gathered for the harvest festival.",
-            "translation_zh_TW": "農民們聚集在一起慶祝豐收節。"
+            "sentence": "He was given a [mandate] to lead the project.",
+            "translation_zh_TW": "他獲得了領導該項目的授權."
           }
         ],
         "synonyms": [
-          "farmer",
-          "laborer"
+          "order",
+          "commission"
         ]
       }
     ],
     "confusion": [
-      "peasanty",
-      "peasnt",
-      "peasants",
-      "peasent"
+      "mandat",
+      "mendate",
+      "mandate",
+      "mandatees"
     ]
   },
   {
-    "word": "reminder",
+    "word": "visa",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A message or note that serves to alert someone to something they need to remember.",
-        "meaning_zh_TW": "提醒，通知",
+        "meaning_en_US": "An official document allowing a person to enter or leave a country.",
+        "meaning_zh_TW": "簽證",
         "wrong_meaning_zh_TW": [
-          "闡述",
-          "螢幕",
-          "提示器"
+          "護照",
+          "通行證",
+          "入境許可"
         ],
         "examples": [
           {
-            "sentence": "I set a [reminder] on my phone for the meeting.",
-            "translation_zh_TW": "我在手機上設定了會議的提醒。"
+            "sentence": "I applied for a [visa] to study abroad.",
+            "translation_zh_TW": "我申請了一個簽證去國外學習"
           },
           {
-            "sentence": "The calendar serves as a useful [reminder] for important dates.",
-            "translation_zh_TW": "日曆作為重要日期的有用提醒。"
+            "sentence": "You need a [visa] to enter that country.",
+            "translation_zh_TW": "你需要一個簽證才能進入那個國家"
           },
           {
-            "sentence": "He received a [reminder] email about the upcoming deadline.",
-            "translation_zh_TW": "他收到了一封關於即將到期的提醒郵件。"
+            "sentence": "The [visa] process can take several weeks.",
+            "translation_zh_TW": "簽證處理可能需要幾周"
           }
         ],
         "synonyms": [
-          "alert",
-          "notification"
+          "permit",
+          "authorization"
         ]
       }
     ],
     "confusion": [
-      "remind",
-      "remindder",
-      "remainder",
-      "remindar"
+      "vise",
+      "vista",
+      "votive",
+      "viceroy"
     ]
   },
   {
-    "word": "jug",
+    "word": "chore",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A large container for liquid, with a handle and a spout.",
-        "meaning_zh_TW": "壺",
+        "meaning_en_US": "A routine task or job, often related to household duties.",
+        "meaning_zh_TW": "家務",
         "wrong_meaning_zh_TW": [
-          "瓶子",
-          "杯子",
-          "罐"
+          "娛樂",
+          "假期",
+          "慶祝"
         ],
         "examples": [
           {
-            "sentence": "She poured the juice from the [jug] into glasses.",
-            "translation_zh_TW": "她把果汁從壺裡倒入杯子"
+            "sentence": "I have to complete my [chores] before watching TV.",
+            "translation_zh_TW": "我必須在看電視之前完成我的家務。"
           },
           {
-            "sentence": "I have a ceramic [jug] that I use for water.",
-            "translation_zh_TW": "我有一個用來盛水的陶瓷壺"
+            "sentence": "Cleaning the dishes is my least favorite [chore].",
+            "translation_zh_TW": "清洗碗碟是我最不喜歡的家務。"
           },
           {
-            "sentence": "The old [jug] was found in the attic.",
-            "translation_zh_TW": "那個舊壺是在閣樓裡找到的"
-          }
-        ],
-        "synonyms": [
-          "pitcher",
-          "container"
-        ]
-      }
-    ],
-    "confusion": [
-      "jugs",
-      "jogue",
-      "jugg",
-      "juggers"
-    ]
-  },
-  {
-    "word": "insight",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The capacity to gain an accurate and deep understanding of someone or something.",
-        "meaning_zh_TW": "洞察力",
-        "wrong_meaning_zh_TW": [
-          "直覺能力",
-          "表面理解",
-          "隨意猜測"
-        ],
-        "examples": [
-          {
-            "sentence": "Her analysis provided valuable [insight] into the issue.",
-            "translation_zh_TW": "她的分析為這個問題提供了有價值的洞察力"
-          },
-          {
-            "sentence": "Gaining [insight] requires both knowledge and experience.",
-            "translation_zh_TW": "獲得洞察力需要知識和經驗"
-          },
-          {
-            "sentence": "He had a moment of [insight] that changed his perspective.",
-            "translation_zh_TW": "他有一個洞察力的瞬間，改變了他的觀點"
-          }
-        ],
-        "synonyms": [
-          "understanding",
-          "perception"
-        ]
-      }
-    ],
-    "confusion": [
-      "incite",
-      "insightful",
-      "insider",
-      "insightfuls"
-    ]
-  },
-  {
-    "word": "allergy",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A condition in which the immune system reacts abnormally to a substance.",
-        "meaning_zh_TW": "過敏症",
-        "wrong_meaning_zh_TW": [
-          "免疫力",
-          "病症",
-          "健康狀況"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [allergy] to cats makes it hard to visit her friend.",
-            "translation_zh_TW": "她對貓的過敏讓她很難去看朋友。"
-          },
-          {
-            "sentence": "He takes medication for his pollen [allergy].",
-            "translation_zh_TW": "他服藥治療他的花粉過敏。"
-          },
-          {
-            "sentence": "A severe [allergy] can lead to anaphylaxis.",
-            "translation_zh_TW": "嚴重的過敏可能導致過敏性休克。"
-          }
-        ],
-        "synonyms": [
-          "hypersensitivity",
-          "reaction"
-        ]
-      }
-    ],
-    "confusion": [
-      "alergy",
-      "allergies",
-      "allergic",
-      "allergist"
-    ]
-  },
-  {
-    "word": "errand",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A short journey undertaken in order to deliver or collect something.",
-        "meaning_zh_TW": "差事、任務",
-        "wrong_meaning_zh_TW": [
-          "長途旅行",
-          "聚會",
-          "休假"
-        ],
-        "examples": [
-          {
-            "sentence": "He went on an [errand] to pick up groceries.",
-            "translation_zh_TW": "他去跑腿去買雜貨。"
-          },
-          {
-            "sentence": "She asked him to run an [errand] for her.",
-            "translation_zh_TW": "她請他幫忙做一件差事。"
-          },
-          {
-            "sentence": "My [errand] took longer than expected.",
-            "translation_zh_TW": "我的差事花了比預期更長的時間。"
+            "sentence": "She made a list of [chores] to do this weekend.",
+            "translation_zh_TW": "她列了一份這週末要做的家務清單。"
           }
         ],
         "synonyms": [
           "task",
-          "mission"
+          "duty"
         ]
       }
     ],
     "confusion": [
-      "end",
-      "errant",
-      "earnest",
-      "arrant"
+      "choreography",
+      "chortle",
+      "cheer",
+      "choreography"
     ]
   },
   {
-    "word": "sober",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Not affected by alcohol; serious and sensible.",
-        "meaning_zh_TW": "清醒的、嚴肅的",
-        "wrong_meaning_zh_TW": [
-          "時尚的",
-          "狂歡的",
-          "過度的"
-        ],
-        "examples": [
-          {
-            "sentence": "After a night of drinking, he was finally [sober].",
-            "translation_zh_TW": "經過一夜的飲酒後，他終於清醒了。"
-          },
-          {
-            "sentence": "She gave a [sober] assessment of the situation.",
-            "translation_zh_TW": "她對情況進行了嚴肅的評估。"
-          },
-          {
-            "sentence": "He speaks in a [sober] manner.",
-            "translation_zh_TW": "他的說話方式很嚴肅。"
-          }
-        ],
-        "synonyms": [
-          "clear-headed",
-          "serious"
-        ]
-      }
-    ],
-    "confusion": [
-      "soberly",
-      "sobered",
-      "sover",
-      "soberage"
-    ]
-  },
-  {
-    "word": "saint",
+    "word": "chaos",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person acknowledged as holy or virtuous.",
-        "meaning_zh_TW": "聖人",
+        "meaning_en_US": "A state of complete disorder and confusion.",
+        "meaning_zh_TW": "混亂",
         "wrong_meaning_zh_TW": [
-          "亡者",
-          "英雄",
-          "治療者"
+          "規則",
+          "結構",
+          "秩序"
         ],
         "examples": [
           {
-            "sentence": "She was declared a [saint] by the church.",
-            "translation_zh_TW": "她被教會宣告為聖人"
+            "sentence": "The event ended in [chaos] when the lights went out.",
+            "translation_zh_TW": "活動因燈光熄滅而陷入混亂"
           },
           {
-            "sentence": "Many believe in the intercession of [saints].",
-            "translation_zh_TW": "許多人相信聖人的代禱"
+            "sentence": "There was [chaos] in the streets during the parade.",
+            "translation_zh_TW": "遊行期間街上一片混亂"
           },
           {
-            "sentence": "He acts like a [saint] when helping others.",
-            "translation_zh_TW": "他在幫助他人的時候像個聖人"
+            "sentence": "His attempt to organize the party resulted in [chaos].",
+            "translation_zh_TW": "他組織派對的嘗試導致了混亂"
           }
         ],
         "synonyms": [
-          "holy person",
-          "blessed one"
+          "disorder",
+          "confusion"
         ]
       }
     ],
     "confusion": [
-      "satin",
-      "sained",
-      "scent",
-      "sate"
+      "cheers",
+      "chase",
+      "chaotic",
+      "chase"
     ]
   },
   {
-    "word": "salon",
+    "word": "blur",
     "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A room for receiving guests or a place for beauty services.",
-        "meaning_zh_TW": "沙龍",
-        "wrong_meaning_zh_TW": [
-          "俱樂部",
-          "市集",
-          "工作室"
-        ],
-        "examples": [
-          {
-            "sentence": "She opened a beauty [salon] downtown.",
-            "translation_zh_TW": "她在市中心開了一間美容沙龍"
-          },
-          {
-            "sentence": "The literary [salon] gathered writers and artists.",
-            "translation_zh_TW": "文學沙龍聚集了作家和藝術家"
-          },
-          {
-            "sentence": "He feels relaxed in his friend's [salon].",
-            "translation_zh_TW": "他在朋友的沙龍裡感到放鬆"
-          }
-        ],
-        "synonyms": [
-          "parlor",
-          "studio"
-        ]
-      }
-    ],
-    "confusion": [
-      "saloon",
-      "salo",
-      "saloonkeeper",
-      "sullivan"
-    ]
-  },
-  {
-    "word": "toll",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A charge payable to use a bridge or road.",
-        "meaning_zh_TW": "通行費",
-        "wrong_meaning_zh_TW": [
-          "票價",
-          "稅款",
-          "費用"
-        ],
-        "examples": [
-          {
-            "sentence": "We had to pay a [toll] to cross the bridge.",
-            "translation_zh_TW": "我們必須支付通行費才能過橋。"
-          },
-          {
-            "sentence": "The [toll] for this highway is quite high.",
-            "translation_zh_TW": "這條高速公路的通行費相當高。"
-          },
-          {
-            "sentence": "Make sure to have small change for the [toll].",
-            "translation_zh_TW": "確保在通行費方面準備好小錢。"
-          }
-        ],
-        "synonyms": [
-          "fee",
-          "charge"
-        ]
-      },
       {
         "type": "動詞",
-        "meaning_en_US": "To take a fee for using a road or bridge.",
-        "meaning_zh_TW": "徵收通行費",
+        "meaning_en_US": "To make or become unclear or less distinct.",
+        "meaning_zh_TW": "模糊不清",
         "wrong_meaning_zh_TW": [
-          "禁止進入",
-          "減少速度",
-          "加快通行"
+          "清晰度",
+          "確認",
+          "保持住"
         ],
         "examples": [
           {
-            "sentence": "They [toll] every vehicle crossing the bridge.",
-            "translation_zh_TW": "他們對每輛過橋的車輛徵收通行費。"
+            "sentence": "The movement of the camera will [blur] the image.",
+            "translation_zh_TW": "相機的運動會讓畫面模糊不清"
           },
           {
-            "sentence": "The city plans to [toll] drivers to reduce traffic.",
-            "translation_zh_TW": "該市計劃對駕駛人徵收通行費以減少交通。"
+            "sentence": "My vision tends to [blur] after staring at the screen for too long.",
+            "translation_zh_TW": "看螢幕太久後，我的視線容易模糊不清"
           },
           {
-            "sentence": "You should always check if the road is [tolled] before traveling.",
-            "translation_zh_TW": "出行之前，你應該先查一下那條路是否需要收費。"
+            "sentence": "As the paint dries, the colors begin to [blur] together.",
+            "translation_zh_TW": "當油漆乾了，顏色開始模糊不清"
           }
         ],
         "synonyms": [
-          "charge",
-          "collect"
+          "smudge",
+          "fuzz"
         ]
       }
     ],
     "confusion": [
-      "tollgate",
-      "told",
-      "tollbooth",
-      "tool"
+      "flair",
+      "blurred",
+      "burr",
+      "bluer"
     ]
   },
   {
-    "word": "superb",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Of exceptional quality; magnificent or excellent.",
-        "meaning_zh_TW": "極好的",
-        "wrong_meaning_zh_TW": [
-          "普通的",
-          "差勁的",
-          "平凡的"
-        ],
-        "examples": [
-          {
-            "sentence": "The performance was simply [superb].",
-            "translation_zh_TW": "這場表演簡直極好了。"
-          },
-          {
-            "sentence": "She received [superb] reviews for her artwork.",
-            "translation_zh_TW": "她的藝術作品收到了極好的評論。"
-          },
-          {
-            "sentence": "This restaurant is known for its [superb] cuisine.",
-            "translation_zh_TW": "這家餐廳以其極好的美食聞名。"
-          }
-        ],
-        "synonyms": [
-          "excellent",
-          "outstanding"
-        ]
-      }
-    ],
-    "confusion": [
-      "super",
-      "supreme",
-      "superman",
-      "superior"
-    ]
-  },
-  {
-    "word": "stance",
+    "word": "subsidy",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A public or mental attitude toward a particular issue.",
-        "meaning_zh_TW": "立場",
+        "meaning_en_US": "A form of financial aid or support.",
+        "meaning_zh_TW": "補貼",
         "wrong_meaning_zh_TW": [
-          "行動",
-          "位置",
-          "策略"
+          "貸款",
+          "懲罰",
+          "收入"
         ],
         "examples": [
           {
-            "sentence": "Her [stance] on climate change is well known.",
-            "translation_zh_TW": "她對氣候變遷的立場是眾所周知的"
+            "sentence": "The government provided a [subsidy] for solar energy projects.",
+            "translation_zh_TW": "政府為太陽能項目提供了補貼。"
           },
           {
-            "sentence": "The politician changed his [stance] during the debate.",
-            "translation_zh_TW": "該政治家在辯論中改變了他的立場"
+            "sentence": "Farmers received a [subsidy] to help with production costs.",
+            "translation_zh_TW": "農民獲得了幫助生產成本的補貼。"
           },
           {
-            "sentence": "You need to clarify your [stance] on education reform.",
-            "translation_zh_TW": "你需要闡明你對教育改革的立場"
+            "sentence": "They applied for a [subsidy] to support their research.",
+            "translation_zh_TW": "他們申請了補貼以支持他們的研究。"
           }
         ],
         "synonyms": [
-          "position",
-          "viewpoint"
+          "grant",
+          "financial aid"
         ]
       }
     ],
     "confusion": [
-      "stance",
-      "stunt",
-      "stains",
-      "stancee"
+      "subside",
+      "substitue",
+      "subordination",
+      "substance"
     ]
   },
   {
-    "word": "dreadful",
+    "word": "abortion",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Causing fear or dread; extremely bad.",
-        "meaning_zh_TW": "造成恐懼或可怕的；極其糟糕的",
+        "type": "名詞",
+        "meaning_en_US": "The deliberate termination of a human pregnancy, most often performed during the first 28 weeks.",
+        "meaning_zh_TW": "墮胎",
         "wrong_meaning_zh_TW": [
-          "美好的景象",
-          "高品質的產品",
-          "輕鬆的時刻"
+          "生產",
+          "分娩",
+          "胚胎"
         ],
         "examples": [
           {
-            "sentence": "The movie was simply [dreadful].",
-            "translation_zh_TW": "這部電影簡直太糟糕了。"
+            "sentence": "The topic of [abortion] is highly controversial.",
+            "translation_zh_TW": "墮胎的話題高度爭議"
           },
           {
-            "sentence": "He had a [dreadful] headache all day.",
-            "translation_zh_TW": "他整天都有可怕的頭痛。"
+            "sentence": "She decided to discuss [abortion] with her healthcare provider.",
+            "translation_zh_TW": "她決定與她的醫療提供者討論墮胎"
           },
           {
-            "sentence": "The weather was [dreadful] during our trip.",
-            "translation_zh_TW": "我們旅行時的天氣非常糟糕。"
+            "sentence": "Laws surrounding [abortion] differ from country to country.",
+            "translation_zh_TW": "有關墮胎的法律因國家而異"
           }
         ],
         "synonyms": [
-          "terrible",
-          "awful"
+          "termination",
+          "miscarriage"
         ]
       }
     ],
     "confusion": [
-      "deadful",
-      "dreamful",
-      "dread",
-      "dreadfully"
+      "abort",
+      "aborted",
+      "abortionist",
+      "aborting"
     ]
   },
   {
-    "word": "controversial",
+    "word": "ritual",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to or likely to provoke controversy.",
-        "meaning_zh_TW": "有爭議的",
+        "type": "名詞",
+        "meaning_en_US": "A series of actions performed according to a prescribed order.",
+        "meaning_zh_TW": "儀式，典禮",
         "wrong_meaning_zh_TW": [
-          "無爭議的",
-          "平常的",
-          "簡單的"
+          "隨意",
+          "非正式",
+          "無序"
         ],
         "examples": [
           {
-            "sentence": "The proposal was met with [controversial] opinions.",
-            "translation_zh_TW": "該提案引起了有爭議的意見。"
+            "sentence": "The wedding [ritual] was beautiful.",
+            "translation_zh_TW": "婚禮儀式是美麗的。"
           },
           {
-            "sentence": "Her [controversial] remarks sparked a heated debate.",
-            "translation_zh_TW": "她的有爭議言論引發了激烈的辯論。"
+            "sentence": "They perform the same [ritual] every year.",
+            "translation_zh_TW": "他們每年都執行相同的儀式。"
           },
           {
-            "sentence": "Some [controversial] topics are best avoided in conversation.",
-            "translation_zh_TW": "某些有爭議的主題最好在交談中避免。"
+            "sentence": "The initiation [ritual] lasted for hours.",
+            "translation_zh_TW": "入門儀式持續了幾個小時。"
           }
         ],
         "synonyms": [
-          "debate-provoking",
-          "disputed"
+          "ceremony",
+          "tradition"
         ]
       }
     ],
     "confusion": [
-      "controversy",
-      "conversational",
-      "controverts",
-      "controversially"
+      "rithual",
+      "rituell",
+      "ritua",
+      "rituals"
+    ]
+  },
+  {
+    "word": "rip",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To tear or cut something forcefully.",
+        "meaning_zh_TW": "撕裂，割破",
+        "wrong_meaning_zh_TW": [
+          "縫合",
+          "組裝",
+          "修理"
+        ],
+        "examples": [
+          {
+            "sentence": "She accidentally [ripped] her dress.",
+            "translation_zh_TW": "她不小心撕破了她的裙子。"
+          },
+          {
+            "sentence": "He [ripped] the paper into smaller pieces.",
+            "translation_zh_TW": "他把紙撕成小片。"
+          },
+          {
+            "sentence": "The dog [ripped] the toy apart.",
+            "translation_zh_TW": "那隻狗把玩具撕成了兩半。"
+          }
+        ],
+        "synonyms": [
+          "tear",
+          "slice"
+        ]
+      }
+    ],
+    "confusion": [
+      "rib",
+      "ripen",
+      "ripcord",
+      "tip"
+    ]
+  },
+  {
+    "word": "opt",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make a choice from a range of possibilities.",
+        "meaning_zh_TW": "選擇",
+        "wrong_meaning_zh_TW": [
+          "拒絕",
+          "強迫",
+          "混淆"
+        ],
+        "examples": [
+          {
+            "sentence": "You can [opt] for a cash refund or a store credit.",
+            "translation_zh_TW": "你可以選擇現金退款或商店信用。"
+          },
+          {
+            "sentence": "He decided to [opt] out of the event.",
+            "translation_zh_TW": "他決定不參加這個活動。"
+          },
+          {
+            "sentence": "They can [opt] for a different option.",
+            "translation_zh_TW": "他們可以選擇另一個選項。"
+          }
+        ],
+        "synonyms": [
+          "choose",
+          "select"
+        ]
+      }
+    ],
+    "confusion": [
+      "opped",
+      "opts",
+      "opted",
+      "offer"
+    ]
+  },
+  {
+    "word": "soften",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make or become soft.",
+        "meaning_zh_TW": "使變軟",
+        "wrong_meaning_zh_TW": [
+          "加硬",
+          "增強",
+          "變冷"
+        ],
+        "examples": [
+          {
+            "sentence": "You should [soften] the butter before mixing it.",
+            "translation_zh_TW": "在混合之前你應該讓黃油變軟。"
+          },
+          {
+            "sentence": "The rain will [soften] the ground.",
+            "translation_zh_TW": "雨水會使土地變得柔軟。"
+          },
+          {
+            "sentence": "She tried to [soften] his harsh words.",
+            "translation_zh_TW": "她試圖緩和他嚴厲的話語。"
+          }
+        ],
+        "synonyms": [
+          "mellow",
+          "diminish"
+        ]
+      }
+    ],
+    "confusion": [
+      "soft",
+      "softer",
+      "sough",
+      "soff"
+    ]
+  },
+  {
+    "word": "interpretation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The action of explaining the meaning of something.",
+        "meaning_zh_TW": "解釋、闡釋",
+        "wrong_meaning_zh_TW": [
+          "誤解、錯誤",
+          "預測、預言",
+          "模擬、演示"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [interpretation] of the song was unique.",
+            "translation_zh_TW": "她對這首歌的解釋很獨特。"
+          },
+          {
+            "sentence": "The [interpretation] of the law can vary.",
+            "translation_zh_TW": "對法律的解釋可能會有所不同。"
+          },
+          {
+            "sentence": "His [interpretation] of the painting was insightful.",
+            "translation_zh_TW": "他對這幅畫的闡釋極具洞察力。"
+          }
+        ],
+        "synonyms": [
+          "explanation",
+          "clarification"
+        ]
+      }
+    ],
+    "confusion": [
+      "interruption",
+      "interpolation",
+      "interpret",
+      "interpersonal"
+    ]
+  },
+  {
+    "word": "ballot",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A process of voting, in writing and typically in secret.",
+        "meaning_zh_TW": "投票",
+        "wrong_meaning_zh_TW": [
+          "議會",
+          "投票箱",
+          "選舉事務"
+        ],
+        "examples": [
+          {
+            "sentence": "Each citizen received a [ballot] for the election.",
+            "translation_zh_TW": "每位公民都收到了選舉的投票。"
+          },
+          {
+            "sentence": "He filled out his [ballot] carefully.",
+            "translation_zh_TW": "他小心翼翼地填寫了投票。"
+          },
+          {
+            "sentence": "The [ballot] counting will begin after the polls close.",
+            "translation_zh_TW": "投票開始後，計票將會開始。"
+          }
+        ],
+        "synonyms": [
+          "vote",
+          "referendum"
+        ]
+      }
+    ],
+    "confusion": [
+      "ballade",
+      "ballet",
+      "ballistics",
+      "balloter"
     ]
   }
 ]

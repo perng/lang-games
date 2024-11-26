@@ -1,235 +1,782 @@
 [
   {
-    "word": "feminine",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having qualities traditionally ascribed to women, such as gentleness and nurturing.",
-        "meaning_zh_TW": "女性的",
-        "wrong_meaning_zh_TW": [
-          "男性的",
-          "中性的",
-          "無性的"
-        ],
-        "examples": [
-          {
-            "sentence": "Her dress had a very [feminine] design.",
-            "translation_zh_TW": "她的裙子設計非常女性化"
-          },
-          {
-            "sentence": "The character exhibits [feminine] traits in her actions.",
-            "translation_zh_TW": "這個角色的行為展現了女性特質"
-          },
-          {
-            "sentence": "They promote [feminine] values in their marketing.",
-            "translation_zh_TW": "他們的營銷中提倡女性價值觀"
-          }
-        ],
-        "synonyms": [
-          "womanly",
-          "ladylike"
-        ]
-      }
-    ],
-    "confusion": [
-      "feminine",
-      "feminism",
-      "female",
-      "femininity"
-    ]
-  },
-  {
-    "word": "inventory",
+    "word": "Celsius",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A complete list of items such as goods in stock or the contents of a warehouse.",
-        "meaning_zh_TW": "庫存",
+        "meaning_en_US": "A scale used for measuring temperature where 0 degrees is the freezing point of water.",
+        "meaning_zh_TW": "攝氏",
         "wrong_meaning_zh_TW": [
-          "賬單",
-          "報表",
-          "貨物"
+          "華氏",
+          "凍結",
+          "煮沸"
         ],
         "examples": [
           {
-            "sentence": "The store needs to conduct an inventory of its products.",
-            "translation_zh_TW": "這家店需要進行產品的庫存清點。"
+            "sentence": "Water freezes at 0 degrees [Celsius].",
+            "translation_zh_TW": "水在0度攝氏時凍結"
           },
           {
-            "sentence": "He checked the inventory to see what items needed to be reordered.",
-            "translation_zh_TW": "他檢查庫存以查看需要重新訂購的項目。"
+            "sentence": "He prefers his drinks at 12 degrees [Celsius].",
+            "translation_zh_TW": "他喜歡他的飲料在12度攝氏"
           },
           {
-            "sentence": "An annual inventory helps in tracking the company's assets.",
-            "translation_zh_TW": "年度盤點有助於追蹤公司的資產。"
+            "sentence": "The recipe requires the oven to be set at 180 degrees [Celsius].",
+            "translation_zh_TW": "食譜要求爐子設定在180度攝氏"
           }
         ],
         "synonyms": [
-          "stock",
-          "list"
+          "centigrade"
         ]
       }
     ],
     "confusion": [
-      "invent",
-      "inventor",
-      "invention",
-      "inventorying"
+      "Celsis",
+      "Celsiuis",
+      "Celsuis",
+      "Celsium"
     ]
   },
   {
-    "word": "fury",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Wild or violent anger.",
-        "meaning_zh_TW": "狂怒",
-        "wrong_meaning_zh_TW": [
-          "安寧",
-          "智慧",
-          "快樂"
-        ],
-        "examples": [
-          {
-            "sentence": "She shouted in [fury] when she saw the mess.",
-            "translation_zh_TW": "當她看到這個混亂時大聲吼叫，心中充滿了狂怒。"
-          },
-          {
-            "sentence": "His [fury] was uncontrollable after the betrayal.",
-            "translation_zh_TW": "在背叛之後，他的狂怒無法控制。"
-          },
-          {
-            "sentence": "They faced the [fury] of the storm.",
-            "translation_zh_TW": "他們面對著風暴的狂怒。"
-          }
-        ],
-        "synonyms": [
-          "anger",
-          "rage"
-        ]
-      }
-    ],
-    "confusion": [
-      "furry",
-      "fury's",
-      "fairy",
-      "furry"
-    ]
-  },
-  {
-    "word": "privatize",
+    "word": "transmit",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To change (a publicly owned enterprise) to private ownership.",
-        "meaning_zh_TW": "私有化",
+        "meaning_en_US": "Cause (something) to pass on from one place or person to another.",
+        "meaning_zh_TW": "傳送",
         "wrong_meaning_zh_TW": [
-          "公開化",
-          "團體化",
-          "出售"
+          "接收",
+          "打擾",
+          "拒絕"
         ],
         "examples": [
           {
-            "sentence": "The government plans to [privatize] several services.",
-            "translation_zh_TW": "政府計劃對幾項服務進行私有化。"
+            "sentence": "The radio station will [transmit] the concert live.",
+            "translation_zh_TW": "廣播電台將現場傳送音樂會"
           },
           {
-            "sentence": "They decided to [privatize] the water supply company.",
-            "translation_zh_TW": "他們決定將水供應公司私有化。"
+            "sentence": "Viruses can [transmit] from one person to another.",
+            "translation_zh_TW": "病毒可以在人與人之間傳播"
           },
           {
-            "sentence": "Many industries were [privatized] in the 1990s.",
-            "translation_zh_TW": "許多行業在1990年代被私有化。"
+            "sentence": "The data will [transmit] through the network.",
+            "translation_zh_TW": "數據將通過網絡進行傳送"
           }
         ],
         "synonyms": [
-          "denationalize",
-          "liberalize"
+          "send",
+          "broadcast"
         ]
       }
     ],
     "confusion": [
-      "privilege",
-      "private",
-      "provatize",
-      "privatization"
+      "transplant",
+      "transfer",
+      "transgression",
+      "transmitted"
     ]
   },
   {
-    "word": "examiner",
+    "word": "lighten",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A person who inspects or assesses something, especially in an educational context.",
-        "meaning_zh_TW": "考官",
+        "type": "動詞",
+        "meaning_en_US": "To make or become lighter in weight, color, or mood.",
+        "meaning_zh_TW": "變輕",
         "wrong_meaning_zh_TW": [
-          "考試",
-          "學生",
-          "報告"
+          "加重",
+          "掩蓋",
+          "淹沒"
         ],
         "examples": [
           {
-            "sentence": "The [examiner] reviewed the papers carefully.",
-            "translation_zh_TW": "考官仔細審查了試卷。"
+            "sentence": "She decided to [lighten] her hair color for the summer.",
+            "translation_zh_TW": "她決定在夏天變輕髮色."
           },
           {
-            "sentence": "Each [examiner] has their own grading criteria.",
-            "translation_zh_TW": "每位考官都有自己的評分標準。"
+            "sentence": "He told a joke to [lighten] the mood.",
+            "translation_zh_TW": "他講了一個笑話來輕鬆氣氛."
           },
           {
-            "sentence": "The [examiner] will announce the results next week.",
-            "translation_zh_TW": "考官下周將公布結果。"
+            "sentence": "They wanted to [lighten] the load before the hike.",
+            "translation_zh_TW": "他們想在徒步旅行前減輕負擔."
           }
         ],
         "synonyms": [
-          "assessor",
-          "evaluator"
+          "alleviate",
+          "ease"
         ]
       }
     ],
     "confusion": [
-      "examiner",
-      "exam",
-      "examine",
-      "exempt"
+      "lightens",
+      "lightner",
+      "lightin",
+      "lightnin"
     ]
   },
   {
-    "word": "widow",
+    "word": "grumble",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A woman whose spouse has died and who has not remarried.",
-        "meaning_zh_TW": "寡婦",
+        "type": "動詞",
+        "meaning_en_US": "To complain or protest about something in a quiet but persistent manner.",
+        "meaning_zh_TW": "低聲抱怨",
         "wrong_meaning_zh_TW": [
-          "女兒",
-          "姐妹",
-          "母親"
+          "大聲歡呼",
+          "高唱歡樂歌",
+          "全心讚美"
         ],
         "examples": [
           {
-            "sentence": "She became a [widow] after her husband passed away.",
-            "translation_zh_TW": "在丈夫去世後，她成為了寡婦。"
+            "sentence": "She began to [grumble] about the weather.",
+            "translation_zh_TW": "她開始低聲抱怨天氣。"
           },
           {
-            "sentence": "The [widow] lived alone in a small cottage.",
-            "translation_zh_TW": "這位寡婦獨自在一間小小的小屋裡生活。"
+            "sentence": "He always [grumbles] when he has to work late.",
+            "translation_zh_TW": "每當他需要加班時，他總是低聲抱怨。"
           },
           {
-            "sentence": "The story revolves around a lonely [widow].",
-            "translation_zh_TW": "這個故事圍繞著一位孤獨的寡婦。"
+            "sentence": "The children [grumbled] after the long hike.",
+            "translation_zh_TW": "孩子們在長途健行後低聲抱怨。"
           }
         ],
         "synonyms": [
-          "bereaved woman"
+          "complain",
+          "mutter"
         ]
       }
     ],
     "confusion": [
-      "widower",
-      "window",
-      "widows",
-      "widdow"
+      "grumple",
+      "grumblee",
+      "grumblee",
+      "grmble"
+    ]
+  },
+  {
+    "word": "emigrant",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who leaves their country to settle in another.",
+        "meaning_zh_TW": "移民",
+        "wrong_meaning_zh_TW": [
+          "居民",
+          "觀光客",
+          "本地人"
+        ],
+        "examples": [
+          {
+            "sentence": "The [emigrant] shared stories of their journey.",
+            "translation_zh_TW": "移民分享了他們旅程的故事。"
+          },
+          {
+            "sentence": "Many [emigrants] face challenges when adapting to a new culture.",
+            "translation_zh_TW": "許多移民在適應新文化時面臨挑戰。"
+          },
+          {
+            "sentence": "An [emigrant] must navigate the complexities of immigration laws.",
+            "translation_zh_TW": "移民必須應對移民法的複雜性。"
+          }
+        ],
+        "synonyms": [
+          "migrant",
+          "refugee"
+        ]
+      }
+    ],
+    "confusion": [
+      "immigrant",
+      "emigrate",
+      "emigration",
+      "emigratee"
+    ]
+  },
+  {
+    "word": "fertility",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The quality of being able to produce offspring or vegetation.",
+        "meaning_zh_TW": "生育能力",
+        "wrong_meaning_zh_TW": [
+          "不育",
+          "絕種",
+          "貧瘠"
+        ],
+        "examples": [
+          {
+            "sentence": "The study focused on enhancing the [fertility] of the soil.",
+            "translation_zh_TW": "這項研究專注於提升土壤的生育能力"
+          },
+          {
+            "sentence": "Fertility treatments can help couples conceive.",
+            "translation_zh_TW": "生育治療可以幫助夫妻受孕"
+          },
+          {
+            "sentence": "Different factors affect the [fertility] rates of various species.",
+            "translation_zh_TW": "不同因素影響著各物種的生育率"
+          }
+        ],
+        "synonyms": [
+          "reproductive capacity",
+          "fecundity"
+        ]
+      }
+    ],
+    "confusion": [
+      "fertilizer",
+      "fertilization",
+      "fertility coach",
+      "fertile"
+    ]
+  },
+  {
+    "word": "cosmetics",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Products applied to the body for beautification.",
+        "meaning_zh_TW": "化妝品",
+        "wrong_meaning_zh_TW": [
+          "某種材料",
+          "衣物配件",
+          "裝飾品"
+        ],
+        "examples": [
+          {
+            "sentence": "She has a wide collection of [cosmetics] in her vanity.",
+            "translation_zh_TW": "她的梳妝台上有各式各樣的化妝品"
+          },
+          {
+            "sentence": "The new line of [cosmetics] is popular among young people.",
+            "translation_zh_TW": "這條新系列的化妝品在年輕人中很受歡迎"
+          },
+          {
+            "sentence": "He decided to open a store selling [cosmetics].",
+            "translation_zh_TW": "他決定開一家賣化妝品的商店"
+          }
+        ],
+        "synonyms": [
+          "beautifiers",
+          "makeup"
+        ]
+      }
+    ],
+    "confusion": [
+      "cosmetic",
+      "costmetics",
+      "costmetic",
+      "cosmetis"
+    ]
+  },
+  {
+    "word": "cucumber",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A long green vegetable that is eaten raw or pickled.",
+        "meaning_zh_TW": "黃瓜",
+        "wrong_meaning_zh_TW": [
+          "南瓜",
+          "綠豆",
+          "藤瓜"
+        ],
+        "examples": [
+          {
+            "sentence": "I added sliced [cucumber] to my salad.",
+            "translation_zh_TW": "我在沙拉中加入了切片的黃瓜。"
+          },
+          {
+            "sentence": "He enjoys eating [cucumber] with dip.",
+            "translation_zh_TW": "他喜歡搭配醬料吃黃瓜。"
+          },
+          {
+            "sentence": "The [cucumber] was fresh and crunchy.",
+            "translation_zh_TW": "那根黃瓜新鮮而脆嫩。"
+          }
+        ],
+        "synonyms": [
+          "gherkin",
+          "veg"
+        ]
+      }
+    ],
+    "confusion": [
+      "cumcumber",
+      "cucumbar",
+      "cucumbers",
+      "cucum"
+    ]
+  },
+  {
+    "word": "migrant",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who moves from one place to another, especially to find work.",
+        "meaning_zh_TW": "移民",
+        "wrong_meaning_zh_TW": [
+          "根源",
+          "運動員",
+          "觀察者"
+        ],
+        "examples": [
+          {
+            "sentence": "The [migrant] workers helped build the city's infrastructure.",
+            "translation_zh_TW": "移民工人幫助建設該市的基礎設施。"
+          },
+          {
+            "sentence": "Many [migrant] families seek better opportunities.",
+            "translation_zh_TW": "許多移民家庭尋求更好的機會。"
+          },
+          {
+            "sentence": "This region is home to a large number of [migrant] populations.",
+            "translation_zh_TW": "該地區擁有大量移民人口。"
+          }
+        ],
+        "synonyms": [
+          "immigrant",
+          "refugee"
+        ]
+      }
+    ],
+    "confusion": [
+      "migratory",
+      "magnet",
+      "migration",
+      "magnitude"
+    ]
+  },
+  {
+    "word": "feasible",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Capable of being done or carried out.",
+        "meaning_zh_TW": "可行的",
+        "wrong_meaning_zh_TW": [
+          "不可能的",
+          "非常困難",
+          "極為繁瑣"
+        ],
+        "examples": [
+          {
+            "sentence": "Is this plan [feasible] within the given timeframe?",
+            "translation_zh_TW": "這個計畫在給定的時間內可行嗎？"
+          },
+          {
+            "sentence": "They conducted a study to determine if the project was [feasible].",
+            "translation_zh_TW": "他們進行了一項研究以確定該項目是否可行。"
+          },
+          {
+            "sentence": "Finding a [feasible] solution required innovative thinking.",
+            "translation_zh_TW": "找到一個可行的解決方案需要創新思維。"
+          }
+        ],
+        "synonyms": [
+          "viable",
+          "workable"
+        ]
+      }
+    ],
+    "confusion": [
+      "feasable",
+      "feasibility",
+      "feasibillity",
+      "feasbile"
+    ]
+  },
+  {
+    "word": "suspension",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The action of suspending someone or something or the condition of being suspended.",
+        "meaning_zh_TW": "暫停",
+        "wrong_meaning_zh_TW": [
+          "設計",
+          "整體",
+          "系統"
+        ],
+        "examples": [
+          {
+            "sentence": "His [suspension] from school was due to repeated violations.",
+            "translation_zh_TW": "他因違規多次而被暫停學校的學籍。"
+          },
+          {
+            "sentence": "The [suspension] of the project was announced last week.",
+            "translation_zh_TW": "該項目的暫停上周已經宣布。"
+          },
+          {
+            "sentence": "She faced [suspension] from her job after the incident.",
+            "translation_zh_TW": "事件後她面臨暫停工作的處罰。"
+          }
+        ],
+        "synonyms": [
+          "break",
+          "halt"
+        ]
+      }
+    ],
+    "confusion": [
+      "suspend",
+      "suspense",
+      "suspen",
+      "suspensor"
+    ]
+  },
+  {
+    "word": "editorial",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An article in a publication expressing the opinion of its editors or publishers.",
+        "meaning_zh_TW": "社論",
+        "wrong_meaning_zh_TW": [
+          "報導",
+          "編程",
+          "對話"
+        ],
+        "examples": [
+          {
+            "sentence": "The [editorial] on climate change was thought-provoking.",
+            "translation_zh_TW": "關於氣候變化的社論引人深思。"
+          },
+          {
+            "sentence": "She wrote an [editorial] advocating for better education.",
+            "translation_zh_TW": "她寫了一篇社論主張改善教育。"
+          },
+          {
+            "sentence": "The [editorial] team meets every week to discuss issues.",
+            "translation_zh_TW": "社論團隊每週會面討論問題。"
+          }
+        ],
+        "synonyms": [
+          "commentary",
+          "article"
+        ]
+      }
+    ],
+    "confusion": [
+      "editor",
+      "editorials",
+      "editions",
+      "edifying"
+    ]
+  },
+  {
+    "word": "decisive",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having the ability to make decisions quickly and effectively.",
+        "meaning_zh_TW": "果斷的",
+        "wrong_meaning_zh_TW": [
+          "猶豫不決的",
+          "模糊的",
+          "無效的"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [decisive] actions led to a swift resolution.",
+            "translation_zh_TW": "她果斷的行動導致了迅速的解決"
+          },
+          {
+            "sentence": "He needs to be more [decisive] in his choices.",
+            "translation_zh_TW": "他在選擇上需要更加果斷"
+          },
+          {
+            "sentence": "A [decisive] leader can inspire confidence in others.",
+            "translation_zh_TW": "果斷的領導者能夠激勵他人的信心"
+          }
+        ],
+        "synonyms": [
+          "resolute",
+          "conclusive"
+        ]
+      }
+    ],
+    "confusion": [
+      "decisively",
+      "decide",
+      "decided",
+      "decisiveley"
+    ]
+  },
+  {
+    "word": "diabetes",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A medical condition in which the body is unable to properly process food, resulting in high blood sugar levels.",
+        "meaning_zh_TW": "糖尿病",
+        "wrong_meaning_zh_TW": [
+          "高血壓",
+          "心臟病",
+          "過敏"
+        ],
+        "examples": [
+          {
+            "sentence": "He was diagnosed with [diabetes] last year.",
+            "translation_zh_TW": "他去年被診斷為糖尿病。"
+          },
+          {
+            "sentence": "Managing [diabetes] requires careful diet and exercise.",
+            "translation_zh_TW": "控制糖尿病需要注意飲食和運動。"
+          },
+          {
+            "sentence": "People with [diabetes] must monitor their blood sugar levels.",
+            "translation_zh_TW": "糖尿病患者必須監測自己的血糖水平。"
+          }
+        ],
+        "synonyms": [
+          "hyperglycemia",
+          "glycosuria"
+        ]
+      }
+    ],
+    "confusion": [
+      "diabetic",
+      "diadem",
+      "dialetic",
+      "diagnosis"
+    ]
+  },
+  {
+    "word": "India",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A country in South Asia known for its diverse culture and history.",
+        "meaning_zh_TW": "印度",
+        "wrong_meaning_zh_TW": [
+          "印象派",
+          "銀髮族",
+          "音調"
+        ],
+        "examples": [
+          {
+            "sentence": "[India] is famous for its rich spices and cuisines.",
+            "translation_zh_TW": "[印度]以其豐富的香料和菜餚聞名。"
+          },
+          {
+            "sentence": "She plans to travel to [India] for a spiritual retreat.",
+            "translation_zh_TW": "她計劃去[印度]進行靈性靜修。"
+          },
+          {
+            "sentence": "The Taj Mahal is an iconic landmark in [India].",
+            "translation_zh_TW": "[印度]的泰姬瑪哈陵是一個標誌性地標。"
+          }
+        ],
+        "synonyms": [
+          "Bharat",
+          "Republic of India"
+        ]
+      }
+    ],
+    "confusion": [
+      "Inda",
+      "Inida",
+      "Inda",
+      "Inidaa"
+    ]
+  },
+  {
+    "word": "cigar",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A cylindrical roll of tobacco that is smoked.",
+        "meaning_zh_TW": "雪茄",
+        "wrong_meaning_zh_TW": [
+          "包裝",
+          "糖果",
+          "煙霧"
+        ],
+        "examples": [
+          {
+            "sentence": "He lit a [cigar] while sitting on the porch.",
+            "translation_zh_TW": "他坐在門廊上時點燃了一根雪茄。"
+          },
+          {
+            "sentence": "The [cigar] has a rich flavor.",
+            "translation_zh_TW": "這根雪茄的味道很濃郁。"
+          },
+          {
+            "sentence": "She gifted him a box of [cigar]s.",
+            "translation_zh_TW": "她送了他一盒雪茄。"
+          }
+        ],
+        "synonyms": [
+          "tobacco",
+          "smoke"
+        ]
+      }
+    ],
+    "confusion": [
+      "cigaret",
+      "sigar",
+      "cigars",
+      "sigaret"
+    ]
+  },
+  {
+    "word": "counterpart",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person or thing that corresponds to another.",
+        "meaning_zh_TW": "對應的人或物",
+        "wrong_meaning_zh_TW": [
+          "無關的物件",
+          "常見的習慣",
+          "相似的特徵"
+        ],
+        "examples": [
+          {
+            "sentence": "The American CEO met with her French [counterpart].",
+            "translation_zh_TW": "美國的首席執行官與她的法國對應者會面"
+          },
+          {
+            "sentence": "Each member has a [counterpart] in another country.",
+            "translation_zh_TW": "每位成員在另一個國家都有一位對應者"
+          },
+          {
+            "sentence": "The two [counterparts] discussed collaboration.",
+            "translation_zh_TW": "兩位對應者討論了合作事宜"
+          }
+        ],
+        "synonyms": [
+          "equivalent",
+          "peer"
+        ]
+      }
+    ],
+    "confusion": [
+      "counterparties",
+      "counterparts",
+      "counterpoint",
+      "counterparted"
+    ]
+  },
+  {
+    "word": "expiration",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The end of the period for which something is valid.",
+        "meaning_zh_TW": "期滿",
+        "wrong_meaning_zh_TW": [
+          "開始",
+          "更新",
+          "延長"
+        ],
+        "examples": [
+          {
+            "sentence": "The [expiration] date on the milk is tomorrow.",
+            "translation_zh_TW": "牛奶的[期滿]日期是明天。"
+          },
+          {
+            "sentence": "Please check the [expiration] of your passport.",
+            "translation_zh_TW": "請檢查你的護照的[有效期]。"
+          },
+          {
+            "sentence": "After the [expiration], the product may not be safe to use.",
+            "translation_zh_TW": "在[到期]後，產品可能不再安全使用。"
+          }
+        ],
+        "synonyms": [
+          "expiry",
+          "termination",
+          "conclusion"
+        ]
+      }
+    ],
+    "confusion": [
+      "expire",
+      "expiratory",
+      "exploration",
+      "expirationary"
+    ]
+  },
+  {
+    "word": "narrate",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To tell a story or account of something.",
+        "meaning_zh_TW": "敘述",
+        "wrong_meaning_zh_TW": [
+          "解釋",
+          "強調",
+          "描述"
+        ],
+        "examples": [
+          {
+            "sentence": "He was asked to [narrate] the documentary.",
+            "translation_zh_TW": "他被要求為該紀錄片敘述。"
+          },
+          {
+            "sentence": "She loves to [narrate] her adventures.",
+            "translation_zh_TW": "她喜歡敘述她的冒險故事。"
+          },
+          {
+            "sentence": "Could you [narrate] what happened at the event?",
+            "translation_zh_TW": "你能敘述一下活動中發生的事情嗎？"
+          }
+        ],
+        "synonyms": [
+          "tell",
+          " recount"
+        ]
+      }
+    ],
+    "confusion": [
+      "narrow",
+      "narrative",
+      "narrator",
+      "nart"
+    ]
+  },
+  {
+    "word": "affiliate",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To officially attach or connect to an organization.",
+        "meaning_zh_TW": "附屬",
+        "wrong_meaning_zh_TW": [
+          "分開",
+          "獨立",
+          "鬆散"
+        ],
+        "examples": [
+          {
+            "sentence": "We decided to [affiliate] with a larger network.",
+            "translation_zh_TW": "我們決定與更大的網絡附屬。"
+          },
+          {
+            "sentence": "The company will [affiliate] with a non-profit.",
+            "translation_zh_TW": "該公司將與一家非營利機構附屬。"
+          },
+          {
+            "sentence": "Many clubs [affiliate] under one umbrella organization.",
+            "translation_zh_TW": "許多俱樂部在一個總體組織下附屬。"
+          }
+        ],
+        "synonyms": [
+          "associate",
+          "join"
+        ]
+      }
+    ],
+    "confusion": [
+      "affiliation",
+      "afflicted",
+      "affiliates",
+      "affilicate"
     ]
   }
 ]

@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { IoArrowBack } from 'react-icons/io5';
 import { FaCheckCircle } from 'react-icons/fa';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { getStorageWithCookie, setStorage } from '../../../utils/storage';
 
 const PROGRESS_RECALC_FLAG = 'wf-312';
@@ -76,18 +76,6 @@ const interpolateColor = (color1: string, color2: string, factor: number) => {
     return rgbToHex(r, g, b);
 };
 
-// Helper function to adjust a color's brightness
-const adjustColor = (color: string, percent: number) => {
-    const { r, g, b } = hexToRgb(color);
-    const amount = Math.round(2.55 * percent);
-    
-    const nr = Math.min(255, Math.max(0, r + amount));
-    const ng = Math.min(255, Math.max(0, g + amount));
-    const nb = Math.min(255, Math.max(0, b + amount));
-    
-    return rgbToHex(nr, ng, nb);
-};
-
 // Helper functions for color conversion
 const hexToRgb = (hex: string) => {
     const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
@@ -122,6 +110,7 @@ export default function WordFlashMenu() {
     const navigate = useNavigate();
     const [levels, setLevels] = useState<Level[]>([]);
     const [isLoading, setIsLoading] = useState(true);
+    const firstIncompleteLevelRef = useRef<HTMLAnchorElement | null>(null);
 
     // First useEffect: Initial load of levels and their progress
     useEffect(() => {
@@ -223,6 +212,24 @@ export default function WordFlashMenu() {
         recalculateProgress();
     }, [levels]); // Depends on levels array, but will only recalculate once due to 'wf-62' flag
 
+    // Add a new useEffect for scrolling
+    useEffect(() => {
+        if (!isLoading && levels.length > 0) {
+            // Find the first incomplete level
+            const firstIncompleteIndex = levels.findIndex(level => (level.progress ?? 0) < 100);
+            
+            if (firstIncompleteIndex !== -1 && firstIncompleteLevelRef.current) {
+                // Scroll with a slight delay to ensure DOM is ready
+                setTimeout(() => {
+                    firstIncompleteLevelRef.current?.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center'
+                    });
+                }, 100);
+            }
+        }
+    }, [isLoading, levels]);
+
     return (
         <div className="word-flash-menu">
             <header>
@@ -239,34 +246,41 @@ export default function WordFlashMenu() {
                 {isLoading ? (
                     <div className="loading">Loading levels...</div>
                 ) : (
-                    levels.map(level => (
-                        <Link 
-                            key={level.id} 
-                            to={`/word-flash/${level.id}`} 
-                            className="level-item"
-                            style={{
-                                '--bg-light': getBackgroundColors(level.progress ?? 0).light,
-                                '--bg-lighter': getBackgroundColors(level.progress ?? 0).lighter,
-                                '--progress-color': level.progress === 100 ? '#4CAF50' : '#2196f3',
-                            } as React.CSSProperties}
-                        >
-                            <div className="level-number">
-                                {level.id.split('_').pop()}
-                                {level.progress === 100 && (
-                                    <FaCheckCircle className="complete-check" />
-                                )}
-                            </div>
-                            <div className="level-info">
-                                <p className="level-title">{formatTitle(level.title)}</p>
-                                <div className="progress-bar">
-                                    <div 
-                                        className="progress-fill" 
-                                        style={{ width: `${level.progress ?? 0}%` }}
-                                    />
+                    levels.map((level, index) => {
+                        // Check if this is the first incomplete level
+                        const isFirstIncomplete = 
+                            index === levels.findIndex(l => (l.progress ?? 0) < 100);
+
+                        return (
+                            <Link 
+                                key={level.id} 
+                                ref={isFirstIncomplete ? firstIncompleteLevelRef : null}
+                                to={`/word-flash/${level.id}`} 
+                                className="level-item"
+                                style={{
+                                    '--bg-light': getBackgroundColors(level.progress ?? 0).light,
+                                    '--bg-lighter': getBackgroundColors(level.progress ?? 0).lighter,
+                                    '--progress-color': level.progress === 100 ? '#4CAF50' : '#2196f3',
+                                } as React.CSSProperties}
+                            >
+                                <div className="level-number">
+                                    {level.id.split('_').pop()}
+                                    {level.progress === 100 && (
+                                        <FaCheckCircle className="complete-check" />
+                                    )}
                                 </div>
-                            </div>
-                        </Link>
-                    ))
+                                <div className="level-info">
+                                    <p className="level-title">{formatTitle(level.title)}</p>
+                                    <div className="progress-bar">
+                                        <div 
+                                            className="progress-fill" 
+                                            style={{ width: `${level.progress ?? 0}%` }}
+                                        />
+                                    </div>
+                                </div>
+                            </Link>
+                        );
+                    })
                 )}
             </main>
         </div>

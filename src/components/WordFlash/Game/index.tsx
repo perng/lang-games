@@ -231,8 +231,11 @@ export default function WordFlashGame() {
     // Move calculateStats to a memoized value
     const stats = useMemo(() => {
         const totalMeanings = wordList.length;
-        const masteredMeanings = wordList.filter(item => item.score >= 0).length;
+        console.log('totalMeanings:', totalMeanings);
+        const masteredMeanings = wordList.filter(item => item.score > 0).length;
+        console.log('masteredMeanings:', masteredMeanings);
         const wordsToReview = wordList.filter(item => item.score < 0.4).length;
+        console.log('wordsToReview:', wordsToReview);
         
         return {
             progress: totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100).toFixed(2) : "0.00",
@@ -343,8 +346,6 @@ export default function WordFlashGame() {
                 await new Promise(resolve => setTimeout(resolve, 1500));
                 setIsDying(false);
             }
-
-            setStorage(cookieKey, Math.max(currentScore - 0.5, -0.5).toString());
 
             console.log(`Updated score for ${currentWord.word} to ${getStorageWithCookie(cookieKey)}`);
             await new Promise(resolve => setTimeout(resolve, 500));

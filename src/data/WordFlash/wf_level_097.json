@@ -1,811 +1,773 @@
 [
   {
-    "word": "jog",
+    "word": "bill",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A statement of money owed for goods or services.",
+        "meaning_zh_TW": "帳單",
+        "wrong_meaning_zh_TW": [
+          "報告，陳述",
+          "工具，設備",
+          "法律，條例"
+        ],
+        "examples": [
+          {
+            "sentence": "He received a [bill] for the electricity.",
+            "translation_zh_TW": "他收到了電費帳單"
+          },
+          {
+            "sentence": "Make sure to pay the [bill] before the due date.",
+            "translation_zh_TW": "確保在截止日期前支付帳單"
+          },
+          {
+            "sentence": "The restaurant added a service [bill] to our tab.",
+            "translation_zh_TW": "餐廳在我們的帳單上增加了一項服務費"
+          }
+        ],
+        "synonyms": [
+          "invoice",
+          "statement",
+          "tab"
+        ]
+      }
+    ],
+    "confusion": [
+      "bills",
+      "ball",
+      "billow",
+      "billie"
+    ]
+  },
+  {
+    "word": "range",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The area of variation between upper and lower limits on a particular dimension.",
+        "meaning_zh_TW": "範圍",
+        "wrong_meaning_zh_TW": [
+          "範例",
+          "重點",
+          "風景"
+        ],
+        "examples": [
+          {
+            "sentence": "The temperature can vary within a large [range].",
+            "translation_zh_TW": "溫度可以在一個大的範圍內變化。"
+          },
+          {
+            "sentence": "Please select a [range] of options to choose from.",
+            "translation_zh_TW": "請選擇一系列選項來進行選擇。"
+          },
+          {
+            "sentence": "The service covers a [range] of locations.",
+            "translation_zh_TW": "該服務涵蓋多個地點。"
+          }
+        ],
+        "synonyms": [
+          "scope",
+          "extent"
+        ]
+      }
+    ],
+    "confusion": [
+      "strange",
+      "ranger",
+      "ranged",
+      "reign"
+    ]
+  },
+  {
+    "word": "absent",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Not present in a place, typically a person's absence.",
+        "meaning_zh_TW": "缺席的",
+        "wrong_meaning_zh_TW": [
+          "在場的",
+          "常有的",
+          "參加的"
+        ],
+        "examples": [
+          {
+            "sentence": "He was [absent] from school yesterday.",
+            "translation_zh_TW": "他昨天缺席學校"
+          },
+          {
+            "sentence": "The [absent] student missed an important test.",
+            "translation_zh_TW": "缺席的學生錯過了一個重要考試"
+          },
+          {
+            "sentence": "She felt [absent] from her own life.",
+            "translation_zh_TW": "她感覺自己在自己的生活中缺席"
+          }
+        ],
+        "synonyms": [
+          "missing",
+          "unavailable"
+        ]
+      }
+    ],
+    "confusion": [
+      "absentt",
+      "absemt",
+      "absetn",
+      "absens"
+    ]
+  },
+  {
+    "word": "dancer",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who dances.",
+        "meaning_zh_TW": "舞者",
+        "wrong_meaning_zh_TW": [
+          "歌手",
+          "演員",
+          "節目主持人"
+        ],
+        "examples": [
+          {
+            "sentence": "The [dancer] amazed the audience with her skills.",
+            "translation_zh_TW": "這位舞者用她的技巧驚艷了觀眾。"
+          },
+          {
+            "sentence": "Every year, the [dancer] performs at the festival.",
+            "translation_zh_TW": "每年，這位舞者都會在節日演出。"
+          },
+          {
+            "sentence": "She trained hard to become a professional [dancer].",
+            "translation_zh_TW": "她努力訓練以成為一名專業舞者。"
+          }
+        ],
+        "synonyms": [
+          "performer",
+          "ballerina"
+        ]
+      }
+    ],
+    "confusion": [
+      "dancer",
+      "dancers",
+      "dancing",
+      "changer"
+    ]
+  },
+  {
+    "word": "grape",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A small, round, smooth-skinned fruit that grows in clusters on vines.",
+        "meaning_zh_TW": "葡萄",
+        "wrong_meaning_zh_TW": [
+          "檸檬",
+          "香蕉",
+          "藍莓"
+        ],
+        "examples": [
+          {
+            "sentence": "She picked a fresh [grape] from the vine.",
+            "translation_zh_TW": "她從藤上摘下一顆新鮮的葡萄"
+          },
+          {
+            "sentence": "He loves to eat a bowl of mixed [grapes].",
+            "translation_zh_TW": "他喜歡吃一碗拼盤葡萄"
+          },
+          {
+            "sentence": "The juice was made from organic [grapes].",
+            "translation_zh_TW": "這汁是用有機葡萄製成的"
+          }
+        ],
+        "synonyms": [
+          "berry",
+          "fruit"
+        ]
+      }
+    ],
+    "confusion": [
+      "grapevine",
+      "grapefruit",
+      "grope",
+      "grace"
+    ]
+  },
+  {
+    "word": "disappear",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To run at a steady, gentle pace, often for exercise.",
-        "meaning_zh_TW": "慢跑",
+        "meaning_en_US": "To cease to be visible.",
+        "meaning_zh_TW": "消失",
         "wrong_meaning_zh_TW": [
-          "加速",
-          "跳舞",
-          "散步"
+          "出現",
+          "顯示",
+          "保持"
         ],
         "examples": [
           {
-            "sentence": "I like to [jog] in the morning before work.",
-            "translation_zh_TW": "我喜歡在上班前早晨慢跑。"
+            "sentence": "The magician made the rabbit [disappear].",
+            "translation_zh_TW": "魔術師讓兔子消失了"
           },
           {
-            "sentence": "She jogs three times a week to stay fit.",
-            "translation_zh_TW": "她每週慢跑三次以保持健康。"
+            "sentence": "He watched the clouds [disappear] as the sun came out.",
+            "translation_zh_TW": "他看著雲朵隨著陽光的出現而消失"
           },
           {
-            "sentence": "He went out to [jog] around the park.",
-            "translation_zh_TW": "他出去公園周圍慢跑。"
+            "sentence": "If you don't water the plant, it might [disappear].",
+            "translation_zh_TW": "如果你不澆水，這棵植物可能會消失"
           }
         ],
         "synonyms": [
-          "run",
-          "trot"
+          "vanish",
+          "fade"
         ]
       }
     ],
     "confusion": [
-      "jogging",
-      "jig",
-      "job",
-      "jogger"
+      "disappeared",
+      "disappearing",
+      "dissonance",
+      "dissipate"
     ]
   },
   {
-    "word": "social",
+    "word": "sheet",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to society or its organization.",
-        "meaning_zh_TW": "社會的",
+        "type": "名詞",
+        "meaning_en_US": "A large piece of fabric, paper, or material.",
+        "meaning_zh_TW": "一塊布料、紙張或材料",
         "wrong_meaning_zh_TW": [
-          "個人的",
-          "私人的",
-          "無關的"
+          "樓層",
+          "單位",
+          "槍桿"
         ],
         "examples": [
           {
-            "sentence": "She has a very [social] personality.",
-            "translation_zh_TW": "她是一個非常外向的人"
+            "sentence": "I need a clean [sheet] for the bed.",
+            "translation_zh_TW": "我需要一張乾淨的床單。"
           },
           {
-            "sentence": "The project aims to enhance [social] awareness.",
-            "translation_zh_TW": "該項目旨在提高社會意識"
+            "sentence": "He wrote his notes on a piece of [sheet].",
+            "translation_zh_TW": "他在一張紙上寫下他的筆記。"
           },
           {
-            "sentence": "He enjoys [social] gatherings with friends.",
-            "translation_zh_TW": "他喜歡和朋友的社交聚會"
+            "sentence": "The artist used a large canvas [sheet] for painting.",
+            "translation_zh_TW": "藝術家用一張大畫布來畫畫。"
           }
         ],
         "synonyms": [
-          "communal",
-          "societal"
+          "page",
+          "piece"
         ]
       }
     ],
     "confusion": [
-      "socail",
-      "socal",
-      "soicial",
-      "sociable"
+      "seat",
+      "sleet",
+      "sheep",
+      "shet"
     ]
   },
   {
-    "word": "similar",
+    "word": "measurement",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The size, length, or amount of something, as established by measuring.",
+        "meaning_zh_TW": "測量",
+        "wrong_meaning_zh_TW": [
+          "形狀",
+          "類型",
+          "顏色"
+        ],
+        "examples": [
+          {
+            "sentence": "The [measurement] of the room is 20 by 30 feet.",
+            "translation_zh_TW": "這間房間的測量是20乘30英尺。"
+          },
+          {
+            "sentence": "Accurate [measurement] is crucial in construction.",
+            "translation_zh_TW": "準確的測量在建築中至關重要。"
+          },
+          {
+            "sentence": "We took [measurements] for the new furniture.",
+            "translation_zh_TW": "我們為新家具進行了測量。"
+          }
+        ],
+        "synonyms": [
+          "dimension",
+          "size"
+        ]
+      }
+    ],
+    "confusion": [
+      "measures",
+      "measurements",
+      "measured",
+      "measuring"
+    ]
+  },
+  {
+    "word": "alike",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having a resemblance in appearance, character, or quantity, without being identical.",
-        "meaning_zh_TW": "相似的、類似的",
+        "meaning_en_US": "Similar to; having qualities or characteristics in common.",
+        "meaning_zh_TW": "相似的",
         "wrong_meaning_zh_TW": [
-          "不同的",
+          "普通的",
           "獨特的",
-          "截然不同的"
+          "不同的"
         ],
         "examples": [
           {
-            "sentence": "These two paintings are quite [similar] in style.",
-            "translation_zh_TW": "這兩幅畫的風格相當相似"
+            "sentence": "The twins look so [alike] that it’s hard to tell them apart.",
+            "translation_zh_TW": "這對雙胞胎看起來如此相似，以至於很難區分他們"
           },
           {
-            "sentence": "She has a [similar] taste in music as her friend.",
-            "translation_zh_TW": "她的音樂品味與她的朋友相似"
+            "sentence": "These two proposals are quite [alike] in nature.",
+            "translation_zh_TW": "這兩個提議在本質上相當相似"
           },
           {
-            "sentence": "The twins have very [similar] features.",
-            "translation_zh_TW": "這對雙胞胎有著非常相似的特徵"
+            "sentence": "Though they have different styles, their art is [alike] in theme.",
+            "translation_zh_TW": "雖然他們的風格不同，但他們的藝術在主題上是相似的"
           }
         ],
         "synonyms": [
-          "alike",
-          "comparable"
+          "similar",
+          "like"
         ]
       }
     ],
     "confusion": [
-      "simulate",
-      "similarly",
-      "simile",
-      "similars"
+      "alike!",
+      "liked",
+      "alikee",
+      "alikee"
     ]
   },
   {
-    "word": "deaf",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Lacking the power of hearing or having impaired hearing.",
-        "meaning_zh_TW": "失聰的",
-        "wrong_meaning_zh_TW": [
-          "有聲的",
-          "音樂的",
-          "響亮的"
-        ],
-        "examples": [
-          {
-            "sentence": "She is [deaf], but she communicates well with sign language.",
-            "translation_zh_TW": "她是失聰的，但她用手語交流得很好。"
-          },
-          {
-            "sentence": "Many [deaf] individuals attend specialized schools.",
-            "translation_zh_TW": "許多失聰人士就讀專門學校。"
-          },
-          {
-            "sentence": "Being [deaf] does not limit her abilities.",
-            "translation_zh_TW": "失聰並不限制她的能力。"
-          }
-        ],
-        "synonyms": [
-          "hearing-impaired",
-          "hard of hearing"
-        ]
-      }
-    ],
-    "confusion": [
-      "deafly",
-      "deafness",
-      "deafening",
-      "leaf"
-    ]
-  },
-  {
-    "word": "while",
-    "meanings": [
-      {
-        "type": "連接詞",
-        "meaning_en_US": "During the time that.",
-        "meaning_zh_TW": "在…的同時",
-        "wrong_meaning_zh_TW": [
-          "當時",
-          "再次",
-          "隨便"
-        ],
-        "examples": [
-          {
-            "sentence": "[While] I was reading, she was cooking.",
-            "translation_zh_TW": "我在閱讀的時候，她在做飯"
-          },
-          {
-            "sentence": "You can play [while] I work.",
-            "translation_zh_TW": "你可以在我工作時玩"
-          },
-          {
-            "sentence": "I thought about it [while] walking.",
-            "translation_zh_TW": "我在散步的時候想到了這件事"
-          }
-        ],
-        "synonyms": [
-          "as",
-          "during"
-        ]
-      }
-    ],
-    "confusion": [
-      "wile",
-      "wheel",
-      "whale",
-      "whilee"
-    ]
-  },
-  {
-    "word": "religion",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A system of faith and worship, often involving a belief in a higher power.",
-        "meaning_zh_TW": "宗教信仰",
-        "wrong_meaning_zh_TW": [
-          "科學技術",
-          "人文學科",
-          "社會制度"
-        ],
-        "examples": [
-          {
-            "sentence": "Many people find comfort in their [religion].",
-            "translation_zh_TW": "許多人在他們的宗教信仰中找到安慰"
-          },
-          {
-            "sentence": "The city's [religion] plays a significant role in its culture.",
-            "translation_zh_TW": "這座城市的宗教信仰在其文化中扮演著重要角色"
-          },
-          {
-            "sentence": "He decided to study the world's major [religions].",
-            "translation_zh_TW": "他決定研究世界主要的宗教"
-          }
-        ],
-        "synonyms": [
-          "faith",
-          "creed"
-        ]
-      }
-    ],
-    "confusion": [
-      "relegion",
-      "relegion",
-      "relgion",
-      "relation"
-    ]
-  },
-  {
-    "word": "lap",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The upper part of the legs when a person is sitting down.",
-        "meaning_zh_TW": "腿部",
-        "wrong_meaning_zh_TW": [
-          "小腿",
-          "膝蓋",
-          "坐墊"
-        ],
-        "examples": [
-          {
-            "sentence": "The cat curled up on her [lap].",
-            "translation_zh_TW": "貓咪蜷縮在她的腿部上。"
-          },
-          {
-            "sentence": "He placed the book on his [lap] while reading.",
-            "translation_zh_TW": "他在閱讀時把書放在腿部上。"
-          },
-          {
-            "sentence": "She felt warmth as the baby lay in her [lap].",
-            "translation_zh_TW": "當嬰兒躺在她的腿部時，她感到溫暖。"
-          }
-        ],
-        "synonyms": [
-          "thigh",
-          "seat area"
-        ]
-      }
-    ],
-    "confusion": [
-      "lip",
-      "leap",
-      "lapse",
-      "map"
-    ]
-  },
-  {
-    "word": "border",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A line separating two political or geographical areas.",
-        "meaning_zh_TW": "邊界",
-        "wrong_meaning_zh_TW": [
-          "範圍",
-          "圍欄",
-          "邊緣"
-        ],
-        "examples": [
-          {
-            "sentence": "The river forms the natural [border] between the two countries.",
-            "translation_zh_TW": "這條河形成兩國之間的自然邊界。"
-          },
-          {
-            "sentence": "They put up a fence along the [border] for security.",
-            "translation_zh_TW": "他們在邊界沿線設置了圍欄以增強安全。"
-          },
-          {
-            "sentence": "The [border] patrol monitors crossings between nations.",
-            "translation_zh_TW": "邊界巡邏隊監控國家之間的邊境。"
-          }
-        ],
-        "synonyms": [
-          "boundary",
-          "perimeter"
-        ]
-      }
-    ],
-    "confusion": [
-      "boarder",
-      "boder",
-      "boreder",
-      "borderline"
-    ]
-  },
-  {
-    "word": "confident",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having a strong belief or full assurance; assured.",
-        "meaning_zh_TW": "自信的、確信的",
-        "wrong_meaning_zh_TW": [
-          "猶豫的",
-          "無助的",
-          "焦慮的"
-        ],
-        "examples": [
-          {
-            "sentence": "She is very [confident] about her presentation.",
-            "translation_zh_TW": "她對自己的報告非常自信"
-          },
-          {
-            "sentence": "His [confident] demeanor impressed the interviewers.",
-            "translation_zh_TW": "他自信的舉止讓面試官印象深刻"
-          },
-          {
-            "sentence": "Being [confident] can help you in many situations.",
-            "translation_zh_TW": "自信在很多情況下對你有幫助"
-          }
-        ],
-        "synonyms": [
-          "assured",
-          "self-reliant"
-        ]
-      }
-    ],
-    "confusion": [
-      "conference",
-      "confide",
-      "conflicted",
-      "confusing"
-    ]
-  },
-  {
-    "word": "clap",
+    "word": "mix",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To strike the palms of the hands together sharply to make a sound, often to show approval.",
-        "meaning_zh_TW": "拍手",
+        "meaning_en_US": "Combine or blend into one mass or mixture.",
+        "meaning_zh_TW": "混合",
         "wrong_meaning_zh_TW": [
-          "抓握",
-          "打鬧",
-          "打鬥"
+          "分開",
+          "選擇",
+          "攪拌"
         ],
         "examples": [
           {
-            "sentence": "The audience began to [clap] loudly after the performance.",
-            "translation_zh_TW": "觀眾在演出結束後開始拍手"
+            "sentence": "You need to [mix] the ingredients thoroughly.",
+            "translation_zh_TW": "你需要徹底混合材料"
           },
           {
-            "sentence": "She loves to [clap] her hands to the rhythm of the music.",
-            "translation_zh_TW": "她喜歡隨著音樂的節奏拍手"
+            "sentence": "Please [mix] the paint before applying it.",
+            "translation_zh_TW": "請在使用前混合顏料"
           },
           {
-            "sentence": "He asked everyone to [clap] for the birthday girl.",
-            "translation_zh_TW": "他請大家為壽星拍手"
+            "sentence": "He decided to [mix] different flavors for the cake.",
+            "translation_zh_TW": "他決定將不同口味混合到蛋糕中"
           }
         ],
         "synonyms": [
-          "applaud",
-          "bang"
+          "blend",
+          "combine"
         ]
       }
     ],
     "confusion": [
-      "claptrap",
-      "clop",
-      "clapback",
-      "clapboard"
+      "fix",
+      "fox",
+      "max",
+      "mixes"
     ]
   },
   {
-    "word": "dragon",
+    "word": "debate",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A mythical monster typically depicted as a large, serpent-like creature with wings and the ability to fly.",
-        "meaning_zh_TW": "龍",
+        "meaning_en_US": "A formal discussion on a particular topic.",
+        "meaning_zh_TW": "辯論",
         "wrong_meaning_zh_TW": [
-          "獅子",
-          "鯨魚",
-          "貓"
+          "講座",
+          "會議",
+          "演講"
         ],
         "examples": [
           {
-            "sentence": "In folklore, a [dragon] often guards treasures.",
-            "translation_zh_TW": "在民間傳說中，龍經常守護寶藏。"
+            "sentence": "The [debate] on climate change was very engaging.",
+            "translation_zh_TW": "有關氣候變化的辯論非常引人入勝。"
           },
           {
-            "sentence": "The movie features a heroic [dragon] that helps the villagers.",
-            "translation_zh_TW": "這部電影中有一隻英雄龍幫助村民。"
+            "sentence": "The students prepared for the [debate] in class.",
+            "translation_zh_TW": "學生們在課堂上準備辯論。"
           },
           {
-            "sentence": "Many cultures have stories about a fearsome [dragon].",
-            "translation_zh_TW": "許多文化都有關於可怕龍的故事。"
+            "sentence": "They held a [debate] to discuss the new policy.",
+            "translation_zh_TW": "他們舉行了一場辯論以討論新政策。"
           }
         ],
         "synonyms": [
-          "serpent",
-          "beast"
+          "discussion",
+          "argument"
         ]
       }
     ],
     "confusion": [
-      "dragoons",
-      "drain",
-      "dragging",
-      "dragnet"
+      "debater",
+      "debated",
+      "debating",
+      "debacle"
     ]
   },
   {
-    "word": "data",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Facts and statistics collected for reference or analysis.",
-        "meaning_zh_TW": "數據",
-        "wrong_meaning_zh_TW": [
-          "資訊",
-          "文檔",
-          "程序"
-        ],
-        "examples": [
-          {
-            "sentence": "The [data] shows a significant increase in sales.",
-            "translation_zh_TW": "數據顯示銷售量有顯著增長。"
-          },
-          {
-            "sentence": "Researchers need accurate [data] to draw conclusions.",
-            "translation_zh_TW": "研究人員需要準確的數據來得出結論。"
-          },
-          {
-            "sentence": "He analyzed the [data] using statistical software.",
-            "translation_zh_TW": "他使用統計軟件分析了這些數據。"
-          }
-        ],
-        "synonyms": [
-          "information",
-          "statistics"
-        ]
-      }
-    ],
-    "confusion": [
-      "datum",
-      "datae",
-      "datas",
-      "dataclass"
-    ]
-  },
-  {
-    "word": "standard",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A level of quality or attainment.",
-        "meaning_zh_TW": "標準、準則",
-        "wrong_meaning_zh_TW": [
-          "範圍、領域",
-          "圖樣、模版",
-          "風格、樣式"
-        ],
-        "examples": [
-          {
-            "sentence": "This product meets industry [standard].",
-            "translation_zh_TW": "這一產品達到了行業標準。"
-          },
-          {
-            "sentence": "A good [standard] of living is important for happiness.",
-            "translation_zh_TW": "良好的生活標準對幸福感很重要。"
-          },
-          {
-            "sentence": "The school follows strict educational [standards].",
-            "translation_zh_TW": "學校遵循嚴格的教育標準。"
-          }
-        ],
-        "synonyms": [
-          "criterion",
-          "norm"
-        ]
-      }
-    ],
-    "confusion": [
-      "standart",
-      "stndard",
-      "standerd",
-      "standardize"
-    ]
-  },
-  {
-    "word": "lone",
+    "word": "flat",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Being alone; without companions.",
-        "meaning_zh_TW": "孤獨的",
+        "meaning_en_US": "Having a level surface; without raised areas or indentations.",
+        "meaning_zh_TW": "平坦的",
         "wrong_meaning_zh_TW": [
-          "忙碌的",
-          "團體的",
-          "親密的"
+          "圓形的",
+          "細長的",
+          "凸起的"
         ],
         "examples": [
           {
-            "sentence": "He took a [lone] walk in the park.",
-            "translation_zh_TW": "他在公園裡獨自散步。"
+            "sentence": "The table has a [flat] surface.",
+            "translation_zh_TW": "這桌子有個平坦的表面。"
           },
           {
-            "sentence": "In the [lone] cabin, she found peace.",
-            "translation_zh_TW": "在那間孤獨的小屋裡，她找到了平靜。"
+            "sentence": "He prefers a [flat] tire for better performance.",
+            "translation_zh_TW": "他更喜歡平坦的輪胎以獲得更好的性能。"
           },
           {
-            "sentence": "A [lone] wolf roamed the forest.",
-            "translation_zh_TW": "一隻孤獨的狼在森林中徘徊。"
+            "sentence": "The land is remarkably [flat] here.",
+            "translation_zh_TW": "這裡的土地非常平坦。"
           }
         ],
         "synonyms": [
-          "solitary",
-          "isolated"
+          "level",
+          "even"
         ]
       }
     ],
     "confusion": [
-      "loan",
-      "loneley",
-      "lonesome",
-      "tone"
+      "flap",
+      "fat",
+      "flato",
+      "flait"
     ]
   },
   {
-    "word": "quality",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The standard of something as measured against other things of a similar kind; the degree of excellence of something.",
-        "meaning_zh_TW": "品質",
-        "wrong_meaning_zh_TW": [
-          "數量",
-          "問題",
-          "價格"
-        ],
-        "examples": [
-          {
-            "sentence": "The quality of the product is very high.",
-            "translation_zh_TW": "這個產品的品質非常高"
-          },
-          {
-            "sentence": "She always strives for quality in her work.",
-            "translation_zh_TW": "她總是追求工作中的品質"
-          },
-          {
-            "sentence": "Quality control ensures that company standards are met.",
-            "translation_zh_TW": "品質控制確保滿足公司標準"
-          }
-        ],
-        "synonyms": [
-          "standard",
-          "caliber"
-        ]
-      }
-    ],
-    "confusion": [
-      "quantity",
-      "question",
-      "quilt",
-      "quietly"
-    ]
-  },
-  {
-    "word": "exist",
+    "word": "worry",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To have actual being; to be real.",
-        "meaning_zh_TW": "存在",
+        "meaning_en_US": "To feel anxious or concerned about something.",
+        "meaning_zh_TW": "擔心、焦慮",
         "wrong_meaning_zh_TW": [
-          "消失",
-          "誕生",
-          "虛構"
+          "開心、快樂",
+          "計畫、安排",
+          "恐懼、驚慌"
         ],
         "examples": [
           {
-            "sentence": "Some people doubt that aliens [exist].",
-            "translation_zh_TW": "有些人懷疑外星人是否存在。"
+            "sentence": "I tend to [worry] about the little things.",
+            "translation_zh_TW": "我常常擔心小事。"
           },
           {
-            "sentence": "Traces of ancient civilizations [exist] in this region.",
-            "translation_zh_TW": "這個地區存在著古代文明的痕跡。"
+            "sentence": "Don't [worry], everything will be fine.",
+            "translation_zh_TW": "別擔心，一切會好的。"
           },
           {
-            "sentence": "They believe that love can [exist] in many forms.",
-            "translation_zh_TW": "他們相信愛可以有許多形式的存在。"
+            "sentence": "She worries that she might fail the exam.",
+            "translation_zh_TW": "她擔心自己可能會考不及格。"
           }
         ],
         "synonyms": [
-          "live",
-          "be"
+          "fret",
+          "be anxious"
         ]
       }
     ],
     "confusion": [
-      "existing",
-      "existed",
-      "exit",
-      "exile"
+      "warry",
+      "worryingly",
+      "worried",
+      "worring"
     ]
   },
   {
-    "word": "chain",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A series of connected links used for fastening or securing.",
-        "meaning_zh_TW": "鏈條",
-        "wrong_meaning_zh_TW": [
-          "鋼索",
-          "繩索",
-          "電纜"
-        ],
-        "examples": [
-          {
-            "sentence": "She wore a silver [chain] around her neck.",
-            "translation_zh_TW": "她脖子上戴著一條銀鏈"
-          },
-          {
-            "sentence": "The [chain] broke, and the fence fell down.",
-            "translation_zh_TW": "鏈條斷了，圍欄倒了"
-          },
-          {
-            "sentence": "They formed a [chain] of volunteers to clean the park.",
-            "translation_zh_TW": "他們組成了一個志願者鏈來清理公園"
-          }
-        ],
-        "synonyms": [
-          "link",
-          "connexion"
-        ]
-      }
-    ],
-    "confusion": [
-      "chan",
-      "chaine",
-      "chayan",
-      "chian"
-    ]
-  },
-  {
-    "word": "write",
+    "word": "lend",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To compose text or produce written material.",
-        "meaning_zh_TW": "寫、書寫",
+        "meaning_en_US": "To grant someone the use of something on the condition that it shall be returned.",
+        "meaning_zh_TW": "借出",
         "wrong_meaning_zh_TW": [
-          "讀、翻閱",
-          "設計、創造",
-          "計算、數學"
+          "寄存",
+          "謀取",
+          "收取"
         ],
         "examples": [
           {
-            "sentence": "I will [write] a letter to my friend.",
-            "translation_zh_TW": "我會給我的朋友寫一封信。"
+            "sentence": "Can you [lend] me your pen?",
+            "translation_zh_TW": "你可以把你的筆借給我嗎？"
           },
           {
-            "sentence": "Can you [write] down the instructions?",
-            "translation_zh_TW": "你能把指示寫下來嗎？"
+            "sentence": "They decided to [lend] a helping hand to the community.",
+            "translation_zh_TW": "他們決定向社區伸出援手"
           },
           {
-            "sentence": "She loves to [write] stories during her free time.",
-            "translation_zh_TW": "她喜歡在空閒時間寫故事。"
+            "sentence": "I’ll [lend] you my book if you promise to return it.",
+            "translation_zh_TW": "如果你保證還給我，我會把書借給你"
           }
         ],
         "synonyms": [
-          "scribe",
-          "compose"
+          "loan",
+          "provide"
         ]
       }
     ],
     "confusion": [
-      "rite",
-      "right",
-      "writ",
-      "writs"
+      "end",
+      "send",
+      "land",
+      "lendable"
     ]
   },
   {
-    "word": "current",
+    "word": "soap",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Elucidating or occurring now; contemporary.",
-        "meaning_zh_TW": "當前的",
+        "type": "名詞",
+        "meaning_en_US": "A substance used for washing and cleaning.",
+        "meaning_zh_TW": "香皂",
         "wrong_meaning_zh_TW": [
-          "過去的",
-          "未來的",
-          "不重要的"
+          "粘土",
+          "調味料",
+          "藥物"
         ],
         "examples": [
           {
-            "sentence": "The current trends in fashion are fascinating.",
-            "translation_zh_TW": "當前的時尚趨勢非常迷人"
+            "sentence": "Please use some [soap] to wash your hands.",
+            "translation_zh_TW": "請使用一些香皂來洗手。"
           },
           {
-            "sentence": "She is studying the current events in politics.",
-            "translation_zh_TW": "她在研究當前的政治事件"
+            "sentence": "The bubbles from the [soap] make washing fun.",
+            "translation_zh_TW": "香皂的泡沫讓洗澡變得有趣。"
           },
           {
-            "sentence": "His current job is quite challenging.",
-            "translation_zh_TW": "他現在的工作相當具有挑戰性"
+            "sentence": "He prefers liquid [soap] over bar soap.",
+            "translation_zh_TW": "他更喜歡液體香皂而不是條狀香皂。"
           }
         ],
         "synonyms": [
-          "present",
-          "ongoing"
+          "cleanser",
+          "detergent"
+        ]
+      }
+    ],
+    "confusion": [
+      "sop",
+      "sofa",
+      "soba",
+      "shoap"
+    ]
+  },
+  {
+    "word": "forest",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large area covered chiefly with trees and undergrowth.",
+        "meaning_zh_TW": "森林",
+        "wrong_meaning_zh_TW": [
+          "城市",
+          "沙漠",
+          "田野"
+        ],
+        "examples": [
+          {
+            "sentence": "The deer wandered through the [forest].",
+            "translation_zh_TW": "鹿在森林中遊蕩。"
+          },
+          {
+            "sentence": "They decided to hike in the [forest].",
+            "translation_zh_TW": "他們決定在森林裡健行。"
+          },
+          {
+            "sentence": "The sounds of the [forest] were calming.",
+            "translation_zh_TW": "森林的聲音令人平靜。"
+          }
+        ],
+        "synonyms": [
+          "woodland",
+          "thicket"
+        ]
+      }
+    ],
+    "confusion": [
+      "forrest",
+      "foret",
+      "foursome",
+      "foremost"
+    ]
+  },
+  {
+    "word": "advance",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To move forward in a purposeful way.",
+        "meaning_zh_TW": "前進",
+        "wrong_meaning_zh_TW": [
+          "後退",
+          "停滯",
+          "分散"
+        ],
+        "examples": [
+          {
+            "sentence": "They plan to [advance] to the next level.",
+            "translation_zh_TW": "他們打算晉升到下一個級別"
+          },
+          {
+            "sentence": "The troops [advanced] towards the enemy.",
+            "translation_zh_TW": "部隊向敵人前進"
+          },
+          {
+            "sentence": "She is looking to [advance] her career.",
+            "translation_zh_TW": "她希望推進自己的職業生涯"
+          }
+        ],
+        "synonyms": [
+          "progress",
+          "move forward"
         ]
       },
       {
         "type": "名詞",
-        "meaning_en_US": "A flow of electric charge.",
-        "meaning_zh_TW": "電流",
+        "meaning_en_US": "A forward movement or improvement.",
+        "meaning_zh_TW": "進步",
         "wrong_meaning_zh_TW": [
-          "電壓",
-          "電池",
-          "絕緣"
+          "退步",
+          "混亂",
+          "維持"
         ],
         "examples": [
           {
-            "sentence": "The circuit needs a steady [current] to function.",
-            "translation_zh_TW": "電路需要穩定的電流來運行"
+            "sentence": "There has been significant [advance] in technology.",
+            "translation_zh_TW": "在技術上已經有了顯著的進步"
           },
           {
-            "sentence": "Too much [current] can damage the device.",
-            "translation_zh_TW": "過多的電流會損壞設備"
+            "sentence": "The [advances] in medicine are remarkable.",
+            "translation_zh_TW": "醫學的進展是令人驚奇的"
           },
           {
-            "sentence": "The [current] flows through the wires.",
-            "translation_zh_TW": "電流流經電線"
+            "sentence": "We celebrated our [advance] in the project.",
+            "translation_zh_TW": "我們慶祝在這個項目的進步"
           }
         ],
         "synonyms": [
-          "flow",
-          "stream"
+          "progress",
+          "improvement"
         ]
       }
     ],
     "confusion": [
-      "currency",
-      "currents",
-      "curtain",
-      "curative"
+      "avanced",
+      "advence",
+      "advant",
+      "enfance"
     ]
   },
   {
-    "word": "wish",
+    "word": "review",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To have a desire for something to happen.",
-        "meaning_zh_TW": "希望、渴望",
+        "meaning_en_US": "To look over or examine something again.",
+        "meaning_zh_TW": "重新檢視",
         "wrong_meaning_zh_TW": [
-          "討厭、拒絕",
-          "對抗、挑戰",
-          "不屑、嘲笑"
+          "忽視",
+          "遺忘",
+          "丟失"
         ],
         "examples": [
           {
-            "sentence": "I [wish] I could travel the world.",
-            "translation_zh_TW": "我希望我能環遊世界。"
+            "sentence": "The teacher will [review] the test results tomorrow.",
+            "translation_zh_TW": "老師明天將會檢視考試結果。"
           },
           {
-            "sentence": "She made a [wish] upon a star.",
-            "translation_zh_TW": "她在星星上許了一個願望。"
+            "sentence": "I need to [review] my notes before the exam.",
+            "translation_zh_TW": "我需要在考試前重新檢視筆記。"
           },
           {
-            "sentence": "[Wishing] for happiness is common.",
-            "translation_zh_TW": "渴望幸福是很常見的。"
+            "sentence": "Can we [review] the proposals again?",
+            "translation_zh_TW": "我們可以再檢視一下提案嗎？"
           }
         ],
         "synonyms": [
-          "desire",
-          "hope",
-          "long for"
+          "examine",
+          "assess"
         ]
       }
     ],
     "confusion": [
-      "wishful",
-      "wishing",
-      "wishes",
-      "whisk"
+      "revue",
+      "reveiw",
+      "reivew",
+      "revee"
+    ]
+  },
+  {
+    "word": "argument",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A reason or reasons offered for or against something; a discussion involving differing points of view.",
+        "meaning_zh_TW": "爭論、論點",
+        "wrong_meaning_zh_TW": [
+          "妥協、協議",
+          "計畫、設計",
+          "建議、提案"
+        ],
+        "examples": [
+          {
+            "sentence": "Their [argument] went on for hours.",
+            "translation_zh_TW": "他們的爭論持續了好幾個小時。"
+          },
+          {
+            "sentence": "He made a strong [argument] for change.",
+            "translation_zh_TW": "他為改變提出了有力的論點。"
+          },
+          {
+            "sentence": "Each side presented its [argument] clearly.",
+            "translation_zh_TW": "雙方清楚地陳述了各自的論點。"
+          }
+        ],
+        "synonyms": [
+          "debate",
+          "dispute",
+          "contention"
+        ]
+      }
+    ],
+    "confusion": [
+      "argumen",
+      "arguemnt",
+      "arugment",
+      "argumentt"
     ]
   }
 ]

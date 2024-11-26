@@ -1,810 +1,761 @@
 [
   {
-    "word": "horizon",
+    "word": "tolerable",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Able to be endured or accepted.",
+        "meaning_zh_TW": "可忍受的",
+        "wrong_meaning_zh_TW": [
+          "不可忍受的",
+          "無法容忍的",
+          "難以忍受的"
+        ],
+        "examples": [
+          {
+            "sentence": "The temperature was [tolerable] for spending time outside.",
+            "translation_zh_TW": "這個溫度讓人可以忍受在外面待一段時間。"
+          },
+          {
+            "sentence": "The noise level in the room was [tolerable], but not ideal.",
+            "translation_zh_TW": "房間裡的噪音水平是可以忍受的，但並不理想。"
+          },
+          {
+            "sentence": "They found the conditions to be [tolerable] despite the challenges.",
+            "translation_zh_TW": "儘管面臨挑戰，他們發現這些條件是可以忍受的。"
+          }
+        ],
+        "synonyms": [
+          "bearable",
+          "acceptable"
+        ]
+      }
+    ],
+    "confusion": [
+      "tolerate",
+      "tollable",
+      "tolerator",
+      "tollerable"
+    ]
+  },
+  {
+    "word": "cane",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The line at which the earth's surface and the sky appear to meet.",
-        "meaning_zh_TW": "地平線",
+        "meaning_en_US": "A long stick used to help a person walk.",
+        "meaning_zh_TW": "手杖",
         "wrong_meaning_zh_TW": [
-          "山脈",
-          "邊界",
-          "水源"
+          "水管",
+          "塑料筆",
+          "柳樹"
         ],
         "examples": [
           {
-            "sentence": "The sun sets below the [horizon].",
-            "translation_zh_TW": "太陽在地平線下落。"
+            "sentence": "He walked with a [cane] after his surgery.",
+            "translation_zh_TW": "手術後他用手杖走路"
           },
           {
-            "sentence": "We could see ships on the [horizon].",
-            "translation_zh_TW": "我們可以看到地平線上的船隻。"
+            "sentence": "She uses a [cane] to support her balance.",
+            "translation_zh_TW": "她用手杖來支撐她的平衡"
           },
           {
-            "sentence": "The view from the mountain included a vast [horizon].",
-            "translation_zh_TW": "從山上看的景色包括了廣闊的地平線。"
+            "sentence": "The old man always carries his [cane] while walking.",
+            "translation_zh_TW": "老人走路時總是帶著手杖"
           }
         ],
         "synonyms": [
-          "skyline",
-          "boundary"
+          "walker",
+          "staff"
         ]
       }
     ],
     "confusion": [
-      "horizont",
-      "horrizon",
-      "horizen",
-      "horyzon"
+      "canes",
+      "canned",
+      "canny",
+      "cone"
     ]
   },
   {
-    "word": "lousy",
+    "word": "regulate",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Very bad or poor quality.",
-        "meaning_zh_TW": "非常糟糕的品質",
+        "type": "動詞",
+        "meaning_en_US": "To control or maintain the rate or speed of a machine or process.",
+        "meaning_zh_TW": "調節",
         "wrong_meaning_zh_TW": [
-          "調皮",
-          "低價",
-          "有趣"
+          "失控",
+          "擾亂",
+          "破壞"
         ],
         "examples": [
           {
-            "sentence": "The service at the restaurant was [lousy].",
-            "translation_zh_TW": "餐廳的服務非常糟糕。"
+            "sentence": "They need to [regulate] the temperature in the room.",
+            "translation_zh_TW": "他們需要調節房間內的溫度。"
           },
           {
-            "sentence": "He felt [lousy] after staying up all night.",
-            "translation_zh_TW": "熬夜後他覺得很糟糕。"
+            "sentence": "The government will [regulate] the new industry standards.",
+            "translation_zh_TW": "政府將調節新的行業標準。"
           },
           {
-            "sentence": "My performance was [lousy] at the meeting.",
-            "translation_zh_TW": "我在會議上的表現非常糟糕。"
+            "sentence": "We must [regulate] our use of resources.",
+            "translation_zh_TW": "我們必須調節我們對資源的使用。"
           }
         ],
         "synonyms": [
-          "terrible",
-          "atrocious"
+          "control",
+          "manage"
         ]
       }
     ],
     "confusion": [
-      "fuzzy",
-      "loser",
-      "sourly",
-      "lovely"
+      "regulator",
+      "regulation",
+      "relate",
+      "regular"
     ]
   },
   {
-    "word": "fulfillment",
+    "word": "comment",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To express an opinion or reaction to something.",
+        "meaning_zh_TW": "評論",
+        "wrong_meaning_zh_TW": [
+          "誇獎",
+          "忽視",
+          "決定"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [comment] on the proposal during the meeting.",
+            "translation_zh_TW": "請在會議中對提案評論"
+          },
+          {
+            "sentence": "He always has something to [comment] on the news.",
+            "translation_zh_TW": "他總是對新聞有一些評論"
+          },
+          {
+            "sentence": "I would like to [comment] about your performance.",
+            "translation_zh_TW": "我想對你的表現做出評論"
+          }
+        ],
+        "synonyms": [
+          "remark",
+          "feedback"
+        ]
+      }
+    ],
+    "confusion": [
+      "commit",
+      "comet",
+      "commute",
+      "commander"
+    ]
+  },
+  {
+    "word": "millionaire",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The achievement of something desired, promised, or predicted.",
-        "meaning_zh_TW": "實現、滿足",
+        "meaning_en_US": "A person whose wealth is equal to a million units of currency or more.",
+        "meaning_zh_TW": "百萬富翁",
         "wrong_meaning_zh_TW": [
-          "失敗",
-          "失落",
-          "懷疑"
+          "貧民",
+          "商人",
+          "專家"
         ],
         "examples": [
           {
-            "sentence": "Her sense of [fulfillment] came from helping others.",
-            "translation_zh_TW": "她的滿足感來自於幫助他人"
+            "sentence": "The [millionaire] donated a large sum to charity.",
+            "translation_zh_TW": "這位百萬富翁向慈善機構捐贈了巨額款項。"
           },
           {
-            "sentence": "The project was a great [fulfillment] of his vision.",
-            "translation_zh_TW": "這個專案是他願景的巨大實現"
+            "sentence": "Becoming a [millionaire] is a dream for many.",
+            "translation_zh_TW": "成為百萬富翁是許多人的夢想。"
           },
           {
-            "sentence": "Finding [fulfillment] in work can enhance well-being.",
-            "translation_zh_TW": "在工作中找到滿足可以提升福祉"
+            "sentence": "The young [millionaire] invested in technology startups.",
+            "translation_zh_TW": "這位年輕的百萬富翁投資了科技初創公司。"
           }
         ],
         "synonyms": [
-          "satisfaction",
-          "realization"
+          "tycoon",
+          "billionaire"
         ]
       }
     ],
     "confusion": [
-      "foolishness",
-      "facilitation",
-      "fullness",
-      "fussiness"
+      "million",
+      "millionth",
+      "military",
+      "milwaukee"
     ]
   },
   {
-    "word": "elegant",
+    "word": "resistance",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Graceful and stylish in appearance or manner.",
-        "meaning_zh_TW": "優雅的",
+        "type": "名詞",
+        "meaning_en_US": "The refusal to accept or comply with something.",
+        "meaning_zh_TW": "抵抗",
         "wrong_meaning_zh_TW": [
-          "粗魯的",
-          "複雜的",
-          "不相稱的"
+          "接受",
+          "順從",
+          "同意"
         ],
         "examples": [
           {
-            "sentence": "The dress she wore was incredibly [elegant].",
-            "translation_zh_TW": "她穿的裙子非常優雅。"
+            "sentence": "There was strong [resistance] to the new policy.",
+            "translation_zh_TW": "對新政策有強烈的抵抗。"
           },
           {
-            "sentence": "He has an [elegant] way of speaking.",
-            "translation_zh_TW": "他的說話方式很優雅。"
+            "sentence": "The group organized a [resistance] against the changes.",
+            "translation_zh_TW": "該團體組織了一場抵抗變革的行動。"
           },
           {
-            "sentence": "The garden was laid out in a[n] [elegant] style.",
-            "translation_zh_TW": "花園以優雅的風格設計。"
+            "sentence": "His [resistance] to authority was well known.",
+            "translation_zh_TW": "他對權威的抵抗是眾所周知的。"
           }
         ],
         "synonyms": [
-          "graceful",
-          "refined"
+          "opposition",
+          "defiance"
         ]
       }
     ],
     "confusion": [
-      "element",
-      "elevate",
-      "elegance",
-      "eligible"
+      "resist",
+      "resistant",
+      "consistency",
+      "resistive"
     ]
   },
   {
-    "word": "secure",
+    "word": "convey",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Fixed or tied down to prevent movement, safe and protected.",
-        "meaning_zh_TW": "確保，保護",
+        "type": "動詞",
+        "meaning_en_US": "To communicate or express something.",
+        "meaning_zh_TW": "傳達、表達",
         "wrong_meaning_zh_TW": [
-          "威脅",
-          "危害",
-          "損害"
+          "隱藏、保留",
+          "請求、需求",
+          "抓取、握住"
         ],
         "examples": [
           {
-            "sentence": "Make sure the ladder is [secure] before climbing.",
-            "translation_zh_TW": "在爬之前確保梯子是穩固的。"
+            "sentence": "She wanted to [convey] her feelings through art.",
+            "translation_zh_TW": "她想通過藝術傳達她的感受"
           },
           {
-            "sentence": "She felt [secure] in her new home.",
-            "translation_zh_TW": "她在新家裡感到安全。"
+            "sentence": "The message failed to [convey] its true meaning.",
+            "translation_zh_TW": "這條消息未能傳達其真正的意思"
           },
           {
-            "sentence": "He checked that his belongings were [secure].",
-            "translation_zh_TW": "他檢查自己的財物是否安全。"
+            "sentence": "Pictures can often [convey] emotions more effectively than words.",
+            "translation_zh_TW": "圖片往往能比文字更有效地傳達情感"
           }
         ],
         "synonyms": [
-          "safe",
-          "safe-guarded"
+          "communicate",
+          "express"
+        ]
+      }
+    ],
+    "confusion": [
+      "convention",
+      "convince",
+      "convert",
+      "converse"
+    ]
+  },
+  {
+    "word": "psychology",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The scientific study of the mind and behavior.",
+        "meaning_zh_TW": "心理學",
+        "wrong_meaning_zh_TW": [
+          "生理學",
+          "社會學",
+          "倫理學"
+        ],
+        "examples": [
+          {
+            "sentence": "She majored in [psychology] at the university.",
+            "translation_zh_TW": "她在大學主修心理學"
+          },
+          {
+            "sentence": "Understanding [psychology] can help improve relationships.",
+            "translation_zh_TW": "了解心理學可以幫助改善人際關係"
+          },
+          {
+            "sentence": "He wrote a book on the principles of [psychology].",
+            "translation_zh_TW": "他寫了一本關於心理學原則的書"
+          }
+        ],
+        "synonyms": [
+          "mental science",
+          "behavioral science"
+        ]
+      }
+    ],
+    "confusion": [
+      "psychopathology",
+      "psychotics",
+      "physiology",
+      "psychometrics"
+    ]
+  },
+  {
+    "word": "respectful",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Feeling or showing honor or respect.",
+        "meaning_zh_TW": "尊重的",
+        "wrong_meaning_zh_TW": [
+          "不敬的",
+          "失禮的",
+          "無理的"
+        ],
+        "examples": [
+          {
+            "sentence": "It's important to be [respectful] to your elders.",
+            "translation_zh_TW": "對長輩表達尊敬是很重要的。"
+          },
+          {
+            "sentence": "He was always [respectful] in conversations.",
+            "translation_zh_TW": "在對話中，他總是保持尊重。"
+          },
+          {
+            "sentence": "A [respectful] attitude can open many doors.",
+            "translation_zh_TW": "尊重的態度可以打開許多大門。"
+          }
+        ],
+        "synonyms": [
+          "polite",
+          "courteous"
+        ]
+      },
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Characterized by or showing respect.",
+        "meaning_zh_TW": "尊重的",
+        "wrong_meaning_zh_TW": [
+          "不敬的",
+          "失禮的",
+          "無理的"
+        ],
+        "examples": [
+          {
+            "sentence": "A [respectful] reply is crucial in professional settings.",
+            "translation_zh_TW": "在專業環境中，尊重的回覆至關重要。"
+          },
+          {
+            "sentence": "Being [respectful] to others is a sign of maturity.",
+            "translation_zh_TW": "對他人表示尊重是成熟的標誌。"
+          },
+          {
+            "sentence": "She addressed him in a [respectful] manner.",
+            "translation_zh_TW": "她用尊敬的方式稱呼他。"
+          }
+        ],
+        "synonyms": [
+          "courteous",
+          "deferential"
+        ]
+      }
+    ],
+    "confusion": [
+      "respect",
+      "respective",
+      "respectively",
+      "respecters"
+    ]
+  },
+  {
+    "word": "severe",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Very great; intense or serious.",
+        "meaning_zh_TW": "強烈或嚴重的",
+        "wrong_meaning_zh_TW": [
+          "輕微的",
+          "溫和的",
+          "緩和的"
+        ],
+        "examples": [
+          {
+            "sentence": "The region faced a [severe] drought.",
+            "translation_zh_TW": "該地區面臨著嚴重的乾旱。"
+          },
+          {
+            "sentence": "He received [severe] criticism for his actions.",
+            "translation_zh_TW": "他因為他的行為受到嚴厲的批評。"
+          },
+          {
+            "sentence": "The patient is in [severe] pain after the surgery.",
+            "translation_zh_TW": "手術後病人感到非常疼痛。"
+          }
+        ],
+        "synonyms": [
+          "extreme",
+          "harsh"
+        ]
+      }
+    ],
+    "confusion": [
+      "server",
+      "ever",
+      "sever",
+      "sewer"
+    ]
+  },
+  {
+    "word": "greasy",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Covered with, or having the qualities of grease; oily.",
+        "meaning_zh_TW": "油膩的",
+        "wrong_meaning_zh_TW": [
+          "乾燥的",
+          "清新的",
+          "無味的"
+        ],
+        "examples": [
+          {
+            "sentence": "The food was too [greasy] for her taste.",
+            "translation_zh_TW": "這食物對她的口味來說太油膩了"
+          },
+          {
+            "sentence": "He wiped his [greasy] hands on a napkin.",
+            "translation_zh_TW": "他用餐巾擦拭他油膩的手"
+          },
+          {
+            "sentence": "After cooking, the pan was [greasy] and needed washing.",
+            "translation_zh_TW": "烹飪後，鍋子油膩，需要清洗"
+          }
+        ],
+        "synonyms": [
+          "oily",
+          "fatty"
+        ]
+      }
+    ],
+    "confusion": [
+      "greeting",
+      "greeter",
+      "greaseproof",
+      "grizzly"
+    ]
+  },
+  {
+    "word": "issue",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An important topic or problem for debate or discussion.",
+        "meaning_zh_TW": "發出，發放",
+        "wrong_meaning_zh_TW": [
+          "收集",
+          "接收",
+          "保存"
+        ],
+        "examples": [
+          {
+            "sentence": "The meeting will address the budget [issue].",
+            "translation_zh_TW": "會議將討論預算問題"
+          },
+          {
+            "sentence": "Climate change is a pressing [issue] that needs attention.",
+            "translation_zh_TW": "氣候變化是一個需要關注的緊迫議題"
+          },
+          {
+            "sentence": "There has been a lot of [issue] regarding the new law.",
+            "translation_zh_TW": "有關新法律的問題引起了很多討論"
+          }
+        ],
+        "synonyms": [
+          "problem",
+          "topic"
         ]
       },
       {
         "type": "動詞",
-        "meaning_en_US": "To make something safe or ensure its stability.",
-        "meaning_zh_TW": "確保，保護",
+        "meaning_en_US": "To distribute or circulate something, especially information.",
+        "meaning_zh_TW": "發出，發放",
         "wrong_meaning_zh_TW": [
-          "威脅",
-          "危害",
-          "損害"
+          "收集",
+          "接收",
+          "保存"
         ],
         "examples": [
           {
-            "sentence": "They [secured] the windows before the storm.",
-            "translation_zh_TW": "在暴風雨來之前，他們確保了窗戶。"
+            "sentence": "The organization will [issue] a statement tomorrow.",
+            "translation_zh_TW": "該機構將於明天發出聲明"
           },
           {
-            "sentence": "He [secured] a loan for his new business.",
-            "translation_zh_TW": "他為新生意獲得了貸款。"
+            "sentence": "They decided to [issue] new guidelines for the program.",
+            "translation_zh_TW": "他們決定為該計畫發佈新的指導方針"
           },
           {
-            "sentence": "She [secured] the deal through negotiations.",
-            "translation_zh_TW": "她通過談判確保了交易。"
+            "sentence": "The bank will [issue] new credit cards next month.",
+            "translation_zh_TW": "該銀行將於下個月發出新信用卡"
           }
         ],
         "synonyms": [
-          "ensure",
-          "protect"
+          "distribute",
+          "release"
         ]
       }
     ],
     "confusion": [
-      "insecure",
-      "securing",
-      "secures",
-      "sucure"
+      "issues",
+      "issued",
+      "issuers",
+      "issuing"
     ]
   },
   {
-    "word": "robber",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who steals from another, typically using violence or threat.",
-        "meaning_zh_TW": "搶劫犯",
-        "wrong_meaning_zh_TW": [
-          "警察",
-          "受害者",
-          "目擊者"
-        ],
-        "examples": [
-          {
-            "sentence": "The [robber] was caught after the chase.",
-            "translation_zh_TW": "這名搶劫犯在追逐後被捕。"
-          },
-          {
-            "sentence": "Police are searching for the [robber] who escaped.",
-            "translation_zh_TW": "警方正在尋找逃脫的搶劫犯。"
-          },
-          {
-            "sentence": "The [robber] demanded money from the cashier.",
-            "translation_zh_TW": "搶劫犯向收銀員索要現金。"
-          }
-        ],
-        "synonyms": [
-          "thief",
-          "bandit"
-        ]
-      }
-    ],
-    "confusion": [
-      "robbing",
-      "rober",
-      "rubber",
-      "roberts"
-    ]
-  },
-  {
-    "word": "sacrifice",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To give up something valued for the sake of something else.",
-        "meaning_zh_TW": "犧牲",
-        "wrong_meaning_zh_TW": [
-          "獲利",
-          "收益",
-          "利益"
-        ],
-        "examples": [
-          {
-            "sentence": "She decided to [sacrifice] her time to help others.",
-            "translation_zh_TW": "她決定放棄自己的時間去幫助他人"
-          },
-          {
-            "sentence": "Parents often [sacrifice] their comfort for their children.",
-            "translation_zh_TW": "父母常常為了孩子而放棄自己的舒適"
-          },
-          {
-            "sentence": "He made a great [sacrifice] for his country.",
-            "translation_zh_TW": "他為祖國做出了巨大的犧牲"
-          }
-        ],
-        "synonyms": [
-          "offer",
-          "forfeit"
-        ]
-      }
-    ],
-    "confusion": [
-      "sacred",
-      "sacrament",
-      "sacrilege",
-      "sack"
-    ]
-  },
-  {
-    "word": "diligence",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Careful and persistent work or effort.",
-        "meaning_zh_TW": "勤勉",
-        "wrong_meaning_zh_TW": [
-          "懶惰",
-          "草率",
-          "浪費"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [diligence] in studying led to her success.",
-            "translation_zh_TW": "她在學習上的勤勉使她成功。"
-          },
-          {
-            "sentence": "Diligence is essential for achieving your goals.",
-            "translation_zh_TW": "勤勉對達成你的目標至關重要。"
-          },
-          {
-            "sentence": "He showed great [diligence] in his work.",
-            "translation_zh_TW": "他在工作中展現出極大的勤勉。"
-          }
-        ],
-        "synonyms": [
-          "perseverance",
-          "dedication"
-        ]
-      }
-    ],
-    "confusion": [
-      "dilgence",
-      "diligent",
-      "delicacy",
-      "diligently"
-    ]
-  },
-  {
-    "word": "waken",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To emerge or cause to emerge from sleep; to wake up.",
-        "meaning_zh_TW": "喚醒",
-        "wrong_meaning_zh_TW": [
-          "入睡",
-          "沉睡",
-          "昏睡"
-        ],
-        "examples": [
-          {
-            "sentence": "I will [waken] you at six o'clock.",
-            "translation_zh_TW": "我會在六點喚醒你"
-          },
-          {
-            "sentence": "The loud noise will [waken] the baby.",
-            "translation_zh_TW": "巨大的噪音會喚醒嬰兒"
-          },
-          {
-            "sentence": "It’s hard to [waken] from such a deep sleep.",
-            "translation_zh_TW": "從如此深的睡眠中醒來是很難的"
-          }
-        ],
-        "synonyms": [
-          "awaken",
-          "rouse"
-        ]
-      }
-    ],
-    "confusion": [
-      "wake",
-      "wakened",
-      "waker",
-      "waking"
-    ]
-  },
-  {
-    "word": "sue",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To initiate a law case against someone in a court of law.",
-        "meaning_zh_TW": "起訴",
-        "wrong_meaning_zh_TW": [
-          "和解",
-          "協商",
-          "道歉"
-        ],
-        "examples": [
-          {
-            "sentence": "She decided to [sue] the company for negligence.",
-            "translation_zh_TW": "她決定因公司過失而起訴他們。"
-          },
-          {
-            "sentence": "He threatened to [sue] if the issue was not resolved.",
-            "translation_zh_TW": "他威脅如果問題不解決就會提告。"
-          },
-          {
-            "sentence": "Many people [sue] for personal injury claims.",
-            "translation_zh_TW": "許多人因人身傷害索賠而提告。"
-          }
-        ],
-        "synonyms": [
-          "litigate",
-          "prosecute"
-        ]
-      }
-    ],
-    "confusion": [
-      "sew",
-      "sou",
-      "seu",
-      "sued"
-    ]
-  },
-  {
-    "word": "workplace",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A location where work is done.",
-        "meaning_zh_TW": "工作場所、職場",
-        "wrong_meaning_zh_TW": [
-          "家",
-          "學校",
-          "醫院"
-        ],
-        "examples": [
-          {
-            "sentence": "The [workplace] has policies to ensure safety.",
-            "translation_zh_TW": "工作場所有保障安全的政策。"
-          },
-          {
-            "sentence": "It is important to maintain a clean [workplace].",
-            "translation_zh_TW": "保持工作場所的整潔是很重要的。"
-          },
-          {
-            "sentence": "Many people prefer a flexible [workplace].",
-            "translation_zh_TW": "許多人喜歡靈活的工作環境。"
-          }
-        ],
-        "synonyms": [
-          "office",
-          "employment area"
-        ]
-      }
-    ],
-    "confusion": [
-      "workplaces",
-      "worklace",
-      "workpalce",
-      "workplacee"
-    ]
-  },
-  {
-    "word": "triumph",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A great victory or achievement.",
-        "meaning_zh_TW": "巨大勝利或成就",
-        "wrong_meaning_zh_TW": [
-          "失敗",
-          "挫折",
-          "敗北"
-        ],
-        "examples": [
-          {
-            "sentence": "The team's victory was a true [triumph].",
-            "translation_zh_TW": "這支隊伍的勝利是真正的巨大勝利"
-          },
-          {
-            "sentence": "Winning the championship felt like a personal [triumph].",
-            "translation_zh_TW": "贏得冠軍感覺像是個人的成就"
-          },
-          {
-            "sentence": "His story is one of struggle and [triumph].",
-            "translation_zh_TW": "他的故事是一個奮鬥和勝利的故事"
-          }
-        ],
-        "synonyms": [
-          "victory",
-          "success"
-        ]
-      }
-    ],
-    "confusion": [
-      "triumphantly",
-      "triumphal",
-      "triumvirate",
-      "truncheon"
-    ]
-  },
-  {
-    "word": "remarkable",
+    "word": "economical",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Worthy of attention; extraordinary.",
-        "meaning_zh_TW": "非凡的",
+        "meaning_en_US": "Giving good value or return in relation to the money, time, or effort expended.",
+        "meaning_zh_TW": "經濟實惠的",
         "wrong_meaning_zh_TW": [
-          "平凡的",
+          "浪費的",
+          "奢侈的",
+          "昂貴的"
+        ],
+        "examples": [
+          {
+            "sentence": "He found an [economical] solution to the problem.",
+            "translation_zh_TW": "他找到了一個經濟實惠的解決方案。"
+          },
+          {
+            "sentence": "Driving a small car is often more [economical].",
+            "translation_zh_TW": "開小車通常更經濟實惠。"
+          },
+          {
+            "sentence": "The [economical] choice helped reduce costs.",
+            "translation_zh_TW": "這個經濟實惠的選擇幫助降低了成本。"
+          }
+        ],
+        "synonyms": [
+          "affordable",
+          "budget-friendly"
+        ]
+      }
+    ],
+    "confusion": [
+      "economic",
+      "ecological",
+      "economist",
+      "economy"
+    ]
+  },
+  {
+    "word": "torture",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The act of inflicting severe pain on someone as a punishment or to force them to do something.",
+        "meaning_zh_TW": "折磨",
+        "wrong_meaning_zh_TW": [
+          "安慰",
+          "慰藉",
+          "愉悅"
+        ],
+        "examples": [
+          {
+            "sentence": "He spoke about the horrors of [torture] in his speech.",
+            "translation_zh_TW": "他在演講中談到了折磨的恐怖。"
+          },
+          {
+            "sentence": "The book depicts the [torture] of prisoners.",
+            "translation_zh_TW": "這本書描繪了囚犯遭受的折磨。"
+          },
+          {
+            "sentence": "They were accused of using [torture] to extract information.",
+            "translation_zh_TW": "他們被指控使用折磨來提取信息。"
+          }
+        ],
+        "synonyms": [
+          "suffering",
+          "torment"
+        ]
+      }
+    ],
+    "confusion": [
+      "tortilla",
+      "torment",
+      "toter",
+      "tortured"
+    ]
+  },
+  {
+    "word": "dignity",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The state or quality of being worthy of honor or respect.",
+        "meaning_zh_TW": "尊嚴",
+        "wrong_meaning_zh_TW": [
+          "榮耀",
+          "誇耀",
+          "低賤"
+        ],
+        "examples": [
+          {
+            "sentence": "He spoke with great [dignity] during the ceremony.",
+            "translation_zh_TW": "在典禮上，他以極大的尊嚴講話。"
+          },
+          {
+            "sentence": "Everyone deserves to be treated with [dignity].",
+            "translation_zh_TW": "每個人都應該受到尊嚴的對待。"
+          },
+          {
+            "sentence": "She maintained her [dignity] in a difficult situation.",
+            "translation_zh_TW": "她在困難的情況下保持了尊嚴。"
+          }
+        ],
+        "synonyms": [
+          "honor",
+          "self-respect"
+        ]
+      }
+    ],
+    "confusion": [
+      "dignity",
+      "dignitary",
+      "digging",
+      "dignified"
+    ]
+  },
+  {
+    "word": "numerous",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Consisting of many items or elements; very many.",
+        "meaning_zh_TW": "許多的",
+        "wrong_meaning_zh_TW": [
+          "稀少的",
+          "單一的",
+          "稀有的"
+        ],
+        "examples": [
+          {
+            "sentence": "There are [numerous] ways to solve this problem.",
+            "translation_zh_TW": "有很多方法可以解決這個問題。"
+          },
+          {
+            "sentence": "She received [numerous] awards for her work.",
+            "translation_zh_TW": "她因工作的出色表現獲得了許多獎項。"
+          },
+          {
+            "sentence": "The park was filled with [numerous] visitors yesterday.",
+            "translation_zh_TW": "昨天公園裡有許多遊客。"
+          }
+        ],
+        "synonyms": [
+          "many",
+          "countless",
+          "abundant"
+        ]
+      }
+    ],
+    "confusion": [
+      "numerousness",
+      "numinous",
+      "numeraire",
+      "numerate"
+    ]
+  },
+  {
+    "word": "fantastic",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Extraordinarily good or attractive.",
+        "meaning_zh_TW": "極好的",
+        "wrong_meaning_zh_TW": [
+          "糟糕的",
           "普通的",
-          "一般的"
+          "失敗的"
         ],
         "examples": [
           {
-            "sentence": "Her performance was truly [remarkable].",
-            "translation_zh_TW": "她的表現真是非凡。"
+            "sentence": "The concert was absolutely [fantastic]!",
+            "translation_zh_TW": "演唱會簡直太棒了！"
           },
           {
-            "sentence": "He made a [remarkable] recovery from his illness.",
-            "translation_zh_TW": "他從病中恢復得非常好。"
+            "sentence": "He has a [fantastic] ability to solve problems.",
+            "translation_zh_TW": "他有著極好的解決問題的能力。"
           },
           {
-            "sentence": "This invention is a [remarkable] advancement in technology.",
-            "translation_zh_TW": "這項發明是科技上的一個非凡進步。"
+            "sentence": "Her [fantastic] ideas won her a prize.",
+            "translation_zh_TW": "她的極好構思為她贏得了獎項。"
           }
         ],
         "synonyms": [
-          "extraordinary",
-          "impressive"
+          "amazing",
+          "extraordinary"
         ]
       }
     ],
     "confusion": [
-      "remarkablely",
-      "remarcable",
-      "remarkeble",
-      "remarkabl"
+      "fantastique",
+      "fantastick",
+      "fantasy",
+      "fantised"
     ]
   },
   {
-    "word": "biography",
+    "word": "behavior",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An account of someone's life written by someone else.",
-        "meaning_zh_TW": "傳記",
+        "meaning_en_US": "The way in which one acts or conducts oneself.",
+        "meaning_zh_TW": "行為",
         "wrong_meaning_zh_TW": [
-          "小說",
-          "散文",
-          "詩歌"
+          "心情",
+          "思想",
+          "情緒"
         ],
         "examples": [
           {
-            "sentence": "She wrote a [biography] of a famous scientist.",
-            "translation_zh_TW": "她寫了一位著名科學家的傳記。"
+            "sentence": "His [behavior] towards others was polite.",
+            "translation_zh_TW": "他對他人的行為很有禮貌。"
           },
           {
-            "sentence": "His [biography] details his childhood experiences.",
-            "translation_zh_TW": "他的傳記詳述了童年的經歷。"
+            "sentence": "The child's [behavior] was guided by his parents.",
+            "translation_zh_TW": "這個孩子的行為受到父母的指導。"
           },
           {
-            "sentence": "The museum features a [biography] section.",
-            "translation_zh_TW": "博物館有一個傳記專區。"
+            "sentence": "She was praised for her excellent [behavior].",
+            "translation_zh_TW": "她因出色的行為而受到讚揚。"
           }
         ],
         "synonyms": [
-          "life story",
-          "memoir"
+          "conduct",
+          "actions"
         ]
       }
     ],
     "confusion": [
-      "biolography",
-      "biogeny",
-      "biometric",
-      "biomal"
-    ]
-  },
-  {
-    "word": "isolate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To set or place apart; detach or separate so as to be alone.",
-        "meaning_zh_TW": "孤立",
-        "wrong_meaning_zh_TW": [
-          "聚合",
-          "聯絡",
-          "接觸"
-        ],
-        "examples": [
-          {
-            "sentence": "The goal is to [isolate] the variable in the experiment.",
-            "translation_zh_TW": "目標是孤立實驗中的變數。"
-          },
-          {
-            "sentence": "For safety, we must [isolate] the infected individuals.",
-            "translation_zh_TW": "為了安全，我們必須孤立感染者。"
-          },
-          {
-            "sentence": "Isolating oneself can sometimes lead to loneliness.",
-            "translation_zh_TW": "孤立自己有時會導致孤獨。"
-          }
-        ],
-        "synonyms": [
-          "separate",
-          "detach"
-        ]
-      }
-    ],
-    "confusion": [
-      "illustrate",
-      "instigate",
-      "irritate",
-      "assimilate"
-    ]
-  },
-  {
-    "word": "creep",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To move slowly and carefully, especially in order to avoid being noticed.",
-        "meaning_zh_TW": "爬行",
-        "wrong_meaning_zh_TW": [
-          "奔跑",
-          "飛行",
-          "跳躍"
-        ],
-        "examples": [
-          {
-            "sentence": "He tried to [creep] away without being seen.",
-            "translation_zh_TW": "他試圖悄悄爬行離開而不被看見"
-          },
-          {
-            "sentence": "The shadows began to [creep] into the room as the sun set.",
-            "translation_zh_TW": "隨著日落，陰影開始爬進房間"
-          },
-          {
-            "sentence": "They [creep] through the forest, trying not to make a sound.",
-            "translation_zh_TW": "他們在森林中爬行，盡量不發出聲音"
-          }
-        ],
-        "synonyms": [
-          "slither",
-          "crawl"
-        ]
-      }
-    ],
-    "confusion": [
-      "creeped",
-      "creepy",
-      "crepe",
-      "creeper"
-    ]
-  },
-  {
-    "word": "memorial",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Something, especially a structure, established to remind people of a person or event.",
-        "meaning_zh_TW": "紀念物",
-        "wrong_meaning_zh_TW": [
-          "常態",
-          "日常",
-          "減少"
-        ],
-        "examples": [
-          {
-            "sentence": "The [memorial] was built in honor of the fallen soldiers.",
-            "translation_zh_TW": "這個紀念物是為了紀念陣亡的士兵而建造的"
-          },
-          {
-            "sentence": "People gather at the [memorial] to pay their respects.",
-            "translation_zh_TW": "人們聚集在紀念物前以表達他們的敬意"
-          },
-          {
-            "sentence": "The city has various [memorials] for historical figures.",
-            "translation_zh_TW": "這座城市有多個紀念物用以紀念歷史人物"
-          }
-        ],
-        "synonyms": [
-          "tribute",
-          "commemoration"
-        ]
-      }
-    ],
-    "confusion": [
-      "memorabilia",
-      "memory",
-      "memorialize",
-      "memoir"
-    ]
-  },
-  {
-    "word": "bond",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A strong connection or relationship.",
-        "meaning_zh_TW": "連結、關係",
-        "wrong_meaning_zh_TW": [
-          "解開",
-          "隔離",
-          "分開"
-        ],
-        "examples": [
-          {
-            "sentence": "There is a special [bond] between the mother and her child.",
-            "translation_zh_TW": "母親和孩子之間有著特殊的連結"
-          },
-          {
-            "sentence": "Their friendship created a lasting [bond].",
-            "translation_zh_TW": "他們的友誼產生了持久的關係"
-          },
-          {
-            "sentence": "Trust is essential for forming a strong [bond].",
-            "translation_zh_TW": "信任對於建立強大的連結是必要的"
-          }
-        ],
-        "synonyms": [
-          "connection",
-          "tie"
-        ]
-      }
-    ],
-    "confusion": [
-      "bonds",
-      "bonding",
-      "band",
-      "bord"
-    ]
-  },
-  {
-    "word": "hardware",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Tools, machinery, and other durable equipment.",
-        "meaning_zh_TW": "硬體",
-        "wrong_meaning_zh_TW": [
-          "軟體",
-          "配件",
-          "文件"
-        ],
-        "examples": [
-          {
-            "sentence": "I need to buy some [hardware] for my new computer.",
-            "translation_zh_TW": "我需要為我的新電腦購買一些硬體。"
-          },
-          {
-            "sentence": "The store sells various kinds of [hardware].",
-            "translation_zh_TW": "這家商店出售各種硬體。"
-          },
-          {
-            "sentence": "He specializes in computer [hardware] repairs.",
-            "translation_zh_TW": "他專門從事電腦硬體維修。"
-          }
-        ],
-        "synonyms": [
-          "equipment",
-          "tools"
-        ]
-      }
-    ],
-    "confusion": [
-      "hardwear",
-      "hardwired",
-      "hardwearing",
-      "hardwiring"
-    ]
-  },
-  {
-    "word": "dread",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A strong feeling of fear or anxiety.",
-        "meaning_zh_TW": "懼怕，恐懼",
-        "wrong_meaning_zh_TW": [
-          "期待",
-          "喜悅",
-          "驚奇"
-        ],
-        "examples": [
-          {
-            "sentence": "She felt a sense of [dread] before the exam.",
-            "translation_zh_TW": "在考試前，她感到一種懼怕。"
-          },
-          {
-            "sentence": "His heart was filled with [dread] at the thought of the upcoming storm.",
-            "translation_zh_TW": "想到即將來臨的風暴，他的心中充滿了懼怕。"
-          },
-          {
-            "sentence": "The [dread] of losing her job kept her awake at night.",
-            "translation_zh_TW": "對失去工作的懼怕讓她夜不能寐。"
-          }
-        ],
-        "synonyms": [
-          "fear",
-          "apprehension"
-        ]
-      }
-    ],
-    "confusion": [
-      "read",
-      "red",
-      "debt",
-      "bread"
+      "behealth",
+      "beholder",
+      "behaviors",
+      "bequeath"
     ]
   }
 ]

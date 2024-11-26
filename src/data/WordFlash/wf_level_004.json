@@ -1,5 +1,150 @@
 [
   {
+    "word": "place",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A particular position or point in space.",
+        "meaning_zh_TW": "位置",
+        "wrong_meaning_zh_TW": [
+          "運動場地",
+          "商店",
+          "地圖"
+        ],
+        "examples": [
+          {
+            "sentence": "This is the perfect [place] for a picnic.",
+            "translation_zh_TW": "這是野餐的完美位置。"
+          },
+          {
+            "sentence": "Have you found a [place] to live yet?",
+            "translation_zh_TW": "你找到住的地方了嗎？"
+          },
+          {
+            "sentence": "She marked the [place] on the map.",
+            "translation_zh_TW": "她在地圖上標記了位置。"
+          }
+        ],
+        "synonyms": [
+          "location",
+          "spot"
+        ]
+      }
+    ],
+    "confusion": [
+      "pace",
+      "placebo",
+      "plaque",
+      "plaster"
+    ]
+  },
+  {
+    "word": "money",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A current medium of exchange in the form of coins and banknotes.",
+        "meaning_zh_TW": "貨幣",
+        "wrong_meaning_zh_TW": [
+          "金屬",
+          "票據",
+          "財產"
+        ],
+        "examples": [
+          {
+            "sentence": "She saved [money] for her trip.",
+            "translation_zh_TW": "她為她的旅行省下了錢。"
+          },
+          {
+            "sentence": "Money can't buy happiness.",
+            "translation_zh_TW": "金錢無法購買幸福。"
+          },
+          {
+            "sentence": "He found some [money] on the street.",
+            "translation_zh_TW": "他在街上找到了一些錢。"
+          }
+        ],
+        "synonyms": [
+          "currency",
+          "cash"
+        ]
+      }
+    ],
+    "confusion": [
+      "monetary",
+      "monkeys",
+      "moneys",
+      "munny"
+    ]
+  },
+  {
+    "word": "station",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A regular stopping place on a public transportation route.",
+        "meaning_zh_TW": "車站",
+        "wrong_meaning_zh_TW": [
+          "站立",
+          "位置",
+          "障礙"
+        ],
+        "examples": [
+          {
+            "sentence": "We waited at the [station] for the train.",
+            "translation_zh_TW": "我們在車站等火車。"
+          },
+          {
+            "sentence": "The bus [station] was very crowded.",
+            "translation_zh_TW": "汽車站非常擁擠。"
+          },
+          {
+            "sentence": "She purchased a ticket at the [station].",
+            "translation_zh_TW": "她在車站買了一張票。"
+          }
+        ],
+        "synonyms": [
+          "terminal",
+          "depot"
+        ]
+      },
+      {
+        "type": "動詞",
+        "meaning_en_US": "To assign someone to a particular place or position.",
+        "meaning_zh_TW": "駐紮",
+        "wrong_meaning_zh_TW": [
+          "資助",
+          "訓練",
+          "分配"
+        ],
+        "examples": [
+          {
+            "sentence": "He was [stationed] overseas for a year.",
+            "translation_zh_TW": "他在海外駐紮了一年。"
+          },
+          {
+            "sentence": "They [station] volunteers at various locations.",
+            "translation_zh_TW": "他們在各個地點駐紮志工。"
+          },
+          {
+            "sentence": "The army units are [stationed] near the border.",
+            "translation_zh_TW": "陸軍部隊駐紮在邊境附近。"
+          }
+        ],
+        "synonyms": [
+          "post",
+          "place"
+        ]
+      }
+    ],
+    "confusion": [
+      "stationary",
+      "staging",
+      "statistic",
+      "stationery"
+    ]
+  },
+  {
     "word": "front",
     "meanings": [
       {
@@ -610,228 +755,6 @@
       "beast",
       "bset",
       "bests"
-    ]
-  },
-  {
-    "word": "ready",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Prepared for action or use.",
-        "meaning_zh_TW": "準備好的",
-        "wrong_meaning_zh_TW": [
-          "不安的",
-          "懷疑的",
-          "懶惰的"
-        ],
-        "examples": [
-          {
-            "sentence": "I am [ready] to leave now.",
-            "translation_zh_TW": "我現在已經準備好離開了。"
-          },
-          {
-            "sentence": "Are you [ready] for the test?",
-            "translation_zh_TW": "你準備好考試了嗎？"
-          },
-          {
-            "sentence": "She is [ready] to present her project.",
-            "translation_zh_TW": "她準備好展示她的計畫了。"
-          }
-        ],
-        "synonyms": [
-          "prepared",
-          "set"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "The state of being prepared.",
-        "meaning_zh_TW": "準備狀態",
-        "wrong_meaning_zh_TW": [
-          "不安狀態",
-          "忙碌狀態",
-          "休息狀態"
-        ],
-        "examples": [
-          {
-            "sentence": "His [ready] was evident before the competition.",
-            "translation_zh_TW": "在比賽前他的準備狀態很明顯。"
-          },
-          {
-            "sentence": "The team's [ready] was shown with their performance.",
-            "translation_zh_TW": "團隊的準備狀態在他們的表現中體現出來。"
-          },
-          {
-            "sentence": "She was in a state of [ready] for the presentation.",
-            "translation_zh_TW": "她在準備展示時處於準備狀態。"
-          }
-        ],
-        "synonyms": [
-          "preparedness",
-          "readiness"
-        ]
-      }
-    ],
-    "confusion": [
-      "reddy",
-      "read",
-      "rady",
-      "readying"
-    ]
-  },
-  {
-    "word": "Monday",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The second day of the week, following Sunday.",
-        "meaning_zh_TW": "星期一",
-        "wrong_meaning_zh_TW": [
-          "周末",
-          "假日",
-          "月亮"
-        ],
-        "examples": [
-          {
-            "sentence": "I have a meeting every [Monday].",
-            "translation_zh_TW": "我每個星期一都有會議"
-          },
-          {
-            "sentence": "She dislikes waking up early on [Mondays].",
-            "translation_zh_TW": "她不喜歡在星期一早起"
-          },
-          {
-            "sentence": "The store opens at 9 AM on [Mondays].",
-            "translation_zh_TW": "商店在星期一早上九點開門"
-          }
-        ],
-        "synonyms": [
-          "first day of the work week"
-        ]
-      }
-    ],
-    "confusion": [
-      "Mon",
-      "Monda",
-      "Moonday",
-      "Mondayy"
-    ]
-  },
-  {
-    "word": "agree",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "Have the same opinion or consent to something.",
-        "meaning_zh_TW": "同意",
-        "wrong_meaning_zh_TW": [
-          "反對",
-          "否定",
-          "不贊成"
-        ],
-        "examples": [
-          {
-            "sentence": "We all [agree] on the importance of education.",
-            "translation_zh_TW": "我們都[同意]教育的重要性。"
-          },
-          {
-            "sentence": "Do you [agree] with this proposal?",
-            "translation_zh_TW": "你[同意]這項提議嗎？"
-          },
-          {
-            "sentence": "They [agree] to meet at noon.",
-            "translation_zh_TW": "他們[同意]中午見面。"
-          }
-        ],
-        "synonyms": [
-          "concur",
-          "consent"
-        ]
-      }
-    ],
-    "confusion": [
-      "agreeable",
-      "agrarian",
-      "agreed",
-      "agreed-upon"
-    ]
-  },
-  {
-    "word": "gift",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A thing given willingly to someone without payment; a present.",
-        "meaning_zh_TW": "禮物",
-        "wrong_meaning_zh_TW": [
-          "捐款",
-          "生意",
-          "債務"
-        ],
-        "examples": [
-          {
-            "sentence": "She received a beautiful [gift] for her birthday.",
-            "translation_zh_TW": "她收到了一份漂亮的生日禮物。"
-          },
-          {
-            "sentence": "It’s the thought that counts when giving a [gift].",
-            "translation_zh_TW": "送禮物時，心意最重要。"
-          },
-          {
-            "sentence": "He gave her a [gift] to show his appreciation.",
-            "translation_zh_TW": "他送她一份禮物以示感激。"
-          }
-        ],
-        "synonyms": [
-          "present",
-          "offering"
-        ]
-      }
-    ],
-    "confusion": [
-      "gifts",
-      "shift",
-      "gist",
-      "rift"
-    ]
-  },
-  {
-    "word": "important",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Of great significance or value; likely to have a major effect.",
-        "meaning_zh_TW": "重要的",
-        "wrong_meaning_zh_TW": [
-          "無關緊要的",
-          "瑣碎的",
-          "滑稽的"
-        ],
-        "examples": [
-          {
-            "sentence": "It is [important] to finish your homework on time.",
-            "translation_zh_TW": "按時完成作業是很重要的"
-          },
-          {
-            "sentence": "She gave an [important] presentation at the conference.",
-            "translation_zh_TW": "她在會議上做了一個重要的報告"
-          },
-          {
-            "sentence": "Understanding the rules is [important] for success.",
-            "translation_zh_TW": "理解規則對成功是重要的"
-          }
-        ],
-        "synonyms": [
-          "crucial",
-          "significant"
-        ]
-      }
-    ],
-    "confusion": [
-      "import",
-      "impart",
-      "impromptu",
-      "imported"
     ]
   }
 ]

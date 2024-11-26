@@ -1,866 +1,751 @@
 [
   {
-    "word": "elder",
+    "word": "underground",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A person of greater age, often respected for their wisdom.",
-        "meaning_zh_TW": "長者、前輩",
+        "type": "形容詞",
+        "meaning_en_US": "Located or operating below the surface of the ground.",
+        "meaning_zh_TW": "地下的",
         "wrong_meaning_zh_TW": [
-          "小孩",
-          "同輩",
-          "新手"
+          "開放的",
+          "公共的",
+          "透明的"
         ],
         "examples": [
           {
-            "sentence": "The community relies on the wisdom of its [elders].",
-            "translation_zh_TW": "社區依賴其長者的智慧。"
+            "sentence": "The [underground] tunnels are part of a historic network.",
+            "translation_zh_TW": "這些地下隧道是歷史網絡的一部分。"
           },
           {
-            "sentence": "She consulted the [elders] before making her decision.",
-            "translation_zh_TW": "她在做決定之前諮詢了長輩。"
+            "sentence": "They discovered an [underground] spring in their backyard.",
+            "translation_zh_TW": "他們在後院發現了一個地下泉。"
           },
           {
-            "sentence": "Respect for [elders] is a core value in many cultures.",
-            "translation_zh_TW": "尊重長者是許多文化的核心價值觀。"
+            "sentence": "Underground artists often explore taboo subjects.",
+            "translation_zh_TW": "地下藝術家經常探討禁忌主題。"
           }
         ],
         "synonyms": [
-          "senior",
-          "ancient"
-        ]
-      }
-    ],
-    "confusion": [
-      "holder",
-      "elderly",
-      "elider",
-      "elderly"
-    ]
-  },
-  {
-    "word": "address",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The specific location of a person or organization, typically including a street name and number.",
-        "meaning_zh_TW": "地址",
-        "wrong_meaning_zh_TW": [
-          "信件",
-          "禮物",
-          "樓梯"
-        ],
-        "examples": [
-          {
-            "sentence": "Please send the package to my [address].",
-            "translation_zh_TW": "請將包裹寄到我的地址"
-          },
-          {
-            "sentence": "Her [address] is listed on the website.",
-            "translation_zh_TW": "她的地址在網站上列出"
-          },
-          {
-            "sentence": "Make sure to use the correct [address].",
-            "translation_zh_TW": "確保使用正確的地址"
-          }
-        ],
-        "synonyms": [
-          "location",
-          "residence"
+          "subterranean",
+          "beneath",
+          "below ground"
         ]
       },
       {
+        "type": "名詞",
+        "meaning_en_US": "A subway or metro system.",
+        "meaning_zh_TW": "地鐵",
+        "wrong_meaning_zh_TW": [
+          "地面交通",
+          "長途巴士",
+          "輕軌"
+        ],
+        "examples": [
+          {
+            "sentence": "She prefers taking the [underground] to avoid traffic.",
+            "translation_zh_TW": "她更喜歡乘坐地鐵以避免交通擁堵。"
+          },
+          {
+            "sentence": "The [underground] is a fast way to get around the city.",
+            "translation_zh_TW": "地鐵是快速在城市中移動的一種方式。"
+          },
+          {
+            "sentence": "He often reads while riding the [underground].",
+            "translation_zh_TW": "他常在乘坐地鐵時閱讀。"
+          }
+        ],
+        "synonyms": [
+          "metro",
+          "subway",
+          "tube"
+        ]
+      }
+    ],
+    "confusion": [
+      "undergroun",
+      "undergron",
+      "undergrond",
+      "undrground"
+    ]
+  },
+  {
+    "word": "bookstore",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A store that sells books.",
+        "meaning_zh_TW": "書店",
+        "wrong_meaning_zh_TW": [
+          "圖書館",
+          "文具店",
+          "書包"
+        ],
+        "examples": [
+          {
+            "sentence": "She loves to spend hours in the local [bookstore].",
+            "translation_zh_TW": "她喜歡在當地的書店裡待上幾個小時。"
+          },
+          {
+            "sentence": "The [bookstore] has a great selection of new releases.",
+            "translation_zh_TW": "這家書店有很好的新書選擇。"
+          },
+          {
+            "sentence": "He went to the [bookstore] to find a gift for his friend.",
+            "translation_zh_TW": "他去書店為他的朋友找禮物。"
+          }
+        ],
+        "synonyms": [
+          "bookseller",
+          "book shop"
+        ]
+      }
+    ],
+    "confusion": [
+      "cookstore",
+      "bookstorey",
+      "bookstorey",
+      "bookshelf"
+    ]
+  },
+  {
+    "word": "will",
+    "meanings": [
+      {
+        "type": "助動詞",
+        "meaning_en_US": "Expressing the future tense or intention.",
+        "meaning_zh_TW": "將要",
+        "wrong_meaning_zh_TW": [
+          "現在",
+          "過去",
+          "懷疑"
+        ],
+        "examples": [
+          {
+            "sentence": "I [will] go to the store tomorrow.",
+            "translation_zh_TW": "我明天會去商店"
+          },
+          {
+            "sentence": "She [will] finish her homework later.",
+            "translation_zh_TW": "她稍後會完成她的作業"
+          },
+          {
+            "sentence": "They [will] join us for dinner.",
+            "translation_zh_TW": "他們會和我們一起吃晚餐"
+          }
+        ],
+        "synonyms": [
+          "shall",
+          "intend to"
+        ]
+      }
+    ],
+    "confusion": [
+      "well",
+      "wall",
+      "willow",
+      "wild"
+    ]
+  },
+  {
+    "word": "cowboy",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person, typically a man, who herds and tends cattle, especially in the western United States.",
+        "meaning_zh_TW": "牛仔",
+        "wrong_meaning_zh_TW": [
+          "牧羊人",
+          "農夫",
+          "漁夫"
+        ],
+        "examples": [
+          {
+            "sentence": "The [cowboy] rode his horse into the sunset.",
+            "translation_zh_TW": "牛仔騎著他的馬向日落騎去。"
+          },
+          {
+            "sentence": "She dreamed of being a [cowboy] one day.",
+            "translation_zh_TW": "她夢想有一天成為一名牛仔。"
+          },
+          {
+            "sentence": "The [cowboy] skillfully roped the steer.",
+            "translation_zh_TW": "牛仔熟練地套住了公牛。"
+          }
+        ],
+        "synonyms": [
+          "wrangler",
+          "cowhand"
+        ]
+      }
+    ],
+    "confusion": [
+      "cowboys",
+      "cowboi",
+      "cowy",
+      "coboy"
+    ]
+  },
+  {
+    "word": "being",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The nature or essence of a person; existence.",
+        "meaning_zh_TW": "存在、生命",
+        "wrong_meaning_zh_TW": [
+          "非存在",
+          "廢物",
+          "無名者"
+        ],
+        "examples": [
+          {
+            "sentence": "Human [being] is unique in many ways.",
+            "translation_zh_TW": "人類在許多方面都是獨特的。"
+          },
+          {
+            "sentence": "She believes in the sanctity of every [being].",
+            "translation_zh_TW": "她相信每個存在的神聖性。"
+          },
+          {
+            "sentence": "The essence of [being] is often philosophical.",
+            "translation_zh_TW": "存在的本質常常是哲學性的。"
+          }
+        ],
+        "synonyms": [
+          "existence",
+          "entity"
+        ]
+      }
+    ],
+    "confusion": [
+      "beeing",
+      "beingg",
+      "bging",
+      "beening"
+    ]
+  },
+  {
+    "word": "return",
+    "meanings": [
+      {
         "type": "動詞",
-        "meaning_en_US": "To speak to someone in a formal way.",
-        "meaning_zh_TW": "演講、談話",
+        "meaning_en_US": "To go back to a place or to give something back.",
+        "meaning_zh_TW": "返回或歸還某物",
         "wrong_meaning_zh_TW": [
-          "呼叫",
-          "避開",
-          "指責"
+          "送貨",
+          "購買",
+          "寄信"
         ],
         "examples": [
           {
-            "sentence": "The mayor will [address] the crowd tomorrow.",
-            "translation_zh_TW": "市長明天將對群眾演講"
+            "sentence": "He will [return] home after the trip.",
+            "translation_zh_TW": "他將在旅行後回家。"
           },
           {
-            "sentence": "She was asked to [address] the issue at hand.",
-            "translation_zh_TW": "她被要求談論當前的問題"
+            "sentence": "Please [return] the book to the library.",
+            "translation_zh_TW": "請將書籍歸還給圖書館。"
           },
           {
-            "sentence": "He [addressed] the letter to the wrong person.",
-            "translation_zh_TW": "他把信寄給了錯誤的人"
+            "sentence": "I need to [return] a call.",
+            "translation_zh_TW": "我需要回覆一通電話。"
           }
         ],
         "synonyms": [
-          "speak",
-          "notify"
+          "go back",
+          "come back"
         ]
       }
     ],
     "confusion": [
-      "arrange",
-      "adore",
-      "advice",
-      "addres"
+      "returning",
+      "retorn",
+      "retern",
+      "retune"
     ]
   },
   {
-    "word": "heroine",
+    "word": "camel",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A woman admired for her courage, outstanding achievements, or noble qualities.",
-        "meaning_zh_TW": "女英雄",
+        "meaning_en_US": "A large long-necked mammal with one or two humps on its back, found in deserts.",
+        "meaning_zh_TW": "駱駝",
         "wrong_meaning_zh_TW": [
-          "反派",
-          "舞者",
-          "政府官員"
+          "羊",
+          "馬",
+          "牛"
         ],
         "examples": [
           {
-            "sentence": "The novel features a brave [heroine] who fights for justice.",
-            "translation_zh_TW": "這部小說描寫了一位為正義而戰的勇敢女英雄。"
+            "sentence": "The [camel] is well adapted to desert life.",
+            "translation_zh_TW": "駱駝非常適應沙漠生活。"
           },
           {
-            "sentence": "She was the [heroine] of the story, rising against oppression.",
-            "translation_zh_TW": "她是這個故事的女英雄，挺身對抗壓迫。"
+            "sentence": "We saw a [camel] during our trip to the desert.",
+            "translation_zh_TW": "我們在沙漠旅行中看到了一隻駱駝。"
           },
           {
-            "sentence": "In many tales, the [heroine] sacrifices herself for her people.",
-            "translation_zh_TW": "在許多故事中，女英雄為了她的人民犧牲了自己。"
+            "sentence": "Camels can go for long periods without water.",
+            "translation_zh_TW": "駱駝可以長時間不喝水。"
           }
         ],
         "synonyms": [
-          "shero",
-          "leading lady"
+          "dromedary",
+          "bactrian"
         ]
       }
     ],
     "confusion": [
-      "hero",
-      "heroin",
-      "heron",
-      "heroines"
+      "cameo",
+      "caml",
+      "camelot",
+      "camels"
     ]
   },
   {
-    "word": "principle",
+    "word": "swing",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A fundamental truth or proposition that serves as the foundation for a system of belief.",
-        "meaning_zh_TW": "原則",
+        "type": "動詞",
+        "meaning_en_US": "To move back and forth or from side to side.",
+        "meaning_zh_TW": "擺動",
         "wrong_meaning_zh_TW": [
-          "規則",
-          "法則",
-          "條件"
+          "靜止不動",
+          "跳躍",
+          "翻轉"
         ],
         "examples": [
           {
-            "sentence": "He believes in the [principle] of honesty.",
-            "translation_zh_TW": "他相信誠實的原則"
+            "sentence": "The children love to [swing] in the park.",
+            "translation_zh_TW": "孩子們喜歡在公園裡擺動"
           },
           {
-            "sentence": "The school's [principle] of respect is essential.",
-            "translation_zh_TW": "學校的尊重原則至關重要"
+            "sentence": "He made a big [swing] with the bat.",
+            "translation_zh_TW": "他用球棒做了個大的擺動"
           },
           {
-            "sentence": "She lives by the [principle] of fairness.",
-            "translation_zh_TW": "她遵循公平的原則生活"
+            "sentence": "The door will [swing] open if you push it.",
+            "translation_zh_TW": "如果你推的話，門會擺動打開"
           }
         ],
         "synonyms": [
-          "doctrine",
-          "tenet"
-        ]
-      }
-    ],
-    "confusion": [
-      "principal",
-      "principle's",
-      "principally",
-      "principles"
-    ]
-  },
-  {
-    "word": "condition",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The state or quality of something.",
-        "meaning_zh_TW": "狀態、情況",
-        "wrong_meaning_zh_TW": [
-          "健康問題",
-          "條件式學習",
-          "天氣預報"
-        ],
-        "examples": [
-          {
-            "sentence": "The car is in excellent [condition].",
-            "translation_zh_TW": "這輛車的狀態極佳"
-          },
-          {
-            "sentence": "His [condition] improved after the treatment.",
-            "translation_zh_TW": "他的情況在治療後有所改善"
-          },
-          {
-            "sentence": "The [condition] of the building is a concern.",
-            "translation_zh_TW": "這棟建築的狀況令人擔憂"
-          }
-        ],
-        "synonyms": [
-          "state",
-          "status"
+          "rock",
+          "flap"
         ]
       },
       {
-        "type": "動詞",
-        "meaning_en_US": "To place certain requirements or limitations on something.",
-        "meaning_zh_TW": "施加條件",
+        "type": "名詞",
+        "meaning_en_US": "A play or action that swings or moves back and forth.",
+        "meaning_zh_TW": "擺動",
         "wrong_meaning_zh_TW": [
-          "設計結構",
-          "舉辦比賽",
-          "提供資金"
+          "靜止狀態",
+          "固定物品",
+          "穩定結構"
         ],
         "examples": [
           {
-            "sentence": "They will [condition] the grant on achieving specific goals.",
-            "translation_zh_TW": "他們會就達成特定目標來施加資助的條件"
+            "sentence": "The [swing] in the backyard is very old.",
+            "translation_zh_TW": "後院的秋千很舊"
           },
           {
-            "sentence": "We cannot [condition] the offer without further discussion.",
-            "translation_zh_TW": "在進一步討論之前，我們不能加設任何條件"
+            "sentence": "She enjoys a gentle [swing] on a warm day.",
+            "translation_zh_TW": "她在暖和的日子裡享受輕柔的擺動"
           },
           {
-            "sentence": "He chose to [condition] his support on a few terms.",
-            "translation_zh_TW": "他選擇在幾個條件下來提供支持"
+            "sentence": "He sat on the [swing] while reading a book.",
+            "translation_zh_TW": "他坐在秋千上看書"
           }
         ],
         "synonyms": [
-          "limit",
-          "restrict"
+          "pendulum",
+          "sway"
         ]
       }
     ],
     "confusion": [
-      "conditions",
-      "conditioning",
-      "conclude",
-      "conductor"
+      "swinger",
+      "sing",
+      "swung",
+      "swinging"
     ]
   },
   {
-    "word": "event",
+    "word": "court",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An occurrence or happening, especially one of importance.",
-        "meaning_zh_TW": "事件",
+        "meaning_en_US": "A place where legal cases are heard and decided.",
+        "meaning_zh_TW": "法院",
         "wrong_meaning_zh_TW": [
-          "體驗",
-          "意義",
-          "目的"
+          "運動場",
+          "宮廷",
+          "花園"
         ],
         "examples": [
           {
-            "sentence": "The concert is a major [event] in the city.",
-            "translation_zh_TW": "這場音樂會是城市中的一個重要事件。"
+            "sentence": "He was summoned to [court] to testify.",
+            "translation_zh_TW": "他被傳喚到法院作證。"
           },
           {
-            "sentence": "She organized a community [event] last week.",
-            "translation_zh_TW": "她上週組織了一個社區事件。"
+            "sentence": "The judge presides over the [court].",
+            "translation_zh_TW": "法官主宰著法院。"
           },
           {
-            "sentence": "Each [event] has its own significance.",
-            "translation_zh_TW": "每個事件都有其特殊的意義。"
+            "sentence": "The [court] ruled in favor of the defendant.",
+            "translation_zh_TW": "法院判決有利於被告。"
           }
         ],
         "synonyms": [
-          "incident",
-          "occurrence"
+          "tribunal",
+          "judiciary"
         ]
       }
     ],
     "confusion": [
-      "evening",
-      "events",
-      "eventuate",
-      "evnt"
+      "corte",
+      "courts",
+      "courtney",
+      "cort"
     ]
   },
   {
-    "word": "employer",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person or organization that employs people.",
-        "meaning_zh_TW": "雇主",
-        "wrong_meaning_zh_TW": [
-          "僱員",
-          "工廠",
-          "經理"
-        ],
-        "examples": [
-          {
-            "sentence": "As an [employer], it's important to treat employees with respect.",
-            "translation_zh_TW": "作為雇主，尊重員工是非常重要的。"
-          },
-          {
-            "sentence": "An [employer] must provide a safe working environment.",
-            "translation_zh_TW": "雇主必須提供安全的工作環境。"
-          },
-          {
-            "sentence": "The [employer] offered great benefits to attract talent.",
-            "translation_zh_TW": "雇主提供了良好的福利以吸引人才。"
-          }
-        ],
-        "synonyms": [
-          "boss",
-          "hiring manager"
-        ]
-      }
-    ],
-    "confusion": [
-      "employee",
-      "employ",
-      "employer's",
-      "emplore"
-    ]
-  },
-  {
-    "word": "complex",
+    "word": "commercial",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Consisting of many different and connected parts.",
-        "meaning_zh_TW": "複雜的",
+        "meaning_en_US": "Related to or engaged in commerce or business.",
+        "meaning_zh_TW": "商業的",
         "wrong_meaning_zh_TW": [
-          "簡單的",
-          "明確的",
-          "容易的"
+          "免費的",
+          "慈善的",
+          "社會的"
         ],
         "examples": [
           {
-            "sentence": "This problem is too [complex] for a quick solution.",
-            "translation_zh_TW": "這個問題太複雜，無法迅速解決"
+            "sentence": "They launched a [commercial] product this year.",
+            "translation_zh_TW": "他們今年推出了一款商業產品。"
           },
           {
-            "sentence": "The architecture of this building is [complex].",
-            "translation_zh_TW": "這座建築的架構相當複雜"
+            "sentence": "Our focus is on [commercial] success.",
+            "translation_zh_TW": "我們的重點是商業成功。"
           },
           {
-            "sentence": "Understanding the [complex] machinery requires training.",
-            "translation_zh_TW": "了解這種複雜的機器需要訓練"
+            "sentence": "She works in [commercial] real estate.",
+            "translation_zh_TW": "她在商業地產領域工作。"
           }
         ],
         "synonyms": [
-          "complicated",
-          "intricate"
+          "business",
+          "trade"
         ]
       }
     ],
     "confusion": [
-      "compleks",
-      "compex",
-      "compleks",
-      "compelx"
+      "commerce",
+      "commerical",
+      "commissional",
+      "camaraderie"
     ]
   },
   {
-    "word": "pale",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Lacking intensity of color or brightness; light in color.",
-        "meaning_zh_TW": "顏色淺的",
-        "wrong_meaning_zh_TW": [
-          "膚色過深",
-          "鮮艷",
-          "光彩照人"
-        ],
-        "examples": [
-          {
-            "sentence": "She looked [pale] after being sick.",
-            "translation_zh_TW": "她生病後看起來很臉色蒼白。"
-          },
-          {
-            "sentence": "The sky was [pale] blue in the morning light.",
-            "translation_zh_TW": "早晨的天空是淺藍色的。"
-          },
-          {
-            "sentence": "He had a [pale] complexion.",
-            "translation_zh_TW": "他的膚色很蒼白。"
-          }
-        ],
-        "synonyms": [
-          "light",
-          "faint"
-        ]
-      }
-    ],
-    "confusion": [
-      "pail",
-      "sale",
-      "hale",
-      "pall"
-    ]
-  },
-  {
-    "word": "fashion",
+    "word": "cause",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A popular trend, especially in styles of dress and ornament or manners of behavior.",
-        "meaning_zh_TW": "流行、時尚",
+        "meaning_en_US": "A person or thing that gives rise to an action, phenomenon, or condition.",
+        "meaning_zh_TW": "原因",
         "wrong_meaning_zh_TW": [
-          "設計",
-          "建造",
-          "計畫"
+          "效果",
+          "結果",
+          "結局"
         ],
         "examples": [
           {
-            "sentence": "She is always ahead of the [fashion].",
-            "translation_zh_TW": "她總是走在時尚的最前端。"
+            "sentence": "The main [cause] of the problem was identified.",
+            "translation_zh_TW": "問題的主要原因被識別出來。"
           },
           {
-            "sentence": "The designer is known for her innovative [fashion].",
-            "translation_zh_TW": "這位設計師以其創新的時尚聞名。"
+            "sentence": "They rallied for a [cause] they believed in.",
+            "translation_zh_TW": "他們為信仰的原因而集會。"
           },
           {
-            "sentence": "Vintage [fashion] is making a comeback.",
-            "translation_zh_TW": "復古時尚正在回潮。"
+            "sentence": "Understanding the [cause] can lead to better solutions.",
+            "translation_zh_TW": "理解原因可以導致更好的解決方案。"
           }
         ],
         "synonyms": [
-          "style",
-          "trend"
+          "reason",
+          "motive"
         ]
       }
     ],
     "confusion": [
-      "faction",
-      "fashun",
-      "fashin",
-      "fashoon"
+      "cuse",
+      "caws",
+      "cues",
+      "coarse"
     ]
   },
   {
-    "word": "essay",
+    "word": "motorcycle",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A short piece of writing on a particular subject.",
-        "meaning_zh_TW": "短文、隨筆",
+        "meaning_en_US": "A two-wheeled vehicle powered by an engine.",
+        "meaning_zh_TW": "摩托車",
         "wrong_meaning_zh_TW": [
-          "報告書",
-          "小說",
-          "文章"
+          "單車",
+          "滑板車",
+          "電動車"
         ],
         "examples": [
           {
-            "sentence": "She wrote an [essay] on climate change.",
-            "translation_zh_TW": "她寫了一篇關於氣候變化的短文。"
+            "sentence": "He rode his [motorcycle] down the winding road.",
+            "translation_zh_TW": "他騎著摩托車沿著曲折的道路行駛。"
           },
           {
-            "sentence": "The teacher assigned an [essay] for homework.",
-            "translation_zh_TW": "老師為家庭作業指派了一篇隨筆。"
+            "sentence": "The [motorcycle] was painted bright red.",
+            "translation_zh_TW": "摩托車被漆成鮮紅色。"
           },
           {
-            "sentence": "His [essay] received excellent feedback.",
-            "translation_zh_TW": "他的短文得到了優秀的反饋。"
+            "sentence": "She dreams of traveling across the country on a [motorcycle].",
+            "translation_zh_TW": "她夢想著騎著摩托車橫跨全國旅行。"
           }
         ],
         "synonyms": [
-          "composition",
-          "paper"
+          "bike",
+          "motorbike"
         ]
       }
     ],
     "confusion": [
-      "essence",
-      "essayist",
-      "esa",
-      "esay"
+      "motocycle",
+      "motorbike",
+      "motorsickle",
+      "motercycle"
     ]
   },
   {
-    "word": "ideal",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Perfectly suitable or best for a particular situation.",
-        "meaning_zh_TW": "理想的",
-        "wrong_meaning_zh_TW": [
-          "不切實際",
-          "糟糕的",
-          "普通的"
-        ],
-        "examples": [
-          {
-            "sentence": "This solution is [ideal] for our needs.",
-            "translation_zh_TW": "這個解決方案對我們的需求是理想的。"
-          },
-          {
-            "sentence": "He is the [ideal] candidate for the job.",
-            "translation_zh_TW": "他是這份工作的理想人選。"
-          },
-          {
-            "sentence": "An [ideal] world would be free from conflict.",
-            "translation_zh_TW": "理想的世界將沒有衝突。"
-          }
-        ],
-        "synonyms": [
-          "perfect",
-          "optimal"
-        ]
-      }
-    ],
-    "confusion": [
-      "idea",
-      "idealism",
-      "identical",
-      "idle"
-    ]
-  },
-  {
-    "word": "forwards",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "In a direction that is in front of one; toward the future.",
-        "meaning_zh_TW": "向前；往前",
-        "wrong_meaning_zh_TW": [
-          "向後",
-          "靜止",
-          "側方"
-        ],
-        "examples": [
-          {
-            "sentence": "They moved [forwards] despite the challenges.",
-            "translation_zh_TW": "儘管面臨挑戰，他們仍然向前邁進。"
-          },
-          {
-            "sentence": "She looked [forwards] to a bright future.",
-            "translation_zh_TW": "她期待著美好的未來。"
-          },
-          {
-            "sentence": "We need to plan [forwards] for growth.",
-            "translation_zh_TW": "我們需要向前計劃增長。"
-          }
-        ],
-        "synonyms": [
-          "ahead",
-          "onward"
-        ]
-      }
-    ],
-    "confusion": [
-      "forward",
-      "forgive",
-      "forewarn",
-      "forage"
-    ]
-  },
-  {
-    "word": "coal",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A combustible black or dark brown rock consisting mainly of carbonized plant matter.",
-        "meaning_zh_TW": "煤",
-        "wrong_meaning_zh_TW": [
-          "石油",
-          "木頭",
-          "鐵"
-        ],
-        "examples": [
-          {
-            "sentence": "They mined [coal] from the mountain.",
-            "translation_zh_TW": "他們從山裡開採煤。"
-          },
-          {
-            "sentence": "Coal is used for energy production.",
-            "translation_zh_TW": "煤用於能源生產。"
-          },
-          {
-            "sentence": "The furnace burns [coal] to generate heat.",
-            "translation_zh_TW": "熔爐燃燒煤來產生熱量。"
-          }
-        ],
-        "synonyms": [
-          "charcoal",
-          "fuel"
-        ]
-      }
-    ],
-    "confusion": [
-      "cool",
-      "colt",
-      "call",
-      "cole"
-    ]
-  },
-  {
-    "word": "watch",
+    "word": "shine",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To look at or observe attentively over a period of time.",
-        "meaning_zh_TW": "觀看",
+        "meaning_en_US": "To emit light or to be bright.",
+        "meaning_zh_TW": "發出光或閃亮",
         "wrong_meaning_zh_TW": [
-          "忽視",
-          "忘記",
-          "呼喊"
+          "隱藏",
+          "黯淡",
+          "結束"
         ],
         "examples": [
           {
-            "sentence": "I like to [watch] movies on weekends.",
-            "translation_zh_TW": "我喜歡在週末觀看電影。"
+            "sentence": "The stars [shine] brightly at night.",
+            "translation_zh_TW": "星星在夜空中閃耀。"
           },
           {
-            "sentence": "They [watched] the sunrise together.",
-            "translation_zh_TW": "他們一起觀看日出。"
+            "sentence": "He polished the car until it [shined].",
+            "translation_zh_TW": "他把車子擦亮到閃閃發光。"
           },
           {
-            "sentence": "She enjoys [watching] birds in the garden.",
-            "translation_zh_TW": "她喜歡在花園裡觀看鳥類。"
+            "sentence": "The sun will [shine] tomorrow.",
+            "translation_zh_TW": "明天太陽會照耀。"
           }
         ],
         "synonyms": [
-          "observe",
-          "view"
+          "gleam",
+          "glow"
         ]
       }
     ],
     "confusion": [
-      "witch",
-      "batch",
-      "batches",
-      "watched"
+      "shiney",
+      "shone",
+      "shiner",
+      "shyne"
     ]
   },
   {
-    "word": "complete",
+    "word": "blank",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having all parts or elements; whole.",
-        "meaning_zh_TW": "完整的",
+        "meaning_en_US": "Not filled in; empty.",
+        "meaning_zh_TW": "空白的",
         "wrong_meaning_zh_TW": [
-          "部分的",
-          "不完整的",
-          "缺失的"
+          "全新的",
+          "光滑的",
+          "破舊的"
         ],
         "examples": [
           {
-            "sentence": "The report is [complete] and ready to submit.",
-            "translation_zh_TW": "報告已經完整，準備提交"
+            "sentence": "She stared at the [blank] page.",
+            "translation_zh_TW": "她盯著空白的頁面。"
           },
           {
-            "sentence": "She gave a [complete] answer to the question.",
-            "translation_zh_TW": "她對問題給出了完整的回答"
+            "sentence": "Please fill in the [blank] space.",
+            "translation_zh_TW": "請填寫空白的地方。"
           },
           {
-            "sentence": "A [complete] meal includes proteins, carbs, and vegetables.",
-            "translation_zh_TW": "一頓完整的餐點包括蛋白質、碳水化合物和蔬菜"
+            "sentence": "He submitted a [blank] form by mistake.",
+            "translation_zh_TW": "他錯誤地提交了一份空白的表格。"
           }
         ],
         "synonyms": [
-          "whole",
-          "entire"
+          "empty",
+          "vacant"
         ]
       }
     ],
     "confusion": [
-      "compleet",
-      "compleat",
-      "completee",
-      "complet"
+      "blinking",
+      "blanks",
+      "blanksheet",
+      "plank"
     ]
   },
   {
-    "word": "calendar",
+    "word": "force",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A system for organizing days and months, often used to schedule events.",
-        "meaning_zh_TW": "日曆",
+        "meaning_en_US": "Strength or energy as an attribute of physical action or movement.",
+        "meaning_zh_TW": "力量",
         "wrong_meaning_zh_TW": [
-          "計劃表",
-          "時鐘",
-          "時間表"
+          "虛弱",
+          "放鬆",
+          "技巧"
         ],
         "examples": [
           {
-            "sentence": "I marked the date on my [calendar].",
-            "translation_zh_TW": "我在日曆上標記了這個日期。"
+            "sentence": "The [force] of the wind knocked the trees down.",
+            "translation_zh_TW": "風的力量使樹倒了。"
           },
           {
-            "sentence": "She bought a beautiful new [calendar].",
-            "translation_zh_TW": "她買了一本漂亮的新日曆。"
+            "sentence": "They used all their [force] to move the heavy rock.",
+            "translation_zh_TW": "他們用盡所有力量來移動那塊重石。"
           },
           {
-            "sentence": "Check the [calendar] for available dates.",
-            "translation_zh_TW": "查看日曆以獲得可用的日期。"
+            "sentence": "The team put up a strong [force] during the competition.",
+            "translation_zh_TW": "在比賽中，球隊展現了強大的實力。"
           }
         ],
         "synonyms": [
-          "planner",
-          "datebook"
+          "power",
+          "strength"
         ]
       }
     ],
     "confusion": [
-      "calendars",
-      "calender",
-      "calendric",
-      "celendar"
+      "farce",
+      "form",
+      "fork",
+      "forsake"
     ]
   },
   {
-    "word": "notebook",
+    "word": "justice",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A book of blank pages for writing notes.",
-        "meaning_zh_TW": "筆記本",
+        "meaning_en_US": "The quality of being fair and just.",
+        "meaning_zh_TW": "正義、公正",
         "wrong_meaning_zh_TW": [
-          "日記",
-          "記事本",
-          "計算機"
+          "道德倫理",
+          "宗教信仰",
+          "社會活動"
         ],
         "examples": [
           {
-            "sentence": "I always carry a [notebook] to class.",
-            "translation_zh_TW": "我上課時總是帶著一本筆記本"
+            "sentence": "People strive for [justice] in society.",
+            "translation_zh_TW": "人們在社會中追求正義。"
           },
           {
-            "sentence": "She wrote her ideas in her [notebook].",
-            "translation_zh_TW": "她把自己的想法寫在筆記本上"
+            "sentence": "Justice should be served to all individuals equally.",
+            "translation_zh_TW": "正義應平等地施加於所有個體。"
           },
           {
-            "sentence": "His [notebook] was filled with sketches.",
-            "translation_zh_TW": "他的筆記本裡滿是草圖"
+            "sentence": "The pursuit of [justice] can be challenging.",
+            "translation_zh_TW": "追求正義可能是具有挑戰性的。"
           }
         ],
         "synonyms": [
-          "journal",
-          "notepad"
+          "fairness",
+          "equity"
         ]
       }
     ],
     "confusion": [
-      "note",
-      "notebook",
-      "noteblok",
-      "noteblock"
+      "justise",
+      "justus",
+      "jistica",
+      "justist"
     ]
   },
   {
-    "word": "goose",
+    "word": "adult",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A large waterbird with a long neck, commonly found in wetlands.",
-        "meaning_zh_TW": "鵝",
+        "meaning_en_US": "A person who is fully grown or developed.",
+        "meaning_zh_TW": "成年人",
         "wrong_meaning_zh_TW": [
-          "魚類",
-          "草",
-          "小鳥"
+          "孩子",
+          "青年",
+          "嬰兒"
         ],
         "examples": [
           {
-            "sentence": "The [goose] honked loudly as it waddled across the road.",
-            "translation_zh_TW": "這隻鵝一邊搖搖晃晃地走過馬路，一邊大聲叫喊。"
+            "sentence": "He is now an [adult] and can vote.",
+            "translation_zh_TW": "他現在是個成年人，可以投票"
           },
           {
-            "sentence": "We saw a [goose] and her goslings by the pond.",
-            "translation_zh_TW": "我們在池塘邊看到了隻母鵝和牠的小鵝。"
+            "sentence": "The film is rated for [adults].",
+            "translation_zh_TW": "這部電影的評分是針對成年人"
           },
           {
-            "sentence": "The farmer raises [geese] for their eggs.",
-            "translation_zh_TW": "這位農夫養鵝來供應牠們的蛋。"
+            "sentence": "As an [adult], she has more responsibilities.",
+            "translation_zh_TW": "作為成年人，她有更多責任"
           }
         ],
         "synonyms": [
-          "waterfowl",
-          "gander"
-        ]
-      }
-    ],
-    "confusion": [
-      "goes",
-      "gouge",
-      "goos",
-      "goes"
-    ]
-  },
-  {
-    "word": "fit",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "In good physical shape; in good health.",
-        "meaning_zh_TW": "健康的",
-        "wrong_meaning_zh_TW": [
-          "虛弱的",
-          "肥胖的",
-          "不健康的"
-        ],
-        "examples": [
-          {
-            "sentence": "She exercises regularly to stay [fit].",
-            "translation_zh_TW": "她定期運動以保持健康。"
-          },
-          {
-            "sentence": "A [fit] body enhances overall wellbeing.",
-            "translation_zh_TW": "健康的身體增進整體健康。"
-          },
-          {
-            "sentence": "He feels [fit] after his morning workout.",
-            "translation_zh_TW": "晨練後他感到很健康。"
-          }
-        ],
-        "synonyms": [
-          "healthy",
-          "in shape"
+          "grown-up",
+          "mature person"
         ]
       },
       {
-        "type": "動詞",
-        "meaning_en_US": "To be of the right size or shape for something.",
-        "meaning_zh_TW": "適合",
+        "type": "形容詞",
+        "meaning_en_US": "Relating to or suitable for adults.",
+        "meaning_zh_TW": "成人的",
         "wrong_meaning_zh_TW": [
-          "不合",
-          "排除",
-          "處理"
+          "幼稚的",
+          "青少年的",
+          "兒童的"
         ],
         "examples": [
           {
-            "sentence": "Make sure the lid will [fit] the container.",
-            "translation_zh_TW": "確保蓋子適合容器。"
+            "sentence": "This is an [adult] program.",
+            "translation_zh_TW": "這是一個成人的節目"
           },
           {
-            "sentence": "The shoes [fit] perfectly.",
-            "translation_zh_TW": "這雙鞋完全適合。"
+            "sentence": "The book contains [adult] themes.",
+            "translation_zh_TW": "這本書包含成人主題"
           },
           {
-            "sentence": "We need to [fit] this into our schedule.",
-            "translation_zh_TW": "我們需要把這個安排進日程。"
+            "sentence": "They offer courses for both [adults] and children.",
+            "translation_zh_TW": "他們提供適合成年人和兒童的課程"
           }
         ],
         "synonyms": [
-          "suit",
-          "match"
+          "mature",
+          "grown-up"
         ]
       }
     ],
     "confusion": [
-      "fitted",
-      "fitful",
-      "fitting",
-      "fitters"
+      "adults",
+      "auld",
+      "adulter",
+      "addult"
     ]
   }
 ]

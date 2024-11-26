@@ -1,838 +1,771 @@
 [
   {
-    "word": "sorry",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Feeling regret or penitence.",
-        "meaning_zh_TW": "抱歉",
-        "wrong_meaning_zh_TW": [
-          "驕傲",
-          "快樂",
-          "無辜"
-        ],
-        "examples": [
-          {
-            "sentence": "I am [sorry] for being late.",
-            "translation_zh_TW": "我因遲到而感到抱歉"
-          },
-          {
-            "sentence": "She was [sorry] for her harsh words.",
-            "translation_zh_TW": "她對自己嚴厲的話感到抱歉"
-          },
-          {
-            "sentence": "If you hurt her feelings, just say you're [sorry].",
-            "translation_zh_TW": "如果你傷害了她的感情，就說你抱歉"
-          }
-        ],
-        "synonyms": [
-          "apologetic",
-          "regretful"
-        ]
-      }
-    ],
-    "confusion": [
-      "sorrow",
-      "sore",
-      "sori",
-      "sory"
-    ]
-  },
-  {
-    "word": "laugh",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make sounds of amusement or joy.",
-        "meaning_zh_TW": "笑",
-        "wrong_meaning_zh_TW": [
-          "哭泣",
-          "嚎叫",
-          "噓聲"
-        ],
-        "examples": [
-          {
-            "sentence": "They always [laugh] at his jokes.",
-            "translation_zh_TW": "他們總是為他的笑話而笑"
-          },
-          {
-            "sentence": "She couldn't help but [laugh] at the situation.",
-            "translation_zh_TW": "她忍不住對這種情況發笑"
-          },
-          {
-            "sentence": "It's nice to [laugh] with friends.",
-            "translation_zh_TW": "和朋友一起笑真好"
-          }
-        ],
-        "synonyms": [
-          "giggle",
-          "chuckle"
-        ]
-      }
-    ],
-    "confusion": [
-      "laught",
-      "laff",
-      "laughh",
-      "laugher"
-    ]
-  },
-  {
-    "word": "ten",
+    "word": "homework",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The number equivalent to the product of one and ten; occurring after nine.",
-        "meaning_zh_TW": "十",
+        "meaning_en_US": "Assignments given to students to be completed outside of class.",
+        "meaning_zh_TW": "家庭作業",
         "wrong_meaning_zh_TW": [
-          "百",
-          "千",
-          "萬"
+          "遊戲",
+          "休閒",
+          "考試"
         ],
         "examples": [
           {
-            "sentence": "He has [ten] apples.",
-            "translation_zh_TW": "他有十個蘋果"
+            "sentence": "I have a lot of [homework] to finish tonight.",
+            "translation_zh_TW": "我今晚有很多家庭作業要完成。"
           },
           {
-            "sentence": "There are [ten] players on the team.",
-            "translation_zh_TW": "隊伍中有十名球員"
+            "sentence": "She forgot to bring her [homework] to school.",
+            "translation_zh_TW": "她忘了把家庭作業帶到學校。"
           },
           {
-            "sentence": "[Ten] is a nice round number.",
-            "translation_zh_TW": "十是一個漂亮的整數"
+            "sentence": "It's important to do your [homework] on time.",
+            "translation_zh_TW": "按時完成家庭作業很重要。"
           }
         ],
         "synonyms": [
-          "decade",
-          "X"
+          "assignments",
+          "schoolwork"
         ]
       }
     ],
     "confusion": [
-      "teen",
-      "tenn",
-      "tens",
-      "tne"
+      "homewrok",
+      "homewok",
+      "homeworkk",
+      "hoemwork"
     ]
   },
   {
-    "word": "some",
+    "word": "boring",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "An unspecified amount or number of something.",
-        "meaning_zh_TW": "一些",
+        "meaning_en_US": "Not interesting; tedious.",
+        "meaning_zh_TW": "無聊的",
         "wrong_meaning_zh_TW": [
-          "全部",
-          "零",
-          "沒有"
+          "刺激的",
+          "複雜的",
+          "有趣的"
         ],
         "examples": [
           {
-            "sentence": "I would like [some] water, please.",
-            "translation_zh_TW": "我想要一些水，謝謝。"
+            "sentence": "I find this lecture quite [boring].",
+            "translation_zh_TW": "我覺得這堂講座非常無聊。"
           },
           {
-            "sentence": "[Some] people prefer tea over coffee.",
-            "translation_zh_TW": "一些人更喜歡茶而不是咖啡。"
+            "sentence": "The movie was so [boring] that I fell asleep.",
+            "translation_zh_TW": "這部電影無聊到讓我睡著了。"
           },
           {
-            "sentence": "We have [some] cake left over from the party.",
-            "translation_zh_TW": "聚會上剩下一些蛋糕。"
+            "sentence": "She never lets [boring] tasks discourage her.",
+            "translation_zh_TW": "她從不讓無聊的工作打擊自己。"
           }
         ],
         "synonyms": [
-          "a few",
-          "a number of"
+          "dull",
+          "tedious"
         ]
       }
     ],
     "confusion": [
-      "same",
-      "somebody",
-      "sometime",
-      "same"
+      "bore",
+      "fawning",
+      "scoring",
+      "boringness"
     ]
   },
   {
-    "word": "later",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "At a time in the future; after the time you are talking about.",
-        "meaning_zh_TW": "稍後",
-        "wrong_meaning_zh_TW": [
-          "計劃",
-          "課程",
-          "現在"
-        ],
-        "examples": [
-          {
-            "sentence": "I will call you [later].",
-            "translation_zh_TW": "我稍後會打給你。"
-          },
-          {
-            "sentence": "Let's meet [later] in the evening.",
-            "translation_zh_TW": "我們稍後在晚上見面。"
-          },
-          {
-            "sentence": "I will finish my homework [later].",
-            "translation_zh_TW": "我稍後會完成我的作業。"
-          }
-        ],
-        "synonyms": [
-          "afterwards",
-          "subsequently"
-        ]
-      }
-    ],
-    "confusion": [
-      "latera",
-      "latter",
-      "laster",
-      "laithe"
-    ]
-  },
-  {
-    "word": "short",
+    "word": "rainy",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having little length or height; not tall or long.",
-        "meaning_zh_TW": "短的",
+        "meaning_en_US": "Characterized by rain; wet with rain.",
+        "meaning_zh_TW": "多雨的",
         "wrong_meaning_zh_TW": [
-          "長的",
-          "高的",
-          "圓的"
+          "潮濕的",
+          "晴朗的",
+          "寒冷的"
         ],
         "examples": [
           {
-            "sentence": "The story is too [short] for our discussion.",
-            "translation_zh_TW": "這個故事對我們的討論來說太短了。"
+            "sentence": "It was a [rainy] day.",
+            "translation_zh_TW": "那是一個多雨的日子。"
           },
           {
-            "sentence": "He wore [short] pants in the summer.",
-            "translation_zh_TW": "他在夏天穿了短褲。"
+            "sentence": "We stayed indoors on the [rainy] afternoon.",
+            "translation_zh_TW": "我們在多雨的午後待在室內。"
           },
           {
-            "sentence": "The meeting was unexpectedly [short].",
-            "translation_zh_TW": "會議出乎意料地很短。"
+            "sentence": "He loves [rainy] weather.",
+            "translation_zh_TW": "他喜歡多雨的天氣。"
           }
         ],
         "synonyms": [
-          "brief",
-          "concise"
+          "wet",
+          "showery"
         ]
       }
     ],
     "confusion": [
-      "shrt",
-      "shortly",
-      "shore",
-      "shot"
+      "rainy",
+      "raining",
+      "raindrop",
+      "rain"
     ]
   },
   {
-    "word": "tail",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The rear part of an animal’s body, often including a long, flexible appendage.",
-        "meaning_zh_TW": "尾巴",
-        "wrong_meaning_zh_TW": [
-          "耳朵",
-          "鼻子",
-          "翅膀"
-        ],
-        "examples": [
-          {
-            "sentence": "The dog wagged its [tail] happily.",
-            "translation_zh_TW": "狗快樂地搖著它的尾巴。"
-          },
-          {
-            "sentence": "A cat often flicks its [tail] when it's annoyed.",
-            "translation_zh_TW": "貓在惱怒時經常擺動它的尾巴。"
-          },
-          {
-            "sentence": "The horse's [tail] was long and flowing.",
-            "translation_zh_TW": "馬的尾巴又長又飄逸。"
-          }
-        ],
-        "synonyms": [
-          "appendage",
-          "rear limb"
-        ]
-      }
-    ],
-    "confusion": [
-      "tale",
-      "rail",
-      "fail",
-      "mail"
-    ]
-  },
-  {
-    "word": "car",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A road vehicle, typically with four wheels, powered by an internal combustion engine or electric motor.",
-        "meaning_zh_TW": "汽車",
-        "wrong_meaning_zh_TW": [
-          "船",
-          "火車",
-          "自行車"
-        ],
-        "examples": [
-          {
-            "sentence": "He drives a new [car].",
-            "translation_zh_TW": "他開著一輛新汽車。"
-          },
-          {
-            "sentence": "The [car] is parked in front of the house.",
-            "translation_zh_TW": "汽車停在房子前面。"
-          },
-          {
-            "sentence": "She loves collecting vintage [cars].",
-            "translation_zh_TW": "她喜歡收藏古董汽車。"
-          }
-        ],
-        "synonyms": [
-          "automobile",
-          "vehicle"
-        ]
-      }
-    ],
-    "confusion": [
-      "care",
-      "cart",
-      "carr",
-      "caw"
-    ]
-  },
-  {
-    "word": "neck",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The part of the body connecting the head to the shoulders.",
-        "meaning_zh_TW": "脖子",
-        "wrong_meaning_zh_TW": [
-          "手臂",
-          "腿",
-          "頭"
-        ],
-        "examples": [
-          {
-            "sentence": "He wore a necklace around his [neck].",
-            "translation_zh_TW": "他脖子上戴著一條項鍊。"
-          },
-          {
-            "sentence": "She tilted her head to give her [neck] a stretch.",
-            "translation_zh_TW": "她傾斜頭部以伸展脖子。"
-          },
-          {
-            "sentence": "The doctor examined the swelling on his [neck].",
-            "translation_zh_TW": "醫生檢查了他脖子上的腫脹。"
-          }
-        ],
-        "synonyms": [
-          "throat",
-          "cervix"
-        ]
-      }
-    ],
-    "confusion": [
-      "nack",
-      "necklace",
-      "nech",
-      "nec"
-    ]
-  },
-  {
-    "word": "strange",
+    "word": "proud",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Unusual or surprising in a way that is unsettling.",
-        "meaning_zh_TW": "奇怪的",
+        "meaning_en_US": "Feeling deep pleasure or satisfaction as a result of one's own achievements.",
+        "meaning_zh_TW": "自豪的",
         "wrong_meaning_zh_TW": [
-          "普通的",
-          "常見的",
-          "普通"
+          "謙卑的",
+          "羞愧的",
+          "普通的"
         ],
         "examples": [
           {
-            "sentence": "It was a [strange] noise in the attic.",
-            "translation_zh_TW": "這是閣樓裡的一種奇怪聲音"
+            "sentence": "She felt [proud] of her accomplishments.",
+            "translation_zh_TW": "她對自己的成就感到自豪。"
           },
           {
-            "sentence": "He has a [strange] way of expressing himself.",
-            "translation_zh_TW": "他有一種奇怪的表達方式"
+            "sentence": "They were [proud] to represent their country.",
+            "translation_zh_TW": "他們為能代表自己的國家而感到自豪。"
           },
           {
-            "sentence": "She felt [strange] after the long flight.",
-            "translation_zh_TW": "在長途飛行後她感覺奇怪"
+            "sentence": "He was [proud] of his heritage.",
+            "translation_zh_TW": "他為自己的傳承感到自豪。"
           }
         ],
         "synonyms": [
-          "odd",
-          "unusual"
+          "pleased",
+          "satisfied"
         ]
       }
     ],
     "confusion": [
-      "strange",
-      "strainge",
-      "strangee",
-      "strang"
+      "prude",
+      "proudly",
+      "pride",
+      "producer"
     ]
   },
   {
-    "word": "large",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Of considerable size, extent, or capacity.",
-        "meaning_zh_TW": "大的",
-        "wrong_meaning_zh_TW": [
-          "小的",
-          "稀少的",
-          "狹窄的"
-        ],
-        "examples": [
-          {
-            "sentence": "They live in a [large] house.",
-            "translation_zh_TW": "他們住在一個大房子裡。"
-          },
-          {
-            "sentence": "He ordered a [large] pizza.",
-            "translation_zh_TW": "他點了一個大比薩。"
-          },
-          {
-            "sentence": "There is a [large] crowd at the event.",
-            "translation_zh_TW": "活動上有一大群人。"
-          }
-        ],
-        "synonyms": [
-          "big",
-          "huge"
-        ]
-      }
-    ],
-    "confusion": [
-      "lage",
-      "lorge",
-      "laarge",
-      "lurge"
-    ]
-  },
-  {
-    "word": "perhaps",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "Used to indicate that something is possible or that there is a chance of it being true.",
-        "meaning_zh_TW": "也許",
-        "wrong_meaning_zh_TW": [
-          "肯定",
-          "明確",
-          "無法"
-        ],
-        "examples": [
-          {
-            "sentence": "[Perhaps] we should go to the beach tomorrow.",
-            "translation_zh_TW": "也許我們明天應該去海灘。"
-          },
-          {
-            "sentence": "I'm not sure, but [perhaps] it will rain later.",
-            "translation_zh_TW": "我不確定，但也許等會兒會下雨。"
-          },
-          {
-            "sentence": "[Perhaps] it's time to reconsider your options.",
-            "translation_zh_TW": "也許是時候重新考慮你的選擇了。"
-          }
-        ],
-        "synonyms": [
-          "maybe",
-          "possibly"
-        ]
-      }
-    ],
-    "confusion": [
-      "perchance",
-      "parhaps",
-      "herpas",
-      "pehaps"
-    ]
-  },
-  {
-    "word": "into",
-    "meanings": [
-      {
-        "type": "介系詞",
-        "meaning_en_US": "Expressing movement or action with the result that someone or something becomes enclosed or surrounded by something else.",
-        "meaning_zh_TW": "進入",
-        "wrong_meaning_zh_TW": [
-          "離開",
-          "停留",
-          "上去"
-        ],
-        "examples": [
-          {
-            "sentence": "She walked [into] the room.",
-            "translation_zh_TW": "她走進了房間。"
-          },
-          {
-            "sentence": "Put the toys [into] the box.",
-            "translation_zh_TW": "把玩具放進箱子裡。"
-          },
-          {
-            "sentence": "He jumped [into] the pool.",
-            "translation_zh_TW": "他跳進了游泳池。"
-          }
-        ],
-        "synonyms": [
-          "inside",
-          "inward"
-        ]
-      }
-    ],
-    "confusion": [
-      "in",
-      "onto",
-      "intoe",
-      "int"
-    ]
-  },
-  {
-    "word": "floor",
+    "word": "computer",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The bottom surface of a room.",
-        "meaning_zh_TW": "地板",
+        "meaning_en_US": "An electronic device for storing and processing data.",
+        "meaning_zh_TW": "電腦",
         "wrong_meaning_zh_TW": [
-          "屋頂",
-          "牆面",
-          "地板磚"
+          "桌子",
+          "書籍",
+          "手機"
         ],
         "examples": [
           {
-            "sentence": "The children are playing on the [floor].",
-            "translation_zh_TW": "孩子們正在地板上玩。"
+            "sentence": "He used his [computer] to write the report.",
+            "translation_zh_TW": "他用電腦來寫報告。"
           },
           {
-            "sentence": "He swept the [floor] yesterday.",
-            "translation_zh_TW": "他昨天掃了地板。"
+            "sentence": "The [computer] crashed while he was playing.",
+            "translation_zh_TW": "在他玩遊戲時，電腦當機了。"
           },
           {
-            "sentence": "Please take your shoes off before entering the [floor].",
-            "translation_zh_TW": "請在進入地板前脫掉鞋子。"
+            "sentence": "She bought a new [computer] for her studies.",
+            "translation_zh_TW": "她為了學習買了一台新電腦。"
           }
         ],
         "synonyms": [
-          "ground",
-          "surface"
+          "PC",
+          "laptop"
+        ]
+      }
+    ],
+    "confusion": [
+      "computation",
+      "composure",
+      "completer",
+      "compactor"
+    ]
+  },
+  {
+    "word": "cold",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having a low temperature; not warm.",
+        "meaning_zh_TW": "寒冷的",
+        "wrong_meaning_zh_TW": [
+          "熱的",
+          "濕的",
+          "溫暖的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [cold] wind made her shiver.",
+            "translation_zh_TW": "寒冷的風吹得她發抖。"
+          },
+          {
+            "sentence": "It was a very [cold] day in winter.",
+            "translation_zh_TW": "那是冬天非常寒冷的一天。"
+          },
+          {
+            "sentence": "He prefers [cold] drinks in the summer.",
+            "translation_zh_TW": "他夏天喜歡喝冷飲。"
+          }
+        ],
+        "synonyms": [
+          "chilly",
+          "cool"
+        ]
+      }
+    ],
+    "confusion": [
+      "gold",
+      "hold",
+      "fold",
+      "coldly"
+    ]
+  },
+  {
+    "word": "leader",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who leads or commands a group, organization, or country.",
+        "meaning_zh_TW": "領導者",
+        "wrong_meaning_zh_TW": [
+          "跟隨者",
+          "觀眾",
+          "懷疑者"
+        ],
+        "examples": [
+          {
+            "sentence": "The [leader] inspired the team to achieve great results.",
+            "translation_zh_TW": "這位領導者激勵團隊取得了優異的成績"
+          },
+          {
+            "sentence": "A good [leader] listens to their team's concerns.",
+            "translation_zh_TW": "一位好的領導者會傾聽團隊的擔憂"
+          },
+          {
+            "sentence": "She was elected as the [leader] of the student council.",
+            "translation_zh_TW": "她被選為學生會的領導者"
+          }
+        ],
+        "synonyms": [
+          "chief",
+          "director"
+        ]
+      }
+    ],
+    "confusion": [
+      "leaders",
+      "lead",
+      "leeder",
+      "lender"
+    ]
+  },
+  {
+    "word": "pink",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Of a color intermediate between red and white.",
+        "meaning_zh_TW": "粉紅色",
+        "wrong_meaning_zh_TW": [
+          "藍色",
+          "黃色",
+          "綠色"
+        ],
+        "examples": [
+          {
+            "sentence": "She wore a beautiful [pink] dress to the party.",
+            "translation_zh_TW": "她穿著一件漂亮的粉紅色裙子去派對。"
+          },
+          {
+            "sentence": "The sky turned [pink] at sunset.",
+            "translation_zh_TW": "日落時天空變成了粉紅色。"
+          },
+          {
+            "sentence": "He painted the walls [pink] for a cheerful look.",
+            "translation_zh_TW": "他把牆壁漆成粉紅色，以便達到愉快的效果。"
+          }
+        ],
+        "synonyms": [
+          "rosy",
+          "blush"
+        ]
+      }
+    ],
+    "confusion": [
+      "link",
+      "sink",
+      "wink",
+      "pick"
+    ]
+  },
+  {
+    "word": "bottom",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The lowest part or point of something.",
+        "meaning_zh_TW": "底部",
+        "wrong_meaning_zh_TW": [
+          "頂部",
+          "側面",
+          "邊緣"
+        ],
+        "examples": [
+          {
+            "sentence": "He sat at the [bottom] of the hill.",
+            "translation_zh_TW": "他坐在山丘的底部。"
+          },
+          {
+            "sentence": "The [bottom] of the box is dusty.",
+            "translation_zh_TW": "箱子的底部很髒。"
+          },
+          {
+            "sentence": "We could see fish swimming at the [bottom] of the lake.",
+            "translation_zh_TW": "我們能看到魚在湖的底部游泳。"
+          }
+        ],
+        "synonyms": [
+          "base",
+          "foundation"
+        ]
+      }
+    ],
+    "confusion": [
+      "bloom",
+      "botton",
+      "bring",
+      "boston"
+    ]
+  },
+  {
+    "word": "fat",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A natural oily or greasy substance occurring in animal bodies, especially when deposited as a layer under the skin or around organs.",
+        "meaning_zh_TW": "脂肪",
+        "wrong_meaning_zh_TW": [
+          "薄荷",
+          "果仁",
+          "檸檬"
+        ],
+        "examples": [
+          {
+            "sentence": "He tried to lose [fat] by exercising.",
+            "translation_zh_TW": "他試圖通過鍛煉減少脂肪"
+          },
+          {
+            "sentence": "Too much [fat] in the diet can lead to health issues.",
+            "translation_zh_TW": "飲食中脂肪過多可能導致健康問題"
+          },
+          {
+            "sentence": "Cooking with [fat] can enhance the flavor.",
+            "translation_zh_TW": "用脂肪烹調可以增強風味"
+          }
+        ],
+        "synonyms": [
+          "lipid",
+          "grease"
         ]
       },
       {
+        "type": "形容詞",
+        "meaning_en_US": "Having a large amount of flesh that is not lean, typically regarded as overweight.",
+        "meaning_zh_TW": "肥胖的",
+        "wrong_meaning_zh_TW": [
+          "苗條的",
+          "健康的",
+          "美的"
+        ],
+        "examples": [
+          {
+            "sentence": "The dog is quite [fat] for its age.",
+            "translation_zh_TW": "這隻狗在它的年紀來說相當肥胖"
+          },
+          {
+            "sentence": "He looked [fat] after the holidays.",
+            "translation_zh_TW": "假期結束後他看起來很胖"
+          },
+          {
+            "sentence": "She prefers [fat] cuts of meat.",
+            "translation_zh_TW": "她喜歡肥的肉"
+          }
+        ],
+        "synonyms": [
+          "overweight",
+          "obese"
+        ]
+      }
+    ],
+    "confusion": [
+      "fate",
+      "fact",
+      "fast",
+      "fad"
+    ]
+  },
+  {
+    "word": "math",
+    "meanings": [
+      {
         "type": "名詞",
-        "meaning_en_US": "A level of a building.",
-        "meaning_zh_TW": "樓層",
+        "meaning_en_US": "The abstract science of number, quantity, and space, either as abstract concepts (pure mathematics), or as applied to other disciplines such as physics and engineering.",
+        "meaning_zh_TW": "數學",
         "wrong_meaning_zh_TW": [
-          "牆壁",
-          "天花板",
-          "窗戶"
+          "文學",
+          "藝術",
+          "地理"
         ],
         "examples": [
           {
-            "sentence": "She lives on the third [floor].",
-            "translation_zh_TW": "她住在第三樓。"
+            "sentence": "She always enjoyed [math] more than any other subject.",
+            "translation_zh_TW": "她一直比任何其他科目更喜歡數學。"
           },
           {
-            "sentence": "The office is located on the first [floor].",
-            "translation_zh_TW": "辦公室位於一樓。"
+            "sentence": "He decided to pursue a career in [math] and statistics.",
+            "translation_zh_TW": "他決定從事數學和統計學的職業。"
           },
           {
-            "sentence": "Let's meet on the rooftop [floor].",
-            "translation_zh_TW": "我們在屋頂樓層見面吧。"
+            "sentence": "The teacher explained the [math] problem step by step.",
+            "translation_zh_TW": "老師一步一步地解釋了數學問題。"
           }
         ],
         "synonyms": [
-          "level",
-          "story"
+          "mathematics",
+          "arithmetic"
         ]
       }
     ],
     "confusion": [
-      "flour",
-      "flore",
-      "floar",
-      "flor"
+      "mat",
+      "maths",
+      "mathy",
+      "moth"
     ]
   },
   {
-    "word": "price",
+    "word": "throat",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The amount of money required to purchase something.",
-        "meaning_zh_TW": "價格",
+        "meaning_en_US": "The passage that leads from the back of the mouth to the esophagus and trachea.",
+        "meaning_zh_TW": "喉嚨",
         "wrong_meaning_zh_TW": [
-          "資產",
-          "退款",
-          "價值"
+          "肺部",
+          "心臟",
+          "脖子"
         ],
         "examples": [
           {
-            "sentence": "The [price] of the car was surprisingly low.",
-            "translation_zh_TW": "這輛車的價格出乎意料地低。"
+            "sentence": "He has a sore [throat] from the cold.",
+            "translation_zh_TW": "他因感冒喉嚨痛。"
           },
           {
-            "sentence": "They negotiated the [price] before finalizing the deal.",
-            "translation_zh_TW": "他們在簽訂合約之前談判了價格。"
+            "sentence": "Drink warm tea to soothe your [throat].",
+            "translation_zh_TW": "喝溫茶以舒緩喉嚨。"
           },
           {
-            "sentence": "The store has lowered the [price] of all items.",
-            "translation_zh_TW": "商店已經降低了所有商品的價格。"
+            "sentence": "She cleared her [throat] before speaking.",
+            "translation_zh_TW": "她在說話前清了清喉嚨。"
           }
         ],
         "synonyms": [
-          "cost",
-          "charge"
+          "gullet",
+          "pharynx"
         ]
       }
     ],
     "confusion": [
-      "prize",
-      "pricey",
-      "pricer",
-      "prime"
+      "throte",
+      "throate",
+      "throut",
+      "thro"
     ]
   },
   {
-    "word": "great",
+    "word": "doctor",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A qualified practitioner of medicine; a physician.",
+        "meaning_zh_TW": "醫生",
+        "wrong_meaning_zh_TW": [
+          "護士",
+          "藥劑師",
+          "技術員"
+        ],
+        "examples": [
+          {
+            "sentence": "She wants to become a [doctor].",
+            "translation_zh_TW": "她想成為一名[醫生]。"
+          },
+          {
+            "sentence": "Visit your [doctor] for regular check-ups.",
+            "translation_zh_TW": "定期去看[醫生]進行檢查。"
+          },
+          {
+            "sentence": "The [doctor] prescribed medication.",
+            "translation_zh_TW": "[醫生]開了藥。"
+          }
+        ],
+        "synonyms": [
+          "physician",
+          "medic"
+        ]
+      }
+    ],
+    "confusion": [
+      "doctrine",
+      "doctorate",
+      "docile",
+      "doctrinaire"
+    ]
+  },
+  {
+    "word": "snow",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Frozen water vapor that falls as white flakes.",
+        "meaning_zh_TW": "雪",
+        "wrong_meaning_zh_TW": [
+          "冰",
+          "霜",
+          "雲"
+        ],
+        "examples": [
+          {
+            "sentence": "The [snow] covered the ground completely.",
+            "translation_zh_TW": "雪完全覆蓋了地面"
+          },
+          {
+            "sentence": "Children love to play in the [snow].",
+            "translation_zh_TW": "孩子們喜歡在雪中玩耍"
+          },
+          {
+            "sentence": "It began to [snow] heavily in the evening.",
+            "translation_zh_TW": "傍晚開始下大雪"
+          }
+        ],
+        "synonyms": [
+          "flakes",
+          "slush"
+        ]
+      }
+    ],
+    "confusion": [
+      "snore",
+      "sneak",
+      "sown",
+      "so"
+    ]
+  },
+  {
+    "word": "fine",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Of an extent, amount, or intensity considerably above the normal or average.",
-        "meaning_zh_TW": "很大的、極好的",
-        "wrong_meaning_zh_TW": [
-          "普通",
-          "次等",
-          "平常"
-        ],
-        "examples": [
-          {
-            "sentence": "She did a [great] job on the project.",
-            "translation_zh_TW": "她在這個項目中表現得非常好。"
-          },
-          {
-            "sentence": "It was a [great] day for a picnic.",
-            "translation_zh_TW": "今天是去野餐的好日子。"
-          },
-          {
-            "sentence": "He has [great] ideas for the future.",
-            "translation_zh_TW": "他對未來有很好的想法。"
-          }
-        ],
-        "synonyms": [
-          "excellent",
-          "fantastic"
-        ]
-      }
-    ],
-    "confusion": [
-      "grate",
-      "gratef",
-      "greatt",
-      "greath"
-    ]
-  },
-  {
-    "word": "listen",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To give attention to sound.",
-        "meaning_zh_TW": "聆聽",
-        "wrong_meaning_zh_TW": [
-          "忽視",
-          "觀看",
-          "觸摸"
-        ],
-        "examples": [
-          {
-            "sentence": "Please [listen] carefully to the instructions.",
-            "translation_zh_TW": "請仔細聆聽說明。"
-          },
-          {
-            "sentence": "He loves to [listen] to music.",
-            "translation_zh_TW": "他喜歡聆聽音樂。"
-          },
-          {
-            "sentence": "You should [listen] to your elders.",
-            "translation_zh_TW": "你應該聆聽長輩的話。"
-          }
-        ],
-        "synonyms": [
-          "hear",
-          "attend"
-        ]
-      }
-    ],
-    "confusion": [
-      "lessen",
-      "liste",
-      "laisser",
-      "listed"
-    ]
-  },
-  {
-    "word": "excited",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Very enthusiastic and eager.",
-        "meaning_zh_TW": "興奮的",
-        "wrong_meaning_zh_TW": [
-          "無聊的",
-          "悲傷的",
-          "失望的"
-        ],
-        "examples": [
-          {
-            "sentence": "She was [excited] to go on vacation.",
-            "translation_zh_TW": "她對去度假感到興奮。"
-          },
-          {
-            "sentence": "The children were [excited] about the party.",
-            "translation_zh_TW": "孩子們對聚會感到興奮。"
-          },
-          {
-            "sentence": "He gave an [excited] speech.",
-            "translation_zh_TW": "他發表了興奮的演講。"
-          }
-        ],
-        "synonyms": [
-          "enthusiastic",
-          "eager"
-        ]
-      }
-    ],
-    "confusion": [
-      "exited",
-      "excite",
-      "exciting",
-      "excitement"
-    ]
-  },
-  {
-    "word": "good",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "To be desired or approved of.",
+        "meaning_en_US": "Of high quality; satisfactory.",
         "meaning_zh_TW": "好的",
         "wrong_meaning_zh_TW": [
           "糟糕的",
-          "可笑的",
-          "容易的"
+          "昂貴的",
+          "微小的"
         ],
         "examples": [
           {
-            "sentence": "She did a [good] job on the project.",
-            "translation_zh_TW": "她在這個專案中做得很好。"
+            "sentence": "The weather is [fine] today.",
+            "translation_zh_TW": "今天的天氣很好。"
           },
           {
-            "sentence": "It's always [good] to help others.",
-            "translation_zh_TW": "幫助他人總是好的。"
+            "sentence": "She wore a [fine] dress to the party.",
+            "translation_zh_TW": "她穿著漂亮的裙子參加派對。"
           },
           {
-            "sentence": "This is a [good] restaurant.",
-            "translation_zh_TW": "這是一家好的餐廳。"
+            "sentence": "He received a [fine] for parking illegally.",
+            "translation_zh_TW": "他因非法停車而收到罰款。"
           }
         ],
         "synonyms": [
           "excellent",
-          "fine"
+          "great"
         ]
       }
     ],
     "confusion": [
-      "food",
-      "wood",
-      "gond",
-      "god"
+      "find",
+      "line",
+      "fen",
+      "fined"
     ]
   },
   {
-    "word": "top",
+    "word": "correct",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "The highest or uppermost point, part, or surface of something.",
-        "meaning_zh_TW": "上面、頂端",
-        "wrong_meaning_zh_TW": [
-          "底部",
-          "邊緣",
-          "內部"
-        ],
-        "examples": [
-          {
-            "sentence": "He reached the [top] of the mountain.",
-            "translation_zh_TW": "他到達了山的頂端"
-          },
-          {
-            "sentence": "She placed the book on the [top] shelf.",
-            "translation_zh_TW": "她把書放在了最上面的書架上"
-          },
-          {
-            "sentence": "The [top] performer of the year was awarded a trophy.",
-            "translation_zh_TW": "該年度的最佳表現者獲得了獎盃"
-          }
-        ],
-        "synonyms": [
-          "summit",
-          "peak"
-        ]
-      },
-      {
         "type": "形容詞",
-        "meaning_en_US": "Highest in importance, rank, or degree.",
-        "meaning_zh_TW": "最高的、最重要的",
+        "meaning_en_US": "Free from error; in accordance with fact or truth.",
+        "meaning_zh_TW": "正確的",
         "wrong_meaning_zh_TW": [
-          "最小的",
-          "最差的",
-          "中等的"
+          "錯誤的",
+          "不準確的",
+          "模糊的"
         ],
         "examples": [
           {
-            "sentence": "She is the [top] student in her class.",
-            "translation_zh_TW": "她是班上最優秀的學生"
+            "sentence": "Her answer was [correct], and she received full marks.",
+            "translation_zh_TW": "她的答案是正確的，因此得了滿分"
           },
           {
-            "sentence": "This is a [top] priority project.",
-            "translation_zh_TW": "這是一個最優先的項目"
+            "sentence": "I need to find the [correct] address for the meeting.",
+            "translation_zh_TW": "我需要找到正確的會議地址"
           },
           {
-            "sentence": "They have the [top] quality products.",
-            "translation_zh_TW": "他們有最高品質的產品"
+            "sentence": "Make sure you have the [correct] information before proceeding.",
+            "translation_zh_TW": "在繼續之前，確保你有正確的信息"
           }
         ],
         "synonyms": [
-          "highest",
-          "best"
+          "accurate",
+          "right"
         ]
       }
     ],
     "confusion": [
-      "tap",
-      "tip",
-      "tob",
-      "topi"
+      "collect",
+      "corrrect",
+      "corret",
+      "correspond"
+    ]
+  },
+  {
+    "word": "become",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "Begin to be.",
+        "meaning_zh_TW": "成為",
+        "wrong_meaning_zh_TW": [
+          "結束",
+          "開始",
+          "退出"
+        ],
+        "examples": [
+          {
+            "sentence": "He hopes to [become] a doctor one day.",
+            "translation_zh_TW": "他希望有一天能成為醫生。"
+          },
+          {
+            "sentence": "She will [become] the team leader next year.",
+            "translation_zh_TW": "她明年將成為團隊領袖。"
+          },
+          {
+            "sentence": "The weather can [become] quite unpredictable.",
+            "translation_zh_TW": "天氣可能會變得相當不可預測。"
+          }
+        ],
+        "synonyms": [
+          "turn into",
+          "grow into"
+        ]
+      }
+    ],
+    "confusion": [
+      "becomee",
+      "becom",
+      "becomea",
+      "becum"
+    ]
+  },
+  {
+    "word": "friend",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person you know well and regard with affection and trust.",
+        "meaning_zh_TW": "朋友",
+        "wrong_meaning_zh_TW": [
+          "敵人",
+          "陌生人",
+          "顧客"
+        ],
+        "examples": [
+          {
+            "sentence": "My [friend] helped me with my homework.",
+            "translation_zh_TW": "我的朋友幫我做了作業。"
+          },
+          {
+            "sentence": "We have been [friends] since childhood.",
+            "translation_zh_TW": "我們從小就是朋友。"
+          },
+          {
+            "sentence": "She introduced me to her [friend].",
+            "translation_zh_TW": "她把我介紹給她的朋友。"
+          }
+        ],
+        "synonyms": [
+          "companion",
+          "buddy"
+        ]
+      }
+    ],
+    "confusion": [
+      "fiend",
+      "froend",
+      "fren",
+      "frian"
+    ]
+  },
+  {
+    "word": "east",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The direction toward the point of the horizon where the sun rises.",
+        "meaning_zh_TW": "東方",
+        "wrong_meaning_zh_TW": [
+          "西方",
+          "南方",
+          "北方"
+        ],
+        "examples": [
+          {
+            "sentence": "The sun rises in the [east].",
+            "translation_zh_TW": "太陽從東方升起"
+          },
+          {
+            "sentence": "We traveled [east] to reach the city.",
+            "translation_zh_TW": "我們向東方旅行到達城市"
+          },
+          {
+            "sentence": "He faced [east] during the ceremony.",
+            "translation_zh_TW": "他在儀式中面向東方"
+          }
+        ],
+        "synonyms": [
+          "orient",
+          "eastern direction"
+        ]
+      }
+    ],
+    "confusion": [
+      "beast",
+      "feast",
+      "least",
+      "eastward"
     ]
   }
 ]
