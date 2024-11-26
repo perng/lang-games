@@ -56,29 +56,33 @@ const formatExampleSentence = (sentence: string, word: string) => {
     return sentence.replace(regex, `<b>${word}</b>`);
 };
 
-// Add this interface
+// Add interface for Level type
 interface Level {
     id: string;
+    title: string;
     wordFile: string;
 }
 
-// Add this function to generate level data
-const getLevelData = (levelId: string): Level | null => {
-    // Extract level number from levelId (e.g., "word_flash_level_1" -> "1")
-    const levelNumber = levelId.split('_').pop();
-    
-    if (!levelNumber) return null;
-    
-    return {
-        id: levelId,
-        wordFile: `wf_level_${levelNumber}.json`
-    };
+// Add this function at the top of the file
+const getLevelData = async (levelId: string): Promise<Level | null> => {
+    try {
+        const response = await fetch('/data/WordFlash/levels.json');
+        if (!response.ok) {
+            console.error('Failed to fetch levels.json:', response.status);
+            return null;
+        }
+        
+        const levels: Level[] = await response.json();
+        return levels.find(level => level.id === levelId) || null;
+    } catch (error) {
+        console.error('Error getting level data:', error);
+        return null;
+    }
 };
 
 export default function WordFlashGame() {
-    // All state declarations first
-    const navigate = useNavigate();
     const { levelId } = useParams<{ levelId: string }>();
+    const navigate = useNavigate();
     const [wordList, setWordList] = useState<WordWithScore[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [choices, setChoices] = useState<string[]>([]);
@@ -126,7 +130,7 @@ export default function WordFlashGame() {
             }
 
             try {
-                const level = getLevelData(levelId);
+                const level = await getLevelData(levelId);
                 if (!level) {
                     console.error('Level not found');
                     return;
@@ -230,12 +234,9 @@ export default function WordFlashGame() {
 
     // Move calculateStats to a memoized value
     const stats = useMemo(() => {
-        const totalMeanings = wordList.length;
-        console.log('totalMeanings:', totalMeanings);
+        const totalMeanings = wordList.length;        
         const masteredMeanings = wordList.filter(item => item.score > 0).length;
-        console.log('masteredMeanings:', masteredMeanings);
         const wordsToReview = wordList.filter(item => item.score < 0.4).length;
-        console.log('wordsToReview:', wordsToReview);
         
         return {
             progress: totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100).toFixed(2) : "0.00",
@@ -441,6 +442,52 @@ export default function WordFlashGame() {
         setCurrentIndex((prev) => (prev + 1) % wordList.length);
     };
 
+    // Move findNextIncompleteLevel inside the component
+    const findNextIncompleteLevel = async () => {
+        if (!levelId) {
+            console.log('No current levelId');
+            return null;
+        }
+        
+        try {
+            // Get all level files
+            const response = await fetch('/data/WordFlash/levels.json');
+            if (!response.ok) {
+                console.error('Failed to fetch levels.json:', response.status);
+                return null;
+            }
+            
+            const levels: Level[] = await response.json();
+            console.log('All levels:', levels);
+            
+            // Find current level index
+            const currentIndex = levels.findIndex(level => level.id === levelId);
+            console.log('Current level index:', currentIndex);
+            
+            if (currentIndex === -1) {
+                console.log('Current level not found in levels list');
+                return null;
+            }
+            
+            // Look for next incomplete level
+            for (let i = currentIndex + 1; i < levels.length; i++) {
+                const progress = Number(getStorageWithCookie(`${levels[i].id}_progress`) ?? 0);
+                console.log(`Level ${levels[i].id} progress:`, progress);
+                
+                if (progress < 100) {
+                    console.log('Found next incomplete level:', levels[i].id);
+                    return levels[i].id;
+                }
+            }
+            
+            console.log('No incomplete levels found after current level');
+            return null;
+        } catch (error) {
+            console.error('Error finding next level:', error);
+            return null;
+        }
+    };
+
     if (wordList.length === 0) return <div>Loading...</div>;
 
     const currentWord = wordList[currentIndex];
@@ -550,6 +597,31 @@ export default function WordFlashGame() {
                 </div>
             </div>
             
+            {Number(stats.progress) >= 100 && (
+                <button 
+                    className="next-level-button"
+                    onClick={async () => {
+                        try {
+                            console.log('Finding next incomplete level...');
+                            const nextLevelId = await findNextIncompleteLevel();
+                            console.log('Next level ID:', nextLevelId);
+                            
+                            if (nextLevelId) {
+                                console.log('Navigating to:', `/word-flash/${nextLevelId}`);
+                                navigate(`/word-flash/${nextLevelId}`);
+                            } else {
+                                console.log('No next level found');
+                                alert('You have completed all available levels!');
+                            }
+                        } catch (error) {
+                            console.error('Error handling next level:', error);
+                        }
+                    }}
+                >
+                    Next Level →
+                </button>
+            )}
+
             <div className="stats-section">
                 <div 
                     className="progress-bar-container"
