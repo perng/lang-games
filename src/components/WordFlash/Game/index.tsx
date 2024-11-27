@@ -94,13 +94,18 @@ export default function WordFlashGame() {
     const [slogans, setSlogans] = useState<string[]>([]);
     const [showSlogan, setShowSlogan] = useState(false);
     const [currentSlogan, setCurrentSlogan] = useState('');
-    const [fastMode, setFastMode] = useState(false);
+    const [fastMode, setFastMode] = useState(() => {
+        return localStorage.getItem('wordFlash_fastMode') === 'true'
+    });
     const continueTimerRef = useRef<number>();
     const audioService = useRef<AudioService>();
     const [correctWordsInRound, setCorrectWordsInRound] = useState(0);
     const [showStatsPopup, setShowStatsPopup] = useState(false);
-    const [showExamples, setShowExamples] = useState(false);
+    const [showExamples, setShowExamples] = useState(() => {
+        return localStorage.getItem('wordFlash_showExamples') === 'true'
+    });
     const [showExamplesPopup, setShowExamplesPopup] = useState(false);
+    const [levelDescription, setLevelDescription] = useState('');
 
     // Initialize audio service
     useEffect(() => {
@@ -122,6 +127,10 @@ export default function WordFlashGame() {
                     return;
                 }
 
+                // Extract level number from the ID (assuming ID format is like "level1", "level2", etc.)
+                const levelNumber = level.id.replace(/\D/g, '');
+                setLevelDescription(`Level ${levelNumber}`);
+                
                 // Use the new helper function
                 const { default: words } = await loadWordFile(level.wordFile);
                 const preparedList: WordWithScore[] = [];
@@ -443,19 +452,23 @@ export default function WordFlashGame() {
 
     return (
         <div className="word-flash-game">
-            <button 
-                className="back-button"
-                onClick={() => navigate('/word-flash')}
-            >
-                <IoArrowBack size={24} />
-            </button>
+            <div className="game-header">
+                <button 
+                    className="back-button"
+                    onClick={() => navigate('/word-flash')}
+                >
+                    <IoArrowBack size={24} />
+                </button>
+                
+                <h2 className="level-description">{levelDescription}</h2>
 
-            <button 
-                className="previous-word-button"
-                onClick={handlePreviousWord}
-            >
-                <IoArrowUpOutline size={24} />
-            </button>
+                <button 
+                    className="previous-word-button"
+                    onClick={handlePreviousWord}
+                >
+                    <IoArrowUpOutline size={24} />
+                </button>
+            </div>
 
             {showWelcome && (
                 <div className="welcome-overlay">
@@ -578,7 +591,10 @@ export default function WordFlashGame() {
                             <input
                                 type="checkbox"
                                 checked={fastMode}
-                                onChange={(e) => setFastMode(e.target.checked)}
+                                onChange={(e) => {
+                                    setFastMode(e.target.checked);
+                                    localStorage.setItem('wordFlash_fastMode', e.target.checked.toString());
+                                }}
                             />
                             <span className="toggle-slider"></span>
                         </label>
@@ -590,7 +606,10 @@ export default function WordFlashGame() {
                             <input
                                 type="checkbox"
                                 checked={showExamples}
-                                onChange={(e) => setShowExamples(e.target.checked)}
+                                onChange={(e) => {
+                                    setShowExamples(e.target.checked);
+                                    localStorage.setItem('wordFlash_showExamples', e.target.checked.toString());
+                                }}
                             />
                             <span className="toggle-slider"></span>
                         </label>
