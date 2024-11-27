@@ -106,6 +106,7 @@ export default function WordFlashGame() {
     const [levelDescription, setLevelDescription] = useState('');
     const [welcomeSlogan, setWelcomeSlogan] = useState('');
     const [showFireworks, setShowFireworks] = useState(false);
+    const [shouldUpdateChoices, setShouldUpdateChoices] = useState(true);
 
     // Initialize audio service
     useEffect(() => {
@@ -127,37 +128,26 @@ export default function WordFlashGame() {
                     return;
                 }
 
-                // Extract level number from the ID (assuming ID format is like "level1", "level2", etc.)
                 const levelNumber = level.id.replace(/\D/g, '');
                 setLevelDescription(`Level ${levelNumber}`);
                 
-                // Use the new helper function
                 const { default: words } = await loadWordFile(level.wordFile);
-                const preparedList: WordWithScore[] = [];
-                
-                // Flatten words and their meanings into a single list
-                words.forEach((word: WordData) => {
-                    word.meanings.forEach((meaning, index) => {
-                        const meaningWithIndex = {
-                            ...meaning,
-                            index
-                        };
-                        
-                        const cookieKey = `${word.word}-${index}`;
-                        const score = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
-                        preparedList.push({
-                            word: word.word,
-                            meaning: meaningWithIndex,
-                            score
-                        });
-                    });
-                });
+                console.log('Loaded raw words:', words); // Debug log
 
-                // shuffle preparedList
-                const shuffledList = shuffleArray(preparedList);
-                // Sort by score and avoid same words being close                
-                sortWordList(preparedList);
-                setWordList(shuffledList);
+                const preparedList = words.map((word: WordData) => ({
+                    word: word.word,
+                    meaning: {
+                        meaning_zh_TW: word.meanings[0].meaning_zh_TW,
+                        wrong_meaning_zh_TW: word.meanings[0].wrong_meaning_zh_TW || []
+                    },
+                    score: 0
+                }));
+
+                console.log('Prepared word list:', preparedList); // Debug log
+                
+                setWordList(preparedList);
+                setCurrentIndex(0);
+                setShouldUpdateChoices(true);
             } catch (error) {
                 console.error('Error loading word list:', error);
             }
@@ -195,44 +185,20 @@ export default function WordFlashGame() {
         }
     }, [currentIndex, wordList]);
 
-    // Add this useEffect to handle initial word and choices setup
+    // Modify the useEffect for choices
     useEffect(() => {
-        if (wordList.length > 0) {
-            const currentWord = wordList[0]; // First word
-            console.log('Initial word:', currentWord); // Debug log
-
-            if (currentWord) {
-                // Create choices array with the correct answer and wrong meanings
-                const allChoices = [
-                    currentWord.meaning.meaning_zh_TW, // Correct answer
-                    ...(currentWord.meaning.wrong_meaning_zh_TW || []) // Wrong answers
-                ];
-                
-                // Shuffle choices
-                const shuffledChoices = shuffleArray([...allChoices]);
-                console.log('Initial choices:', shuffledChoices); // Debug log
-                
-                setChoices(shuffledChoices);
-            }
-        }
-    }, [wordList]); // Only run when wordList changes
-
-    // Keep your existing useEffect for choice updates
-    useEffect(() => {
-        if (wordList.length > 0 && !isProcessing && selectedChoice === null) {
+        if (wordList.length > 0 && shouldUpdateChoices) {
             const currentWord = wordList[currentIndex];
-            if (!currentWord) return;
-
-            // Create choices array with the correct answer and wrong meanings
-            const newChoices = [
-                currentWord.meaning.meaning_zh_TW,  // Correct answer
-                ...currentWord.meaning.wrong_meaning_zh_TW  // Wrong answers
-            ];
-            
-            // Shuffle the choices
-            setChoices(shuffleArray([...newChoices]));
+            if (currentWord) {
+                const allChoices = [
+                    currentWord.meaning.meaning_zh_TW,
+                    ...currentWord.meaning.wrong_meaning_zh_TW
+                ];
+                setChoices(shuffleArray([...allChoices]));
+            }
+            setShouldUpdateChoices(false);
         }
-    }, [currentIndex, wordList.length, isProcessing, selectedChoice]); // Added selectedChoice dependency
+    }, [currentIndex, wordList, shouldUpdateChoices]);
 
     // Play word when it changes
     useEffect(() => {
@@ -305,6 +271,7 @@ export default function WordFlashGame() {
             const definitionPath = `/voices/chinese/${encodedDefinition}.mp3`;
             await audioService.current.playAudio(definitionPath);
             
+            console.log('Definition played, pause 0.7 second');
             await new Promise(resolve => setTimeout(resolve, 700));
             
             const wordPath = `/voices/english/${currentWord.word}.mp3`;
@@ -327,54 +294,18 @@ export default function WordFlashGame() {
                 });
             });
             
-            await new Promise(resolve => setTimeout(resolve, 500));
+            console.log('Correct answer, pause 0.5 second');
+            await new Promise(resolve => setTimeout(resolve, 1000));
             
             if (showExamples) {
                 setShowExamplesPopup(true);
-            } else {
-                // Add 1 second pause
-                await new Promise(resolve => setTimeout(resolve, 1000));
-                
-                // Reset states after the pause
-                setSelectedChoice(null);
-                setIsProcessing(false);
-                
-                // Calculate next index
-                const nextIndex = (currentIndex + 1) % wordList.length;
-                const nextWord = wordList[nextIndex];
-                
-                // If next word has score > 0, resort the list
-                if (nextWord.score > 0) {
-                    setWordList(prevList => sortWordList([...prevList]));
-                    // Reset to beginning after sorting
-                    setCurrentIndex(0);
-                } else {
-                    setCurrentIndex(nextIndex);
-                }
-            }
+            } 
         } else {
-            await new Promise(resolve => setTimeout(resolve, 500));
-            
-            // Add 1 second pause
+            console.log('Wrong answer, pause 1 second');
             await new Promise(resolve => setTimeout(resolve, 1000));
             
-            // Reset states after the pause
-            setSelectedChoice(null);
-            setIsProcessing(false);
-            
-            // Calculate next index
-            const nextIndex = (currentIndex + 1) % wordList.length;
-            const nextWord = wordList[nextIndex];
-            
-            // If next word has score > 0, resort the list
-            if (nextWord.score > 0) {
-                setWordList(prevList => sortWordList([...prevList]));
-                // Reset to beginning after sorting
-                setCurrentIndex(0);
-            } else {
-                setCurrentIndex(nextIndex);
-            }
         }
+        await advanceToNextWord();
     };
 
     const startGame = async () => {
@@ -491,14 +422,10 @@ export default function WordFlashGame() {
         setShowFireworks(false);
     };
 
-    // Add this new function to handle advancing to next word
+    // Modify advanceToNextWord to control when choices should update
     const advanceToNextWord = async () => {
         // Add 1 second pause
         await new Promise(resolve => setTimeout(resolve, 1000));
-        
-        // Reset states after the pause
-        setSelectedChoice(null);
-        setIsProcessing(false);
         
         // Calculate next index
         const nextIndex = (currentIndex + 1) % wordList.length;
@@ -512,6 +439,11 @@ export default function WordFlashGame() {
         } else {
             setCurrentIndex(nextIndex);
         }
+        
+        // Reset states after the pause
+        setSelectedChoice(null);
+        setIsProcessing(false);
+        setShouldUpdateChoices(true); // Allow choices to update
     };
 
     if (wordList.length === 0) return <div>Loading...</div>;
