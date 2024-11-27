@@ -6,6 +6,7 @@ import './styles.css';
 import { FaPlay } from 'react-icons/fa';
 import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
 import { AudioService } from '../../../utils/audioService';
+import { Fireworks } from '@fireworks-js/react';
 
 // Add these type definitions at the top of the file
 interface WordMeaning {
@@ -104,6 +105,7 @@ export default function WordFlashGame() {
     const [showExamplesPopup, setShowExamplesPopup] = useState(false);
     const [levelDescription, setLevelDescription] = useState('');
     const [welcomeSlogan, setWelcomeSlogan] = useState('');
+    const [showFireworks, setShowFireworks] = useState(false);
 
     // Initialize audio service
     useEffect(() => {
@@ -193,9 +195,31 @@ export default function WordFlashGame() {
         }
     }, [currentIndex, wordList]);
 
-    // Prepare choices when moving to next word
+    // Add this useEffect to handle initial word and choices setup
     useEffect(() => {
-        if (wordList.length > 0 && !isProcessing) {
+        if (wordList.length > 0) {
+            const currentWord = wordList[0]; // First word
+            console.log('Initial word:', currentWord); // Debug log
+
+            if (currentWord) {
+                // Create choices array with the correct answer and wrong meanings
+                const allChoices = [
+                    currentWord.meaning.meaning_zh_TW, // Correct answer
+                    ...(currentWord.meaning.wrong_meaning_zh_TW || []) // Wrong answers
+                ];
+                
+                // Shuffle choices
+                const shuffledChoices = shuffleArray([...allChoices]);
+                console.log('Initial choices:', shuffledChoices); // Debug log
+                
+                setChoices(shuffledChoices);
+            }
+        }
+    }, [wordList]); // Only run when wordList changes
+
+    // Keep your existing useEffect for choice updates
+    useEffect(() => {
+        if (wordList.length > 0 && !isProcessing && selectedChoice === null) {
             const currentWord = wordList[currentIndex];
             if (!currentWord) return;
 
@@ -207,13 +231,8 @@ export default function WordFlashGame() {
             
             // Shuffle the choices
             setChoices(shuffleArray([...newChoices]));
-            
-            // Debug log
-            console.log('Current word:', currentWord.word);
-            console.log('Correct meaning:', currentWord.meaning.meaning_zh_TW);
-            console.log('All choices:', newChoices);
         }
-    }, [currentIndex, wordList.length, isProcessing]); // Dependencies
+    }, [currentIndex, wordList.length, isProcessing, selectedChoice]); // Added selectedChoice dependency
 
     // Play word when it changes
     useEffect(() => {
@@ -286,18 +305,17 @@ export default function WordFlashGame() {
             const definitionPath = `/voices/chinese/${encodedDefinition}.mp3`;
             await audioService.current.playAudio(definitionPath);
             
-            console.log('Playing definition 700');
             await new Promise(resolve => setTimeout(resolve, 700));
             
             const wordPath = `/voices/english/${currentWord.word}.mp3`;
             await audioService.current.playAudio(wordPath);
         }
+
         const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
         const currentScore = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
 
         if (isAnswerCorrect) {
             setStorage(cookieKey, (currentScore + 1.0).toString());
-            console.log(`Updated score for ${currentWord.word} to ${getStorageWithCookie(cookieKey)}`);
 
             setWordList(prevList => {
                 return prevList.map(word => {
@@ -309,23 +327,53 @@ export default function WordFlashGame() {
                 });
             });
             
-                console.log('Showing examples 500');
-                await new Promise(resolve => setTimeout(resolve, 500));
-                
-                if (showExamples) {
-                    setShowExamplesPopup(true);
-                } else {
-                    setSelectedChoice(null);
-                    setIsProcessing(false);
-                    setCurrentIndex((prev) => (prev + 1) % wordList.length);
-                }
-
-        } else {
-            console.log('Wrong answer 500');
             await new Promise(resolve => setTimeout(resolve, 500));
+            
+            if (showExamples) {
+                setShowExamplesPopup(true);
+            } else {
+                // Add 1 second pause
+                await new Promise(resolve => setTimeout(resolve, 1000));
+                
+                // Reset states after the pause
+                setSelectedChoice(null);
+                setIsProcessing(false);
+                
+                // Calculate next index
+                const nextIndex = (currentIndex + 1) % wordList.length;
+                const nextWord = wordList[nextIndex];
+                
+                // If next word has score > 0, resort the list
+                if (nextWord.score > 0) {
+                    setWordList(prevList => sortWordList([...prevList]));
+                    // Reset to beginning after sorting
+                    setCurrentIndex(0);
+                } else {
+                    setCurrentIndex(nextIndex);
+                }
+            }
+        } else {
+            await new Promise(resolve => setTimeout(resolve, 500));
+            
+            // Add 1 second pause
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            
+            // Reset states after the pause
             setSelectedChoice(null);
             setIsProcessing(false);
-            setCurrentIndex((prev) => (prev + 1) % wordList.length);
+            
+            // Calculate next index
+            const nextIndex = (currentIndex + 1) % wordList.length;
+            const nextWord = wordList[nextIndex];
+            
+            // If next word has score > 0, resort the list
+            if (nextWord.score > 0) {
+                setWordList(prevList => sortWordList([...prevList]));
+                // Reset to beginning after sorting
+                setCurrentIndex(0);
+            } else {
+                setCurrentIndex(nextIndex);
+            }
         }
     };
 
@@ -380,11 +428,9 @@ export default function WordFlashGame() {
     };
 
     // Add handler for closing examples popup
-    const handleExamplesPopupClick = () => {
+    const handleExamplesPopupClick = async () => {
         setShowExamplesPopup(false);
-        setSelectedChoice(null);
-        setIsProcessing(false);
-        setCurrentIndex((prev) => (prev + 1) % wordList.length);
+        await advanceToNextWord();
     };
 
     // Move findNextIncompleteLevel inside the component
@@ -430,6 +476,41 @@ export default function WordFlashGame() {
         } catch (error) {
             console.error('Error finding next level:', error);
             return null;
+        }
+    };
+
+    // Add useEffect to check progress and trigger fireworks
+    useEffect(() => {
+        if (Number(stats.progress) >= 100 && !showFireworks) {
+            setShowFireworks(true);
+        }
+    }, [stats.progress]);
+
+    // Add handler to dismiss fireworks
+    const handleFireworksClick = () => {
+        setShowFireworks(false);
+    };
+
+    // Add this new function to handle advancing to next word
+    const advanceToNextWord = async () => {
+        // Add 1 second pause
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        
+        // Reset states after the pause
+        setSelectedChoice(null);
+        setIsProcessing(false);
+        
+        // Calculate next index
+        const nextIndex = (currentIndex + 1) % wordList.length;
+        const nextWord = wordList[nextIndex];
+        
+        // If next word has score > 0, resort the list
+        if (nextWord.score > 0) {
+            setWordList(prevList => sortWordList([...prevList]));
+            // Reset to beginning after sorting
+            setCurrentIndex(0);
+        } else {
+            setCurrentIndex(nextIndex);
         }
     };
 
@@ -632,6 +713,41 @@ export default function WordFlashGame() {
                                 {currentWord.meaning.synonyms.join(', ')}
                             </p>
                         </div>
+                    </div>
+                </div>
+            )}
+
+            {/* Add fireworks overlay */}
+            {showFireworks && (
+                <div 
+                    className="fireworks-overlay"
+                    onClick={handleFireworksClick}
+                >
+                    <Fireworks
+                        options={{
+                            opacity: 0.5,
+                            explosion: 5,
+                            intensity: 30,
+                            traceLength: 3,
+                            rocketsPoint: {
+                                min: 0,
+                                max: 100
+                            }
+                        }}
+                        style={{
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            position: 'fixed',
+                            background: 'rgba(0, 0, 0, 0.7)',
+                            zIndex: 999
+                        }}
+                    />
+                    <div className="completion-message">
+                        <h2>Congratulations!</h2>
+                        <p>You've completed this level!</p>
+                        <p>Click anywhere to continue</p>
                     </div>
                 </div>
             )}
