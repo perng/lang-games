@@ -1,781 +1,749 @@
 [
   {
-    "word": "once",
+    "word": "light",
     "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The natural agent that stimulates sight and makes things visible.",
+        "meaning_zh_TW": "光",
+        "wrong_meaning_zh_TW": [
+          "暗影",
+          "色彩",
+          "形狀"
+        ],
+        "examples": [
+          {
+            "sentence": "The sun provides natural [light].",
+            "translation_zh_TW": "太陽提供自然光"
+          },
+          {
+            "sentence": "We need more [light] in this room.",
+            "translation_zh_TW": "我們需要這個房間更多的光"
+          },
+          {
+            "sentence": "The stars shine at night, providing [light].",
+            "translation_zh_TW": "星星在夜裡閃耀，提供了光"
+          }
+        ],
+        "synonyms": [
+          "illumination",
+          "radiance"
+        ]
+      },
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having little weight; not heavy.",
+        "meaning_zh_TW": "輕的",
+        "wrong_meaning_zh_TW": [
+          "重的",
+          "堅硬的",
+          "厚的"
+        ],
+        "examples": [
+          {
+            "sentence": "This box is very [light].",
+            "translation_zh_TW": "這個箱子很輕"
+          },
+          {
+            "sentence": "She wore a [light] jacket in the spring.",
+            "translation_zh_TW": "她在春天穿了一件輕的外套"
+          },
+          {
+            "sentence": "He prefers a [light] meal in the evening.",
+            "translation_zh_TW": "他喜歡晚上吃一頓輕的飯"
+          }
+        ],
+        "synonyms": [
+          "weightless",
+          "airy"
+        ]
+      }
+    ],
+    "confusion": [
+      "lite",
+      "lighten",
+      "lit",
+      "might"
+    ]
+  },
+  {
+    "word": "easy",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Achieved without great effort; presenting few difficulties.",
+        "meaning_zh_TW": "容易的",
+        "wrong_meaning_zh_TW": [
+          "困難的",
+          "複雜的",
+          "耗時的"
+        ],
+        "examples": [
+          {
+            "sentence": "This problem is [easy] to solve.",
+            "translation_zh_TW": "這個問題很容易解決。"
+          },
+          {
+            "sentence": "She finds math [easy] compared to science.",
+            "translation_zh_TW": "她認為數學比科學容易。"
+          },
+          {
+            "sentence": "The test was [easy] for her.",
+            "translation_zh_TW": "這次考試對她來說很簡單。"
+          }
+        ],
+        "synonyms": [
+          "simple",
+          "uncomplicated"
+        ]
+      },
       {
         "type": "副詞",
-        "meaning_en_US": "On one occasion or at one time.",
-        "meaning_zh_TW": "曾經",
+        "meaning_en_US": "In a relaxed or gentle manner.",
+        "meaning_zh_TW": "輕易地",
         "wrong_meaning_zh_TW": [
-          "從未",
-          "多次",
-          "總是"
+          "緊張地",
+          "劇烈地",
+          "急忙地"
         ],
         "examples": [
           {
-            "sentence": "I visited Paris once when I was a child.",
-            "translation_zh_TW": "我在小時候去過巴黎一次。"
+            "sentence": "He took the challenge [easy].",
+            "translation_zh_TW": "他輕鬆地接受了挑戰。"
           },
           {
-            "sentence": "Once I finish my work, I'll go out.",
-            "translation_zh_TW": "一旦我完成工作，就會出去。"
+            "sentence": "She passed [easy] in the exam.",
+            "translation_zh_TW": "她在考試中輕鬆通過了。"
           },
           {
-            "sentence": "She told the story once, and it was unforgettable.",
-            "translation_zh_TW": "她講過一次這個故事，令人難忘。"
+            "sentence": "You can do this [easy] if you believe in yourself.",
+            "translation_zh_TW": "如果你相信自己，你可以輕易做到這一點。"
           }
         ],
         "synonyms": [
-          "formerly",
-          "previously"
+          "effortlessly",
+          "smoothly"
         ]
       }
     ],
     "confusion": [
-      "oce",
-      "oncee",
-      "onci",
-      "wonce"
+      "easily",
+      "eazy",
+      "ease",
+      "easyer"
     ]
   },
   {
-    "word": "airplane",
+    "word": "picture",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A powered flying vehicle with fixed wings.",
-        "meaning_zh_TW": "飛機",
+        "meaning_en_US": "A visual representation of something, typically created by a camera or artist.",
+        "meaning_zh_TW": "圖片",
         "wrong_meaning_zh_TW": [
-          "火箭",
-          "直升機",
-          "巴士"
+          "文字",
+          "音頻",
+          "影片"
         ],
         "examples": [
           {
-            "sentence": "The [airplane] took off smoothly from the runway.",
-            "translation_zh_TW": "飛機順利地從跑道起飛"
+            "sentence": "She framed the [picture] of her family.",
+            "translation_zh_TW": "她把全家福的圖片裝裱起來。"
           },
           {
-            "sentence": "She travels frequently by [airplane].",
-            "translation_zh_TW": "她經常搭飛機旅行"
+            "sentence": "This [picture] captures the moment perfectly.",
+            "translation_zh_TW": "這張圖片完美地捕捉了那一刻。"
           },
           {
-            "sentence": "The [airplane] landed safely at the airport.",
-            "translation_zh_TW": "飛機安全地降落在機場"
+            "sentence": "He drew a [picture] of his dog.",
+            "translation_zh_TW": "他畫了牠的狗的圖片。"
           }
         ],
         "synonyms": [
-          "plane",
-          "aeroplane"
+          "image",
+          "photo"
         ]
       }
     ],
     "confusion": [
-      "airplan",
-      "airplane",
-      "aeroplane",
-      "helicopter"
+      "pictor",
+      "pic",
+      "picer",
+      "pictuer"
     ]
   },
   {
-    "word": "coat",
+    "word": "possible",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Able to be done; within the power or capacity of someone or something.",
+        "meaning_zh_TW": "可能的",
+        "wrong_meaning_zh_TW": [
+          "不可能的",
+          "無法的",
+          "一定的"
+        ],
+        "examples": [
+          {
+            "sentence": "It is [possible] to finish the project ahead of schedule.",
+            "translation_zh_TW": "提前完成專案是可能的。"
+          },
+          {
+            "sentence": "Are there any [possible] solutions to this problem?",
+            "translation_zh_TW": "對這個問題有可能的解決方案嗎？"
+          },
+          {
+            "sentence": "We will explore [possible] options.",
+            "translation_zh_TW": "我們將探索可能的選項。"
+          }
+        ],
+        "synonyms": [
+          "feasible",
+          "achievable"
+        ]
+      }
+    ],
+    "confusion": [
+      "impossible",
+      "possibley",
+      "possibe",
+      "possbile"
+    ]
+  },
+  {
+    "word": "month",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An outer garment worn for warmth or style.",
-        "meaning_zh_TW": "外套",
+        "meaning_en_US": "A period of time lasting approximately 30 days.",
+        "meaning_zh_TW": "月份",
         "wrong_meaning_zh_TW": [
-          "襯衫",
-          "襪子",
-          "褲子"
+          "星期",
+          "瞬間",
+          "季節"
         ],
         "examples": [
           {
-            "sentence": "She wore a warm [coat] in winter.",
-            "translation_zh_TW": "她冬天穿著一件保暖外套。"
+            "sentence": "Her birthday is in the next [month].",
+            "translation_zh_TW": "她的生日在下個月份。"
           },
           {
-            "sentence": "His [coat] had beautiful buttons.",
-            "translation_zh_TW": "他的外套上有漂亮的鈕扣。"
+            "sentence": "Each [month] has its own significance.",
+            "translation_zh_TW": "每個月份都有其特殊意義。"
           },
           {
-            "sentence": "The dog has a thick fur [coat].",
-            "translation_zh_TW": "那隻狗有一層厚厚的毛皮。"
+            "sentence": "We meet once a [month].",
+            "translation_zh_TW": "我們每個月見一次。"
           }
         ],
         "synonyms": [
-          "jacket",
-          "outerwear"
+          "30-day period",
+          "calendar month"
         ]
       }
     ],
     "confusion": [
-      "coat",
-      "quote",
-      "boat",
-      "goat"
+      "moth",
+      "mint",
+      "moat",
+      "motif"
     ]
   },
   {
-    "word": "carry",
+    "word": "star",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A fixed luminous point in the night sky which is a large, remote incandescent body like the sun.",
+        "meaning_zh_TW": "星星",
+        "wrong_meaning_zh_TW": [
+          "月亮",
+          "行星",
+          "燈光"
+        ],
+        "examples": [
+          {
+            "sentence": "You can see many [stars] in the sky tonight.",
+            "translation_zh_TW": "你今晚可以在天空中看到許多星星。"
+          },
+          {
+            "sentence": "The [stars] are brighter in the countryside.",
+            "translation_zh_TW": "在鄉下，星星更亮。"
+          },
+          {
+            "sentence": "She wants to be a [star] in the movies.",
+            "translation_zh_TW": "她想成為電影明星。"
+          }
+        ],
+        "synonyms": [
+          "celestial body",
+          "luminary"
+        ]
+      }
+    ],
+    "confusion": [
+      "stare",
+      "starecase",
+      "staring",
+      "stark"
+    ]
+  },
+  {
+    "word": "future",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The time or a period of time following the moment of speaking or writing.",
+        "meaning_zh_TW": "未來、將來",
+        "wrong_meaning_zh_TW": [
+          "過去",
+          "現在",
+          "幻想"
+        ],
+        "examples": [
+          {
+            "sentence": "We need to think about the [future].",
+            "translation_zh_TW": "我們需要考慮未來。"
+          },
+          {
+            "sentence": "In the [future], technology will be different.",
+            "translation_zh_TW": "在未來，技術將會有所不同。"
+          },
+          {
+            "sentence": "She hopes for a bright [future].",
+            "translation_zh_TW": "她希望擁有光明的未來。"
+          }
+        ],
+        "synonyms": [
+          "tomorrow",
+          "prospect"
+        ]
+      }
+    ],
+    "confusion": [
+      "futuro",
+      "feuture",
+      "futures",
+      "fueture"
+    ]
+  },
+  {
+    "word": "space",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A continuous area or expanse that is free, available, or unoccupied.",
+        "meaning_zh_TW": "空間",
+        "wrong_meaning_zh_TW": [
+          "地點",
+          "擁擠",
+          "填滿"
+        ],
+        "examples": [
+          {
+            "sentence": "There is enough [space] for everyone.",
+            "translation_zh_TW": "每個人都有足夠的空間。"
+          },
+          {
+            "sentence": "She needs more [space] to work effectively.",
+            "translation_zh_TW": "她需要更多的空間來有效地工作。"
+          },
+          {
+            "sentence": "The garden provides a lovely [space] for relaxation.",
+            "translation_zh_TW": "這個花園提供了一個可供放鬆的美好空間。"
+          }
+        ],
+        "synonyms": [
+          "area",
+          "room"
+        ]
+      }
+    ],
+    "confusion": [
+      "spaced",
+      "spacy",
+      "spice",
+      "slice"
+    ]
+  },
+  {
+    "word": "hand",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The terminal part of the upper limb in humans and primates.",
+        "meaning_zh_TW": "手",
+        "wrong_meaning_zh_TW": [
+          "葡萄",
+          "工具",
+          "時鐘"
+        ],
+        "examples": [
+          {
+            "sentence": "He raised his [hand] to ask a question.",
+            "translation_zh_TW": "他舉手想問問題。"
+          },
+          {
+            "sentence": "She has a tattoo on her [hand].",
+            "translation_zh_TW": "她的手上有一個纹身。"
+          },
+          {
+            "sentence": "Can you lend me a [hand] with this?",
+            "translation_zh_TW": "你能幫我一下嗎？"
+          }
+        ],
+        "synonyms": [
+          "palm",
+          "appendage"
+        ]
+      }
+    ],
+    "confusion": [
+      "band",
+      "sand",
+      "land",
+      "handy"
+    ]
+  },
+  {
+    "word": "sun",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The star at the center of our solar system.",
+        "meaning_zh_TW": "太陽",
+        "wrong_meaning_zh_TW": [
+          "月亮",
+          "星星",
+          "雲"
+        ],
+        "examples": [
+          {
+            "sentence": "The [sun] rises in the east.",
+            "translation_zh_TW": "太陽從東方升起。"
+          },
+          {
+            "sentence": "They enjoyed the warm [sun].",
+            "translation_zh_TW": "他們享受著溫暖的太陽。"
+          },
+          {
+            "sentence": "The [sun] set behind the mountains.",
+            "translation_zh_TW": "太陽在山後落下。"
+          }
+        ],
+        "synonyms": [
+          "star",
+          "solar body"
+        ]
+      }
+    ],
+    "confusion": [
+      "sune",
+      "son",
+      "sunset",
+      "sund"
+    ]
+  },
+  {
+    "word": "meeting",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An assembly of people for discussion or decision making.",
+        "meaning_zh_TW": "會議",
+        "wrong_meaning_zh_TW": [
+          "派對",
+          "集市",
+          "表演"
+        ],
+        "examples": [
+          {
+            "sentence": "The [meeting] is scheduled for 10 AM.",
+            "translation_zh_TW": "會議定於上午10點舉行。"
+          },
+          {
+            "sentence": "She prepared notes for the [meeting].",
+            "translation_zh_TW": "她為會議準備了筆記。"
+          },
+          {
+            "sentence": "They had a productive [meeting] last week.",
+            "translation_zh_TW": "他們上週舉行了一次有效的會議。"
+          }
+        ],
+        "synonyms": [
+          "conference",
+          "gathering"
+        ]
+      }
+    ],
+    "confusion": [
+      "meting",
+      "mating",
+      "meating",
+      "meetin"
+    ]
+  },
+  {
+    "word": "become",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To support and move someone or something from one place to another.",
-        "meaning_zh_TW": "攜帶",
+        "meaning_en_US": "Begin to be.",
+        "meaning_zh_TW": "成為",
         "wrong_meaning_zh_TW": [
-          "放下",
+          "結束",
+          "開始",
+          "退出"
+        ],
+        "examples": [
+          {
+            "sentence": "He hopes to [become] a doctor one day.",
+            "translation_zh_TW": "他希望有一天能成為醫生。"
+          },
+          {
+            "sentence": "She will [become] the team leader next year.",
+            "translation_zh_TW": "她明年將成為團隊領袖。"
+          },
+          {
+            "sentence": "The weather can [become] quite unpredictable.",
+            "translation_zh_TW": "天氣可能會變得相當不可預測。"
+          }
+        ],
+        "synonyms": [
+          "turn into",
+          "grow into"
+        ]
+      }
+    ],
+    "confusion": [
+      "becomee",
+      "becom",
+      "becomea",
+      "becum"
+    ]
+  },
+  {
+    "word": "interest",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The feeling of wanting to know or learn about something or someone.",
+        "meaning_zh_TW": "興趣",
+        "wrong_meaning_zh_TW": [
+          "厭倦",
+          "麻木",
+          "困惑"
+        ],
+        "examples": [
+          {
+            "sentence": "She has a deep [interest] in science.",
+            "translation_zh_TW": "她對科學有深厚的興趣。"
+          },
+          {
+            "sentence": "My [interest] in music began at a young age.",
+            "translation_zh_TW": "我對音樂的興趣始於年幼時。"
+          },
+          {
+            "sentence": "He expressed an [interest] in learning new languages.",
+            "translation_zh_TW": "他表達了學習新語言的興趣。"
+          }
+        ],
+        "synonyms": [
+          "curiosity",
+          "fascination"
+        ]
+      }
+    ],
+    "confusion": [
+      "interesting",
+      "interested",
+      "interior",
+      "inters"
+    ]
+  },
+  {
+    "word": "child",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A young human being below the age of puberty.",
+        "meaning_zh_TW": "孩子",
+        "wrong_meaning_zh_TW": [
+          "成人",
+          "青少年",
+          "嬰兒"
+        ],
+        "examples": [
+          {
+            "sentence": "Every [child] deserves a loving family.",
+            "translation_zh_TW": "每個孩子都值得擁有一個充滿愛的家庭"
+          },
+          {
+            "sentence": "The park was filled with [children].",
+            "translation_zh_TW": "公園裡充滿了孩子"
+          },
+          {
+            "sentence": "She wants to become a [child] psychologist.",
+            "translation_zh_TW": "她想成為一名兒童心理學家"
+          }
+        ],
+        "synonyms": [
+          "youth",
+          "youngster"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "A son or daughter of any age.",
+        "meaning_zh_TW": "子女",
+        "wrong_meaning_zh_TW": [
+          "父母",
+          "祖父母",
+          "兄弟姊妹"
+        ],
+        "examples": [
+          {
+            "sentence": "She is the only [child] in the family.",
+            "translation_zh_TW": "她是家裡唯一的子女"
+          },
+          {
+            "sentence": "They raised their [children] with care.",
+            "translation_zh_TW": "他們細心地養活他們的子女"
+          },
+          {
+            "sentence": "A [child] can also refer to a descendant.",
+            "translation_zh_TW": "子女也可以指後代"
+          }
+        ],
+        "synonyms": [
+          "offspring",
+          "descendant"
+        ]
+      }
+    ],
+    "confusion": [
+      "childish",
+      "childhood",
+      "chill",
+      "childe"
+    ]
+  },
+  {
+    "word": "keep",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To have or retain possession of.",
+        "meaning_zh_TW": "保留，保持",
+        "wrong_meaning_zh_TW": [
           "丟棄",
-          "吸收"
+          "展示",
+          "分享"
         ],
         "examples": [
           {
-            "sentence": "Please [carry] this box for me.",
-            "translation_zh_TW": "請幫我把這個箱子攜帶過去。"
+            "sentence": "Please [keep] your voice down.",
+            "translation_zh_TW": "請保持你的聲音小點。"
           },
           {
-            "sentence": "He can [carry] heavy loads with ease.",
-            "translation_zh_TW": "他能輕鬆攜帶重物。"
+            "sentence": "I want to [keep] this wonderful memory forever.",
+            "translation_zh_TW": "我想永遠保留這個美好的回憶。"
           },
           {
-            "sentence": "Are you able to [carry] all these groceries?",
-            "translation_zh_TW": "你能把所有這些雜貨攜帶過來嗎？"
+            "sentence": "She decided to [keep] the secret.",
+            "translation_zh_TW": "她決定保守這個秘密。"
           }
         ],
         "synonyms": [
-          "transport",
-          "bear"
+          "retain",
+          "hold"
         ]
       }
     ],
     "confusion": [
-      "cary",
-      "carries",
-      "carrying",
-      "care"
+      "kept",
+      "knee",
+      "keeped",
+      "kep"
     ]
   },
   {
-    "word": "blue",
+    "word": "enter",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Of a color intermediate between green and violet, as of the sky or sea on a clear day.",
-        "meaning_zh_TW": "藍色的",
+        "type": "動詞",
+        "meaning_en_US": "To come or go into a place.",
+        "meaning_zh_TW": "進入",
         "wrong_meaning_zh_TW": [
-          "囚犯",
-          "心情",
-          "憂鬱"
+          "離開",
+          "逃跑",
+          "入住"
         ],
         "examples": [
           {
-            "sentence": "The sky is a beautiful shade of [blue].",
-            "translation_zh_TW": "天空是美麗的藍色。"
+            "sentence": "Please [enter] your username and password.",
+            "translation_zh_TW": "請輸入您的用戶名和密碼"
           },
           {
-            "sentence": "She wore a [blue] dress to the party.",
-            "translation_zh_TW": "她穿著藍色的裙子參加派對。"
+            "sentence": "You must [enter] the building through the main door.",
+            "translation_zh_TW": "你必須通過正門進入大樓"
           },
           {
-            "sentence": "He painted the walls [blue].",
-            "translation_zh_TW": "他把牆壁漆成藍色。"
+            "sentence": "They will [enter] the competition next week.",
+            "translation_zh_TW": "他們將在下週參加比賽"
           }
         ],
         "synonyms": [
-          "azure",
-          "cyan"
+          "access",
+          "join"
         ]
       }
     ],
     "confusion": [
-      "bleu",
-      "blee",
-      "blues",
-      "bleuette"
+      "intern",
+      "entire",
+      "entren",
+      "entree"
     ]
   },
   {
-    "word": "theirs",
+    "word": "share",
     "meanings": [
       {
-        "type": "代詞",
-        "meaning_en_US": "Used to refer to something that belongs to a group of people previously mentioned.",
-        "meaning_zh_TW": "他們的",
+        "type": "動詞",
+        "meaning_en_US": "To have or use something in common with others.",
+        "meaning_zh_TW": "分享",
         "wrong_meaning_zh_TW": [
-          "我的",
-          "你的",
-          "他的"
+          "獨佔",
+          "破壞",
+          "隱藏"
         ],
         "examples": [
           {
-            "sentence": "That house is [theirs].",
-            "translation_zh_TW": "那棟房子是他們的。"
+            "sentence": "I will [share] this cake with you.",
+            "translation_zh_TW": "我會和你分享這個蛋糕。"
           },
           {
-            "sentence": "The ideas in this project are [theirs].",
-            "translation_zh_TW": "這個項目的想法是他們的。"
+            "sentence": "They decided to [share] their resources.",
+            "translation_zh_TW": "他們決定分享他們的資源。"
           },
           {
-            "sentence": "All of the credit goes to [theirs].",
-            "translation_zh_TW": "所有的榮譽都屬於他們。"
+            "sentence": "Can we [share] the information?",
+            "translation_zh_TW": "我們可以分享這個資訊嗎？"
           }
         ],
         "synonyms": [
-          "belonging to them"
+          "distribute",
+          "divide"
         ]
       }
     ],
     "confusion": [
-      "their",
-      "there's",
-      "they're",
-      "theirs'"
-    ]
-  },
-  {
-    "word": "cheap",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Low in price, especially in relation to similar items.",
-        "meaning_zh_TW": "便宜",
-        "wrong_meaning_zh_TW": [
-          "高檔",
-          "貴重",
-          "奢華"
-        ],
-        "examples": [
-          {
-            "sentence": "The store sells [cheap] clothes.",
-            "translation_zh_TW": "這家店賣便宜的衣服"
-          },
-          {
-            "sentence": "I found a [cheap] restaurant nearby.",
-            "translation_zh_TW": "我在附近找到一間便宜的餐廳"
-          },
-          {
-            "sentence": "Shopping online can sometimes be really [cheap].",
-            "translation_zh_TW": "網上購物有時候真的可能很便宜"
-          }
-        ],
-        "synonyms": [
-          "inexpensive",
-          "affordable"
-        ]
-      }
-    ],
-    "confusion": [
-      "cheep",
-      "cheat",
-      "chape",
-      "cheeps"
-    ]
-  },
-  {
-    "word": "office",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A room or building where people work.",
-        "meaning_zh_TW": "辦公室",
-        "wrong_meaning_zh_TW": [
-          "工廠",
-          "店舖",
-          "倉庫"
-        ],
-        "examples": [
-          {
-            "sentence": "She works in an [office] downtown.",
-            "translation_zh_TW": "她在市中心的一家辦公室工作。"
-          },
-          {
-            "sentence": "His [office] is very organized.",
-            "translation_zh_TW": "他的辦公室很有條理。"
-          },
-          {
-            "sentence": "I have a meeting at the [office] this afternoon.",
-            "translation_zh_TW": "我今天下午在辦公室有個會議。"
-          }
-        ],
-        "synonyms": [
-          "workspace",
-          "workplace"
-        ]
-      }
-    ],
-    "confusion": [
-      "officer",
-      "official",
-      "offing",
-      "offices"
-    ]
-  },
-  {
-    "word": "October",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The tenth month of the year in the Gregorian calendar.",
-        "meaning_zh_TW": "十月",
-        "wrong_meaning_zh_TW": [
-          "一月",
-          "九月",
-          "十月的結束"
-        ],
-        "examples": [
-          {
-            "sentence": "My birthday is in [October].",
-            "translation_zh_TW": "我的生日在十月。"
-          },
-          {
-            "sentence": "The leaves start to change color in [October].",
-            "translation_zh_TW": "十月樹葉開始變色。"
-          },
-          {
-            "sentence": "Halloween is celebrated on the last day of [October].",
-            "translation_zh_TW": "萬聖節在十月的最後一天慶祝。"
-          }
-        ],
-        "synonyms": [
-          "October"
-        ]
-      }
-    ],
-    "confusion": [
-      "Octuber",
-      "Octoberfest",
-      "october",
-      "octoberfest"
-    ]
-  },
-  {
-    "word": "nice",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Pleasant, agreeable, or satisfactory.",
-        "meaning_zh_TW": "好的",
-        "wrong_meaning_zh_TW": [
-          "糟糕的",
-          "不友善的",
-          "無聊的"
-        ],
-        "examples": [
-          {
-            "sentence": "It was a [nice] day for a picnic.",
-            "translation_zh_TW": "這是一個適合野餐的好日子。"
-          },
-          {
-            "sentence": "She gave him a [nice] compliment.",
-            "translation_zh_TW": "她給了他一個好的讚美。"
-          },
-          {
-            "sentence": "They have a [nice] selection of desserts.",
-            "translation_zh_TW": "他們有一個好的甜點選擇。"
-          }
-        ],
-        "synonyms": [
-          "pleasant",
-          "kind",
-          "agreeable"
-        ]
-      }
-    ],
-    "confusion": [
-      "noice",
-      "nisse",
-      "nise",
-      "nics"
-    ]
-  },
-  {
-    "word": "fifty",
-    "meanings": [
-      {
-        "type": "數詞",
-        "meaning_en_US": "The number following forty-nine and preceding fifty-one.",
-        "meaning_zh_TW": "五十",
-        "wrong_meaning_zh_TW": [
-          "五十一",
-          "四十九",
-          "五十七"
-        ],
-        "examples": [
-          {
-            "sentence": "She turned [fifty] last year.",
-            "translation_zh_TW": "她去年滿五十歲。"
-          },
-          {
-            "sentence": "The box contains [fifty] items.",
-            "translation_zh_TW": "這個箱子裡有五十件物品。"
-          },
-          {
-            "sentence": "I need [fifty] dollars to buy that book.",
-            "translation_zh_TW": "我需要五十美元來買那本書。"
-          }
-        ],
-        "synonyms": [
-          "fiftyfold",
-          "fiftyth"
-        ]
-      }
-    ],
-    "confusion": [
-      "fiftyone",
-      "fity",
-      "fivty",
-      "ftfifty"
-    ]
-  },
-  {
-    "word": "restaurant",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A place where meals are prepared and served to customers.",
-        "meaning_zh_TW": "餐廳",
-        "wrong_meaning_zh_TW": [
-          "食品商店",
-          "快速餐廳",
-          "美食卡車"
-        ],
-        "examples": [
-          {
-            "sentence": "We went to a new [restaurant] for dinner.",
-            "translation_zh_TW": "我們去了一間新的餐廳吃晚餐。"
-          },
-          {
-            "sentence": "The [restaurant] serves excellent Italian food.",
-            "translation_zh_TW": "這家餐廳提供極好的義大利料理。"
-          },
-          {
-            "sentence": "Make a reservation at the [restaurant] for tonight.",
-            "translation_zh_TW": "今晚在餐廳預訂一個位置。"
-          }
-        ],
-        "synonyms": [
-          "diner",
-          "bistro"
-        ]
-      }
-    ],
-    "confusion": [
-      "restaurent",
-      "restaraunt",
-      "resturant",
-      "restaur"
-    ]
-  },
-  {
-    "word": "bridge",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A structure built to span a physical obstacle like a body of water or a valley.",
-        "meaning_zh_TW": "橋",
-        "wrong_meaning_zh_TW": [
-          "隧道",
-          "牆",
-          "樓梯"
-        ],
-        "examples": [
-          {
-            "sentence": "The [bridge] connects two sides of the river.",
-            "translation_zh_TW": "該橋連接河的兩岸。"
-          },
-          {
-            "sentence": "They built a new [bridge] for easier access.",
-            "translation_zh_TW": "他們建造了一座新橋以便於通行。"
-          },
-          {
-            "sentence": "The [bridge] was closed for repairs.",
-            "translation_zh_TW": "該橋因維修而關閉。"
-          }
-        ],
-        "synonyms": [
-          "span",
-          "link"
-        ]
-      }
-    ],
-    "confusion": [
-      "bridges",
-      "bride",
-      "bidge",
-      "bridg"
-    ]
-  },
-  {
-    "word": "slow",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Not moving quickly; taking a long time to do something.",
-        "meaning_zh_TW": "慢",
-        "wrong_meaning_zh_TW": [
-          "快",
-          "急",
-          "速"
-        ],
-        "examples": [
-          {
-            "sentence": "He is a [slow] runner but enjoys the process.",
-            "translation_zh_TW": "他是一名慢跑者，但喜歡這個過程。"
-          },
-          {
-            "sentence": "Please drive [slow] in the residential area.",
-            "translation_zh_TW": "請在住宅區慢行。"
-          },
-          {
-            "sentence": "The project is progressing at a [slow] pace.",
-            "translation_zh_TW": "這個項目的進度很慢。"
-          }
-        ],
-        "synonyms": [
-          "lethargic",
-          "sluggish"
-        ]
-      }
-    ],
-    "confusion": [
-      "flow",
-      "sloe",
-      "sled",
-      "slouch"
-    ]
-  },
-  {
-    "word": "about",
-    "meanings": [
-      {
-        "type": "介詞",
-        "meaning_en_US": "On the subject of or concerning.",
-        "meaning_zh_TW": "關於",
-        "wrong_meaning_zh_TW": [
-          "除了",
-          "在裡面",
-          "之後"
-        ],
-        "examples": [
-          {
-            "sentence": "We talked [about] our plans.",
-            "translation_zh_TW": "我們討論了我們的計畫。"
-          },
-          {
-            "sentence": "This book is [about] history.",
-            "translation_zh_TW": "這本書是關於歷史的。"
-          },
-          {
-            "sentence": "I have a question [about] the assignment.",
-            "translation_zh_TW": "我對這個作業有一個問題。"
-          }
-        ],
-        "synonyms": [
-          "concerning",
-          "regarding"
-        ]
-      }
-    ],
-    "confusion": [
-      "around",
-      "abound",
-      "a lot",
-      "beta"
-    ]
-  },
-  {
-    "word": "dead",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "No longer alive; having lost life.",
-        "meaning_zh_TW": "死的",
-        "wrong_meaning_zh_TW": [
-          "健壯的",
-          "年輕的",
-          "漂亮的"
-        ],
-        "examples": [
-          {
-            "sentence": "The tree was [dead] after the winter.",
-            "translation_zh_TW": "這棵樹在冬天後死掉了。"
-          },
-          {
-            "sentence": "She felt [dead] tired after the long day.",
-            "translation_zh_TW": "經過漫長的一天，她感到非常疲倦。"
-          },
-          {
-            "sentence": "The [dead] battery needed to be replaced.",
-            "translation_zh_TW": "這個沒電的電池需要更換。"
-          }
-        ],
-        "synonyms": [
-          "deceased",
-          "lifeless"
-        ]
-      }
-    ],
-    "confusion": [
-      "deed",
-      "debt",
-      "dear",
-      "ded"
-    ]
-  },
-  {
-    "word": "pencil",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A writing instrument made of a graphite core encased in wood or another material.",
-        "meaning_zh_TW": "鉛筆",
-        "wrong_meaning_zh_TW": [
-          "畫筆",
-          "原子筆",
-          "網球拍"
-        ],
-        "examples": [
-          {
-            "sentence": "She wrote her notes with a [pencil].",
-            "translation_zh_TW": "她用鉛筆寫下她的筆記。"
-          },
-          {
-            "sentence": "I prefer using a [pencil] over a pen for sketching.",
-            "translation_zh_TW": "我在素描時偏好用鉛筆而不是鋼筆。"
-          },
-          {
-            "sentence": "Please hand me a [pencil] from the desk.",
-            "translation_zh_TW": "請把桌上的鉛筆遞給我。"
-          }
-        ],
-        "synonyms": [
-          "graphite pencil",
-          "writing tool"
-        ]
-      }
-    ],
-    "confusion": [
-      "pincel",
-      "pen",
-      "pench",
-      "pencel"
-    ]
-  },
-  {
-    "word": "right",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Morally good, justified, or acceptable.",
-        "meaning_zh_TW": "正確的",
-        "wrong_meaning_zh_TW": [
-          "錯誤的",
-          "不當的",
-          "不好的"
-        ],
-        "examples": [
-          {
-            "sentence": "You were [right] about the outcome.",
-            "translation_zh_TW": "你對結果是正確的"
-          },
-          {
-            "sentence": "It's not [right] to cheat.",
-            "translation_zh_TW": "作弊是不正確的"
-          },
-          {
-            "sentence": "She made the [right] choice.",
-            "translation_zh_TW": "她做出了正確的選擇"
-          }
-        ],
-        "synonyms": [
-          "correct",
-          "just"
-        ]
-      }
-    ],
-    "confusion": [
-      "rite",
-      "write",
-      "riot",
-      "righte"
-    ]
-  },
-  {
-    "word": "past",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The time before the present.",
-        "meaning_zh_TW": "過去",
-        "wrong_meaning_zh_TW": [
-          "未來",
-          "現在",
-          "當前"
-        ],
-        "examples": [
-          {
-            "sentence": "We can learn lessons from the [past].",
-            "translation_zh_TW": "我們可以從過去學習教訓。"
-          },
-          {
-            "sentence": "She often thinks about her [past].",
-            "translation_zh_TW": "她經常思考她的過去。"
-          },
-          {
-            "sentence": "The [past] is not something we can change.",
-            "translation_zh_TW": "過去是我們無法改變的。"
-          }
-        ],
-        "synonyms": [
-          "history",
-          "bygone"
-        ]
-      }
-    ],
-    "confusion": [
-      "pest",
-      "payst",
-      "pastt",
-      "pasta"
-    ]
-  },
-  {
-    "word": "lion",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large wild cat known for its strength and social behavior, often referred to as the king of the jungle.",
-        "meaning_zh_TW": "獅子",
-        "wrong_meaning_zh_TW": [
-          "齒輪",
-          "小狗",
-          "機器人"
-        ],
-        "examples": [
-          {
-            "sentence": "The [lion] is a symbol of courage.",
-            "translation_zh_TW": "獅子是勇氣的象徵。"
-          },
-          {
-            "sentence": "We saw a [lion] at the zoo.",
-            "translation_zh_TW": "我們在動物園裡看到了獅子。"
-          },
-          {
-            "sentence": "The roar of a [lion] can be heard from miles away.",
-            "translation_zh_TW": "獅子的吼聲能夠傳到好幾公里以外。"
-          }
-        ],
-        "synonyms": [
-          "big cat",
-          "felid"
-        ]
-      }
-    ],
-    "confusion": [
-      "lynx",
-      "lioness",
-      "lions",
-      "lie on"
+      "shader",
+      "shar",
+      "shear",
+      "sharee"
     ]
   }
 ]

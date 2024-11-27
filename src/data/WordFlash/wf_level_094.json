@@ -1,772 +1,750 @@
 [
   {
-    "word": "beyond",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "At or to the further side of.",
-        "meaning_zh_TW": "在...之外，超過",
-        "wrong_meaning_zh_TW": [
-          "在裡面，內部",
-          "低於，下面",
-          "附近，周圍"
-        ],
-        "examples": [
-          {
-            "sentence": "The mountains are [beyond] the river.",
-            "translation_zh_TW": "山脈在河的另一邊"
-          },
-          {
-            "sentence": "Her skills are [beyond] my comprehension.",
-            "translation_zh_TW": "她的技能超出了我的理解"
-          },
-          {
-            "sentence": "We traveled [beyond] the city limits.",
-            "translation_zh_TW": "我們走出城市的邊界"
-          }
-        ],
-        "synonyms": [
-          "further",
-          "past",
-          "over"
-        ]
-      }
-    ],
-    "confusion": [
-      "behold",
-      "beyondness",
-      "beyound",
-      "beyound"
-    ]
-  },
-  {
-    "word": "angle",
+    "word": "coin",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The space between two intersecting lines or surfaces at or close to the point where they meet.",
-        "meaning_zh_TW": "角度",
+        "meaning_en_US": "A flat, typically round piece of metal with an official stamp used as money.",
+        "meaning_zh_TW": "硬幣",
         "wrong_meaning_zh_TW": [
-          "直線",
-          "面積",
-          "邊界"
+          "鈔票",
+          "信用卡",
+          "金條"
         ],
         "examples": [
           {
-            "sentence": "You need to measure the [angle] accurately.",
-            "translation_zh_TW": "你需要準確地測量這個角度。"
+            "sentence": "I found a [coin] on the ground.",
+            "translation_zh_TW": "我在地上找到了一枚硬幣。"
           },
           {
-            "sentence": "From this [angle], the view is stunning.",
-            "translation_zh_TW": "從這個角度看，風景非常迷人。"
+            "sentence": "He flipped a [coin] to decide who would go first.",
+            "translation_zh_TW": "他拋了一枚硬幣來決定誰先出。"
           },
           {
-            "sentence": "The architect considered every [angle] of the design.",
-            "translation_zh_TW": "建築師考慮到了設計的每一個角度。"
+            "sentence": "She collected rare [coins] from different countries.",
+            "translation_zh_TW": "她收集來自不同國家的稀有硬幣。"
           }
         ],
         "synonyms": [
-          "corner",
-          "perspective"
+          "currency",
+          "token"
         ]
       }
     ],
     "confusion": [
-      "anglo",
-      "angel",
-      "angl",
-      "anglle"
+      "coyn",
+      "coil",
+      "coyne",
+      "con"
     ]
   },
   {
-    "word": "comic",
+    "word": "cure",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A narrative work that tells a story through a sequence of images and text, often humorous.",
-        "meaning_zh_TW": "漫畫",
+        "meaning_en_US": "A means of healing or restoring to health.",
+        "meaning_zh_TW": "治療、療法",
         "wrong_meaning_zh_TW": [
-          "舞台劇",
-          "小說",
-          "雜誌"
+          "症狀",
+          "診斷",
+          "藥物"
         ],
         "examples": [
           {
-            "sentence": "He collects [comic] books from various series.",
-            "translation_zh_TW": "他收集來自不同系列的漫畫書。"
+            "sentence": "Scientists are searching for a [cure] for the disease.",
+            "translation_zh_TW": "科學家們正在尋找這種疾病的治療方法"
           },
           {
-            "sentence": "The new [comic] is filled with exciting adventures.",
-            "translation_zh_TW": "這本新漫畫充滿了刺激的冒險。"
+            "sentence": "The doctor offered several [cure] options.",
+            "translation_zh_TW": "醫生提供了幾種治療選擇"
           },
           {
-            "sentence": "I love the humor in this [comic] strip.",
-            "translation_zh_TW": "我喜歡這部漫畫中的幽默。"
+            "sentence": "A proper diet can be a good [cure] for fatigue.",
+            "translation_zh_TW": "合理的飲食可以是疲勞的良好療法"
           }
         ],
         "synonyms": [
-          "graphic novel",
-          "strip"
-        ]
-      }
-    ],
-    "confusion": [
-      "comet",
-      "come",
-      "comic-con",
-      "comics"
-    ]
-  },
-  {
-    "word": "distance",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An amount of space between two things or people.",
-        "meaning_zh_TW": "距離",
-        "wrong_meaning_zh_TW": [
-          "高度",
-          "面積",
-          "速度"
-        ],
-        "examples": [
-          {
-            "sentence": "The [distance] between the two cities is 200 miles.",
-            "translation_zh_TW": "這兩座城市之間的距離是200英里"
-          },
-          {
-            "sentence": "He ran a great [distance] in the marathon.",
-            "translation_zh_TW": "他在馬拉松中跑了很長的距離"
-          },
-          {
-            "sentence": "You should maintain a safe [distance] from the edge.",
-            "translation_zh_TW": "你應該與邊緣保持安全距離"
-          }
-        ],
-        "synonyms": [
-          "gap",
-          "length"
-        ]
-      }
-    ],
-    "confusion": [
-      "distanced",
-      "distill",
-      "dissolve",
-      "distantly"
-    ]
-  },
-  {
-    "word": "natural",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Existing in or caused by nature; not made or caused by humankind.",
-        "meaning_zh_TW": "自然的",
-        "wrong_meaning_zh_TW": [
-          "人造的",
-          "工業的",
-          "技術的"
-        ],
-        "examples": [
-          {
-            "sentence": "Fresh fruit is a [natural] source of vitamins.",
-            "translation_zh_TW": "新鮮水果是維生素的自然來源"
-          },
-          {
-            "sentence": "He prefers [natural] materials in his work.",
-            "translation_zh_TW": "他在工作中更喜歡自然材料"
-          },
-          {
-            "sentence": "The park is filled with [natural] beauty.",
-            "translation_zh_TW": "這個公園充滿了自然的美"
-          }
-        ],
-        "synonyms": [
-          "innate",
-          "organic"
-        ]
-      }
-    ],
-    "confusion": [
-      "artificial",
-      "national",
-      "narrative",
-      "nature"
-    ]
-  },
-  {
-    "word": "kilogram",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A unit of mass in the metric system equal to 1,000 grams.",
-        "meaning_zh_TW": "千克",
-        "wrong_meaning_zh_TW": [
-          "一米",
-          "十斤",
-          "一升"
-        ],
-        "examples": [
-          {
-            "sentence": "The package weighs two [kilograms].",
-            "translation_zh_TW": "這個包裹重兩千克"
-          },
-          {
-            "sentence": "A liter of water has a mass of one [kilogram].",
-            "translation_zh_TW": "一升水的重量是千克"
-          },
-          {
-            "sentence": "She lifted a [kilogram] weight at the gym.",
-            "translation_zh_TW": "她在健身房舉起了一公斤的重物"
-          }
-        ],
-        "synonyms": [
-          "kg",
-          "metric unit"
-        ]
-      }
-    ],
-    "confusion": [
-      "kilometer",
-      "kilo",
-      "kilobyte",
-      "kilograms"
-    ]
-  },
-  {
-    "word": "match",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A contest or game between opponents.",
-        "meaning_zh_TW": "比賽、較量",
-        "wrong_meaning_zh_TW": [
-          "輸家、失敗者",
-          "遊戲、玩耍",
-          "運動、活動"
-        ],
-        "examples": [
-          {
-            "sentence": "The soccer [match] ended in a tie.",
-            "translation_zh_TW": "這場足球比賽以平局結束。"
-          },
-          {
-            "sentence": "They watched the championship [match] on TV.",
-            "translation_zh_TW": "他們在電視上觀看了冠軍比賽。"
-          },
-          {
-            "sentence": "He won the tennis [match] last week.",
-            "translation_zh_TW": "他上週贏得了網球比賽。"
-          }
-        ],
-        "synonyms": [
-          "game",
-          "contest"
+          "treatment",
+          "remedy"
         ]
       },
       {
         "type": "動詞",
-        "meaning_en_US": "To pair or correspond in a suitable way or to be equal.",
-        "meaning_zh_TW": "匹配、相配",
+        "meaning_en_US": "To relieve a person or animal of the symptoms of a disease or condition.",
+        "meaning_zh_TW": "治癒",
         "wrong_meaning_zh_TW": [
-          "重疊、堆疊",
-          "分開、分離",
-          "融合、合併"
+          "檢查",
+          "診斷",
+          "治標"
         ],
         "examples": [
           {
-            "sentence": "The colors [match] perfectly.",
-            "translation_zh_TW": "這些顏色完全相配。"
+            "sentence": "Doctors strive to [cure] their patients.",
+            "translation_zh_TW": "醫生力求治癒他們的病人"
           },
           {
-            "sentence": "Make sure the socks [match].",
-            "translation_zh_TW": "確保這雙襪子是相配的。"
+            "sentence": "The new medicine may [cure] the illness.",
+            "translation_zh_TW": "這種新藥可能治癒這種疾病"
           },
           {
-            "sentence": "Can you [match] these patterns?",
-            "translation_zh_TW": "你能把這些圖案匹配嗎？"
+            "sentence": "He believes he can [cure] his allergies.",
+            "translation_zh_TW": "他相信他可以治癒他的過敏症"
+          }
+        ],
+        "synonyms": [
+          "heal",
+          "treat"
+        ]
+      }
+    ],
+    "confusion": [
+      "cured",
+      "curette",
+      "curb",
+      "curtail"
+    ]
+  },
+  {
+    "word": "brush",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An implement consisting of bristles, hair, or wire set in a handle, used for cleaning, painting, or grooming.",
+        "meaning_zh_TW": "刷子",
+        "wrong_meaning_zh_TW": [
+          "刀具",
+          "油漆桶",
+          "清潔劑"
+        ],
+        "examples": [
+          {
+            "sentence": "She used a [brush] to paint the canvas.",
+            "translation_zh_TW": "她用刷子來畫畫布"
+          },
+          {
+            "sentence": "He cleaned the car with a [brush].",
+            "translation_zh_TW": "他用刷子清洗車輛"
+          },
+          {
+            "sentence": "The artist chose a fine [brush] for detail work.",
+            "translation_zh_TW": "這位藝術家挑選了一把敏感的刷子來進行細節工作"
+          }
+        ],
+        "synonyms": [
+          "broom",
+          "comb"
+        ]
+      }
+    ],
+    "confusion": [
+      "rush",
+      "brash",
+      "crush",
+      "brushed"
+    ]
+  },
+  {
+    "word": "deer",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A hoofed grazing animal that is often found in forests, known for its antlers in males.",
+        "meaning_zh_TW": "鹿",
+        "wrong_meaning_zh_TW": [
+          "狗",
+          "貓",
+          "老虎"
+        ],
+        "examples": [
+          {
+            "sentence": "The [deer] grazed peacefully in the meadow.",
+            "translation_zh_TW": "鹿在草地上平靜地吃草。"
+          },
+          {
+            "sentence": "We spotted a [deer] wandering through the woods.",
+            "translation_zh_TW": "我們看到一隻鹿在林中徘徊。"
+          },
+          {
+            "sentence": "A [deer] jumped across the road.",
+            "translation_zh_TW": "一隻鹿跳過了馬路。"
+          }
+        ],
+        "synonyms": [
+          "doe",
+          "stag"
+        ]
+      }
+    ],
+    "confusion": [
+      "dear",
+      "gear",
+      "dear",
+      "dare"
+    ]
+  },
+  {
+    "word": "mat",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A piece of fabric material that provides a protective or decorative surface.",
+        "meaning_zh_TW": "墊子、地毯",
+        "wrong_meaning_zh_TW": [
+          "卡片、文件",
+          "楊柳、樹木",
+          "手套、衣物"
+        ],
+        "examples": [
+          {
+            "sentence": "Please wipe your feet on the [mat].",
+            "translation_zh_TW": "請在墊子上擦腳。"
+          },
+          {
+            "sentence": "The yoga [mat] is essential for my practice.",
+            "translation_zh_TW": "瑜伽墊對我的練習至關重要。"
+          },
+          {
+            "sentence": "She placed a welcome [mat] at the entrance.",
+            "translation_zh_TW": "她在入口處放了一個歡迎墊。"
+          }
+        ],
+        "synonyms": [
+          "rug",
+          "pad"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "A flat piece of material used for a specific purpose.",
+        "meaning_zh_TW": "平面、材料",
+        "wrong_meaning_zh_TW": [
+          "容器、器皿",
+          "包裝、包裹",
+          "工具、儀器"
+        ],
+        "examples": [
+          {
+            "sentence": "The artist used a [mat] for framing.",
+            "translation_zh_TW": "藝術家用了一個平面來裝框。"
+          },
+          {
+            "sentence": "A cutting [mat] is necessary for crafting.",
+            "translation_zh_TW": "一個切割墊對於工藝來說是必需的。"
+          },
+          {
+            "sentence": "Use a [mat] to protect the table.",
+            "translation_zh_TW": "用一個平面來保護桌子。"
+          }
+        ],
+        "synonyms": [
+          "board",
+          "pad"
+        ]
+      }
+    ],
+    "confusion": [
+      "matte",
+      "mate",
+      "map",
+      "met"
+    ]
+  },
+  {
+    "word": "cheat",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To act dishonestly in order to gain an advantage.",
+        "meaning_zh_TW": "作弊",
+        "wrong_meaning_zh_TW": [
+          "誠實",
+          "遵守",
+          "公平"
+        ],
+        "examples": [
+          {
+            "sentence": "He tried to [cheat] on the exam.",
+            "translation_zh_TW": "他試圖在考試中作弊。"
+          },
+          {
+            "sentence": "It's not right to [cheat] your friends.",
+            "translation_zh_TW": "欺騙朋友是不對的。"
+          },
+          {
+            "sentence": "Many students [cheat] during tests.",
+            "translation_zh_TW": "許多學生在考試中作弊。"
+          }
+        ],
+        "synonyms": [
+          "deceive",
+          "fraud"
+        ]
+      }
+    ],
+    "confusion": [
+      "chip",
+      "chat",
+      "cheek",
+      "chest"
+    ]
+  },
+  {
+    "word": "gym",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A place equipped for physical exercise and sports activities.",
+        "meaning_zh_TW": "健身房",
+        "wrong_meaning_zh_TW": [
+          "教室",
+          "辦公室",
+          "閱讀室"
+        ],
+        "examples": [
+          {
+            "sentence": "She works out at the [gym] every morning.",
+            "translation_zh_TW": "她每天早上都在健身房鍛鍊"
+          },
+          {
+            "sentence": "The [gym] offers various fitness classes.",
+            "translation_zh_TW": "健身房提供各種健身課程"
+          },
+          {
+            "sentence": "He enjoys lifting weights at the [gym].",
+            "translation_zh_TW": "他喜歡在健身房舉重"
+          }
+        ],
+        "synonyms": [
+          "fitness center",
+          "health club"
+        ]
+      }
+    ],
+    "confusion": [
+      "gim",
+      "gymn",
+      "gjm",
+      "gymm"
+    ]
+  },
+  {
+    "word": "cloth",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A piece of fabric produced by weaving or knitting textile fibers.",
+        "meaning_zh_TW": "布料",
+        "wrong_meaning_zh_TW": [
+          "紙張",
+          "金屬片",
+          "塑料薄膜"
+        ],
+        "examples": [
+          {
+            "sentence": "She bought some [cloth] to make a dress.",
+            "translation_zh_TW": "她購買了些布料來做衣服。"
+          },
+          {
+            "sentence": "The table was covered with a decorative [cloth].",
+            "translation_zh_TW": "桌子上覆蓋著一塊裝飾性的布。"
+          },
+          {
+            "sentence": "He used a clean [cloth] to wipe the table.",
+            "translation_zh_TW": "他用乾淨的布來抹桌子。"
+          }
+        ],
+        "synonyms": [
+          "fabric",
+          "material"
+        ]
+      }
+    ],
+    "confusion": [
+      "clothe",
+      "closet",
+      "clump",
+      "clone"
+    ]
+  },
+  {
+    "word": "stamp",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An official mark or seal, often made by pressing a design onto a surface.",
+        "meaning_zh_TW": "印章、郵票",
+        "wrong_meaning_zh_TW": [
+          "貼紙、標籤",
+          "商標、標識",
+          "紀念品、收藏品"
+        ],
+        "examples": [
+          {
+            "sentence": "He collected a rare [stamp] from the auction.",
+            "translation_zh_TW": "他在拍賣中收集到一枚稀有的郵票。"
+          },
+          {
+            "sentence": "Make sure to put a [stamp] on the envelope before sending it.",
+            "translation_zh_TW": "在寄出信封之前，一定要貼上郵票。"
+          },
+          {
+            "sentence": "This [stamp] is a cherished item in my collection.",
+            "translation_zh_TW": "這枚郵票是我收藏中的珍貴物品。"
+          }
+        ],
+        "synonyms": [
+          "seal",
+          "mark"
+        ]
+      }
+    ],
+    "confusion": [
+      "stomp",
+      "stemp",
+      "stamped",
+      "stemped"
+    ]
+  },
+  {
+    "word": "mate",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A companion, friend, or partner.",
+        "meaning_zh_TW": "夥伴、朋友",
+        "wrong_meaning_zh_TW": [
+          "敵人、對手",
+          "家人、親戚",
+          "陌生人、路人"
+        ],
+        "examples": [
+          {
+            "sentence": "She is my best [mate].",
+            "translation_zh_TW": "她是我最好的朋友。"
+          },
+          {
+            "sentence": "They are close [mates] from childhood.",
+            "translation_zh_TW": "他們是從小一起長大的好朋友。"
+          },
+          {
+            "sentence": "My [mate] helped me with my project.",
+            "translation_zh_TW": "我的朋友幫我完成了項目。"
+          }
+        ],
+        "synonyms": [
+          "friend",
+          "companion"
+        ]
+      },
+      {
+        "type": "動詞",
+        "meaning_en_US": "To pair or join up, especially during breeding.",
+        "meaning_zh_TW": "交配、配對",
+        "wrong_meaning_zh_TW": [
+          "分開、離開",
+          "觀察、評論",
+          "獨立、自主"
+        ],
+        "examples": [
+          {
+            "sentence": "The birds will [mate] in the spring.",
+            "translation_zh_TW": "這些鳥會在春季交配。"
+          },
+          {
+            "sentence": "The animals [mate] during the mating season.",
+            "translation_zh_TW": "這些動物在交配季節交配。"
+          },
+          {
+            "sentence": "They try to [mate] the fish in the aquarium.",
+            "translation_zh_TW": "他們試著在水族館裡使魚類交配。"
           }
         ],
         "synonyms": [
           "pair",
-          "correspond"
+          "breed"
         ]
       }
     ],
     "confusion": [
-      "march",
-      "mat",
-      "mash",
-      "much"
+      "matey",
+      "moot",
+      "meet",
+      "mote"
     ]
   },
   {
-    "word": "pardon",
+    "word": "burden",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A load, especially a heavy one.",
+        "meaning_zh_TW": "負擔",
+        "wrong_meaning_zh_TW": [
+          "樂趣",
+          "份額",
+          "責任"
+        ],
+        "examples": [
+          {
+            "sentence": "He felt the [burden] of his responsibilities.",
+            "translation_zh_TW": "他感受到責任的重擔。"
+          },
+          {
+            "sentence": "Carrying that heavy box was a real [burden].",
+            "translation_zh_TW": "搬那個重箱子真是一個負擔。"
+          },
+          {
+            "sentence": "She tried to relieve the [burden] of her friend.",
+            "translation_zh_TW": "她試著減輕朋友的負擔。"
+          }
+        ],
+        "synonyms": [
+          "load",
+          "weight"
+        ]
+      }
+    ],
+    "confusion": [
+      "burdn",
+      "burdun",
+      "burdened",
+      "burdn"
+    ]
+  },
+  {
+    "word": "recover",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To forgive or excuse someone.",
-        "meaning_zh_TW": "原諒,寬恕",
+        "meaning_en_US": "To return to a normal state of health, mind, or strength.",
+        "meaning_zh_TW": "恢復",
         "wrong_meaning_zh_TW": [
-          "懲罰",
-          "指責",
-          "獎勵"
+          "損失",
+          "降級",
+          "終止"
         ],
         "examples": [
           {
-            "sentence": "Can you [pardon] my mistake?",
-            "translation_zh_TW": "你可以原諒我的錯誤嗎？"
+            "sentence": "She took a few days off to [recover] from her illness.",
+            "translation_zh_TW": "她休息幾天以恢復健康。"
           },
           {
-            "sentence": "He was pardoned for his crime.",
-            "translation_zh_TW": "他因罪行被寬恕"
+            "sentence": "He is trying to [recover] his lost files.",
+            "translation_zh_TW": "他正在嘗試恢復丟失的文件。"
           },
           {
-            "sentence": "She asked for a [pardon] after being rude.",
-            "translation_zh_TW": "她對無禮的行為請求寬恕"
+            "sentence": "The economy is slowly starting to [recover].",
+            "translation_zh_TW": "經濟正在緩慢開始恢復。"
           }
         ],
         "synonyms": [
-          "forgive",
-          "excuse"
+          "regain",
+          "retrieve"
         ]
       }
     ],
     "confusion": [
-      "pardon",
-      "party",
-      "garden",
-      "warden"
+      "revert",
+      "reconquer",
+      "recovering",
+      "recoup"
     ]
   },
   {
-    "word": "southern",
+    "word": "necklace",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Located in or relating to the south.",
-        "meaning_zh_TW": "南方的",
+        "type": "名詞",
+        "meaning_en_US": "A piece of jewelry worn around the neck.",
+        "meaning_zh_TW": "項鍊",
         "wrong_meaning_zh_TW": [
-          "北方的",
-          "西方的",
-          "東方的"
+          "耳環",
+          "手鐲",
+          "戒指"
         ],
         "examples": [
           {
-            "sentence": "He traveled to the [southern] part of the country.",
-            "translation_zh_TW": "他前往該國的南方地區"
+            "sentence": "She wore a beautiful [necklace] to the party.",
+            "translation_zh_TW": "她在派對上戴了一條美麗的項鍊."
           },
           {
-            "sentence": "The [southern] states have a rich history.",
-            "translation_zh_TW": "南方各州有著悠久的歷史"
+            "sentence": "The [necklace] was made of gold and diamonds.",
+            "translation_zh_TW": "這條項鍊是用黃金和鑽石製成的."
           },
           {
-            "sentence": "She enjoys the [southern] cooking style.",
-            "translation_zh_TW": "她喜歡南方的烹飪風格"
+            "sentence": "He bought a [necklace] as a gift for his wife.",
+            "translation_zh_TW": "他為妻子買了一條項鍊作為禮物."
           }
         ],
         "synonyms": [
-          "downward",
-          "southward"
+          "choker",
+          "pendant"
         ]
       }
     ],
     "confusion": [
-      "southing",
-      "southend",
-      "sour",
-      "souter"
+      "neckless",
+      "neckline",
+      "neckwear",
+      "decklace"
     ]
   },
   {
-    "word": "measure",
+    "word": "spider",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A small arachnid that often has eight legs and can spin webs.",
+        "meaning_zh_TW": "蜘蛛",
+        "wrong_meaning_zh_TW": [
+          "蝙蝠",
+          "蟑螂",
+          "蚊子"
+        ],
+        "examples": [
+          {
+            "sentence": "The [spider] spun a beautiful web in the corner of the room.",
+            "translation_zh_TW": "蜘蛛在房間的角落裡編織了一個美麗的網。"
+          },
+          {
+            "sentence": "She was frightened when she saw a [spider] crawl across the floor.",
+            "translation_zh_TW": "她看到一隻蜘蛛在地板上爬行時感到害怕。"
+          },
+          {
+            "sentence": "Some people keep [spiders] as pets.",
+            "translation_zh_TW": "有些人把蜘蛛當作寵物。"
+          }
+        ],
+        "synonyms": [
+          "arachnid",
+          "web-spinner"
+        ]
+      }
+    ],
+    "confusion": [
+      "spiderweb",
+      "spader",
+      "spidersilk",
+      "spied"
+    ]
+  },
+  {
+    "word": "bend",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To ascertain the size, amount, or degree of something.",
-        "meaning_zh_TW": "測量",
+        "meaning_en_US": "To shape or force something straight into a curve or angle.",
+        "meaning_zh_TW": "彎曲，偏轉",
         "wrong_meaning_zh_TW": [
-          "猜測",
-          "計劃",
-          "調整"
+          "折疊，壓平",
+          "撞擊，碰撞",
+          "伸展，延長"
         ],
         "examples": [
           {
-            "sentence": "Please [measure] the length of the table.",
-            "translation_zh_TW": "請測量桌子的長度。"
+            "sentence": "Please [bend] the wire carefully.",
+            "translation_zh_TW": "請小心彎曲這根線"
           },
           {
-            "sentence": "He learned how to [measure] distances accurately.",
-            "translation_zh_TW": "他學會了如何準確地測量距離。"
+            "sentence": "He had to [bend] down to pick up the pen.",
+            "translation_zh_TW": "他必須彎下腰去撿起那支筆"
           },
           {
-            "sentence": "You should [measure] twice before cutting.",
-            "translation_zh_TW": "你在切割之前應該測量兩次。"
+            "sentence": "Don't [bend] the rules too much.",
+            "translation_zh_TW": "不要太多地彎曲規則"
           }
         ],
         "synonyms": [
-          "gauge",
-          "calculate"
+          "curve",
+          "twist",
+          "flex"
         ]
       }
     ],
     "confusion": [
-      "measures",
-      "measurements",
-      "measurer",
-      "measurable"
+      "band",
+      "send",
+      "end",
+      "blend"
     ]
   },
   {
-    "word": "lady",
+    "word": "friendship",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A woman of superior social status or refinement.",
-        "meaning_zh_TW": "女士",
+        "meaning_en_US": "The emotions or conduct of friends; the state of being friends.",
+        "meaning_zh_TW": "友誼",
         "wrong_meaning_zh_TW": [
-          "男士",
-          "嬰兒",
-          "少女"
+          "敵意",
+          "陌生",
+          "負擔"
         ],
         "examples": [
           {
-            "sentence": "The [lady] at the front desk is very helpful.",
-            "translation_zh_TW": "前台的女士非常樂於助人"
+            "sentence": "Their [friendship] has grown stronger over the years.",
+            "translation_zh_TW": "他們的友誼隨著年齡增長而變得更加牢固。"
           },
           {
-            "sentence": "She is a true [lady] with grace and poise.",
-            "translation_zh_TW": "她是一位優雅而得體的女士"
+            "sentence": "I cherish our [friendship] and the memories we've made.",
+            "translation_zh_TW": "我珍惜我們的友誼和我們創造的回憶。"
           },
           {
-            "sentence": "A [lady] should always be treated with respect.",
-            "translation_zh_TW": "女士應該始終受到尊重"
+            "sentence": "True [friendship] can withstand any hardship.",
+            "translation_zh_TW": "真正的友誼可以承受任何困難。"
           }
         ],
         "synonyms": [
-          "woman",
-          "gentlewoman"
+          "companionship",
+          "amity"
         ]
       }
     ],
     "confusion": [
-      "laddy",
-      "lad",
-      "ladybug",
-      "ladi"
+      "friend",
+      "friended",
+      "friendless",
+      "friendshipper"
     ]
   },
   {
-    "word": "narrow",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Limited in extent, amount, or scope.",
-        "meaning_zh_TW": "狹窄的",
-        "wrong_meaning_zh_TW": [
-          "寬闊的",
-          "肯定的",
-          "重要的"
-        ],
-        "examples": [
-          {
-            "sentence": "The road is very [narrow].",
-            "translation_zh_TW": "這條路非常狹窄"
-          },
-          {
-            "sentence": "She has a [narrow] view of the world.",
-            "translation_zh_TW": "她對世界的看法很狹隘"
-          },
-          {
-            "sentence": "We walked through a [narrow] passage.",
-            "translation_zh_TW": "我們走過一條狹窄的通道"
-          }
-        ],
-        "synonyms": [
-          "tight",
-          "slim"
-        ]
-      }
-    ],
-    "confusion": [
-      "borrow",
-      "barrow",
-      "sorrow",
-      "narrate"
-    ]
-  },
-  {
-    "word": "anywhere",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "In or at any place.",
-        "meaning_zh_TW": "任何地方",
-        "wrong_meaning_zh_TW": [
-          "所有地方",
-          "某地",
-          "遠方"
-        ],
-        "examples": [
-          {
-            "sentence": "You can find this book [anywhere].",
-            "translation_zh_TW": "你可以在任何地方找到這本書"
-          },
-          {
-            "sentence": "He can travel [anywhere] he likes.",
-            "translation_zh_TW": "他可以去他喜歡的任何地方"
-          },
-          {
-            "sentence": "There isn't [anywhere] else I'd rather be.",
-            "translation_zh_TW": "我不想待在任何其他地方"
-          }
-        ],
-        "synonyms": [
-          "everywhere",
-          "any place"
-        ]
-      }
-    ],
-    "confusion": [
-      "anywere",
-      "anywhr",
-      "anwhere",
-      "anywheard"
-    ]
-  },
-  {
-    "word": "population",
+    "word": "silence",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The total number of people inhabiting a specific area or country.",
-        "meaning_zh_TW": "特定區域或國家居住的總人數",
+        "meaning_en_US": "The absence of sound; complete quiet.",
+        "meaning_zh_TW": "安靜、寂靜",
         "wrong_meaning_zh_TW": [
-          "國土面積",
-          "經濟成長",
-          "社會制度"
+          "喧鬧",
+          "吵鬧",
+          "噪音"
         ],
         "examples": [
           {
-            "sentence": "The [population] of the city has increased significantly over the past decade.",
-            "translation_zh_TW": "該城市的總居住人數在過去十年中顯著增加。"
+            "sentence": "The room fell into [silence] after the announcement.",
+            "translation_zh_TW": "公告後房間陷入了寂靜"
           },
           {
-            "sentence": "Understanding [population] trends can help with urban planning.",
-            "translation_zh_TW": "了解人口趨勢有助於城市規劃。"
+            "sentence": "We enjoyed the peaceful [silence] of the forest.",
+            "translation_zh_TW": "我們享受了森林中的平靜寂靜"
           },
           {
-            "sentence": "The [population] of this region is diverse and multicultural.",
-            "translation_zh_TW": "該地區的居民總體人數多樣且多元文化。"
+            "sentence": "A moment of [silence] was observed for the departed.",
+            "translation_zh_TW": "為逝者默哀了一分鐘"
           }
         ],
         "synonyms": [
-          "inhabitants",
-          "citizens"
+          "quiet",
+          "stillness"
         ]
       }
     ],
     "confusion": [
-      "populations",
-      "populism",
-      "popularity",
-      "popalation"
-    ]
-  },
-  {
-    "word": "fellow",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person of the same age, status, or ability as another specified person.",
-        "meaning_zh_TW": "同儕",
-        "wrong_meaning_zh_TW": [
-          "教師",
-          "夥伴",
-          "男士"
-        ],
-        "examples": [
-          {
-            "sentence": "He is a good [fellow] who always helps others.",
-            "translation_zh_TW": "他是一個總是幫助他人的好同儕。"
-          },
-          {
-            "sentence": "My [fellow] students and I studied together.",
-            "translation_zh_TW": "我和我的同儕一起學習。"
-          },
-          {
-            "sentence": "She introduced me to her [fellow] writers.",
-            "translation_zh_TW": "她把我介紹給她的作家同儕。"
-          }
-        ],
-        "synonyms": [
-          "peer",
-          "colleague"
-        ]
-      }
-    ],
-    "confusion": [
-      "fellowship",
-      "felon",
-      "fellowing",
-      "fello"
-    ]
-  },
-  {
-    "word": "schedule",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A plan for carrying out a process or procedure.",
-        "meaning_zh_TW": "行程",
-        "wrong_meaning_zh_TW": [
-          "隨意",
-          "變更",
-          "版次"
-        ],
-        "examples": [
-          {
-            "sentence": "I have a busy [schedule] this week.",
-            "translation_zh_TW": "我這周的行程很忙。"
-          },
-          {
-            "sentence": "Please check the [schedule] for the meeting.",
-            "translation_zh_TW": "請查看會議的時間表。"
-          },
-          {
-            "sentence": "The [schedule] includes all my appointments.",
-            "translation_zh_TW": "這個日程表包括了我的所有約會。"
-          }
-        ],
-        "synonyms": [
-          "timetable",
-          "agenda"
-        ]
-      }
-    ],
-    "confusion": [
-      "scandal",
-      "scuttle",
-      "saddle",
-      "seldom"
-    ]
-  },
-  {
-    "word": "fair",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Free from bias, favoritism, or injustice; equitable.",
-        "meaning_zh_TW": "公正的、無偏見的",
-        "wrong_meaning_zh_TW": [
-          "晴天",
-          "美好的",
-          "漂亮的"
-        ],
-        "examples": [
-          {
-            "sentence": "The judge made a [fair] decision.",
-            "translation_zh_TW": "法官做出了公正的判決。"
-          },
-          {
-            "sentence": "She believes in giving everyone a [fair] chance.",
-            "translation_zh_TW": "她相信給每個人一個公正的機會。"
-          },
-          {
-            "sentence": "Is it [fair] to judge someone without knowing their story?",
-            "translation_zh_TW": "在不了解故事的情況下評價一個人是否公正？"
-          }
-        ],
-        "synonyms": [
-          "just",
-          "impartial"
-        ]
-      }
-    ],
-    "confusion": [
-      "fare",
-      "fayer",
-      "faer",
-      "faer"
-    ]
-  },
-  {
-    "word": "slide",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To move smoothly along a surface while maintaining continuous contact with it.",
-        "meaning_zh_TW": "滑動",
-        "wrong_meaning_zh_TW": [
-          "撞擊",
-          "靜止不動",
-          "推開"
-        ],
-        "examples": [
-          {
-            "sentence": "The children love to [slide] down the playground.",
-            "translation_zh_TW": "孩子們喜歡在遊樂場滑下來。"
-          },
-          {
-            "sentence": "She tried to [slide] the door open quietly.",
-            "translation_zh_TW": "她試著輕輕地滑開門。"
-          },
-          {
-            "sentence": "The ice made it easy to [slide] across the lake.",
-            "translation_zh_TW": "冰面使得在湖上滑行變得容易。"
-          }
-        ],
-        "synonyms": [
-          "glide",
-          "slither"
-        ]
-      }
-    ],
-    "confusion": [
-      "slight",
-      "slime",
-      "slidey",
-      "slid"
-    ]
-  },
-  {
-    "word": "false",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Not true, incorrect.",
-        "meaning_zh_TW": "不正確的",
-        "wrong_meaning_zh_TW": [
-          "真的",
-          "真實的",
-          "正確的"
-        ],
-        "examples": [
-          {
-            "sentence": "The statement was [false].",
-            "translation_zh_TW": "這個陳述是不正確的。"
-          },
-          {
-            "sentence": "Don't believe the [false] rumors.",
-            "translation_zh_TW": "不要相信這些不實的謠言。"
-          },
-          {
-            "sentence": "She provided [false] information.",
-            "translation_zh_TW": "她提供了不正確的資訊。"
-          }
-        ],
-        "synonyms": [
-          "incorrect",
-          "untrue"
-        ]
-      }
-    ],
-    "confusion": [
-      "falsetto",
-      "faalse",
-      "fauls",
-      "fals"
+      "silences",
+      "silencing",
+      "silencer",
+      "silencee"
     ]
   }
 ]

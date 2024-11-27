@@ -1,615 +1,655 @@
 [
   {
-    "word": "inner",
+    "word": "harbor",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A sheltered place along a shoreline where boats can dock or anchor.",
+        "meaning_zh_TW": "港口",
+        "wrong_meaning_zh_TW": [
+          "山頂",
+          "沙漠",
+          "森林"
+        ],
+        "examples": [
+          {
+            "sentence": "The boat sailed into the [harbor].",
+            "translation_zh_TW": "船駛入了港口。"
+          },
+          {
+            "sentence": "Fishermen often gather at the [harbor].",
+            "translation_zh_TW": "漁民常常聚集在港口。"
+          },
+          {
+            "sentence": "The [harbor] was bustling with activity.",
+            "translation_zh_TW": "港口裡人來人往。"
+          }
+        ],
+        "synonyms": [
+          "port",
+          "dock"
+        ]
+      }
+    ],
+    "confusion": [
+      "harbored",
+      "harboring",
+      "harbinger",
+      "harder"
+    ]
+  },
+  {
+    "word": "traveler",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who is traveling or who travels frequently.",
+        "meaning_zh_TW": "旅行者",
+        "wrong_meaning_zh_TW": [
+          "走私者",
+          "配貨員",
+          "搬運工"
+        ],
+        "examples": [
+          {
+            "sentence": "Every summer, the [traveler] explores new destinations.",
+            "translation_zh_TW": "每年夏天，旅行者探索新的目的地。"
+          },
+          {
+            "sentence": "The [traveler] shared stories about his adventures.",
+            "translation_zh_TW": "旅行者分享了他的冒險故事。"
+          },
+          {
+            "sentence": "She is a frequent [traveler] for her job.",
+            "translation_zh_TW": "她因工作經常旅行。"
+          }
+        ],
+        "synonyms": [
+          "voyager",
+          "explorer"
+        ]
+      }
+    ],
+    "confusion": [
+      "travesty",
+      "traverse",
+      "trumpeter",
+      "trailblazer"
+    ]
+  },
+  {
+    "word": "flood",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An overflow of a large amount of water beyond its normal confines.",
+        "meaning_zh_TW": "洪水",
+        "wrong_meaning_zh_TW": [
+          "泥土",
+          "浪潮",
+          "雨衣"
+        ],
+        "examples": [
+          {
+            "sentence": "The heavy rain caused a [flood] in the town.",
+            "translation_zh_TW": "大雨引發了鎮上的洪水。"
+          },
+          {
+            "sentence": "Many homes were affected by the [flood].",
+            "translation_zh_TW": "許多房屋受到洪水影響。"
+          },
+          {
+            "sentence": "They evacuated the area due to the [flood].",
+            "translation_zh_TW": "由於洪水，他們撤離了該地區。"
+          }
+        ],
+        "synonyms": [
+          "inundation",
+          "deluge"
+        ]
+      }
+    ],
+    "confusion": [
+      "food",
+      "flooded",
+      "fluor",
+      "fould"
+    ]
+  },
+  {
+    "word": "announcement",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A formal public statement about a fact, occurrence, or intention.",
+        "meaning_zh_TW": "公告",
+        "wrong_meaning_zh_TW": [
+          "謊言",
+          "提醒",
+          "經驗"
+        ],
+        "examples": [
+          {
+            "sentence": "The school made an [announcement] about the upcoming event.",
+            "translation_zh_TW": "學校對即將舉行的活動做出了公告"
+          },
+          {
+            "sentence": "We received an official [announcement] regarding the changes.",
+            "translation_zh_TW": "我們收到了關於變更的官方公告"
+          },
+          {
+            "sentence": "His [announcement] was met with excitement from the audience.",
+            "translation_zh_TW": "他的公告讓觀眾感到興奮"
+          }
+        ],
+        "synonyms": [
+          "statement",
+          "declaration"
+        ]
+      }
+    ],
+    "confusion": [
+      "announcment",
+      "announcer",
+      "announces",
+      "anouncement"
+    ]
+  },
+  {
+    "word": "casual",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Situated within or further in; internal.",
-        "meaning_zh_TW": "內部的",
+        "meaning_en_US": "Relaxed and unconcerned; not formal or serious.",
+        "meaning_zh_TW": "隨意的、輕鬆的",
         "wrong_meaning_zh_TW": [
-          "外部的",
-          "開放的",
-          "明亮的"
+          "正式的、嚴肅的",
+          "繁瑣的、拘謹的",
+          "例行的、例行公事的"
         ],
         "examples": [
           {
-            "sentence": "She felt a sense of [inner] peace at the temple.",
-            "translation_zh_TW": "她在寺廟感受到一種內心的平靜。"
+            "sentence": "He prefers a [casual] style of clothing.",
+            "translation_zh_TW": "他偏好隨意的穿著風格"
           },
           {
-            "sentence": "The [inner] workings of the machine are complex.",
-            "translation_zh_TW": "這台機器的內部運作非常複雜。"
+            "sentence": "This meeting has a [casual] tone.",
+            "translation_zh_TW": "這次會議的氛圍很輕鬆"
           },
           {
-            "sentence": "He shared his [inner] thoughts only with close friends.",
-            "translation_zh_TW": "他只與摯友分享他的內心想法。"
+            "sentence": "A [casual] approach can be refreshing.",
+            "translation_zh_TW": "隨意的方式可以讓人耳目一新"
           }
         ],
         "synonyms": [
-          "internal",
-          "personal"
+          "informal",
+          "relaxed"
         ]
       }
     ],
     "confusion": [
-      "inter",
-      "in",
-      "innerly",
-      "innumerable"
+      "casually",
+      "casualty",
+      "castle",
+      "cable"
     ]
   },
   {
-    "word": "fur",
+    "word": "indoor",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Situated, occurring, or used within the interior of a building.",
+        "meaning_zh_TW": "室內的.",
+        "wrong_meaning_zh_TW": [
+          "室外的",
+          "隨性的",
+          "浪費的"
+        ],
+        "examples": [
+          {
+            "sentence": "We prefer to have our meetings [indoor] during winter.",
+            "translation_zh_TW": "冬天我們更喜歡在室內開會。"
+          },
+          {
+            "sentence": "The [indoor] gym is open all year round.",
+            "translation_zh_TW": "室內健身房全年開放。"
+          },
+          {
+            "sentence": "They organized an [indoor] picnic due to the rain.",
+            "translation_zh_TW": "由於下雨，他們組織了一次室內野餐。"
+          }
+        ],
+        "synonyms": [
+          "inside",
+          "interior"
+        ]
+      }
+    ],
+    "confusion": [
+      "outdoor",
+      "indoors",
+      "indoorsy",
+      "index"
+    ]
+  },
+  {
+    "word": "armed",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Equipped with weapons.",
+        "meaning_zh_TW": "武裝",
+        "wrong_meaning_zh_TW": [
+          "無防備",
+          "脆弱",
+          "安靜"
+        ],
+        "examples": [
+          {
+            "sentence": "The soldiers are [armed] for battle.",
+            "translation_zh_TW": "士兵們已經武裝好準備戰鬥。"
+          },
+          {
+            "sentence": "She felt safe knowing the area was [armed].",
+            "translation_zh_TW": "知道該區域是武裝的，她感覺安全。"
+          },
+          {
+            "sentence": "The police arrived [armed] with the necessary equipment.",
+            "translation_zh_TW": "警方已武裝好必要的設備抵達。"
+          }
+        ],
+        "synonyms": [
+          "equipped",
+          "fortified"
+        ]
+      }
+    ],
+    "confusion": [
+      "unarmed",
+      "farm",
+      "alarm",
+      "armored"
+    ]
+  },
+  {
+    "word": "pine",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The short, fine hair that covers the bodies of many mammals.",
-        "meaning_zh_TW": "動物毛",
+        "meaning_en_US": "A type of coniferous tree known for its long needles.",
+        "meaning_zh_TW": "思念",
         "wrong_meaning_zh_TW": [
-          "皮膚",
-          "毛衣",
-          "織物"
+          "發現新事物",
+          "享受假期",
+          "展現特色"
         ],
         "examples": [
           {
-            "sentence": "The cat has soft [fur].",
-            "translation_zh_TW": "貓咪的毛很柔軟"
+            "sentence": "The tall [pine] tree stood in the park.",
+            "translation_zh_TW": "高高的松樹矗立在公園裡。"
           },
           {
-            "sentence": "She wore a coat made of real [fur].",
-            "translation_zh_TW": "她穿著一件由真毛製成的外套"
+            "sentence": "Birds often nest in [pine] trees.",
+            "translation_zh_TW": "鳥類經常在松樹裡築巢。"
           },
           {
-            "sentence": "Some animals shed their [fur] in spring.",
-            "translation_zh_TW": "一些動物在春天會脫毛"
+            "sentence": "The scent of [pine] filled the forest air.",
+            "translation_zh_TW": "松樹的香氣充滿了森林的空氣。"
           }
         ],
         "synonyms": [
-          "coat",
-          "pelt"
-        ]
-      }
-    ],
-    "confusion": [
-      "furrow",
-      "fury",
-      "fir",
-      "furie"
-    ]
-  },
-  {
-    "word": "berry",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A small, round fruit.",
-        "meaning_zh_TW": "漿果",
-        "wrong_meaning_zh_TW": [
-          "蘋果",
-          "葡萄",
-          "橙子"
-        ],
-        "examples": [
-          {
-            "sentence": "I made a smoothie with a mix of [berries].",
-            "translation_zh_TW": "我用多種漿果做了冰沙。"
-          },
-          {
-            "sentence": "Blue [berries] are rich in antioxidants.",
-            "translation_zh_TW": "藍莓富含抗氧化劑。"
-          },
-          {
-            "sentence": "We picked fresh [berries] from the garden.",
-            "translation_zh_TW": "我們從花園裡採摘了新鮮的漿果。"
-          }
-        ],
-        "synonyms": [
-          "fruit",
-          "small fruit"
-        ]
-      }
-    ],
-    "confusion": [
-      "buried",
-      "berrying",
-      "beret",
-      "burry"
-    ]
-  },
-  {
-    "word": "leak",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To allow liquid or gas to escape, often through a hole.",
-        "meaning_zh_TW": "漏出",
-        "wrong_meaning_zh_TW": [
-          "填補",
-          "鎖住",
-          "關閉"
-        ],
-        "examples": [
-          {
-            "sentence": "The roof started to [leak] during the storm.",
-            "translation_zh_TW": "暴風雨中屋頂開始漏水。"
-          },
-          {
-            "sentence": "Make sure the pipe doesn't [leak].",
-            "translation_zh_TW": "確保這根管子不會漏水。"
-          },
-          {
-            "sentence": "I noticed a [leak] in the faucet.",
-            "translation_zh_TW": "我注意到水龍頭漏水。"
-          }
-        ],
-        "synonyms": [
-          "seep",
-          "drip"
-        ]
-      }
-    ],
-    "confusion": [
-      "leek",
-      "leap",
-      "leeked",
-      "leaks"
-    ]
-  },
-  {
-    "word": "sip",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To drink (a liquid) by taking small mouthfuls.",
-        "meaning_zh_TW": "小口喝",
-        "wrong_meaning_zh_TW": [
-          "猛喝",
-          "大口吃",
-          "吸氣"
-        ],
-        "examples": [
-          {
-            "sentence": "She took a [sip] of her tea.",
-            "translation_zh_TW": "她小口喝了一口茶。"
-          },
-          {
-            "sentence": "He always [sips] his coffee slowly.",
-            "translation_zh_TW": "他總是慢慢地喝咖啡。"
-          },
-          {
-            "sentence": "I like to [sip] my drinks at a leisurely pace.",
-            "translation_zh_TW": "我喜歡悠閒地小口喝我的飲料。"
-          }
-        ],
-        "synonyms": [
-          "drink",
-          "slurp"
-        ]
-      }
-    ],
-    "confusion": [
-      "zip",
-      "siply",
-      "ship",
-      "sippy"
-    ]
-  },
-  {
-    "word": "threat",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A declaration of an intention to inflict pain, injury, or damage.",
-        "meaning_zh_TW": "威脅",
-        "wrong_meaning_zh_TW": [
-          "承諾",
-          "幫助",
-          "允許"
-        ],
-        "examples": [
-          {
-            "sentence": "The storm posed a serious [threat] to the town.",
-            "translation_zh_TW": "這場風暴對小鎮構成了嚴重的威脅。"
-          },
-          {
-            "sentence": "They received a [threat] from an unknown source.",
-            "translation_zh_TW": "他們收到了來自未知來源的威脅。"
-          },
-          {
-            "sentence": "Cybersecurity is essential to prevent a [threat] to data.",
-            "translation_zh_TW": "網絡安全對防止數據威脅至關重要。"
-          }
-        ],
-        "synonyms": [
-          "danger",
-          "menace"
-        ]
-      }
-    ],
-    "confusion": [
-      "theatre",
-      "throte",
-      "threth",
-      "thrill"
-    ]
-  },
-  {
-    "word": "freezer",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An appliance used to store food at low temperatures.",
-        "meaning_zh_TW": "冷凍庫",
-        "wrong_meaning_zh_TW": [
-          "烤箱",
-          "洗碗機",
-          "微波爐"
-        ],
-        "examples": [
-          {
-            "sentence": "I keep ice cream in the [freezer].",
-            "translation_zh_TW": "我將冰淇淋放在冷凍庫裡。"
-          },
-          {
-            "sentence": "The [freezer] is full of frozen meals.",
-            "translation_zh_TW": "冷凍庫裡滿是冷凍餐。"
-          },
-          {
-            "sentence": "Make sure the [freezer] is set to the right temperature.",
-            "translation_zh_TW": "確保冷凍庫設置在正確的溫度。"
-          }
-        ],
-        "synonyms": [
-          "icebox",
-          "chest"
-        ]
-      }
-    ],
-    "confusion": [
-      "freed",
-      "freestyle",
-      "frenzy",
-      "freetime"
-    ]
-  },
-  {
-    "word": "humor",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The quality of being amusing or entertaining.",
-        "meaning_zh_TW": "幽默",
-        "wrong_meaning_zh_TW": [
-          "嚴肅",
-          "緊張",
-          "煩躁"
-        ],
-        "examples": [
-          {
-            "sentence": "His [humor] made everyone in the room laugh.",
-            "translation_zh_TW": "他的幽默讓房間裡的每個人都笑了"
-          },
-          {
-            "sentence": "She has a unique sense of [humor] that sets her apart.",
-            "translation_zh_TW": "她有獨特的幽默感，使她與眾不同"
-          },
-          {
-            "sentence": "Good [humor] can lighten the mood during tough times.",
-            "translation_zh_TW": "好的幽默可以在艱難時期緩解氣氛"
-          }
-        ],
-        "synonyms": [
-          "wit",
-          "comedy"
-        ]
-      }
-    ],
-    "confusion": [
-      "humour",
-      "humerus",
-      "hummus",
-      "humorist"
-    ]
-  },
-  {
-    "word": "acid",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A chemical substance that neutralizes alkalis.",
-        "meaning_zh_TW": "酸",
-        "wrong_meaning_zh_TW": [
-          "鹼",
-          "水",
-          "油"
-        ],
-        "examples": [
-          {
-            "sentence": "Vinegar is a common type of [acid].",
-            "translation_zh_TW": "醋是一種常見的酸"
-          },
-          {
-            "sentence": "The [acid] can react with metals.",
-            "translation_zh_TW": "這種酸可能與金屬反應"
-          },
-          {
-            "sentence": "We learned about different types of [acids] in chemistry class.",
-            "translation_zh_TW": "我們在化學課上學習了不同種類的酸"
-          }
-        ],
-        "synonyms": [
-          "sour",
-          "acerbic"
-        ]
-      }
-    ],
-    "confusion": [
-      "acids",
-      "acidic",
-      "acidy",
-      "acidify"
-    ]
-  },
-  {
-    "word": "survivor",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who continues to live, especially after a dangerous event.",
-        "meaning_zh_TW": "存活者、倖存者",
-        "wrong_meaning_zh_TW": [
-          "傷亡者",
-          "目擊者",
-          "旁觀者"
-        ],
-        "examples": [
-          {
-            "sentence": "The only [survivor] of the crash told her story.",
-            "translation_zh_TW": "墜毀事件中唯一的存活者講述了她的故事。"
-          },
-          {
-            "sentence": "Many [survivors] gathered to share their experiences.",
-            "translation_zh_TW": "許多倖存者聚集在一起分享他們的經歷。"
-          },
-          {
-            "sentence": "As a [survivor], she advocates for better safety regulations.",
-            "translation_zh_TW": "作為一名倖存者，她提倡更好的安全規定。"
-          }
-        ],
-        "synonyms": [
-          "inhabitant",
-          "champion",
-          "fighter"
-        ]
-      }
-    ],
-    "confusion": [
-      "survived",
-      "survival",
-      "surviving",
-      "superhero"
-    ]
-  },
-  {
-    "word": "captain",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The person in command of a ship or an aircraft.",
-        "meaning_zh_TW": "船長、機長",
-        "wrong_meaning_zh_TW": [
-          "乘客",
-          "旅客",
-          "觀光客"
-        ],
-        "examples": [
-          {
-            "sentence": "The [captain] gave orders to the crew.",
-            "translation_zh_TW": "船長對船員下達命令"
-          },
-          {
-            "sentence": "He was promoted to [captain] after years of service.",
-            "translation_zh_TW": "在多年服務後他被升為船長"
-          },
-          {
-            "sentence": "The [captain] navigated the ship through the storm.",
-            "translation_zh_TW": "船長駕駛船隻穿過暴風雨"
-          }
-        ],
-        "synonyms": [
-          "leader",
-          "commander"
-        ]
-      }
-    ],
-    "confusion": [
-      "capitan",
-      "captan",
-      "captiain",
-      "captin"
-    ]
-  },
-  {
-    "word": "response",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A reaction to something.",
-        "meaning_zh_TW": "回應",
-        "wrong_meaning_zh_TW": [
-          "忽視",
-          "不理會",
-          "忘記"
-        ],
-        "examples": [
-          {
-            "sentence": "His [response] was unexpected.",
-            "translation_zh_TW": "他的反應出乎意料。"
-          },
-          {
-            "sentence": "We need a quick [response] to the emergency.",
-            "translation_zh_TW": "我們需要對緊急情況做出快速反應。"
-          },
-          {
-            "sentence": "Her [response] to the invitation was positive.",
-            "translation_zh_TW": "她對邀請的反應是積極的。"
-          }
-        ],
-        "synonyms": [
-          "reaction",
-          "reply"
+          "conifer",
+          "evergreen"
         ]
       },
       {
         "type": "動詞",
-        "meaning_en_US": "To reply or react to something.",
-        "meaning_zh_TW": "回應",
+        "meaning_en_US": "To suffer a deep longing or desire for someone or something.",
+        "meaning_zh_TW": "思念",
         "wrong_meaning_zh_TW": [
-          "忽視",
-          "不理會",
-          "忘記"
+          "發現新事物",
+          "享受假期",
+          "展現特色"
         ],
         "examples": [
           {
-            "sentence": "Please [respond] to the email at your earliest convenience.",
-            "translation_zh_TW": "請在方便時儘快回應電子郵件。"
+            "sentence": "He [pined] for his hometown while living abroad.",
+            "translation_zh_TW": "他在國外生活時思念故鄉。"
           },
           {
-            "sentence": "The team will [respond] to customer inquiries promptly.",
-            "translation_zh_TW": "團隊將迅速回應客戶詢問。"
+            "sentence": "She [pined] away, waiting for his return.",
+            "translation_zh_TW": "她日以繼夜地思念，等待他的回來。"
           },
           {
-            "sentence": "He failed to [respond] to the call.",
-            "translation_zh_TW": "他沒有回應這通電話。"
+            "sentence": "They [pined] for the days of their youth.",
+            "translation_zh_TW": "他們渴望年輕時的日子。"
           }
         ],
         "synonyms": [
-          "reply",
-          "react"
+          "long for",
+          "yearn"
         ]
       }
     ],
     "confusion": [
-      "responsiveness",
-      "responser",
-      "responsibly",
-      "responce"
+      "pint",
+      "pinecone",
+      "pike",
+      "line"
     ]
   },
   {
-    "word": "toss",
+    "word": "tend",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To throw something lightly or casually.",
-        "meaning_zh_TW": "拋",
+        "meaning_en_US": "To take care of or look after someone or something.",
+        "meaning_zh_TW": "照顧、照料",
         "wrong_meaning_zh_TW": [
-          "抓",
-          "攪拌",
-          "推"
+          "忽視、冷落",
+          "限制、控制",
+          "增長、提升"
         ],
         "examples": [
           {
-            "sentence": "He decided to [toss] the coin to make a decision.",
-            "translation_zh_TW": "他決定擲硬幣來做決定"
+            "sentence": "She tends to the garden every weekend.",
+            "translation_zh_TW": "她每個週末照料花園。"
           },
           {
-            "sentence": "She [tossed] her hair back.",
-            "translation_zh_TW": "她把頭髮輕輕撥到背後"
+            "sentence": "Parents often tend to their children's needs.",
+            "translation_zh_TW": "父母通常照顧孩子的需求。"
           },
           {
-            "sentence": "They [tossed] the ball back and forth in the park.",
-            "translation_zh_TW": "他們在公園裡來回拋接球"
+            "sentence": "He tends to get anxious before exams.",
+            "translation_zh_TW": "他在考試前往往會感到焦慮。"
           }
         ],
         "synonyms": [
-          "throw",
-          "flip"
+          "care for",
+          "look after"
         ]
       }
     ],
     "confusion": [
-      "foss",
-      "tose",
-      "tossed",
-      "tosses"
+      "tendril",
+      "tender",
+      "tension",
+      "tendency"
     ]
   },
   {
-    "word": "salary",
+    "word": "tradition",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A fixed regular payment, typically paid on a monthly or biweekly basis, made by an employer to an employee.",
-        "meaning_zh_TW": "薪水",
+        "meaning_en_US": "The transmission of customs or beliefs from generation to generation.",
+        "meaning_zh_TW": "傳統",
         "wrong_meaning_zh_TW": [
-          "獎金",
-          "報酬",
-          "工資"
+          "現代",
+          "創新",
+          "趕時髦"
         ],
         "examples": [
           {
-            "sentence": "Her [salary] is sufficient to support her family.",
-            "translation_zh_TW": "她的薪水足以養活她的家人。"
+            "sentence": "The festival is a [tradition] in our family.",
+            "translation_zh_TW": "這個節日在我們家庭中是一個傳統。"
           },
           {
-            "sentence": "He receives a monthly [salary].",
-            "translation_zh_TW": "他每月領取一次薪水。"
+            "sentence": "Many cultures have unique [traditions].",
+            "translation_zh_TW": "許多文化都有獨特的傳統。"
           },
           {
-            "sentence": "The company offers competitive [salaries].",
-            "translation_zh_TW": "公司提供有競爭力的薪水。"
+            "sentence": "This [tradition] is celebrated every year.",
+            "translation_zh_TW": "這個傳統每年慶祝一次。"
           }
         ],
         "synonyms": [
-          "wage",
-          "pay"
+          "custom",
+          "heritage"
         ]
       }
     ],
     "confusion": [
-      "salad",
-      "salaries",
-      "salaryman",
-      "sular"
+      "transition",
+      "traditions",
+      "traitor",
+      "tried"
     ]
   },
   {
-    "word": "breast",
+    "word": "complaint",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The front part of the human torso.",
-        "meaning_zh_TW": "前胸",
+        "meaning_en_US": "A statement that something is wrong or not satisfactory.",
+        "meaning_zh_TW": "投訴",
         "wrong_meaning_zh_TW": [
-          "背部",
-          "手臂",
-          "腹部"
+          "讚美",
+          "批准",
+          "請求"
         ],
         "examples": [
           {
-            "sentence": "The doctor examined her [breast] for lumps.",
-            "translation_zh_TW": "醫生檢查了她的胸部是否有腫塊"
+            "sentence": "He filed a [complaint] with customer service.",
+            "translation_zh_TW": "他向客服提出了投訴。"
           },
           {
-            "sentence": "His [breast] swelled with pride upon receiving the award.",
-            "translation_zh_TW": "他因獲得獎項而感到自豪"
+            "sentence": "Her [complaint] was taken seriously by the administration.",
+            "translation_zh_TW": "她的投訴受到行政部門的重視。"
           },
           {
-            "sentence": "She wore a beautiful necklace around her [breast].",
-            "translation_zh_TW": "她在胸前佩戴了一條美麗的項鍊"
+            "sentence": "After the [complaint], changes were implemented immediately.",
+            "translation_zh_TW": "在投訴之後，立即進行了變更。"
           }
         ],
         "synonyms": [
-          "chest"
+          "grievance",
+          "allegation"
         ]
       }
     ],
     "confusion": [
-      "beast",
-      "crest",
-      "breastplate",
-      "brewing"
+      "complain",
+      "complement",
+      "claim",
+      "complication"
+    ]
+  },
+  {
+    "word": "scholarship",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A grant or payment made to support a student's education.",
+        "meaning_zh_TW": "獎學金",
+        "wrong_meaning_zh_TW": [
+          "學位",
+          "學費",
+          "學校"
+        ],
+        "examples": [
+          {
+            "sentence": "She received a [scholarship] to attend university.",
+            "translation_zh_TW": "她獲得了獎學金以就讀大學。"
+          },
+          {
+            "sentence": "Many students apply for [scholarship] opportunities.",
+            "translation_zh_TW": "許多學生申請獎學金機會。"
+          },
+          {
+            "sentence": "This [scholarship] covers tuition and living expenses.",
+            "translation_zh_TW": "這個獎學金涵蓋學費和生活費用。"
+          }
+        ],
+        "synonyms": [
+          "grant",
+          "fellowship"
+        ]
+      }
+    ],
+    "confusion": [
+      "scholar",
+      "scandal",
+      "school",
+      "score"
+    ]
+  },
+  {
+    "word": "moral",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A lesson learned from a story or experience.",
+        "meaning_zh_TW": "道德教訓",
+        "wrong_meaning_zh_TW": [
+          "法律規範",
+          "個人信條",
+          "社會習俗"
+        ],
+        "examples": [
+          {
+            "sentence": "The [moral] of the story is to always tell the truth.",
+            "translation_zh_TW": "這個故事的教訓就是永遠要說真話。"
+          },
+          {
+            "sentence": "Many fables have a clear [moral] to convey.",
+            "translation_zh_TW": "許多寓言都有明確的道德教訓。"
+          },
+          {
+            "sentence": "Understanding the [moral] of a story can enrich your reading experience.",
+            "translation_zh_TW": "理解故事的教訓可以增強你的閱讀體驗。"
+          }
+        ],
+        "synonyms": [
+          "lesson",
+          "ethics"
+        ]
+      }
+    ],
+    "confusion": [
+      "mural",
+      "molar",
+      "marshal",
+      "morale"
+    ]
+  },
+  {
+    "word": "locate",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To find or discover the exact position of something.",
+        "meaning_zh_TW": "找到",
+        "wrong_meaning_zh_TW": [
+          "懷疑，質疑",
+          "移動，行駛",
+          "排除，排解"
+        ],
+        "examples": [
+          {
+            "sentence": "Can you help me [locate] my missing keys?",
+            "translation_zh_TW": "你能幫我找到我丟失的鑰匙嗎？"
+          },
+          {
+            "sentence": "They used a map to [locate] the treasure.",
+            "translation_zh_TW": "他們使用地圖來找到寶藏。"
+          },
+          {
+            "sentence": "I will [locate] the nearest restaurant for us.",
+            "translation_zh_TW": "我會幫我們找到最近的餐廳。"
+          }
+        ],
+        "synonyms": [
+          "find",
+          "identify",
+          "discover"
+        ]
+      }
+    ],
+    "confusion": [
+      "locating",
+      "locational",
+      "locator",
+      "locateable"
+    ]
+  },
+  {
+    "word": "tobacco",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A plant whose leaves are dried and fermented to make products like cigars and cigarettes.",
+        "meaning_zh_TW": "煙草",
+        "wrong_meaning_zh_TW": [
+          "槍支",
+          "香水",
+          "食物"
+        ],
+        "examples": [
+          {
+            "sentence": "Many people are trying to quit [tobacco].",
+            "translation_zh_TW": "許多人正試圖戒煙草"
+          },
+          {
+            "sentence": "The use of [tobacco] has declined in recent years.",
+            "translation_zh_TW": "近年來，煙草的使用已減少"
+          },
+          {
+            "sentence": "The store sells various [tobacco] products.",
+            "translation_zh_TW": "這家商店販賣各種煙草產品"
+          }
+        ],
+        "synonyms": [
+          "leaf",
+          "cigarette"
+        ]
+      }
+    ],
+    "confusion": [
+      "baccarat",
+      "tabacco",
+      "tabasco",
+      "tobaccoe"
+    ]
+  },
+  {
+    "word": "wooden",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Made of wood.",
+        "meaning_zh_TW": "木製的",
+        "wrong_meaning_zh_TW": [
+          "金屬的",
+          "塑膠的",
+          "紙製的"
+        ],
+        "examples": [
+          {
+            "sentence": "She bought a [wooden] chair for her dining room.",
+            "translation_zh_TW": "她為餐廳買了一把木製的椅子"
+          },
+          {
+            "sentence": "The [wooden] table was beautifully crafted.",
+            "translation_zh_TW": "這張木製的桌子工藝精美"
+          },
+          {
+            "sentence": "He prefers [wooden] toys for his children.",
+            "translation_zh_TW": "他為孩子們喜歡木製玩具"
+          }
+        ],
+        "synonyms": [
+          "timbered",
+          "lumber"
+        ]
+      }
+    ],
+    "confusion": [
+      "woolen",
+      "woodlands",
+      "woodwork",
+      "woody"
     ]
   },
   {
@@ -652,120 +692,81 @@
     ]
   },
   {
-    "word": "bay",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A broad inlet of the sea where the land curves inward.",
-        "meaning_zh_TW": "海灣",
-        "wrong_meaning_zh_TW": [
-          "沙灘",
-          "河流",
-          "湖泊"
-        ],
-        "examples": [
-          {
-            "sentence": "The boat sailed into the calm [bay].",
-            "translation_zh_TW": "船駛入平靜的海灣"
-          },
-          {
-            "sentence": "They enjoyed a picnic by the [bay].",
-            "translation_zh_TW": "他們在海灣旁享受野餐"
-          },
-          {
-            "sentence": "The city is located on a beautiful [bay].",
-            "translation_zh_TW": "這座城市位於美麗的海灣上"
-          }
-        ],
-        "synonyms": [
-          "cove",
-          "inlet"
-        ]
-      }
-    ],
-    "confusion": [
-      "bayonet",
-      "bays",
-      "bayed",
-      "baying"
-    ]
-  },
-  {
-    "word": "powder",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A dry substance composed of fine particles.",
-        "meaning_zh_TW": "粉末",
-        "wrong_meaning_zh_TW": [
-          "液體、溶液",
-          "塊狀、固體",
-          "氣體、煙霧"
-        ],
-        "examples": [
-          {
-            "sentence": "She added [powder] to the recipe for better texture.",
-            "translation_zh_TW": "她在食譜中添加粉末以改善質地。"
-          },
-          {
-            "sentence": "The chef used a special spice [powder].",
-            "translation_zh_TW": "廚師使用了一種特殊的香料粉。"
-          },
-          {
-            "sentence": "He spilled some [powder] on the table.",
-            "translation_zh_TW": "他在桌子上灑了一些粉末。"
-          }
-        ],
-        "synonyms": [
-          "dust",
-          "granules"
-        ]
-      }
-    ],
-    "confusion": [
-      "power",
-      "poured",
-      "pouder",
-      "poder"
-    ]
-  },
-  {
-    "word": "regret",
+    "word": "decrease",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To feel sad or disappointed about something that has happened.",
-        "meaning_zh_TW": "後悔",
+        "meaning_en_US": "To make or become smaller or fewer in size, amount, intensity, or degree.",
+        "meaning_zh_TW": "減少",
         "wrong_meaning_zh_TW": [
-          "高興",
-          "期待",
-          "喜悅"
+          "增加",
+          "維持",
+          "分配"
         ],
         "examples": [
           {
-            "sentence": "I [regret] not studying harder in school.",
-            "translation_zh_TW": "我後悔在學校沒更努力學習"
+            "sentence": "We need to [decrease] our expenses this month.",
+            "translation_zh_TW": "我們需要在這個月減少開支。"
           },
           {
-            "sentence": "She expressed her [regret] for missing the meeting.",
-            "translation_zh_TW": "她對錯過會議表示了後悔"
+            "sentence": "The population is expected to [decrease] due to migration.",
+            "translation_zh_TW": "由於移民，預計人口將減少。"
           },
           {
-            "sentence": "He will always [regret] that decision.",
-            "translation_zh_TW": "他將永遠後悔那個決定"
+            "sentence": "He is trying to [decrease] his sugar intake.",
+            "translation_zh_TW": "他正在努力減少攝取的糖分。"
           }
         ],
         "synonyms": [
-          "lament",
-          "bewail"
+          "reduce",
+          "diminish"
         ]
       }
     ],
     "confusion": [
-      "regretful",
-      "regreat",
-      "regretted",
-      "rediscount"
+      "decreased",
+      "decrease",
+      "decreasing",
+      "decree"
+    ]
+  },
+  {
+    "word": "chest",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large strong container that is used for storing things.",
+        "meaning_zh_TW": "箱子",
+        "wrong_meaning_zh_TW": [
+          "衣櫃",
+          "櫃子",
+          "行李箱"
+        ],
+        "examples": [
+          {
+            "sentence": "He stored his toys in a wooden [chest].",
+            "translation_zh_TW": "他把玩具放在一個木箱子裡"
+          },
+          {
+            "sentence": "The treasure was hidden in an old [chest].",
+            "translation_zh_TW": "寶藏藏在一個古老的箱子裡"
+          },
+          {
+            "sentence": "She opened the [chest] to find old photographs.",
+            "translation_zh_TW": "她打開箱子找到舊照片"
+          }
+        ],
+        "synonyms": [
+          "box",
+          "trunk"
+        ]
+      }
+    ],
+    "confusion": [
+      "chairs",
+      "chefs",
+      "cheek",
+      "chestnut"
     ]
   }
 ]

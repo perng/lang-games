@@ -1,771 +1,783 @@
 [
   {
-    "word": "transparent",
+    "word": "habitat",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The natural home or environment of an animal, plant, or other organism.",
+        "meaning_zh_TW": "棲息地，自然環境",
+        "wrong_meaning_zh_TW": [
+          "水族館",
+          "動物園",
+          "生態區"
+        ],
+        "examples": [
+          {
+            "sentence": "The forest is the natural [habitat] of many species.",
+            "translation_zh_TW": "森林是許多物種的自然棲息地。"
+          },
+          {
+            "sentence": "Changes in [habitat] can affect wildlife.",
+            "translation_zh_TW": "棲息地的變化會影響野生動物。"
+          },
+          {
+            "sentence": "Preserving the [habitat] is crucial for biodiversity.",
+            "translation_zh_TW": "保護棲息地對生物多樣性至關重要。"
+          }
+        ],
+        "synonyms": [
+          "environment",
+          "locale"
+        ]
+      }
+    ],
+    "confusion": [
+      "habit",
+      "habitatry",
+      "habitatual",
+      "habitation"
+    ]
+  },
+  {
+    "word": "judicial",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Allowing light to pass through so that objects behind can be distinctly seen.",
-        "meaning_zh_TW": "透明的",
+        "meaning_en_US": "Of, by, or appropriate to a court or judge.",
+        "meaning_zh_TW": "司法的",
         "wrong_meaning_zh_TW": [
-          "反射的、反光的",
-          "污穢的、髒的",
-          "暗淡的、不明亮的"
+          "法律的",
+          "執行的",
+          "執法的"
         ],
         "examples": [
           {
-            "sentence": "The glass is completely [transparent].",
-            "translation_zh_TW": "這塊玻璃是完全透明的"
+            "sentence": "The [judicial] system needs reform.",
+            "translation_zh_TW": "司法系統需要改革。"
           },
           {
-            "sentence": "She prefers [transparent] materials for her designs.",
-            "translation_zh_TW": "她偏好透明的材料來做設計"
+            "sentence": "He held a [judicial] position for many years.",
+            "translation_zh_TW": "他擔任司法職位多年。"
           },
           {
-            "sentence": "The organization's policies should be [transparent].",
-            "translation_zh_TW": "該機構的政策應該是透明的"
+            "sentence": "Judicial review is vital for justice.",
+            "translation_zh_TW": "司法審查對於正義至關重要。"
           }
         ],
         "synonyms": [
-          "clear",
-          "see-through"
+          "legal",
+          "court-related"
         ]
       }
     ],
     "confusion": [
-      "transparency",
-      "translucent",
-      "transpirant",
-      "transitional"
+      "judice",
+      "judiciary",
+      "judges",
+      "judging"
     ]
   },
   {
-    "word": "compassionate",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Feeling or showing sympathy and concern for others.",
-        "meaning_zh_TW": "富有同情心的",
-        "wrong_meaning_zh_TW": [
-          "自私的",
-          "冷漠的",
-          "嚴厲的"
-        ],
-        "examples": [
-          {
-            "sentence": "She is a very [compassionate] person who helps others.",
-            "translation_zh_TW": "她是一個非常富有同情心的人，幫助他人。"
-          },
-          {
-            "sentence": "His [compassionate] actions made a big difference in the community.",
-            "translation_zh_TW": "他的富有同情心的行動對社區帶來了很大的改變。"
-          },
-          {
-            "sentence": "Being [compassionate] is essential in healthcare.",
-            "translation_zh_TW": "在醫療中，擁有同情心是至關重要的。"
-          }
-        ],
-        "synonyms": [
-          "empathetic",
-          "kind-hearted"
-        ]
-      }
-    ],
-    "confusion": [
-      "compass",
-      "competition",
-      "compulsive",
-      "compliant"
-    ]
-  },
-  {
-    "word": "exaggeration",
+    "word": "genetics",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A statement that represents something as better or worse than it really is.",
-        "meaning_zh_TW": "誇張",
+        "meaning_en_US": "The study of genes, heredity, and genetic variation.",
+        "meaning_zh_TW": "遺傳學",
         "wrong_meaning_zh_TW": [
-          "事實",
-          "真相",
-          "準確性"
+          "生物學、化學",
+          "物理學、天文學",
+          "主義、政策"
         ],
         "examples": [
           {
-            "sentence": "His story was full of [exaggeration] for dramatic effect.",
-            "translation_zh_TW": "他的故事充滿了誇張以增強戲劇效果。"
+            "sentence": "Genetics plays a key role in understanding inherited diseases.",
+            "translation_zh_TW": "遺傳學在理解遺傳疾病中起著關鍵作用"
           },
           {
-            "sentence": "To make a point, she relied on [exaggeration].",
-            "translation_zh_TW": "為了強調觀點，她依賴於誇張。"
+            "sentence": "She decided to pursue a degree in [genetics] after her first course.",
+            "translation_zh_TW": "在上完她的第一門課後，她決定攻讀遺傳學學位"
           },
           {
-            "sentence": "In advertising, [exaggeration] is a common technique.",
-            "translation_zh_TW": "在廣告中，誇張是一種常見的技巧。"
+            "sentence": "Advances in [genetics] have implications for agriculture and medicine.",
+            "translation_zh_TW": "遺傳學的進步對農業和醫學有影響"
           }
         ],
         "synonyms": [
-          "hyperbole",
-          "overstatement"
+          "heredity study",
+          "gene science"
         ]
       }
     ],
     "confusion": [
-      "exaggerate",
-      "exaggerator",
-      "exaggerated",
-      "aggregation"
+      "genetic",
+      "genus",
+      "geneticist",
+      "genius"
     ]
   },
   {
-    "word": "bonus",
+    "word": "collective",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An extra payment or reward.",
-        "meaning_zh_TW": "獎金",
+        "meaning_en_US": "A group of individuals acting together as a single entity.",
+        "meaning_zh_TW": "集體",
         "wrong_meaning_zh_TW": [
-          "罰款",
-          "賠償金",
-          "薪資"
+          "文獻",
+          "收集者",
+          "代理商"
         ],
         "examples": [
           {
-            "sentence": "She received a cash [bonus] for her hard work.",
-            "translation_zh_TW": "她因辛勤工作而獲得現金獎金。"
+            "sentence": "The [collective] decided to take action on the issue.",
+            "translation_zh_TW": "集體決定對此問題採取行動。"
           },
           {
-            "sentence": "The company announced a [bonus] for employees this year.",
-            "translation_zh_TW": "公司今年宣布給員工發放獎金。"
+            "sentence": "They formed a [collective] to pool their resources.",
+            "translation_zh_TW": "他們組成一個集體以集中資源。"
           },
           {
-            "sentence": "He was surprised to find out about his year-end [bonus].",
-            "translation_zh_TW": "他驚訝於自己獲得的年終獎金。"
+            "sentence": "The artists belong to a creative [collective].",
+            "translation_zh_TW": "這些藝術家屬於一個創意集體。"
           }
         ],
         "synonyms": [
-          "extra",
-          "incentive"
+          "group",
+          "association"
         ]
       }
     ],
     "confusion": [
-      "bona",
-      "bunny",
-      "bionic",
-      "buses"
+      "collect",
+      "collections",
+      "collectivee",
+      "collected"
     ]
   },
   {
-    "word": "casino",
+    "word": "collector",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A facility for certain types of gambling.",
-        "meaning_zh_TW": "賭場",
+        "meaning_en_US": "A person who gathers things of particular interest or value.",
+        "meaning_zh_TW": "收藏家",
         "wrong_meaning_zh_TW": [
-          "商場",
-          "活動中心",
-          "酒吧"
+          "檢查員",
+          "管理者",
+          "賣家"
         ],
         "examples": [
           {
-            "sentence": "They decided to visit the casino after dinner.",
-            "translation_zh_TW": "他們決定在晚餐後去賭場"
+            "sentence": "The [collector] proudly displayed his rare stamps.",
+            "translation_zh_TW": "收藏家驕傲地展示了他的稀有郵票。"
           },
           {
-            "sentence": "The casino was filled with the sounds of slots and cheering.",
-            "translation_zh_TW": "賭場裡充滿了拉霸機和歡呼聲"
+            "sentence": "She is a passionate [collector] of vintage vinyl records.",
+            "translation_zh_TW": "她是一位充滿熱情的老式黑膠唱片收藏家。"
           },
           {
-            "sentence": "He won a big pot at the casino last night.",
-            "translation_zh_TW": "他昨晚在賭場贏得了一大筆獎金"
+            "sentence": "The [collector] attended many expos to find unique items.",
+            "translation_zh_TW": "這位收藏家參加了許多博覽會以尋找獨特的物品。"
           }
         ],
         "synonyms": [
-          "gambling house",
-          "gaming establishment"
+          "gatherer",
+          "curator"
         ]
       }
     ],
     "confusion": [
-      "casio",
-      "casion",
-      "cassino",
-      "casa"
+      "collecter",
+      "colleter",
+      "collceptor",
+      "collectioner"
     ]
   },
   {
-    "word": "alcoholic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Of, relating to, or containing alcohol.",
-        "meaning_zh_TW": "含酒精的",
-        "wrong_meaning_zh_TW": [
-          "無酒精的",
-          "毒品的",
-          "異常行為的"
-        ],
-        "examples": [
-          {
-            "sentence": "She prefers [alcoholic] beverages over soft drinks.",
-            "translation_zh_TW": "她更喜歡含酒精的飲料而不是軟飲。"
-          },
-          {
-            "sentence": "Many [alcoholic] drinks are available at the bar.",
-            "translation_zh_TW": "酒吧提供許多含酒精的飲料。"
-          },
-          {
-            "sentence": "He is struggling with [alcoholic] addiction.",
-            "translation_zh_TW": "他在與酒精成癮作鬥爭。"
-          }
-        ],
-        "synonyms": [
-          "spirited",
-          "intoxicating"
-        ]
-      }
-    ],
-    "confusion": [
-      "alcohol",
-      "alcoholism",
-      "alcholic",
-      "alkoholic"
-    ]
-  },
-  {
-    "word": "tile",
+    "word": "opposition",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A thin rectangular piece of baked clay or other material used for covering surfaces.",
-        "meaning_zh_TW": "瓷磚",
+        "meaning_en_US": "Resistance or dissent, expressed in action or argument.",
+        "meaning_zh_TW": "反對",
         "wrong_meaning_zh_TW": [
-          "顏料",
-          "裝飾品",
-          "木塊"
+          "支持",
+          "合作",
+          "合唱"
         ],
         "examples": [
           {
-            "sentence": "We need to choose a color for the bathroom [tiles].",
-            "translation_zh_TW": "我們需要為浴室的瓷磚選擇顏色。"
+            "sentence": "There was much [opposition] to the new policy.",
+            "translation_zh_TW": "對於新政策有很多反對意見。"
           },
           {
-            "sentence": "The kitchen floor is covered with [tiles].",
-            "translation_zh_TW": "廚房的地板上鋪滿了瓷磚。"
+            "sentence": "The [opposition] party challenged the government.",
+            "translation_zh_TW": "反對黨挑戰政府。"
           },
           {
-            "sentence": "They decided to use ceramic [tiles] for the outdoor patio.",
-            "translation_zh_TW": "他們決定在戶外平台上使用陶瓷瓷磚。"
+            "sentence": "She voiced her [opposition] during the meeting.",
+            "translation_zh_TW": "她在會議上表達了她的反對。"
           }
         ],
         "synonyms": [
-          "slab",
-          "square"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To cover an area with tiles.",
-        "meaning_zh_TW": "用瓷磚覆蓋",
-        "wrong_meaning_zh_TW": [
-          "漆",
-          "編織",
-          "鑲嵌"
-        ],
-        "examples": [
-          {
-            "sentence": "They plan to [tile] the kitchen backsplash.",
-            "translation_zh_TW": "他們計畫給廚房的背板貼瓷磚。"
-          },
-          {
-            "sentence": "It took them all weekend to [tile] the bathroom floor.",
-            "translation_zh_TW": "他們花了整個週末來鋪設浴室地板。"
-          },
-          {
-            "sentence": "She decided to [tile] the entrance hall with new tiles.",
-            "translation_zh_TW": "她決定用新瓷磚來鋪設入口大廳。"
-          }
-        ],
-        "synonyms": [
-          "cover",
-          "pave"
+          "resistance",
+          "defiance"
         ]
       }
     ],
     "confusion": [
-      "smile",
-      "file",
-      "mile",
-      "tilex"
+      "oppositional",
+      "opposes",
+      "opposite",
+      "opposant"
     ]
   },
   {
-    "word": "dialect",
+    "word": "defendant",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A particular form of a language which is peculiar to a specific region or social group.",
-        "meaning_zh_TW": "方言",
+        "meaning_en_US": "A person accused in a court of law.",
+        "meaning_zh_TW": "被告",
         "wrong_meaning_zh_TW": [
-          "俚語",
-          "語言",
-          "口音"
+          "原告",
+          "證人",
+          "律師"
         ],
         "examples": [
           {
-            "sentence": "He spoke in a thick [dialect] that was hard to understand.",
-            "translation_zh_TW": "他用濃重的方言說話，讓人難以理解。"
+            "sentence": "The [defendant] pleaded not guilty to the charges.",
+            "translation_zh_TW": "被告對指控表示無罪。"
           },
           {
-            "sentence": "Different regions have their own unique [dialects].",
-            "translation_zh_TW": "不同地區都有自己獨特的方言。"
+            "sentence": "In a trial, the [defendant] has the right to an attorney.",
+            "translation_zh_TW": "在審判中，被告有權獲得律師。"
           },
           {
-            "sentence": "Studying the local [dialect] helped her connect with the community.",
-            "translation_zh_TW": "學習當地方言幫助她與社區建立聯繫。"
+            "sentence": "The [defendant] listened carefully to the testimony.",
+            "translation_zh_TW": "被告仔細聆聽證詞。"
           }
         ],
         "synonyms": [
-          "locale",
-          "variant"
+          "accused",
+          "respondent"
         ]
       }
     ],
     "confusion": [
-      "dialectic",
-      "dialogue",
-      "dilettante",
-      "dialectal"
+      "defendant",
+      "defedant",
+      "defendand",
+      "defendantt"
     ]
   },
   {
-    "word": "format",
+    "word": "supervisor",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The arrangement, plan, or layout of something.",
-        "meaning_zh_TW": "格式",
+        "meaning_en_US": "A person who oversees and directs the work of others.",
+        "meaning_zh_TW": "監督者、主管",
         "wrong_meaning_zh_TW": [
-          "內容",
-          "測試",
-          "提議"
+          "排版專家",
+          "財務顧問",
+          "私人助理"
         ],
         "examples": [
           {
-            "sentence": "Make sure to follow the correct [format] for the report.",
-            "translation_zh_TW": "確保遵循正確的報告格式。"
+            "sentence": "The supervisor is responsible for team management.",
+            "translation_zh_TW": "監督者負責團隊管理。"
           },
           {
-            "sentence": "The presentation needs a better [format] to engage the audience.",
-            "translation_zh_TW": "演示需要更好的格式來吸引觀眾。"
+            "sentence": "She reported the issue directly to her supervisor.",
+            "translation_zh_TW": "她直接向她的主管報告了這個問題。"
           },
           {
-            "sentence": "Adobe Acrobat is used to create PDF [formats].",
-            "translation_zh_TW": "Adobe Acrobat 用於創建 PDF 格式。"
+            "sentence": "The supervisor held a meeting to discuss project goals.",
+            "translation_zh_TW": "主管召開會議討論項目目標。"
           }
         ],
         "synonyms": [
-          "layout",
-          "structure"
+          "manager",
+          "overseer"
         ]
       }
     ],
     "confusion": [
-      "formatting",
-      "formate",
-      "formatt",
-      "form"
+      "superb",
+      "superstructure",
+      "suppression",
+      "superstitions"
     ]
   },
   {
-    "word": "assault",
+    "word": "petition",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A violent physical attack.",
-        "meaning_zh_TW": "攻擊，襲擊",
+        "meaning_en_US": "A formal written request, typically one signed by many people, appealing to authority concerning a particular cause.",
+        "meaning_zh_TW": "請願",
         "wrong_meaning_zh_TW": [
-          "邀請，申請",
-          "交流，對話",
-          "防禦，保護"
+          "信件",
+          "報告",
+          "演講"
         ],
         "examples": [
           {
-            "sentence": "The victim was hospitalized after the [assault].",
-            "translation_zh_TW": "受害者在襲擊後住院治療。"
+            "sentence": "They organized a [petition] to change the school policy.",
+            "translation_zh_TW": "他們組織了一個請願以改變學校政策。"
           },
           {
-            "sentence": "He was charged with assault for the attack on her.",
-            "translation_zh_TW": "因襲擊她而被控以攻擊罪。"
+            "sentence": "Over a thousand signatures were collected for the [petition].",
+            "translation_zh_TW": "為這個請願收集了超過一千個簽名。"
           },
           {
-            "sentence": "The police are investigating the recent [assault] in the area.",
-            "translation_zh_TW": "警方正在調查該區最近的襲擊事件。"
+            "sentence": "The [petition] was presented to the city council.",
+            "translation_zh_TW": "請願書被提交給市議會。"
           }
         ],
         "synonyms": [
-          "attack",
-          "assail"
+          "request",
+          "appeal"
         ]
       }
     ],
     "confusion": [
-      "assult",
-      "assaulted",
-      "assaults",
-      "asault"
+      "profit",
+      "position",
+      "attention",
+      "partition"
     ]
   },
   {
-    "word": "trauma",
+    "word": "diameter",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A deeply distressing or disturbing experience.",
-        "meaning_zh_TW": "創傷、創傷經歷",
+        "meaning_en_US": "A straight line passing from side to side through the center of a body or figure, especially a circle or sphere.",
+        "meaning_zh_TW": "直徑",
         "wrong_meaning_zh_TW": [
-          "興奮、快樂",
-          "安靜、平靜",
-          "享樂、娛樂"
+          "周長",
+          "半徑",
+          "面積"
         ],
         "examples": [
           {
-            "sentence": "He suffered a serious [trauma] during the accident.",
-            "translation_zh_TW": "他在事故中遭受了嚴重的創傷"
+            "sentence": "The [diameter] of the circle is twice the radius.",
+            "translation_zh_TW": "這個圓的直徑是半徑的兩倍。"
           },
           {
-            "sentence": "The effects of [trauma] can last for years.",
-            "translation_zh_TW": "創傷的影響可以持續多年"
+            "sentence": "You can calculate the area using the [diameter].",
+            "translation_zh_TW": "您可以使用直徑來計算面積。"
           },
           {
-            "sentence": "Therapy helped her cope with her emotional [trauma].",
-            "translation_zh_TW": "治療幫助她應對情緒創傷"
+            "sentence": "The tree's trunk had a large [diameter].",
+            "translation_zh_TW": "這棵樹的樹幹有一個很大的直徑。"
           }
         ],
         "synonyms": [
-          "injury",
-          "shock"
+          "width",
+          "breadth"
         ]
       }
     ],
     "confusion": [
-      "traumas",
-      "trama",
-      "tromma",
-      "drama"
+      "diametric",
+      "diametrically",
+      "diemeter",
+      "dimeter"
     ]
   },
   {
-    "word": "massage",
+    "word": "intervention",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The action of intervening in a situation.",
+        "meaning_zh_TW": "介入、干預",
+        "wrong_meaning_zh_TW": [
+          "逃避、回避",
+          "退縮、退出",
+          "轉向、轉變"
+        ],
+        "examples": [
+          {
+            "sentence": "The teacher's [intervention] helped resolve the conflict.",
+            "translation_zh_TW": "老師的介入有助於解決衝突。"
+          },
+          {
+            "sentence": "In some cases, medical [intervention] is necessary.",
+            "translation_zh_TW": "在某些情況下，醫療干預是必要的。"
+          },
+          {
+            "sentence": "His [intervention] changed the outcome of the event.",
+            "translation_zh_TW": "他的介入改變了事件的結果。"
+          }
+        ],
+        "synonyms": [
+          "interference",
+          "involvement"
+        ]
+      }
+    ],
+    "confusion": [
+      "intervene",
+      "invention",
+      "inspection",
+      "intervenor"
+    ]
+  },
+  {
+    "word": "ban",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To manipulate muscles and tissue in the body, usually for relaxation or therapeutic purposes.",
-        "meaning_zh_TW": "按摩",
+        "meaning_en_US": "To prohibit or make illegal.",
+        "meaning_zh_TW": "禁止",
         "wrong_meaning_zh_TW": [
-          "下一步",
-          "損壞",
-          "失戀"
+          "贊成",
+          "允許",
+          "獎勵"
         ],
         "examples": [
           {
-            "sentence": "She likes to [massage] her shoulders after a long day.",
-            "translation_zh_TW": "她喜歡在漫長的一天之後按摩她的肩膀。"
+            "sentence": "The government decided to [ban] smoking in public places.",
+            "translation_zh_TW": "政府決定禁止在公共場所吸煙。"
           },
           {
-            "sentence": "They offer a special [massage] treatment at the spa.",
-            "translation_zh_TW": "他們在水療中心提供特別的按摩療程。"
+            "sentence": "She faced a [ban] from the competition due to her actions.",
+            "translation_zh_TW": "由於她的行為，她面臨禁賽。"
           },
           {
-            "sentence": "He learned how to [massage] effectively to help others.",
-            "translation_zh_TW": "他學會了如何有效地按摩以幫助他人。"
+            "sentence": "Many countries [ban] the use of certain pesticides.",
+            "translation_zh_TW": "許多國家禁止使用某些農藥。"
           }
         ],
         "synonyms": [
-          "knead",
-          "rub"
+          "prohibit",
+          "forbid"
         ]
       }
     ],
     "confusion": [
-      "message",
-      "mileage",
-      "masseuse",
-      "mashed"
+      "man",
+      "fan",
+      "ran",
+      "banter"
     ]
   },
   {
-    "word": "phase",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A distinct period or stage in a process of change or development.",
-        "meaning_zh_TW": "階段、時期",
-        "wrong_meaning_zh_TW": [
-          "形狀、外觀",
-          "光線、亮度",
-          "相位、波動"
-        ],
-        "examples": [
-          {
-            "sentence": "We are entering a new [phase] of the project.",
-            "translation_zh_TW": "我們正在進入項目的新階段"
-          },
-          {
-            "sentence": "The final [phase] is crucial for success.",
-            "translation_zh_TW": "最後階段對成功至關重要"
-          },
-          {
-            "sentence": "Each [phase] must be carefully planned.",
-            "translation_zh_TW": "每個階段都必須仔細規劃"
-          }
-        ],
-        "synonyms": [
-          "stage",
-          "period"
-        ]
-      }
-    ],
-    "confusion": [
-      "faze",
-      "phaseout",
-      "phage",
-      "phased"
-    ]
-  },
-  {
-    "word": "expertise",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Specialized knowledge or skill in a particular area.",
-        "meaning_zh_TW": "專門知識",
-        "wrong_meaning_zh_TW": [
-          "普通技能",
-          "雜學",
-          "範圍廣泛"
-        ],
-        "examples": [
-          {
-            "sentence": "His [expertise] in software engineering is well recognized.",
-            "translation_zh_TW": "他在軟體工程方面的專業知識受到廣泛認可。"
-          },
-          {
-            "sentence": "She sought his [expertise] for the project.",
-            "translation_zh_TW": "她尋求他的專業知識來完成這個項目。"
-          },
-          {
-            "sentence": "The team relied on her [expertise] in marketing.",
-            "translation_zh_TW": "團隊依賴她在市場營銷方面的專業知識。"
-          }
-        ],
-        "synonyms": [
-          "skill",
-          "proficiency"
-        ]
-      }
-    ],
-    "confusion": [
-      "expert",
-      "exposition",
-      "exterprise",
-      "exhibit"
-    ]
-  },
-  {
-    "word": "strategic",
+    "word": "metropolitan",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Related to the identification of long-term or overall aims and interests.",
-        "meaning_zh_TW": "策略性的",
+        "meaning_en_US": "Relating to a large city or its surrounding communities.",
+        "meaning_zh_TW": "大都市的",
         "wrong_meaning_zh_TW": [
-          "隨機的",
-          "短期的",
-          "反應的"
+          "鄉村的",
+          "小城鎮的",
+          "外地的"
         ],
         "examples": [
           {
-            "sentence": "He made a [strategic] decision to expand the business.",
-            "translation_zh_TW": "他做出了一個策略性決定以擴展業務。"
+            "sentence": "The [metropolitan] area is known for its diversity.",
+            "translation_zh_TW": "該大都市區因其多樣性而聞名。"
           },
           {
-            "sentence": "The team's [strategic] plan was well-crafted.",
-            "translation_zh_TW": "該小組的策略性計劃擬定得很好。"
+            "sentence": "They moved to a more [metropolitan] lifestyle.",
+            "translation_zh_TW": "他們轉向了更大都市化的生活方式。"
           },
           {
-            "sentence": "They reviewed their [strategic] goals for the upcoming year.",
-            "translation_zh_TW": "他們回顧了來年的策略性目標。"
+            "sentence": "Many [metropolitan] cities offer public transportation.",
+            "translation_zh_TW": "許多大城市提供公共交通。"
           }
         ],
         "synonyms": [
-          "tactical",
-          "calculated"
+          "urban",
+          "city-related"
         ]
       }
     ],
     "confusion": [
-      "stragetic",
-      "stragetical",
-      "strategiser",
-      "strategics"
+      "metropolatin",
+      "metropolotian",
+      "metropolitian",
+      "metropolan"
     ]
   },
   {
-    "word": "warrior",
+    "word": "minimal",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Of a minimum amount, quantity, or degree; very little.",
+        "meaning_zh_TW": "最少的、極小的",
+        "wrong_meaning_zh_TW": [
+          "大量的、充足的",
+          "繁重的、過多的",
+          "無限制的、隨意的"
+        ],
+        "examples": [
+          {
+            "sentence": "He made [minimal] changes to the document.",
+            "translation_zh_TW": "他對文件做了最少的更改。"
+          },
+          {
+            "sentence": "The design was very [minimal] and elegant.",
+            "translation_zh_TW": "這個設計非常簡約且優雅。"
+          },
+          {
+            "sentence": "She requires [minimal] assistance with her tasks.",
+            "translation_zh_TW": "她在工作中只需要最少的協助。"
+          }
+        ],
+        "synonyms": [
+          "least",
+          "barest"
+        ]
+      }
+    ],
+    "confusion": [
+      "minimall",
+      "minmal",
+      "minimule",
+      "minamall"
+    ]
+  },
+  {
+    "word": "intent",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person engaged in war or combat.",
-        "meaning_zh_TW": "戰士",
+        "meaning_en_US": "The purpose or aim behind an action.",
+        "meaning_zh_TW": "意圖",
         "wrong_meaning_zh_TW": [
-          "和平主義者",
-          "商人",
-          "藝術家"
+          "目的論",
+          "隨機行為",
+          "消極態度"
         ],
         "examples": [
           {
-            "sentence": "The [warrior] fought bravely in battle.",
-            "translation_zh_TW": "戰士在戰鬥中英勇作戰。"
+            "sentence": "His [intent] was clear from the beginning.",
+            "translation_zh_TW": "他的意圖從一開始就很明確。"
           },
           {
-            "sentence": "Every [warrior] has their own story.",
-            "translation_zh_TW": "每位戰士都有他們自己的故事。"
+            "sentence": "Understanding her [intent] helped resolve the conflict.",
+            "translation_zh_TW": "了解她的意圖有助於解決衝突。"
           },
           {
-            "sentence": "She became a skilled [warrior] through training.",
-            "translation_zh_TW": "她通過訓練成為了一位熟練的戰士。"
+            "sentence": "The law considers the [intent] behind the action.",
+            "translation_zh_TW": "法律考慮行動背後的意圖。"
           }
         ],
         "synonyms": [
-          "fighter",
-          "combatant"
+          "purpose",
+          "aim"
         ]
       }
     ],
     "confusion": [
-      "warfare",
-      "warrantee",
-      "wristwatch",
-      "warlock"
+      "intention",
+      "intense",
+      "interior",
+      "internet"
     ]
   },
   {
-    "word": "observer",
+    "word": "weird",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Strange or unusual.",
+        "meaning_zh_TW": "怪異的",
+        "wrong_meaning_zh_TW": [
+          "正常的",
+          "常見的",
+          "平常的"
+        ],
+        "examples": [
+          {
+            "sentence": "She has a [weird] sense of humor.",
+            "translation_zh_TW": "她的幽默感很怪異。"
+          },
+          {
+            "sentence": "That movie had a [weird] plot twist.",
+            "translation_zh_TW": "那部電影有個怪異的情節轉折。"
+          },
+          {
+            "sentence": "He wore a [weird] outfit to the party.",
+            "translation_zh_TW": "他穿了一身怪異的服裝參加派對。"
+          }
+        ],
+        "synonyms": [
+          "strange",
+          "bizarre"
+        ]
+      }
+    ],
+    "confusion": [
+      "wired",
+      "wield",
+      "weirdo",
+      "weald"
+    ]
+  },
+  {
+    "word": "strap",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person who watches or notices something.",
-        "meaning_zh_TW": "觀察者",
+        "meaning_en_US": "A strip of material used for fastening something or holding it in place.",
+        "meaning_zh_TW": "帶子",
         "wrong_meaning_zh_TW": [
-          "評論員",
-          "參與者",
-          "分析師"
+          "繩索",
+          "圍巾",
+          "砍刀"
         ],
         "examples": [
           {
-            "sentence": "The [observer] noted the unusual behavior of the animals.",
-            "translation_zh_TW": "觀察者注意到動物的不尋常行為"
+            "sentence": "She used a [strap] to secure the box.",
+            "translation_zh_TW": "她用帶子固定箱子。"
           },
           {
-            "sentence": "As an [observer], she took detailed notes during the event.",
-            "translation_zh_TW": "作為觀察者，她在活動中詳細記錄"
+            "sentence": "The bag has a padded [strap] for comfort.",
+            "translation_zh_TW": "這個包有一條加墊的帶子以增加舒適感。"
           },
           {
-            "sentence": "An independent [observer] was invited to assess the situation.",
-            "translation_zh_TW": "一位獨立觀察者被邀請評估情況"
+            "sentence": "Make sure the [strap] is tight before you start.",
+            "translation_zh_TW": "開始之前確保帶子綁緊。"
           }
         ],
         "synonyms": [
-          "watcher",
-          "spectator"
+          "belt",
+          "band"
         ]
       }
     ],
     "confusion": [
-      "obsever",
-      "obsessive",
-      "observant",
-      "observer's"
+      "step",
+      "stap",
+      "strapper",
+      "straps"
     ]
   },
   {
-    "word": "diminish",
+    "word": "transformation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A thorough or dramatic change in form or appearance.",
+        "meaning_zh_TW": "徹底或戲劇性的變化",
+        "wrong_meaning_zh_TW": [
+          "小調整",
+          "糾正錯誤",
+          "微小變化"
+        ],
+        "examples": [
+          {
+            "sentence": "The caterpillar undergoes a [transformation] into a butterfly.",
+            "translation_zh_TW": "毛毛蟲經歷了變化成為蝴蝶。"
+          },
+          {
+            "sentence": "Digital technology has led to a [transformation] in communication.",
+            "translation_zh_TW": "數碼技術導致了溝通方式的變化。"
+          },
+          {
+            "sentence": "His work represents a [transformation] of the original idea.",
+            "translation_zh_TW": "他的作品代表了原始想法的徹底變化。"
+          }
+        ],
+        "synonyms": [
+          "conversion",
+          "metamorphosis"
+        ]
+      }
+    ],
+    "confusion": [
+      "transitive",
+      "transmission",
+      "transcend",
+      "transform"
+    ]
+  },
+  {
+    "word": "customs",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The official department that administers and collects the duties levied by a government on imported goods.",
+        "meaning_zh_TW": "海關",
+        "wrong_meaning_zh_TW": [
+          "稅務",
+          "政府",
+          "貿易"
+        ],
+        "examples": [
+          {
+            "sentence": "She declared her items at [customs].",
+            "translation_zh_TW": "她在海關申報了她的物品。"
+          },
+          {
+            "sentence": "The [customs] officer checked her bags.",
+            "translation_zh_TW": "海關官員檢查了她的行李。"
+          },
+          {
+            "sentence": "Understanding [customs] regulations is important.",
+            "translation_zh_TW": "了解海關規定很重要。"
+          }
+        ],
+        "synonyms": [
+          "tariffs",
+          "import duties"
+        ]
+      }
+    ],
+    "confusion": [
+      "customers",
+      "costumes",
+      "custom",
+      "cousins"
+    ]
+  },
+  {
+    "word": "facilitate",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To make or become less.",
-        "meaning_zh_TW": "減少",
+        "meaning_en_US": "To make an action or process easier.",
+        "meaning_zh_TW": "促進、使容易",
         "wrong_meaning_zh_TW": [
-          "增長",
-          "強化",
-          "壯大"
+          "阻礙",
+          "禁止",
+          "限制"
         ],
         "examples": [
           {
-            "sentence": "The loud noise began to [diminish] as the train moved away.",
-            "translation_zh_TW": "隨著火車越來越遠，噪音開始減少。"
+            "sentence": "The new software will [facilitate] communication.",
+            "translation_zh_TW": "這個新軟體將促進溝通。"
           },
           {
-            "sentence": "His confidence started to [diminish] after receiving criticism.",
-            "translation_zh_TW": "在收到批評後，他的信心開始減少。"
+            "sentence": "He aimed to [facilitate] a better understanding among team members.",
+            "translation_zh_TW": "他的目標是促進團隊成員之間的更好理解。"
           },
           {
-            "sentence": "The medication can help to [diminish] the pain.",
-            "translation_zh_TW": "這種藥物可以幫助減少疼痛。"
+            "sentence": "Good planning can [facilitate] a smoother process.",
+            "translation_zh_TW": "良好的計劃可以使過程更順利。"
           }
         ],
         "synonyms": [
-          "reduce",
-          "lessen"
+          "assist",
+          "aid",
+          "enable"
         ]
       }
     ],
     "confusion": [
-      "demand",
-      "demonish",
-      "dimension",
-      "diminutive"
-    ]
-  },
-  {
-    "word": "comparable",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Able to be likened to another; similar.",
-        "meaning_zh_TW": "可比較的",
-        "wrong_meaning_zh_TW": [
-          "獨特的",
-          "不同的",
-          "異常的"
-        ],
-        "examples": [
-          {
-            "sentence": "Her skills are [comparable] to those of the best in the industry.",
-            "translation_zh_TW": "她的技能可以與業界最優秀的相比"
-          },
-          {
-            "sentence": "They found several [comparable] products in different stores.",
-            "translation_zh_TW": "他們在不同的商店找到了幾種可比較的產品"
-          },
-          {
-            "sentence": "The study showed [comparable] results across various demographics.",
-            "translation_zh_TW": "該研究顯示各種人群中有可比較的結果"
-          }
-        ],
-        "synonyms": [
-          "similar",
-          "analogous"
-        ]
-      }
-    ],
-    "confusion": [
-      "compatible",
-      "comparison",
-      "compile",
-      "compulsory"
+      "facility",
+      "factualize",
+      "facile",
+      "fiscal"
     ]
   }
 ]

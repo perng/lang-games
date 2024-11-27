@@ -1,5 +1,82 @@
 [
   {
+    "word": "solitary",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Done or existing alone.",
+        "meaning_zh_TW": "孤獨的",
+        "wrong_meaning_zh_TW": [
+          "集體的",
+          "喧鬧的",
+          "合群的"
+        ],
+        "examples": [
+          {
+            "sentence": "He led a [solitary] life in the mountains.",
+            "translation_zh_TW": "他在山中過著孤獨的生活。"
+          },
+          {
+            "sentence": "The [solitary] tree stood alone in the field.",
+            "translation_zh_TW": "那棵孤獨的樹獨自矗立在田野中。"
+          },
+          {
+            "sentence": "She preferred [solitary] walks in nature.",
+            "translation_zh_TW": "她喜歡在大自然中獨自散步。"
+          }
+        ],
+        "synonyms": [
+          "alone",
+          "isolated"
+        ]
+      }
+    ],
+    "confusion": [
+      "solidarity",
+      "solitude",
+      "solitarily",
+      "solitarium"
+    ]
+  },
+  {
+    "word": "pianist",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who plays the piano, especially professionally.",
+        "meaning_zh_TW": "鋼琴家",
+        "wrong_meaning_zh_TW": [
+          "小提琴家",
+          "鼓手",
+          "歌手"
+        ],
+        "examples": [
+          {
+            "sentence": "The [pianist] performed a beautiful concerto.",
+            "translation_zh_TW": "鋼琴家演奏了一首美麗的協奏曲。"
+          },
+          {
+            "sentence": "She has been a [pianist] since childhood.",
+            "translation_zh_TW": "她從小就開始當鋼琴家。"
+          },
+          {
+            "sentence": "The concert featured a famous [pianist] from France.",
+            "translation_zh_TW": "音樂會上有一位來自法國的著名鋼琴家。"
+          }
+        ],
+        "synonyms": [
+          "keyboardist"
+        ]
+      }
+    ],
+    "confusion": [
+      "pianist",
+      "piansist",
+      "panist",
+      "pianoist"
+    ]
+  },
+  {
     "word": "faction",
     "meanings": [
       {
@@ -39,745 +116,667 @@
     ]
   },
   {
-    "word": "surpass",
+    "word": "veto",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To exceed or go beyond.",
-        "meaning_zh_TW": "超越",
+        "type": "名詞",
+        "meaning_en_US": "The right to reject a decision or proposal made by a law-making body.",
+        "meaning_zh_TW": "否決權",
         "wrong_meaning_zh_TW": [
-          "降落",
-          "縮減",
-          "支持"
+          "選舉權",
+          "公投",
+          "批准"
         ],
         "examples": [
           {
-            "sentence": "She hopes to [surpass] her previous records.",
-            "translation_zh_TW": "她希望超越自己之前的紀錄。"
+            "sentence": "The president has the power to [veto] legislation.",
+            "translation_zh_TW": "總統有權否決立法。"
           },
           {
-            "sentence": "His talent [surpasses] that of many professionals.",
-            "translation_zh_TW": "他的才華超越了許多專業人士。"
+            "sentence": "A [veto] from one member can block the entire proposal.",
+            "translation_zh_TW": "一名成員的否決可以阻止整個提案。"
           },
           {
-            "sentence": "To [surpass] expectations, they worked extra hours.",
-            "translation_zh_TW": "為了超越預期，他們加班。"
+            "sentence": "Congress can override a presidential [veto].",
+            "translation_zh_TW": "國會可以推翻總統的否決。"
           }
         ],
         "synonyms": [
-          "exceed",
-          "outdo"
+          "rejection",
+          "prohibition"
         ]
       }
     ],
     "confusion": [
-      "surpasser",
-      "support",
-      "superb",
-      "surpassrs"
+      "vector",
+      "vetoed",
+      "vein",
+      "vetoes"
     ]
   },
   {
-    "word": "stylish",
+    "word": "clam",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A marine bivalve mollusk that is edible and has a shell.",
+        "meaning_zh_TW": "蛤蜊",
+        "wrong_meaning_zh_TW": [
+          "小石頭",
+          "大洋",
+          "魚群"
+        ],
+        "examples": [
+          {
+            "sentence": "We enjoyed a delicious meal made with fresh [clam].",
+            "translation_zh_TW": "我們享用了美味的蛤蜊料理"
+          },
+          {
+            "sentence": "The beach was covered in [clam] shells after the storm.",
+            "translation_zh_TW": "暴風雨過後，海灘上滿是蛤蜊殼"
+          },
+          {
+            "sentence": "He went fishing for [clam] with his friends.",
+            "translation_zh_TW": "他和朋友們去抓蛤蜊"
+          }
+        ],
+        "synonyms": [
+          "mollusk",
+          "shellfish"
+        ]
+      }
+    ],
+    "confusion": [
+      "clamor",
+      "clamp",
+      "clama",
+      "clarinet"
+    ]
+  },
+  {
+    "word": "mermaid",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A fictional sea creature with the upper body of a woman and the tail of a fish.",
+        "meaning_zh_TW": "美人魚",
+        "wrong_meaning_zh_TW": [
+          "精靈",
+          "仙子",
+          "蛇魚"
+        ],
+        "examples": [
+          {
+            "sentence": "In the story, the [mermaid] longs for a human life.",
+            "translation_zh_TW": "在故事中，美人魚渴望擁有人類的生活。"
+          },
+          {
+            "sentence": "The legend of the [mermaid] has fascinated many generations.",
+            "translation_zh_TW": "美人魚的傳說吸引了許多代的人。"
+          },
+          {
+            "sentence": "She wore a costume resembling a [mermaid] for the party.",
+            "translation_zh_TW": "她為派對穿了一套類似美人魚的服裝。"
+          }
+        ],
+        "synonyms": [
+          "siren",
+          "sea maiden"
+        ]
+      }
+    ],
+    "confusion": [
+      "merman",
+      "mere",
+      "meridian",
+      "mercy"
+    ]
+  },
+  {
+    "word": "conserve",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To protect something from being wasted or destroyed.",
+        "meaning_zh_TW": "保護",
+        "wrong_meaning_zh_TW": [
+          "保持健康",
+          "絕種動物",
+          "地球村"
+        ],
+        "examples": [
+          {
+            "sentence": "We must [conserve] water during the drought.",
+            "translation_zh_TW": "在乾旱期間，我們必須保護水源。"
+          },
+          {
+            "sentence": "They worked to [conserve] wildlife habitats.",
+            "translation_zh_TW": "他們為保護野生動物的棲息地而努力。"
+          },
+          {
+            "sentence": "It's important to [conserve] energy at home.",
+            "translation_zh_TW": "在家裡保護能源非常重要。"
+          }
+        ],
+        "synonyms": [
+          "preserve",
+          "protect",
+          "safeguard"
+        ]
+      }
+    ],
+    "confusion": [
+      "conserved",
+      "conserveful",
+      "conservatory",
+      "consent"
+    ]
+  },
+  {
+    "word": "shaver",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A device used for shaving hair from the face or body.",
+        "meaning_zh_TW": "刮鬍刀",
+        "wrong_meaning_zh_TW": [
+          "刮鬍膏",
+          "美容院",
+          "面膜"
+        ],
+        "examples": [
+          {
+            "sentence": "He quickly used his [shaver] before going out.",
+            "translation_zh_TW": "他在出門前迅速使用了刮鬍刀。"
+          },
+          {
+            "sentence": "The electric [shaver] made the process much easier.",
+            "translation_zh_TW": "電動刮鬍刀讓這個過程變得更簡單。"
+          },
+          {
+            "sentence": "She bought a new [shaver] for her husband.",
+            "translation_zh_TW": "她為她的丈夫買了一把新的刮鬍刀。"
+          }
+        ],
+        "synonyms": [
+          "razor",
+          "trimmer"
+        ]
+      }
+    ],
+    "confusion": [
+      "shaverly",
+      "shaever",
+      "saver",
+      "shavor"
+    ]
+  },
+  {
+    "word": "outset",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The start or beginning of something.",
+        "meaning_zh_TW": "開始",
+        "wrong_meaning_zh_TW": [
+          "終止",
+          "重新開始",
+          "調整"
+        ],
+        "examples": [
+          {
+            "sentence": "From the outset, we knew it would be challenging.",
+            "translation_zh_TW": "從一開始，我們就知道這將是個挑戰。"
+          },
+          {
+            "sentence": "He made his goals clear from the outset.",
+            "translation_zh_TW": "他從一開始就明確了自己的目標。"
+          },
+          {
+            "sentence": "At the outset of the project, we established guidelines.",
+            "translation_zh_TW": "在項目開始時，我們制定了指導方針。"
+          }
+        ],
+        "synonyms": [
+          "beginning",
+          "commencement"
+        ]
+      }
+    ],
+    "confusion": [
+      "outcast",
+      "outbreak",
+      "outlook",
+      "outlaid"
+    ]
+  },
+  {
+    "word": "outrage",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An extremely strong reaction of anger, shock, or indignation.",
+        "meaning_zh_TW": "憤怒",
+        "wrong_meaning_zh_TW": [
+          "快樂",
+          "感動",
+          "期待"
+        ],
+        "examples": [
+          {
+            "sentence": "The decision caused a public [outrage].",
+            "translation_zh_TW": "這項決定引發了公眾的憤怒。"
+          },
+          {
+            "sentence": "There was widespread [outrage] over the unfair treatment.",
+            "translation_zh_TW": "人們對不公正的待遇感到廣泛的憤怒。"
+          },
+          {
+            "sentence": "The scandal led to an [outrage] within the community.",
+            "translation_zh_TW": "這場醜聞引發了社區內的憤怒。"
+          }
+        ],
+        "synonyms": [
+          "furor",
+          "indignation"
+        ]
+      }
+    ],
+    "confusion": [
+      "outraged",
+      "outrages",
+      "outrunge",
+      "outrages"
+    ]
+  },
+  {
+    "word": "veterinarian",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person qualified to treat diseased animals.",
+        "meaning_zh_TW": "獸醫",
+        "wrong_meaning_zh_TW": [
+          "醫生",
+          "農夫",
+          "園丁"
+        ],
+        "examples": [
+          {
+            "sentence": "The [veterinarian] examined the sick dog.",
+            "translation_zh_TW": "獸醫檢查了生病的狗。"
+          },
+          {
+            "sentence": "Many pet owners trust their [veterinarian] for advice.",
+            "translation_zh_TW": "許多寵物主人信任他們的獸醫提供建議。"
+          },
+          {
+            "sentence": "A [veterinarian] must complete extensive training.",
+            "translation_zh_TW": "獸醫必須完成廣泛的訓練。"
+          }
+        ],
+        "synonyms": [
+          "animal doctor",
+          "vet"
+        ]
+      }
+    ],
+    "confusion": [
+      " veteran",
+      "vetrinarian",
+      "veternarian",
+      "veteran"
+    ]
+  },
+  {
+    "word": "ambiguity",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The quality of being open to more than one interpretation.",
+        "meaning_zh_TW": "模棱兩可",
+        "wrong_meaning_zh_TW": [
+          "確定性",
+          "清晰",
+          "明確性"
+        ],
+        "examples": [
+          {
+            "sentence": "The ambiguity in her response left everyone confused.",
+            "translation_zh_TW": "她的回答中的模棱兩可讓每個人都感到困惑。"
+          },
+          {
+            "sentence": "Ambiguity can lead to misunderstandings.",
+            "translation_zh_TW": "模棱兩可可能會導致誤解。"
+          },
+          {
+            "sentence": "The poem's ambiguity invites multiple interpretations.",
+            "translation_zh_TW": "這首詩的模棱兩可引發多種解讀。"
+          }
+        ],
+        "synonyms": [
+          "uncertainty",
+          "vagueness"
+        ]
+      }
+    ],
+    "confusion": [
+      "ambiguous",
+      "ambition",
+      "gambit",
+      "ambiguities"
+    ]
+  },
+  {
+    "word": "intimacy",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Close familiarity or friendship; closeness.",
+        "meaning_zh_TW": "親密",
+        "wrong_meaning_zh_TW": [
+          "陌生",
+          "冷淡",
+          "疏遠"
+        ],
+        "examples": [
+          {
+            "sentence": "The couple expressed their [intimacy] through their actions.",
+            "translation_zh_TW": "這對情侶通過行動表達了他們的親密。"
+          },
+          {
+            "sentence": "Their [intimacy] grew over the years.",
+            "translation_zh_TW": "隨著時間的推移，他們的親密增長。"
+          },
+          {
+            "sentence": "Intimacy requires trust and communication.",
+            "translation_zh_TW": "親密需要信任和溝通。"
+          }
+        ],
+        "synonyms": [
+          "closeness",
+          "familiarity"
+        ]
+      }
+    ],
+    "confusion": [
+      "intimate",
+      "intimacies",
+      "intimately",
+      "intimita"
+    ]
+  },
+  {
+    "word": "mentality",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The characteristic way of thinking of a person or group.",
+        "meaning_zh_TW": "心態",
+        "wrong_meaning_zh_TW": [
+          "心理學",
+          "性格",
+          "記憶"
+        ],
+        "examples": [
+          {
+            "sentence": "Her winning [mentality] inspired the whole team.",
+            "translation_zh_TW": "她的獲勝心態激勵了整個團隊。"
+          },
+          {
+            "sentence": "A growth [mentality] helps individuals overcome challenges.",
+            "translation_zh_TW": "成長心態幫助個人克服挑戰。"
+          },
+          {
+            "sentence": "The community's [mentality] towards education is changing.",
+            "translation_zh_TW": "社區對教育的心態正在改變。"
+          }
+        ],
+        "synonyms": [
+          "mindset",
+          "attitude"
+        ]
+      }
+    ],
+    "confusion": [
+      "mental",
+      "mentorship",
+      "mention",
+      "module"
+    ]
+  },
+  {
+    "word": "broaden",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To increase the width or extent of something.",
+        "meaning_zh_TW": "擴大",
+        "wrong_meaning_zh_TW": [
+          "縮小",
+          "減少",
+          "封閉"
+        ],
+        "examples": [
+          {
+            "sentence": "We need to [broaden] our perspective.",
+            "translation_zh_TW": "我們需要擴大我們的視野"
+          },
+          {
+            "sentence": "She plans to [broaden] her skill set.",
+            "translation_zh_TW": "她計劃擴大她的技能範圍"
+          },
+          {
+            "sentence": "The company aims to [broaden] its market.",
+            "translation_zh_TW": "公司旨在擴大其市場"
+          }
+        ],
+        "synonyms": [
+          "expand",
+          "widen"
+        ]
+      }
+    ],
+    "confusion": [
+      "broaden",
+      "broader",
+      "broadly",
+      "brood"
+    ]
+  },
+  {
+    "word": "orderly",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Fashionable and elegant.",
-        "meaning_zh_TW": "時尚的",
+        "meaning_en_US": "Neatly and methodically arranged.",
+        "meaning_zh_TW": "井然有序",
         "wrong_meaning_zh_TW": [
-          "古怪",
-          "普通",
-          "過時"
+          "混亂不堪",
+          "隨意安排",
+          "不規則"
         ],
         "examples": [
           {
-            "sentence": "Her outfit was very [stylish] for the occasion.",
-            "translation_zh_TW": "她的服裝在這個場合非常時尚。"
+            "sentence": "The files on her desk were arranged in an [orderly] manner.",
+            "translation_zh_TW": "她桌上的文件井然有序地擺放著。"
           },
           {
-            "sentence": "He always dresses in a [stylish] manner.",
-            "translation_zh_TW": "他總是穿著時尚。"
+            "sentence": "The students lined up in an [orderly] fashion before the assembly.",
+            "translation_zh_TW": "在集會之前，學生們井然有序地排隊。"
           },
           {
-            "sentence": "The interior design is both functional and [stylish].",
-            "translation_zh_TW": "室內設計既實用又時尚。"
+            "sentence": "The room was [orderly], reflecting the man's disciplined nature.",
+            "translation_zh_TW": "這間房間井然有序，反映出這個人有紀律的性格。"
           }
         ],
         "synonyms": [
-          "fashionable",
-          "elegant"
+          "neat",
+          "tidy"
         ]
       }
     ],
     "confusion": [
-      "style",
-      "stile",
-      "stills",
-      "stylist"
+      "order",
+      "forty",
+      "border",
+      "sorder"
     ]
   },
   {
-    "word": "chimpanzee",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A type of primate that shares a close genetic link with humans.",
-        "meaning_zh_TW": "黑猩猩",
-        "wrong_meaning_zh_TW": [
-          "好奇心",
-          "猴子",
-          "仿生人"
-        ],
-        "examples": [
-          {
-            "sentence": "The [chimpanzee] swung from branch to branch.",
-            "translation_zh_TW": "那隻黑猩猩在樹枝間擺盪。"
-          },
-          {
-            "sentence": "We saw a [chimpanzee] at the zoo.",
-            "translation_zh_TW": "我們在動物園看到了一隻黑猩猩。"
-          },
-          {
-            "sentence": "A [chimpanzee] can use tools to gather food.",
-            "translation_zh_TW": "黑猩猩可以使用工具來收集食物。"
-          }
-        ],
-        "synonyms": [
-          "primate",
-          "ape"
-        ]
-      }
-    ],
-    "confusion": [
-      "chimp",
-      "champion",
-      "chimpanzoo",
-      "chimpan"
-    ]
-  },
-  {
-    "word": "reconcile",
+    "word": "hover",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To restore friendly relations between; to make consistent or congruous.",
-        "meaning_zh_TW": "調和",
+        "meaning_en_US": "To remain suspended in one place in the air.",
+        "meaning_zh_TW": "懸停",
         "wrong_meaning_zh_TW": [
-          "分裂",
-          "爭鬥",
-          "糾紛"
+          "下落",
+          "攀爬",
+          "飛行"
         ],
         "examples": [
           {
-            "sentence": "They tried to [reconcile] their differences.",
-            "translation_zh_TW": "他們試圖調和他們的分歧。"
+            "sentence": "The helicopter began to [hover] over the landing site.",
+            "translation_zh_TW": "直升機開始在降落點上懸停"
           },
           {
-            "sentence": "The accountant had to [reconcile] the bank statements with the books.",
-            "translation_zh_TW": "會計師不得不將銀行對賬單和帳本進行調和。"
+            "sentence": "Butterflies can [hover] in one spot while feeding.",
+            "translation_zh_TW": "蝴蝶在吸食時可以在一個地方懸停"
           },
           {
-            "sentence": "It's difficult to [reconcile] my beliefs with my job.",
-            "translation_zh_TW": "很難將我的信念與我的工作調和。"
+            "sentence": "She watched the drone [hover] above the garden.",
+            "translation_zh_TW": "她看著無人機在花園上方懸停"
           }
         ],
         "synonyms": [
-          "settle",
-          "resolve"
+          "suspend",
+          "float"
         ]
       }
     ],
     "confusion": [
-      "reconcilable",
-      "recon",
-      "reconciling",
-      "reconcilation"
+      "hoover",
+      "over",
+      "hovercraft",
+      "hovering"
     ]
   },
   {
-    "word": "mound",
+    "word": "foe",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A raised area of land or a hill.",
-        "meaning_zh_TW": "土堆",
+        "meaning_en_US": "An enemy or opponent.",
+        "meaning_zh_TW": "敵人",
         "wrong_meaning_zh_TW": [
-          "平地",
-          "沙丘",
-          "水面"
+          "朋友",
+          "伴侶",
+          "家人"
         ],
         "examples": [
           {
-            "sentence": "The children played on the grassy [mound].",
-            "translation_zh_TW": "孩子們在草堆上玩耍。"
+            "sentence": "He finally confronted his old [foe].",
+            "translation_zh_TW": "他終於面對了他的舊敵"
           },
           {
-            "sentence": "An ancient burial [mound] was discovered.",
-            "translation_zh_TW": "發現了一座古老的埋葬土堆。"
+            "sentence": "In war, a foe can become a friend over time.",
+            "translation_zh_TW": "在戰爭中，敵人隨著時間的推移可能會變成朋友"
           },
           {
-            "sentence": "They built a small [mound] for the garden.",
-            "translation_zh_TW": "他們為花園築了一個小土堆。"
+            "sentence": "They were once allies but now they are [foes].",
+            "translation_zh_TW": "他們曾經是盟友，但現在是敵人"
           }
         ],
         "synonyms": [
-          "hill",
-          "knoll"
+          "enemy",
+          "opponent"
         ]
       }
     ],
     "confusion": [
-      "mounder",
-      "mounds",
-      "monde",
-      "mounth"
+      "foes",
+      "floe",
+      "faux",
+      "foi"
     ]
   },
   {
-    "word": "congressman",
+    "word": "wrinkle",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A member of a congress, especially in the United States.",
-        "meaning_zh_TW": "國會議員",
+        "meaning_en_US": "A small line or fold in something, especially fabric or skin.",
+        "meaning_zh_TW": "皺紋",
         "wrong_meaning_zh_TW": [
-          "官員",
-          "市長",
-          "法官"
+          "折痕",
+          "裂縫",
+          "傷口"
         ],
         "examples": [
           {
-            "sentence": "The [congressman] spoke on behalf of his constituents.",
-            "translation_zh_TW": "國會議員代表他的選民發言"
+            "sentence": "She noticed a [wrinkle] on her shirt.",
+            "translation_zh_TW": "她注意到襯衫上有一個皺紋。"
           },
           {
-            "sentence": "Every [congressman] votes on proposed legislation.",
-            "translation_zh_TW": "每位國會議員對提議的立法投票"
+            "sentence": "Wrinkles often appear as we age.",
+            "translation_zh_TW": "隨著年齡增長，皺紋經常出現。"
           },
           {
-            "sentence": "The [congressman] hosted a town hall meeting.",
-            "translation_zh_TW": "國會議員舉辦了一次市政廳會議"
+            "sentence": "Ironing can help remove [wrinkles].",
+            "translation_zh_TW": "熨燙可以幫助去除皺紋。"
           }
         ],
         "synonyms": [
-          "legislator",
-          "representative"
+          "fold",
+          "crease"
         ]
       }
     ],
     "confusion": [
-      "congresswoman",
-      "congress",
-      "concord",
-      "congrats"
+      "wrinkly",
+      "wrinkel",
+      "wrinckle",
+      "wrincle"
     ]
   },
   {
-    "word": "administer",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To manage and be responsible for the running of (a business, organization, etc.).",
-        "meaning_zh_TW": "管理",
-        "wrong_meaning_zh_TW": [
-          "宣佈",
-          "增長",
-          "分配"
-        ],
-        "examples": [
-          {
-            "sentence": "He was hired to [administer] the new project.",
-            "translation_zh_TW": "他被雇用來管理這個新項目。"
-          },
-          {
-            "sentence": "You need to [administer] the medicine carefully.",
-            "translation_zh_TW": "你需要小心地管理藥物。"
-          },
-          {
-            "sentence": "The committee was created to [administer] the funds.",
-            "translation_zh_TW": "這個委員會成立的目的是管理資金。"
-          }
-        ],
-        "synonyms": [
-          "manage",
-          "oversee"
-        ]
-      }
-    ],
-    "confusion": [
-      "adminstering",
-      "adminstrator",
-      "administered",
-      "administate"
-    ]
-  },
-  {
-    "word": "crocodile",
+    "word": "adolescence",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A large aquatic reptile with a long snout and sharp teeth.",
-        "meaning_zh_TW": "鱷魚",
+        "meaning_en_US": "The transitional stage from childhood to adulthood.",
+        "meaning_zh_TW": "青春期",
         "wrong_meaning_zh_TW": [
-          "鯊魚",
-          "鰐魚",
-          "蝰蛇"
+          "嬰兒期",
+          "成年",
+          "老年期"
         ],
         "examples": [
           {
-            "sentence": "The [crocodile] basked in the sun by the river.",
-            "translation_zh_TW": "鱷魚在河邊的陽光下曬著。"
+            "sentence": "During [adolescence], many changes occur in the body.",
+            "translation_zh_TW": "在青春期，身體上會發生許多變化。"
           },
           {
-            "sentence": "We saw a [crocodile] during our safari in Africa.",
-            "translation_zh_TW": "我們在非洲的狩獵旅行中看到了鱷魚。"
+            "sentence": "He faced several challenges during his [adolescence].",
+            "translation_zh_TW": "在青春期他面臨了幾個挑戰。"
           },
           {
-            "sentence": "A [crocodile]'s skin is tough and durable.",
-            "translation_zh_TW": "鱷魚的皮膚堅韌且耐用。"
+            "sentence": "The book explores the themes of [adolescence] and identity.",
+            "translation_zh_TW": "這本書探討了青春期與身份的主題。"
           }
         ],
         "synonyms": [
-          "reptile",
-          "alligator"
+          "teenage years",
+          "youth"
         ]
       }
     ],
     "confusion": [
-      "crocodilian",
-      "crocus",
-      "croquet",
-      "cordial"
-    ]
-  },
-  {
-    "word": "carefree",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Free from worries or responsibilities.",
-        "meaning_zh_TW": "無憂無慮",
-        "wrong_meaning_zh_TW": [
-          "無法無天",
-          "不屈不撓",
-          "無端的憤怒"
-        ],
-        "examples": [
-          {
-            "sentence": "The children played in a [carefree] manner.",
-            "translation_zh_TW": "孩子們無憂無慮地玩耍。"
-          },
-          {
-            "sentence": "She enjoyed a [carefree] summer holiday.",
-            "translation_zh_TW": "她享受了一個無憂的夏日假期。"
-          },
-          {
-            "sentence": "His [carefree] attitude makes him popular.",
-            "translation_zh_TW": "他無憂的態度使他受到歡迎。"
-          }
-        ],
-        "synonyms": [
-          "lighthearted",
-          "untroubled"
-        ]
-      }
-    ],
-    "confusion": [
-      "careful",
-      "caregiver",
-      "carefreez",
-      "carfree"
-    ]
-  },
-  {
-    "word": "rejoice",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To feel or show great joy.",
-        "meaning_zh_TW": "高興",
-        "wrong_meaning_zh_TW": [
-          "悲傷",
-          "憤怒",
-          "冷漠"
-        ],
-        "examples": [
-          {
-            "sentence": "They will [rejoice] at the news of their victory.",
-            "translation_zh_TW": "他們將因勝利的消息而感到高興。"
-          },
-          {
-            "sentence": "We [rejoice] in the achievements of our friends.",
-            "translation_zh_TW": "我們為朋友的成就感到高興。"
-          },
-          {
-            "sentence": "Children [rejoice] during the holiday season.",
-            "translation_zh_TW": "孩子們在假日季節感到高興。"
-          }
-        ],
-        "synonyms": [
-          "celebrate",
-          "delight",
-          "exult"
-        ]
-      }
-    ],
-    "confusion": [
-      "rejoiced",
-      "rejoices",
-      "reject",
-      "rejoin"
-    ]
-  },
-  {
-    "word": "comet",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A celestial object consisting of a mass of frozen gases, ice, and dust.",
-        "meaning_zh_TW": "彗星",
-        "wrong_meaning_zh_TW": [
-          "流星",
-          "行星",
-          "太陽"
-        ],
-        "examples": [
-          {
-            "sentence": "The [comet] was visible in the night sky.",
-            "translation_zh_TW": "彗星在夜空中可見。"
-          },
-          {
-            "sentence": "Scientists study the paths of [comet] to learn more about space.",
-            "translation_zh_TW": "科學家研究彗星的軌跡以了解更多有關空間的知識。"
-          },
-          {
-            "sentence": "A bright [comet] was spotted last night.",
-            "translation_zh_TW": "一顆明亮的彗星昨晚被觀測到。"
-          }
-        ],
-        "synonyms": [
-          "celestial body",
-          "meteorite"
-        ]
-      }
-    ],
-    "confusion": [
-      "comment",
-      "commit",
-      "comfort",
-      "cometary"
-    ]
-  },
-  {
-    "word": "vibration",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An instance of vibrating.",
-        "meaning_zh_TW": "震動",
-        "wrong_meaning_zh_TW": [
-          "靜止狀態",
-          "平衡",
-          "音調"
-        ],
-        "examples": [
-          {
-            "sentence": "The [vibration] of the music can be felt in the air.",
-            "translation_zh_TW": "音樂的震動能在空氣中感受到。"
-          },
-          {
-            "sentence": "He felt a strange [vibration] in his chest.",
-            "translation_zh_TW": "他感到胸口有種奇怪的震動。"
-          },
-          {
-            "sentence": "The [vibration] from the machine was disturbing.",
-            "translation_zh_TW": "機器的震動讓人感到困擾。"
-          }
-        ],
-        "synonyms": [
-          "oscillation",
-          "quiver"
-        ]
-      }
-    ],
-    "confusion": [
-      "vibrationary",
-      "vibrational",
-      "viberation",
-      "vibation"
-    ]
-  },
-  {
-    "word": "airway",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The passage by which air reaches a person's lungs.",
-        "meaning_zh_TW": "氣道",
-        "wrong_meaning_zh_TW": [
-          "隧道",
-          "空氣壓縮機",
-          "汽車排氣道"
-        ],
-        "examples": [
-          {
-            "sentence": "She cleared the [airway] to help him breathe.",
-            "translation_zh_TW": "她清理氣道以幫助他呼吸"
-          },
-          {
-            "sentence": "The paramedic checked the patient's [airway].",
-            "translation_zh_TW": "護理人員檢查病人的氣道"
-          },
-          {
-            "sentence": "Obstruction in the [airway] can be fatal.",
-            "translation_zh_TW": "氣道阻塞可能致命"
-          }
-        ],
-        "synonyms": [
-          "throat",
-          "respiratory passage"
-        ]
-      }
-    ],
-    "confusion": [
-      "airways",
-      "airway",
-      "airwayz",
-      "airdome"
-    ]
-  },
-  {
-    "word": "communicative",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Able and willing to communicate.",
-        "meaning_zh_TW": "善於交流的",
-        "wrong_meaning_zh_TW": [
-          "沉默的",
-          "無表達的",
-          "冷漠的"
-        ],
-        "examples": [
-          {
-            "sentence": "She is very [communicative] when discussing her ideas.",
-            "translation_zh_TW": "她在討論自己的想法時非常善於交流。"
-          },
-          {
-            "sentence": "Being [communicative] is important in a team setting.",
-            "translation_zh_TW": "在團隊環境中，善於交流是重要的。"
-          },
-          {
-            "sentence": "His [communicative] style gained him many friends.",
-            "translation_zh_TW": "他的交流風格為他贏得了很多朋友。"
-          }
-        ],
-        "synonyms": [
-          "talkative",
-          "expressive"
-        ]
-      }
-    ],
-    "confusion": [
-      "communicative",
-      "communication",
-      "community",
-      "commune"
-    ]
-  },
-  {
-    "word": "corpse",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A dead body, especially of a human.",
-        "meaning_zh_TW": "屍體",
-        "wrong_meaning_zh_TW": [
-          "皮包",
-          "骷髏",
-          "通常的事"
-        ],
-        "examples": [
-          {
-            "sentence": "The detective examined the [corpse] at the crime scene.",
-            "translation_zh_TW": "偵探在犯罪現場檢查屍體"
-          },
-          {
-            "sentence": "They found a [corpse] buried in the forest.",
-            "translation_zh_TW": "他們在森林裡發現了一具屍體"
-          },
-          {
-            "sentence": "He was haunted by the sight of the [corpse] for weeks.",
-            "translation_zh_TW": "幾週來，他一直被屍體的景象纏身"
-          }
-        ],
-        "synonyms": [
-          "cadaver",
-          "body"
-        ]
-      }
-    ],
-    "confusion": [
-      "corp",
-      "corps",
-      "currency",
-      "course"
-    ]
-  },
-  {
-    "word": "slum",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A heavily populated urban area characterized by substandard housing and squalor.",
-        "meaning_zh_TW": "貧民區",
-        "wrong_meaning_zh_TW": [
-          "豪華住宅區",
-          "市中心",
-          "別墅"
-        ],
-        "examples": [
-          {
-            "sentence": "They grew up in a [slum] and faced many challenges.",
-            "translation_zh_TW": "他們在貧民區長大，面臨許多挑戰。"
-          },
-          {
-            "sentence": "The government is trying to improve the living conditions in the [slum].",
-            "translation_zh_TW": "政府正在試圖改善貧民區的生活條件。"
-          },
-          {
-            "sentence": "Many charities work to help those living in [slum] areas.",
-            "translation_zh_TW": "許多慈善機構致力於幫助生活在貧民區的人們。"
-          }
-        ],
-        "synonyms": [
-          "shantytown",
-          "ghetto"
-        ]
-      }
-    ],
-    "confusion": [
-      "slumber",
-      "slump",
-      "slim",
-      "slump"
-    ]
-  },
-  {
-    "word": "chirp",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make a short, sharp sound, especially by small birds.",
-        "meaning_zh_TW": "啁啾",
-        "wrong_meaning_zh_TW": [
-          "鬧鈴",
-          "波浪",
-          "剪刀"
-        ],
-        "examples": [
-          {
-            "sentence": "The birds [chirp] in the morning.",
-            "translation_zh_TW": "早上鳥兒啁啾。"
-          },
-          {
-            "sentence": "You can hear the crickets [chirp] at night.",
-            "translation_zh_TW": "你可以聽到蟋蟀在晚上啁啾。"
-          },
-          {
-            "sentence": "I love to hear the [chirp] of the sparrows.",
-            "translation_zh_TW": "我喜歡聽麻雀的啁啾聲。"
-          }
-        ],
-        "synonyms": [
-          "tweet",
-          "peep"
-        ]
-      }
-    ],
-    "confusion": [
-      "chirps",
-      "chip",
-      "chirpful",
-      "chirk"
-    ]
-  },
-  {
-    "word": "salvage",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To rescue or save something from damage or destruction.",
-        "meaning_zh_TW": "打撈",
-        "wrong_meaning_zh_TW": [
-          "丟棄",
-          "遺失",
-          "破壞"
-        ],
-        "examples": [
-          {
-            "sentence": "They managed to [salvage] some valuables from the wreck.",
-            "translation_zh_TW": "他們成功從殘骸中打撈出一些貴重物品。"
-          },
-          {
-            "sentence": "Efforts to [salvage] the sunken ship are ongoing.",
-            "translation_zh_TW": "打撈沉船的工作正在進行中。"
-          },
-          {
-            "sentence": "She tried to [salvage] their relationship.",
-            "translation_zh_TW": "她試圖挽救他們的關係。"
-          }
-        ],
-        "synonyms": [
-          "recover",
-          "rescue"
-        ]
-      }
-    ],
-    "confusion": [
-      "salvages",
-      "salvaging",
-      "salvag",
-      "salavage"
-    ]
-  },
-  {
-    "word": "lodge",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A shelter or small dwelling, often in a remote area.",
-        "meaning_zh_TW": "小屋",
-        "wrong_meaning_zh_TW": [
-          "大廳",
-          "酒店",
-          "村莊"
-        ],
-        "examples": [
-          {
-            "sentence": "We stayed at a cozy [lodge] in the mountains.",
-            "translation_zh_TW": "我們在山上的一個舒適小屋住下了。"
-          },
-          {
-            "sentence": "The hunters returned to their [lodge] after the expedition.",
-            "translation_zh_TW": "獵人在探險後返回了他們的小屋。"
-          },
-          {
-            "sentence": "A beautiful [lodge] awaits you near the lake.",
-            "translation_zh_TW": "湖邊有一個美麗的小屋在等著你。"
-          }
-        ],
-        "synonyms": [
-          "cabin",
-          "shelter"
-        ]
-      }
-    ],
-    "confusion": [
-      "lodge",
-      "lodge",
-      "lodger",
-      "lodging"
+      "adolesence",
+      "adolesent",
+      "adolesence",
+      "adollescence"
     ]
   }
 ]

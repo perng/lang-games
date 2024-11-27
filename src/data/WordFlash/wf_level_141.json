@@ -1,760 +1,782 @@
 [
   {
-    "word": "familiar",
+    "word": "flame",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The visible, gaseous part of a fire.",
+        "meaning_zh_TW": "火焰",
+        "wrong_meaning_zh_TW": [
+          "煙霧",
+          "燈泡",
+          "光線"
+        ],
+        "examples": [
+          {
+            "sentence": "The [flame] danced in the breeze.",
+            "translation_zh_TW": "火焰在微風中舞動"
+          },
+          {
+            "sentence": "A candle [flame] can be mesmerizing.",
+            "translation_zh_TW": "蠟燭的火焰可以使人著迷"
+          },
+          {
+            "sentence": "She safely extinguished the [flame].",
+            "translation_zh_TW": "她安全地撲滅了火焰"
+          }
+        ],
+        "synonyms": [
+          "fire",
+          "blaze"
+        ]
+      }
+    ],
+    "confusion": [
+      "flames",
+      "flaming",
+      "flameless",
+      "flameout"
+    ]
+  },
+  {
+    "word": "elderly",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Well-known from long or close association.",
-        "meaning_zh_TW": "熟悉的",
+        "meaning_en_US": "Having lived for a long time; being old.",
+        "meaning_zh_TW": "年長的",
         "wrong_meaning_zh_TW": [
-          "陌生的",
-          "生疏的",
-          "不明的"
+          "年輕的",
+          "嬰兒的",
+          "新生的"
         ],
         "examples": [
           {
-            "sentence": "This place looks [familiar] to me.",
-            "translation_zh_TW": "這個地方對我來說看起來很熟悉"
+            "sentence": "The [elderly] often require special care and attention.",
+            "translation_zh_TW": "年長者通常需要特別的關懷和注意"
           },
           {
-            "sentence": "He has a [familiar] face.",
-            "translation_zh_TW": "他有一張熟悉的面孔"
+            "sentence": "He volunteers at a center for the [elderly].",
+            "translation_zh_TW": "他在一個為老年人提供服務的中心做志工"
           },
           {
-            "sentence": "The concept was [familiar] to her.",
-            "translation_zh_TW": "這個概念對她來說是熟悉的"
+            "sentence": "The program offers discounts to the [elderly].",
+            "translation_zh_TW": "該計劃為年長者提供折扣"
           }
         ],
         "synonyms": [
-          "known",
-          "recognizable"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "A close friend or associate.",
-        "meaning_zh_TW": "熟人",
-        "wrong_meaning_zh_TW": [
-          "陌生人",
-          "敵人",
-          "對手"
-        ],
-        "examples": [
-          {
-            "sentence": "She is a [familiar] to him from school.",
-            "translation_zh_TW": "她是他從學校就認識的熟人"
-          },
-          {
-            "sentence": "They were once [familiars] in the same circle.",
-            "translation_zh_TW": "他們曾經是同一圈子裡的熟人"
-          },
-          {
-            "sentence": "He took advice from his [familiar].",
-            "translation_zh_TW": "他向他的熟人請教建議"
-          }
-        ],
-        "synonyms": [
-          "associate",
-          "companion"
+          "aged",
+          "senior"
         ]
       }
     ],
     "confusion": [
-      "femiliar",
-      "familier",
-      "familial",
-      "famish"
+      "elder",
+      "elderlyy",
+      "eldelry",
+      "eldelry"
     ]
   },
   {
-    "word": "bomb",
+    "word": "pit",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A device that explodes and causes destruction.",
-        "meaning_zh_TW": "炸彈",
+        "meaning_en_US": "A large hole in the ground.",
+        "meaning_zh_TW": "坑",
         "wrong_meaning_zh_TW": [
-          "圓球",
-          "陷阱",
-          "花朵"
+          "籽",
+          "籠子",
+          "封閉"
         ],
         "examples": [
           {
-            "sentence": "The military found an unexploded [bomb].",
-            "translation_zh_TW": "軍方發現了一枚未爆炸的炸彈。"
+            "sentence": "He fell into the [pit] while hiking.",
+            "translation_zh_TW": "他在健行時摔進了坑裡"
           },
           {
-            "sentence": "He was accused of planting a [bomb].",
-            "translation_zh_TW": "他被指控安置了一枚炸彈。"
+            "sentence": "They covered the [pit] after excavating.",
+            "translation_zh_TW": "挖掘後，他們覆蓋了坑"
           },
           {
-            "sentence": "The [bomb] detonated in the middle of the street.",
-            "translation_zh_TW": "炸彈在街道中央引爆。"
+            "sentence": "The [pit] was filled with muddy water.",
+            "translation_zh_TW": "坑裡滿是泥水"
           }
         ],
         "synonyms": [
-          "explosive",
-          "device"
+          "hole",
+          "cavity"
         ]
       }
     ],
     "confusion": [
-      "bimb",
-      "bombs",
-      "bome",
-      "bom"
+      "pet",
+      "pitfall",
+      "pits",
+      "pitt"
     ]
   },
   {
-    "word": "broadcast",
+    "word": "detect",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To transmit (information) by radio or television.",
-        "meaning_zh_TW": "廣播",
+        "meaning_en_US": "To discover or identify the presence of something.",
+        "meaning_zh_TW": "檢測",
         "wrong_meaning_zh_TW": [
-          "隱藏",
-          "接受",
-          "保存"
+          "隱瞞",
+          "消失",
+          "忽視"
         ],
         "examples": [
           {
-            "sentence": "The news will be [broadcast] live at six.",
-            "translation_zh_TW": "新聞將於六點直播廣播"
+            "sentence": "The scientist can [detect] changes in temperature.",
+            "translation_zh_TW": "科學家可以檢測到溫度的變化。"
           },
           {
-            "sentence": "They will [broadcast] the concert on the radio.",
-            "translation_zh_TW": "他們將在廣播中播送演唱會"
+            "sentence": "They hope to [detect] the virus early.",
+            "translation_zh_TW": "他們希望能及早檢測到病毒。"
           },
           {
-            "sentence": "Many people prefer to [broadcast] their opinions online.",
-            "translation_zh_TW": "許多人喜歡在線上廣播自己的意見"
+            "sentence": "Can you [detect] any differences in the images?",
+            "translation_zh_TW": "你能檢測到圖像中的任何差異嗎？"
           }
         ],
         "synonyms": [
-          "transmit",
-          "air"
+          "discover",
+          "identify"
         ]
       }
     ],
     "confusion": [
-      "broadcaster",
-      "brodcast",
-      "broad",
-      "brocast"
+      "detection",
+      "defect",
+      "deter",
+      "detection"
     ]
   },
   {
-    "word": "underlying",
+    "word": "ton",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A unit of weight equal to 2,000 pounds (907.18 kg) in the U.S.",
+        "meaning_zh_TW": "噸",
+        "wrong_meaning_zh_TW": [
+          "公斤",
+          "米",
+          "公尺"
+        ],
+        "examples": [
+          {
+            "sentence": "The truck can carry ten [tons] of cargo.",
+            "translation_zh_TW": "這輛卡車可以運載十噸貨物"
+          },
+          {
+            "sentence": "He weighs about a [ton] more than he should.",
+            "translation_zh_TW": "他的體重比應有的重了一噸"
+          },
+          {
+            "sentence": "This container holds five [tons] of water.",
+            "translation_zh_TW": "這個容器可以容納五噸水"
+          }
+        ],
+        "synonyms": [
+          "metric ton",
+          "weight"
+        ]
+      }
+    ],
+    "confusion": [
+      "tonne",
+      "tonka",
+      "tonneaux",
+      "tonn"
+    ]
+  },
+  {
+    "word": "arise",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To come into being; to emerge.",
+        "meaning_zh_TW": "出現、產生",
+        "wrong_meaning_zh_TW": [
+          "下降、隕落",
+          "隱藏、遮蔽",
+          "停滯、靜止"
+        ],
+        "examples": [
+          {
+            "sentence": "Problems may [arise] during the process.",
+            "translation_zh_TW": "在過程中可能會出現問題。"
+          },
+          {
+            "sentence": "She decided to [arise] early to catch the sunrise.",
+            "translation_zh_TW": "她決定早起去看日出。"
+          },
+          {
+            "sentence": "If issues [arise], we will address them promptly.",
+            "translation_zh_TW": "如果出現問題，我們會及時處理。"
+          }
+        ],
+        "synonyms": [
+          "emerge",
+          "occur"
+        ]
+      }
+    ],
+    "confusion": [
+      "arisen",
+      "arising",
+      "arise",
+      "arids"
+    ]
+  },
+  {
+    "word": "advise",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To offer suggestions about the best course of action to someone.",
+        "meaning_zh_TW": "建議",
+        "wrong_meaning_zh_TW": [
+          "命令",
+          "威脅",
+          "要求"
+        ],
+        "examples": [
+          {
+            "sentence": "I would [advise] you to check the weather before leaving.",
+            "translation_zh_TW": "我建議你在出門前查看天氣。"
+          },
+          {
+            "sentence": "They advised him to save money for the future.",
+            "translation_zh_TW": "他們建議他為未來存錢。"
+          },
+          {
+            "sentence": "She advised against taking risks in the business.",
+            "translation_zh_TW": "她建議不要在商業中冒險。"
+          }
+        ],
+        "synonyms": [
+          "counsel",
+          "recommend"
+        ]
+      }
+    ],
+    "confusion": [
+      "advise",
+      "adviser",
+      "advisor",
+      "advice"
+    ]
+  },
+  {
+    "word": "reveal",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make something known or visible.",
+        "meaning_zh_TW": "揭露、顯示",
+        "wrong_meaning_zh_TW": [
+          "隱藏、保留",
+          "摧毀、破壞",
+          "傳遞、轉達"
+        ],
+        "examples": [
+          {
+            "sentence": "The magician will [reveal] his secret at the end of the show.",
+            "translation_zh_TW": "魔術師將在表演結束時揭露他的秘密。"
+          },
+          {
+            "sentence": "She decided to [reveal] her true feelings.",
+            "translation_zh_TW": "她決定揭露自己的真實感受。"
+          },
+          {
+            "sentence": "The painting will [reveal] its beauty under the right light.",
+            "translation_zh_TW": "在合適的燈光下，這幅畫將顯露出它的美。"
+          }
+        ],
+        "synonyms": [
+          "disclose",
+          "unveil"
+        ]
+      }
+    ],
+    "confusion": [
+      "reveal",
+      "relieve",
+      "revealation",
+      "reVel"
+    ]
+  },
+  {
+    "word": "dive",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To plunge headfirst into water.",
+        "meaning_zh_TW": "潛水",
+        "wrong_meaning_zh_TW": [
+          "漂浮",
+          "游泳",
+          "滑行"
+        ],
+        "examples": [
+          {
+            "sentence": "He decided to [dive] off the platform.",
+            "translation_zh_TW": "他決定從平台跳下去。"
+          },
+          {
+            "sentence": "They [dive] in the ocean to explore.",
+            "translation_zh_TW": "他們在海中潛水探索。"
+          },
+          {
+            "sentence": "She learned how to [dive] safely.",
+            "translation_zh_TW": "她學會了安全地潛水。"
+          }
+        ],
+        "synonyms": [
+          "plunge",
+          "submerge"
+        ]
+      }
+    ],
+    "confusion": [
+      "dive",
+      "drive",
+      "dove",
+      "disguise"
+    ]
+  },
+  {
+    "word": "nickname",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A familiar or humorous name given to a person or thing instead of or as well as the real name.",
+        "meaning_zh_TW": "暱稱",
+        "wrong_meaning_zh_TW": [
+          "正式名稱",
+          "標題",
+          "紀錄"
+        ],
+        "examples": [
+          {
+            "sentence": "Her friends call her by her [nickname].",
+            "translation_zh_TW": "她的朋友們叫她的暱稱。"
+          },
+          {
+            "sentence": "I prefer my [nickname] to my full name.",
+            "translation_zh_TW": "我比較喜歡我的暱稱，而不是我的全名。"
+          },
+          {
+            "sentence": "He has many funny [nicknames] from childhood.",
+            "translation_zh_TW": "他從小有很多有趣的暱稱。"
+          }
+        ],
+        "synonyms": [
+          "alias",
+          "moniker"
+        ]
+      }
+    ],
+    "confusion": [
+      "nicken",
+      "nicknack",
+      "nickname",
+      "nicename"
+    ]
+  },
+  {
+    "word": "trick",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A crafty or cunning action meant to deceive others.",
+        "meaning_zh_TW": "把戲",
+        "wrong_meaning_zh_TW": [
+          "遊戲",
+          "活動",
+          "工作"
+        ],
+        "examples": [
+          {
+            "sentence": "He performed a magic [trick] at the party.",
+            "translation_zh_TW": "他在派對上表演了一個魔術把戲"
+          },
+          {
+            "sentence": "She learned a [trick] to solve the puzzle faster.",
+            "translation_zh_TW": "她學會了一個更快解謎的把戲"
+          },
+          {
+            "sentence": "The prank was just a harmless [trick].",
+            "translation_zh_TW": "這個惡作劇只是一個無害的把戲"
+          }
+        ],
+        "synonyms": [
+          "deception",
+          "ruse"
+        ]
+      }
+    ],
+    "confusion": [
+      "tricks",
+      "trike",
+      "trikk",
+      "tick"
+    ]
+  },
+  {
+    "word": "timber",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Wood prepared for building use.",
+        "meaning_zh_TW": "木材",
+        "wrong_meaning_zh_TW": [
+          "紙張",
+          "塑料",
+          "金屬"
+        ],
+        "examples": [
+          {
+            "sentence": "The house was built using high-quality [timber].",
+            "translation_zh_TW": "這棟房子是用高品質的木材建造的。"
+          },
+          {
+            "sentence": "The lumberjack was cutting down [timber].",
+            "translation_zh_TW": "樵夫正在砍伐木材。"
+          },
+          {
+            "sentence": "They plan to use sustainable [timber] for construction.",
+            "translation_zh_TW": "他們計劃使用可持續的木材進行建設。"
+          }
+        ],
+        "synonyms": [
+          "wood",
+          "lumber"
+        ]
+      }
+    ],
+    "confusion": [
+      "timbur",
+      "tember",
+      "timberr",
+      "timbre"
+    ]
+  },
+  {
+    "word": "steady",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Involved in the formation of something.",
-        "meaning_zh_TW": "潛在的",
+        "meaning_en_US": "Firmly fixed, supported, or balanced; stable.",
+        "meaning_zh_TW": "穩定的",
         "wrong_meaning_zh_TW": [
-          "顯而易見",
-          "無關的",
-          "附加的"
+          "不堪的",
+          "驚慌的",
+          "脆弱的"
         ],
         "examples": [
           {
-            "sentence": "There are several [underlying] causes of the problem.",
-            "translation_zh_TW": "這個問題有幾個潛在的原因"
+            "sentence": "She took a [steady] breath before speaking.",
+            "translation_zh_TW": "她在說話前深吸了一口穩定的氣。"
           },
           {
-            "sentence": "The [underlying] issues must be addressed first.",
-            "translation_zh_TW": "必須首先解決潛在問題"
+            "sentence": "His hands were [steady] as he painted.",
+            "translation_zh_TW": "他畫畫的時候，手保持穩定。"
           },
           {
-            "sentence": "Its [underlying] significance is often overlooked.",
-            "translation_zh_TW": "其潛在的重要性常常被忽視"
+            "sentence": "The economy is [steady] after the reforms.",
+            "translation_zh_TW": "經過改革後，經濟穩定。"
           }
         ],
         "synonyms": [
-          "fundamental",
-          "basic"
+          "stable",
+          "consistent"
         ]
       }
     ],
     "confusion": [
-      "underlin",
-      "undermine",
-      "underly",
-      "underlyingly"
+      "study",
+      "sturdy",
+      "steadying",
+      "steely"
     ]
   },
   {
-    "word": "profit",
+    "word": "dirt",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The financial gain obtained after subtracting expenses.",
-        "meaning_zh_TW": "利潤",
+        "meaning_en_US": "A substance, often soil, that is produced by erosion and is a common part of nature.",
+        "meaning_zh_TW": "泥土",
         "wrong_meaning_zh_TW": [
-          "損失",
-          "支出",
-          "債務"
+          "清水",
+          "肥料",
+          "種子"
         ],
         "examples": [
           {
-            "sentence": "The company's [profit] increased significantly this year.",
-            "translation_zh_TW": "該公司的利潤今年大幅增長"
+            "sentence": "The gardener turned over the [dirt] to plant flowers.",
+            "translation_zh_TW": "園丁翻動泥土以種植花朵"
           },
           {
-            "sentence": "Understanding [profit] margins is essential for business.",
-            "translation_zh_TW": "了解利潤率對於業務至關重要"
+            "sentence": "Don't let the [dirt] get into your shoes.",
+            "translation_zh_TW": "別讓泥土進入你的鞋子"
           },
           {
-            "sentence": "Investors are looking for higher [profit] returns.",
-            "translation_zh_TW": "投資者正在尋求更高的利潤回報"
+            "sentence": "The kitten played in the [dirt].",
+            "translation_zh_TW": "小貓在泥土中玩"
           }
         ],
         "synonyms": [
-          "gain",
-          "earnings"
+          "soil",
+          "ground"
         ]
       }
     ],
     "confusion": [
-      "profile",
-      "prophet",
-      "profitability",
-      "profits"
+      "dart",
+      "dirk",
+      "dirtbag",
+      "dirge"
     ]
   },
   {
-    "word": "neighborhood",
+    "word": "screw",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A district or area surrounding a particular place.",
-        "meaning_zh_TW": "鄰近地區",
+        "meaning_en_US": "A metal fastener with a spiral ridge that is turned into a material to hold it together.",
+        "meaning_zh_TW": "螺絲",
         "wrong_meaning_zh_TW": [
-          "城市中心",
-          "工業區",
-          "商業區"
+          "釘子",
+          "釘槍",
+          "鉤子"
         ],
         "examples": [
           {
-            "sentence": "They live in a quiet [neighborhood].",
-            "translation_zh_TW": "他們住在一個安靜的鄰近地區"
+            "sentence": "I need a [screw] to fix this chair.",
+            "translation_zh_TW": "我需要一顆螺絲來修理這把椅子"
           },
           {
-            "sentence": "Community events help bring the [neighborhood] together.",
-            "translation_zh_TW": "社區活動幫助讓鄰近地區團結在一起"
+            "sentence": "Make sure to tighten the [screw] properly.",
+            "translation_zh_TW": "確保螺絲鎖緊"
           },
           {
-            "sentence": "The [neighborhood] is known for its parks.",
-            "translation_zh_TW": "這個鄰近地區以其公園而聞名"
+            "sentence": "He dropped the [screw] on the floor.",
+            "translation_zh_TW": "他把螺絲掉在了地上"
           }
         ],
         "synonyms": [
-          "community",
-          "district"
+          "fastener",
+          "bolt"
         ]
       }
     ],
     "confusion": [
-      "neighbor",
-      "neighborhoods",
-      "neighborly",
-      "neigh"
+      "screws",
+      "scrwe",
+      "scrow",
+      "screow"
     ]
   },
   {
-    "word": "somehow",
+    "word": "hourly",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Occurring every hour; done or happening in an hour.",
+        "meaning_zh_TW": "每小時的，按小時計的",
+        "wrong_meaning_zh_TW": [
+          "每日的",
+          "每分鐘的",
+          "每年的"
+        ],
+        "examples": [
+          {
+            "sentence": "The train runs [hourly] from the station.",
+            "translation_zh_TW": "火車每小時從車站發車。"
+          },
+          {
+            "sentence": "I receive [hourly] updates about the situation.",
+            "translation_zh_TW": "我每小時收到有關情況的更新。"
+          },
+          {
+            "sentence": "The service is available [hourly] for convenience.",
+            "translation_zh_TW": "該服務每小時提供方便。"
+          }
+        ],
+        "synonyms": [
+          "every hour",
+          "per hour"
+        ]
+      }
+    ],
+    "confusion": [
+      "hourlye",
+      "hourl",
+      "houly",
+      "houlry"
+    ]
+  },
+  {
+    "word": "sink",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To go down below the surface of something, especially a liquid.",
+        "meaning_zh_TW": "下沉，沉沒",
+        "wrong_meaning_zh_TW": [
+          "漂浮",
+          "上升",
+          "懸浮"
+        ],
+        "examples": [
+          {
+            "sentence": "The boat began to [sink] slowly.",
+            "translation_zh_TW": "小船開始慢慢下沉"
+          },
+          {
+            "sentence": "If you drop the stone, it will [sink] in the water.",
+            "translation_zh_TW": "如果你把石頭扔下去，它會在水中沉沒"
+          },
+          {
+            "sentence": "He watched the ship [sink] beneath the waves.",
+            "translation_zh_TW": "他看著船在波浪下沉"
+          }
+        ],
+        "synonyms": [
+          "submerge",
+          "descend"
+        ]
+      }
+    ],
+    "confusion": [
+      "sinking",
+      "sank",
+      "sinkhole",
+      "sync"
+    ]
+  },
+  {
+    "word": "assure",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To tell someone something positively to dispel any doubts.",
+        "meaning_zh_TW": "保證、向…確信",
+        "wrong_meaning_zh_TW": [
+          "懷疑、質疑",
+          "放棄、拋棄",
+          "懲罰、制裁"
+        ],
+        "examples": [
+          {
+            "sentence": "I [assure] you that everything will be fine.",
+            "translation_zh_TW": "我向你保證一切都會好"
+          },
+          {
+            "sentence": "The manager [assured] the staff of their roles.",
+            "translation_zh_TW": "經理向員工們保證了他們的角色"
+          },
+          {
+            "sentence": "Please [assure] him of my support.",
+            "translation_zh_TW": "請向他保證我會支持他"
+          }
+        ],
+        "synonyms": [
+          "guarantee",
+          "ensure"
+        ]
+      }
+    ],
+    "confusion": [
+      "ensure",
+      "ensure",
+      "assured",
+      "assuredly"
+    ]
+  },
+  {
+    "word": "invitation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A spoken or written request to attend an event.",
+        "meaning_zh_TW": "邀請",
+        "wrong_meaning_zh_TW": [
+          "拒絕",
+          "通知",
+          "禮物"
+        ],
+        "examples": [
+          {
+            "sentence": "I received an [invitation] to the wedding.",
+            "translation_zh_TW": "我收到了結婚的邀請"
+          },
+          {
+            "sentence": "Don't forget to send out the [invitations] for the party.",
+            "translation_zh_TW": "不要忘記寄出派對的邀請"
+          },
+          {
+            "sentence": "The [invitation] was beautifully designed.",
+            "translation_zh_TW": "這個邀請函設計得很漂亮"
+          }
+        ],
+        "synonyms": [
+          "request",
+          "summons"
+        ]
+      }
+    ],
+    "confusion": [
+      "invincible",
+      "innovation",
+      "invader",
+      "invocation"
+    ]
+  },
+  {
+    "word": "meanwhile",
     "meanings": [
       {
         "type": "副詞",
-        "meaning_en_US": "In some way that is not specified or known.",
-        "meaning_zh_TW": "不知怎麼地",
+        "meaning_en_US": "At the same time; during this time.",
+        "meaning_zh_TW": "同時",
         "wrong_meaning_zh_TW": [
-          "有意地",
-          "隨便地",
-          "簡單地"
+          "因此",
+          "總之",
+          "不過"
         ],
         "examples": [
           {
-            "sentence": "I [somehow] managed to finish the project on time.",
-            "translation_zh_TW": "我不知怎麼地按時完成了這個項目"
+            "sentence": "She was studying; [meanwhile], her friends were playing outside.",
+            "translation_zh_TW": "她正在學習；同時，她的朋友們在外面玩耍。"
           },
           {
-            "sentence": "She [somehow] knew what I was thinking.",
-            "translation_zh_TW": "她不知怎麼地知道我在想什麼"
+            "sentence": "The movie started at 8 PM; [meanwhile], we had dinner.",
+            "translation_zh_TW": "電影在晚上8點開始；同時，我們吃了晚餐。"
           },
           {
-            "sentence": "We’ll find a way to get there [somehow].",
-            "translation_zh_TW": "我們不知怎麼地會找到去那裡的方法"
+            "sentence": "[Meanwhile], the workers were fixing the road.",
+            "translation_zh_TW": "同時，工人在修理道路。"
           }
         ],
         "synonyms": [
-          "in some way",
-          "by some means"
+          "simultaneously",
+          "at the same time"
         ]
       }
     ],
     "confusion": [
-      "somehowy",
-      "someHou",
-      "somehaw",
-      "somhow"
-    ]
-  },
-  {
-    "word": "text",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The main body of matter in a manuscript, book, or other work.",
-        "meaning_zh_TW": "文本",
-        "wrong_meaning_zh_TW": [
-          "封面",
-          "字母表",
-          "插圖"
-        ],
-        "examples": [
-          {
-            "sentence": "Please refer to the [text] for details.",
-            "translation_zh_TW": "請參閱文本以了解詳細信息。"
-          },
-          {
-            "sentence": "The professor asked us to analyze the [text].",
-            "translation_zh_TW": "教授要求我們分析文本。"
-          },
-          {
-            "sentence": "This [text] contains valuable information.",
-            "translation_zh_TW": "這個文本包含有價值的信息。"
-          }
-        ],
-        "synonyms": [
-          "content",
-          "script"
-        ]
-      }
-    ],
-    "confusion": [
-      "texter",
-      "textbox",
-      "texture",
-      "texted"
-    ]
-  },
-  {
-    "word": "raw",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Not cooked, especially food.",
-        "meaning_zh_TW": "生的",
-        "wrong_meaning_zh_TW": [
-          "熱的",
-          "熟的",
-          "冷的"
-        ],
-        "examples": [
-          {
-            "sentence": "She prefers her vegetables [raw].",
-            "translation_zh_TW": "她更喜歡生蔬菜。"
-          },
-          {
-            "sentence": "Eating [raw] fish can be dangerous if not prepared properly.",
-            "translation_zh_TW": "如果處理不當，吃生魚可能會危險。"
-          },
-          {
-            "sentence": "He made a salad with [raw] ingredients.",
-            "translation_zh_TW": "他用生材料做了沙拉。"
-          }
-        ],
-        "synonyms": [
-          "uncooked",
-          "unprocessed"
-        ]
-      }
-    ],
-    "confusion": [
-      "row",
-      "roe",
-      "raws",
-      "roar"
-    ]
-  },
-  {
-    "word": "responsibility",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The state or fact of having a duty to deal with something.",
-        "meaning_zh_TW": "應負責的事",
-        "wrong_meaning_zh_TW": [
-          "任務",
-          "權力",
-          "優勢"
-        ],
-        "examples": [
-          {
-            "sentence": "It's my [responsibility] to keep the team informed.",
-            "translation_zh_TW": "保持團隊信息的通知是我的責任。"
-          },
-          {
-            "sentence": "She took her [responsibility] seriously.",
-            "translation_zh_TW": "她對她的責任非常重視。"
-          },
-          {
-            "sentence": "They have a [responsibility] to their community.",
-            "translation_zh_TW": "他們對社區有責任。"
-          }
-        ],
-        "synonyms": [
-          "duty",
-          "obligation"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "A thing that one is responsible for.",
-        "meaning_zh_TW": "應負責的事",
-        "wrong_meaning_zh_TW": [
-          "任務",
-          "權力",
-          "優勢"
-        ],
-        "examples": [
-          {
-            "sentence": "Each position carries its own [responsibilities].",
-            "translation_zh_TW": "每個職位都有其自身的責任。"
-          },
-          {
-            "sentence": "Understanding [responsibilities] is crucial for teamwork.",
-            "translation_zh_TW": "了解責任對於團隊合作至關重要。"
-          },
-          {
-            "sentence": "His [responsibility] includes training new hires.",
-            "translation_zh_TW": "他的責任包括培訓新人。"
-          }
-        ],
-        "synonyms": [
-          "task",
-          "chore"
-        ]
-      }
-    ],
-    "confusion": [
-      "responsively",
-      "responsibleness",
-      "response",
-      "responsable"
-    ]
-  },
-  {
-    "word": "agent",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who acts on behalf of another person or group.",
-        "meaning_zh_TW": "代理人、經紀人",
-        "wrong_meaning_zh_TW": [
-          "顧客、消費者",
-          "產品、商品",
-          "古董、寶物"
-        ],
-        "examples": [
-          {
-            "sentence": "The real estate [agent] helped us find a house.",
-            "translation_zh_TW": "房地產代理人幫助我們找到一個房子"
-          },
-          {
-            "sentence": "He is an undercover [agent] for the police.",
-            "translation_zh_TW": "他是警方的臥底"
-          },
-          {
-            "sentence": "An insurance [agent] can provide valuable advice.",
-            "translation_zh_TW": "保險代理人可以提供有價值的建議"
-          }
-        ],
-        "synonyms": [
-          "representative",
-          "broker"
-        ]
-      }
-    ],
-    "confusion": [
-      "agents",
-      "agant",
-      "agen",
-      "ageant"
-    ]
-  },
-  {
-    "word": "dump",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To unload a cargo or dispose of something from one place.",
-        "meaning_zh_TW": "卸貨、丟棄",
-        "wrong_meaning_zh_TW": [
-          "搬運",
-          "收集",
-          "打造"
-        ],
-        "examples": [
-          {
-            "sentence": "They decided to [dump] the old furniture.",
-            "translation_zh_TW": "他們決定丟掉舊家具"
-          },
-          {
-            "sentence": "He [dumped] the trash in the bin.",
-            "translation_zh_TW": "他把垃圾扔進垃圾箱"
-          },
-          {
-            "sentence": "The truck will [dump] its load here.",
-            "translation_zh_TW": "卡車將在此卸下貨物"
-          }
-        ],
-        "synonyms": [
-          "discard",
-          "dispose"
-        ]
-      }
-    ],
-    "confusion": [
-      "damp",
-      "jump",
-      "bump",
-      "dumping"
-    ]
-  },
-  {
-    "word": "koala",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large tree-dwelling marsupial native to Australia, known for its fluffy ears and nose.",
-        "meaning_zh_TW": "無尾熊",
-        "wrong_meaning_zh_TW": [
-          "貓",
-          "倉鼠",
-          "猩猩"
-        ],
-        "examples": [
-          {
-            "sentence": "The [koala] sleeps in eucalyptus trees.",
-            "translation_zh_TW": "無尾熊在尤加利樹上睡覺。"
-          },
-          {
-            "sentence": "Many people love to see [koalas] when they visit Australia.",
-            "translation_zh_TW": "許多人在訪問澳洲時喜歡看無尾熊。"
-          },
-          {
-            "sentence": "The [koala] is often mistaken for a bear.",
-            "translation_zh_TW": "無尾熊常常被誤認為是熊。"
-          }
-        ],
-        "synonyms": [
-          "marsupial",
-          "bear"
-        ]
-      }
-    ],
-    "confusion": [
-      "koalition",
-      "cola",
-      "koala bear",
-      "kola"
-    ]
-  },
-  {
-    "word": "tiny",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Very small in size or amount.",
-        "meaning_zh_TW": "微小的",
-        "wrong_meaning_zh_TW": [
-          "巨大無比的",
-          "廣泛的",
-          "重大的"
-        ],
-        "examples": [
-          {
-            "sentence": "She has a [tiny] dog that fits in her bag.",
-            "translation_zh_TW": "她有一隻微小的狗，能裝進她的包裡。"
-          },
-          {
-            "sentence": "He found a [tiny] crack in the wall.",
-            "translation_zh_TW": "他發現了牆上的一個微小裂縫。"
-          },
-          {
-            "sentence": "The [tiny] details make a big difference.",
-            "translation_zh_TW": "微小的細節會帶來很大的差異。"
-          }
-        ],
-        "synonyms": [
-          "minuscule",
-          "miniature"
-        ]
-      }
-    ],
-    "confusion": [
-      "tinny",
-      "tine",
-      "tany",
-      "tyny"
-    ]
-  },
-  {
-    "word": "ambassador",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An official representative of a country, typically sent to a foreign country.",
-        "meaning_zh_TW": "大使",
-        "wrong_meaning_zh_TW": [
-          "代表團",
-          "使者",
-          "官員"
-        ],
-        "examples": [
-          {
-            "sentence": "The [ambassador] spoke at the international summit.",
-            "translation_zh_TW": "大使在國際峰會上發言。"
-          },
-          {
-            "sentence": "Every country has an [ambassador] in the United Nations.",
-            "translation_zh_TW": "每個國家在聯合國都有一位大使。"
-          },
-          {
-            "sentence": "The [ambassador] promoted cultural exchange between nations.",
-            "translation_zh_TW": "大使促進國家間的文化交流。"
-          }
-        ],
-        "synonyms": [
-          "envoy",
-          "legate"
-        ]
-      }
-    ],
-    "confusion": [
-      "ambassadress",
-      "ambassdor",
-      "ambasssador",
-      "amboassdor"
-    ]
-  },
-  {
-    "word": "stomach",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The internal organ where food is digested.",
-        "meaning_zh_TW": "胃",
-        "wrong_meaning_zh_TW": [
-          "腦部",
-          "手腕",
-          "腳踝"
-        ],
-        "examples": [
-          {
-            "sentence": "He felt a sharp pain in his [stomach] after eating.",
-            "translation_zh_TW": "吃完後，他感到肚子裡有劇痛。"
-          },
-          {
-            "sentence": "The doctor checked her [stomach] for any issues.",
-            "translation_zh_TW": "醫生檢查了她的肚子以確定有沒有問題。"
-          },
-          {
-            "sentence": "She has a strong [stomach] for spicy food.",
-            "translation_zh_TW": "她的腸胃能很好地忍受辛辣食物。"
-          }
-        ],
-        "synonyms": [
-          "belly",
-          "tummy"
-        ]
-      }
-    ],
-    "confusion": [
-      "stomachs",
-      "stomachache",
-      "stomping",
-      "smoky"
-    ]
-  },
-  {
-    "word": "technical",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to a particular subject, art, or craft, or its techniques.",
-        "meaning_zh_TW": "技術的",
-        "wrong_meaning_zh_TW": [
-          "藝術的",
-          "抽象的",
-          "理論的"
-        ],
-        "examples": [
-          {
-            "sentence": "He has a strong [technical] background in engineering.",
-            "translation_zh_TW": "他在工程方面有很強的技術背景"
-          },
-          {
-            "sentence": "The report contained [technical] details about the project.",
-            "translation_zh_TW": "報告中包含了有關該項目的技術細節"
-          },
-          {
-            "sentence": "She demonstrated [technical] proficiency in her work.",
-            "translation_zh_TW": "她展示了她工作的技術熟練程度"
-          }
-        ],
-        "synonyms": [
-          "specialized",
-          "expert"
-        ]
-      }
-    ],
-    "confusion": [
-      "technically",
-      "technique",
-      "technician",
-      "tech"
-    ]
-  },
-  {
-    "word": "closet",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A small room or space for storage.",
-        "meaning_zh_TW": "衣櫥",
-        "wrong_meaning_zh_TW": [
-          "大廳",
-          "工作室",
-          "車庫"
-        ],
-        "examples": [
-          {
-            "sentence": "She keeps her clothes in the [closet].",
-            "translation_zh_TW": "她把衣服放在衣櫥裡。"
-          },
-          {
-            "sentence": "He found a hidden space in the [closet].",
-            "translation_zh_TW": "他在衣櫥裡找到了隱藏的空間。"
-          },
-          {
-            "sentence": "The [closet] was filled with old shoes.",
-            "translation_zh_TW": "衣櫥裡堆滿了舊鞋子。"
-          }
-        ],
-        "synonyms": [
-          "wardrobe",
-          "cabinets"
-        ]
-      }
-    ],
-    "confusion": [
-      "cloister",
-      "closet",
-      "closes",
-      "closes"
+      "meanwhile",
+      "meanwheat",
+      "meantime",
+      "meenwhile"
     ]
   }
 ]

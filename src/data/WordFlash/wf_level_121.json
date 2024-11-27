@@ -1,159 +1,470 @@
 [
   {
-    "word": "university",
+    "word": "designer",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An institution of higher education that provides degree courses.",
-        "meaning_zh_TW": "大學",
+        "meaning_en_US": "A person who plans the form, look, or workings of something before it is made or built.",
+        "meaning_zh_TW": "設計師",
         "wrong_meaning_zh_TW": [
-          "小學",
-          "幼兒園",
-          "圖書館"
+          "建築師",
+          "藝術家",
+          "製造商"
         ],
         "examples": [
           {
-            "sentence": "She plans to attend a prestigious [university].",
-            "translation_zh_TW": "她計劃去一所著名的大學"
+            "sentence": "The [designer] created a stunning collection for the fashion show.",
+            "translation_zh_TW": "這位設計師為時裝秀創作了一個驚人的系列。"
           },
           {
-            "sentence": "The [university] offers a variety of programs.",
-            "translation_zh_TW": "這所大學提供各種課程"
+            "sentence": "An interior [designer] can transform a space into something beautiful.",
+            "translation_zh_TW": "室內設計師可以將空間變成美麗的作品。"
           },
           {
-            "sentence": "Many famous scientists graduated from that [university].",
-            "translation_zh_TW": "許多著名科學家畢業於那所大學"
+            "sentence": "She works as a graphic [designer] in a marketing firm.",
+            "translation_zh_TW": "她在一家行銷公司擔任圖形設計師。"
           }
         ],
         "synonyms": [
-          "college",
-          "institution",
-          "academy"
+          "creator",
+          "planner"
         ]
       }
     ],
     "confusion": [
-      "universities",
-      "universal",
-      "unified",
-      "unison"
+      "designing",
+      "designer's",
+      "design",
+      "designee"
     ]
   },
   {
-    "word": "postponement",
+    "word": "remain",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To continue to exist, especially after other similar people or things have gone.",
+        "meaning_zh_TW": "保持、留下",
+        "wrong_meaning_zh_TW": [
+          "遺失",
+          "消失",
+          "改變"
+        ],
+        "examples": [
+          {
+            "sentence": "Only a few artifacts [remain] from the ancient civilization.",
+            "translation_zh_TW": "只剩下幾件文物來自古代文明。"
+          },
+          {
+            "sentence": "He chose to [remain] silent during the discussion.",
+            "translation_zh_TW": "他選擇在討論中保持沉默。"
+          },
+          {
+            "sentence": "The food must [remain] cold until served.",
+            "translation_zh_TW": "食物必須保持冷藏直至供應。"
+          }
+        ],
+        "synonyms": [
+          "stay",
+          "persist"
+        ]
+      }
+    ],
+    "confusion": [
+      "remains",
+      "reamain",
+      "remian",
+      "re.main"
+    ]
+  },
+  {
+    "word": "perform",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To carry out, accomplish, or fulfill an action or task.",
+        "meaning_zh_TW": "表演",
+        "wrong_meaning_zh_TW": [
+          "終止",
+          "退回",
+          "推遲"
+        ],
+        "examples": [
+          {
+            "sentence": "The actor will [perform] in a new play.",
+            "translation_zh_TW": "這位演員將在一個新劇中表演。"
+          },
+          {
+            "sentence": "He needs to [perform] well to pass the exam.",
+            "translation_zh_TW": "他需要好好表現才能通過考試。"
+          },
+          {
+            "sentence": "We will [perform] a test to check the equipment.",
+            "translation_zh_TW": "我們將進行測試以檢查設備。"
+          }
+        ],
+        "synonyms": [
+          "execute",
+          "conduct"
+        ]
+      }
+    ],
+    "confusion": [
+      "performer",
+      "performing",
+      "performs",
+      "preform"
+    ]
+  },
+  {
+    "word": "injury",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The action of delaying or postponing something.",
-        "meaning_zh_TW": "推遲",
+        "meaning_en_US": "Harm or damage done to a person or a thing.",
+        "meaning_zh_TW": "傷害",
         "wrong_meaning_zh_TW": [
-          "優先",
-          "計劃",
-          "增加"
+          "競賽",
+          "獎牌",
+          "治療"
         ],
         "examples": [
           {
-            "sentence": "The [postponement] of the game was announced yesterday.",
-            "translation_zh_TW": "比賽推遲的消息於昨天宣布"
+            "sentence": "He suffered a serious [injury] during the match.",
+            "translation_zh_TW": "他在比賽中遭受了嚴重的傷害。"
           },
           {
-            "sentence": "We are awaiting a decision on the [postponement].",
-            "translation_zh_TW": "我們在等待對推遲的決定"
+            "sentence": "The [injury] requires immediate medical attention.",
+            "translation_zh_TW": "這傷需要立即的醫療處理。"
           },
           {
-            "sentence": "The [postponement] caused a lot of confusion.",
-            "translation_zh_TW": "推遲造成了很多困惑"
+            "sentence": "Preventing [injury] should be a priority in sports.",
+            "translation_zh_TW": "防止傷害應該是運動的首要任務。"
           }
         ],
         "synonyms": [
-          "deferment",
-          "delay"
+          "wound",
+          "harm"
         ]
       }
     ],
     "confusion": [
-      "post",
-      "possession",
-      "posters",
-      "postulate"
+      "injuries",
+      "injurious",
+      "injured",
+      "injunction"
     ]
   },
   {
-    "word": "persuade",
+    "word": "toward",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To cause someone to do something through reasoning or argument.",
-        "meaning_zh_TW": "說服",
+        "type": "介系詞",
+        "meaning_en_US": "In the direction of.",
+        "meaning_zh_TW": "朝向",
         "wrong_meaning_zh_TW": [
-          "強迫",
-          "抵抗",
-          "拒絕"
+          "反方向",
+          "往後",
+          "旁邊"
         ],
         "examples": [
           {
-            "sentence": "He tried to [persuade] her to join the team.",
-            "translation_zh_TW": "他試圖說服她加入團隊。"
+            "sentence": "She walked [toward] the beach.",
+            "translation_zh_TW": "她朝著沙灘走去。"
           },
           {
-            "sentence": "They [persuade] him to change his mind.",
-            "translation_zh_TW": "他們說服他改變主意。"
+            "sentence": "The car is heading [toward] the city.",
+            "translation_zh_TW": "那輛車正朝著城市開去。"
           },
           {
-            "sentence": "I need to [persuade] my parents to let me travel.",
-            "translation_zh_TW": "我需要說服我的父母讓我去旅行。"
+            "sentence": "He gestured [toward] the exit.",
+            "translation_zh_TW": "他指向出口的方向。"
           }
         ],
         "synonyms": [
-          "convince",
-          "influence"
+          "in the direction of",
+          "facing"
         ]
       }
     ],
     "confusion": [
-      "persuasive",
-      "persuasion",
-      "persuasively",
-      "prusade"
+      "towards",
+      "towardness",
+      "towardly",
+      "towling"
     ]
   },
   {
-    "word": "scream",
+    "word": "assist",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To utter a loud, sharp cry.",
-        "meaning_zh_TW": "尖叫",
+        "meaning_en_US": "To help or give support to.",
+        "meaning_zh_TW": "協助",
         "wrong_meaning_zh_TW": [
-          "低語",
-          "笑",
-          "哭"
+          "妨礙",
+          "代表",
+          "倖存"
         ],
         "examples": [
           {
-            "sentence": "She began to [scream] when she saw the spider.",
-            "translation_zh_TW": "當她看到蜘蛛時開始尖叫"
+            "sentence": "She will [assist] you with your project.",
+            "translation_zh_TW": "她會協助你完成你的專案。"
           },
           {
-            "sentence": "Don't [scream], it's just a movie!",
-            "translation_zh_TW": "不要尖叫，這只是一部電影！"
+            "sentence": "The teacher was happy to [assist] the students.",
+            "translation_zh_TW": "老師很高興能夠協助學生。"
           },
           {
-            "sentence": "He let out a [scream] of joy when he won.",
-            "translation_zh_TW": "當他贏了時，發出了一聲喜悅的尖叫"
+            "sentence": "Can you [assist] me in finding the library?",
+            "translation_zh_TW": "你能協助我找到圖書館嗎？"
           }
         ],
         "synonyms": [
-          "yell",
-          "shriek"
+          "help",
+          "aid"
         ]
       }
     ],
     "confusion": [
-      "screem",
-      "screem",
-      "screm",
-      "scpeam"
+      "assess",
+      "assize",
+      "assault",
+      "assistive"
+    ]
+  },
+  {
+    "word": "jazz",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A type of music characterized by a strong rhythm and improvisation.",
+        "meaning_zh_TW": "爵士樂",
+        "wrong_meaning_zh_TW": [
+          "古典音樂",
+          "熱門音樂",
+          "藍調音樂"
+        ],
+        "examples": [
+          {
+            "sentence": "She loves to listen to [jazz] music at night.",
+            "translation_zh_TW": "她喜歡在晚上聽爵士樂"
+          },
+          {
+            "sentence": "The club features live [jazz] performances.",
+            "translation_zh_TW": "該俱樂部有現場的爵士演出"
+          },
+          {
+            "sentence": "He plays the trumpet in a [jazz] band.",
+            "translation_zh_TW": "他在一個爵士樂隊裡吹喇叭"
+          }
+        ],
+        "synonyms": [
+          "swing",
+          "blues"
+        ]
+      }
+    ],
+    "confusion": [
+      "jazzed",
+      "jazzle",
+      "jazzing",
+      "jazzes"
+    ]
+  },
+  {
+    "word": "representative",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who represents others, especially in a specific role or position.",
+        "meaning_zh_TW": "代表人、代表",
+        "wrong_meaning_zh_TW": [
+          "旁觀者、見證人",
+          "參與者、會員",
+          "應徵者、候選人"
+        ],
+        "examples": [
+          {
+            "sentence": "The sales [representative] visited our office.",
+            "translation_zh_TW": "銷售代表拜訪了我們的辦公室。"
+          },
+          {
+            "sentence": "Each party has a [representative] in the conference.",
+            "translation_zh_TW": "每個政黨在會議上都有一位代表。"
+          },
+          {
+            "sentence": "She was elected as the [representative] for our district.",
+            "translation_zh_TW": "她被選為我們選區的代表。"
+          }
+        ],
+        "synonyms": [
+          "delegate",
+          "agent"
+        ]
+      }
+    ],
+    "confusion": [
+      "representitives",
+      "repressentative",
+      "representativ",
+      "represetative"
+    ]
+  },
+  {
+    "word": "extreme",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Reaching a high or the highest degree; very severe or serious.",
+        "meaning_zh_TW": "極端的",
+        "wrong_meaning_zh_TW": [
+          "普通的",
+          "平常的",
+          "安靜的"
+        ],
+        "examples": [
+          {
+            "sentence": "The weather conditions were [extreme] during the storm.",
+            "translation_zh_TW": "暴風雨期間天氣條件非常極端"
+          },
+          {
+            "sentence": "She has an [extreme] fear of heights.",
+            "translation_zh_TW": "她有對高處的極端恐懼"
+          },
+          {
+            "sentence": "The athlete trains under [extreme] conditions.",
+            "translation_zh_TW": "這位運動員在極端條件下訓練"
+          }
+        ],
+        "synonyms": [
+          "intense",
+          "severe"
+        ]
+      }
+    ],
+    "confusion": [
+      "intreme",
+      "extrude",
+      "examine",
+      "extremity"
+    ]
+  },
+  {
+    "word": "accuracy",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The quality or state of being correct or precise.",
+        "meaning_zh_TW": "準確性",
+        "wrong_meaning_zh_TW": [
+          "不確定性",
+          "模糊性",
+          "誤差"
+        ],
+        "examples": [
+          {
+            "sentence": "The accuracy of the data is essential for the research.",
+            "translation_zh_TW": "數據的準確性對研究至關重要"
+          },
+          {
+            "sentence": "He measured the walls to ensure accuracy.",
+            "translation_zh_TW": "他測量牆壁以確保準確性"
+          },
+          {
+            "sentence": "We need to improve the accuracy of our measurements.",
+            "translation_zh_TW": "我們需要提高我們測量的準確性"
+          }
+        ],
+        "synonyms": [
+          "precision",
+          "exactness"
+        ]
+      }
+    ],
+    "confusion": [
+      "accuracy",
+      "accurate",
+      " inaccurately",
+      "accuse"
+    ]
+  },
+  {
+    "word": "violence",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Behavior involving physical force intended to hurt, damage, or kill someone or something.",
+        "meaning_zh_TW": "暴力",
+        "wrong_meaning_zh_TW": [
+          "和平",
+          "友誼",
+          "團結"
+        ],
+        "examples": [
+          {
+            "sentence": "The movie depicts extreme [violence] and is not suitable for children.",
+            "translation_zh_TW": "這部電影描繪了極端的暴力，並不適合兒童觀看。"
+          },
+          {
+            "sentence": "Communities are working to reduce [violence] in their areas.",
+            "translation_zh_TW": "社區正在努力減少他們區域的暴力。"
+          },
+          {
+            "sentence": "He spoke out against [violence] in any form.",
+            "translation_zh_TW": "他反對任何形式的暴力。"
+          }
+        ],
+        "synonyms": [
+          "aggression",
+          "ferocity"
+        ]
+      }
+    ],
+    "confusion": [
+      "violation",
+      "violent",
+      "violante",
+      "volence"
+    ]
+  },
+  {
+    "word": "agriculture",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The science or practice of farming, including the cultivation of the soil for growing crops.",
+        "meaning_zh_TW": "農業",
+        "wrong_meaning_zh_TW": [
+          "工業",
+          "商業",
+          "音樂"
+        ],
+        "examples": [
+          {
+            "sentence": "Advancements in [agriculture] have increased food production.",
+            "translation_zh_TW": "農業的進步提高了糧食生產"
+          },
+          {
+            "sentence": "He studies [agriculture] at the university.",
+            "translation_zh_TW": "他在大學研究農業"
+          },
+          {
+            "sentence": "Sustainable [agriculture] is essential for the future.",
+            "translation_zh_TW": "可持續農業對未來至關重要"
+          }
+        ],
+        "synonyms": [
+          "farming",
+          "cultivation"
+        ]
+      }
+    ],
+    "confusion": [
+      "aggressive",
+      "aggregate",
+      "agility",
+      "aggro"
     ]
   },
   {
@@ -196,591 +507,277 @@
     ]
   },
   {
-    "word": "afterwards",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "At a later time; after an event.",
-        "meaning_zh_TW": "隨後",
-        "wrong_meaning_zh_TW": [
-          "當前",
-          "立刻",
-          "已經"
-        ],
-        "examples": [
-          {
-            "sentence": "We went shopping and [afterwards], we had coffee.",
-            "translation_zh_TW": "我們去購物，然後隨後喝了咖啡。"
-          },
-          {
-            "sentence": "She felt relieved [afterwards] when everything was settled.",
-            "translation_zh_TW": "當一切都解決後，她感到隨後的輕鬆。"
-          },
-          {
-            "sentence": "They had a meeting and [afterwards] discussed the results.",
-            "translation_zh_TW": "他們開會後輕鬆地討論結果。"
-          }
-        ],
-        "synonyms": [
-          "later",
-          "subsequently"
-        ]
-      }
-    ],
-    "confusion": [
-      "afterward",
-      "beforehand",
-      "afterdoing",
-      "afterwarded"
-    ]
-  },
-  {
-    "word": "hammer",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A tool with a heavy head used for pounding or striking.",
-        "meaning_zh_TW": "錘子",
-        "wrong_meaning_zh_TW": [
-          "鉗子",
-          "剪刀",
-          "鋸子"
-        ],
-        "examples": [
-          {
-            "sentence": "He used a [hammer] to drive the nails into the wood.",
-            "translation_zh_TW": "他用錘子把釘子打進木頭裡。"
-          },
-          {
-            "sentence": "The carpenter took out his [hammer] to start working.",
-            "translation_zh_TW": "木匠拿出他的錘子開始工作。"
-          },
-          {
-            "sentence": "A [hammer] is essential for many construction projects.",
-            "translation_zh_TW": "錘子對許多建築項目至關重要。"
-          }
-        ],
-        "synonyms": [
-          "mallet",
-          "sledgehammer"
-        ]
-      }
-    ],
-    "confusion": [
-      "hammock",
-      "hammers",
-      "hummer",
-      "hamster"
-    ]
-  },
-  {
-    "word": "subtract",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To take away a number from another.",
-        "meaning_zh_TW": "減去",
-        "wrong_meaning_zh_TW": [
-          "增加",
-          "合併",
-          "乘以"
-        ],
-        "examples": [
-          {
-            "sentence": "If you [subtract] three from ten, you get seven.",
-            "translation_zh_TW": "如果你從十中減去三，就會得到七。"
-          },
-          {
-            "sentence": "To solve the equation, you need to [subtract] both sides.",
-            "translation_zh_TW": "要解這個方程式，你需要對兩邊進行減法。"
-          },
-          {
-            "sentence": "They [subtracted] the expenses from the total income.",
-            "translation_zh_TW": "他們把開支從總收入中減掉。"
-          }
-        ],
-        "synonyms": [
-          "deduct",
-          "subtract"
-        ]
-      }
-    ],
-    "confusion": [
-      "subtraction",
-      "subtracts",
-      "substract",
-      "contract"
-    ]
-  },
-  {
-    "word": "outdoor",
+    "word": "junior",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Relating to or located in the outdoors.",
-        "meaning_zh_TW": "戶外的",
+        "meaning_en_US": "Lower in rank or status than another.",
+        "meaning_zh_TW": "初級的，年輕的",
         "wrong_meaning_zh_TW": [
-          "室內的",
-          "閉塞的",
-          "擁擠的"
+          "資深的",
+          "成熟的",
+          "進階的"
         ],
         "examples": [
           {
-            "sentence": "They enjoy [outdoor] activities on weekends.",
-            "translation_zh_TW": "他們喜歡在週末參加戶外活動。"
+            "sentence": "He is a [junior] member of the team.",
+            "translation_zh_TW": "他是團隊中的初級成員。"
           },
           {
-            "sentence": "We went for an [outdoor] picnic in the park.",
-            "translation_zh_TW": "我們在公園裡進行了戶外野餐。"
+            "sentence": "The [junior] year is a significant time in college.",
+            "translation_zh_TW": "大三是大學生活中的重要時期。"
           },
           {
-            "sentence": "The festival will host [outdoor] games for everyone.",
-            "translation_zh_TW": "這個節日將為每個人舉辦戶外遊戲。"
+            "sentence": "She holds a [junior] position in the company.",
+            "translation_zh_TW": "她在公司中擔任初級職位。"
           }
         ],
         "synonyms": [
-          "external",
-          "al fresco"
+          "lower",
+          "younger",
+          "subordinate"
         ]
       }
     ],
     "confusion": [
-      "indoors",
-      "outdo",
-      "outer",
-      "outdone"
+      "juniores",
+      "juniority",
+      "juniper",
+      "juncture"
     ]
   },
   {
-    "word": "urban",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to, or characteristic of a city or town.",
-        "meaning_zh_TW": "都市的、城市的",
-        "wrong_meaning_zh_TW": [
-          "鄉村的、田園的",
-          "小鎮的、地方的",
-          "破舊的、殘舊的"
-        ],
-        "examples": [
-          {
-            "sentence": "Urban areas tend to have a higher population density.",
-            "translation_zh_TW": "都市地區通常擁有較高的人口密度。"
-          },
-          {
-            "sentence": "Many urban communities face challenges related to housing.",
-            "translation_zh_TW": "許多城市社區面臨與住房有關的挑戰。"
-          },
-          {
-            "sentence": "She enjoys the vibrant culture of urban life.",
-            "translation_zh_TW": "她喜歡城市生活的多元文化。"
-          }
-        ],
-        "synonyms": [
-          "metropolitan",
-          "city",
-          "town"
-        ]
-      }
-    ],
-    "confusion": [
-      "urbane",
-      "urbanite",
-      "ubran",
-      "urbanism"
-    ]
-  },
-  {
-    "word": "weekday",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Any day of the week except Saturday and Sunday.",
-        "meaning_zh_TW": "平日。",
-        "wrong_meaning_zh_TW": [
-          "假期",
-          "最後一天",
-          "星期天"
-        ],
-        "examples": [
-          {
-            "sentence": "He works from home on [weekdays].",
-            "translation_zh_TW": "他在平日從家裡工作。"
-          },
-          {
-            "sentence": "Public transport is more crowded on [weekdays].",
-            "translation_zh_TW": "平日公共交通更擁擠。"
-          },
-          {
-            "sentence": "I prefer to do my shopping on [weekdays] to avoid crowds.",
-            "translation_zh_TW": "我更喜歡在平日購物以避開人群。"
-          }
-        ],
-        "synonyms": [
-          "working days",
-          "business days"
-        ]
-      }
-    ],
-    "confusion": [
-      "weak day",
-      "weekend",
-      "weekly",
-      "dayweek"
-    ]
-  },
-  {
-    "word": "whatever",
+    "word": "whom",
     "meanings": [
       {
         "type": "代名詞",
-        "meaning_en_US": "Anything or everything; no matter what.",
-        "meaning_zh_TW": "任何",
+        "meaning_en_US": "Used instead of 'who' as the object of a verb or preposition.",
+        "meaning_zh_TW": "誰（賓格）",
         "wrong_meaning_zh_TW": [
-          "沒有",
-          "一點點",
-          "特定的"
+          "哪一個",
+          "誰的",
+          "誰（主格）"
         ],
         "examples": [
           {
-            "sentence": "You can choose [whatever] you like.",
-            "translation_zh_TW": "你可以選擇任何你喜歡的"
+            "sentence": "To [whom] it may concern.",
+            "translation_zh_TW": "致關心的人"
           },
           {
-            "sentence": "I’ll support you, [whatever] happens.",
-            "translation_zh_TW": "無論發生什麼，我都會支持你"
+            "sentence": "I know [whom] you mean.",
+            "translation_zh_TW": "我知道你指的是誰"
           },
           {
-            "sentence": "Just say [whatever], and I’ll listen.",
-            "translation_zh_TW": "隨便說什麼，我都願意聆聽"
+            "sentence": "[Whom] did you see at the party?",
+            "translation_zh_TW": "你在派對上看見誰？"
           }
         ],
         "synonyms": [
-          "anything",
-          "no matter what"
+          "who",
+          "that"
         ]
       }
     ],
     "confusion": [
-      "whenever",
-      "whateverly",
-      "whatsoever",
-      "wherever"
+      "whomsoever",
+      "whomever",
+      "whomping",
+      "whompy"
     ]
   },
   {
-    "word": "brunch",
+    "word": "ski",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To travel on skis down a slope.",
+        "meaning_zh_TW": "滑雪",
+        "wrong_meaning_zh_TW": [
+          "騎馬",
+          "爬山",
+          "游泳"
+        ],
+        "examples": [
+          {
+            "sentence": "They plan to [ski] during winter vacation.",
+            "translation_zh_TW": "他們打算在寒假期間去滑雪。"
+          },
+          {
+            "sentence": "She learned to [ski] when she was a child.",
+            "translation_zh_TW": "她在小時候學會了滑雪。"
+          },
+          {
+            "sentence": "We enjoy [skiing] every year in the Alps.",
+            "translation_zh_TW": "我們每年都喜歡在阿爾卑斯山滑雪。"
+          }
+        ],
+        "synonyms": [
+          "glide",
+          "board"
+        ]
+      }
+    ],
+    "confusion": [
+      "skii",
+      "skiing",
+      "sci",
+      "skein"
+    ]
+  },
+  {
+    "word": "import",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To bring goods or services into a country from abroad for sale.",
+        "meaning_zh_TW": "進口.",
+        "wrong_meaning_zh_TW": [
+          "進步",
+          "報導",
+          "假設"
+        ],
+        "examples": [
+          {
+            "sentence": "We need to [import] more raw materials for production.",
+            "translation_zh_TW": "我們需要進口更多的原材料以供生產。"
+          },
+          {
+            "sentence": "The government imposed tariffs on goods that are [imported].",
+            "translation_zh_TW": "政府對進口的商品徵收關稅。"
+          },
+          {
+            "sentence": "Many countries [import] luxury items from Europe.",
+            "translation_zh_TW": "許多國家從歐洲進口奢侈品。"
+          }
+        ],
+        "synonyms": [
+          "bring in",
+          "purchase from abroad"
+        ]
+      }
+    ],
+    "confusion": [
+      "export",
+      "impart",
+      "importer",
+      "impost"
+    ]
+  },
+  {
+    "word": "presence",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A meal that combines breakfast and lunch, typically eaten late in the morning.",
-        "meaning_zh_TW": "早午餐",
+        "meaning_en_US": "The state of being present, or the fact of being in a particular place.",
+        "meaning_zh_TW": "存在",
         "wrong_meaning_zh_TW": [
-          "宵夜",
-          "甜點",
-          "飲料"
+          "退場",
+          "消失",
+          "缺席"
         ],
         "examples": [
           {
-            "sentence": "We decided to have [brunch] at the new café.",
-            "translation_zh_TW": "我們決定在新咖啡館吃早午餐"
+            "sentence": "Her [presence] made the event much more enjoyable.",
+            "translation_zh_TW": "她的存在讓活動更加愉快。"
           },
           {
-            "sentence": "Brunch is my favorite way to spend a Sunday.",
-            "translation_zh_TW": "早午餐是我週日最喜歡的方式"
+            "sentence": "He could feel her [presence] in the room.",
+            "translation_zh_TW": "他能感受到她在房間裡的存在。"
           },
           {
-            "sentence": "They serve delicious pancakes for [brunch].",
-            "translation_zh_TW": "他們的早午餐提供美味的煎餅"
+            "sentence": "The ambassador's [presence] signified the importance of the meeting.",
+            "translation_zh_TW": "大使的出席標誌著會議的重要性。"
           }
         ],
         "synonyms": [
-          "breakfast-lunch",
-          "meal"
+          "existence",
+          "attendance"
         ]
       }
     ],
     "confusion": [
-      "bunch",
-      "crunch",
-      "lunch",
-      "brinch"
+      "presents",
+      "presense",
+      "pretense",
+      "preserve"
     ]
   },
   {
-    "word": "tender",
+    "word": "automatic",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Soft or delicate in texture or quality.",
-        "meaning_zh_TW": "柔軟的、嫩的",
+        "meaning_en_US": "Working by itself with little or no direct human control.",
+        "meaning_zh_TW": "自動的",
         "wrong_meaning_zh_TW": [
-          "堅硬的",
-          "粗糙的",
-          "粗大的"
+          "手動的",
+          "有意的",
+          "可選的"
         ],
         "examples": [
           {
-            "sentence": "The meat was so [tender] that it fell apart.",
-            "translation_zh_TW": "肉質柔嫩，以至於輕易分開。"
+            "sentence": "The doors open [automatic] at the touch of a button.",
+            "translation_zh_TW": "按一個按鈕，門就會自動打開。"
           },
           {
-            "sentence": "She has a [tender] heart and cares for others.",
-            "translation_zh_TW": "她心地柔軟，關心他人。"
+            "sentence": "She has an [automatic] response to that question.",
+            "translation_zh_TW": "對那個問題，她有一個自動性的回答。"
           },
           {
-            "sentence": "He gave her a [tender] smile.",
-            "translation_zh_TW": "他給了她一個柔和的微笑。"
+            "sentence": "The system is designed to provide [automatic] updates.",
+            "translation_zh_TW": "該系統設計為提供自動更新。"
           }
         ],
         "synonyms": [
-          "soft",
-          "delicate"
+          "self-operating",
+          "unmanned"
         ]
       }
     ],
     "confusion": [
-      "tenderness",
-      "tending",
-      "tenderer",
-      "tenderly"
+      "automated",
+      "automobile",
+      "autonomous",
+      "autopilot"
     ]
   },
   {
-    "word": "van",
+    "word": "majority",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A medium-sized road vehicle, typically box-shaped, for transporting goods.",
-        "meaning_zh_TW": "廂型車、貨車",
+        "meaning_en_US": "The greater number or part of something.",
+        "meaning_zh_TW": "大多數",
         "wrong_meaning_zh_TW": [
-          "轎車、跑車",
-          "摩托車、電動車",
-          "巴士、大巴"
+          "少部分",
+          "平均數",
+          "所有人"
         ],
         "examples": [
           {
-            "sentence": "They loaded the furniture into the [van].",
-            "translation_zh_TW": "他們把家具裝進了廂型車。"
+            "sentence": "The [majority] of voters supported the new law.",
+            "translation_zh_TW": "大多數選民支持這項新法律。"
           },
           {
-            "sentence": "The delivery [van] arrived on time.",
-            "translation_zh_TW": "送貨車準時到達。"
+            "sentence": "A [majority] can change the outcome of an election.",
+            "translation_zh_TW": "大多數可以改變選舉的結果。"
           },
           {
-            "sentence": "She drives a large van for her catering business.",
-            "translation_zh_TW": "她開一輛大廂型車來做餐飲業務。"
+            "sentence": "The [majority] agreed on the proposal.",
+            "translation_zh_TW": "大多數人同意該提議。"
           }
         ],
         "synonyms": [
-          "vehicle",
-          "truck",
-          "wagon"
+          "more than half",
+          "bulk"
         ]
       }
     ],
     "confusion": [
-      "vain",
-      "vans",
-      "vance",
-      "vanish"
-    ]
-  },
-  {
-    "word": "weapon",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An instrument used to inflict harm or damage on another.",
-        "meaning_zh_TW": "武器",
-        "wrong_meaning_zh_TW": [
-          "交通工具",
-          "道具",
-          "工具"
-        ],
-        "examples": [
-          {
-            "sentence": "The soldier carried a [weapon] into battle.",
-            "translation_zh_TW": "士兵帶著武器進入戰鬥"
-          },
-          {
-            "sentence": "Laws regulate the use of [weapons] for safety.",
-            "translation_zh_TW": "法律規範武器的使用以維護安全"
-          },
-          {
-            "sentence": "Knowledge can be a powerful [weapon].",
-            "translation_zh_TW": "知識可以是一種強大的武器"
-          }
-        ],
-        "synonyms": [
-          "arm",
-          "instrument"
-        ]
-      }
-    ],
-    "confusion": [
-      "weeping",
-      "western",
-      "woven",
-      "wheaten"
-    ]
-  },
-  {
-    "word": "lemonade",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A drink made from lemon juice, water, and sugar.",
-        "meaning_zh_TW": "檸檬水",
-        "wrong_meaning_zh_TW": [
-          "香檳",
-          "可樂",
-          "牛奶"
-        ],
-        "examples": [
-          {
-            "sentence": "She prepared fresh [lemonade] for the guests.",
-            "translation_zh_TW": "她為客人準備了新鮮的檸檬水。"
-          },
-          {
-            "sentence": "On a hot day, [lemonade] is very refreshing.",
-            "translation_zh_TW": "在炎熱的日子裡，檸檬水非常提神。"
-          },
-          {
-            "sentence": "He added strawberries to his [lemonade].",
-            "translation_zh_TW": "他在檸檬水中加入了草莓。"
-          }
-        ],
-        "synonyms": [
-          "citrus drink",
-          "refreshing beverage"
-        ]
-      }
-    ],
-    "confusion": [
-      "lemon",
-      "lemonade stand",
-      "lemons",
-      "leonade"
-    ]
-  },
-  {
-    "word": "dishonest",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Not truthful or sincere; cheating or misleading.",
-        "meaning_zh_TW": "不誠實的",
-        "wrong_meaning_zh_TW": [
-          "誠實的",
-          "直接的",
-          "優雅的"
-        ],
-        "examples": [
-          {
-            "sentence": "He was [dishonest] in his dealings.",
-            "translation_zh_TW": "他在交易中不誠實。"
-          },
-          {
-            "sentence": "Being [dishonest] can lead to serious consequences.",
-            "translation_zh_TW": "不誠實可能會導致嚴重後果。"
-          },
-          {
-            "sentence": "It's wrong to be [dishonest] with friends.",
-            "translation_zh_TW": "對朋友不誠實是錯的。"
-          }
-        ],
-        "synonyms": [
-          "deceitful",
-          "fraudulent"
-        ]
-      }
-    ],
-    "confusion": [
-      "discreet",
-      "dissonant",
-      "dissonance",
-      "disinterest"
-    ]
-  },
-  {
-    "word": "racial",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to a person's race.",
-        "meaning_zh_TW": "種族的",
-        "wrong_meaning_zh_TW": [
-          "文化的",
-          "國家的",
-          "地理的"
-        ],
-        "examples": [
-          {
-            "sentence": "Racial equality is an important issue today.",
-            "translation_zh_TW": "種族平等是今天的一個重要議題。"
-          },
-          {
-            "sentence": "She studies racial dynamics within society.",
-            "translation_zh_TW": "她研究社會中的種族動態。"
-          },
-          {
-            "sentence": "Racial tensions have been rising in recent years.",
-            "translation_zh_TW": "近年來，種族緊張局勢上升。"
-          }
-        ],
-        "synonyms": [
-          "ethnic",
-          "tribal",
-          "cultural"
-        ]
-      }
-    ],
-    "confusion": [
-      "racially",
-      "rational",
-      "regional",
-      "ration"
-    ]
-  },
-  {
-    "word": "tub",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large, round container used for storing liquids.",
-        "meaning_zh_TW": "缸，大桶",
-        "wrong_meaning_zh_TW": [
-          "叉子",
-          "盤子",
-          "碗"
-        ],
-        "examples": [
-          {
-            "sentence": "She filled the [tub] with warm water.",
-            "translation_zh_TW": "她用溫水填滿了浴缸。"
-          },
-          {
-            "sentence": "The garden has a [tub] for collecting rainwater.",
-            "translation_zh_TW": "花園裡有一個用來收集雨水的桶。"
-          },
-          {
-            "sentence": "They were washing their clothes in a [tub].",
-            "translation_zh_TW": "他們在桶裡洗衣服。"
-          }
-        ],
-        "synonyms": [
-          "container",
-          "vat"
-        ]
-      }
-    ],
-    "confusion": [
-      "tube",
-      "tubing",
-      "stub",
-      "cub"
+      "major",
+      "majestic",
+      "majorettes",
+      "mapority"
     ]
   }
 ]

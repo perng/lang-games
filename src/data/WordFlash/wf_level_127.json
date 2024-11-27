@@ -1,587 +1,197 @@
 [
   {
-    "word": "title",
+    "word": "cinema",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The name of a book, composition, or other artistic work.",
-        "meaning_zh_TW": "標題",
+        "meaning_en_US": "A place where movies are shown to the public.",
+        "meaning_zh_TW": "電影院",
         "wrong_meaning_zh_TW": [
-          "章節",
-          "作家",
-          "內容"
+          "音樂廳",
+          "博物館",
+          "藝術館"
         ],
         "examples": [
           {
-            "sentence": "What's the [title] of your favorite book?",
-            "translation_zh_TW": "你最喜歡的書名是什麼？"
+            "sentence": "We went to the [cinema] to watch the latest film.",
+            "translation_zh_TW": "我們去電影院看最新的電影"
           },
           {
-            "sentence": "The [title] of the movie was intriguing.",
-            "translation_zh_TW": "這部電影的標題引人入勝"
+            "sentence": "The [cinema] was packed with people on Friday night.",
+            "translation_zh_TW": "週五晚上電影院滿是人"
           },
           {
-            "sentence": "She earned the [title] of 'Best Employee'.",
-            "translation_zh_TW": "她獲得了『最佳員工』的頭銜"
+            "sentence": "She loves the atmosphere of the old [cinema].",
+            "translation_zh_TW": "她喜歡老電影院的氛圍"
           }
         ],
         "synonyms": [
-          "heading",
-          "caption"
+          "movie theater",
+          "film house"
         ]
       }
     ],
     "confusion": [
-      "tittle",
-      "titl",
-      "tight",
-      "titile"
+      "cinnabar",
+      "cinal",
+      "cinematic",
+      "symbol"
     ]
   },
   {
-    "word": "jungle",
+    "word": "reaction",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An area of tropical forest where trees and plants grow very closely together.",
-        "meaning_zh_TW": "叢林",
+        "meaning_en_US": "An action performed or a feeling experienced in response to a situation or event.",
+        "meaning_zh_TW": "反應",
         "wrong_meaning_zh_TW": [
-          "城市",
-          "沙漠",
-          "草原"
+          "反射",
+          "緩和",
+          "衝突"
         ],
         "examples": [
           {
-            "sentence": "The explorers ventured deeper into the [jungle].",
-            "translation_zh_TW": "探險者深入叢林。"
+            "sentence": "Her [reaction] to the news was unexpected.",
+            "translation_zh_TW": "她對這消息的反應令人意外。"
           },
           {
-            "sentence": "Many species of animals live in the [jungle].",
-            "translation_zh_TW": "許多動物在叢林中生活。"
+            "sentence": "They studied the chemical [reaction] closely.",
+            "translation_zh_TW": "他們仔細研究了化學反應。"
           },
           {
-            "sentence": "The [jungle] is known for its diversity.",
-            "translation_zh_TW": "叢林以其多樣性著稱。"
+            "sentence": "His quick [reaction] saved the day.",
+            "translation_zh_TW": "他的快速反應拯救了這一天。"
           }
         ],
         "synonyms": [
-          "forest",
-          "wilds",
-          "bush"
+          "response",
+          "answer"
         ]
       }
     ],
     "confusion": [
-      "jangle",
-      "jungle gym",
-      "juggling",
-      "jumbled"
+      "interreaction",
+      "reactions",
+      "traction",
+      "action"
     ]
   },
   {
-    "word": "passenger",
+    "word": "humor",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person who travels in a vehicle, such as a car, bus, train, or airplane.",
-        "meaning_zh_TW": "乘客",
+        "meaning_en_US": "The quality of being amusing or entertaining.",
+        "meaning_zh_TW": "幽默",
         "wrong_meaning_zh_TW": [
-          "駕駛",
-          "貨物",
-          "導遊"
+          "嚴肅",
+          "緊張",
+          "煩躁"
         ],
         "examples": [
           {
-            "sentence": "The [passenger] checked in at the airport.",
-            "translation_zh_TW": "乘客在機場辦理登機。"
+            "sentence": "His [humor] made everyone in the room laugh.",
+            "translation_zh_TW": "他的幽默讓房間裡的每個人都笑了"
           },
           {
-            "sentence": "Each [passenger] must have a valid ticket.",
-            "translation_zh_TW": "每位乘客都必須持有有效的票。"
+            "sentence": "She has a unique sense of [humor] that sets her apart.",
+            "translation_zh_TW": "她有獨特的幽默感，使她與眾不同"
           },
           {
-            "sentence": "The bus [passenger] complained about the delay.",
-            "translation_zh_TW": "巴士乘客對延誤表示不滿。"
+            "sentence": "Good [humor] can lighten the mood during tough times.",
+            "translation_zh_TW": "好的幽默可以在艱難時期緩解氣氛"
           }
         ],
         "synonyms": [
-          "traveler",
-          "rider"
+          "wit",
+          "comedy"
         ]
       }
     ],
     "confusion": [
-      "passsenger",
-      "passsager",
-      "paasenger",
-      "passanger"
+      "humour",
+      "humerus",
+      "hummus",
+      "humorist"
     ]
   },
   {
-    "word": "ash",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The solid residue left after the combustion of a substance.",
-        "meaning_zh_TW": "灰燼",
-        "wrong_meaning_zh_TW": [
-          "水蒸氣",
-          "煙霧",
-          "燈光"
-        ],
-        "examples": [
-          {
-            "sentence": "The [ash] from the fireplace needs to be cleaned.",
-            "translation_zh_TW": "壁爐中的灰燼需要清理。"
-          },
-          {
-            "sentence": "You shouldn’t breathe in [ash] from the fire.",
-            "translation_zh_TW": "你不應該吸入來自火的灰燼。"
-          },
-          {
-            "sentence": "The volcano left a blanket of [ash] over the village.",
-            "translation_zh_TW": "火山在村莊上留下了一層灰燼。"
-          }
-        ],
-        "synonyms": [
-          "cinders",
-          "residue"
-        ]
-      }
-    ],
-    "confusion": [
-      "ashtray",
-      "Assured",
-      "ashore",
-      "asha"
-    ]
-  },
-  {
-    "word": "studio",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A room where an artist, photographer, or musician works.",
-        "meaning_zh_TW": "工作室",
-        "wrong_meaning_zh_TW": [
-          "畫廊",
-          "酒吧",
-          "劇院"
-        ],
-        "examples": [
-          {
-            "sentence": "The photographer has a new [studio] downtown.",
-            "translation_zh_TW": "攝影師在市中心有一個新工作室。"
-          },
-          {
-            "sentence": "She spent hours in her [studio] painting.",
-            "translation_zh_TW": "她在工作室裡花了好幾個小時畫畫。"
-          },
-          {
-            "sentence": "They recorded their album in a state-of-the-art [studio].",
-            "translation_zh_TW": "他們在一個先進的錄音室裡錄製了專輯。"
-          }
-        ],
-        "synonyms": [
-          "workspace",
-          "atelier"
-        ]
-      }
-    ],
-    "confusion": [
-      "studios",
-      "studion",
-      "studie"
-    ]
-  },
-  {
-    "word": "sleeve",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The part of a garment that covers the arm.",
-        "meaning_zh_TW": "袖子",
-        "wrong_meaning_zh_TW": [
-          "袋子",
-          "口袋",
-          "襯托"
-        ],
-        "examples": [
-          {
-            "sentence": "She rolled up her [sleeve] to wash her hands.",
-            "translation_zh_TW": "她捲起袖子洗手。"
-          },
-          {
-            "sentence": "He has a tattoo on his [sleeve].",
-            "translation_zh_TW": "他的袖子上有一個紋身。"
-          },
-          {
-            "sentence": "The dress has long [sleeves].",
-            "translation_zh_TW": "這件裙子有長袖子。"
-          }
-        ],
-        "synonyms": [
-          "arm",
-          "cuff"
-        ]
-      }
-    ],
-    "confusion": [
-      "sleeper",
-      "leaf",
-      "slicer",
-      "sledge"
-    ]
-  },
-  {
-    "word": "painterpal",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A term for a friend or companion who enjoys painting.",
-        "meaning_zh_TW": "畫友",
-        "wrong_meaning_zh_TW": [
-          "畫筆",
-          "畫紙",
-          "畫框"
-        ],
-        "examples": [
-          {
-            "sentence": "I invited my [painterpal] to the gallery opening.",
-            "translation_zh_TW": "我邀請我的畫友參加畫廊的開幕。"
-          },
-          {
-            "sentence": "We often share ideas with our [painterpal].",
-            "translation_zh_TW": "我們經常與畫友分享想法。"
-          },
-          {
-            "sentence": "My [painterpal] helped me improve my technique.",
-            "translation_zh_TW": "我的畫友幫助我改善我的技巧。"
-          }
-        ],
-        "synonyms": [
-          "art friend",
-          "painting buddy"
-        ]
-      }
-    ],
-    "confusion": [
-      "painter",
-      "palace",
-      "painters",
-      "paintpal"
-    ]
-  },
-  {
-    "word": "boot",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A type of footwear that covers the ankle and extends higher up the leg.",
-        "meaning_zh_TW": "靴子",
-        "wrong_meaning_zh_TW": [
-          "襪子",
-          "拖鞋",
-          "皮帶"
-        ],
-        "examples": [
-          {
-            "sentence": "He bought a new pair of [boots] for the winter.",
-            "translation_zh_TW": "他為冬天買了一雙新靴子。"
-          },
-          {
-            "sentence": "The hiking [boots] provided good support on the trails.",
-            "translation_zh_TW": "登山靴在小徑上提供了良好的支持。"
-          },
-          {
-            "sentence": "She styled her outfit with fashionable [boots].",
-            "translation_zh_TW": "她用時尚的靴子搭配了自己的服裝。"
-          }
-        ],
-        "synonyms": [
-          "shoe",
-          "footwear"
-        ]
-      }
-    ],
-    "confusion": [
-      "boote",
-      "bote",
-      "booty",
-      "booth"
-    ]
-  },
-  {
-    "word": "violent",
+    "word": "tight",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Using or involving physical force intended to hurt, damage, or kill.",
-        "meaning_zh_TW": "暴力的",
+        "meaning_en_US": "Firmly held in place; not loose.",
+        "meaning_zh_TW": "緊的",
         "wrong_meaning_zh_TW": [
-          "和平的",
-          "友善的",
-          "溫和的"
+          "鬆的",
+          "寬的",
+          "滑的"
         ],
         "examples": [
           {
-            "sentence": "The storm was [violent], causing widespread destruction.",
-            "translation_zh_TW": "風暴非常暴力，造成廣泛的破壞。"
+            "sentence": "The cap is on too [tight].",
+            "translation_zh_TW": "瓶蓋蓋得太緊了。"
           },
           {
-            "sentence": "He was charged with [violent] conduct.",
-            "translation_zh_TW": "他因暴力行為被控告。"
+            "sentence": "She wore a [tight] dress to the party.",
+            "translation_zh_TW": "她穿著緊身裙參加派對。"
           },
           {
-            "sentence": "The film contains [violent] scenes that may disturb some viewers.",
-            "translation_zh_TW": "這部電影含有可能讓某些觀眾感到不安的暴力場景。"
+            "sentence": "Make sure the lid is [tight] to prevent spills.",
+            "translation_zh_TW": "確保蓋子緊貼以防洒出。"
           }
         ],
         "synonyms": [
-          "fierce",
-          "savage"
+          "secure",
+          "fitted"
         ]
       }
     ],
     "confusion": [
-      "viloent",
-      "violent",
-      "violint",
-      "violet"
+      "tite",
+      "tighte",
+      "tighten",
+      "tighten"
     ]
   },
   {
-    "word": "cleaner",
+    "word": "sin",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person or thing that cleans.",
-        "meaning_zh_TW": "清潔工",
+        "meaning_en_US": "An act regarded as a serious offense against divine law.",
+        "meaning_zh_TW": "罪，過犯",
         "wrong_meaning_zh_TW": [
-          "設計師",
-          "維修工",
-          "廚師"
+          "美德",
+          "義務",
+          "責任"
         ],
         "examples": [
           {
-            "sentence": "The [cleaner] finished tidying up the office.",
-            "translation_zh_TW": "清潔工完成了辦公室的整理工作。"
+            "sentence": "He confessed his [sin] to the priest.",
+            "translation_zh_TW": "他向神父承認了他的罪"
           },
           {
-            "sentence": "My [cleaner] comes every Friday.",
-            "translation_zh_TW": "我的清潔工每週五來。"
+            "sentence": "The [sin] was deemed unforgivable.",
+            "translation_zh_TW": "這個罪被認為是不可饒恕的"
           },
           {
-            "sentence": "They hired a [cleaner] to help with the housework.",
-            "translation_zh_TW": "他們雇了一名清潔工來幫助做家務。"
+            "sentence": "She struggled with feelings of [sin].",
+            "translation_zh_TW": "她與罪惡感掙扎"
           }
         ],
         "synonyms": [
-          "janitor",
-          "maid"
+          "wrongdoing",
+          "transgression"
         ]
       }
     ],
     "confusion": [
-      "clean",
-      "cleanest",
-      "cleansy",
-      "clener"
-    ]
-  },
-  {
-    "word": "banker",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who manages or operates a bank.",
-        "meaning_zh_TW": "銀行家",
-        "wrong_meaning_zh_TW": [
-          "商人",
-          "會計師",
-          "行政助理"
-        ],
-        "examples": [
-          {
-            "sentence": "The [banker] gave her financial advice.",
-            "translation_zh_TW": "銀行家給了她財務建議。"
-          },
-          {
-            "sentence": "He has worked as a [banker] for over ten years.",
-            "translation_zh_TW": "他在銀行工作了十多年。"
-          },
-          {
-            "sentence": "The [banker] approved the loan application.",
-            "translation_zh_TW": "銀行家批准了貸款申請。"
-          }
-        ],
-        "synonyms": [
-          "financier",
-          "moneylender"
-        ]
-      }
-    ],
-    "confusion": [
-      "bank",
-      "baker",
-      "bonker",
-      "barker"
-    ]
-  },
-  {
-    "word": "cradle",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A baby bed with sides and a rockable base.",
-        "meaning_zh_TW": "搖籃",
-        "wrong_meaning_zh_TW": [
-          "椅子",
-          "床",
-          "籃子"
-        ],
-        "examples": [
-          {
-            "sentence": "The baby slept soundly in the [cradle].",
-            "translation_zh_TW": "嬰兒安靜地在搖籃裡睡著。"
-          },
-          {
-            "sentence": "She gently rocked the [cradle] to soothe the baby.",
-            "translation_zh_TW": "她輕輕地搖動搖籃以安撫嬰兒。"
-          },
-          {
-            "sentence": "They gifted a beautiful wooden [cradle] for the newborn.",
-            "translation_zh_TW": "他們送了一個漂亮的木搖籃作為新生兒的禮物。"
-          }
-        ],
-        "synonyms": [
-          "bassinet",
-          "crib"
-        ]
-      }
-    ],
-    "confusion": [
-      "caddle",
-      "credule",
-      "crate",
-      "cradleboard"
-    ]
-  },
-  {
-    "word": "athletic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Physically strong, fit, and active.",
-        "meaning_zh_TW": "運動的、健壯的",
-        "wrong_meaning_zh_TW": [
-          "虛弱的、無力的",
-          "懶惰的、消極的",
-          "不健康的、病態的"
-        ],
-        "examples": [
-          {
-            "sentence": "He has an [athletic] build suitable for sports.",
-            "translation_zh_TW": "他有適合運動的健美身材"
-          },
-          {
-            "sentence": "She is an [athletic] player on the basketball team.",
-            "translation_zh_TW": "她是籃球隊中的一名運動員"
-          },
-          {
-            "sentence": "They designed [athletic] apparel for comfort.",
-            "translation_zh_TW": "他們設計了舒適的運動服裝"
-          }
-        ],
-        "synonyms": [
-          "fit",
-          "sporty"
-        ]
-      }
-    ],
-    "confusion": [
-      "athletics",
-      "athlete",
-      "athletically",
-      "athleticism"
-    ]
-  },
-  {
-    "word": "owl",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A nocturnal bird of prey with large eyes and typically a loud call.",
-        "meaning_zh_TW": "貓頭鷹",
-        "wrong_meaning_zh_TW": [
-          "公雞",
-          "鴕鳥",
-          "小鳥"
-        ],
-        "examples": [
-          {
-            "sentence": "The [owl] hooted softly in the night.",
-            "translation_zh_TW": "貓頭鷹在夜裡輕聲叫著。"
-          },
-          {
-            "sentence": "We spotted an [owl] perched on a branch.",
-            "translation_zh_TW": "我們發現一隻貓頭鷹栖息在樹枝上。"
-          },
-          {
-            "sentence": "The [owl]'s eyes glowed in the dark.",
-            "translation_zh_TW": "貓頭鷹的眼睛在黑暗中發光。"
-          }
-        ],
-        "synonyms": [
-          "strigiform",
-          "night bird"
-        ]
-      }
-    ],
-    "confusion": [
-      "owlery",
-      "ole",
-      "all",
-      "owlball"
-    ]
-  },
-  {
-    "word": "considerable",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Notably large in size, amount, or extent.",
-        "meaning_zh_TW": "顯著",
-        "wrong_meaning_zh_TW": [
-          "微不足道的",
-          "無關緊要的",
-          "極少的"
-        ],
-        "examples": [
-          {
-            "sentence": "She has made a [considerable] impact in her field.",
-            "translation_zh_TW": "她在她的領域中產生了顯著的影響"
-          },
-          {
-            "sentence": "There is a [considerable] difference between the two models.",
-            "translation_zh_TW": "這兩個型號之間存在著顯著差異"
-          },
-          {
-            "sentence": "He has invested a [considerable] amount of time.",
-            "translation_zh_TW": "他投入了相當多的時間"
-          }
-        ],
-        "synonyms": [
-          "significant",
-          "substantial"
-        ]
-      }
-    ],
-    "confusion": [
-      "consistable",
-      "consultable",
-      "considerate",
-      "concrete"
+      "sine",
+      "sinful",
+      "sint",
+      "sim"
     ]
   },
   {
@@ -624,159 +234,538 @@
     ]
   },
   {
-    "word": "remain",
+    "word": "buffalo",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large, horned mammal found in North America, also known as bison.",
+        "meaning_zh_TW": "水牛",
+        "wrong_meaning_zh_TW": [
+          "馬",
+          "鹿",
+          "老虎"
+        ],
+        "examples": [
+          {
+            "sentence": "The [buffalo] roamed freely across the plains.",
+            "translation_zh_TW": "水牛在平原上自由走動"
+          },
+          {
+            "sentence": "Buffalo are known for their shaggy fur.",
+            "translation_zh_TW": "水牛以其毛茸茸的毛髮而聞名"
+          },
+          {
+            "sentence": "In the past, the [buffalo] was vital to the Native Americans.",
+            "translation_zh_TW": "在過去，水牛對美國原住民至關重要"
+          }
+        ],
+        "synonyms": [
+          "bison",
+          "buffalo bison"
+        ]
+      }
+    ],
+    "confusion": [
+      "buffalu",
+      "buffelo",
+      "bufflao",
+      "bafalo"
+    ]
+  },
+  {
+    "word": "desire",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A strong feeling of wanting to have something or wishing for something to happen.",
+        "meaning_zh_TW": "渴望",
+        "wrong_meaning_zh_TW": [
+          "恐懼",
+          "絕望",
+          "厭惡"
+        ],
+        "examples": [
+          {
+            "sentence": "His [desire] to succeed motivated him to work hard.",
+            "translation_zh_TW": "他渴望成功的心情激勵著他努力工作。"
+          },
+          {
+            "sentence": "She had a [desire] for knowledge that drove her to read extensively.",
+            "translation_zh_TW": "她對知識的渴望使她廣泛閱讀。"
+          },
+          {
+            "sentence": "The [desire] for freedom is a fundamental human right.",
+            "translation_zh_TW": "對自由的渴望是基本人權。"
+          }
+        ],
+        "synonyms": [
+          "wish",
+          "craving"
+        ]
+      }
+    ],
+    "confusion": [
+      "disease",
+      "design",
+      "desiree",
+      "decide"
+    ]
+  },
+  {
+    "word": "conclusion",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The end or finish of an event, process, or text.",
+        "meaning_zh_TW": "結論",
+        "wrong_meaning_zh_TW": [
+          "序言",
+          "前言",
+          "介紹"
+        ],
+        "examples": [
+          {
+            "sentence": "The [conclusion] of the report was very insightful.",
+            "translation_zh_TW": "報告的結論非常有啟發性。"
+          },
+          {
+            "sentence": "After much discussion, they reached a [conclusion].",
+            "translation_zh_TW": "經過多次討論，他們達成了結論。"
+          },
+          {
+            "sentence": "In the [conclusion], the author summarizes the main points.",
+            "translation_zh_TW": "在結論中，作者總結了要點。"
+          }
+        ],
+        "synonyms": [
+          "resolution",
+          "final decision"
+        ]
+      }
+    ],
+    "confusion": [
+      "conclusion",
+      "conclusively",
+      "concurrent",
+      "concrete"
+    ]
+  },
+  {
+    "word": "monster",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An imaginary creature that is typically large, ugly, and frightening.",
+        "meaning_zh_TW": "怪物",
+        "wrong_meaning_zh_TW": [
+          "野獸",
+          "神話生物",
+          "奇幻角色"
+        ],
+        "examples": [
+          {
+            "sentence": "The children were afraid of the [monster] under the bed.",
+            "translation_zh_TW": "孩子們害怕床下的怪物。"
+          },
+          {
+            "sentence": "In the movie, the [monster] terrorized the town.",
+            "translation_zh_TW": "在電影中，怪物襲擊了小鎮。"
+          },
+          {
+            "sentence": "The legend spoke of a [monster] guarding the treasure.",
+            "translation_zh_TW": "傳說中有一隻怪物守住了寶藏。"
+          }
+        ],
+        "synonyms": [
+          "beast",
+          "creature"
+        ]
+      }
+    ],
+    "confusion": [
+      "muster",
+      "mister",
+      "moister",
+      "mentor"
+    ]
+  },
+  {
+    "word": "bang",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To continue to exist, especially after other similar people or things have gone.",
-        "meaning_zh_TW": "保持、留下",
+        "meaning_en_US": "To strike or put down with a forceful impact.",
+        "meaning_zh_TW": "猛撞",
         "wrong_meaning_zh_TW": [
-          "遺失",
-          "消失",
-          "改變"
+          "輕聲呼喊",
+          "輕輕觸碰",
+          "微笑"
         ],
         "examples": [
           {
-            "sentence": "Only a few artifacts [remain] from the ancient civilization.",
-            "translation_zh_TW": "只剩下幾件文物來自古代文明。"
+            "sentence": "He [bang]ed the door shut.",
+            "translation_zh_TW": "他猛地把門關上。"
           },
           {
-            "sentence": "He chose to [remain] silent during the discussion.",
-            "translation_zh_TW": "他選擇在討論中保持沉默。"
+            "sentence": "The fireworks [bang]ed loudly in the sky.",
+            "translation_zh_TW": "煙火在天空中大聲爆炸。"
           },
           {
-            "sentence": "The food must [remain] cold until served.",
-            "translation_zh_TW": "食物必須保持冷藏直至供應。"
+            "sentence": "She [bang]ed her fist on the table.",
+            "translation_zh_TW": "她用拳頭猛擊桌子。"
           }
         ],
         "synonyms": [
-          "stay",
-          "persist"
+          "hit",
+          "crash"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "A sudden loud noise.",
+        "meaning_zh_TW": "巨響",
+        "wrong_meaning_zh_TW": [
+          "低聲私語",
+          "輕聲耳語",
+          "風聲"
+        ],
+        "examples": [
+          {
+            "sentence": "There was a loud [bang] outside.",
+            "translation_zh_TW": "外面發出了巨響。"
+          },
+          {
+            "sentence": "The gun went off with a loud [bang].",
+            "translation_zh_TW": "槍聲陡然響起，發出巨響。"
+          },
+          {
+            "sentence": "She was startled by the [bang] from the kitchen.",
+            "translation_zh_TW": "她被廚房裡的巨響驚嚇到。"
+          }
+        ],
+        "synonyms": [
+          "explosion",
+          "blast"
         ]
       }
     ],
     "confusion": [
-      "remains",
-      "reamain",
-      "remian",
-      "re.main"
+      "bong",
+      "bangs",
+      "bungee",
+      "binge"
     ]
   },
   {
-    "word": "ditch",
+    "word": "inner",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A narrow channel dug in the ground, typically used for drainage.",
-        "meaning_zh_TW": "溝渠",
+        "type": "形容詞",
+        "meaning_en_US": "Situated within or further in; internal.",
+        "meaning_zh_TW": "內部的",
         "wrong_meaning_zh_TW": [
-          "河流",
-          "湖泊",
-          "水池"
+          "外部的",
+          "開放的",
+          "明亮的"
         ],
         "examples": [
           {
-            "sentence": "The farmer dug a [ditch] to help with drainage.",
-            "translation_zh_TW": "農夫挖了一條溝渠來幫助排水。"
+            "sentence": "She felt a sense of [inner] peace at the temple.",
+            "translation_zh_TW": "她在寺廟感受到一種內心的平靜。"
           },
           {
-            "sentence": "We saw frogs jumping in the [ditch].",
-            "translation_zh_TW": "我們看到青蛙在溝渠裡跳。"
+            "sentence": "The [inner] workings of the machine are complex.",
+            "translation_zh_TW": "這台機器的內部運作非常複雜。"
           },
           {
-            "sentence": "The [ditch] needs to be cleaned out.",
-            "translation_zh_TW": "這條溝渠需要清理。"
+            "sentence": "He shared his [inner] thoughts only with close friends.",
+            "translation_zh_TW": "他只與摯友分享他的內心想法。"
           }
         ],
         "synonyms": [
-          "trench",
-          "gutter"
+          "internal",
+          "personal"
         ]
       }
     ],
     "confusion": [
-      "dutch",
-      "itch",
-      "match",
-      "diddle"
+      "inter",
+      "in",
+      "innerly",
+      "innumerable"
     ]
   },
   {
-    "word": "dust",
+    "word": "holder",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "Fine, dry particles of matter that are carried in the air and settle on surfaces.",
-        "meaning_zh_TW": "灰塵",
+        "meaning_en_US": "An object that holds something.",
+        "meaning_zh_TW": "持有者",
         "wrong_meaning_zh_TW": [
-          "霧",
-          "煙霧",
-          "泥土"
+          "購買者",
+          "創造者",
+          "擁有者"
         ],
         "examples": [
           {
-            "sentence": "There was a lot of [dust] on the shelves.",
-            "translation_zh_TW": "架子上有很多灰塵"
+            "sentence": "She used a pen [holder] to organize her desk.",
+            "translation_zh_TW": "她用了一個筆架來整理自己的桌子。"
           },
           {
-            "sentence": "She cleaned the [dust] off the table.",
-            "translation_zh_TW": "她把桌子上的灰塵擦掉"
+            "sentence": "The trophy [holder] will be announced next week.",
+            "translation_zh_TW": "獎盃的擁有者將在下週公布。"
           },
           {
-            "sentence": "The old book was covered in [dust].",
-            "translation_zh_TW": "這本舊書上覆蓋著灰塵"
+            "sentence": "He is the [holder] of a rare collection.",
+            "translation_zh_TW": "他擁有一個稀有收藏。"
           }
         ],
         "synonyms": [
-          "powder",
-          "dirt"
+          "container",
+          "bearer"
         ]
       }
     ],
     "confusion": [
-      "just",
-      "dusty",
-      "gust",
-      "rust"
+      "hold",
+      "holder's",
+      "holdings",
+      "held"
     ]
   },
   {
-    "word": "kit",
+    "word": "valuable",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A set of tools or equipment for a specific purpose.",
-        "meaning_zh_TW": "工具包",
+        "type": "形容詞",
+        "meaning_en_US": "Having worth or significant utility; useful or important.",
+        "meaning_zh_TW": "有價值的",
         "wrong_meaning_zh_TW": [
-          "包裹",
-          "盒子",
-          "背包"
+          "毫無價值",
+          "賤價的",
+          "無聊的"
         ],
         "examples": [
           {
-            "sentence": "He bought a first aid [kit] for emergencies.",
-            "translation_zh_TW": "他為了應急買了一個急救工具包。"
+            "sentence": "This artifact is very [valuable] to historians.",
+            "translation_zh_TW": "這個文物對歷史學家來說非常有價值。"
           },
           {
-            "sentence": "The craftsman used a special [kit] for woodworking.",
-            "translation_zh_TW": "工匠使用了一個特別的工具包來做木工。"
+            "sentence": "She gave me [valuable] advice about my career.",
+            "translation_zh_TW": "她給了我有價值的職業建議。"
           },
           {
-            "sentence": "She needed a repair [kit] to fix the bicycle.",
-            "translation_zh_TW": "她需要一個修理工具包來修理自行車。"
+            "sentence": "The report provided [valuable] insights into market trends.",
+            "translation_zh_TW": "這份報告提供了有價值的市場趨勢見解。"
           }
         ],
         "synonyms": [
-          "set",
-          "collection"
+          "priceless",
+          "invaluable"
         ]
       }
     ],
     "confusion": [
-      "kitchen",
-      "kite",
-      "kitten",
-      "kith"
+      "valueable",
+      "valuabe",
+      "valuble",
+      "valuablee"
+    ]
+  },
+  {
+    "word": "tone",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The quality of a sound or voice that expresses emotion.",
+        "meaning_zh_TW": "語調",
+        "wrong_meaning_zh_TW": [
+          "顏色",
+          "形狀",
+          "質地"
+        ],
+        "examples": [
+          {
+            "sentence": "Her voice had a calm [tone].",
+            "translation_zh_TW": "她的聲音有著平靜的語調"
+          },
+          {
+            "sentence": "The [tone] of the conversation changed.",
+            "translation_zh_TW": "談話的語調發生了變化"
+          },
+          {
+            "sentence": "He spoke in a serious [tone].",
+            "translation_zh_TW": "他的語調嚴肅"
+          }
+        ],
+        "synonyms": [
+          "sound quality",
+          "inflection"
+        ]
+      }
+    ],
+    "confusion": [
+      "tome",
+      "ton",
+      "tonne",
+      "tawn"
+    ]
+  },
+  {
+    "word": "forever",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "For all future time; for always.",
+        "meaning_zh_TW": "永遠",
+        "wrong_meaning_zh_TW": [
+          "瞬間",
+          "短暫",
+          "不確定"
+        ],
+        "examples": [
+          {
+            "sentence": "I will love you [forever].",
+            "translation_zh_TW": "我將永遠愛你。"
+          },
+          {
+            "sentence": "This moment will be etched in my memory [forever].",
+            "translation_zh_TW": "這一刻將永遠留在我的記憶中。"
+          },
+          {
+            "sentence": "They promised to be together [forever].",
+            "translation_zh_TW": "他們承諾將永遠在一起。"
+          }
+        ],
+        "synonyms": [
+          "eternally",
+          "always"
+        ]
+      }
+    ],
+    "confusion": [
+      "for ever",
+      "forewent",
+      "forbid",
+      "foreseen"
+    ]
+  },
+  {
+    "word": "captain",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The person in command of a ship or an aircraft.",
+        "meaning_zh_TW": "船長、機長",
+        "wrong_meaning_zh_TW": [
+          "乘客",
+          "旅客",
+          "觀光客"
+        ],
+        "examples": [
+          {
+            "sentence": "The [captain] gave orders to the crew.",
+            "translation_zh_TW": "船長對船員下達命令"
+          },
+          {
+            "sentence": "He was promoted to [captain] after years of service.",
+            "translation_zh_TW": "在多年服務後他被升為船長"
+          },
+          {
+            "sentence": "The [captain] navigated the ship through the storm.",
+            "translation_zh_TW": "船長駕駛船隻穿過暴風雨"
+          }
+        ],
+        "synonyms": [
+          "leader",
+          "commander"
+        ]
+      }
+    ],
+    "confusion": [
+      "capitan",
+      "captan",
+      "captiain",
+      "captin"
+    ]
+  },
+  {
+    "word": "wing",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A part of the body that enables flight in birds and insects.",
+        "meaning_zh_TW": "翅膀",
+        "wrong_meaning_zh_TW": [
+          "手臂",
+          "腿部",
+          "尾巴"
+        ],
+        "examples": [
+          {
+            "sentence": "The bird flapped its [wing] and took off.",
+            "translation_zh_TW": "鳥展翅飛起。"
+          },
+          {
+            "sentence": "They observed the intricate patterns on the butterfly's [wing].",
+            "translation_zh_TW": "他們觀察了蝴蝶翅膀上的精美圖案。"
+          },
+          {
+            "sentence": "The airplane's [wings] were designed for maximum lift.",
+            "translation_zh_TW": "飛機的翅膀設計為最大升力。"
+          }
+        ],
+        "synonyms": [
+          "flapper",
+          "appendage"
+        ]
+      }
+    ],
+    "confusion": [
+      "sing",
+      "ring",
+      "winged",
+      "wingspan"
+    ]
+  },
+  {
+    "word": "tiny",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Very small in size or amount.",
+        "meaning_zh_TW": "微小的",
+        "wrong_meaning_zh_TW": [
+          "巨大無比的",
+          "廣泛的",
+          "重大的"
+        ],
+        "examples": [
+          {
+            "sentence": "She has a [tiny] dog that fits in her bag.",
+            "translation_zh_TW": "她有一隻微小的狗，能裝進她的包裡。"
+          },
+          {
+            "sentence": "He found a [tiny] crack in the wall.",
+            "translation_zh_TW": "他發現了牆上的一個微小裂縫。"
+          },
+          {
+            "sentence": "The [tiny] details make a big difference.",
+            "translation_zh_TW": "微小的細節會帶來很大的差異。"
+          }
+        ],
+        "synonyms": [
+          "minuscule",
+          "miniature"
+        ]
+      }
+    ],
+    "confusion": [
+      "tinny",
+      "tine",
+      "tany",
+      "tyny"
     ]
   }
 ]

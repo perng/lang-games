@@ -1,225 +1,470 @@
 [
   {
-    "word": "rattle",
+    "word": "opponent",
     "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make a rapid series of short loud noises.",
-        "meaning_zh_TW": "發出聲音",
-        "wrong_meaning_zh_TW": [
-          "輕聲細語",
-          "悄悄移動",
-          "安靜無聲"
-        ],
-        "examples": [
-          {
-            "sentence": "The wind began to [rattle] the windows.",
-            "translation_zh_TW": "風開始使窗戶發出聲音"
-          },
-          {
-            "sentence": "He tried to [rattle] his opponent’s confidence.",
-            "translation_zh_TW": "他試圖搖動對手的信心"
-          },
-          {
-            "sentence": "The baby liked the sound of the [rattle].",
-            "translation_zh_TW": "寶寶喜歡搖鈴的聲音"
-          }
-        ],
-        "synonyms": [
-          "shake",
-          "clatter"
-        ]
-      },
       {
         "type": "名詞",
-        "meaning_en_US": "A rapid series of short, sharp sounds.",
-        "meaning_zh_TW": "快速的一系列短促尖銳的聲音",
+        "meaning_en_US": "A person who opposes or competes against another in a contest or conflict.",
+        "meaning_zh_TW": "對手",
         "wrong_meaning_zh_TW": [
-          "悅耳的樂曲",
-          "平和的靜默",
-          "低頻共鳴"
+          "支持者",
+          "觀眾",
+          "營養師"
         ],
         "examples": [
           {
-            "sentence": "The [rattle] of the train kept her awake.",
-            "translation_zh_TW": "火車的轟轟聲讓她無法入睡"
+            "sentence": "He faced a tough [opponent] in the final round.",
+            "translation_zh_TW": "他在最後一輪遇到了一個強勁的對手。"
           },
           {
-            "sentence": "He heard the [rattle] of coins in the jar.",
-            "translation_zh_TW": "他聽到罐子裡硬幣的響聲"
+            "sentence": "The team’s main [opponent] has a great record.",
+            "translation_zh_TW": "該隊的主要對手擁有優秀的戰績。"
           },
           {
-            "sentence": "A sudden [rattle] startled the entire audience.",
-            "translation_zh_TW": "突然的噪音驚嚇了整個觀眾"
+            "sentence": "They admired their [opponent] for their skill.",
+            "translation_zh_TW": "他們欣賞對手的技術。"
           }
         ],
         "synonyms": [
-          "clatter",
-          "noise"
+          "rival",
+          "competitor"
         ]
       }
     ],
     "confusion": [
-      "battle",
-      "rattled",
-      "rattletrap",
-      "rattlesnake"
+      "opposite",
+      "opinion",
+      "opponent's",
+      "opponet"
     ]
   },
   {
-    "word": "blush",
+    "word": "conviction",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To become red in the face, typically from embarrassment.",
-        "meaning_zh_TW": "臉紅",
+        "type": "名詞",
+        "meaning_en_US": "A formal declaration that someone is guilty of a criminal offense.",
+        "meaning_zh_TW": "判罪,有堅定的信念",
         "wrong_meaning_zh_TW": [
-          "微笑",
-          "嘲笑",
-          "感慨"
+          "急件指控",
+          "私人意見",
+          "針對信念"
         ],
         "examples": [
           {
-            "sentence": "She started to [blush] when he complimented her.",
-            "translation_zh_TW": "當他稱讚她時，她開始臉紅"
+            "sentence": "He has a strong [conviction] about the importance of education.",
+            "translation_zh_TW": "他對教育重要性有堅定的信念"
           },
           {
-            "sentence": "He couldn't help but [blush] after telling the story.",
-            "translation_zh_TW": "講完故事後，他忍不住臉紅"
+            "sentence": "The [conviction] of the suspect was a major breakthrough in the case.",
+            "translation_zh_TW": "對嫌疑人的定罪是此案的重大突破"
           },
           {
-            "sentence": "Everyone could see her [blush] when she received the prize.",
-            "translation_zh_TW": "她得到獎品時，大家都能看到她臉紅"
+            "sentence": "Her religious [conviction] influences her daily decisions.",
+            "translation_zh_TW": "她的宗教信仰影響她的日常決策"
           }
         ],
         "synonyms": [
-          "flush",
-          "turn red"
+          "belief",
+          "certainty"
         ]
       }
     ],
     "confusion": [
-      "blushes",
-      "bust",
-      "blunt",
-      "blest"
+      "convict",
+      "convoking",
+      "convection",
+      "clemency"
     ]
   },
   {
-    "word": "triple",
+    "word": "nomination",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The action of officially proposing someone for a position or award.",
+        "meaning_zh_TW": "提名",
+        "wrong_meaning_zh_TW": [
+          "投票",
+          "排除",
+          "任命"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [nomination] for the award was well-received.",
+            "translation_zh_TW": "她的提名獲得了好評"
+          },
+          {
+            "sentence": "The committee will announce the [nominations] next week.",
+            "translation_zh_TW": "委員會將在下週宣布提名"
+          },
+          {
+            "sentence": "He accepted his [nomination] with gratitude.",
+            "translation_zh_TW": "他心懷感激地接受了他的提名"
+          }
+        ],
+        "synonyms": [
+          "proposal",
+          "recommendation"
+        ]
+      }
+    ],
+    "confusion": [
+      "nominations",
+      "nominational",
+      "nominate",
+      "nominatio"
+    ]
+  },
+  {
+    "word": "sheriff",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An elected officer in a county responsible for maintaining law and order.",
+        "meaning_zh_TW": "警長",
+        "wrong_meaning_zh_TW": [
+          "市長",
+          "警官",
+          "律師"
+        ],
+        "examples": [
+          {
+            "sentence": "The [sheriff] arrived quickly at the scene of the crime.",
+            "translation_zh_TW": "警長快速抵達犯罪現場"
+          },
+          {
+            "sentence": "It's important for the [sheriff] to maintain public safety.",
+            "translation_zh_TW": "警長維護公共安全是非常重要的"
+          },
+          {
+            "sentence": "The [sheriff] oversees the local police department.",
+            "translation_zh_TW": "警長負責當地警方的工作"
+          }
+        ],
+        "synonyms": [
+          "lawman",
+          "constable"
+        ]
+      }
+    ],
+    "confusion": [
+      "sheriffs",
+      "shear",
+      "sherpa",
+      "chariff"
+    ]
+  },
+  {
+    "word": "deadly",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Consisting of three parts or things.",
-        "meaning_zh_TW": "三重的",
+        "meaning_en_US": "Causing or likely to cause death.",
+        "meaning_zh_TW": "致命的",
         "wrong_meaning_zh_TW": [
-          "雙重的",
-          "四重的",
-          "單一的"
+          "無害的",
+          "安全的",
+          "合法的"
         ],
         "examples": [
           {
-            "sentence": "He scored a [triple] in the game.",
-            "translation_zh_TW": "他在比賽中得了三分。"
+            "sentence": "The venom of the snake is [deadly].",
+            "translation_zh_TW": "這隻蛇的毒液是致命的。"
           },
           {
-            "sentence": "The system offers [triple] protection against threats.",
-            "translation_zh_TW": "該系統提供三重保護以抵禦威脅。"
+            "sentence": "He survived a [deadly] accident.",
+            "translation_zh_TW": "他倖免於一場致命的事故。"
           },
           {
-            "sentence": "A [triple] espresso is quite strong.",
-            "translation_zh_TW": "三杯濃縮咖啡相當強烈。"
+            "sentence": "This disease can be [deadly] without treatment.",
+            "translation_zh_TW": "這種疾病如果不治療可能是致命的。"
           }
         ],
         "synonyms": [
-          "threefold",
-          "thrice"
+          "fatal",
+          "lethal"
         ]
       }
     ],
     "confusion": [
-      "tripled",
-      "tiple",
-      "ripple",
-      "criple"
+      "deadlock",
+      "dadly",
+      "dreadfully",
+      "dearly"
     ]
   },
   {
-    "word": "dedicate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To devote oneself to a task or purpose.",
-        "meaning_zh_TW": "獻給",
-        "wrong_meaning_zh_TW": [
-          "避免",
-          "懷疑",
-          "根據"
-        ],
-        "examples": [
-          {
-            "sentence": "She plans to [dedicate] her life to helping others.",
-            "translation_zh_TW": "她計劃將一生獻給幫助他人。"
-          },
-          {
-            "sentence": "He [dedicated] the book to his parents.",
-            "translation_zh_TW": "他將這本書獻給他的父母。"
-          },
-          {
-            "sentence": "They will [dedicate] the new park this weekend.",
-            "translation_zh_TW": "他們將在本周末為新公園揭幕。"
-          }
-        ],
-        "synonyms": [
-          "devote",
-          "commit"
-        ]
-      }
-    ],
-    "confusion": [
-      "dedicate",
-      "dedicte",
-      "dedictate",
-      "dedicater"
-    ]
-  },
-  {
-    "word": "acknowledgement",
+    "word": "cathedral",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The act of recognizing or expressing gratitude for something.",
-        "meaning_zh_TW": "承認、感謝",
+        "meaning_en_US": "A large and important church, often the seat of a bishop.",
+        "meaning_zh_TW": "大教堂",
         "wrong_meaning_zh_TW": [
-          "回答",
-          "報告",
-          "建議"
+          "寺廟",
+          "清真寺",
+          "禪堂"
         ],
         "examples": [
           {
-            "sentence": "She received an [acknowledgement] of her contribution.",
-            "translation_zh_TW": "她收到了對她貢獻的承認。"
+            "sentence": "The cathedral was built in the 13th century.",
+            "translation_zh_TW": "這座大教堂建於13世紀"
           },
           {
-            "sentence": "The letter included an [acknowledgement] of support.",
-            "translation_zh_TW": "信中包括對支持的承認。"
+            "sentence": "People flock to the cathedral for services every Sunday.",
+            "translation_zh_TW": "每個星期日，人們都會湧向大教堂參加禮拜"
           },
           {
-            "sentence": "The [acknowledgement] was published in the report.",
-            "translation_zh_TW": "該承認在報告中發佈。"
+            "sentence": "The stained glass windows of the cathedral are breathtaking.",
+            "translation_zh_TW": "大教堂的彩色玻璃窗令人讚嘆"
           }
         ],
         "synonyms": [
-          "recognition",
-          "appreciation"
+          "church",
+          "cathedra"
         ]
       }
     ],
     "confusion": [
-      "acknowledge",
-      "knowledge",
-      "acknowledged",
-      "acknowledging"
+      "cathederal",
+      "cathedra",
+      "cathetral",
+      "cathal"
+    ]
+  },
+  {
+    "word": "destiny",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The events that will necessarily happen to a particular person or thing in the future.",
+        "meaning_zh_TW": "命運",
+        "wrong_meaning_zh_TW": [
+          "選擇",
+          "經歷",
+          "願望"
+        ],
+        "examples": [
+          {
+            "sentence": "She believed in her [destiny] from a young age.",
+            "translation_zh_TW": "她從小就相信自己的命運。"
+          },
+          {
+            "sentence": "They are trying to change their [destiny].",
+            "translation_zh_TW": "他們試著改變自己的命運。"
+          },
+          {
+            "sentence": "His [destiny] seemed preordained.",
+            "translation_zh_TW": "他的命運似乎是注定的。"
+          }
+        ],
+        "synonyms": [
+          "fate",
+          "kismet"
+        ]
+      }
+    ],
+    "confusion": [
+      "destination",
+      "dastiny",
+      "destinies",
+      "destenation"
+    ]
+  },
+  {
+    "word": "suburban",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Of or characteristic of a suburb, often describing residential areas that are outside of urban centers.",
+        "meaning_zh_TW": "郊區的",
+        "wrong_meaning_zh_TW": [
+          "城市的",
+          "鄉村的",
+          "工業的"
+        ],
+        "examples": [
+          {
+            "sentence": "They moved to a [suburban] area for a quieter life.",
+            "translation_zh_TW": "他們搬到一個郊區以過上更安靜的生活。"
+          },
+          {
+            "sentence": "The [suburban] neighborhood has many parks and schools.",
+            "translation_zh_TW": "這個郊區社區有許多公園和學校。"
+          },
+          {
+            "sentence": "Many families prefer [suburban] living for its safety.",
+            "translation_zh_TW": "許多家庭更喜歡郊區生活，因為那裡更安全。"
+          }
+        ],
+        "synonyms": [
+          "outskirt",
+          "residential"
+        ]
+      }
+    ],
+    "confusion": [
+      "surburban",
+      "suburbia",
+      "suburnal",
+      "suburbian"
+    ]
+  },
+  {
+    "word": "undertake",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To commit oneself to begin a task or responsibility.",
+        "meaning_zh_TW": "承擔、進行",
+        "wrong_meaning_zh_TW": [
+          "放棄、拒絕",
+          "結束、終止",
+          "簡化、縮短"
+        ],
+        "examples": [
+          {
+            "sentence": "They decided to [undertake] a new project.",
+            "translation_zh_TW": "他們決定進行一個新項目"
+          },
+          {
+            "sentence": "She will [undertake] the responsibility of managing the event.",
+            "translation_zh_TW": "她將承擔管理事件的責任"
+          },
+          {
+            "sentence": "It is important to [undertake] necessary safety measures.",
+            "translation_zh_TW": "採取必要的安全措施是很重要的"
+          }
+        ],
+        "synonyms": [
+          "take on",
+          "engage in"
+        ]
+      }
+    ],
+    "confusion": [
+      "understate",
+      "undermine",
+      "undercover",
+      "undergo"
+    ]
+  },
+  {
+    "word": "nowhere",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "In or to no place.",
+        "meaning_zh_TW": "無處",
+        "wrong_meaning_zh_TW": [
+          "每個地方",
+          "某處",
+          "所有地方"
+        ],
+        "examples": [
+          {
+            "sentence": "They searched [nowhere] for the lost keys.",
+            "translation_zh_TW": "他們在無處尋找丟失的鑰匙。"
+          },
+          {
+            "sentence": "He seems to be going [nowhere] in life.",
+            "translation_zh_TW": "他似乎在生活中無所作為。"
+          },
+          {
+            "sentence": "Nowhere is as peaceful as this place.",
+            "translation_zh_TW": "這個地方無處不如平靜。"
+          }
+        ],
+        "synonyms": [
+          "not anywhere",
+          "absent"
+        ]
+      }
+    ],
+    "confusion": [
+      "nowherely",
+      "knowhere",
+      "nowary",
+      "knowward"
+    ]
+  },
+  {
+    "word": "adolescent",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A young person in the process of developing from a child into an adult.",
+        "meaning_zh_TW": "青少年",
+        "wrong_meaning_zh_TW": [
+          "嬰兒",
+          "成人",
+          "老年人"
+        ],
+        "examples": [
+          {
+            "sentence": "Many [adolescents] struggle with identity issues.",
+            "translation_zh_TW": "許多青少年在面對身份問題時感到困惑。"
+          },
+          {
+            "sentence": "The camp is designed for [adolescents] aged 13 to 19.",
+            "translation_zh_TW": "該營地是為13到19歲的青少年設計的。"
+          },
+          {
+            "sentence": "Peer pressure can affect [adolescents] profoundly.",
+            "translation_zh_TW": "同儕壓力對青少年有著深遠的影響。"
+          }
+        ],
+        "synonyms": [
+          "teenager",
+          "youth"
+        ]
+      }
+    ],
+    "confusion": [
+      "adult",
+      "admission",
+      "aggressive",
+      "adopt"
+    ]
+  },
+  {
+    "word": "mattress",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large, rectangular pad for supporting the reclining body, used as part of a bed.",
+        "meaning_zh_TW": "床墊",
+        "wrong_meaning_zh_TW": [
+          "墊子",
+          "沙發",
+          "椅子"
+        ],
+        "examples": [
+          {
+            "sentence": "He always chooses a firm [mattress] for better back support.",
+            "translation_zh_TW": "他總是選擇一個堅固的床墊，以獲得更好的背部支持。"
+          },
+          {
+            "sentence": "A comfortable [mattress] can improve your sleep quality.",
+            "translation_zh_TW": "舒適的床墊可以改善你的睡眠質量。"
+          },
+          {
+            "sentence": "She bought a new [mattress] for her bedroom.",
+            "translation_zh_TW": "她為她的臥室買了一個新床墊。"
+          }
+        ],
+        "synonyms": [
+          "bed",
+          "sleeping pad"
+        ]
+      }
+    ],
+    "confusion": [
+      "matress",
+      "mattrass",
+      "matres",
+      "matrid"
     ]
   },
   {
@@ -262,510 +507,276 @@
     ]
   },
   {
-    "word": "undermine",
+    "word": "reservoir",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large natural or artificial lake used as a source of water supply.",
+        "meaning_zh_TW": "水庫",
+        "wrong_meaning_zh_TW": [
+          "水槽",
+          "杯子",
+          "海洋"
+        ],
+        "examples": [
+          {
+            "sentence": "The city relies on the [reservoir] for its drinking water.",
+            "translation_zh_TW": "這座城市依賴水庫供應飲用水。"
+          },
+          {
+            "sentence": "The [reservoir] was created to store excess water.",
+            "translation_zh_TW": "水庫是為了儲存多餘的水而建立的。"
+          },
+          {
+            "sentence": "Fishing is allowed in the [reservoir] during the summer.",
+            "translation_zh_TW": "夏天可以在水庫裡釣魚。"
+          }
+        ],
+        "synonyms": [
+          "storage",
+          "tank"
+        ]
+      }
+    ],
+    "confusion": [
+      "reservoirs",
+      "reservest",
+      "resume",
+      "resort"
+    ]
+  },
+  {
+    "word": "disclose",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To weaken or damage something gradually.",
-        "meaning_zh_TW": "削弱、破壞",
+        "meaning_en_US": "To make something known or public that was previously kept secret.",
+        "meaning_zh_TW": "揭露、公開",
         "wrong_meaning_zh_TW": [
-          "加強",
-          "促進",
-          "支持"
+          "隱瞞、保密",
+          "掩蓋、偽裝",
+          "簡單、粗略"
         ],
         "examples": [
           {
-            "sentence": "Their actions may undermine the company's reputation.",
-            "translation_zh_TW": "他們的行為可能會削弱公司的聲譽。"
+            "sentence": "The company will [disclose] its financial results next week.",
+            "translation_zh_TW": "該公司將在下週公開其財務結果。"
           },
           {
-            "sentence": "Constant criticism can undermine a person's confidence.",
-            "translation_zh_TW": "不斷的批評可能會削弱一個人的自信心。"
+            "sentence": "He decided to [disclose] his past mistakes to his friends.",
+            "translation_zh_TW": "他決定向朋友揭露自己的過去錯誤。"
           },
           {
-            "sentence": "The new policies could undermine our progress.",
-            "translation_zh_TW": "新政策可能會破壞我們的進展。"
+            "sentence": "The report should [disclose] all necessary information.",
+            "translation_zh_TW": "報告應揭露所有必要的信息。"
           }
         ],
         "synonyms": [
-          "weaken",
-          "erode"
+          "reveal",
+          "uncover"
         ]
       }
     ],
     "confusion": [
-      "overmine",
-      "undermined",
-      "underline",
-      "undervalue"
+      "enclose",
+      "disclosej",
+      "disclosee",
+      "disclosee"
     ]
   },
   {
-    "word": "testify",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make a statement based on personal knowledge or belief.",
-        "meaning_zh_TW": "作證",
-        "wrong_meaning_zh_TW": [
-          "隱瞞事實",
-          "提供假證據",
-          "拒絕發言"
-        ],
-        "examples": [
-          {
-            "sentence": "He was called to [testify] in court.",
-            "translation_zh_TW": "他被傳喚到法庭作證。"
-          },
-          {
-            "sentence": "Witnesses [testify] regarding the incident.",
-            "translation_zh_TW": "證人就此事件作證。"
-          },
-          {
-            "sentence": "She had to [testify] about what she saw.",
-            "translation_zh_TW": "她不得不就她所看到的作證。"
-          }
-        ],
-        "synonyms": [
-          "attest",
-          "declare"
-        ]
-      }
-    ],
-    "confusion": [
-      "testify",
-      "testament",
-      "testimonial",
-      "testified"
-    ]
-  },
-  {
-    "word": "quiver",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To shake or move with a slight trembling motion.",
-        "meaning_zh_TW": "顫抖",
-        "wrong_meaning_zh_TW": [
-          "穩定",
-          "靜止",
-          "凝固"
-        ],
-        "examples": [
-          {
-            "sentence": "The leaves began to [quiver] in the breeze.",
-            "translation_zh_TW": "葉子在微風中開始顫抖。"
-          },
-          {
-            "sentence": "She could see his lip [quiver] as he tried not to cry.",
-            "translation_zh_TW": "她看到他的嘴唇在努力不哭時顫抖。"
-          },
-          {
-            "sentence": "A sudden chill made her body [quiver].",
-            "translation_zh_TW": "一陣寒意讓她的身體顫抖。"
-          }
-        ],
-        "synonyms": [
-          "tremble",
-          "shake"
-        ]
-      }
-    ],
-    "confusion": [
-      "quiverer",
-      "quicker",
-      "quits",
-      "quiverous"
-    ]
-  },
-  {
-    "word": "architect",
+    "word": "mentor",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person who designs buildings and advises in their construction.",
-        "meaning_zh_TW": "建築師",
+        "meaning_en_US": "An experienced and trusted advisor.",
+        "meaning_zh_TW": "導師",
         "wrong_meaning_zh_TW": [
-          "畫家",
-          "工程師",
-          "設計師"
+          "同學",
+          "競爭者",
+          "批評"
         ],
         "examples": [
           {
-            "sentence": "The [architect] presented the blueprints for the new building.",
-            "translation_zh_TW": "建築師展示了新建築的藍圖。"
+            "sentence": "She became my [mentor] during my internship.",
+            "translation_zh_TW": "她在實習期間成為了我的導師。"
           },
           {
-            "sentence": "She wants to become an [architect] after finishing her studies.",
-            "translation_zh_TW": "她希望在學業結束後成為一名建築師。"
+            "sentence": "A good [mentor] can make a big difference in your career.",
+            "translation_zh_TW": "一位好的導師可以對你的職業生涯產生重大影響。"
           },
           {
-            "sentence": "An experienced [architect] can greatly influence the success of a project.",
-            "translation_zh_TW": "一位經驗豐富的建築師可以極大影響一個項目的成功。"
+            "sentence": "He seeks advice from his [mentor] regularly.",
+            "translation_zh_TW": "他經常向他的導師尋求建議。"
           }
         ],
         "synonyms": [
-          "designer",
-          "builder"
+          "guide",
+          "coach"
         ]
       }
     ],
     "confusion": [
-      "archetype",
-      "archenemy",
-      "arch",
-      "architecture"
+      "metro",
+      "monitor",
+      "mentally",
+      "mentr"
     ]
   },
   {
-    "word": "utility",
+    "word": "performer",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The state of being useful, profitable, or beneficial.",
-        "meaning_zh_TW": "實用性",
+        "meaning_en_US": "A person who entertains others by singing, dancing, acting, etc.",
+        "meaning_zh_TW": "表演者",
         "wrong_meaning_zh_TW": [
-          "奢侈品",
-          "損失",
-          "浪費"
+          "觀眾",
+          "編導",
+          "舞者"
         ],
         "examples": [
           {
-            "sentence": "The tool has great [utility] in the workshop.",
-            "translation_zh_TW": "這個工具在作坊中非常實用。"
+            "sentence": "The [performer] captivated the audience with their talent.",
+            "translation_zh_TW": "表演者以其才華吸引了觀眾"
           },
           {
-            "sentence": "He values the [utility] of the new software.",
-            "translation_zh_TW": "他重視這個新軟件的實用性。"
+            "sentence": "Many famous [performers] started in small theaters.",
+            "translation_zh_TW": "許多著名的表演者都是從小劇院開始的"
           },
           {
-            "sentence": "Understanding the [utility] of resources is crucial.",
-            "translation_zh_TW": "了解資源的實用性是至關重要的。"
+            "sentence": "She is a skilled [performer] in both musical and dramatic arts.",
+            "translation_zh_TW": "她是一位在音樂和戲劇藝術方面都很精湛的表演者"
           }
         ],
         "synonyms": [
-          "usefulness",
-          "practicality"
+          "entertainer",
+          "artist"
         ]
       }
     ],
     "confusion": [
-      "utilities",
-      "utopia",
-      "utilitys",
-      "utensils"
+      "performence",
+      "performar",
+      "performers",
+      "performencee"
     ]
   },
   {
-    "word": "hostage",
+    "word": "sphere",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person seized or held as security for the fulfillment of a condition.",
-        "meaning_zh_TW": "人質",
+        "meaning_en_US": "A round solid figure, or its surface, with every point on its surface equidistant from its center.",
+        "meaning_zh_TW": "球體",
         "wrong_meaning_zh_TW": [
-          "囚犯",
-          "證人",
-          "受害者"
+          "圓柱",
+          "立方體",
+          "圓圈"
         ],
         "examples": [
           {
-            "sentence": "The kidnappers took a [hostage] to negotiate their demands.",
-            "translation_zh_TW": "綁匪帶走了一名人質以談判他們的要求"
+            "sentence": "The Earth is not a perfect [sphere].",
+            "translation_zh_TW": "地球不是一個完美的球體。"
           },
           {
-            "sentence": "The police worked diligently to rescue the [hostage].",
-            "translation_zh_TW": "警方努力工作以拯救人質"
+            "sentence": "Many decorations are shaped like a [sphere].",
+            "translation_zh_TW": "許多裝飾品的形狀像球體。"
           },
           {
-            "sentence": "Being a [hostage] can be a terrifying experience.",
-            "translation_zh_TW": "做為人質可能是一次可怕的經歷"
+            "sentence": "Mathematicians study properties of the [sphere].",
+            "translation_zh_TW": "數學家研究球體的性質。"
           }
         ],
         "synonyms": [
-          "prisoner",
-          "captive"
+          "globe",
+          "ball"
         ]
       }
     ],
     "confusion": [
-      "hostages",
-      "hostag",
-      "hosatge",
-      "hottest"
+      "sphear",
+      "spear",
+      "sphereial",
+      "sphearical"
     ]
   },
   {
-    "word": "ridge",
+    "word": "likelihood",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A long narrow hilltop or mountain range.",
-        "meaning_zh_TW": "山脊",
+        "meaning_en_US": "The state or fact of something being likely; probability.",
+        "meaning_zh_TW": "可能性",
         "wrong_meaning_zh_TW": [
-          "山谷",
-          "高原",
-          "平原"
+          "不確定性",
+          "偶然性",
+          "無保障"
         ],
         "examples": [
           {
-            "sentence": "They stood on the [ridge] to survey the landscape.",
-            "translation_zh_TW": "他們站在山脊上觀察風景。"
+            "sentence": "There is a high likelihood of rain tomorrow.",
+            "translation_zh_TW": "明天有很高的降雨可能性。"
           },
           {
-            "sentence": "The trail follows the [ridge] for several miles.",
-            "translation_zh_TW": "小徑沿著山脊延伸幾英里。"
+            "sentence": "The likelihood of success increases with preparation.",
+            "translation_zh_TW": "隨著準備，成功的可能性增加。"
           },
           {
-            "sentence": "A [ridge] often provides a stunning view.",
-            "translation_zh_TW": "山脊通常提供壯觀的景色。"
+            "sentence": "They discussed the likelihood of winning the game.",
+            "translation_zh_TW": "他們討論了贏得比賽的可能性。"
           }
         ],
         "synonyms": [
-          "hilltop",
-          "escarpment"
+          "probability",
+          "chance"
         ]
       }
     ],
     "confusion": [
-      "ridgeway",
-      "ridged",
-      "riggle",
-      "ridgeback"
+      "likable",
+      "likehood",
+      "likely",
+      "likewise"
     ]
   },
   {
-    "word": "meantime",
+    "word": "dome",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The period of time between two events or actions.",
-        "meaning_zh_TW": "同時，期間",
+        "meaning_en_US": "A rounded roof structure.",
+        "meaning_zh_TW": "圓頂",
         "wrong_meaning_zh_TW": [
-          "過去",
-          "以後",
-          "現在"
+          "尖塔",
+          "牆壁",
+          "天花板"
         ],
         "examples": [
           {
-            "sentence": "In the [meantime], let's focus on the task at hand.",
-            "translation_zh_TW": "在此期間，讓我們專注於眼前的任務。"
+            "sentence": "The cathedral has a stunning [dome].",
+            "translation_zh_TW": "這座大教堂有一個驚人的圓頂。"
           },
           {
-            "sentence": "You can study for the exam; in the [meantime], I will make dinner.",
-            "translation_zh_TW": "你可以為考試學習；同時，我會準備晚餐。"
+            "sentence": "They built a glass [dome] over the garden.",
+            "translation_zh_TW": "他們在花園上建了一個玻璃圓頂。"
           },
           {
-            "sentence": "The project is delayed, but in the [meantime], we will review our options.",
-            "translation_zh_TW": "這個項目被延遲了，但在此期間，我們將審查我們的選擇。"
+            "sentence": "The [dome] was decorated with beautiful mosaics.",
+            "translation_zh_TW": "圓頂上裝飾著美麗的馬賽克。"
           }
         ],
         "synonyms": [
-          "meanwhile",
-          "interim"
+          "arch",
+          "cupola"
         ]
       }
     ],
     "confusion": [
-      "meantie",
-      "meanest",
-      "mean",
-      "meant"
-    ]
-  },
-  {
-    "word": "fatigue",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A state of extreme physical or mental tiredness.",
-        "meaning_zh_TW": "疲勞",
-        "wrong_meaning_zh_TW": [
-          "過度興奮",
-          "精力充沛",
-          "放鬆"
-        ],
-        "examples": [
-          {
-            "sentence": "After the long hike, they experienced severe [fatigue].",
-            "translation_zh_TW": "經過長時間的徒步旅行，他們感到嚴重的疲勞。"
-          },
-          {
-            "sentence": "Mental [fatigue] can affect your performance at work.",
-            "translation_zh_TW": "精神疲勞可能會影響你的工作表現。"
-          },
-          {
-            "sentence": "She took a nap to combat her [fatigue].",
-            "translation_zh_TW": "她小睡一下來抵抗疲勞。"
-          }
-        ],
-        "synonyms": [
-          "tiredness",
-          "weariness"
-        ]
-      }
-    ],
-    "confusion": [
-      "fatal",
-      "fatic",
-      "fattice",
-      "fatigued"
-    ]
-  },
-  {
-    "word": "volcano",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A mountain or hill with a opening through which lava, rock fragments, hot vapor, and gas are expelled.",
-        "meaning_zh_TW": "火山",
-        "wrong_meaning_zh_TW": [
-          "山丘",
-          "懸崖",
-          "土堆"
-        ],
-        "examples": [
-          {
-            "sentence": "The [volcano] erupted last night.",
-            "translation_zh_TW": "火山昨晚爆發了"
-          },
-          {
-            "sentence": "They visited an active [volcano].",
-            "translation_zh_TW": "他們參觀了一座活火山"
-          },
-          {
-            "sentence": "The island was formed by a [volcano].",
-            "translation_zh_TW": "這個島嶼是由一座火山形成的"
-          }
-        ],
-        "synonyms": [
-          "mountain",
-          "cinder cone"
-        ]
-      }
-    ],
-    "confusion": [
-      "volante",
-      "volcanic",
-      "voluntarism",
-      "vortex"
-    ]
-  },
-  {
-    "word": "framework",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A basic structure underlying a system, concept, or text.",
-        "meaning_zh_TW": "框架",
-        "wrong_meaning_zh_TW": [
-          "內容",
-          "系統",
-          "功能"
-        ],
-        "examples": [
-          {
-            "sentence": "The project was developed within a clear [framework].",
-            "translation_zh_TW": "這個項目在一個明確的框架內發展。"
-          },
-          {
-            "sentence": "She outlined a [framework] for the new policy.",
-            "translation_zh_TW": "她為新政策勾勒了一個框架。"
-          },
-          {
-            "sentence": "The [framework] serves as a guideline for best practices.",
-            "translation_zh_TW": "該框架作為最佳實踐的指導方針。"
-          }
-        ],
-        "synonyms": [
-          "structure",
-          "system"
-        ]
-      }
-    ],
-    "confusion": [
-      "frameworks",
-      "frameworker",
-      "framers",
-      "fremework"
-    ]
-  },
-  {
-    "word": "domain",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An area of knowledge or activity; a field.",
-        "meaning_zh_TW": "領域",
-        "wrong_meaning_zh_TW": [
-          "農地",
-          "領土",
-          "社區"
-        ],
-        "examples": [
-          {
-            "sentence": "Mathematics is a complex [domain] of study.",
-            "translation_zh_TW": "數學是一個複雜的學習領域。"
-          },
-          {
-            "sentence": "In the digital age, data is a critical [domain].",
-            "translation_zh_TW": "在數位時代，數據是一個關鍵領域。"
-          },
-          {
-            "sentence": "His research falls within the [domain] of psychology.",
-            "translation_zh_TW": "他的研究屬於心理學領域。"
-          }
-        ],
-        "synonyms": [
-          "field",
-          "area"
-        ]
-      }
-    ],
-    "confusion": [
-      "domaine",
-      "domine",
-      "domained",
-      "do-main"
-    ]
-  },
-  {
-    "word": "aisle",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A passage between rows of seats in a building such as a church or theater, an airplane, or a train.",
-        "meaning_zh_TW": "走道；過道",
-        "wrong_meaning_zh_TW": [
-          "大廳",
-          "入口",
-          "走廊"
-        ],
-        "examples": [
-          {
-            "sentence": "She walked down the [aisle] to her seat.",
-            "translation_zh_TW": "她走過走道到她的座位。"
-          },
-          {
-            "sentence": "Please keep the [aisle] clear while boarding.",
-            "translation_zh_TW": "登機時請保持過道的暢通。"
-          },
-          {
-            "sentence": "The [aisle] was decorated for the wedding.",
-            "translation_zh_TW": "走道為婚禮裝飾。"
-          }
-        ],
-        "synonyms": [
-          "corridor",
-          "passage"
-        ]
-      }
-    ],
-    "confusion": [
-      "isle",
-      "aisles",
-      "aisled",
-      "aisel"
+      "domo",
+      "doom",
+      "domeful",
+      "domes"
     ]
   }
 ]

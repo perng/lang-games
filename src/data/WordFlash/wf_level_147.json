@@ -1,775 +1,783 @@
 [
   {
-    "word": "pure",
+    "word": "dash",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Not mixed or adulterated with any other substance or material.",
-        "meaning_zh_TW": "純淨的",
+        "type": "動詞",
+        "meaning_en_US": "To move with sudden speed; to run or travel quickly.",
+        "meaning_zh_TW": "衝刺",
         "wrong_meaning_zh_TW": [
-          "混合的",
-          "不純的",
-          "污濁的"
+          "停滯",
+          "緩慢",
+          "靜止"
         ],
         "examples": [
           {
-            "sentence": "The water was crystal clear and [pure].",
-            "translation_zh_TW": "水是晶瑩剔透且純淨的。"
+            "sentence": "He made a quick [dash] for the bus.",
+            "translation_zh_TW": "他迅速衝向巴士"
           },
           {
-            "sentence": "He seeks [pure] intentions in his friends.",
-            "translation_zh_TW": "他在朋友中尋找純粹的意圖。"
+            "sentence": "The athlete will [dash] to the finish line.",
+            "translation_zh_TW": "運動員將衝向終點"
           },
           {
-            "sentence": "The [pure] gold was used to make jewelry.",
-            "translation_zh_TW": "純金被用來製作珠寶。"
+            "sentence": "She took off in a [dash] when she saw the fire.",
+            "translation_zh_TW": "當她看到火時，她迅速逃離"
           }
         ],
         "synonyms": [
-          "unadulterated",
-          "unmixed",
-          "cleansed"
+          "sprint",
+          "hasten"
         ]
       }
     ],
     "confusion": [
-      "pore",
-      "peer",
-      "puree",
-      "pour"
+      "dish",
+      "dach",
+      "dense",
+      "hash"
     ]
   },
   {
-    "word": "accomplishment",
+    "word": "textbook",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "Something that has been achieved successfully.",
-        "meaning_zh_TW": "成就",
+        "meaning_en_US": "A book used as a standard work for the study of a particular subject.",
+        "meaning_zh_TW": "教科書",
+        "wrong_meaning_zh_TW": [
+          "小說",
+          "參考書",
+          "字典"
+        ],
+        "examples": [
+          {
+            "sentence": "I need to buy a new [textbook] for my class.",
+            "translation_zh_TW": "我需要為我的課程買一本新的教科書。"
+          },
+          {
+            "sentence": "She is studying from her [textbook] for the exam.",
+            "translation_zh_TW": "她正在為考試從她的教科書中學習。"
+          },
+          {
+            "sentence": "The [textbook] covers all the relevant topics.",
+            "translation_zh_TW": "這本教科書涵蓋了所有相關主題。"
+          }
+        ],
+        "synonyms": [
+          "manual",
+          "reference book"
+        ]
+      }
+    ],
+    "confusion": [
+      "texting",
+      "textual",
+      "testbook",
+      "texbook"
+    ]
+  },
+  {
+    "word": "steal",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To take something that belongs to someone else without permission.",
+        "meaning_zh_TW": "偷竊",
+        "wrong_meaning_zh_TW": [
+          "還回來",
+          "借用",
+          "購買"
+        ],
+        "examples": [
+          {
+            "sentence": "He tried to [steal] a cookie from the jar.",
+            "translation_zh_TW": "他試著從罐子裡偷一塊餅乾。"
+          },
+          {
+            "sentence": "She was caught trying to [steal] a bike.",
+            "translation_zh_TW": "她被抓到試圖偷一輛自行車。"
+          },
+          {
+            "sentence": "It's wrong to [steal] from others.",
+            "translation_zh_TW": "偷竊是不對的。"
+          }
+        ],
+        "synonyms": [
+          "thief",
+          "rob"
+        ]
+      }
+    ],
+    "confusion": [
+      "steel",
+      "stale",
+      "steeler",
+      "stealings"
+    ]
+  },
+  {
+    "word": "parcel",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A thing or collection of things wrapped in paper or packed in a box.",
+        "meaning_zh_TW": "包裹",
+        "wrong_meaning_zh_TW": [
+          "信件",
+          "宣傳單",
+          "報紙"
+        ],
+        "examples": [
+          {
+            "sentence": "She received a [parcel] in the mail today.",
+            "translation_zh_TW": "她今天收到了一個包裹。"
+          },
+          {
+            "sentence": "The [parcel] was delivered to her doorstep.",
+            "translation_zh_TW": "包裹被送到她的門口。"
+          },
+          {
+            "sentence": "He carefully opened the [parcel] to see what was inside.",
+            "translation_zh_TW": "他小心翼翼地打開包裹，看看裡面有什麼。"
+          }
+        ],
+        "synonyms": [
+          "package",
+          "bundle"
+        ]
+      }
+    ],
+    "confusion": [
+      "parcell",
+      "parsel",
+      "parcels",
+      "parceling"
+    ]
+  },
+  {
+    "word": "flavor",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The distinctive taste of a food or drink.",
+        "meaning_zh_TW": "風味",
+        "wrong_meaning_zh_TW": [
+          "顏色",
+          "形狀",
+          "溫度"
+        ],
+        "examples": [
+          {
+            "sentence": "This ice cream has a unique [flavor] of lavender.",
+            "translation_zh_TW": "這種冰淇淋有獨特的薰衣草風味。"
+          },
+          {
+            "sentence": "She prefers the [flavor] of chocolate over vanilla.",
+            "translation_zh_TW": "她更喜歡巧克力的風味而不是香草。"
+          },
+          {
+            "sentence": "The dish was enhanced by the [flavor] of fresh herbs.",
+            "translation_zh_TW": "這道菜因新鮮香草的風味而更加美味。"
+          }
+        ],
+        "synonyms": [
+          "taste",
+          "savor"
+        ]
+      }
+    ],
+    "confusion": [
+      "flavour",
+      "flavoring",
+      "flvoer",
+      "flavo"
+    ]
+  },
+  {
+    "word": "horrible",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Causing horror; shocking; dreadful.",
+        "meaning_zh_TW": "可怕的，令人恐懼的",
+        "wrong_meaning_zh_TW": [
+          "絕望的",
+          "無法容忍的",
+          "古怪的"
+        ],
+        "examples": [
+          {
+            "sentence": "The movie was so [horrible] that I couldn't watch it.",
+            "translation_zh_TW": "這部電影可怕得我無法觀看。"
+          },
+          {
+            "sentence": "She had a [horrible] experience at the haunted house.",
+            "translation_zh_TW": "她在鬼屋的經歷非常可怕。"
+          },
+          {
+            "sentence": "The news was just [horrible] and shocking.",
+            "translation_zh_TW": "這則新聞真可怕且令人震驚。"
+          }
+        ],
+        "synonyms": [
+          "terrible",
+          "awful",
+          "dreadful"
+        ]
+      }
+    ],
+    "confusion": [
+      "horrid",
+      "horrors",
+      "horribley",
+      "horrib"
+    ]
+  },
+  {
+    "word": "gasoline",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A liquid used as fuel for internal combustion engines.",
+        "meaning_zh_TW": "汽油",
+        "wrong_meaning_zh_TW": [
+          "酒精",
+          "柴油",
+          "液化氣"
+        ],
+        "examples": [
+          {
+            "sentence": "He filled the tank with [gasoline].",
+            "translation_zh_TW": "他將油箱加滿了汽油"
+          },
+          {
+            "sentence": "Rising [gasoline] prices are affecting consumers.",
+            "translation_zh_TW": "不斷上漲的汽油價格影響消費者"
+          },
+          {
+            "sentence": "The car runs more efficiently on [gasoline].",
+            "translation_zh_TW": "這輛車使用汽油運行得更加高效"
+          }
+        ],
+        "synonyms": [
+          "fuel",
+          "petrol"
+        ]
+      }
+    ],
+    "confusion": [
+      "gaseous",
+      "galley",
+      "gaslight",
+      "gase"
+    ]
+  },
+  {
+    "word": "scout",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person sent out to obtain information.",
+        "meaning_zh_TW": "偵查者",
+        "wrong_meaning_zh_TW": [
+          "演員",
+          "士兵",
+          "觀眾"
+        ],
+        "examples": [
+          {
+            "sentence": "The [scout] reported back with valuable information.",
+            "translation_zh_TW": "偵查者帶回了寶貴的信息"
+          },
+          {
+            "sentence": "He joined the [scouts] to learn survival skills.",
+            "translation_zh_TW": "他加入了偵查隊以學習生存技能"
+          },
+          {
+            "sentence": "A [scout] is often the first to enter unknown territory.",
+            "translation_zh_TW": "偵查者通常是第一個進入未知領土的人"
+          }
+        ],
+        "synonyms": [
+          "explorer",
+          "observer"
+        ]
+      }
+    ],
+    "confusion": [
+      "scouted",
+      "scote",
+      "scoutt",
+      "scoutes"
+    ]
+  },
+  {
+    "word": "trader",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who buys and sells goods for a profit.",
+        "meaning_zh_TW": "商人",
+        "wrong_meaning_zh_TW": [
+          "顧客",
+          "製造商",
+          "經理"
+        ],
+        "examples": [
+          {
+            "sentence": "The [trader] negotiated a fair price for the goods.",
+            "translation_zh_TW": "商人為貨物談判了公平的價格。"
+          },
+          {
+            "sentence": "A successful [trader] needs to understand the market.",
+            "translation_zh_TW": "成功的商人需要了解市場。"
+          },
+          {
+            "sentence": "He is a [trader] in rare antiques.",
+            "translation_zh_TW": "他是一位珍稀古董的商人。"
+          }
+        ],
+        "synonyms": [
+          "merchant",
+          "dealer"
+        ]
+      }
+    ],
+    "confusion": [
+      "trader",
+      "traitor",
+      "trade",
+      "traced"
+    ]
+  },
+  {
+    "word": "allowance",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A sum of money given regularly to a person, typically a child, for personal spending.",
+        "meaning_zh_TW": "零用錢",
+        "wrong_meaning_zh_TW": [
+          "工資",
+          "薪水",
+          "獎金"
+        ],
+        "examples": [
+          {
+            "sentence": "He receives a weekly [allowance] for chores.",
+            "translation_zh_TW": "他為做家務每週領取零用錢。"
+          },
+          {
+            "sentence": "Parents often set an [allowance] for their kids.",
+            "translation_zh_TW": "父母經常會為孩子設定零用錢。"
+          },
+          {
+            "sentence": "She saved her [allowance] to buy a new game.",
+            "translation_zh_TW": "她把零用錢存起來買新遊戲。"
+          }
+        ],
+        "synonyms": [
+          "stipend",
+          "pocket money"
+        ]
+      }
+    ],
+    "confusion": [
+      "allawance",
+      "allowenes",
+      "allanowe",
+      "alowance"
+    ]
+  },
+  {
+    "word": "wrist",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The joint connecting the hand with the forearm.",
+        "meaning_zh_TW": "手腕",
+        "wrong_meaning_zh_TW": [
+          "肩膀",
+          "手肘",
+          "手指"
+        ],
+        "examples": [
+          {
+            "sentence": "He wore a watch on his [wrist].",
+            "translation_zh_TW": "他把手錶戴在手腕上。"
+          },
+          {
+            "sentence": "She injured her [wrist] while playing tennis.",
+            "translation_zh_TW": "她在打網球時傷了手腕。"
+          },
+          {
+            "sentence": "The bracelet fitted snugly on her [wrist].",
+            "translation_zh_TW": "手鏈緊緊貼合在她的手腕上。"
+          }
+        ],
+        "synonyms": [
+          "joint",
+          "carpal"
+        ]
+      }
+    ],
+    "confusion": [
+      "wist",
+      "risk",
+      "wrath",
+      "wring"
+    ]
+  },
+  {
+    "word": "helmet",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A protective headgear worn to prevent injuries.",
+        "meaning_zh_TW": "頭盔",
+        "wrong_meaning_zh_TW": [
+          "圍巾",
+          "帽子",
+          "面具"
+        ],
+        "examples": [
+          {
+            "sentence": "Always wear a [helmet] when riding a bike.",
+            "translation_zh_TW": "騎自行車時一定要戴上頭盔"
+          },
+          {
+            "sentence": "The soldier's [helmet] protects him in battle.",
+            "translation_zh_TW": "士兵的頭盔在戰鬥中保護他"
+          },
+          {
+            "sentence": "He customized his motorcycle [helmet].",
+            "translation_zh_TW": "他為自己的摩托車定制了頭盔"
+          }
+        ],
+        "synonyms": [
+          "headgear",
+          "hard hat"
+        ]
+      }
+    ],
+    "confusion": [
+      "helment",
+      "helmets",
+      "helots",
+      "melmet"
+    ]
+  },
+  {
+    "word": "scholar",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who studies or has studied a particular field or subject.",
+        "meaning_zh_TW": "學者",
+        "wrong_meaning_zh_TW": [
+          "學生",
+          "教授",
+          "書迷"
+        ],
+        "examples": [
+          {
+            "sentence": "As a [scholar], he published many research papers.",
+            "translation_zh_TW": "作為一名學者，他發表了許多研究論文。"
+          },
+          {
+            "sentence": "The [scholar] gave a lecture on ancient history.",
+            "translation_zh_TW": "這位學者就古代歷史做了演講。"
+          },
+          {
+            "sentence": "She was awarded a grant for her work as a [scholar].",
+            "translation_zh_TW": "因為她作為學者的工作，她獲得了資助。"
+          }
+        ],
+        "synonyms": [
+          "academic",
+          "intellectual"
+        ]
+      }
+    ],
+    "confusion": [
+      "scholarship",
+      "schooler",
+      "scalper",
+      "sholler"
+    ]
+  },
+  {
+    "word": "wallet",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A small, portable case for holding money and personal identification.",
+        "meaning_zh_TW": "錢包",
+        "wrong_meaning_zh_TW": [
+          "背包",
+          "行李",
+          "文件夾"
+        ],
+        "examples": [
+          {
+            "sentence": "I always carry my [wallet] in my back pocket.",
+            "translation_zh_TW": "我總是把錢包放在後口袋裡"
+          },
+          {
+            "sentence": "He lost his [wallet] at the mall.",
+            "translation_zh_TW": "他在商場丟了錢包"
+          },
+          {
+            "sentence": "Her [wallet] is filled with loyalty cards.",
+            "translation_zh_TW": "她的錢包裡裝滿了會員卡"
+          }
+        ],
+        "synonyms": [
+          "purse",
+          "billfold"
+        ]
+      }
+    ],
+    "confusion": [
+      "wellet",
+      "wallets",
+      "walett",
+      "watlet"
+    ]
+  },
+  {
+    "word": "accomplish",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To achieve or complete successfully.",
+        "meaning_zh_TW": "成功完成",
         "wrong_meaning_zh_TW": [
           "失敗",
-          "懶惰",
-          "責任"
+          "偷竊",
+          "懶惰"
         ],
         "examples": [
           {
-            "sentence": "Graduating from college was a major [accomplishment] for her.",
-            "translation_zh_TW": "大學畢業對她來說是一個重大成就"
+            "sentence": "She worked hard to [accomplish] her goals.",
+            "translation_zh_TW": "她努力工作以達成她的目標"
           },
           {
-            "sentence": "His greatest [accomplishment] was winning the championship.",
-            "translation_zh_TW": "他最大的成就是贏得冠軍"
+            "sentence": "It took several years to [accomplish] this project.",
+            "translation_zh_TW": "這個專案花了好幾年才完成"
           },
           {
-            "sentence": "The team celebrated their [accomplishment] after finishing the project.",
-            "translation_zh_TW": "團隊完成專案後慶祝他們的成就"
+            "sentence": "He was proud to [accomplish] such a difficult task.",
+            "translation_zh_TW": "他為完成如此困難的任務而感到自豪"
           }
         ],
         "synonyms": [
-          "achievement",
-          "success"
+          "achieve",
+          "complete"
         ]
       }
     ],
     "confusion": [
+      "accomplished",
       "accomplice",
       "accomplishing",
-      "accomplished",
-      "accompaniments"
+      "accompli"
     ]
   },
   {
-    "word": "kingdom",
+    "word": "ambassador",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A country or state ruled by a king or queen.",
-        "meaning_zh_TW": "王國",
+        "meaning_en_US": "An official representative of a country, typically sent to a foreign country.",
+        "meaning_zh_TW": "大使",
         "wrong_meaning_zh_TW": [
-          "城市",
-          "國家",
-          "部落"
+          "代表團",
+          "使者",
+          "官員"
         ],
         "examples": [
           {
-            "sentence": "The [kingdom] is known for its beautiful landscapes.",
-            "translation_zh_TW": "這個王國以其美麗的風景而聞名。"
+            "sentence": "The [ambassador] spoke at the international summit.",
+            "translation_zh_TW": "大使在國際峰會上發言。"
           },
           {
-            "sentence": "She dreams of visiting a fairy tale [kingdom].",
-            "translation_zh_TW": "她夢想著造訪一個童話王國。"
+            "sentence": "Every country has an [ambassador] in the United Nations.",
+            "translation_zh_TW": "每個國家在聯合國都有一位大使。"
           },
           {
-            "sentence": "The ancient [kingdom] was powerful and prosperous.",
-            "translation_zh_TW": "這個古老的王國曾經強大而繁榮。"
+            "sentence": "The [ambassador] promoted cultural exchange between nations.",
+            "translation_zh_TW": "大使促進國家間的文化交流。"
           }
         ],
         "synonyms": [
-          "realm",
-          "empire"
+          "envoy",
+          "legate"
         ]
       }
     ],
     "confusion": [
-      "kingly",
-      "kingfisher",
-      "kindness",
-      "kingpin"
+      "ambassadress",
+      "ambassdor",
+      "ambasssador",
+      "amboassdor"
     ]
   },
   {
-    "word": "survey",
+    "word": "weed",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A method of collecting information from a group of people.",
-        "meaning_zh_TW": "調查、問卷",
+        "meaning_en_US": "A plant considered undesirable in a garden or field.",
+        "meaning_zh_TW": "雜草",
         "wrong_meaning_zh_TW": [
-          "討論",
-          "藉口",
-          "計畫"
+          "花卉",
+          "樹木",
+          "草坪"
         ],
         "examples": [
           {
-            "sentence": "The [survey] revealed interesting trends.",
-            "translation_zh_TW": "這項調查顯示了有趣的趨勢。"
+            "sentence": "He spent the afternoon pulling [weeds] from the garden.",
+            "translation_zh_TW": "他花了整個下午在花園裡拔雜草"
           },
           {
-            "sentence": "Participants were asked to complete the [survey].",
-            "translation_zh_TW": "受訪者被要求填寫調查問卷。"
+            "sentence": "The [weeds] took over the flower beds.",
+            "translation_zh_TW": "雜草佔據了花壇"
           },
           {
-            "sentence": "A recent [survey] showed changes in consumer preferences.",
-            "translation_zh_TW": "最近的調查顯示了消費者偏好的變化。"
+            "sentence": "Farmers often [weed] their fields by hand.",
+            "translation_zh_TW": "農民經常手動拔除他們的田地裡的雜草"
           }
         ],
         "synonyms": [
-          "poll",
-          "questionnaire",
-          "study"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To examine or look at closely.",
-        "meaning_zh_TW": "調查、檢查",
-        "wrong_meaning_zh_TW": [
-          "忽略",
-          "模糊",
-          "積累"
-        ],
-        "examples": [
-          {
-            "sentence": "They will [survey] the area for developments.",
-            "translation_zh_TW": "他們將對該地區進行調查以便發展。"
-          },
-          {
-            "sentence": "I need to [survey] my options before deciding.",
-            "translation_zh_TW": "在做決定之前，我需要檢查我的選擇。"
-          },
-          {
-            "sentence": "The architect will [survey] the site next week.",
-            "translation_zh_TW": "建築師將於下週檢查該地點。"
-          }
-        ],
-        "synonyms": [
-          "examine",
-          "inspect",
-          "analyze"
+          "undesirable plant",
+          "invasive plant"
         ]
       }
     ],
     "confusion": [
-      "servant",
-      "serving",
-      "surveyor",
-      "surgery"
+      "wade",
+      "wheeled",
+      "weaved",
+      "wedded"
     ]
   },
   {
-    "word": "dizzy",
+    "word": "conscious",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having a sensation of spinning or losing one's balance.",
-        "meaning_zh_TW": "感到頭暈",
+        "meaning_en_US": "Aware of and responding to one's surroundings; awake.",
+        "meaning_zh_TW": "有意識的，清醒的",
         "wrong_meaning_zh_TW": [
-          "感到刺激",
-          "感到疲倦",
-          "感到焦慮"
+          "無意識的",
+          "厭倦的",
+          "空虛的"
         ],
         "examples": [
           {
-            "sentence": "After spinning around, he felt [dizzy].",
-            "translation_zh_TW": "他旋轉後感到頭暈。"
+            "sentence": "He was fully [conscious] during the procedure.",
+            "translation_zh_TW": "他在手術過程中完全清醒"
           },
           {
-            "sentence": "She stood up too quickly and got [dizzy].",
-            "translation_zh_TW": "她太快站起來，感到頭暈。"
+            "sentence": "Being [conscious] of your health is crucial.",
+            "translation_zh_TW": "注意自己的健康是至關重要的"
           },
           {
-            "sentence": "The roller coaster made me feel [dizzy].",
-            "translation_zh_TW": "過山車讓我感到頭暈。"
+            "sentence": "She became [conscious] of the gazes on her.",
+            "translation_zh_TW": "她意識到眾人的目光在注視她"
           }
         ],
         "synonyms": [
-          "light-headed",
-          "giddy"
+          "aware",
+          "mindful"
         ]
       }
     ],
     "confusion": [
-      "busy",
-      "dizzying",
-      "dozy",
-      "dizzily"
+      "subconscious",
+      "conscience",
+      "unconscious",
+      "condescend"
     ]
   },
   {
-    "word": "political",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to the government or the public affairs of a country.",
-        "meaning_zh_TW": "政治的",
-        "wrong_meaning_zh_TW": [
-          "環保的",
-          "經濟的",
-          "社會的"
-        ],
-        "examples": [
-          {
-            "sentence": "The decision was highly [political].",
-            "translation_zh_TW": "這個決定是高度政治性的。"
-          },
-          {
-            "sentence": "In a [political] debate, opinions can clash.",
-            "translation_zh_TW": "在政治辯論中，意見可能會衝突。"
-          },
-          {
-            "sentence": "The [political] climate is changing rapidly.",
-            "translation_zh_TW": "政治氣候正在快速變化。"
-          }
-        ],
-        "synonyms": [
-          "governmental",
-          "state"
-        ]
-      }
-    ],
-    "confusion": [
-      "politician",
-      "politics",
-      "policy",
-      "poll"
-    ]
-  },
-  {
-    "word": "advantage",
+    "word": "accent",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A condition or circumstance that puts one in a favorable or superior position.",
-        "meaning_zh_TW": "優勢、好處",
+        "meaning_en_US": "A way of pronouncing words that is characteristic of a particular region or group of people.",
+        "meaning_zh_TW": "口音",
         "wrong_meaning_zh_TW": [
-          "劣勢",
-          "困難",
-          "障礙"
+          "節奏",
+          "音調",
+          "言語"
         ],
         "examples": [
           {
-            "sentence": "Their experience gave them an [advantage] over the competition.",
-            "translation_zh_TW": "他們的經驗讓他們在競爭中佔據了優勢。"
+            "sentence": "She spoke with a strong [accent].",
+            "translation_zh_TW": "她講話帶有濃重的口音"
           },
           {
-            "sentence": "Having strong connections is an [advantage] in business.",
-            "translation_zh_TW": "擁有強大的人脈在商業上是一種優勢。"
+            "sentence": "His [accent] revealed his origins.",
+            "translation_zh_TW": "他的口音暴露了他的出生地"
           },
           {
-            "sentence": "Knowledge of the market is an important [advantage].",
-            "translation_zh_TW": "對市場的了解是重要的好處。"
+            "sentence": "They have different [accents] depending on their regions.",
+            "translation_zh_TW": "根據地區，他們有不同的口音"
           }
         ],
         "synonyms": [
-          "benefit",
-          "upper hand"
+          "dialect",
+          "pronunciation"
         ]
       }
     ],
     "confusion": [
-      "advantge",
-      "advatage",
-      "advantadge",
-      "advanttage"
+      "accsent",
+      "ascent",
+      "accint",
+      "acent"
     ]
   },
   {
-    "word": "wonder",
+    "word": "dock",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A feeling of amazement and admiration, caused by something beautiful, remarkable, or unfamiliar.",
-        "meaning_zh_TW": "驚奇、驚嘆",
+        "meaning_en_US": "A structure for receiving ships or boats.",
+        "meaning_zh_TW": "碼頭",
         "wrong_meaning_zh_TW": [
-          "糞便",
-          "獨特性",
-          "星球"
+          "船隻",
+          "航道",
+          "漁村"
         ],
         "examples": [
           {
-            "sentence": "The view from the top of the mountain filled her with [wonder].",
-            "translation_zh_TW": "山頂的景色讓她充滿了驚奇"
+            "sentence": "The boat is tied to the [dock].",
+            "translation_zh_TW": "船被系在碼頭上。"
           },
           {
-            "sentence": "Children often look at the world with [wonder].",
-            "translation_zh_TW": "孩子們經常以驚奇的眼光看待世界"
+            "sentence": "He walked down to the [dock] to watch the ships.",
+            "translation_zh_TW": "他走到碼頭去觀看船隻。"
           },
           {
-            "sentence": "His ability to create art inspired [wonder] in everyone.",
-            "translation_zh_TW": "他的藝術創作讓每個人都感到驚嘆"
+            "sentence": "The [dock] is busy with unloading cargo.",
+            "translation_zh_TW": "碼頭忙於卸貨。"
           }
         ],
         "synonyms": [
-          "amazement",
-          "astonishment"
+          "wharf",
+          "pier"
         ]
       }
     ],
     "confusion": [
-      "wander",
-      "wondering",
-      "wound",
-      "winder"
-    ]
-  },
-  {
-    "word": "upon",
-    "meanings": [
-      {
-        "type": "介系詞",
-        "meaning_en_US": "Used to indicate a condition or state.",
-        "meaning_zh_TW": "在…之上",
-        "wrong_meaning_zh_TW": [
-          "之後",
-          "在下面",
-          "在周圍"
-        ],
-        "examples": [
-          {
-            "sentence": "Once [upon] a time, there was a brave knight.",
-            "translation_zh_TW": "從前，有一位勇敢的騎士"
-          },
-          {
-            "sentence": "I will depend [upon] you for support.",
-            "translation_zh_TW": "我將依賴你提供支持"
-          },
-          {
-            "sentence": "The ceremony will take place [upon] the hill.",
-            "translation_zh_TW": "儀式將在山上舉行"
-          }
-        ],
-        "synonyms": [
-          "on",
-          "over",
-          "above"
-        ]
-      }
-    ],
-    "confusion": [
-      "upon",
-      "upward",
-      "upturn",
-      "upkeep"
-    ]
-  },
-  {
-    "word": "adviser",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who gives advice, typically someone with specialized knowledge.",
-        "meaning_zh_TW": "顧問",
-        "wrong_meaning_zh_TW": [
-          "客戶",
-          "學生",
-          "領導"
-        ],
-        "examples": [
-          {
-            "sentence": "The financial [adviser] helped them invest smartly.",
-            "translation_zh_TW": "財務顧問幫助他們聰明投資。"
-          },
-          {
-            "sentence": "She is a trusted [adviser] in the organization.",
-            "translation_zh_TW": "她是該機構信賴的顧問。"
-          },
-          {
-            "sentence": "An academic [adviser] can guide students in their course selections.",
-            "translation_zh_TW": "學術顧問可以指導學生選擇課程。"
-          }
-        ],
-        "synonyms": [
-          "consultant",
-          "mentor"
-        ]
-      }
-    ],
-    "confusion": [
-      "advisor",
-      "advice",
-      "advise",
-      "advocat"
-    ]
-  },
-  {
-    "word": "pronounce",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make the sound of a word or letter.",
-        "meaning_zh_TW": "發音",
-        "wrong_meaning_zh_TW": [
-          "拼寫",
-          "書寫",
-          "朗讀"
-        ],
-        "examples": [
-          {
-            "sentence": "He learned how to [pronounce] difficult words correctly.",
-            "translation_zh_TW": "他學會了如何正確發音困難的單詞"
-          },
-          {
-            "sentence": "The teacher asked the students to [pronounce] the letters aloud.",
-            "translation_zh_TW": "老師要求學生大聲朗讀字母"
-          },
-          {
-            "sentence": "I often [pronounce] names incorrectly.",
-            "translation_zh_TW": "我經常發音名字不正確"
-          }
-        ],
-        "synonyms": [
-          "articulate",
-          "enunciate"
-        ]
-      }
-    ],
-    "confusion": [
-      "pronouncement",
-      "pronoun",
-      "proclaim",
-      "proximity"
-    ]
-  },
-  {
-    "word": "association",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A group of people organized for a joint purpose.",
-        "meaning_zh_TW": "協會、聯合",
-        "wrong_meaning_zh_TW": [
-          "酒會、派對",
-          "協調、調整",
-          "個性、性格"
-        ],
-        "examples": [
-          {
-            "sentence": "The [association] aims to promote educational opportunities.",
-            "translation_zh_TW": "該協會旨在促進教育機會"
-          },
-          {
-            "sentence": "She is a member of the local art [association].",
-            "translation_zh_TW": "她是當地藝術協會的成員"
-          },
-          {
-            "sentence": "The [association] held its annual conference last week.",
-            "translation_zh_TW": "該協會上週舉行了年度會議"
-          }
-        ],
-        "synonyms": [
-          "society",
-          "organization"
-        ]
-      }
-    ],
-    "confusion": [
-      "association",
-      "associations",
-      "associates",
-      "associative"
-    ]
-  },
-  {
-    "word": "academic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Related to education, scholarship, or the pursuit of knowledge.",
-        "meaning_zh_TW": "學術的",
-        "wrong_meaning_zh_TW": [
-          "運動的",
-          "文學的",
-          "實務的"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [academic] achievements earned her a scholarship.",
-            "translation_zh_TW": "她的學術成就為她贏得了獎學金"
-          },
-          {
-            "sentence": "He participated in [academic] conferences.",
-            "translation_zh_TW": "他參加了學術會議"
-          },
-          {
-            "sentence": "The book is an important [academic] contribution.",
-            "translation_zh_TW": "這本書是一項重要的學術貢獻"
-          }
-        ],
-        "synonyms": [
-          "scholarly",
-          "educational"
-        ]
-      }
-    ],
-    "confusion": [
-      "acerdemic",
-      "academics",
-      "acadeemic",
-      "acadmics"
-    ]
-  },
-  {
-    "word": "inferior",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Lower in rank, status, or quality.",
-        "meaning_zh_TW": "在等級、地位或質量上較低的.",
-        "wrong_meaning_zh_TW": [
-          "優越的",
-          "平等的",
-          "特殊的"
-        ],
-        "examples": [
-          {
-            "sentence": "Some believe that they are [inferior] to others.",
-            "translation_zh_TW": "有些人認為自己低於他人。"
-          },
-          {
-            "sentence": "The product was deemed [inferior] to its competitors.",
-            "translation_zh_TW": "該產品被認為比競爭對手低劣。"
-          },
-          {
-            "sentence": "He felt [inferior] due to his lack of experience.",
-            "translation_zh_TW": "由於缺乏經驗，他感到自卑。"
-          }
-        ],
-        "synonyms": [
-          "lesser",
-          "subordinate"
-        ]
-      }
-    ],
-    "confusion": [
-      "superior",
-      "interior",
-      "infer",
-      "inferno"
-    ]
-  },
-  {
-    "word": "steam",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The vapor into which water is converted when heated.",
-        "meaning_zh_TW": "蒸氣",
-        "wrong_meaning_zh_TW": [
-          "水",
-          "氣壓",
-          "風"
-        ],
-        "examples": [
-          {
-            "sentence": "The [steam] rose from the hot soup.",
-            "translation_zh_TW": "熱湯上冒出蒸氣。"
-          },
-          {
-            "sentence": "He likes to cook vegetables with [steam].",
-            "translation_zh_TW": "他喜歡用蒸氣煮蔬菜。"
-          },
-          {
-            "sentence": "The [steam] engine revolutionized transport.",
-            "translation_zh_TW": "蒸汽機改變了交通運輸。"
-          }
-        ],
-        "synonyms": [
-          "vapor",
-          "mist"
-        ]
-      }
-    ],
-    "confusion": [
-      "steamed",
-      "stema",
-      "stemo",
-      "stems"
-    ]
-  },
-  {
-    "word": "technique",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A specific way of doing something, especially one that requires skill or practice.",
-        "meaning_zh_TW": "技巧、方法",
-        "wrong_meaning_zh_TW": [
-          "理論、原理",
-          "材料、工具",
-          "方案、計畫"
-        ],
-        "examples": [
-          {
-            "sentence": "She mastered the [technique] after years of training.",
-            "translation_zh_TW": "她經過多年的訓練掌握了這項技巧。"
-          },
-          {
-            "sentence": "The artist's unique [technique] sets her apart from others.",
-            "translation_zh_TW": "這位藝術家獨特的技巧使她與眾不同。"
-          },
-          {
-            "sentence": "Understanding the [technique] is essential for success.",
-            "translation_zh_TW": "理解這項技巧對成功至關重要。"
-          }
-        ],
-        "synonyms": [
-          "method",
-          "skill"
-        ]
-      }
-    ],
-    "confusion": [
-      "technics",
-      "technique",
-      "technocracy",
-      "technology"
-    ]
-  },
-  {
-    "word": "mend",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To repair something that is broken or damaged.",
-        "meaning_zh_TW": "修補",
-        "wrong_meaning_zh_TW": [
-          "掩飾",
-          "改變",
-          "隱藏"
-        ],
-        "examples": [
-          {
-            "sentence": "He tried to [mend] the broken vase.",
-            "translation_zh_TW": "他試著修補破碎的花瓶"
-          },
-          {
-            "sentence": "She needed to [mend] her torn dress.",
-            "translation_zh_TW": "她需要修補她撕破的裙子"
-          },
-          {
-            "sentence": "They called a technician to [mend] the computer.",
-            "translation_zh_TW": "他們叫了技術人員來修理電腦"
-          }
-        ],
-        "synonyms": [
-          "repair",
-          "fix"
-        ]
-      }
-    ],
-    "confusion": [
-      "mind",
-      "blend",
-      "bend",
-      "mendax"
-    ]
-  },
-  {
-    "word": "devil",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A supernatural being, often considered evil or malevolent.",
-        "meaning_zh_TW": "魔鬼",
-        "wrong_meaning_zh_TW": [
-          "天使",
-          "聖人",
-          "英雄"
-        ],
-        "examples": [
-          {
-            "sentence": "He made a deal with the [devil].",
-            "translation_zh_TW": "他與魔鬼達成了交易。"
-          },
-          {
-            "sentence": "The character in the story is a [devil].",
-            "translation_zh_TW": "故事中的角色是一個魔鬼。"
-          },
-          {
-            "sentence": "They say the [devil] is in the details.",
-            "translation_zh_TW": "人們說，魔鬼在細節中。"
-          }
-        ],
-        "synonyms": [
-          "satan",
-          "fiend"
-        ]
-      }
-    ],
-    "confusion": [
-      "devote",
-      "devolve",
-      "devilry",
-      "devious"
-    ]
-  },
-  {
-    "word": "historian",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An expert in or student of history.",
-        "meaning_zh_TW": "歷史學家",
-        "wrong_meaning_zh_TW": [
-          "小說家",
-          "考古學家",
-          "人類學家"
-        ],
-        "examples": [
-          {
-            "sentence": "The [historian] published a book on ancient civilizations.",
-            "translation_zh_TW": "這位歷史學家出版了一本關於古代文明的書。"
-          },
-          {
-            "sentence": "She aspires to become a renowned [historian].",
-            "translation_zh_TW": "她渴望成為一位著名的歷史學家。"
-          },
-          {
-            "sentence": "The conference featured several prominent [historians].",
-            "translation_zh_TW": "該會議邀請了幾位著名的歷史學家。"
-          }
-        ],
-        "synonyms": [
-          "chronicler",
-          "scholar"
-        ]
-      }
-    ],
-    "confusion": [
-      "history",
-      "hysteria",
-      "historic",
-      "historical"
+      "docky",
+      "block",
+      "hack",
+      "dockyard"
     ]
   }
 ]

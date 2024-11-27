@@ -1,770 +1,783 @@
 [
   {
-    "word": "sentiment",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A view or opinion that is held or expressed.",
-        "meaning_zh_TW": "觀點或意見",
-        "wrong_meaning_zh_TW": [
-          "情緒、心情",
-          "感知、感覺",
-          "情緒化"
-        ],
-        "examples": [
-          {
-            "sentence": "The public's [sentiment] on the issue is clear.",
-            "translation_zh_TW": "公眾對此問題的看法很明確。"
-          },
-          {
-            "sentence": "Her [sentiment] towards the project was positive.",
-            "translation_zh_TW": "她對這個項目的看法是正面的。"
-          },
-          {
-            "sentence": "There was a strong [sentiment] for change.",
-            "translation_zh_TW": "有強烈的要求變革的聲音。"
-          }
-        ],
-        "synonyms": [
-          "view",
-          "opinion"
-        ]
-      }
-    ],
-    "confusion": [
-      "sentimental",
-      "sentiments",
-      "sentinels",
-      "sentimentalist"
-    ]
-  },
-  {
-    "word": "anonymous",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Not identified by name; of unknown name.",
-        "meaning_zh_TW": "匿名的",
-        "wrong_meaning_zh_TW": [
-          "有名的",
-          "著名的",
-          "受歡迎的"
-        ],
-        "examples": [
-          {
-            "sentence": "The donor wished to remain [anonymous].",
-            "translation_zh_TW": "捐贈者希望保持匿名。"
-          },
-          {
-            "sentence": "The website allows [anonymous] comments.",
-            "translation_zh_TW": "這個網站允許匿名評論。"
-          },
-          {
-            "sentence": "She received an [anonymous] letter.",
-            "translation_zh_TW": "她收到了一封匿名信。"
-          }
-        ],
-        "synonyms": [
-          "unnamed",
-          "unknown"
-        ]
-      }
-    ],
-    "confusion": [
-      "anonyous",
-      "anomoous",
-      "nounymous",
-      "anomynous"
-    ]
-  },
-  {
-    "word": "recommend",
+    "word": "concede",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To suggest that someone or something would be good or suitable.",
-        "meaning_zh_TW": "推薦",
+        "meaning_en_US": "To admit that something is true after first denying it.",
+        "meaning_zh_TW": "讓步",
         "wrong_meaning_zh_TW": [
-          "批評",
-          "忽視",
-          "誤導"
+          "拒絕",
+          "反駁",
+          "強硬"
         ],
         "examples": [
           {
-            "sentence": "I want to [recommend] a good restaurant.",
-            "translation_zh_TW": "我想推薦一家好餐廳。"
+            "sentence": "He had to [concede] that he was wrong.",
+            "translation_zh_TW": "他不得不承認自己錯了。"
           },
           {
-            "sentence": "She always [recommends] the best books.",
-            "translation_zh_TW": "她總是推薦最好的書籍。"
+            "sentence": "She refused to [concede] any points in the argument.",
+            "translation_zh_TW": "她拒絕在爭論中讓步任何點。"
           },
           {
-            "sentence": "Can you [recommend] a movie for us to watch?",
-            "translation_zh_TW": "你能推薦一部我們可以看的電影嗎？"
+            "sentence": "After much debate, they finally [conceded] some issues.",
+            "translation_zh_TW": "經過多次辯論，他們最終在一些問題上讓步。"
           }
         ],
         "synonyms": [
-          "advise",
-          "suggest"
+          "admit",
+          "yield"
         ]
       }
     ],
     "confusion": [
-      "commend",
-      "recommence",
-      "recombinant",
-      "recommendation"
+      "concede",
+      "concede",
+      "conceded",
+      "condescend"
     ]
   },
   {
-    "word": "diplomatic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Concerning or relating to diplomacy, or a diplomat.",
-        "meaning_zh_TW": "外交的",
-        "wrong_meaning_zh_TW": [
-          "軍事的",
-          "商業的",
-          "個人的"
-        ],
-        "examples": [
-          {
-            "sentence": "She has a [diplomatic] approach to negotiations.",
-            "translation_zh_TW": "她在談判中採取外交的方式。"
-          },
-          {
-            "sentence": "The [diplomatic] relations between the two countries improved.",
-            "translation_zh_TW": "兩國之間的外交關係改善了。"
-          },
-          {
-            "sentence": "He is known for his [diplomatic] skills in conflict resolution.",
-            "translation_zh_TW": "他在衝突解決方面以外交技能著稱。"
-          }
-        ],
-        "synonyms": [
-          "tactful",
-          "strategic"
-        ]
-      }
-    ],
-    "confusion": [
-      "diploma",
-      "diplo",
-      "diplomatico",
-      "diplos"
-    ]
-  },
-  {
-    "word": "generate",
+    "word": "intensify",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To produce or create something.",
-        "meaning_zh_TW": "生成、產生",
+        "meaning_en_US": "To increase in degree or strength.",
+        "meaning_zh_TW": "加強",
         "wrong_meaning_zh_TW": [
-          "失去、放棄",
-          "毀壞、摧毀",
-          "懷疑、質疑"
+          "減弱",
+          "忽略",
+          "下降"
         ],
         "examples": [
           {
-            "sentence": "The new policy will [generate] more jobs in the area.",
-            "translation_zh_TW": "新政策將在該地區產生更多的工作機會"
+            "sentence": "The storm began to [intensify] overnight.",
+            "translation_zh_TW": "暴風雨在夜間開始加強。"
           },
           {
-            "sentence": "This machine is designed to [generate] electricity.",
-            "translation_zh_TW": "這台機器被設計用來產生電力"
+            "sentence": "We need to [intensify] our efforts to meet the deadline.",
+            "translation_zh_TW": "我們需要加強努力以達成截止日期。"
           },
           {
-            "sentence": "We need to [generate] new ideas for the project.",
-            "translation_zh_TW": "我們需要為這個項目產生新點子"
+            "sentence": "The debate is expected to [intensify] as election day approaches.",
+            "translation_zh_TW": "隨著選舉日的臨近，辯論預計將加強。"
           }
         ],
         "synonyms": [
-          "create",
-          "produce"
+          "amplify",
+          "escalate"
         ]
       }
     ],
     "confusion": [
-      "generator",
-      "generate",
-      "degenerate",
-      "generous"
+      "intensive",
+      "integrity",
+      "intentify",
+      "interfere"
     ]
   },
   {
-    "word": "attic",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A space or room just below the roof of a building.",
-        "meaning_zh_TW": "閣樓",
-        "wrong_meaning_zh_TW": [
-          "廚房",
-          "地下室",
-          "陽台"
-        ],
-        "examples": [
-          {
-            "sentence": "We found our old toys in the [attic].",
-            "translation_zh_TW": "我們在閣樓裡找到了我們的舊玩具。"
-          },
-          {
-            "sentence": "The [attic] was filled with dust and memories.",
-            "translation_zh_TW": "閣樓裡滿是灰塵和回憶。"
-          },
-          {
-            "sentence": "She uses the [attic] for storage.",
-            "translation_zh_TW": "她把閣樓用作儲藏室。"
-          }
-        ],
-        "synonyms": [
-          "loft",
-          "storage space"
-        ]
-      }
-    ],
-    "confusion": [
-      "atticize",
-      "attical",
-      "attics",
-      "atticism"
-    ]
-  },
-  {
-    "word": "statistical",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to the use of statistics.",
-        "meaning_zh_TW": "統計的",
-        "wrong_meaning_zh_TW": [
-          "指定的",
-          "結構的",
-          "意義的"
-        ],
-        "examples": [
-          {
-            "sentence": "The report includes [statistical] data on population growth.",
-            "translation_zh_TW": "該報告包括有關人口增長的統計資料"
-          },
-          {
-            "sentence": "Her research is based on [statistical] analysis.",
-            "translation_zh_TW": "她的研究基於統計分析"
-          },
-          {
-            "sentence": "He used [statistical] methods to test the hypothesis.",
-            "translation_zh_TW": "他使用統計方法來檢驗假設"
-          }
-        ],
-        "synonyms": [
-          "quantitative",
-          "numerical"
-        ]
-      }
-    ],
-    "confusion": [
-      "statestical",
-      "statiscal",
-      "statistic"
-    ]
-  },
-  {
-    "word": "certainty",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The quality of being absolutely sure or confident about something.",
-        "meaning_zh_TW": "確定性、確信",
-        "wrong_meaning_zh_TW": [
-          "懷疑、不確定",
-          "迷惑、困惑",
-          "假設、猜想"
-        ],
-        "examples": [
-          {
-            "sentence": "She spoke with [certainty] about her conclusions.",
-            "translation_zh_TW": "她對自己的結論充滿確信地發言。"
-          },
-          {
-            "sentence": "There is [certainty] in his voice when he reports facts.",
-            "translation_zh_TW": "他報導事實時的聲音中充滿確定性。"
-          },
-          {
-            "sentence": "The scientists needed more data to achieve [certainty].",
-            "translation_zh_TW": "科學家需要更多數據來達到確定性。"
-          }
-        ],
-        "synonyms": [
-          "confidence",
-          "assurance"
-        ]
-      }
-    ],
-    "confusion": [
-      "certainly",
-      "uncertainty",
-      "concert",
-      "serenity"
-    ]
-  },
-  {
-    "word": "acute",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having a sharp point or a sharp angle.",
-        "meaning_zh_TW": "尖銳的",
-        "wrong_meaning_zh_TW": [
-          "鈍的",
-          "平坦的",
-          "圓形的"
-        ],
-        "examples": [
-          {
-            "sentence": "He felt an [acute] pain in his chest.",
-            "translation_zh_TW": "他感到胸口有一陣尖銳的疼痛。"
-          },
-          {
-            "sentence": "The knife has an [acute] edge.",
-            "translation_zh_TW": "這把刀的刀刃很尖。"
-          },
-          {
-            "sentence": "She has an [acute] sense of hearing.",
-            "translation_zh_TW": "她有敏銳的聽覺。"
-          }
-        ],
-        "synonyms": [
-          "sharp",
-          "keen"
-        ]
-      },
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having a sudden onset and severe effect.",
-        "meaning_zh_TW": "急性的",
-        "wrong_meaning_zh_TW": [
-          "慢性的",
-          "通常的",
-          "輕微的"
-        ],
-        "examples": [
-          {
-            "sentence": "He was diagnosed with an [acute] illness.",
-            "translation_zh_TW": "他被診斷出急性疾病。"
-          },
-          {
-            "sentence": "The [acute] symptoms required immediate attention.",
-            "translation_zh_TW": "急性的症狀需要即時處理。"
-          },
-          {
-            "sentence": "It was an [acute] crisis for the company.",
-            "translation_zh_TW": "對於公司來說，這是一場急迫的危機。"
-          }
-        ],
-        "synonyms": [
-          "urgent",
-          "critical"
-        ]
-      }
-    ],
-    "confusion": [
-      "cutie",
-      "cure",
-      "cute",
-      "acut"
-    ]
-  },
-  {
-    "word": "alongside",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "Next to; together with.",
-        "meaning_zh_TW": "在旁邊，與...一起",
-        "wrong_meaning_zh_TW": [
-          "遙遠地",
-          "面對面",
-          "獨自一人"
-        ],
-        "examples": [
-          {
-            "sentence": "The boat floated [alongside] the dock.",
-            "translation_zh_TW": "船漂浮在碼頭旁邊。"
-          },
-          {
-            "sentence": "She worked [alongside] her mentor to develop her skills.",
-            "translation_zh_TW": "她在導師的指導下工作以提升自己的技能。"
-          },
-          {
-            "sentence": "We will be [alongside] you in this effort.",
-            "translation_zh_TW": "我們會在這項努力中與你並肩作戰。"
-          }
-        ],
-        "synonyms": [
-          "beside",
-          "next to"
-        ]
-      }
-    ],
-    "confusion": [
-      "alongside",
-      "along site",
-      "alongsides",
-      "longside"
-    ]
-  },
-  {
-    "word": "mammal",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Any warm-blooded vertebrate animal of the class Mammalia, characterized by the presence of mammary glands.",
-        "meaning_zh_TW": "哺乳動物",
-        "wrong_meaning_zh_TW": [
-          "爬行動物",
-          "魚",
-          "昆蟲"
-        ],
-        "examples": [
-          {
-            "sentence": "The [mammal] gave birth to live young.",
-            "translation_zh_TW": "這種哺乳動物生下了活的幼崽."
-          },
-          {
-            "sentence": "Humans are classified as a type of [mammal].",
-            "translation_zh_TW": "人類被歸類為一種哺乳動物."
-          },
-          {
-            "sentence": "The [mammal] has fur to keep it warm.",
-            "translation_zh_TW": "這種哺乳動物有毛來保持溫暖."
-          }
-        ],
-        "synonyms": [
-          "beast",
-          "animal"
-        ]
-      }
-    ],
-    "confusion": [
-      "mammo",
-      "mammoth",
-      "mammoal",
-      "mammeld"
-    ]
-  },
-  {
-    "word": "defendant",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person accused in a court of law.",
-        "meaning_zh_TW": "被告",
-        "wrong_meaning_zh_TW": [
-          "原告",
-          "證人",
-          "律師"
-        ],
-        "examples": [
-          {
-            "sentence": "The [defendant] pleaded not guilty to the charges.",
-            "translation_zh_TW": "被告對指控表示無罪。"
-          },
-          {
-            "sentence": "In a trial, the [defendant] has the right to an attorney.",
-            "translation_zh_TW": "在審判中，被告有權獲得律師。"
-          },
-          {
-            "sentence": "The [defendant] listened carefully to the testimony.",
-            "translation_zh_TW": "被告仔細聆聽證詞。"
-          }
-        ],
-        "synonyms": [
-          "accused",
-          "respondent"
-        ]
-      }
-    ],
-    "confusion": [
-      "defendant",
-      "defedant",
-      "defendand",
-      "defendantt"
-    ]
-  },
-  {
-    "word": "contend",
+    "word": "shrug",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To assert something as a position in an argument.",
-        "meaning_zh_TW": "主張",
+        "meaning_en_US": "To raise and lower one's shoulders, often indicating indifference or a lack of knowledge.",
+        "meaning_zh_TW": "聳肩",
         "wrong_meaning_zh_TW": [
-          "妥協",
-          "輕視",
-          "爭論"
+          "抱歉",
+          "高興",
+          "悲傷"
         ],
         "examples": [
           {
-            "sentence": "She will [contend] for the championship title.",
-            "translation_zh_TW": "她將爭取冠軍頭銜。"
+            "sentence": "He always [shrug] when asked about his plans.",
+            "translation_zh_TW": "每當被問到他的計劃時，他總是聳肩"
           },
           {
-            "sentence": "They [contend] that the policy is ineffective.",
-            "translation_zh_TW": "他們主張該政策無效。"
+            "sentence": "With a [shrug], she indicated she didn't care.",
+            "translation_zh_TW": "她聳了聳肩，表示她不在乎"
           },
           {
-            "sentence": "He had to [contend] with many challenges.",
-            "translation_zh_TW": "他不得不應對許多挑戰。"
+            "sentence": "I just [shrug] and smiled in response.",
+            "translation_zh_TW": "我只是聳了聳肩，微笑回應"
           }
         ],
         "synonyms": [
-          "argue",
-          "debate"
+          "raise shoulders",
+          "indicate uncertainty"
         ]
       }
     ],
     "confusion": [
-      "contend",
-      "content",
-      "contention",
-      "contest"
+      "shrugged",
+      "rugsh",
+      "shug",
+      "strug"
     ]
   },
   {
-    "word": "pitcher",
+    "word": "disapprove",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A container for holding and pouring liquids.",
-        "meaning_zh_TW": "水壺",
+        "type": "動詞",
+        "meaning_en_US": "To have an unfavorable opinion of something.",
+        "meaning_zh_TW": "不贊成",
         "wrong_meaning_zh_TW": [
-          "杯子",
-          "罐子",
-          "瓶子"
+          "支持",
+          "接受",
+          "欣賞"
         ],
         "examples": [
           {
-            "sentence": "She poured lemonade from the [pitcher].",
-            "translation_zh_TW": "她從水壺裡倒出了檸檬水。"
+            "sentence": "Many parents [disapprove] of late-night parties.",
+            "translation_zh_TW": "許多父母不贊成深夜聚會。"
           },
           {
-            "sentence": "The [pitcher] was filled with water.",
-            "translation_zh_TW": "水壺裡裝滿了水。"
+            "sentence": "The committee [disapproved] the proposed budget.",
+            "translation_zh_TW": "委員會不贊成提出的預算。"
           },
           {
-            "sentence": "He grabbed the [pitcher] to serve the guests.",
-            "translation_zh_TW": "他拿起水壺來為客人服務。"
+            "sentence": "She voiced her [disapproval] of the new policy.",
+            "translation_zh_TW": "她表達了對新政策的不贊成。"
           }
         ],
         "synonyms": [
-          "jug",
-          "carafe"
+          "object",
+          "oppose"
         ]
       }
     ],
     "confusion": [
-      "pitched",
-      "picturer",
-      "pickler",
-      "patcher"
+      "approve",
+      "disclose",
+      "dispose",
+      "disapproved"
     ]
   },
   {
-    "word": "specialty",
+    "word": "straighten",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A particular area of expertise or skill.",
-        "meaning_zh_TW": "特長",
+        "type": "動詞",
+        "meaning_en_US": "To make something straight or to correct its position.",
+        "meaning_zh_TW": "使變直,矯正",
         "wrong_meaning_zh_TW": [
-          "業務",
-          "流程",
-          "計畫"
+          "扭轉",
+          "彎曲",
+          "增加重量"
         ],
         "examples": [
           {
-            "sentence": "He has a [specialty] in forensic science.",
-            "translation_zh_TW": "他的特長是法醫科學。"
+            "sentence": "Please [straighten] your tie before the meeting.",
+            "translation_zh_TW": "在會議前請整理你的領帶。"
           },
           {
-            "sentence": "Culinary arts is her [specialty].",
-            "translation_zh_TW": "烹飪藝術是她的特長。"
+            "sentence": "He tried to [straighten] the bent nails.",
+            "translation_zh_TW": "他試著把彎曲的釘子弄直。"
           },
           {
-            "sentence": "This restaurant's [specialty] is seafood.",
-            "translation_zh_TW": "這家餐廳的特長是海鮮。"
+            "sentence": "You need to [straighten] your posture.",
+            "translation_zh_TW": "你需要矯正你的姿勢。"
           }
         ],
         "synonyms": [
-          "expertise",
-          "proficiency"
+          "align",
+          "rectify"
         ]
       }
     ],
     "confusion": [
-      "specialist",
-      "specialize",
-      "spectacular",
-      "specimen"
+      "straighten",
+      "strengthen",
+      "stray",
+      "straighten"
     ]
   },
   {
-    "word": "respondent",
+    "word": "precaution",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person who responds to a survey or questionnaire.",
-        "meaning_zh_TW": "受訪者",
+        "meaning_en_US": "A measure taken in advance to prevent harm or ensure good results.",
+        "meaning_zh_TW": "預防措施",
         "wrong_meaning_zh_TW": [
-          "觀眾",
-          "參加者",
-          "管理者"
+          "損失",
+          "風險",
+          "問題"
         ],
         "examples": [
           {
-            "sentence": "Each [respondent] provided valuable feedback.",
-            "translation_zh_TW": "每位受訪者都提供了有價值的意見。"
+            "sentence": "Taking a health [precaution] is essential during flu season.",
+            "translation_zh_TW": "在流感季節，采取健康預防措施是必要的。"
           },
           {
-            "sentence": "The survey was sent to every [respondent] on the list.",
-            "translation_zh_TW": "調查已發送給名單上的每位受訪者。"
+            "sentence": "They implemented safety [precautions] before the event.",
+            "translation_zh_TW": "他們在活動前實施了安全預防措施。"
           },
           {
-            "sentence": "A [respondent] may choose to remain anonymous.",
-            "translation_zh_TW": "受訪者可以選擇保持匿名。"
+            "sentence": "Wearing a helmet is a common safety [precaution].",
+            "translation_zh_TW": "戴安全帽是一項常見的安全預防措施。"
           }
         ],
         "synonyms": [
-          "participant",
-          "replying person"
+          "preventive measure",
+          "safeguard"
         ]
       }
     ],
     "confusion": [
-      "respond",
-      "responds",
-      "responding",
-      "responder"
+      "precautionary",
+      "precaaution",
+      "precaution",
+      "precautin"
     ]
   },
   {
-    "word": "boundary",
+    "word": "traitor",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A line that marks the limits of an area.",
-        "meaning_zh_TW": "邊界、界限",
+        "meaning_en_US": "A person who betrays a friend, country, principle, etc.",
+        "meaning_zh_TW": "背叛者",
         "wrong_meaning_zh_TW": [
-          "內容、範圍",
-          "深度、厚度",
-          "移動、流動"
+          "英雄",
+          "朋友",
+          "支持者"
         ],
         "examples": [
           {
-            "sentence": "They established a [boundary] between the two properties.",
-            "translation_zh_TW": "他們在兩個財產之間劃定了邊界"
+            "sentence": "He was labeled a [traitor] for his actions.",
+            "translation_zh_TW": "他因為他的行為被標籤為背叛者。"
           },
           {
-            "sentence": "Respecting personal [boundaries] is important.",
-            "translation_zh_TW": "尊重個人的界限是很重要的"
+            "sentence": "A [traitor] can never be trusted again.",
+            "translation_zh_TW": "背叛者再也不能被信任。"
           },
           {
-            "sentence": "The [boundary] was marked with a fence.",
-            "translation_zh_TW": "邊界用圍欄標記"
+            "sentence": "The spy was considered a [traitor] to his country.",
+            "translation_zh_TW": "這名間諜被認為是對他的國家的背叛者。"
           }
         ],
         "synonyms": [
-          "border",
+          "betrayer",
+          "deserter"
+        ]
+      }
+    ],
+    "confusion": [
+      "trait",
+      "tractor",
+      "trainer",
+      "traitress"
+    ]
+  },
+  {
+    "word": "prolong",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To extend the duration of something.",
+        "meaning_zh_TW": "延長",
+        "wrong_meaning_zh_TW": [
+          "縮短",
+          "減少",
+          "抑制"
+        ],
+        "examples": [
+          {
+            "sentence": "They decided to [prolong] the meeting to discuss further.",
+            "translation_zh_TW": "他們決定延長會議以進一步討論"
+          },
+          {
+            "sentence": "Prolonging the deadline is not an option anymore.",
+            "translation_zh_TW": "延長截止日期不再是選擇"
+          },
+          {
+            "sentence": "He wants to [prolong] his stay in the city.",
+            "translation_zh_TW": "他希望延長在這個城市的停留時間"
+          }
+        ],
+        "synonyms": [
+          "extend",
+          "lengthen",
+          "delay"
+        ]
+      }
+    ],
+    "confusion": [
+      "prolonged",
+      "prolongation",
+      "prolonging",
+      "prolongedly"
+    ]
+  },
+  {
+    "word": "recite",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To say a poem, piece of literature, etc. aloud from memory.",
+        "meaning_zh_TW": "背誦",
+        "wrong_meaning_zh_TW": [
+          "創作",
+          "翻譯",
+          "編輯"
+        ],
+        "examples": [
+          {
+            "sentence": "He was asked to [recite] a poem during the event.",
+            "translation_zh_TW": "他被要求在活動中背誦一首詩。"
+          },
+          {
+            "sentence": "Students often [recite] their favorite verses.",
+            "translation_zh_TW": "學生們常常背誦他們最喜歡的詩句。"
+          },
+          {
+            "sentence": "She was nervous to [recite] in front of the class.",
+            "translation_zh_TW": "她在全班前背誦時感到緊張。"
+          }
+        ],
+        "synonyms": [
+          "rehearse",
+          "recall"
+        ]
+      }
+    ],
+    "confusion": [
+      "recital",
+      "receipt",
+      "resite",
+      "recitee"
+    ]
+  },
+  {
+    "word": "overturn",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To turn over or cause to turn over.",
+        "meaning_zh_TW": "翻轉，顛覆",
+        "wrong_meaning_zh_TW": [
+          "維持，保護",
+          "質疑，挑戰",
+          "修復，修理"
+        ],
+        "examples": [
+          {
+            "sentence": "The storm caused the boat to [overturn].",
+            "translation_zh_TW": "風暴導致船翻覆。"
+          },
+          {
+            "sentence": "The court’s decision was [overturned] on appeal.",
+            "translation_zh_TW": "上訴中法院的裁定被翻轉。"
+          },
+          {
+            "sentence": "He accidentally [overturned] his drink onto the table.",
+            "translation_zh_TW": "他不小心把飲料翻倒在桌上。"
+          }
+        ],
+        "synonyms": [
+          "capsize",
+          "reverse"
+        ]
+      }
+    ],
+    "confusion": [
+      "overturner",
+      "overturned",
+      "overturning",
+      "overtune"
+    ]
+  },
+  {
+    "word": "reassure",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To remove someone's doubts and fears; to comfort.",
+        "meaning_zh_TW": "安慰",
+        "wrong_meaning_zh_TW": [
+          "激怒",
+          "困惑",
+          "打擊"
+        ],
+        "examples": [
+          {
+            "sentence": "He tried to [reassure] her that everything would be fine.",
+            "translation_zh_TW": "他試圖安慰她，一切都會好起來"
+          },
+          {
+            "sentence": "The teacher's calm voice was meant to [reassure] the students.",
+            "translation_zh_TW": "老師平靜的聲音是要安慰學生"
+          },
+          {
+            "sentence": "She called to [reassure] him after the incident.",
+            "translation_zh_TW": "事件發生後，她打電話安慰他"
+          }
+        ],
+        "synonyms": [
+          "console",
+          "comfort"
+        ]
+      }
+    ],
+    "confusion": [
+      "reassured",
+      "reassuredly",
+      "reassures",
+      "reseal"
+    ]
+  },
+  {
+    "word": "confine",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To restrict or limit someone or something.",
+        "meaning_zh_TW": "限制",
+        "wrong_meaning_zh_TW": [
+          "開放",
+          "鼓勵",
+          "擴展"
+        ],
+        "examples": [
+          {
+            "sentence": "They decided to [confine] the discussion to specific topics.",
+            "translation_zh_TW": "他們決定將討論限制在特定主題。"
+          },
+          {
+            "sentence": "Don't [confine] your creativity; let it flow.",
+            "translation_zh_TW": "不要限制你的創造力；讓它流暢。"
+          },
+          {
+            "sentence": "The law [confines] access to sensitive areas.",
+            "translation_zh_TW": "法律限制對敏感區域的訪問。"
+          }
+        ],
+        "synonyms": [
+          "restrict",
           "limit"
         ]
       }
     ],
     "confusion": [
-      "bounty",
-      "boudry",
-      "bounder",
-      "boundaries"
+      "confinement",
+      "config",
+      "confind",
+      "confined"
     ]
   },
   {
-    "word": "league",
+    "word": "considerate",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A collection of people, countries, or groups that combine for a particular purpose, often related to sports.",
-        "meaning_zh_TW": "聯盟",
+        "type": "形容詞",
+        "meaning_en_US": "Showing careful thought for the needs of other people.",
+        "meaning_zh_TW": "體貼的",
         "wrong_meaning_zh_TW": [
-          "活動",
-          "政策",
-          "賽事"
+          "自私的",
+          "冷漠的",
+          "無所謂的"
         ],
         "examples": [
           {
-            "sentence": "The two teams are in the same [league].",
-            "translation_zh_TW": "這兩支隊伍在同一聯盟。"
+            "sentence": "He is always [considerate] of others' feelings.",
+            "translation_zh_TW": "他總是考慮到他人的感受。"
           },
           {
-            "sentence": "He plays in the national football [league].",
-            "translation_zh_TW": "他在全國足球聯盟踢球。"
+            "sentence": "Being [considerate] makes a big difference in relationships.",
+            "translation_zh_TW": "體貼在關係中會有很大的不同。"
           },
           {
-            "sentence": "The league has strict rules about player conduct.",
-            "translation_zh_TW": "聯盟對球員行為有嚴格規則。"
+            "sentence": "She wrote a [considerate] note after the meeting.",
+            "translation_zh_TW": "會後她寫了一封體貼的便條。"
           }
         ],
         "synonyms": [
-          "association",
-          "alliance"
+          "thoughtful",
+          "kind"
         ]
       }
     ],
     "confusion": [
-      "leak",
-      "league's",
-      "legate",
-      "leaguing"
+      "considerable",
+      "consistently",
+      "consultative",
+      "consequential"
     ]
   },
   {
-    "word": "diagnosis",
+    "word": "chore",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The identification of the nature of an illness or other problem by examination of the symptoms.",
-        "meaning_zh_TW": "診斷",
+        "meaning_en_US": "A routine task or job, often related to household duties.",
+        "meaning_zh_TW": "家務",
         "wrong_meaning_zh_TW": [
-          "治療",
-          "症狀",
-          "藥物"
+          "娛樂",
+          "假期",
+          "慶祝"
         ],
         "examples": [
           {
-            "sentence": "The doctor made a precise [diagnosis] after the tests.",
-            "translation_zh_TW": "醫生在檢查後做出了準確的診斷。"
+            "sentence": "I have to complete my [chores] before watching TV.",
+            "translation_zh_TW": "我必須在看電視之前完成我的家務。"
           },
           {
-            "sentence": "A quick [diagnosis] is crucial for effective treatment.",
-            "translation_zh_TW": "快速的診斷對於有效的治療至關重要。"
+            "sentence": "Cleaning the dishes is my least favorite [chore].",
+            "translation_zh_TW": "清洗碗碟是我最不喜歡的家務。"
           },
           {
-            "sentence": "Her [diagnosis] revealed a rare condition.",
-            "translation_zh_TW": "她的診斷揭示了一種罕見的疾病。"
+            "sentence": "She made a list of [chores] to do this weekend.",
+            "translation_zh_TW": "她列了一份這週末要做的家務清單。"
           }
         ],
         "synonyms": [
-          "identification",
-          "determination"
+          "task",
+          "duty"
         ]
       }
     ],
     "confusion": [
-      "diagnose",
-      "diagnostic",
-      "diagnois",
-      "diagonsis"
+      "choreography",
+      "chortle",
+      "cheer",
+      "choreography"
+    ]
+  },
+  {
+    "word": "betray",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To reveal secrets or information that should be kept confidential.",
+        "meaning_zh_TW": "背叛",
+        "wrong_meaning_zh_TW": [
+          "信任",
+          "友情",
+          "合作"
+        ],
+        "examples": [
+          {
+            "sentence": "He would never [betray] his friends.",
+            "translation_zh_TW": "他絕不會背叛他的朋友"
+          },
+          {
+            "sentence": "She felt hurt when he [betrayed] her trust.",
+            "translation_zh_TW": "當他背叛了她的信任時，她感到受傷"
+          },
+          {
+            "sentence": "To [betray] your country is a serious crime.",
+            "translation_zh_TW": "背叛你的國家是一種嚴重的罪行"
+          }
+        ],
+        "synonyms": [
+          "betrayal",
+          "deceive"
+        ]
+      }
+    ],
+    "confusion": [
+      "betraied",
+      "betrayed",
+      "betrayer",
+      "betrays"
+    ]
+  },
+  {
+    "word": "tangle",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To twist together or entwine in a confused mass.",
+        "meaning_zh_TW": "糾纏",
+        "wrong_meaning_zh_TW": [
+          "解開",
+          "清晰",
+          "分開"
+        ],
+        "examples": [
+          {
+            "sentence": "The wires began to [tangle] as they sat unused.",
+            "translation_zh_TW": "這些電線因為長時間未使用而開始糾纏。"
+          },
+          {
+            "sentence": "Don't [tangle] the strings before using them.",
+            "translation_zh_TW": "在使用之前不要把這些繩子糾纏在一起。"
+          },
+          {
+            "sentence": "She tried to [tangle] the ribbons for decoration.",
+            "translation_zh_TW": "她試著把絲帶糾纏起來做裝飾。"
+          }
+        ],
+        "synonyms": [
+          "entangle",
+          "intertwine"
+        ]
+      }
+    ],
+    "confusion": [
+      "tanglewood",
+      "mangle",
+      "tanglefish",
+      "tangletrap"
+    ]
+  },
+  {
+    "word": "kidnap",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To take someone away illegally by force, typically to obtain a ransom.",
+        "meaning_zh_TW": "綁架",
+        "wrong_meaning_zh_TW": [
+          "救援",
+          "跟隨",
+          "引導"
+        ],
+        "examples": [
+          {
+            "sentence": "They plan to [kidnap] the wealthy businessman for ransom.",
+            "translation_zh_TW": "他們計劃綁架這位富商以索取贖金"
+          },
+          {
+            "sentence": "The police were alerted about a potential [kidnap] attempt.",
+            "translation_zh_TW": "警方收到了有關潛在綁架嘗試的警報"
+          },
+          {
+            "sentence": "To recover the victim, they needed to negotiate the [kidnap] terms.",
+            "translation_zh_TW": "為了恢復受害者，他們需要談判綁架條款"
+          }
+        ],
+        "synonyms": [
+          "abduct",
+          "snatch"
+        ]
+      }
+    ],
+    "confusion": [
+      "kidnapped",
+      "kidnapper",
+      "kidnaps",
+      "kidnaping"
+    ]
+  },
+  {
+    "word": "shiver",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To shake or tremble, typically as a result of cold or fear.",
+        "meaning_zh_TW": "發抖",
+        "wrong_meaning_zh_TW": [
+          "微笑",
+          "歡呼",
+          "跳舞"
+        ],
+        "examples": [
+          {
+            "sentence": "I began to [shiver] as the temperature dropped.",
+            "translation_zh_TW": "隨著氣溫下降，我開始發抖"
+          },
+          {
+            "sentence": "She couldn't help but [shiver] at the thought of the dark woods.",
+            "translation_zh_TW": "想到黑暗的森林，她忍不住發抖"
+          },
+          {
+            "sentence": "The dog [shivered] in the cold rain.",
+            "translation_zh_TW": "那隻狗在冷雨中發抖"
+          }
+        ],
+        "synonyms": [
+          "tremble",
+          "quake"
+        ]
+      }
+    ],
+    "confusion": [
+      "shiverer",
+      "shiverer",
+      "shivered",
+      "shubble"
+    ]
+  },
+  {
+    "word": "shatter",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To break suddenly and violently into pieces.",
+        "meaning_zh_TW": "粉碎",
+        "wrong_meaning_zh_TW": [
+          "連接",
+          "修復",
+          "聚合"
+        ],
+        "examples": [
+          {
+            "sentence": "The vase will [shatter] if it falls to the ground.",
+            "translation_zh_TW": "花瓶如果掉到地上會粉碎"
+          },
+          {
+            "sentence": "His dreams were [shattered] by the unexpected news.",
+            "translation_zh_TW": "他的夢想被意外的消息粉碎了"
+          },
+          {
+            "sentence": "The critics' comments were enough to [shatter] her confidence.",
+            "translation_zh_TW": "評論家的評論足以粉碎她的自信"
+          }
+        ],
+        "synonyms": [
+          "break",
+          "smash"
+        ]
+      }
+    ],
+    "confusion": [
+      "scatter",
+      "shutter",
+      "shatterer",
+      "chatter"
+    ]
+  },
+  {
+    "word": "bodyguard",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person hired to protect someone.",
+        "meaning_zh_TW": "保鑣",
+        "wrong_meaning_zh_TW": [
+          "隨扈",
+          "學生",
+          "護理"
+        ],
+        "examples": [
+          {
+            "sentence": "The celebrity always travels with a [bodyguard].",
+            "translation_zh_TW": "那位名人總是帶著保鑣旅行。"
+          },
+          {
+            "sentence": "He hired a [bodyguard] for extra safety during the event.",
+            "translation_zh_TW": "他在活動期間僱用了一名保鑣以增加安全性。"
+          },
+          {
+            "sentence": "The [bodyguard] stood close to the client at all times.",
+            "translation_zh_TW": "保鑣始終靠近客戶。"
+          }
+        ],
+        "synonyms": [
+          "protector",
+          "guard"
+        ]
+      }
+    ],
+    "confusion": [
+      "body",
+      "buddy",
+      "god",
+      "gourd"
     ]
   }
 ]

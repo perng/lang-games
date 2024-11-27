@@ -1,743 +1,566 @@
 [
   {
-    "word": "saddle",
+    "word": "decline",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A seat fastened on an animal's back.",
-        "meaning_zh_TW": "馬鞍",
+        "type": "動詞",
+        "meaning_en_US": "To refuse to accept or agree to something.",
+        "meaning_zh_TW": "拒絕接受",
         "wrong_meaning_zh_TW": [
-          "背包",
-          "拖車",
-          "船"
+          "增加",
+          "同意",
+          "引導"
         ],
         "examples": [
           {
-            "sentence": "He mounted his horse and adjusted the [saddle].",
-            "translation_zh_TW": "他騎上馬並調整了馬鞍"
+            "sentence": "He decided to [decline] the invitation.",
+            "translation_zh_TW": "他決定拒絕這個邀請。"
           },
           {
-            "sentence": "The [saddle] was made of leather.",
-            "translation_zh_TW": "這個馬鞍是用皮製成的"
+            "sentence": "The company's profits continue to [decline] despite efforts.",
+            "translation_zh_TW": "儘管努力，公司的利潤仍在下降。"
           },
           {
-            "sentence": "She learned how to care for her horse’s [saddle].",
-            "translation_zh_TW": "她學會了如何照顧她馬的馬鞍"
+            "sentence": "It's polite to [decline] politely when you can't attend.",
+            "translation_zh_TW": "當你無法參加時，禮貌地拒絕是很重要的。"
           }
         ],
         "synonyms": [
-          "seat",
-          "harness"
+          "refuse",
+          "reject"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "A gradual decrease in quality, quantity, or importance.",
+        "meaning_zh_TW": "逐漸減少",
+        "wrong_meaning_zh_TW": [
+          "增長",
+          "恢復",
+          "平衡"
+        ],
+        "examples": [
+          {
+            "sentence": "There has been a noticeable [decline] in sales this quarter.",
+            "translation_zh_TW": "這一季度的銷售額明顯下降。"
+          },
+          {
+            "sentence": "The [decline] of the old building signifies changing times.",
+            "translation_zh_TW": "舊建築的衰退標誌著時代的變遷。"
+          },
+          {
+            "sentence": "They are concerned about the [decline] in customer satisfaction.",
+            "translation_zh_TW": "他們對客戶滿意度的下降感到擔憂。"
+          }
+        ],
+        "synonyms": [
+          "decrease",
+          "diminution"
         ]
       }
     ],
     "confusion": [
-      "siddles",
-      "sow",
-      "saddlebag",
-      "settle"
+      "decline",
+      "declaim",
+      "deciline",
+      "declinee"
     ]
   },
   {
-    "word": "eligible",
+    "word": "donation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A gift or contribution, often in the form of money, to a charitable organization or cause.",
+        "meaning_zh_TW": "捐款",
+        "wrong_meaning_zh_TW": [
+          "費用",
+          "賺錢",
+          "交易"
+        ],
+        "examples": [
+          {
+            "sentence": "The organization received a large [donation] yesterday.",
+            "translation_zh_TW": "該組織昨天收到了大額捐款。"
+          },
+          {
+            "sentence": "They set up a fund for [donations] to support education.",
+            "translation_zh_TW": "他們設立了一個基金，以支持教育的捐款。"
+          },
+          {
+            "sentence": "Every [donation] helps us continue our work.",
+            "translation_zh_TW": "每一筆捐款都幫助我們繼續工作。"
+          }
+        ],
+        "synonyms": [
+          "contribution",
+          "gift"
+        ]
+      }
+    ],
+    "confusion": [
+      "donated",
+      "donator",
+      "donate",
+      "donations"
+    ]
+  },
+  {
+    "word": "adverse",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having the right to do or obtain something; satisfying the appropriate conditions.",
-        "meaning_zh_TW": "合格的",
+        "meaning_en_US": "Preventing success or development; harmful.",
+        "meaning_zh_TW": "不利的",
         "wrong_meaning_zh_TW": [
-          "不合格的",
-          "排除的",
-          "限制的"
+          "懷疑的",
+          "喜悅的",
+          "愉快的"
         ],
         "examples": [
           {
-            "sentence": "Only students with high grades are [eligible] for the scholarship.",
-            "translation_zh_TW": "只有成績優秀的學生才有資格獲得獎學金"
+            "sentence": "The medication can have [adverse] side effects.",
+            "translation_zh_TW": "這種藥物可能會有不利的副作用。"
           },
           {
-            "sentence": "She was deemed [eligible] for the promotion after her performance review.",
-            "translation_zh_TW": "在她的表現評估後，她被認為有資格晉升"
+            "sentence": "We faced [adverse] weather conditions during our trip.",
+            "translation_zh_TW": "我們在旅行中遭遇了不利的天氣條件。"
           },
           {
-            "sentence": "To vote, you must be [eligible] and registered.",
-            "translation_zh_TW": "要投票，您必須符合資格並註冊"
+            "sentence": "Her decision was based on [adverse] reports.",
+            "translation_zh_TW": "她的決定是基於不利的報告。"
           }
         ],
         "synonyms": [
-          "qualified",
-          "suitable"
+          "unfavorable",
+          "detrimental"
         ]
       }
     ],
     "confusion": [
-      "illegible",
-      "eligible",
-      "elimination",
-      "eligibility"
+      "averse",
+      "advert",
+      "adventure",
+      "advise"
     ]
   },
   {
-    "word": "seminar",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A class or a conference for discussion or training.",
-        "meaning_zh_TW": "研討會",
-        "wrong_meaning_zh_TW": [
-          "午餐會",
-          "座談會",
-          "講座"
-        ],
-        "examples": [
-          {
-            "sentence": "She attended a [seminar] on climate change.",
-            "translation_zh_TW": "她參加了一個關於氣候變化的研討會。"
-          },
-          {
-            "sentence": "The university offers various [seminars] throughout the year.",
-            "translation_zh_TW": "大學全年提供各種研討會。"
-          },
-          {
-            "sentence": "Participants can engage in discussions during the [seminar].",
-            "translation_zh_TW": "參與者可以在研討會上進行討論。"
-          }
-        ],
-        "synonyms": [
-          "workshop",
-          "conference"
-        ]
-      }
-    ],
-    "confusion": [
-      "seminer",
-      "siminar",
-      "seminarize",
-      "seminal"
-    ]
-  },
-  {
-    "word": "disclose",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make something known or public that was previously kept secret.",
-        "meaning_zh_TW": "揭露、公開",
-        "wrong_meaning_zh_TW": [
-          "隱瞞、保密",
-          "掩蓋、偽裝",
-          "簡單、粗略"
-        ],
-        "examples": [
-          {
-            "sentence": "The company will [disclose] its financial results next week.",
-            "translation_zh_TW": "該公司將在下週公開其財務結果。"
-          },
-          {
-            "sentence": "He decided to [disclose] his past mistakes to his friends.",
-            "translation_zh_TW": "他決定向朋友揭露自己的過去錯誤。"
-          },
-          {
-            "sentence": "The report should [disclose] all necessary information.",
-            "translation_zh_TW": "報告應揭露所有必要的信息。"
-          }
-        ],
-        "synonyms": [
-          "reveal",
-          "uncover"
-        ]
-      }
-    ],
-    "confusion": [
-      "enclose",
-      "disclosej",
-      "disclosee",
-      "disclosee"
-    ]
-  },
-  {
-    "word": "plead",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make an emotional appeal or request.",
-        "meaning_zh_TW": "懇求",
-        "wrong_meaning_zh_TW": [
-          "拒絕",
-          "控告",
-          "施壓"
-        ],
-        "examples": [
-          {
-            "sentence": "She [plead] for mercy.",
-            "translation_zh_TW": "她懇求寬恕。"
-          },
-          {
-            "sentence": "He decided to [plead] his innocence.",
-            "translation_zh_TW": "他決定為自己的清白辯護。"
-          },
-          {
-            "sentence": "They [plead] with the government to change the laws.",
-            "translation_zh_TW": "他們懇求政府改變法律。"
-          }
-        ],
-        "synonyms": [
-          "petition",
-          "implore"
-        ]
-      }
-    ],
-    "confusion": [
-      "plead's",
-      "pleadable",
-      "plea",
-      "pleaser"
-    ]
-  },
-  {
-    "word": "crucial",
+    "word": "acute",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Of great importance, decisive, or critical.",
-        "meaning_zh_TW": "重要的，關鍵的",
+        "meaning_en_US": "Having a sharp point or a sharp angle.",
+        "meaning_zh_TW": "尖銳的",
         "wrong_meaning_zh_TW": [
-          "次要的",
-          "冗長的",
-          "乏味的"
+          "鈍的",
+          "平坦的",
+          "圓形的"
         ],
         "examples": [
           {
-            "sentence": "This decision is [crucial] to our success.",
-            "translation_zh_TW": "這個決定對我們的成功是關鍵的。"
+            "sentence": "He felt an [acute] pain in his chest.",
+            "translation_zh_TW": "他感到胸口有一陣尖銳的疼痛。"
           },
           {
-            "sentence": "It's [crucial] to meet the deadline.",
-            "translation_zh_TW": "準時完成是非常重要的。"
+            "sentence": "The knife has an [acute] edge.",
+            "translation_zh_TW": "這把刀的刀刃很尖。"
           },
           {
-            "sentence": "Communication is [crucial] in a team.",
-            "translation_zh_TW": "在團隊中，溝通是至關重要的。"
+            "sentence": "She has an [acute] sense of hearing.",
+            "translation_zh_TW": "她有敏銳的聽覺。"
           }
         ],
         "synonyms": [
-          "essential",
-          "vital"
+          "sharp",
+          "keen"
+        ]
+      },
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having a sudden onset and severe effect.",
+        "meaning_zh_TW": "急性的",
+        "wrong_meaning_zh_TW": [
+          "慢性的",
+          "通常的",
+          "輕微的"
+        ],
+        "examples": [
+          {
+            "sentence": "He was diagnosed with an [acute] illness.",
+            "translation_zh_TW": "他被診斷出急性疾病。"
+          },
+          {
+            "sentence": "The [acute] symptoms required immediate attention.",
+            "translation_zh_TW": "急性的症狀需要即時處理。"
+          },
+          {
+            "sentence": "It was an [acute] crisis for the company.",
+            "translation_zh_TW": "對於公司來說，這是一場急迫的危機。"
+          }
+        ],
+        "synonyms": [
+          "urgent",
+          "critical"
         ]
       }
     ],
     "confusion": [
-      "crucify",
-      "crucifix",
-      "crushed",
-      "crocodile"
+      "cutie",
+      "cure",
+      "cute",
+      "acut"
     ]
   },
   {
-    "word": "customs",
+    "word": "stack",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The official department that administers and collects the duties levied by a government on imported goods.",
-        "meaning_zh_TW": "海關",
+        "meaning_en_US": "A pile of objects, typically arranged in a neat manner.",
+        "meaning_zh_TW": "一堆，堆疊",
         "wrong_meaning_zh_TW": [
-          "稅務",
-          "政府",
-          "貿易"
+          "容器",
+          "平面",
+          "蓋子"
         ],
         "examples": [
           {
-            "sentence": "She declared her items at [customs].",
-            "translation_zh_TW": "她在海關申報了她的物品。"
+            "sentence": "She organized the books into a neat [stack].",
+            "translation_zh_TW": "她把書籍整理成整齊的一堆。"
           },
           {
-            "sentence": "The [customs] officer checked her bags.",
-            "translation_zh_TW": "海關官員檢查了她的行李。"
+            "sentence": "A [stack] of papers fell from the table.",
+            "translation_zh_TW": "一堆文件從桌上掉了下來。"
           },
           {
-            "sentence": "Understanding [customs] regulations is important.",
-            "translation_zh_TW": "了解海關規定很重要。"
+            "sentence": "They need to remove the [stack] of boxes in the hallway.",
+            "translation_zh_TW": "他們需要移除走廊上的紙箱堆。"
           }
         ],
         "synonyms": [
-          "tariffs",
-          "import duties"
+          "pile",
+          "heap"
         ]
       }
     ],
     "confusion": [
-      "customers",
-      "costumes",
-      "custom",
-      "cousins"
+      "snack",
+      "stuck",
+      "stick",
+      "stuck-up"
     ]
   },
   {
-    "word": "session",
+    "word": "variation",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A meeting or a period during which a group meets to discuss or work on a specific topic.",
-        "meaning_zh_TW": "會議、期間",
+        "meaning_en_US": "A change or difference in condition, amount, or level.",
+        "meaning_zh_TW": "變化",
         "wrong_meaning_zh_TW": [
-          "瞬間",
-          "間隔",
-          "分解"
+          "一致性",
+          "穩定性",
+          "規則"
         ],
         "examples": [
           {
-            "sentence": "The training [session] will start at 10 AM.",
-            "translation_zh_TW": "培訓會議將於上午十點開始。"
+            "sentence": "There are many [variations] of this recipe.",
+            "translation_zh_TW": "這個食譜有很多變化。"
           },
           {
-            "sentence": "We had a productive [session] yesterday.",
-            "translation_zh_TW": "我們昨天有一個富有成效的會議。"
+            "sentence": "The singer has a unique style with subtle [variations].",
+            "translation_zh_TW": "這位歌手的風格獨特，帶有微妙的變化。"
           },
           {
-            "sentence": "This workshop is a [session] on team building.",
-            "translation_zh_TW": "這個研討會是一個關於團隊建設的會議。"
+            "sentence": "Seasonal [variation] can affect local wildlife.",
+            "translation_zh_TW": "季節變化會影響當地的野生動物。"
           }
         ],
         "synonyms": [
-          "meeting",
-          "gathering"
+          "diversity",
+          "alteration"
         ]
       }
     ],
     "confusion": [
-      "session",
-      "secession",
-      "cession",
-      "sessen"
+      "variationist",
+      "varying",
+      "var intermittent",
+      "vermilion"
     ]
   },
   {
-    "word": "lawmaker",
+    "word": "gathering",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person who makes or enacts laws.",
-        "meaning_zh_TW": "立法者",
+        "meaning_en_US": "A coming together of people; a meeting or assembly.",
+        "meaning_zh_TW": "聚會、集合",
         "wrong_meaning_zh_TW": [
-          "執法者",
-          "律師",
-          "法官"
+          "分散、散去",
+          "混亂、騷鬧",
+          "獨自一人"
         ],
         "examples": [
           {
-            "sentence": "The [lawmaker] proposed a new bill.",
-            "translation_zh_TW": "這位立法者提議了一項新法案。"
+            "sentence": "The family planned a big [gathering] for the holidays.",
+            "translation_zh_TW": "這家人計劃了一個大型的聚會以慶祝假期"
           },
           {
-            "sentence": "Every [lawmaker] has a duty to represent their constituents.",
-            "translation_zh_TW": "每位立法者都有責任代表其選民。"
+            "sentence": "Their [gathering] attracted people from all over the city.",
+            "translation_zh_TW": "他們的聚會吸引了來自全城的人"
           },
           {
-            "sentence": "The conference invites every [lawmaker] to discuss important issues.",
-            "translation_zh_TW": "會議邀請每位立法者討論重要議題。"
+            "sentence": "A [gathering] of friends can make any occasion special.",
+            "translation_zh_TW": "朋友的聚會能讓任何場合變得特別"
           }
         ],
         "synonyms": [
-          "legislator",
-          "lawgiver"
+          "assembly",
+          "meeting"
         ]
       }
     ],
     "confusion": [
-      "lawmark",
-      "lawmaking",
-      "lawmaker's",
-      "lamemaker"
+      "gather",
+      "gathered",
+      "lathe",
+      "gathering"
     ]
   },
   {
-    "word": "sparkle",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To shine brightly with flashes of light.",
-        "meaning_zh_TW": "閃爍",
-        "wrong_meaning_zh_TW": [
-          "黯淡",
-          "失去光澤",
-          "模糊"
-        ],
-        "examples": [
-          {
-            "sentence": "The stars sparkle in the night sky.",
-            "translation_zh_TW": "星星在夜空中閃爍"
-          },
-          {
-            "sentence": "Her eyes sparkle with joy.",
-            "translation_zh_TW": "她的眼睛閃爍著喜悅"
-          },
-          {
-            "sentence": "The diamond will sparkle in the sunlight.",
-            "translation_zh_TW": "鑽石在陽光下會閃爍"
-          }
-        ],
-        "synonyms": [
-          "glimmer",
-          "shine"
-        ]
-      }
-    ],
-    "confusion": [
-      "sparkle",
-      "sparkel",
-      "sparkll",
-      "sparke"
-    ]
-  },
-  {
-    "word": "practitioner",
+    "word": "projection",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person actively engaged in an art, discipline, or profession.",
-        "meaning_zh_TW": "從業人員",
+        "meaning_en_US": "An estimate or forecast of a future situation based on a study of present trends.",
+        "meaning_zh_TW": "預測",
         "wrong_meaning_zh_TW": [
-          "學生",
-          "監督",
-          "理論家"
+          "輸出",
+          "反射",
+          "繪圖"
         ],
         "examples": [
           {
-            "sentence": "The [practitioner] provided excellent patient care.",
-            "translation_zh_TW": "這位從業人員提供了優秀的病患護理服務。"
+            "sentence": "The economic [projection] for next year looks promising.",
+            "translation_zh_TW": "明年的經濟預測看起來很有希望"
           },
           {
-            "sentence": "She is a licensed medical [practitioner].",
-            "translation_zh_TW": "她是一位持牌的醫療從業人員。"
+            "sentence": "They presented a [projection] of the sales figures.",
+            "translation_zh_TW": "他們展示了銷售數字的預測"
           },
           {
-            "sentence": "As a yoga [practitioner], he believes in holistic health.",
-            "translation_zh_TW": "作為一名瑜伽從業人員，他相信整體健康。"
+            "sentence": "His [projection] of future trends surprised many experts.",
+            "translation_zh_TW": "他對未來趨勢的預測讓許多專家感到驚訝"
           }
         ],
         "synonyms": [
-          "specialist",
-          "professional"
+          "forecast",
+          "estimate",
+          "prediction"
         ]
       }
     ],
     "confusion": [
-      "practition",
-      "practitionar",
-      "practitoner",
-      "practitioners"
+      "projectional",
+      "projector",
+      "projections",
+      "projecting"
     ]
   },
   {
-    "word": "placement",
+    "word": "confidential",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Intended to be kept secret or private.",
+        "meaning_zh_TW": "機密的",
+        "wrong_meaning_zh_TW": [
+          "公開的",
+          "模糊的",
+          "複雜的"
+        ],
+        "examples": [
+          {
+            "sentence": "All [confidential] documents must be stored securely.",
+            "translation_zh_TW": "所有機密文件必須安全存放。"
+          },
+          {
+            "sentence": "He signed a [confidential] agreement with the company.",
+            "translation_zh_TW": "他與公司簽署了機密協議。"
+          },
+          {
+            "sentence": "The meeting will discuss [confidential] matters.",
+            "translation_zh_TW": "會議將討論機密事項。"
+          }
+        ],
+        "synonyms": [
+          "secret",
+          "private"
+        ]
+      }
+    ],
+    "confusion": [
+      "confidentiality",
+      "confidence",
+      "confident",
+      "confined"
+    ]
+  },
+  {
+    "word": "juvenile",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Related to or characteristic of young people, especially teenagers.",
+        "meaning_zh_TW": "青少年的",
+        "wrong_meaning_zh_TW": [
+          "老年的",
+          "幼年的",
+          "成人的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [juvenile] crime rate has been decreasing in urban areas.",
+            "translation_zh_TW": "都市地區的青少年犯罪率一直在下降"
+          },
+          {
+            "sentence": "She works with [juvenile] offenders to help rehabilitate them.",
+            "translation_zh_TW": "她與青少年罪犯合作以幫助他們康復"
+          },
+          {
+            "sentence": "The program focuses on [juvenile] education and support.",
+            "translation_zh_TW": "該計劃專注於青少年教育和支持"
+          }
+        ],
+        "synonyms": [
+          "youthful",
+          "adolescent"
+        ]
+      }
+    ],
+    "confusion": [
+      "juvenilia",
+      "juvinal",
+      "juvenilised",
+      "juveniles"
+    ]
+  },
+  {
+    "word": "injection",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The act of placing something in a particular position.",
-        "meaning_zh_TW": "放置",
+        "meaning_en_US": "The act of forcing a liquid into something, typically using a syringe.",
+        "meaning_zh_TW": "注射",
         "wrong_meaning_zh_TW": [
-          "位置",
+          "注釋",
+          "機器",
+          "運動"
+        ],
+        "examples": [
+          {
+            "sentence": "He received an [injection] at the clinic.",
+            "translation_zh_TW": "他在診所接受了注射。"
+          },
+          {
+            "sentence": "The doctor recommended an [injection] for the flu.",
+            "translation_zh_TW": "醫生建議接種流感疫苗。"
+          },
+          {
+            "sentence": "An [injection] can help relieve pain.",
+            "translation_zh_TW": "注射可以幫助緩解疼痛。"
+          }
+        ],
+        "synonyms": [
+          "shot",
+          "vaccine"
+        ]
+      }
+    ],
+    "confusion": [
+      "injections",
+      "injection",
+      "injerction",
+      "injectione"
+    ]
+  },
+  {
+    "word": "preference",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A greater liking for one alternative over another or others.",
+        "meaning_zh_TW": "偏好",
+        "wrong_meaning_zh_TW": [
           "選擇",
-          "排序"
+          "機會",
+          "要求"
         ],
         "examples": [
           {
-            "sentence": "The [placement] of the furniture was crucial.",
-            "translation_zh_TW": "家具的放置至關重要。"
+            "sentence": "Her [preference] for classical music is well-known.",
+            "translation_zh_TW": "她對古典音樂的偏好是眾所周知的。"
           },
           {
-            "sentence": "The company offers job [placement] services.",
-            "translation_zh_TW": "該公司提供工作放置服務。"
+            "sentence": "He expressed a clear [preference] for the red car.",
+            "translation_zh_TW": "他對紅色車輛表達了明確的偏好。"
           },
           {
-            "sentence": "Good [placement] of the ad leads to better sales.",
-            "translation_zh_TW": "廣告的良好放置會帶來更好的銷售。"
+            "sentence": "In the survey, participants listed their [preferences] for leisure activities.",
+            "translation_zh_TW": "在調查中，參與者列出了他們的休閒活動偏好。"
           }
         ],
         "synonyms": [
-          "arrangement",
-          "positioning"
+          "liking",
+          "partiality"
         ]
       }
     ],
     "confusion": [
-      "placement's",
-      "place",
-      "plaster",
-      "plumage"
+      "prefference",
+      "preferencee",
+      "preferance",
+      "preferenes"
     ]
   },
   {
-    "word": "virtual",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Almost or nearly as described, but not completely or according to strict definition.",
-        "meaning_zh_TW": "虛擬的",
-        "wrong_meaning_zh_TW": [
-          "實際的",
-          "具體的",
-          "真實的"
-        ],
-        "examples": [
-          {
-            "sentence": "He attended a [virtual] meeting via video call.",
-            "translation_zh_TW": "他通過視頻電話參加了一個虛擬會議。"
-          },
-          {
-            "sentence": "The game offers a [virtual] reality experience.",
-            "translation_zh_TW": "這款遊戲提供虛擬現實的體驗。"
-          },
-          {
-            "sentence": "In a [virtual] classroom, students learn online.",
-            "translation_zh_TW": "在虛擬教室裡，學生在線上學習。"
-          }
-        ],
-        "synonyms": [
-          "digital",
-          "simulated"
-        ]
-      }
-    ],
-    "confusion": [
-      "verbal",
-      "virtuoso",
-      "vortex",
-      "vulnerable"
-    ]
-  },
-  {
-    "word": "corrupt",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having or showing a willingness to act dishonestly in return for personal gain.",
-        "meaning_zh_TW": "腐敗的",
-        "wrong_meaning_zh_TW": [
-          "清白的",
-          "無私的",
-          "誠實的"
-        ],
-        "examples": [
-          {
-            "sentence": "The [corrupt] politician was finally arrested.",
-            "translation_zh_TW": "那位腐敗的政治家最終被逮捕。"
-          },
-          {
-            "sentence": "Many people distrust [corrupt] systems.",
-            "translation_zh_TW": "許多人不信任腐敗的系統。"
-          },
-          {
-            "sentence": "He resigned due to [corrupt] practices.",
-            "translation_zh_TW": "他因為腐敗的行為而辭職。"
-          }
-        ],
-        "synonyms": [
-          "dishonest",
-          "immoral"
-        ]
-      }
-    ],
-    "confusion": [
-      "corrapt",
-      "correct",
-      "corrosive",
-      "corrode"
-    ]
-  },
-  {
-    "word": "resume",
+    "word": "canvas",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A brief account of a person's education, qualifications, and previous experience, typically sent with a job application.",
-        "meaning_zh_TW": "簡歷",
+        "meaning_en_US": "A strong, rough fabric used for making tents, sails, or paintings.",
+        "meaning_zh_TW": "畫布",
         "wrong_meaning_zh_TW": [
-          "拒絕",
-          "摘要",
-          "程式"
+          "塑料",
+          "棉花",
+          "羊毛"
         ],
         "examples": [
           {
-            "sentence": "She updated her [resume] before applying for the job.",
-            "translation_zh_TW": "她在申請工作之前更新了她的簡歷。"
+            "sentence": "The artist prepared the [canvas] for painting.",
+            "translation_zh_TW": "藝術家為畫畫準備了畫布。"
           },
           {
-            "sentence": "A strong [resume] can help you stand out in the job market.",
-            "translation_zh_TW": "一份強有力的簡歷可以幫助你在求職市場中脫穎而出。"
+            "sentence": "She bought a large [canvas] for her new project.",
+            "translation_zh_TW": "她購買了一大塊畫布來做新項目。"
           },
           {
-            "sentence": "He included his volunteering experience on his [resume].",
-            "translation_zh_TW": "他在簡歷中包含了他的志願經歷。"
+            "sentence": "The tent was made of sturdy [canvas].",
+            "translation_zh_TW": "這個帳篷是用堅固的畫布製成的。"
           }
         ],
         "synonyms": [
-          "CV",
-          "curriculum vitae"
+          "fabric",
+          "cloth"
         ]
       }
     ],
     "confusion": [
-      "rescue",
-      "resume",
-      "resum",
-      "résumé"
-    ]
-  },
-  {
-    "word": "disrupt",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To interrupt or disturb the normal progress or activity.",
-        "meaning_zh_TW": "擾亂、中斷",
-        "wrong_meaning_zh_TW": [
-          "維持、穩定",
-          "增強、改善",
-          "促進、成長"
-        ],
-        "examples": [
-          {
-            "sentence": "The protest [disrupted] the flow of traffic.",
-            "translation_zh_TW": "抗議活動擾亂了交通流量。"
-          },
-          {
-            "sentence": "The meeting was [disrupted] by technical issues.",
-            "translation_zh_TW": "會議因技術問題而中斷。"
-          },
-          {
-            "sentence": "Heavy rain may [disrupt] our outdoor plans.",
-            "translation_zh_TW": "大雨可能會擾亂我們的戶外計劃。"
-          }
-        ],
-        "synonyms": [
-          "interrupt",
-          "disturb"
-        ]
-      }
-    ],
-    "confusion": [
-      "disruppt",
-      "disrpt",
-      "disruptt",
-      "disrput"
-    ]
-  },
-  {
-    "word": "bureaucracy",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A system of government in which most of the important decisions are taken by state officials rather than by elected representatives.",
-        "meaning_zh_TW": "官僚主義",
-        "wrong_meaning_zh_TW": [
-          "民主",
-          "獨裁",
-          "資本主義"
-        ],
-        "examples": [
-          {
-            "sentence": "The new law aims to reduce [bureaucracy] in government.",
-            "translation_zh_TW": "這項新法旨在減少政府中的官僚主義。"
-          },
-          {
-            "sentence": "Many people complain about the slow pace of [bureaucracy].",
-            "translation_zh_TW": "許多人抱怨官僚主義的進展緩慢。"
-          },
-          {
-            "sentence": "She navigated the complex [bureaucracy] to get her permit.",
-            "translation_zh_TW": "她駕馭了複雜的官僚體制以獲得許可證。"
-          }
-        ],
-        "synonyms": [
-          "administration",
-          "red tape"
-        ]
-      }
-    ],
-    "confusion": [
-      "bureaucrat",
-      "bureau",
-      "burlesque",
-      "burgeon"
-    ]
-  },
-  {
-    "word": "belongings",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The personal items that a person owns.",
-        "meaning_zh_TW": "私人物品",
-        "wrong_meaning_zh_TW": [
-          "引用",
-          "物質",
-          "權益"
-        ],
-        "examples": [
-          {
-            "sentence": "She packed her [belongings] before moving.",
-            "translation_zh_TW": "她在搬家前打包了她的私人物品"
-          },
-          {
-            "sentence": "He lost his [belongings] during the trip.",
-            "translation_zh_TW": "他在旅行中丟失了他的私人物品"
-          },
-          {
-            "sentence": "Make sure to keep your [belongings] safe.",
-            "translation_zh_TW": "確保妥善保管你的私人物品"
-          }
-        ],
-        "synonyms": [
-          "property",
-          "assets"
-        ]
-      }
-    ],
-    "confusion": [
-      "belonging",
-      "belonged",
-      "belonger",
-      "belong"
-    ]
-  },
-  {
-    "word": "quest",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A long search for something.",
-        "meaning_zh_TW": "探索、追尋",
-        "wrong_meaning_zh_TW": [
-          "簡單的任務",
-          "輕鬆的旅行",
-          "隨意的遊覽"
-        ],
-        "examples": [
-          {
-            "sentence": "His [quest] for knowledge led him to study various subjects.",
-            "translation_zh_TW": "他對知識的追尋使他學習了各種科目。"
-          },
-          {
-            "sentence": "The heroes embarked on a [quest] to find the lost treasure.",
-            "translation_zh_TW": "英雄們踏上了尋找失落寶藏的探索之旅。"
-          },
-          {
-            "sentence": "Every [quest] has its challenges.",
-            "translation_zh_TW": "每次探索都有其挑戰。"
-          }
-        ],
-        "synonyms": [
-          "journey",
-          "adventure"
-        ]
-      }
-    ],
-    "confusion": [
-      "quester",
-      "quasar",
-      "queue",
-      "quilt"
+      "canyon",
+      "cavern",
+      "cabbage",
+      "cavities"
     ]
   },
   {
@@ -777,6 +600,162 @@
       "thrash",
       "through",
       "thresher"
+    ]
+  },
+  {
+    "word": "cemetery",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A burial ground; a place where the dead are buried.",
+        "meaning_zh_TW": "墓地、墳場",
+        "wrong_meaning_zh_TW": [
+          "公園、遊樂場",
+          "醫院、診所",
+          "博物館、畫廊"
+        ],
+        "examples": [
+          {
+            "sentence": "They visited the family plot at the [cemetery].",
+            "translation_zh_TW": "他們拜訪了家族的墓地。"
+          },
+          {
+            "sentence": "The old [cemetery] is full of historical graves.",
+            "translation_zh_TW": "這座古老的墓地裡有許多歷史悠久的墓葬。"
+          },
+          {
+            "sentence": "People often bring flowers to the [cemetery].",
+            "translation_zh_TW": "人們常常帶花來墓地。"
+          }
+        ],
+        "synonyms": [
+          "graveyard",
+          "burial ground"
+        ]
+      }
+    ],
+    "confusion": [
+      "cementery",
+      "cemeterys",
+      "ceremony",
+      "cestuary"
+    ]
+  },
+  {
+    "word": "exploration",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The action of traveling in or through an unfamiliar area for the purpose of discovery.",
+        "meaning_zh_TW": "探索",
+        "wrong_meaning_zh_TW": [
+          "定位",
+          "修訂",
+          "測量"
+        ],
+        "examples": [
+          {
+            "sentence": "The [exploration] of the ocean is still ongoing.",
+            "translation_zh_TW": "對海洋的探索仍在繼續。"
+          },
+          {
+            "sentence": "They launched an [exploration] mission to Mars.",
+            "translation_zh_TW": "他們啟動了一個火星探索任務。"
+          },
+          {
+            "sentence": "Her [exploration] of different cultures enriched her perspective.",
+            "translation_zh_TW": "她對不同文化的探索豐富了她的視野。"
+          }
+        ],
+        "synonyms": [
+          "investigation",
+          "discovery"
+        ]
+      }
+    ],
+    "confusion": [
+      "exploit",
+      "experience",
+      "exportation",
+      "exposition"
+    ]
+  },
+  {
+    "word": "opt",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make a choice from a range of possibilities.",
+        "meaning_zh_TW": "選擇",
+        "wrong_meaning_zh_TW": [
+          "拒絕",
+          "強迫",
+          "混淆"
+        ],
+        "examples": [
+          {
+            "sentence": "You can [opt] for a cash refund or a store credit.",
+            "translation_zh_TW": "你可以選擇現金退款或商店信用。"
+          },
+          {
+            "sentence": "He decided to [opt] out of the event.",
+            "translation_zh_TW": "他決定不參加這個活動。"
+          },
+          {
+            "sentence": "They can [opt] for a different option.",
+            "translation_zh_TW": "他們可以選擇另一個選項。"
+          }
+        ],
+        "synonyms": [
+          "choose",
+          "select"
+        ]
+      }
+    ],
+    "confusion": [
+      "opped",
+      "opts",
+      "opted",
+      "offer"
+    ]
+  },
+  {
+    "word": "constitutional",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to an established set of principles governing a state.",
+        "meaning_zh_TW": "憲法的",
+        "wrong_meaning_zh_TW": [
+          "任意的",
+          "隨意的",
+          "不成文的"
+        ],
+        "examples": [
+          {
+            "sentence": "The rights are guaranteed by [constitutional] law.",
+            "translation_zh_TW": "這些權利由憲法法律保障。"
+          },
+          {
+            "sentence": "They are debating the [constitutional] amendments.",
+            "translation_zh_TW": "他們正在討論憲法修正案。"
+          },
+          {
+            "sentence": "Their actions were deemed [constitutional] under the law.",
+            "translation_zh_TW": "他們的行為在法律下被認為是合憲的。"
+          }
+        ],
+        "synonyms": [
+          "legal",
+          "institutional"
+        ]
+      }
+    ],
+    "confusion": [
+      "constitution",
+      "consultation",
+      "construction",
+      "constitutionalism"
     ]
   }
 ]

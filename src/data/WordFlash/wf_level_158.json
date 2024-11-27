@@ -1,760 +1,782 @@
 [
   {
-    "word": "ashamed",
+    "word": "feather",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A soft, light covering of birds, used for flight and insulation.",
+        "meaning_zh_TW": "羽毛",
+        "wrong_meaning_zh_TW": [
+          "樹葉",
+          "蝴蝶",
+          "毛巾"
+        ],
+        "examples": [
+          {
+            "sentence": "The bird preened its [feather]s meticulously.",
+            "translation_zh_TW": "那隻鳥仔細地梳理著它的羽毛"
+          },
+          {
+            "sentence": "She collected a [feather] from the ground.",
+            "translation_zh_TW": "她從地上撿起一根羽毛"
+          },
+          {
+            "sentence": "Decorative pillows often have [feather] filling.",
+            "translation_zh_TW": "裝飾性枕頭經常使用羽毛填充"
+          }
+        ],
+        "synonyms": [
+          "plume",
+          "quill"
+        ]
+      }
+    ],
+    "confusion": [
+      "featherly",
+      "feathers",
+      "feathering",
+      "feathered"
+    ]
+  },
+  {
+    "word": "fond",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Feeling guilt or embarrassment about something.",
-        "meaning_zh_TW": "感到羞愧",
+        "meaning_en_US": "Having an affection or liking for someone or something.",
+        "meaning_zh_TW": "喜愛的",
         "wrong_meaning_zh_TW": [
-          "自豪",
-          "快樂",
-          "冷漠"
+          "無情的",
+          "冷淡的",
+          "厭惡的"
         ],
         "examples": [
           {
-            "sentence": "He felt [ashamed] after realizing his mistake.",
-            "translation_zh_TW": "意識到自己的錯誤後，他感到羞愧。"
+            "sentence": "She has always been [fond] of animals.",
+            "translation_zh_TW": "她一直喜愛動物。"
           },
           {
-            "sentence": "She was [ashamed] of how she treated her friend.",
-            "translation_zh_TW": "她為自己對待朋友的方式感到羞愧。"
+            "sentence": "I have a [fond] memory of my childhood.",
+            "translation_zh_TW": "我對童年有一個美好的回憶。"
           },
           {
-            "sentence": "They were [ashamed] to ask for help.",
-            "translation_zh_TW": "他們感到羞愧，無法要求幫助。"
+            "sentence": "He is [fond] of reading novels in his spare time.",
+            "translation_zh_TW": "他在空閒時間喜愛閱讀小說。"
           }
         ],
         "synonyms": [
-          "embarrassed",
-          "guilty"
+          "affectionate",
+          "tender"
         ]
       }
     ],
     "confusion": [
-      "asthma",
-      "ashamedly",
-      "ashamer",
-      "ahem"
+      "fund",
+      "found",
+      "fondue",
+      "fonder"
     ]
   },
   {
-    "word": "terrorism",
+    "word": "gamble",
     "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The unlawful use of violence and intimidation, especially against civilians, in pursuit of political aims.",
-        "meaning_zh_TW": "恐怖主義",
-        "wrong_meaning_zh_TW": [
-          "和平運動",
-          "改善",
-          "發展"
-        ],
-        "examples": [
-          {
-            "sentence": "Countries work together to combat [terrorism].",
-            "translation_zh_TW": "各國共同努力打擊恐怖主義。"
-          },
-          {
-            "sentence": "He studies the impacts of [terrorism] on society.",
-            "translation_zh_TW": "他研究恐怖主義對社會的影響。"
-          },
-          {
-            "sentence": "The government has measures to address [terrorism].",
-            "translation_zh_TW": "政府有措施應對恐怖主義。"
-          }
-        ],
-        "synonyms": [
-          "violence",
-          "extremism"
-        ]
-      }
-    ],
-    "confusion": [
-      "terrorist",
-      "terrors",
-      "terrify",
-      "terrestrial"
-    ]
-  },
-  {
-    "word": "learning",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The acquisition of knowledge or skills through study, experience, or teaching.",
-        "meaning_zh_TW": "學習",
-        "wrong_meaning_zh_TW": [
-          "消費",
-          "退貨",
-          "旅遊"
-        ],
-        "examples": [
-          {
-            "sentence": "My [learning] process has improved over the years.",
-            "translation_zh_TW": "我的學習過程隨著時間而改善。"
-          },
-          {
-            "sentence": "Experiential [learning] can be very effective.",
-            "translation_zh_TW": "體驗學習可能非常有效。"
-          },
-          {
-            "sentence": "Online resources have transformed [learning].",
-            "translation_zh_TW": "在線資源已改變學習。"
-          }
-        ],
-        "synonyms": [
-          "education",
-          "knowledge acquisition"
-        ]
-      }
-    ],
-    "confusion": [
-      "leaning",
-      "learningly",
-      "learner",
-      "learnings"
-    ]
-  },
-  {
-    "word": "clinic",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A healthcare facility for outpatient care.",
-        "meaning_zh_TW": "門診醫療機構",
-        "wrong_meaning_zh_TW": [
-          "診所的設計",
-          "醫學研究",
-          "住院病房"
-        ],
-        "examples": [
-          {
-            "sentence": "He visited the [clinic] for a check-up.",
-            "translation_zh_TW": "他去門診醫療機構做檢查。"
-          },
-          {
-            "sentence": "The [clinic] offers various health services.",
-            "translation_zh_TW": "這家診所提供多種健康服務。"
-          },
-          {
-            "sentence": "She works at a community health [clinic].",
-            "translation_zh_TW": "她在一個社區健康診所工作。"
-          }
-        ],
-        "synonyms": [
-          "health center",
-          "medical office"
-        ]
-      }
-    ],
-    "confusion": [
-      "clinics",
-      "clinical",
-      "clink",
-      "climatic"
-    ]
-  },
-  {
-    "word": "crop",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A plant that is grown in large quantities for food or other products.",
-        "meaning_zh_TW": "農作物",
-        "wrong_meaning_zh_TW": [
-          "雜草",
-          "毒素",
-          "莖"
-        ],
-        "examples": [
-          {
-            "sentence": "Farmers harvested the wheat [crop].",
-            "translation_zh_TW": "農民收割了麥子農作物"
-          },
-          {
-            "sentence": "This region is known for its rice [crops].",
-            "translation_zh_TW": "這個地區以水稻農作物著稱"
-          },
-          {
-            "sentence": "They rotate their [crops] yearly.",
-            "translation_zh_TW": "他們每年輪作農作物"
-          }
-        ],
-        "synonyms": [
-          "harvest",
-          "yield"
-        ]
-      },
       {
         "type": "動詞",
-        "meaning_en_US": "To cut or gather a crop or to shorten something.",
-        "meaning_zh_TW": "修剪",
+        "meaning_en_US": "To take risky action in hopes of a desired result, often involving betting.",
+        "meaning_zh_TW": "賭博",
         "wrong_meaning_zh_TW": [
-          "縫合",
-          "生長",
+          "投資",
+          "工作",
+          "确保"
+        ],
+        "examples": [
+          {
+            "sentence": "He likes to [gamble] on horse races.",
+            "translation_zh_TW": "他喜歡在賽馬上賭博"
+          },
+          {
+            "sentence": "Never [gamble] more than you can afford to lose.",
+            "translation_zh_TW": "永遠不要賭博超過你能承受的損失"
+          },
+          {
+            "sentence": "They decided to [gamble] on their future.",
+            "translation_zh_TW": "他們決定冒險追逐未來"
+          }
+        ],
+        "synonyms": [
+          "bet",
+          "wager"
+        ]
+      }
+    ],
+    "confusion": [
+      "game",
+      "gambit",
+      "gambol",
+      "gambel"
+    ]
+  },
+  {
+    "word": "ambitious",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having a strong desire for success or achievement.",
+        "meaning_zh_TW": "有抱負的",
+        "wrong_meaning_zh_TW": [
+          "懦弱的",
+          "無所事事的",
+          "保守的"
+        ],
+        "examples": [
+          {
+            "sentence": "She is an [ambitious] young woman with big dreams.",
+            "translation_zh_TW": "她是一位有抱負的年輕女性，擁有大夢想。"
+          },
+          {
+            "sentence": "His [ambitious] nature often drives him to take risks.",
+            "translation_zh_TW": "他有抱負的性格常常驅使他冒險。"
+          },
+          {
+            "sentence": "They launched an [ambitious] plan to expand their business.",
+            "translation_zh_TW": "他們展開了一個有抱負的計劃來擴展業務。"
+          }
+        ],
+        "synonyms": [
+          "aspiring",
+          "driven"
+        ]
+      }
+    ],
+    "confusion": [
+      "ambivalence",
+      "ambassador",
+      "ambiotic",
+      "animous"
+    ]
+  },
+  {
+    "word": "inspect",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To look at closely in order to learn more about its components or condition.",
+        "meaning_zh_TW": "仔細檢查",
+        "wrong_meaning_zh_TW": [
+          "快速查看",
+          "隨意觀察",
+          "忽略不顧"
+        ],
+        "examples": [
+          {
+            "sentence": "The technician will [inspect] the machine for issues.",
+            "translation_zh_TW": "技術人員將仔細檢查機器的問題。"
+          },
+          {
+            "sentence": "It's important to [inspect] the documents for errors.",
+            "translation_zh_TW": "仔細檢查文件中的錯誤很重要。"
+          },
+          {
+            "sentence": "The officer will [inspect] the area for any suspicious activities.",
+            "translation_zh_TW": "警官會仔細檢查該區域是否有可疑活動。"
+          }
+        ],
+        "synonyms": [
+          "examine",
+          "review"
+        ]
+      }
+    ],
+    "confusion": [
+      "inject",
+      "inspecter",
+      "insect",
+      "inspector"
+    ]
+  },
+  {
+    "word": "mushroom",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A fungus that typically grows in a rounded cap on a stalk.",
+        "meaning_zh_TW": "蘑菇",
+        "wrong_meaning_zh_TW": [
+          "木頭",
+          "石頭",
+          "花瓣"
+        ],
+        "examples": [
+          {
+            "sentence": "We found a [mushroom] in the forest.",
+            "translation_zh_TW": "我們在森林裡找到了一個蘑菇"
+          },
+          {
+            "sentence": "Mushrooms can be used in various dishes.",
+            "translation_zh_TW": "蘑菇可以用於各種菜餚中"
+          },
+          {
+            "sentence": "She enjoys picking [mushrooms] during the fall.",
+            "translation_zh_TW": "她在秋天喜歡採摘蘑菇"
+          }
+        ],
+        "synonyms": [
+          "fungus",
+          "toadstool"
+        ]
+      }
+    ],
+    "confusion": [
+      "mushrooming",
+      "mushrom",
+      "mushrum",
+      "mustroom"
+    ]
+  },
+  {
+    "word": "grasp",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To seize and hold firmly.",
+        "meaning_zh_TW": "抓住",
+        "wrong_meaning_zh_TW": [
+          "放手",
+          "遺忘",
+          "忽視"
+        ],
+        "examples": [
+          {
+            "sentence": "He tried to [grasp] the concept during the lecture.",
+            "translation_zh_TW": "他試著在演講中理解這個概念。"
+          },
+          {
+            "sentence": "She [grasped] the handle tightly as the train moved.",
+            "translation_zh_TW": "當火車動時，她緊緊抓住把手。"
+          },
+          {
+            "sentence": "It’s important to [grasp] the basics before moving on.",
+            "translation_zh_TW": "在繼續之前，理解基礎知識是很重要的。"
+          }
+        ],
+        "synonyms": [
+          "hold",
+          "clutch"
+        ]
+      }
+    ],
+    "confusion": [
+      "grasping",
+      "graspingly",
+      "graspable",
+      "grop"
+    ]
+  },
+  {
+    "word": "toast",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Sliced bread that has been browned in a toaster.",
+        "meaning_zh_TW": "吐司",
+        "wrong_meaning_zh_TW": [
+          "冰淇淋",
+          "餅乾",
+          "糕點"
+        ],
+        "examples": [
+          {
+            "sentence": "I like my [toast] with butter and jam.",
+            "translation_zh_TW": "我喜歡我的吐司抹上奶油和果醬"
+          },
+          {
+            "sentence": "The breakfast included eggs and [toast].",
+            "translation_zh_TW": "早餐包括雞蛋和吐司"
+          },
+          {
+            "sentence": "She served [toast] with the salad.",
+            "translation_zh_TW": "她把吐司和沙拉一起上"
+          }
+        ],
+        "synonyms": [
+          "bread",
+          "toasted bread"
+        ]
+      }
+    ],
+    "confusion": [
+      "toaste",
+      "toasts",
+      "toest",
+      "tost"
+    ]
+  },
+  {
+    "word": "shrink",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To become smaller in size, amount, or value.",
+        "meaning_zh_TW": "縮小",
+        "wrong_meaning_zh_TW": [
+          "變大",
+          "擴展",
           "增加"
         ],
         "examples": [
           {
-            "sentence": "They need to [crop] the photos for the album.",
-            "translation_zh_TW": "他們需要修剪照片以放進相簿"
+            "sentence": "The sweater will [shrink] if washed in hot water.",
+            "translation_zh_TW": "這件毛衣用熱水洗會縮小。"
           },
           {
-            "sentence": "He will [crop] his hair this weekend.",
-            "translation_zh_TW": "他這個周末要修剪頭髮"
+            "sentence": "They observed the metal start to [shrink].",
+            "translation_zh_TW": "他們觀察到這金屬開始縮小。"
           },
           {
-            "sentence": "She decided to [crop] the excess branches.",
-            "translation_zh_TW": "她決定修剪多餘的樹枝"
+            "sentence": "Prices tend to [shrink] during a sale.",
+            "translation_zh_TW": "價格在促銷期間往往會縮小。"
           }
         ],
         "synonyms": [
-          "trim",
-          "cut"
+          "contract",
+          "diminish"
         ]
       }
     ],
     "confusion": [
-      "cropss",
-      "croped",
-      "cropp",
-      "crope"
+      "shrink",
+      "shrinkage",
+      "shrinking",
+      "shrunken"
     ]
   },
   {
-    "word": "drag",
+    "word": "pretend",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To pull someone or something along forcefully or with effort.",
-        "meaning_zh_TW": "拖拉",
+        "meaning_en_US": "To act as if something is true when it is not.",
+        "meaning_zh_TW": "假裝",
         "wrong_meaning_zh_TW": [
-          "推動",
-          "拉伸",
-          "捏合"
+          "真實",
+          "說明",
+          "告知"
         ],
         "examples": [
           {
-            "sentence": "He had to [drag] the heavy box across the floor.",
-            "translation_zh_TW": "他不得不將沉重的箱子拖過地板"
+            "sentence": "The children love to [pretend] they are superheroes.",
+            "translation_zh_TW": "孩子們喜歡假裝自己是超級英雄。"
           },
           {
-            "sentence": "The dog was [dragging] its leash as it ran.",
-            "translation_zh_TW": "狗在奔跑時拖著牽繩"
+            "sentence": "She [pretended] to be sick to avoid going to school.",
+            "translation_zh_TW": "她假裝生病以避免上學。"
           },
           {
-            "sentence": "She felt [dragged] into the conversation.",
-            "translation_zh_TW": "她感覺被拖進對話中"
+            "sentence": "It's fun to [pretend] we are in a different world.",
+            "translation_zh_TW": "假裝我們在不同的世界裡是很有趣的。"
           }
         ],
         "synonyms": [
-          "pull",
-          "tow"
+          "feign",
+          "simulate"
         ]
       }
     ],
     "confusion": [
-      "dragg",
-      "dreg",
-      "dragoon",
-      "dragn"
+      "pretense",
+      "pretensed",
+      "preten",
+      "pretended"
     ]
   },
   {
-    "word": "teens",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The period of life from age 13 to 19.",
-        "meaning_zh_TW": "青少年時期",
-        "wrong_meaning_zh_TW": [
-          "童年",
-          "成年",
-          "老年"
-        ],
-        "examples": [
-          {
-            "sentence": "Many changes occur during the [teens].",
-            "translation_zh_TW": "在青少年時期，許多變化會發生。"
-          },
-          {
-            "sentence": "Teens often face a lot of pressure from peers.",
-            "translation_zh_TW": "青少年經常面臨來自同齡人的壓力。"
-          },
-          {
-            "sentence": "She started high school in her [teens].",
-            "translation_zh_TW": "她在青少年時期開始上高中。"
-          }
-        ],
-        "synonyms": [
-          "adolescents",
-          "youths"
-        ]
-      }
-    ],
-    "confusion": [
-      "tense",
-      "tens",
-      "teenager",
-      "teensy"
-    ]
-  },
-  {
-    "word": "confirm",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To establish the truth or correctness of something.",
-        "meaning_zh_TW": "確認",
-        "wrong_meaning_zh_TW": [
-          "否認",
-          "混淆",
-          "糟蹋"
-        ],
-        "examples": [
-          {
-            "sentence": "She called to [confirm] her appointment.",
-            "translation_zh_TW": "她打電話來確認約會"
-          },
-          {
-            "sentence": "Please [confirm] your attendance at the meeting.",
-            "translation_zh_TW": "請確認您是否參加會議"
-          },
-          {
-            "sentence": "The results [confirm] the initial findings.",
-            "translation_zh_TW": "結果確認了最初的研究結果"
-          }
-        ],
-        "synonyms": [
-          "verify",
-          "validate"
-        ]
-      }
-    ],
-    "confusion": [
-      "conform",
-      "confer",
-      "conflict",
-      "confluence"
-    ]
-  },
-  {
-    "word": "harvest",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The process or period of gathering in crops.",
-        "meaning_zh_TW": "收成",
-        "wrong_meaning_zh_TW": [
-          "種植",
-          "增長",
-          "發芽"
-        ],
-        "examples": [
-          {
-            "sentence": "The autumn [harvest] was plentiful this year.",
-            "translation_zh_TW": "今年的秋季收成豐富。"
-          },
-          {
-            "sentence": "Farmers celebrate the [harvest] festival.",
-            "translation_zh_TW": "農民們慶祝收成節。"
-          },
-          {
-            "sentence": "A good [harvest] is essential for the economy.",
-            "translation_zh_TW": "良好的收成對經濟至關重要。"
-          }
-        ],
-        "synonyms": [
-          "crop",
-          "gathering"
-        ]
-      }
-    ],
-    "confusion": [
-      "harvester",
-      "haverst",
-      "hardness",
-      "hiverse"
-    ]
-  },
-  {
-    "word": "pile",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A heap or stack of items.",
-        "meaning_zh_TW": "累積或堆疊",
-        "wrong_meaning_zh_TW": [
-          "計算數字",
-          "劃分土地",
-          "修理家具"
-        ],
-        "examples": [
-          {
-            "sentence": "She placed the books in a [pile] on the table.",
-            "translation_zh_TW": "她把書放在桌子上的一堆。"
-          },
-          {
-            "sentence": "The leaves formed a [pile] in the yard.",
-            "translation_zh_TW": "樹葉在院子裡形成了一堆。"
-          },
-          {
-            "sentence": "He sorted the cards into a [pile] for each game.",
-            "translation_zh_TW": "他把卡片分成每場遊戲的一堆。"
-          }
-        ],
-        "synonyms": [
-          "stack",
-          "heap"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To accumulate or stack several items.",
-        "meaning_zh_TW": "累積或堆疊",
-        "wrong_meaning_zh_TW": [
-          "計算數字",
-          "劃分土地",
-          "修理家具"
-        ],
-        "examples": [
-          {
-            "sentence": "They [piled] the leaves into bags.",
-            "translation_zh_TW": "他們把樹葉堆進袋子裡。"
-          },
-          {
-            "sentence": "She [piled] the clothes on the bed.",
-            "translation_zh_TW": "她把衣服堆在床上。"
-          },
-          {
-            "sentence": "Don't [pile] too much work on your desk.",
-            "translation_zh_TW": "不要在你的桌子上堆太多工作。"
-          }
-        ],
-        "synonyms": [
-          "stack",
-          "heap up"
-        ]
-      }
-    ],
-    "confusion": [
-      "pill",
-      "pilot",
-      "pileup",
-      "pale"
-    ]
-  },
-  {
-    "word": "saving",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The act of keeping money or resources for future use.",
-        "meaning_zh_TW": "儲蓄",
-        "wrong_meaning_zh_TW": [
-          "借貸",
-          "開支",
-          "投資"
-        ],
-        "examples": [
-          {
-            "sentence": "She made a [saving] for her vacation plans.",
-            "translation_zh_TW": "她為假期計劃儲蓄了一筆錢。"
-          },
-          {
-            "sentence": "He looked for ways to increase his [savings].",
-            "translation_zh_TW": "他尋找增加儲蓄的方法。"
-          },
-          {
-            "sentence": "Regular [savings] can help you achieve financial goals.",
-            "translation_zh_TW": "定期儲蓄有助於實現財務目標。"
-          }
-        ],
-        "synonyms": [
-          "deposit",
-          "economy",
-          "thrift"
-        ]
-      }
-    ],
-    "confusion": [
-      "savior",
-      "savingly",
-      "savage",
-      "seaving"
-    ]
-  },
-  {
-    "word": "loose",
+    "word": "awake",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Not firmly or tightly fixed in place; able to be moved or shifted.",
-        "meaning_zh_TW": "鬆的，不緊的",
+        "meaning_en_US": "Not asleep; conscious and alert.",
+        "meaning_zh_TW": "清醒的",
         "wrong_meaning_zh_TW": [
-          "久的，遠的",
-          "光的，亮的",
-          "新鮮的，清新的"
+          "睡著的",
+          "疲倦的",
+          "無意識的"
         ],
         "examples": [
           {
-            "sentence": "The screw is too [loose] to hold the shelf.",
-            "translation_zh_TW": "這個螺絲太鬆了，無法固定架子。"
+            "sentence": "She was wide [awake] after the coffee.",
+            "translation_zh_TW": "喝完咖啡後，她非常清醒。"
           },
           {
-            "sentence": "Her dress was [loose] and floated in the wind.",
-            "translation_zh_TW": "她的裙子是鬆鬆的，在風中飄動。"
+            "sentence": "He lay [awake] at night, thinking about his plans.",
+            "translation_zh_TW": "他夜裡躺著清醒，考慮他的計劃。"
           },
           {
-            "sentence": "Make sure the lid is not [loose] before you bake.",
-            "translation_zh_TW": "烘烤前，確保蓋子不是鬆的。"
+            "sentence": "Stay [awake] during the presentation to absorb all the information.",
+            "translation_zh_TW": "在報告中保持清醒以吸收所有信息。"
           }
         ],
         "synonyms": [
-          "unattached",
-          "free"
+          "alert",
+          "conscious"
         ]
       }
     ],
     "confusion": [
-      "lose",
-      "looser",
-      "loosen",
-      "looses"
+      "awaken",
+      "awoke",
+      "alarm",
+      "awe"
     ]
   },
   {
-    "word": "stir",
+    "word": "beetle",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An insect characterized by a hardened forewings and a straight line down the middle.",
+        "meaning_zh_TW": "甲蟲",
+        "wrong_meaning_zh_TW": [
+          "蝴蝶",
+          "蚊子",
+          "蟋蟀"
+        ],
+        "examples": [
+          {
+            "sentence": "She found a shiny [beetle] on the leaf.",
+            "translation_zh_TW": "她在葉子上發現了一隻閃亮的甲蟲"
+          },
+          {
+            "sentence": "The [beetle] is known for its ability to survive in harsh conditions.",
+            "translation_zh_TW": "這隻甲蟲以在惡劣條件下生存而聞名"
+          },
+          {
+            "sentence": "They collected different types of [beetles] for research.",
+            "translation_zh_TW": "他們收集了不同種類的甲蟲進行研究"
+          }
+        ],
+        "synonyms": [
+          "bug",
+          "insect"
+        ]
+      }
+    ],
+    "confusion": [
+      "beet",
+      "beetling",
+      "beatle",
+      "beetled"
+    ]
+  },
+  {
+    "word": "roast",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To mix a substance or liquid by moving it around with a spoon or stick.",
-        "meaning_zh_TW": "攪拌",
+        "meaning_en_US": "To cook food, especially meat, evenly in an oven or over a fire.",
+        "meaning_zh_TW": "烤製，燒烤",
         "wrong_meaning_zh_TW": [
-          "靜止不變",
-          "迅速撥打",
-          "照亮相片"
+          "煮湯",
+          "冷盤",
+          "生食"
         ],
         "examples": [
           {
-            "sentence": "Please [stir] the soup to ensure it heats evenly.",
-            "translation_zh_TW": "請攪拌湯，以確保它均勻加熱。"
+            "sentence": "I love to [roast] vegetables with olive oil.",
+            "translation_zh_TW": "我喜歡用橄欖油烤蔬菜。"
           },
           {
-            "sentence": "He began to [stir] the paint before applying it to the canvas.",
-            "translation_zh_TW": "他在塗抹畫布之前開始攪拌顏料。"
+            "sentence": "They decided to [roast] a turkey for Thanksgiving.",
+            "translation_zh_TW": "他們決定在感恩節烤一隻火雞。"
           },
           {
-            "sentence": "Do not forget to [stir] your coffee before drinking.",
-            "translation_zh_TW": "在喝咖啡之前別忘了攪拌。"
+            "sentence": "He will [roast] the chicken until it's golden brown.",
+            "translation_zh_TW": "他會把雞肉烤到金黃色。"
           }
         ],
         "synonyms": [
-          "mix",
-          "blend"
+          "bake",
+          "grill"
         ]
       }
     ],
     "confusion": [
-      "stair",
-      "star",
-      "stirring",
-      "stark"
+      "roastbeef",
+      "roaster",
+      "boast",
+      "roastful"
     ]
   },
   {
-    "word": "tube",
+    "word": "owe",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A cylindrical container or object, often used for holding substances or transporting materials.",
-        "meaning_zh_TW": "圓筒、管子",
+        "type": "動詞",
+        "meaning_en_US": "To be under obligation to pay or repay money or a favor to someone.",
+        "meaning_zh_TW": "欠、應還",
         "wrong_meaning_zh_TW": [
-          "金屬屏障",
-          "絕緣材料",
-          "塑膠袋"
+          "借出",
+          "贈送",
+          "獲得"
         ],
         "examples": [
           {
-            "sentence": "He put the map in a protective [tube].",
-            "translation_zh_TW": "他把地圖放進了一個保護性圓筒中。"
+            "sentence": "I [owe] you ten dollars from last week.",
+            "translation_zh_TW": "我欠你上週的十美元。"
           },
           {
-            "sentence": "The [tube] was filled with toothpaste.",
-            "translation_zh_TW": "這個圓筒裡裝的是牙膏。"
+            "sentence": "She [owes] her success to hard work and dedication.",
+            "translation_zh_TW": "她的成功歸功於努力和奉獻。"
           },
           {
-            "sentence": "She rolled the poster into a [tube] for safekeeping.",
-            "translation_zh_TW": "她把海報捲成圓筒以便保存。"
+            "sentence": "They [owe] the team a great deal for their support.",
+            "translation_zh_TW": "他們欠團隊很多支持。"
           }
         ],
         "synonyms": [
-          "pipe",
-          "cylinder"
+          "debt",
+          "must pay"
         ]
       }
     ],
     "confusion": [
-      "tub",
-      "tubing",
-      "tubelet",
-      "tubes"
+      "oweing",
+      "oweed",
+      "own",
+      "ovew"
     ]
   },
   {
-    "word": "zone",
+    "word": "shiny",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "An area or region distinguished from adjacent parts by a distinctive feature or characteristic.",
-        "meaning_zh_TW": "區域",
+        "type": "形容詞",
+        "meaning_en_US": "Having a smooth, glossy, and reflective surface.",
+        "meaning_zh_TW": "光亮的",
         "wrong_meaning_zh_TW": [
-          "城市",
-          "地方",
-          "範圍"
+          "暗淡的",
+          "平凡的",
+          "粗糙的"
         ],
         "examples": [
           {
-            "sentence": "The school is located in a quiet [zone].",
-            "translation_zh_TW": "這所學校位於安靜的區域。"
+            "sentence": "The car had a [shiny] exterior that caught the light.",
+            "translation_zh_TW": "這輛車有一個光亮的外觀，能夠反射光線。"
           },
           {
-            "sentence": "There are many parks in the residential [zone].",
-            "translation_zh_TW": "住宅區裡有很多公園。"
+            "sentence": "She wore a [shiny] dress to the party.",
+            "translation_zh_TW": "她穿著一件光亮的裙子參加派對。"
           },
           {
-            "sentence": "This is a no-parking [zone].",
-            "translation_zh_TW": "這是個禁止停車的區域。"
+            "sentence": "His shoes were so [shiny] that they gleamed.",
+            "translation_zh_TW": "他的鞋子光亮得發光。"
           }
         ],
         "synonyms": [
-          "region",
-          "area"
+          "glossy",
+          "luminous"
         ]
       }
     ],
     "confusion": [
-      "zoned",
-      "zoan",
-      "zon",
-      "zonez"
+      "shine",
+      "sandy",
+      "chin",
+      "shiny"
     ]
   },
   {
-    "word": "pancake",
+    "word": "dinosaur",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A flat, thin cake made from batter and cooked on a hot surface.",
-        "meaning_zh_TW": "煎餅",
+        "meaning_en_US": "A group of reptiles that first appeared during the late Triassic period, and were the dominant terrestrial vertebrates for over 160 million years.",
+        "meaning_zh_TW": "恐龍",
         "wrong_meaning_zh_TW": [
-          "餅乾",
-          "馬卡龍",
-          "蛋糕"
+          "翼龍",
+          "古代爬行動物",
+          "大型灌木"
         ],
         "examples": [
           {
-            "sentence": "She topped her [pancake] with fresh strawberries.",
-            "translation_zh_TW": "她用新鮮草莓為煎餅裝飾。"
+            "sentence": "The museum has a skeleton of a [dinosaur].",
+            "translation_zh_TW": "博物館有一具恐龍的骨架"
           },
           {
-            "sentence": "He loves to eat a stack of [pancakes] for breakfast.",
-            "translation_zh_TW": "他喜歡早餐時吃一堆煎餅。"
+            "sentence": "Children are fascinated by [dinosaurs].",
+            "translation_zh_TW": "孩子們對恐龍充滿好奇"
           },
           {
-            "sentence": "You can add syrup to your [pancake] if you like.",
-            "translation_zh_TW": "如果你願意，可以在煎餅上加糖漿。"
+            "sentence": "Many [dinosaurs] became extinct millions of years ago.",
+            "translation_zh_TW": "許多恐龍在數百萬年前已經滅絕"
           }
         ],
         "synonyms": [
-          "flapjack",
-          "hotcake"
+          "reptile",
+          "prehistoric creature"
         ]
       }
     ],
     "confusion": [
-      "pan",
-      "pancaker",
-      "panpeck",
-      "pankcake"
+      "dinosaurian",
+      "dinasaur",
+      "dinosaurs",
+      "dinosour"
     ]
   },
   {
-    "word": "moth",
+    "word": "scarf",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An insect related to the butterfly, typically nocturnal with a stout body and dull wings.",
-        "meaning_zh_TW": "蛾子",
+        "meaning_en_US": "A piece of cloth worn around the neck for warmth or decoration.",
+        "meaning_zh_TW": "圍巾",
         "wrong_meaning_zh_TW": [
-          "蝴蝶",
-          "飛蛾",
-          "昆蟲館"
+          "帽子",
+          "手套",
+          "披風"
         ],
         "examples": [
           {
-            "sentence": "A [moth] flew into the light.",
-            "translation_zh_TW": "一隻蛾子飛進了光亮中。"
+            "sentence": "She wrapped the [scarf] tightly around her neck.",
+            "translation_zh_TW": "她把圍巾緊緊地圍在脖子上。"
           },
           {
-            "sentence": "The [moth] was attracted to the flames.",
-            "translation_zh_TW": "這隻蛾子被火焰吸引。"
+            "sentence": "He wore a red [scarf] to match his coat.",
+            "translation_zh_TW": "他戴了一條紅色圍巾來搭配他的外套。"
           },
           {
-            "sentence": "She saw a [moth] fluttering near the window.",
-            "translation_zh_TW": "她看到一隻蛾子在窗邊振翅飛舞。"
+            "sentence": "The [scarf] is made of soft wool.",
+            "translation_zh_TW": "這條圍巾是用柔軟的羊毛製成的。"
           }
         ],
         "synonyms": [
-          "lepidopteran",
-          "winged insect"
+          "wrap",
+          "shawl"
         ]
       }
     ],
     "confusion": [
-      "math",
-      "mothman",
-      "smooth",
-      "mothball"
+      "scar",
+      "shuffle",
+      "scarfing",
+      "staff"
     ]
   },
   {
-    "word": "heel",
+    "word": "sigh",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "The back part of the foot below the ankle.",
-        "meaning_zh_TW": "腳跟",
+        "type": "動詞",
+        "meaning_en_US": "To emit a long, deep breath, expressing sadness or relief.",
+        "meaning_zh_TW": "嘆息",
         "wrong_meaning_zh_TW": [
-          "手掌",
-          "膝蓋",
-          "腳趾"
+          "笑",
+          "尖叫",
+          "聊天"
         ],
         "examples": [
           {
-            "sentence": "He stepped on my [heel] accidentally.",
-            "translation_zh_TW": "他不小心踩到了我的腳跟"
+            "sentence": "She let out a [sigh] of relief.",
+            "translation_zh_TW": "她發出了放鬆的嘆息。"
           },
           {
-            "sentence": "She wore a Band-Aid on her [heel].",
-            "translation_zh_TW": "她的腳跟上貼著創可貼"
+            "sentence": "He [sighs] when he thinks of the past.",
+            "translation_zh_TW": "他在回想過去時會嘆氣。"
           },
           {
-            "sentence": "The shoe's [heel] was too high for comfort.",
-            "translation_zh_TW": "這雙鞋的跟對我來說太高了，不舒服"
+            "sentence": "A [sigh] escaped his lips as he sat down.",
+            "translation_zh_TW": "當他坐下時，一聲嘆息從他的嘴裡脫口而出。"
           }
         ],
         "synonyms": [
-          "back of the foot"
+          "exhale",
+          "groan"
         ]
       }
     ],
     "confusion": [
-      "heal",
-      "heelz",
-      "heely",
-      "heelm"
+      "sigh",
+      "sight",
+      "site",
+      "sign"
+    ]
+  },
+  {
+    "word": "melt",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make or become liquefied by heat.",
+        "meaning_zh_TW": "融化",
+        "wrong_meaning_zh_TW": [
+          "凍結",
+          "攪拌",
+          "煮熟"
+        ],
+        "examples": [
+          {
+            "sentence": "The ice will [melt] in the sun.",
+            "translation_zh_TW": "冰會在陽光下融化。"
+          },
+          {
+            "sentence": "Please [melt] the chocolate for the cake.",
+            "translation_zh_TW": "請將巧克力融化以便做蛋糕。"
+          },
+          {
+            "sentence": "She watched the butter [melt] in the pan.",
+            "translation_zh_TW": "她看著黃油在鍋中融化。"
+          }
+        ],
+        "synonyms": [
+          "liquefy",
+          "dissolve"
+        ]
+      }
+    ],
+    "confusion": [
+      "melted",
+      "meltan",
+      "melted",
+      "melting"
+    ]
+  },
+  {
+    "word": "warmth",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The quality or state of being warm; a moderate and comfortable degree of heat.",
+        "meaning_zh_TW": "溫暖",
+        "wrong_meaning_zh_TW": [
+          "熱潮",
+          "冷酷",
+          "潮濕"
+        ],
+        "examples": [
+          {
+            "sentence": "The [warmth] of the sun brightened her day.",
+            "translation_zh_TW": "太陽的溫暖讓她的一天變得明亮。"
+          },
+          {
+            "sentence": "He felt the [warmth] of friendship surrounding him.",
+            "translation_zh_TW": "他感受到友誼的溫暖包圍著他。"
+          },
+          {
+            "sentence": "The [warmth] of the fire provided comfort on a cold night.",
+            "translation_zh_TW": "火堆的溫暖在寒冷的夜晚提供了舒適。"
+          }
+        ],
+        "synonyms": [
+          "heat",
+          "comfort"
+        ]
+      }
+    ],
+    "confusion": [
+      "warm",
+      "warming",
+      "warmer",
+      "warnth"
     ]
   }
 ]

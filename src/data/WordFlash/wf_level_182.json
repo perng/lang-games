@@ -1,783 +1,786 @@
 [
   {
-    "word": "convince",
+    "word": "contribution",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Something that you give or do in order to help achieve or provide something.",
+        "meaning_zh_TW": "貢獻",
+        "wrong_meaning_zh_TW": [
+          "不足",
+          "優惠",
+          "剝削"
+        ],
+        "examples": [
+          {
+            "sentence": "Her contribution to the project was invaluable.",
+            "translation_zh_TW": "她對這個項目的貢獻是無價的。"
+          },
+          {
+            "sentence": "The charity relies on donations as its main contribution.",
+            "translation_zh_TW": "這個慈善機構依賴捐款作為其主要貢獻。"
+          },
+          {
+            "sentence": "Every contribution counts towards the goal.",
+            "translation_zh_TW": "每一筆貢獻都對達成目標至關重要。"
+          }
+        ],
+        "synonyms": [
+          "donation",
+          "input"
+        ]
+      }
+    ],
+    "confusion": [
+      "contributory",
+      "composition",
+      "contradiction",
+      "contributer"
+    ]
+  },
+  {
+    "word": "formula",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A mathematical relationship or rule expressed in symbols.",
+        "meaning_zh_TW": "公式、數式",
+        "wrong_meaning_zh_TW": [
+          "食譜",
+          "規則",
+          "計劃"
+        ],
+        "examples": [
+          {
+            "sentence": "You need the right [formula] to solve this equation.",
+            "translation_zh_TW": "你需要正確的公式來解這個方程式。"
+          },
+          {
+            "sentence": "The [formula] for water is H2O.",
+            "translation_zh_TW": "水的公式是H2O。"
+          },
+          {
+            "sentence": "They derived a new [formula] in chemistry.",
+            "translation_zh_TW": "他們在化學中推導出了一個新公式。"
+          }
+        ],
+        "synonyms": [
+          "equation",
+          "recipe"
+        ]
+      }
+    ],
+    "confusion": [
+      "formua",
+      "formulary",
+      "formulize",
+      "formilis"
+    ]
+  },
+  {
+    "word": "constitution",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A body of fundamental principles or established precedents according to which a state or other organization is acknowledged to be governed.",
+        "meaning_zh_TW": "憲法",
+        "wrong_meaning_zh_TW": [
+          "法律",
+          "合約",
+          "條例"
+        ],
+        "examples": [
+          {
+            "sentence": "The country's [constitution] guarantees freedom of speech.",
+            "translation_zh_TW": "該國的憲法保障言論自由。"
+          },
+          {
+            "sentence": "Changes to the [constitution] require a supermajority vote.",
+            "translation_zh_TW": "對憲法的更改需要超級多數票。"
+          },
+          {
+            "sentence": "Every citizen has a right to understand the [constitution].",
+            "translation_zh_TW": "每位公民都有權理解憲法。"
+          }
+        ],
+        "synonyms": [
+          "fundamental law",
+          "charter",
+          "framework"
+        ]
+      }
+    ],
+    "confusion": [
+      "constitute",
+      "constitutional",
+      "constitutive",
+      "constitutionality"
+    ]
+  },
+  {
+    "word": "solar",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to or determined by the sun.",
+        "meaning_zh_TW": "與太陽有關的",
+        "wrong_meaning_zh_TW": [
+          "月亮的",
+          "地球的",
+          "水星的"
+        ],
+        "examples": [
+          {
+            "sentence": "They installed [solar] panels on their roof.",
+            "translation_zh_TW": "他們在屋頂上安裝了太陽能面板。"
+          },
+          {
+            "sentence": "The [solar] system includes eight planets.",
+            "translation_zh_TW": "太陽系包括八個行星。"
+          },
+          {
+            "sentence": "She enjoys studying [solar] phenomena.",
+            "translation_zh_TW": "她喜歡研究太陽現象。"
+          }
+        ],
+        "synonyms": [
+          "sun-powered",
+          "heliacal"
+        ]
+      }
+    ],
+    "confusion": [
+      "solera",
+      "soar",
+      "solace",
+      "solars"
+    ]
+  },
+  {
+    "word": "resistance",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The refusal to accept or comply with something.",
+        "meaning_zh_TW": "抵抗",
+        "wrong_meaning_zh_TW": [
+          "接受",
+          "順從",
+          "同意"
+        ],
+        "examples": [
+          {
+            "sentence": "There was strong [resistance] to the new policy.",
+            "translation_zh_TW": "對新政策有強烈的抵抗。"
+          },
+          {
+            "sentence": "The group organized a [resistance] against the changes.",
+            "translation_zh_TW": "該團體組織了一場抵抗變革的行動。"
+          },
+          {
+            "sentence": "His [resistance] to authority was well known.",
+            "translation_zh_TW": "他對權威的抵抗是眾所周知的。"
+          }
+        ],
+        "synonyms": [
+          "opposition",
+          "defiance"
+        ]
+      }
+    ],
+    "confusion": [
+      "resist",
+      "resistant",
+      "consistency",
+      "resistive"
+    ]
+  },
+  {
+    "word": "memorial",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Something, especially a structure, established to remind people of a person or event.",
+        "meaning_zh_TW": "紀念物",
+        "wrong_meaning_zh_TW": [
+          "常態",
+          "日常",
+          "減少"
+        ],
+        "examples": [
+          {
+            "sentence": "The [memorial] was built in honor of the fallen soldiers.",
+            "translation_zh_TW": "這個紀念物是為了紀念陣亡的士兵而建造的"
+          },
+          {
+            "sentence": "People gather at the [memorial] to pay their respects.",
+            "translation_zh_TW": "人們聚集在紀念物前以表達他們的敬意"
+          },
+          {
+            "sentence": "The city has various [memorials] for historical figures.",
+            "translation_zh_TW": "這座城市有多個紀念物用以紀念歷史人物"
+          }
+        ],
+        "synonyms": [
+          "tribute",
+          "commemoration"
+        ]
+      }
+    ],
+    "confusion": [
+      "memorabilia",
+      "memory",
+      "memorialize",
+      "memoir"
+    ]
+  },
+  {
+    "word": "insert",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To cause someone to believe firmly in the truth of something.",
-        "meaning_zh_TW": "說服、使信服",
+        "meaning_en_US": "To put something into something else.",
+        "meaning_zh_TW": "插入",
         "wrong_meaning_zh_TW": [
-          "拒絕、抵抗",
-          "質疑、懷疑",
-          "選擇、決定"
+          "移動",
+          "擠壓",
+          "排除"
         ],
         "examples": [
           {
-            "sentence": "He tried to [convince] her to take the job.",
-            "translation_zh_TW": "他試著說服她接受這份工作"
+            "sentence": "Please [insert] your ID card into the scanner.",
+            "translation_zh_TW": "請將您的身份證插入掃描器。"
           },
           {
-            "sentence": "I don't think we can [convince] them to change their minds.",
-            "translation_zh_TW": "我認為我們無法說服他們改變主意"
+            "sentence": "He forgot to [insert] the right code.",
+            "translation_zh_TW": "他忘記輸入正確的代碼。"
           },
           {
-            "sentence": "She was finally able to [convince] her parents to let her travel.",
-            "translation_zh_TW": "她最終能夠說服父母讓她去旅行"
+            "sentence": "You need to [insert] the batteries before using the remote.",
+            "translation_zh_TW": "使用遙控器之前需要插入電池。"
           }
         ],
         "synonyms": [
-          "persuade",
-          "win over"
+          "add",
+          "place",
+          "embed"
         ]
       }
     ],
     "confusion": [
-      "convocation",
-      "convention",
-      "convey",
-      "converse"
+      "inserted",
+      "insect",
+      "inset",
+      "insure"
     ]
   },
   {
-    "word": "proposal",
+    "word": "romance",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A plan or suggestion put forward for consideration.",
-        "meaning_zh_TW": "提議、建議",
+        "meaning_en_US": "A feeling of excitement and mystery associated with love.",
+        "meaning_zh_TW": "浪漫、戀愛",
         "wrong_meaning_zh_TW": [
-          "報告、文件",
-          "決策、結果",
-          "研究、實驗"
-        ],
-        "examples": [
-          {
-            "sentence": "She made a [proposal] to improve the service.",
-            "translation_zh_TW": "她提出了一個改善服務的提議。"
-          },
-          {
-            "sentence": "The [proposal] was well received by the committee.",
-            "translation_zh_TW": "該提議得到了委員會的好評。"
-          },
-          {
-            "sentence": "We need a [proposal] before moving forward.",
-            "translation_zh_TW": "在繼續之前，我們需要一個提案。"
-          }
-        ],
-        "synonyms": [
-          "suggestion",
-          "plan"
-        ]
-      }
-    ],
-    "confusion": [
-      "propose",
-      "proposition",
-      "protocol",
-      "prospectus"
-    ]
-  },
-  {
-    "word": "gaze",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To look steadily and intently.",
-        "meaning_zh_TW": "凝視，注視",
-        "wrong_meaning_zh_TW": [
-          "瞥見",
-          "忽視",
-          "閉眼"
-        ],
-        "examples": [
-          {
-            "sentence": "She couldn't help but [gaze] at the stars.",
-            "translation_zh_TW": "她忍不住仰望星星"
-          },
-          {
-            "sentence": "He stared in [gaze] at the beautiful landscape.",
-            "translation_zh_TW": "他凝視著美麗的風景"
-          },
-          {
-            "sentence": "The child [gazed] at the colorful butterflies.",
-            "translation_zh_TW": "孩子注視著五顏六色的蝴蝶"
-          }
-        ],
-        "synonyms": [
-          "stare",
-          "observe"
-        ]
-      }
-    ],
-    "confusion": [
-      "gaze",
-      "gass",
-      "gazeer",
-      "gase"
-    ]
-  },
-  {
-    "word": "discouragement",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The feeling of having lost confidence or enthusiasm; disheartenment.",
-        "meaning_zh_TW": "失去信心或熱情的感覺；沮喪",
-        "wrong_meaning_zh_TW": [
-          "激勵的感覺",
-          "歡樂",
-          "成功"
-        ],
-        "examples": [
-          {
-            "sentence": "The discouragement he felt was overwhelming.",
-            "translation_zh_TW": "他感到的沮喪是壓倒性的。"
-          },
-          {
-            "sentence": "She faced a lot of discouragement during her journey.",
-            "translation_zh_TW": "在她的旅程中，她面臨了很多沮喪。"
-          },
-          {
-            "sentence": "Despite the discouragement, he pressed on.",
-            "translation_zh_TW": "儘管有沮喪，他仍然堅持不懈。"
-          }
-        ],
-        "synonyms": [
-          "disheartenment",
-          "despondency"
-        ]
-      }
-    ],
-    "confusion": [
-      "discourage",
-      "disclaim",
-      "discussion",
-      "discontent"
-    ]
-  },
-  {
-    "word": "loyalty",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A strong feeling of support or allegiance.",
-        "meaning_zh_TW": "忠誠",
-        "wrong_meaning_zh_TW": [
-          "叛逆",
-          "無能為力",
-          "話語權"
-        ],
-        "examples": [
-          {
-            "sentence": "Her loyalty to the team is admirable.",
-            "translation_zh_TW": "她對團隊的忠誠令人敬佩。"
-          },
-          {
-            "sentence": "Customer loyalty is crucial for our brand.",
-            "translation_zh_TW": "顧客的忠誠對我們的品牌至關重要。"
-          },
-          {
-            "sentence": "They showed their loyalty by standing by him.",
-            "translation_zh_TW": "他們通過站在他身旁來表現他們的忠誠。"
-          }
-        ],
-        "synonyms": [
-          "faithfulness",
-          "devotion"
-        ]
-      }
-    ],
-    "confusion": [
-      "loyalty",
-      "royalty",
-      "lawfully",
-      "loyalty"
-    ]
-  },
-  {
-    "word": "idiom",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A group of words that have a meaning that is different from the meanings of the individual words.",
-        "meaning_zh_TW": "成語，習語",
-        "wrong_meaning_zh_TW": [
-          "通用語言",
-          "特別意思",
-          "流行文化"
-        ],
-        "examples": [
-          {
-            "sentence": "The expression is an [idiom].",
-            "translation_zh_TW": "這個表達是一個成語。"
-          },
-          {
-            "sentence": "He used an [idiom] to convey his thoughts.",
-            "translation_zh_TW": "他用成語來表達他的想法。"
-          },
-          {
-            "sentence": "Understanding [idioms] can be challenging for learners.",
-            "translation_zh_TW": "對學習者來說，理解成語可能是挑戰。"
-          }
-        ],
-        "synonyms": [
-          "expression",
-          "phrase"
-        ]
-      }
-    ],
-    "confusion": [
-      "idioms",
-      "idism",
-      "idom",
-      "idiomz"
-    ]
-  },
-  {
-    "word": "wreck",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To cause the destruction of something, often in a violent manner.",
-        "meaning_zh_TW": "破壞、毀壞",
-        "wrong_meaning_zh_TW": [
-          "修復",
-          "建造",
-          "修繕"
-        ],
-        "examples": [
-          {
-            "sentence": "The storm [wrecked] several homes in the area.",
-            "translation_zh_TW": "暴風雨摧毀了該地區的幾所房屋。"
-          },
-          {
-            "sentence": "They warned that the project could [wreck] the environment.",
-            "translation_zh_TW": "他們警告該項目可能會破壞環境。"
-          },
-          {
-            "sentence": "The car [wrecked] after the collision.",
-            "translation_zh_TW": "碰撞後汽車被毀壞了。"
-          }
-        ],
-        "synonyms": [
-          "destroy",
-          "ruin"
-        ]
-      }
-    ],
-    "confusion": [
-      "wrecks",
-      "wrack",
-      "wrek",
-      "wrecked"
-    ]
-  },
-  {
-    "word": "hatred",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Intense dislike or ill will.",
-        "meaning_zh_TW": "憎恨",
-        "wrong_meaning_zh_TW": [
-          "愛情",
           "友情",
-          "喜悅"
+          "敵意",
+          "冷漠"
         ],
         "examples": [
           {
-            "sentence": "His [hatred] for injustice motivated him to become an activist.",
-            "translation_zh_TW": "他對不公的憎恨驅使他成為一名活動家。"
+            "sentence": "Their relationship was full of [romance].",
+            "translation_zh_TW": "他們的關係充滿了浪漫。"
           },
           {
-            "sentence": "The novel explores themes of love and [hatred].",
-            "translation_zh_TW": "這部小說探討了愛與憎恨的主題。"
+            "sentence": "She loves the idea of [romance] on a quiet beach.",
+            "translation_zh_TW": "她喜歡在寧靜的海灘上浪漫的想法。"
           },
           {
-            "sentence": "She tried to overcome her [hatred] towards people who wronged her.",
-            "translation_zh_TW": "她試圖克服對傷害過她的人的憎恨。"
+            "sentence": "The movie was a classic tale of [romance].",
+            "translation_zh_TW": "這部電影是一個經典的浪漫故事。"
           }
         ],
         "synonyms": [
-          "abomination",
-          "antipathy"
+          "affection",
+          "loving"
         ]
       }
     ],
     "confusion": [
-      "hatredful",
-      "hater",
-      "hated",
-      "great"
+      "romancer",
+      "romantic",
+      "remance",
+      "romans"
     ]
   },
   {
-    "word": "repetition",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The action of repeating something that has already been said or written.",
-        "meaning_zh_TW": "重複",
-        "wrong_meaning_zh_TW": [
-          "獨特",
-          "唯一",
-          "單一"
-        ],
-        "examples": [
-          {
-            "sentence": "The teacher emphasized the importance of [repetition] in learning.",
-            "translation_zh_TW": "老師強調重複在學習中的重要性。"
-          },
-          {
-            "sentence": "This exercise is designed to reduce [repetition] of errors.",
-            "translation_zh_TW": "這項練習旨在減少錯誤的重複。"
-          },
-          {
-            "sentence": "He found the [repetition] of the chorus soothing.",
-            "translation_zh_TW": "他覺得副歌的重複很舒緩。"
-          }
-        ],
-        "synonyms": [
-          "duplication",
-          "iteration"
-        ]
-      }
-    ],
-    "confusion": [
-      "repetiton",
-      "repeation",
-      "repeitors",
-      "repeition"
-    ]
-  },
-  {
-    "word": "hesitation",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The action of pausing before saying or doing something, often due to uncertainty.",
-        "meaning_zh_TW": "猶豫",
-        "wrong_meaning_zh_TW": [
-          "果斷",
-          "堅定信念",
-          "無懷疑"
-        ],
-        "examples": [
-          {
-            "sentence": "There was some hesitation in her voice.",
-            "translation_zh_TW": "她的聲音中有些猶豫。"
-          },
-          {
-            "sentence": "His hesitation made her think twice.",
-            "translation_zh_TW": "他的猶豫讓她重新考慮。"
-          },
-          {
-            "sentence": "Don't show hesitation when making a decision.",
-            "translation_zh_TW": "在做決定時不要表現出猶豫。"
-          }
-        ],
-        "synonyms": [
-          "indecision",
-          "doubt"
-        ]
-      }
-    ],
-    "confusion": [
-      "hesitate",
-      "hesitantly",
-      "hesitant",
-      "heist"
-    ]
-  },
-  {
-    "word": "ensure",
+    "word": "split",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To make certain that something will occur or be the case.",
-        "meaning_zh_TW": "確保",
+        "meaning_en_US": "To divide or separate into parts.",
+        "meaning_zh_TW": "分裂",
         "wrong_meaning_zh_TW": [
-          "懷疑",
-          "忽視",
-          "不確定"
+          "合併",
+          "統一",
+          "結合"
         ],
         "examples": [
           {
-            "sentence": "Please [ensure] that the doors are locked.",
-            "translation_zh_TW": "請確保門是鎖上的。"
+            "sentence": "They decided to [split] the bill evenly.",
+            "translation_zh_TW": "他們決定均分賬單"
           },
           {
-            "sentence": "We need to [ensure] compliance with the rules.",
-            "translation_zh_TW": "我們需要確保遵守規則。"
+            "sentence": "He will [split] the cake into eight pieces.",
+            "translation_zh_TW": "他會把蛋糕分成八塊"
           },
           {
-            "sentence": "They must [ensure] the safety of all participants.",
-            "translation_zh_TW": "他們必須確保所有參與者的安全。"
+            "sentence": "The group began to [split] into smaller teams.",
+            "translation_zh_TW": "小組開始分成較小的團隊"
           }
         ],
         "synonyms": [
-          "guarantee",
-          "secure"
+          "divide",
+          "separate",
+          "partition"
         ]
       }
     ],
     "confusion": [
-      "assure",
-      "insure",
-      "ensureance",
-      "ensured"
+      "splt",
+      "spilt",
+      "splitter",
+      "splint"
     ]
   },
   {
-    "word": "logic",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The study of proper reasoning; the principles of valid inference and demonstration.",
-        "meaning_zh_TW": "邏輯",
-        "wrong_meaning_zh_TW": [
-          "感情",
-          "直覺",
-          "隨意"
-        ],
-        "examples": [
-          {
-            "sentence": "She applied [logic] to solve the dilemma.",
-            "translation_zh_TW": "她運用了邏輯來解決困境"
-          },
-          {
-            "sentence": "Understanding [logic] is essential in mathematics.",
-            "translation_zh_TW": "理解邏輯對數學是至關重要的"
-          },
-          {
-            "sentence": "He has a strong sense of [logic] in his arguments.",
-            "translation_zh_TW": "他的論證具有很強的邏輯性"
-          }
-        ],
-        "synonyms": [
-          "推理",
-          "理性"
-        ]
-      }
-    ],
-    "confusion": [
-      "logics",
-      "logistic",
-      "logically",
-      "logician"
-    ]
-  },
-  {
-    "word": "obstacle",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Something that prevents or hinders progress.",
-        "meaning_zh_TW": "障礙、阻礙",
-        "wrong_meaning_zh_TW": [
-          "問題、挑戰",
-          "方向、航向",
-          "方法、策略"
-        ],
-        "examples": [
-          {
-            "sentence": "They faced many [obstacles] on their journey.",
-            "translation_zh_TW": "他們在旅途中面臨了許多障礙。"
-          },
-          {
-            "sentence": "Overcoming an [obstacle] requires determination.",
-            "translation_zh_TW": "克服障礙需要決心。"
-          },
-          {
-            "sentence": "She saw the [obstacles] as opportunities to grow.",
-            "translation_zh_TW": "她將障礙視為成長的機會。"
-          }
-        ],
-        "synonyms": [
-          "hindrance",
-          "impediment",
-          "barrier"
-        ]
-      }
-    ],
-    "confusion": [
-      "obstacle",
-      "obstinate",
-      "obscure",
-      "obsolete"
-    ]
-  },
-  {
-    "word": "cooperative",
+    "word": "pregnant",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Willing to act together or in agreement for a common purpose.",
-        "meaning_zh_TW": "合作的",
+        "meaning_en_US": "Having a developing fetus in the womb.",
+        "meaning_zh_TW": "懷孕的",
         "wrong_meaning_zh_TW": [
-          "不合作的",
-          "對抗的",
-          "冷漠的"
+          "肥胖的",
+          "憂鬱的",
+          "困惑的"
         ],
         "examples": [
           {
-            "sentence": "The staff was very [cooperative] during the training.",
-            "translation_zh_TW": "在培訓期間，工作人員非常配合。"
+            "sentence": "She is [pregnant] with her first child.",
+            "translation_zh_TW": "她懷著她的第一個孩子。"
           },
           {
-            "sentence": "A cooperative attitude can enhance teamwork.",
-            "translation_zh_TW": "合作的態度可以增強團隊合作。"
+            "sentence": "They announced that they are [pregnant] last week.",
+            "translation_zh_TW": "他們上週宣布她懷孕了。"
           },
           {
-            "sentence": "Her cooperative nature made her a great team player.",
-            "translation_zh_TW": "她的合作性格使她成為出色的團隊成員。"
+            "sentence": "Being [pregnant] can be both exciting and challenging.",
+            "translation_zh_TW": "懷孕既令人興奮又具挑戰性。"
           }
         ],
         "synonyms": [
-          "collaborative",
-          "helpful"
+          "expecting",
+          "with child"
         ]
       }
     ],
     "confusion": [
-      "cooperation",
-      "cooperable",
-      "coopt",
-      "cooperative"
+      "pragnant",
+      "pregent",
+      "pregnants",
+      "pregrant"
     ]
   },
   {
-    "word": "riddle",
+    "word": "classification",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A question or statement intentionally phrased to require ingenuity in ascertaining its answer or meaning.",
-        "meaning_zh_TW": "謎語",
+        "meaning_en_US": "The action or process of classifying something.",
+        "meaning_zh_TW": "分類",
         "wrong_meaning_zh_TW": [
-          "答案",
-          "解決方案",
-          "事實"
+          "組織",
+          "混亂",
+          "簡化"
         ],
         "examples": [
           {
-            "sentence": "He posed a challenging [riddle] for the group.",
-            "translation_zh_TW": "他為這個小組提出了一個挑戰性的謎語"
+            "sentence": "The [classification] of species is essential in biology.",
+            "translation_zh_TW": "物種的分類在生物學中至關重要。"
           },
           {
-            "sentence": "Solving that [riddle] took us hours.",
-            "translation_zh_TW": "解那個謎語花了我們幾個小時"
+            "sentence": "She worked on the [classification] of the library books.",
+            "translation_zh_TW": "她負責圖書館書籍的分類工作。"
           },
           {
-            "sentence": "Children love to share [riddles] at parties.",
-            "translation_zh_TW": "孩子們喜歡在聚會上分享謎語"
+            "sentence": "Accurate [classification] helps in managing information effectively.",
+            "translation_zh_TW": "準確的分類有助於有效管理信息。"
           }
         ],
         "synonyms": [
-          "puzzle",
-          "enigma"
+          "categorization",
+          "organization"
         ]
       }
     ],
     "confusion": [
-      "riddler",
-      "riddles",
-      "riddled",
-      "riddl"
+      "classifications",
+      "classify",
+      "class",
+      "clarifies"
     ]
   },
   {
-    "word": "presentation",
+    "word": "physician",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A demonstration or display of information or skills.",
-        "meaning_zh_TW": "簡報",
+        "meaning_en_US": "A qualified medical practitioner.",
+        "meaning_zh_TW": "醫生",
         "wrong_meaning_zh_TW": [
-          "比賽",
-          "抽樣",
-          "宣傳"
+          "病人",
+          "藥劑師",
+          "護士"
         ],
         "examples": [
           {
-            "sentence": "The student's [presentation] on climate change was informative.",
-            "translation_zh_TW": "該學生有關氣候變化的簡報提供了信息。"
+            "sentence": "She is a respected [physician] in her community.",
+            "translation_zh_TW": "她在社區中是一位受人尊敬的醫生。"
           },
           {
-            "sentence": "She prepared slides for her [presentation] at the conference.",
-            "translation_zh_TW": "她為會議的簡報準備了幻燈片。"
+            "sentence": "The [physician] diagnosed the illness accurately.",
+            "translation_zh_TW": "醫生準確地診斷了疾病。"
           },
           {
-            "sentence": "A good [presentation] captures the audience's attention.",
-            "translation_zh_TW": "一個好的簡報能吸引觀眾的注意。"
+            "sentence": "I need to schedule an appointment with my [physician].",
+            "translation_zh_TW": "我需要預約我的醫生。"
           }
         ],
         "synonyms": [
-          "display",
-          "demonstration"
+          "doctor",
+          "medical practitioner"
         ]
       }
     ],
     "confusion": [
-      "presentaion",
-      "presintation",
-      "presentaiton",
-      "presenation"
+      "physicist",
+      "physique",
+      "physic",
+      "physicist"
     ]
   },
   {
-    "word": "sway",
+    "word": "bargain",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An agreement between two or more parties as to the concerning the sale of goods or services.",
+        "meaning_zh_TW": "便宜貨",
+        "wrong_meaning_zh_TW": [
+          "爭論",
+          "宣傳",
+          "折扣券"
+        ],
+        "examples": [
+          {
+            "sentence": "I found a great bargain at the flea market.",
+            "translation_zh_TW": "我在集市上找到了一個很好的便宜貨"
+          },
+          {
+            "sentence": "The store is known for its bargains.",
+            "translation_zh_TW": "這家商店以其便宜貨而聞名"
+          },
+          {
+            "sentence": "They made a bargain that benefited both parties.",
+            "translation_zh_TW": "他們達成了一項兩方都有利的交易"
+          }
+        ],
+        "synonyms": [
+          "deal",
+          "negotiation"
+        ]
+      }
+    ],
+    "confusion": [
+      "bargaining",
+      "bartering",
+      "bargains",
+      "bargainable"
+    ]
+  },
+  {
+    "word": "spiritual",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to or affecting the human spirit or soul as opposed to material or physical things.",
+        "meaning_zh_TW": "精神上的",
+        "wrong_meaning_zh_TW": [
+          "物質的",
+          "物理的",
+          "實際的"
+        ],
+        "examples": [
+          {
+            "sentence": "She seeks [spiritual] growth through meditation.",
+            "translation_zh_TW": "她通過冥想尋求精神上的成長。"
+          },
+          {
+            "sentence": "Many cultures have [spiritual] beliefs tied to nature.",
+            "translation_zh_TW": "許多文化有與自然相關的精神信仰。"
+          },
+          {
+            "sentence": "He is on a journey for [spiritual] enlightenment.",
+            "translation_zh_TW": "他正在追求精神上的啟發。"
+          }
+        ],
+        "synonyms": [
+          "ethereal",
+          "transcendent"
+        ]
+      }
+    ],
+    "confusion": [
+      "spiterate",
+      "spirituality",
+      "spirit",
+      "spiral"
+    ]
+  },
+  {
+    "word": "shift",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To move or cause to move slowly or rhythmically backward and forward or from side to side.",
-        "meaning_zh_TW": "搖擺",
+        "meaning_en_US": "To move or cause to move from one place to another.",
+        "meaning_zh_TW": "移動，轉移",
         "wrong_meaning_zh_TW": [
-          "靜止",
           "固定",
-          "穩定"
+          "穩定",
+          "停留"
         ],
         "examples": [
           {
-            "sentence": "The branches [swayed] gently in the breeze.",
-            "translation_zh_TW": "樹枝在微風中輕輕搖擺。"
+            "sentence": "She will [shift] her schedule to accommodate the meeting.",
+            "translation_zh_TW": "她將修改日程以配合會議"
           },
           {
-            "sentence": "He could feel his body [sway] while dancing.",
-            "translation_zh_TW": "他在跳舞時能感覺到自己的身體搖擺。"
+            "sentence": "He decided to [shift] the furniture around.",
+            "translation_zh_TW": "他決定重新移動家具"
           },
           {
-            "sentence": "The crowd began to [sway] to the music.",
-            "translation_zh_TW": "人群開始隨著音樂搖擺。"
+            "sentence": "The company plans to [shift] its focus to online sales.",
+            "translation_zh_TW": "公司計劃將重點轉向線上銷售"
           }
         ],
         "synonyms": [
-          "swing",
-          "wobble"
+          "move",
+          "change"
         ]
       }
     ],
     "confusion": [
-      "way",
-      "sawed",
-      "swayed",
-      "say"
+      "shrift",
+      "shifty",
+      "sift",
+      "shifters"
     ]
   },
   {
-    "word": "voluntary",
+    "word": "flexible",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Done, given, or acting of one's own free will.",
-        "meaning_zh_TW": "自願的",
+        "meaning_en_US": "Easily bent or capable of being shaped.",
+        "meaning_zh_TW": "可彎曲的",
         "wrong_meaning_zh_TW": [
-          "強制的",
-          "被迫的",
-          "義務的"
+          "堅硬的",
+          "強壯的",
+          "模糊的"
         ],
         "examples": [
           {
-            "sentence": "She made a [voluntary] donation to the charity.",
-            "translation_zh_TW": "她自願向慈善機構捐款"
+            "sentence": "This material is very [flexible].",
+            "translation_zh_TW": "這種材料非常可彎曲。"
           },
           {
-            "sentence": "All participants were [voluntary] volunteers.",
-            "translation_zh_TW": "所有參與者都是自願義工"
+            "sentence": "A [flexible] schedule can help manage time better.",
+            "translation_zh_TW": "靈活的時間表可以更好地管理時間。"
           },
           {
-            "sentence": "His departure was entirely [voluntary].",
-            "translation_zh_TW": "他的離開完全是自願的"
+            "sentence": "Yoga can make your body more [flexible].",
+            "translation_zh_TW": "瑜伽可以使你的身體更加靈活。"
           }
         ],
         "synonyms": [
-          "optional",
-          "unforced"
+          "bendable",
+          "adaptable"
         ]
       }
     ],
     "confusion": [
-      "volunteer",
-      "volition",
-      "volatile",
-      "vocal"
+      "flexibility",
+      "fluctuate",
+      "flect",
+      "flexiblely"
     ]
   },
   {
-    "word": "emerge",
+    "word": "numerous",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To come into view or become visible.",
-        "meaning_zh_TW": "出現",
+        "type": "形容詞",
+        "meaning_en_US": "Consisting of many items or elements; very many.",
+        "meaning_zh_TW": "許多的",
         "wrong_meaning_zh_TW": [
-          "消失",
-          "掩埋",
-          "藏匿"
+          "稀少的",
+          "單一的",
+          "稀有的"
         ],
         "examples": [
           {
-            "sentence": "The sun will [emerge] from behind the clouds.",
-            "translation_zh_TW": "太陽將會從雲後出現。"
+            "sentence": "There are [numerous] ways to solve this problem.",
+            "translation_zh_TW": "有很多方法可以解決這個問題。"
           },
           {
-            "sentence": "New evidence began to [emerge] during the investigation.",
-            "translation_zh_TW": "在調查中，新證據開始浮現。"
+            "sentence": "She received [numerous] awards for her work.",
+            "translation_zh_TW": "她因工作的出色表現獲得了許多獎項。"
           },
           {
-            "sentence": "As the fog lifted, more details began to [emerge].",
-            "translation_zh_TW": "當霧散去後，更多細節開始顯現。"
+            "sentence": "The park was filled with [numerous] visitors yesterday.",
+            "translation_zh_TW": "昨天公園裡有許多遊客。"
           }
         ],
         "synonyms": [
-          "appear",
-          "materialize"
+          "many",
+          "countless",
+          "abundant"
         ]
       }
     ],
     "confusion": [
-      "emergency",
-      "immersion",
-      "emoticon",
-      "emigrate"
+      "numerousness",
+      "numinous",
+      "numeraire",
+      "numerate"
     ]
   },
   {
-    "word": "isolation",
+    "word": "satisfaction",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The state of being alone or kept apart from others.",
-        "meaning_zh_TW": "隔離",
+        "meaning_en_US": "The feeling of pleasure or contentment from achieving something.",
+        "meaning_zh_TW": "滿足感",
         "wrong_meaning_zh_TW": [
-          "群聚",
-          "結合",
-          "交流"
+          "不滿",
+          "失望",
+          "沮喪"
         ],
         "examples": [
           {
-            "sentence": "During the virus outbreak, [isolation] was mandatory.",
-            "translation_zh_TW": "在病毒爆發期間，隔離是強制性的。"
+            "sentence": "She felt a sense of [satisfaction] after completing the project.",
+            "translation_zh_TW": "完成這個項目後，她感到一種滿足感"
           },
           {
-            "sentence": "She felt a sense of [isolation] living in a new city.",
-            "translation_zh_TW": "她在新城市生活時感到一種孤獨。"
+            "sentence": "His smile expressed his [satisfaction] with the meal.",
+            "translation_zh_TW": "他的微笑表達了他對這頓飯的滿意"
           },
           {
-            "sentence": "Prolonged [isolation] can affect mental health.",
-            "translation_zh_TW": "長期的隔離可能會影響心理健康。"
+            "sentence": "The [satisfaction] of achieving her goals was immense.",
+            "translation_zh_TW": "實現目標的滿足感是巨大的"
           }
         ],
         "synonyms": [
-          "seclusion",
-          "solitude"
+          "contentment",
+          "fulfillment"
         ]
       }
     ],
     "confusion": [
-      "association",
-      "installation",
-      "illusion",
-      "illustration"
+      "satisfaction",
+      "satisfactory",
+      "sufficient",
+      "satire"
+    ]
+  },
+  {
+    "word": "intellectual",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to the intellect or involving the use of the mind.",
+        "meaning_zh_TW": "智力的",
+        "wrong_meaning_zh_TW": [
+          "情感的",
+          "物理的",
+          "生理的"
+        ],
+        "examples": [
+          {
+            "sentence": "He engaged in an [intellectual] debate.",
+            "translation_zh_TW": "他參加了智力辯論。"
+          },
+          {
+            "sentence": "They appreciate [intellectual] pursuits like reading.",
+            "translation_zh_TW": "他們欣賞像閱讀這樣的智力追求。"
+          },
+          {
+            "sentence": "The film offers an [intellectual] challenge.",
+            "translation_zh_TW": "這部電影提供了智力上的挑戰。"
+          }
+        ],
+        "synonyms": [
+          "cerebral",
+          "thoughtful"
+        ]
+      }
+    ],
+    "confusion": [
+      "intellect",
+      "intelligence",
+      "intensive",
+      "interlectual"
+    ]
+  },
+  {
+    "word": "magnetic",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having the properties of a magnet; capable of attracting iron and producing a magnetic field.",
+        "meaning_zh_TW": "磁性的",
+        "wrong_meaning_zh_TW": [
+          "美麗的",
+          "奇怪的",
+          "神秘的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [magnetic] force pulled the metal object towards it.",
+            "translation_zh_TW": "磁力將金屬物體拉向它。"
+          },
+          {
+            "sentence": "She was fascinated by the [magnetic] fields of the Earth.",
+            "translation_zh_TW": "她對地球的磁場感到著迷。"
+          },
+          {
+            "sentence": "He uses [magnetic] materials in his experiments.",
+            "translation_zh_TW": "他在實驗中使用了磁性材料。"
+          }
+        ],
+        "synonyms": [
+          "ferromagnetic",
+          "attracting"
+        ]
+      }
+    ],
+    "confusion": [
+      "magnet",
+      "magneto",
+      "magnetism",
+      "magnetize"
     ]
   }
 ]

@@ -1,760 +1,782 @@
 [
   {
-    "word": "fry",
+    "word": "storm",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A violent disturbance of the atmosphere with strong winds and usually rain, thunder, lightning, or snow.",
+        "meaning_zh_TW": "暴風雨",
+        "wrong_meaning_zh_TW": [
+          "風暴管理",
+          "風霜",
+          "颱風監測"
+        ],
+        "examples": [
+          {
+            "sentence": "The [storm] caused significant damage to the town.",
+            "translation_zh_TW": "這場暴風雨對小鎮造成了重大損失"
+          },
+          {
+            "sentence": "They took shelter from the [storm].",
+            "translation_zh_TW": "他們躲避暴風雨"
+          },
+          {
+            "sentence": "The weather report predicts a severe [storm] this evening.",
+            "translation_zh_TW": "天氣預報預測今晚將有一場嚴重的暴風雨"
+          }
+        ],
+        "synonyms": [
+          "tempest",
+          "gale"
+        ]
+      }
+    ],
+    "confusion": [
+      "form",
+      "stormy",
+      "stork",
+      "stormer"
+    ]
+  },
+  {
+    "word": "mile",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A unit of measurement equal to 1,760 yards or about 1.609 kilometers.",
+        "meaning_zh_TW": "英里",
+        "wrong_meaning_zh_TW": [
+          "公尺",
+          "手臂",
+          "公里"
+        ],
+        "examples": [
+          {
+            "sentence": "The city is five [miles] away from here.",
+            "translation_zh_TW": "這座城市距離這裡五英里。"
+          },
+          {
+            "sentence": "He ran a [mile] in under six minutes.",
+            "translation_zh_TW": "他在六分鐘內跑了英里。"
+          },
+          {
+            "sentence": "There is a park every few [miles] along the road.",
+            "translation_zh_TW": "沿著這條路每幾英里就有一個公園。"
+          }
+        ],
+        "synonyms": [
+          "distance",
+          "length"
+        ]
+      }
+    ],
+    "confusion": [
+      "smile",
+      "mile",
+      "mildew",
+      "mild"
+    ]
+  },
+  {
+    "word": "encourage",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To cook food in hot oil or fat.",
-        "meaning_zh_TW": "油炸",
+        "meaning_en_US": "To give support, confidence, or hope to someone.",
+        "meaning_zh_TW": "鼓勵",
         "wrong_meaning_zh_TW": [
-          "煮",
-          "烤",
-          "蒸"
+          "禁止",
+          "惡化",
+          "輕視"
         ],
         "examples": [
           {
-            "sentence": "You need to [fry] the onions until they're golden.",
-            "translation_zh_TW": "你需要把洋蔥油炸到金黃色。"
+            "sentence": "Teachers should [encourage] their students to ask questions.",
+            "translation_zh_TW": "老師應該鼓勵學生提問。"
           },
           {
-            "sentence": "I often [fry] eggs for breakfast.",
-            "translation_zh_TW": "我經常在早餐時油炸雞蛋。"
+            "sentence": "She tried to [encourage] him to pursue his dreams.",
+            "translation_zh_TW": "她試圖鼓勵他追求自己的夢想。"
           },
           {
-            "sentence": "She loves to [fry] potatoes for her family.",
-            "translation_zh_TW": "她喜歡為她的家人油炸土豆。"
+            "sentence": "Positive feedback can [encourage] better performance.",
+            "translation_zh_TW": "正面的反饋可以鼓勵更好的表現。"
           }
         ],
         "synonyms": [
-          "sauté",
-          "sear"
+          "inspire",
+          "boost"
         ]
       }
     ],
     "confusion": [
-      "frye",
-      "fray",
-      "fryed",
-      "fre"
+      "discourage",
+      "endure",
+      "encouragements",
+      "encouragingly"
     ]
   },
   {
-    "word": "centimeter",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A metric unit of length equal to one hundredth of a meter.",
-        "meaning_zh_TW": "公分",
-        "wrong_meaning_zh_TW": [
-          "米",
-          "公里",
-          "英尺"
-        ],
-        "examples": [
-          {
-            "sentence": "The table is 120 [centimeters] long.",
-            "translation_zh_TW": "這張桌子長120公分。"
-          },
-          {
-            "sentence": "You need to measure in [centimeters] for accuracy.",
-            "translation_zh_TW": "為了準確，你需要以公分為單位進行測量。"
-          },
-          {
-            "sentence": "His height is 175 [centimeters].",
-            "translation_zh_TW": "他的身高是175公分。"
-          }
-        ],
-        "synonyms": [
-          "cm",
-          "metric unit"
-        ]
-      }
-    ],
-    "confusion": [
-      "centimeter",
-      "cylinder",
-      "centuites",
-      "centremeter"
-    ]
-  },
-  {
-    "word": "arrow",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A projectile that is shot from a bow.",
-        "meaning_zh_TW": "箭",
-        "wrong_meaning_zh_TW": [
-          "項目",
-          "方向標",
-          "線索"
-        ],
-        "examples": [
-          {
-            "sentence": "He shot the [arrow] at the target.",
-            "translation_zh_TW": "他朝目標射出一支箭"
-          },
-          {
-            "sentence": "The [arrow] pointed towards the north.",
-            "translation_zh_TW": "箭頭指向北方"
-          },
-          {
-            "sentence": "In the game, you can collect different types of [arrows].",
-            "translation_zh_TW": "在遊戲中，你可以收集不同類型的箭"
-          }
-        ],
-        "synonyms": [
-          "projectile",
-          "bolt"
-        ]
-      }
-    ],
-    "confusion": [
-      "arrows",
-      "arrowed",
-      "arow",
-      "arroe"
-    ]
-  },
-  {
-    "word": "pattern",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A repeated decorative design.",
-        "meaning_zh_TW": "圖案",
-        "wrong_meaning_zh_TW": [
-          "規則",
-          "趨勢",
-          "顏色"
-        ],
-        "examples": [
-          {
-            "sentence": "The dress had a floral [pattern].",
-            "translation_zh_TW": "這件裙子有花卉圖案。"
-          },
-          {
-            "sentence": "We studied the [pattern] of the data collected.",
-            "translation_zh_TW": "我們研究了收集到的數據圖案。"
-          },
-          {
-            "sentence": "She knitted a blanket with a unique [pattern].",
-            "translation_zh_TW": "她編織了一條帶有獨特圖案的毛毯。"
-          }
-        ],
-        "synonyms": [
-          "design",
-          "template"
-        ]
-      }
-    ],
-    "confusion": [
-      "patter",
-      "patten",
-      "patterrn",
-      "patern"
-    ]
-  },
-  {
-    "word": "load",
+    "word": "cancel",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To put a burden or cargo into a vehicle, container, or other holding device.",
-        "meaning_zh_TW": "裝載",
+        "meaning_en_US": "To annul or invalidate something, often a planned event or order.",
+        "meaning_zh_TW": "取消",
         "wrong_meaning_zh_TW": [
-          "放置",
-          "保存",
-          "清理"
+          "確認",
+          "加強",
+          "安排"
         ],
         "examples": [
           {
-            "sentence": "Please [load] the boxes onto the truck.",
-            "translation_zh_TW": "請將盒子裝載到卡車上。"
+            "sentence": "We had to [cancel] the meeting due to a scheduling conflict.",
+            "translation_zh_TW": "由於時間衝突，我們不得不取消會議。"
           },
           {
-            "sentence": "He decided to [load] the software onto his computer.",
-            "translation_zh_TW": "他決定將軟體載入他的電腦。"
+            "sentence": "He decided to [cancel] his subscription.",
+            "translation_zh_TW": "他決定取消訂閱。"
           },
           {
-            "sentence": "They need to [load] the luggage before the flight.",
-            "translation_zh_TW": "他們需要在飛行前裝載行李。"
+            "sentence": "They will [cancel] the flight if the weather doesn't improve.",
+            "translation_zh_TW": "如果天氣不改善，他們將取消航班。"
           }
         ],
         "synonyms": [
-          "cargo",
-          "freight"
+          "abandon",
+          "void"
         ]
-      },
+      }
+    ],
+    "confusion": [
+      "cancer",
+      "candle",
+      "cantaloupe",
+      "candy"
+    ]
+  },
+  {
+    "word": "delay",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make someone or something late or slow down.",
+        "meaning_zh_TW": "延遲",
+        "wrong_meaning_zh_TW": [
+          "加速",
+          "推進",
+          "促進"
+        ],
+        "examples": [
+          {
+            "sentence": "The train was [delayed] by heavy snow.",
+            "translation_zh_TW": "火車因為大雪而延遲。"
+          },
+          {
+            "sentence": "We must not [delay] our response to the situation.",
+            "translation_zh_TW": "我們不能延遲對這個情況的回應。"
+          },
+          {
+            "sentence": "They decided to [delay] the meeting until next week.",
+            "translation_zh_TW": "他們決定將會議推遲到下周。"
+          }
+        ],
+        "synonyms": [
+          "postpone",
+          "halt"
+        ]
+      }
+    ],
+    "confusion": [
+      "display",
+      "delay",
+      "defray",
+      "relay"
+    ]
+  },
+  {
+    "word": "novel",
+    "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A weight or mass that is being carried or transported.",
-        "meaning_zh_TW": "負載",
+        "meaning_en_US": "A fictitious prose narrative of book length.",
+        "meaning_zh_TW": "小說",
         "wrong_meaning_zh_TW": [
-          "設備",
-          "工具",
+          "文章",
+          "詩歌",
+          "文獻"
+        ],
+        "examples": [
+          {
+            "sentence": "She is writing a [novel] about her adventures.",
+            "translation_zh_TW": "她正在寫一本有關她冒險的小說."
+          },
+          {
+            "sentence": "The [novel] became a bestseller in no time.",
+            "translation_zh_TW": "這本小說短時間內就成為暢銷書."
+          },
+          {
+            "sentence": "He enjoys reading a [novel] every month.",
+            "translation_zh_TW": "他喜歡每個月閱讀一本小說."
+          }
+        ],
+        "synonyms": [
+          "story",
+          "tale"
+        ]
+      }
+    ],
+    "confusion": [
+      "novelty",
+      "noble",
+      "novella",
+      "novelette"
+    ]
+  },
+  {
+    "word": "pan",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A shallow, open container used for cooking or holding food.",
+        "meaning_zh_TW": "平底鍋",
+        "wrong_meaning_zh_TW": [
+          "碗",
+          "杯子",
+          "壺"
+        ],
+        "examples": [
+          {
+            "sentence": "She sautéed the vegetables in the [pan].",
+            "translation_zh_TW": "她在平底鍋裡炒了蔬菜。"
+          },
+          {
+            "sentence": "Please put the [pan] on the stove.",
+            "translation_zh_TW": "請把平底鍋放在爐子上。"
+          },
+          {
+            "sentence": "He cleaned the [pan] after cooking.",
+            "translation_zh_TW": "他煮完後清理了平底鍋。"
+          }
+        ],
+        "synonyms": [
+          "skillet",
+          "frying pan"
+        ]
+      }
+    ],
+    "confusion": [
+      "pantry",
+      "plane",
+      "pansy",
+      "pannier"
+    ]
+  },
+  {
+    "word": "examination",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A detailed inspection or analysis.",
+        "meaning_zh_TW": "檢查、考試",
+        "wrong_meaning_zh_TW": [
+          "對話",
+          "隨便",
+          "實驗"
+        ],
+        "examples": [
+          {
+            "sentence": "The doctor performed a thorough [examination].",
+            "translation_zh_TW": "醫生進行了徹底的檢查。"
+          },
+          {
+            "sentence": "She studied hard for her final [examination].",
+            "translation_zh_TW": "她為期末考試努力學習。"
+          },
+          {
+            "sentence": "The [examination] results were surprising.",
+            "translation_zh_TW": "檢查結果令人驚訝。"
+          }
+        ],
+        "synonyms": [
+          "test",
+          "assessment"
+        ]
+      }
+    ],
+    "confusion": [
+      "examination",
+      "exam",
+      "examine",
+      "exanimations"
+    ]
+  },
+  {
+    "word": "painting",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The act or art of producing a picture using paints.",
+        "meaning_zh_TW": "繪畫",
+        "wrong_meaning_zh_TW": [
+          "發展",
+          "建築",
           "設計"
         ],
         "examples": [
           {
-            "sentence": "The [load] on the bridge was carefully calculated.",
-            "translation_zh_TW": "橋上的負載經過仔細計算。"
+            "sentence": "Her [painting] won the first prize in the competition.",
+            "translation_zh_TW": "她的繪畫在比賽中獲得了第一名。"
           },
           {
-            "sentence": "He felt the [load] of responsibility on his shoulders.",
-            "translation_zh_TW": "他感受到了肩上的責任重擔。"
+            "sentence": "The gallery exhibited a [painting] by a famous artist.",
+            "translation_zh_TW": "畫廊展出了著名藝術家的繪畫作品。"
           },
           {
-            "sentence": "They transported a heavy [load] of goods.",
-            "translation_zh_TW": "他們運輸了一批重貨。"
+            "sentence": "She took a class to improve her [painting] skills.",
+            "translation_zh_TW": "她上了一門課程以提高自己的繪畫技巧。"
           }
         ],
         "synonyms": [
-          "burden",
-          "weight"
+          "artwork",
+          "canvas"
         ]
       }
     ],
     "confusion": [
+      "painter",
+      "paint",
+      "paying",
+      "planting"
+    ]
+  },
+  {
+    "word": "mirror",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A reflective surface, typically glass coated with a metallic silver, that reflects a clear image.",
+        "meaning_zh_TW": "鏡子",
+        "wrong_meaning_zh_TW": [
+          "窗口",
+          "屏風",
+          "圖像"
+        ],
+        "examples": [
+          {
+            "sentence": "He looked into the [mirror] to fix his hair.",
+            "translation_zh_TW": "他看著鏡子整理他的頭髮"
+          },
+          {
+            "sentence": "A [mirror] can help you check your appearance.",
+            "translation_zh_TW": "鏡子可以幫助你檢查外表"
+          },
+          {
+            "sentence": "She admired her dress in the [mirror].",
+            "translation_zh_TW": "她在鏡子中欣賞她的裙子"
+          }
+        ],
+        "synonyms": [
+          "reflector",
+          "looking glass"
+        ]
+      }
+    ],
+    "confusion": [
+      "mire",
+      "miner",
+      "merry",
+      "mourn"
+    ]
+  },
+  {
+    "word": "consideration",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Careful thought, typically over a period.",
+        "meaning_zh_TW": "考量",
+        "wrong_meaning_zh_TW": [
+          "期望",
+          "信念",
+          "隨意"
+        ],
+        "examples": [
+          {
+            "sentence": "Safety is an important [consideration] in this project.",
+            "translation_zh_TW": "安全是本專案中的一個重要考量。"
+          },
+          {
+            "sentence": "She gave the matter much [consideration].",
+            "translation_zh_TW": "她對此事給予了充分的考量。"
+          },
+          {
+            "sentence": "Financial [considerations] influenced their decision.",
+            "translation_zh_TW": "財務考量影響了他們的決定。"
+          }
+        ],
+        "synonyms": [
+          "deliberation",
+          "thought"
+        ]
+      }
+    ],
+    "confusion": [
+      "consider",
+      "concentration",
+      "connotation",
+      "consolation"
+    ]
+  },
+  {
+    "word": "broad",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having an ample distance from side to side; wide.",
+        "meaning_zh_TW": "寬廣的",
+        "wrong_meaning_zh_TW": [
+          "狹窄的",
+          "有限的",
+          "細小的"
+        ],
+        "examples": [
+          {
+            "sentence": "They sat on the [broad] lawn.",
+            "translation_zh_TW": "他們坐在寬廣的草地上"
+          },
+          {
+            "sentence": "The river was [broad] in this section.",
+            "translation_zh_TW": "這段河流寬廣"
+          },
+          {
+            "sentence": "He has a [broad] knowledge of history.",
+            "translation_zh_TW": "他對歷史有著廣泛的知識"
+          }
+        ],
+        "synonyms": [
+          "wide",
+          "vast"
+        ]
+      }
+    ],
+    "confusion": [
+      "brood",
       "road",
-      "code",
-      "loaden",
-      "lode"
+      "broached",
+      "broadly"
     ]
   },
   {
-    "word": "prince",
+    "word": "liquid",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The son of a monarch.",
-        "meaning_zh_TW": "王子",
+        "meaning_en_US": "A substance that flows freely and is not solid or gaseous.",
+        "meaning_zh_TW": "液體",
         "wrong_meaning_zh_TW": [
-          "公主",
-          "國王",
-          "貴族"
+          "氣體",
+          "固體",
+          "霧氣"
         ],
         "examples": [
           {
-            "sentence": "The [prince] rode his horse through the castle gates.",
-            "translation_zh_TW": "王子騎著馬穿過城堡門"
+            "sentence": "Water is a common [liquid] found on Earth.",
+            "translation_zh_TW": "水是地球上常見的液體。"
           },
           {
-            "sentence": "A [prince] is often seen as a future king.",
-            "translation_zh_TW": "王子通常被視為未來的國王"
+            "sentence": "The [liquid] spilled all over the table.",
+            "translation_zh_TW": "液體潑灑到了桌子上。"
           },
           {
-            "sentence": "The fairy tale was about a lost [prince].",
-            "translation_zh_TW": "這個童話講述了一位失落的王子"
+            "sentence": "She poured the [liquid] into the glass.",
+            "translation_zh_TW": "她把液體倒進杯子裡。"
           }
         ],
         "synonyms": [
-          "royal",
-          "heir"
+          "fluid",
+          "solution"
         ]
       }
     ],
     "confusion": [
-      "princess",
-      "principal",
-      "prentice",
-      "prints"
+      "liquidate",
+      "ligand",
+      "licorice",
+      "likened"
     ]
   },
   {
-    "word": "capital",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The city or town that functions as the seat of government for a country or region.",
-        "meaning_zh_TW": "首都",
-        "wrong_meaning_zh_TW": [
-          "村莊",
-          "國家",
-          "省份"
-        ],
-        "examples": [
-          {
-            "sentence": "Tokyo is the [capital] of Japan.",
-            "translation_zh_TW": "東京是日本的首都。"
-          },
-          {
-            "sentence": "The [capital] city is known for its rich culture.",
-            "translation_zh_TW": "這個首都城市因其豐富的文化而聞名。"
-          },
-          {
-            "sentence": "He is studying the history of [capital] cities.",
-            "translation_zh_TW": "他在研究首都的歷史。"
-          }
-        ],
-        "synonyms": [
-          "metropolis",
-          "hub"
-        ]
-      }
-    ],
-    "confusion": [
-      "capitol",
-      "capable",
-      "capitalism",
-      "cap"
-    ]
-  },
-  {
-    "word": "pupil",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A student, especially a child in school.",
-        "meaning_zh_TW": "學生",
-        "wrong_meaning_zh_TW": [
-          "老師",
-          "家長",
-          "校長"
-        ],
-        "examples": [
-          {
-            "sentence": "The [pupil] raised their hand to answer the question.",
-            "translation_zh_TW": "學生舉手來回答問題。"
-          },
-          {
-            "sentence": "Each [pupil] is encouraged to ask questions.",
-            "translation_zh_TW": "每個學生都被鼓勵提出問題。"
-          },
-          {
-            "sentence": "The teacher praised the [pupil] for their hard work.",
-            "translation_zh_TW": "老師讚揚了這位學生的努力。"
-          }
-        ],
-        "synonyms": [
-          "student",
-          "learner"
-        ]
-      }
-    ],
-    "confusion": [
-      "pool",
-      "pupilary",
-      "puppy",
-      "pulp"
-    ]
-  },
-  {
-    "word": "weak",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Lacking physical strength; not strong.",
-        "meaning_zh_TW": "虛弱的",
-        "wrong_meaning_zh_TW": [
-          "健康的",
-          "強壯的",
-          "堅固的"
-        ],
-        "examples": [
-          {
-            "sentence": "He felt too [weak] to continue the race.",
-            "translation_zh_TW": "他感到太虛弱，無法繼續比賽。"
-          },
-          {
-            "sentence": "The bridge was deemed structurally [weak].",
-            "translation_zh_TW": "這座橋被認為結構上很虛弱。"
-          },
-          {
-            "sentence": "Her [weak] voice could barely be heard.",
-            "translation_zh_TW": "她的聲音虛弱到幾乎無法聽到。"
-          }
-        ],
-        "synonyms": [
-          "feeble",
-          "frail"
-        ]
-      }
-    ],
-    "confusion": [
-      "week",
-      "weaken",
-      "peek",
-      "sneak"
-    ]
-  },
-  {
-    "word": "remove",
+    "word": "guard",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To take something away from a place.",
-        "meaning_zh_TW": "移除",
+        "meaning_en_US": "To protect from danger, harm, or loss.",
+        "meaning_zh_TW": "保護",
         "wrong_meaning_zh_TW": [
-          "添加",
-          "隱藏",
-          "保留"
+          "攻擊",
+          "盜竊",
+          "懷疑"
         ],
         "examples": [
           {
-            "sentence": "Please [remove] your shoes before entering.",
-            "translation_zh_TW": "請在進入之前脫掉鞋子"
+            "sentence": "The security officer was hired to [guard] the building.",
+            "translation_zh_TW": "這名保安人員被雇用來保護這座建築"
           },
           {
-            "sentence": "I need to [remove] the old paint from the wall.",
-            "translation_zh_TW": "我需要將舊漆從牆上移除"
+            "sentence": "She took steps to [guard] her privacy online.",
+            "translation_zh_TW": "她採取措施來保護她的線上隱私"
           },
           {
-            "sentence": "It is important to [remove] any distractions while studying.",
-            "translation_zh_TW": "在學習時去除任何干擾是很重要的"
+            "sentence": "They need to [guard] their resources carefully.",
+            "translation_zh_TW": "他們需要仔細保護他們的資源"
           }
         ],
         "synonyms": [
-          "take away",
-          "eliminate"
+          "protect",
+          "safeguard"
         ]
       }
     ],
     "confusion": [
-      "reove",
-      "remmove",
-      "removie",
-      "remov"
+      "garden",
+      "gourd",
+      "guardrail",
+      "garde"
     ]
   },
   {
-    "word": "sand",
+    "word": "drama",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A loose, granular substance resulting from the erosion of rocks.",
-        "meaning_zh_TW": "沙子",
+        "meaning_en_US": "A play that is performed on a stage, or a series of events that have a strong emotional impact.",
+        "meaning_zh_TW": "戲劇",
         "wrong_meaning_zh_TW": [
-          "水泥",
-          "石塊",
-          "泥土"
+          "喜劇",
+          "小說",
+          "凌虐"
         ],
         "examples": [
           {
-            "sentence": "The beach is covered in soft [sand].",
-            "translation_zh_TW": "海灘上覆蓋著柔軟的沙子。"
+            "sentence": "She loves watching [drama] series on television.",
+            "translation_zh_TW": "她喜歡看電視劇集。"
           },
           {
-            "sentence": "Children love to play in the [sand] at the park.",
-            "translation_zh_TW": "孩子們喜歡在公園的沙子裡玩。"
+            "sentence": "The [drama] unfolds with unexpected twists and turns.",
+            "translation_zh_TW": "這部戲劇充滿了意想不到的曲折。"
           },
           {
-            "sentence": "The artist used [sand] to create beautiful patterns.",
-            "translation_zh_TW": "藝術家用沙子創造了美麗的圖案。"
+            "sentence": "He decided to study [drama] in college.",
+            "translation_zh_TW": "他決定在大學學習戲劇。"
           }
         ],
         "synonyms": [
-          "grains",
-          "silt"
+          "play",
+          "performance"
         ]
       }
     ],
     "confusion": [
-      "sund",
-      "send",
-      "band",
-      "hand"
+      "dramatics",
+      "dream",
+      "dreamer",
+      "dormant"
     ]
   },
   {
-    "word": "gardener",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who tends and cultivates a garden.",
-        "meaning_zh_TW": "園丁",
-        "wrong_meaning_zh_TW": [
-          "畫家",
-          "建築師",
-          "廚師"
-        ],
-        "examples": [
-          {
-            "sentence": "The [gardener] planted new flowers.",
-            "translation_zh_TW": "園丁種下了新花。"
-          },
-          {
-            "sentence": "She hired a [gardener] to maintain the yard.",
-            "translation_zh_TW": "她雇了一位園丁來維護院子。"
-          },
-          {
-            "sentence": "The [gardener] uses organic methods.",
-            "translation_zh_TW": "園丁使用有機方法。"
-          }
-        ],
-        "synonyms": [
-          "horticulturist",
-          "landscaper"
-        ]
-      }
-    ],
-    "confusion": [
-      "gardenia",
-      "gardesh",
-      "garde",
-      "garden"
-    ]
-  },
-  {
-    "word": "evil",
+    "word": "suitable",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Profoundly immoral and malevolent.",
-        "meaning_zh_TW": "邪惡的、惡毒的",
+        "meaning_en_US": "Right or appropriate for a particular person, purpose, or situation.",
+        "meaning_zh_TW": "合適的",
         "wrong_meaning_zh_TW": [
-          "善良的",
-          "真實的",
-          "友好的"
+          "不合適的",
+          "劣質的",
+          "昂貴的"
         ],
         "examples": [
           {
-            "sentence": "The villain was driven by [evil] motives.",
-            "translation_zh_TW": "反派是由邪惡的動機驅動的。"
+            "sentence": "This position is suitable for experienced candidates.",
+            "translation_zh_TW": "這個職位適合有經驗的候選人"
           },
           {
-            "sentence": "They fought against [evil] in all its forms.",
-            "translation_zh_TW": "他們在所有形式的邪惡中奮鬥。"
+            "sentence": "Finding a suitable place to live can be challenging.",
+            "translation_zh_TW": "找到合適的居住地可能很有挑戰性"
           },
           {
-            "sentence": "Her [evil] laugh sent shivers down his spine.",
-            "translation_zh_TW": "她的邪惡笑聲讓他感到毛骨悚然。"
+            "sentence": "He chose a suitable gift for her birthday.",
+            "translation_zh_TW": "他為她的生日選擇了一份合適的禮物"
           }
         ],
         "synonyms": [
-          "malicious",
-          "wicked"
+          "appropriate",
+          "fitting"
         ]
       }
     ],
     "confusion": [
-      "ovile",
-      "evel",
-      "evilness",
-      "evul"
+      "subtle",
+      "suitable",
+      "suitably",
+      "suspect"
     ]
   },
   {
-    "word": "pound",
+    "word": "attend",
     "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A unit of weight equal to 16 ounces.",
-        "meaning_zh_TW": "磅",
-        "wrong_meaning_zh_TW": [
-          "盎司",
-          "公斤",
-          "克"
-        ],
-        "examples": [
-          {
-            "sentence": "The package weighs five [pounds].",
-            "translation_zh_TW": "這個包裹重五磅"
-          },
-          {
-            "sentence": "She lost ten [pounds] last year.",
-            "translation_zh_TW": "她去年減了十磅"
-          },
-          {
-            "sentence": "Each bag of flour costs three [pounds].",
-            "translation_zh_TW": "每袋麵粉的價格是三磅"
-          }
-        ],
-        "synonyms": [
-          "weight unit",
-          "lb"
-        ]
-      },
       {
         "type": "動詞",
-        "meaning_en_US": "To strike heavily and repeatedly.",
-        "meaning_zh_TW": "重擊",
+        "meaning_en_US": "To be present at an event or gathering.",
+        "meaning_zh_TW": "參加",
         "wrong_meaning_zh_TW": [
-          "輕拍",
-          "觸碰",
-          "索絕"
+          "忽視",
+          "退出",
+          "延遲"
         ],
         "examples": [
           {
-            "sentence": "He began to [pound] the drum.",
-            "translation_zh_TW": "他開始重擊鼓"
+            "sentence": "I will [attend] the meeting tomorrow.",
+            "translation_zh_TW": "我明天會參加會議"
           },
           {
-            "sentence": "The workers had to [pound] the metal into shape.",
-            "translation_zh_TW": "工人們必須重擊金屬以成型"
+            "sentence": "They [attend] classes every day.",
+            "translation_zh_TW": "他們每天都上課"
           },
           {
-            "sentence": "She [pounded] the dough thoroughly.",
-            "translation_zh_TW": "她徹底將麵團打碎"
+            "sentence": "She was invited to [attend] the wedding.",
+            "translation_zh_TW": "她被邀請參加婚禮"
           }
         ],
         "synonyms": [
-          "hit",
-          "beat"
+          "participate",
+          "join"
         ]
       }
     ],
     "confusion": [
-      "bowl",
-      "pounder",
-      "poundage",
-      "found"
+      "atend",
+      "attendd",
+      "attand",
+      "attaned"
     ]
   },
   {
-    "word": "anyway",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "In any case; regardless of the preceding context.",
-        "meaning_zh_TW": "無論如何",
-        "wrong_meaning_zh_TW": [
-          "怎麼都好",
-          "不論",
-          "任意"
-        ],
-        "examples": [
-          {
-            "sentence": "I didn't want to go, but I went [anyway].",
-            "translation_zh_TW": "我不想去，但我還是去了無論如何"
-          },
-          {
-            "sentence": "It rained, but we had fun [anyway].",
-            "translation_zh_TW": "雖然下雨，但我們還是玩得很開心"
-          },
-          {
-            "sentence": "He said it was too late, but I called [anyway].",
-            "translation_zh_TW": "他說太晚了，但我還是打了電話"
-          }
-        ],
-        "synonyms": [
-          "regardless",
-          "nonetheless"
-        ]
-      }
-    ],
-    "confusion": [
-      "anywayy",
-      "anwyway",
-      "anywy",
-      "anywayz"
-    ]
-  },
-  {
-    "word": "focus",
+    "word": "shell",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The center of interest or activity.",
-        "meaning_zh_TW": "焦點",
+        "meaning_en_US": "The hard outer covering of some animals.",
+        "meaning_zh_TW": "殼",
         "wrong_meaning_zh_TW": [
-          "周邊",
-          "邊緣",
-          "次要"
+          "衣服",
+          "碗具",
+          "包裝"
         ],
         "examples": [
           {
-            "sentence": "Their [focus] is on environmental issues.",
-            "translation_zh_TW": "他們的焦點在環保問題上。"
+            "sentence": "The turtle hid inside its [shell].",
+            "translation_zh_TW": "烏龜躲進了它的殼裡。"
           },
           {
-            "sentence": "The team's [focus] shifted after the new project.",
-            "translation_zh_TW": "這個團隊的焦點在新項目後發生了變化。"
+            "sentence": "You can hear the ocean if you hold the [shell] to your ear.",
+            "translation_zh_TW": "如果你把貝殼放在耳邊，你可以聽到海洋的聲音。"
           },
           {
-            "sentence": "He tried to keep his [focus] during the exam.",
-            "translation_zh_TW": "他試著在考試中保持專注。"
+            "sentence": "Find a [shell] on the beach.",
+            "translation_zh_TW": "在海灘上找到一個貝殼。"
           }
         ],
         "synonyms": [
-          "concentration",
-          "emphasis"
+          "case",
+          "husk"
         ]
       }
     ],
     "confusion": [
-      "foci",
-      "foes",
-      "foucs",
-      "foocus"
+      "sell",
+      "shelter",
+      "shelled",
+      "shiell"
     ]
   },
   {
-    "word": "symbol",
+    "word": "beer",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A mark or character used to represent something.",
-        "meaning_zh_TW": "符號",
+        "meaning_en_US": "A fermented beverage brewed from malt and hops.",
+        "meaning_zh_TW": "啤酒",
+        "wrong_meaning_zh_TW": [
+          "果汁",
+          "清水",
+          "飲料"
+        ],
+        "examples": [
+          {
+            "sentence": "He ordered a cold [beer] at the bar.",
+            "translation_zh_TW": "他在酒吧點了一杯冷啤酒。"
+          },
+          {
+            "sentence": "Craft [beer] has become very popular.",
+            "translation_zh_TW": "手工啤酒變得非常受歡迎。"
+          },
+          {
+            "sentence": "They celebrated with [beer] and laughter.",
+            "translation_zh_TW": "他們用啤酒和笑聲慶祝。"
+          }
+        ],
+        "synonyms": [
+          "lager",
+          "ale"
+        ]
+      }
+    ],
+    "confusion": [
+      "beeer",
+      "bear",
+      "bier",
+      "beers"
+    ]
+  },
+  {
+    "word": "measurement",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The size, length, or amount of something, as established by measuring.",
+        "meaning_zh_TW": "測量",
         "wrong_meaning_zh_TW": [
           "形狀",
-          "物體",
+          "類型",
           "顏色"
         ],
         "examples": [
           {
-            "sentence": "The heart is a popular [symbol] of love.",
-            "translation_zh_TW": "心臟是愛的熱門符號"
+            "sentence": "The [measurement] of the room is 20 by 30 feet.",
+            "translation_zh_TW": "這間房間的測量是20乘30英尺。"
           },
           {
-            "sentence": "In math, 'x' is often used as a [symbol] for an unknown value.",
-            "translation_zh_TW": "'x' 在數學中常用作未知值的符號"
+            "sentence": "Accurate [measurement] is crucial in construction.",
+            "translation_zh_TW": "準確的測量在建築中至關重要。"
           },
           {
-            "sentence": "Flags can be a powerful [symbol] of national pride.",
-            "translation_zh_TW": "國旗可以是民族自豪感的有力符號"
+            "sentence": "We took [measurements] for the new furniture.",
+            "translation_zh_TW": "我們為新家具進行了測量。"
           }
         ],
         "synonyms": [
-          "sign",
-          "token"
+          "dimension",
+          "size"
         ]
       }
     ],
     "confusion": [
-      "symphony",
-      "simile",
-      "syndrome",
-      "sample"
-    ]
-  },
-  {
-    "word": "battle",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A sustained fight between large organized armed forces.",
-        "meaning_zh_TW": "戰鬥、戰役",
-        "wrong_meaning_zh_TW": [
-          "比賽",
-          "爭吵",
-          "競標"
-        ],
-        "examples": [
-          {
-            "sentence": "The [battle] lasted for three days.",
-            "translation_zh_TW": "這場戰鬥持續了三天。"
-          },
-          {
-            "sentence": "They fought bravely in the [battle] for their homeland.",
-            "translation_zh_TW": "他們在保衛家園的戰鬥中英勇作戰。"
-          },
-          {
-            "sentence": "Many strategies were developed during the [battle].",
-            "translation_zh_TW": "在戰鬥中開發了許多策略。"
-          }
-        ],
-        "synonyms": [
-          "fight",
-          "conflict"
-        ]
-      }
-    ],
-    "confusion": [
-      "bake",
-      "bottle",
-      "beetle",
-      "battlefield"
+      "measures",
+      "measurements",
+      "measured",
+      "measuring"
     ]
   }
 ]

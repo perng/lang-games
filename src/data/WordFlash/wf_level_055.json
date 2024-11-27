@@ -1,694 +1,79 @@
 [
   {
-    "word": "summer",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The warmest season of the year, occurring between spring and autumn.",
-        "meaning_zh_TW": "夏天",
-        "wrong_meaning_zh_TW": [
-          "秋天",
-          "冬天",
-          "春天"
-        ],
-        "examples": [
-          {
-            "sentence": "They always go on vacation in [summer].",
-            "translation_zh_TW": "他們總是在夏天度假。"
-          },
-          {
-            "sentence": "The days are longer in [summer].",
-            "translation_zh_TW": "夏天的日子更長。"
-          },
-          {
-            "sentence": "She loves to swim in the ocean during [summer].",
-            "translation_zh_TW": "她喜歡在夏天的海洋中游泳。"
-          }
-        ],
-        "synonyms": [
-          "hot season",
-          "summertime"
-        ]
-      }
-    ],
-    "confusion": [
-      "sommer",
-      "sumer",
-      "simmer",
-      "summar"
-    ]
-  },
-  {
-    "word": "city",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large human settlement, typically characterized by a high population density and significant infrastructure.",
-        "meaning_zh_TW": "城市",
-        "wrong_meaning_zh_TW": [
-          "鄉村",
-          "村莊",
-          "景點"
-        ],
-        "examples": [
-          {
-            "sentence": "New York is a bustling [city].",
-            "translation_zh_TW": "紐約是一個繁忙的城市"
-          },
-          {
-            "sentence": "She moved to the [city] for her job.",
-            "translation_zh_TW": "她為了工作搬到了城市"
-          },
-          {
-            "sentence": "The [city] is known for its rich history.",
-            "translation_zh_TW": "這座城市以其豐富的歷史而聞名"
-          }
-        ],
-        "synonyms": [
-          "town",
-          "metropolis"
-        ]
-      }
-    ],
-    "confusion": [
-      "citizen",
-      "citi",
-      "sit",
-      "sity"
-    ]
-  },
-  {
-    "word": "fifteen",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The number equivalent to the sum of ten and five.",
-        "meaning_zh_TW": "十五",
-        "wrong_meaning_zh_TW": [
-          "十",
-          "二十",
-          "十六"
-        ],
-        "examples": [
-          {
-            "sentence": "She is turning [fifteen] tomorrow.",
-            "translation_zh_TW": "她明天就十五歲了"
-          },
-          {
-            "sentence": "Fifteen students lined up for the event.",
-            "translation_zh_TW": "十五名學生排隊參加活動"
-          },
-          {
-            "sentence": "He counted to [fifteen] before jumping.",
-            "translation_zh_TW": "他數到十五才跳"
-          }
-        ],
-        "synonyms": [
-          "15"
-        ]
-      }
-    ],
-    "confusion": [
-      "fifth",
-      "fifty",
-      "fifty-one",
-      "fourteen"
-    ]
-  },
-  {
-    "word": "ant",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A small insect that typically lives in large colonies and is known for its strength and teamwork.",
-        "meaning_zh_TW": "螞蟻",
-        "wrong_meaning_zh_TW": [
-          "蜜蜂",
-          "蝸牛",
-          "蟑螂"
-        ],
-        "examples": [
-          {
-            "sentence": "The [ant] carried a leaf much larger than itself.",
-            "translation_zh_TW": "那隻螞蟻帶著一片比自己大得多的葉子。"
-          },
-          {
-            "sentence": "There are many species of [ants] around the world.",
-            "translation_zh_TW": "世界上有許多種類的螞蟻。"
-          },
-          {
-            "sentence": "The little [ant] found its way back to the colony.",
-            "translation_zh_TW": "小螞蟻找到了回巢的路。"
-          }
-        ],
-        "synonyms": [
-          "insect",
-          "worker"
-        ]
-      }
-    ],
-    "confusion": [
-      "antsy",
-      "aunt",
-      "ante",
-      "ankt"
-    ]
-  },
-  {
-    "word": "piano",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large keyboard musical instrument with keys that produce sound when struck by hammers.",
-        "meaning_zh_TW": "鋼琴",
-        "wrong_meaning_zh_TW": [
-          "小提琴、樂器",
-          "音響、立體聲",
-          "樂譜、曲調"
-        ],
-        "examples": [
-          {
-            "sentence": "She played a song on the [piano].",
-            "translation_zh_TW": "她在鋼琴上彈了一首歌"
-          },
-          {
-            "sentence": "A grand [piano] can be very expensive.",
-            "translation_zh_TW": "一架大鋼琴可能很昂貴"
-          },
-          {
-            "sentence": "He learned to read music for the [piano].",
-            "translation_zh_TW": "他學會了讀取鋼琴的樂譜"
-          }
-        ],
-        "synonyms": [
-          "keyboard",
-          "fortepiano"
-        ]
-      }
-    ],
-    "confusion": [
-      "pianist",
-      "piana",
-      "pinna",
-      "panio"
-    ]
-  },
-  {
-    "word": "friendly",
+    "word": "thousandth",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Kind and helpful; behaving in a pleasant and amiable manner.",
-        "meaning_zh_TW": "友好的",
+        "meaning_en_US": "Being number 1000 in a sequence.",
+        "meaning_zh_TW": "第一千的",
         "wrong_meaning_zh_TW": [
-          "冷漠的",
-          "挑剔的",
-          "敵對的"
+          "第一百的",
+          "第一千二百的",
+          "第二千的"
         ],
         "examples": [
           {
-            "sentence": "The staff were very [friendly] and welcoming.",
-            "translation_zh_TW": "員工非常友好，讓人感到受歡迎。"
+            "sentence": "She was the [thousandth] customer of the day.",
+            "translation_zh_TW": "她是今天的第一千位顧客"
           },
           {
-            "sentence": "She has a [friendly] smile that puts everyone at ease.",
-            "translation_zh_TW": "她的微笑很友好，讓每個人都放鬆。"
+            "sentence": "The event marked the [thousandth] anniversary of the city.",
+            "translation_zh_TW": "這個事件標誌著這座城市的第一千周年"
           },
           {
-            "sentence": "They adopted a [friendly] approach to the new neighbors.",
-            "translation_zh_TW": "他們對新鄰居採取了友好的態度。"
+            "sentence": "He finished in [thousandth] place in the ranking.",
+            "translation_zh_TW": "他在排名中獲得第一千名"
           }
         ],
         "synonyms": [
-          "amiable",
-          "amicable",
-          "sociable"
+          "1000th",
+          "millennial"
         ]
       }
     ],
     "confusion": [
-      "friend",
-      "friendlyness",
-      "friends",
-      "friendo"
+      "thousand",
+      "hundredth",
+      "ten thousandth",
+      "thousands"
     ]
   },
   {
-    "word": "act",
+    "word": "fortieth",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To do something; to perform an action.",
-        "meaning_zh_TW": "行動，執行",
+        "type": "形容詞",
+        "meaning_en_US": "The ordinal number corresponding to the number forty.",
+        "meaning_zh_TW": "第四十",
         "wrong_meaning_zh_TW": [
-          "劇本",
-          "動作片",
-          "法案"
+          "第一",
+          "第三十五",
+          "第五十"
         ],
         "examples": [
           {
-            "sentence": "You need to [act] quickly to avoid missing the deadline.",
-            "translation_zh_TW": "你需要迅速行動以避免錯過截止日期。"
+            "sentence": "She celebrated her [fortieth] anniversary.",
+            "translation_zh_TW": "她慶祝了她的第四十個週年紀念。"
           },
           {
-            "sentence": "She decided to [act] on her instincts.",
-            "translation_zh_TW": "她決定根據自己的直覺行動。"
+            "sentence": "We are planning a party for his [fortieth] birthday.",
+            "translation_zh_TW": "我們正在為他的第四十個生日計劃派對。"
           },
           {
-            "sentence": "They must [act] responsibly.",
-            "translation_zh_TW": "他們必須負責任地行動。"
+            "sentence": "The book is about the fortieth generation of the family.",
+            "translation_zh_TW": "這本書是關於這個家庭的第四十代。"
           }
         ],
         "synonyms": [
-          "perform",
-          "do"
+          "40th"
         ]
       }
     ],
     "confusion": [
-      "activity",
-      "actor",
-      "activate",
-      "acting"
-    ]
-  },
-  {
-    "word": "through",
-    "meanings": [
-      {
-        "type": "介系詞",
-        "meaning_en_US": "Moving in one side and out of the other side of (an opening, channel, or location).",
-        "meaning_zh_TW": "透過、穿過",
-        "wrong_meaning_zh_TW": [
-          "停住",
-          "在裡面",
-          "穿著"
-        ],
-        "examples": [
-          {
-            "sentence": "We walked [through] the park on our way home.",
-            "translation_zh_TW": "我們回家的路上穿過了公園。"
-          },
-          {
-            "sentence": "The bullet went [through] the wall.",
-            "translation_zh_TW": "子彈穿過了牆壁。"
-          },
-          {
-            "sentence": "She looked [through] the window.",
-            "translation_zh_TW": "她透過窗戶看。"
-          }
-        ],
-        "synonyms": [
-          "across",
-          "along"
-        ]
-      }
-    ],
-    "confusion": [
-      "threw",
-      "throug",
-      "throgh",
-      "throu"
-    ]
-  },
-  {
-    "word": "boat",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A small vessel for traveling over water.",
-        "meaning_zh_TW": "小船",
-        "wrong_meaning_zh_TW": [
-          "自動車",
-          "飛機",
-          "電單車"
-        ],
-        "examples": [
-          {
-            "sentence": "They rented a [boat] to explore the lake.",
-            "translation_zh_TW": "他們租了一艘小船來探索湖泊。"
-          },
-          {
-            "sentence": "The fishing [boat] returned with a large catch.",
-            "translation_zh_TW": "漁船帶著大量漁獲回來了。"
-          },
-          {
-            "sentence": "We saw a [boat] sailing across the horizon.",
-            "translation_zh_TW": "我們看到一艘小船在地平線上航行。"
-          }
-        ],
-        "synonyms": [
-          "vessel",
-          "craft"
-        ]
-      }
-    ],
-    "confusion": [
-      "bot",
-      "boat",
-      "boar",
-      "booth"
-    ]
-  },
-  {
-    "word": "baseball",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A game played by two teams of nine players with a bat and ball, where the objective is to score runs.",
-        "meaning_zh_TW": "棒球（運動）",
-        "wrong_meaning_zh_TW": [
-          "保齡球",
-          "籃球",
-          "桌球"
-        ],
-        "examples": [
-          {
-            "sentence": "They played [baseball] in the park.",
-            "translation_zh_TW": "他們在公園裡打棒球。"
-          },
-          {
-            "sentence": "He loves watching [baseball] games on TV.",
-            "translation_zh_TW": "他喜歡在電視上觀看棒球比賽。"
-          },
-          {
-            "sentence": "The [baseball] season starts in spring.",
-            "translation_zh_TW": "棒球賽季在春天開始。"
-          }
-        ],
-        "synonyms": [
-          "ballgame",
-          "diamond sport"
-        ]
-      }
-    ],
-    "confusion": [
-      "base",
-      "basketball",
-      "basement",
-      "bass"
-    ]
-  },
-  {
-    "word": "bat",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A flying mammal that is typically nocturnal.",
-        "meaning_zh_TW": "蝙蝠",
-        "wrong_meaning_zh_TW": [
-          "球棒、槌子",
-          "傢俱、器具",
-          "蝲蛄、蝦"
-        ],
-        "examples": [
-          {
-            "sentence": "The [bat] flew out of the cave at dusk.",
-            "translation_zh_TW": "那隻蝙蝠在黃昏時飛出洞穴"
-          },
-          {
-            "sentence": "I saw a [bat] hanging upside down.",
-            "translation_zh_TW": "我看到一隻蝙蝠倒吊著"
-          },
-          {
-            "sentence": "In folklore, a [bat] is sometimes seen as a symbol of darkness.",
-            "translation_zh_TW": "在民間傳說中，蝙蝠有時被視為黑暗的象徵"
-          }
-        ],
-        "synonyms": [
-          "flying mammal",
-          "chiropteran"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "A club used in sports like baseball and cricket.",
-        "meaning_zh_TW": "球棒",
-        "wrong_meaning_zh_TW": [
-          "叉子、刀具",
-          "棒球、運動",
-          "球員、運動賽事"
-        ],
-        "examples": [
-          {
-            "sentence": "He swung the [bat] and hit the ball.",
-            "translation_zh_TW": "他揮動球棒打到了球"
-          },
-          {
-            "sentence": "The [bat] broke after a few games.",
-            "translation_zh_TW": "那根球棒幾場比賽後就壞了"
-          },
-          {
-            "sentence": "A new [bat] can improve your performance.",
-            "translation_zh_TW": "一根新球棒可以提升你的表現"
-          }
-        ],
-        "synonyms": [
-          "club",
-          "slugger"
-        ]
-      }
-    ],
-    "confusion": [
-      "batty",
-      "bar",
-      "batt",
-      "batsman"
-    ]
-  },
-  {
-    "word": "town",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An urban area that is larger than a village but smaller than a city.",
-        "meaning_zh_TW": "鎮",
-        "wrong_meaning_zh_TW": [
-          "城市",
-          "村莊",
-          "社區"
-        ],
-        "examples": [
-          {
-            "sentence": "She lives in a small [town].",
-            "translation_zh_TW": "她住在一個小鎮"
-          },
-          {
-            "sentence": "The [town] hosts an annual fair.",
-            "translation_zh_TW": "該鎮舉辦一年一度的博覽會"
-          },
-          {
-            "sentence": "Many people visit the [town] during the summer.",
-            "translation_zh_TW": "很多人在夏天造訪這個鎮"
-          }
-        ],
-        "synonyms": [
-          "community",
-          "municipality"
-        ]
-      }
-    ],
-    "confusion": [
-      "tone",
-      "towns",
-      "tawn",
-      "towm"
-    ]
-  },
-  {
-    "word": "sky",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The region of the atmosphere and outer space seen from the Earth.",
-        "meaning_zh_TW": "天空",
-        "wrong_meaning_zh_TW": [
-          "大地",
-          "海洋",
-          "建築"
-        ],
-        "examples": [
-          {
-            "sentence": "The [sky] was clear and blue.",
-            "translation_zh_TW": "天空清澈湛藍。"
-          },
-          {
-            "sentence": "At night, the [sky] is filled with stars.",
-            "translation_zh_TW": "晚上，天空布滿了星星。"
-          },
-          {
-            "sentence": "She looked up at the [sky] and admired the clouds.",
-            "translation_zh_TW": "她仰望天空，欣賞雲彩。"
-          }
-        ],
-        "synonyms": [
-          "heavens",
-          "firmament"
-        ]
-      }
-    ],
-    "confusion": [
-      "skies",
-      "sly",
-      "ski",
-      "skyline"
-    ]
-  },
-  {
-    "word": "tennis",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A game played with rackets and a ball on a court divided by a net.",
-        "meaning_zh_TW": "網球",
-        "wrong_meaning_zh_TW": [
-          "足球",
-          "籃球",
-          "田徑"
-        ],
-        "examples": [
-          {
-            "sentence": "She plays [tennis] every Saturday.",
-            "translation_zh_TW": "她每個星期六打網球"
-          },
-          {
-            "sentence": "Tennis requires both skill and agility.",
-            "translation_zh_TW": "打網球需要技巧和靈活性"
-          },
-          {
-            "sentence": "The final [tennis] match was exciting.",
-            "translation_zh_TW": "決賽的網球比賽令人興奮"
-          }
-        ],
-        "synonyms": [
-          "sport",
-          "game"
-        ]
-      }
-    ],
-    "confusion": [
-      "tennisball",
-      "tansis",
-      "tensile",
-      "tenes"
-    ]
-  },
-  {
-    "word": "come",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To move or travel toward or into a place thought of as near.",
-        "meaning_zh_TW": "來、過來",
-        "wrong_meaning_zh_TW": [
-          "去、離開",
-          "持續存在",
-          "站立不動"
-        ],
-        "examples": [
-          {
-            "sentence": "Can you [come] to the party tonight?",
-            "translation_zh_TW": "你今晚能來派對嗎？"
-          },
-          {
-            "sentence": "She will [come] over for dinner later.",
-            "translation_zh_TW": "她晚些時候會過來吃晚餐"
-          },
-          {
-            "sentence": "When will you [come] back?",
-            "translation_zh_TW": "你什麼時候會回來？"
-          }
-        ],
-        "synonyms": [
-          "arrive",
-          "approach"
-        ]
-      }
-    ],
-    "confusion": [
-      "comb",
-      "came",
-      "cum",
-      "com"
-    ]
-  },
-  {
-    "word": "bring",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To take or carry someone or something to a place.",
-        "meaning_zh_TW": "帶來",
-        "wrong_meaning_zh_TW": [
-          "帶走",
-          "丟下",
-          "帶回"
-        ],
-        "examples": [
-          {
-            "sentence": "Please [bring] your own drinks.",
-            "translation_zh_TW": "請帶上你自己的飲料。"
-          },
-          {
-            "sentence": "Can you [bring] that folder to me?",
-            "translation_zh_TW": "你能把那個文件夾帶給我嗎？"
-          },
-          {
-            "sentence": "He decided to [bring] a friend along.",
-            "translation_zh_TW": "他決定帶一個朋友一起來。"
-          }
-        ],
-        "synonyms": [
-          "fetch",
-          "carry"
-        ],
-        "note": "Often used when referring to items one takes to another location."
-      }
-    ],
-    "confusion": [
-      "brimg",
-      "bringed",
-      "brin",
-      "bbring"
-    ]
-  },
-  {
-    "word": "air",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The invisible gaseous substance surrounding the Earth.",
-        "meaning_zh_TW": "空氣",
-        "wrong_meaning_zh_TW": [
-          "水",
-          "土壤",
-          "雲"
-        ],
-        "examples": [
-          {
-            "sentence": "The [air] was fresh and clean in the mountains.",
-            "translation_zh_TW": "山裡的空氣清新而乾淨"
-          },
-          {
-            "sentence": "He filled his lungs with [air] before diving.",
-            "translation_zh_TW": "他在潛水前吸入了空氣"
-          },
-          {
-            "sentence": "The [air] was filled with the smell of flowers.",
-            "translation_zh_TW": "空氣中充滿了花香"
-          }
-        ],
-        "synonyms": [
-          "atmosphere",
-          "breath"
-        ]
-      }
-    ],
-    "confusion": [
-      "airh",
-      "are",
-      "aer",
-      "asr"
+      "forty",
+      "fortiethly",
+      "forteh",
+      "fourtieth"
     ]
   },
   {
@@ -730,42 +115,661 @@
     ]
   },
   {
-    "word": "under",
+    "word": "billionth",
     "meanings": [
       {
-        "type": "介系詞",
-        "meaning_en_US": "In or to a position below or beneath.",
-        "meaning_zh_TW": "在…之下",
+        "type": "形容詞",
+        "meaning_en_US": "Being number 1,000,000,000 in a sequence.",
+        "meaning_zh_TW": "第一十億的",
         "wrong_meaning_zh_TW": [
-          "在上面",
-          "旁邊",
-          "在外面"
+          "第一百的",
+          "第一千的",
+          "一千的"
         ],
         "examples": [
           {
-            "sentence": "The cat is hiding [under] the bed.",
-            "translation_zh_TW": "貓藏在床下"
+            "sentence": "The company celebrated their [billionth] sale.",
+            "translation_zh_TW": "公司慶祝了他們的第一十億銷售"
           },
           {
-            "sentence": "We found the keys [under] the couch.",
-            "translation_zh_TW": "我們在沙發下找到鑰匙"
+            "sentence": "He became the [billionth] visitor to the site.",
+            "translation_zh_TW": "他成為網站的第一十億位訪客"
           },
           {
-            "sentence": "The book is lying [under] the table.",
-            "translation_zh_TW": "書本在桌子下躺著"
+            "sentence": "They marked their [billionth] transaction this year.",
+            "translation_zh_TW": "他們今年標誌著第一十億筆交易"
           }
         ],
         "synonyms": [
-          "beneath",
-          "below"
+          "1,000,000,000th",
+          "billionfold"
         ]
       }
     ],
     "confusion": [
-      "udder",
-      "undre",
-      "unser",
-      "understood"
+      "billion",
+      "millionth",
+      "thousandth",
+      "billions"
+    ]
+  },
+  {
+    "word": "ninetieth",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Being number 90 in a sequence.",
+        "meaning_zh_TW": "第九十的",
+        "wrong_meaning_zh_TW": [
+          "第八十的",
+          "第一百的",
+          "第九十五的"
+        ],
+        "examples": [
+          {
+            "sentence": "The team celebrated their [ninetieth] win of the season.",
+            "translation_zh_TW": "該隊慶祝他們本賽季的第九十場勝利"
+          },
+          {
+            "sentence": "Her [ninetieth] birthday will be a grand event.",
+            "translation_zh_TW": "她的第九十個生日將是一個盛大的活動"
+          },
+          {
+            "sentence": "He was the [ninetieth] person to finish the marathon.",
+            "translation_zh_TW": "他是完成馬拉松的第九十個人"
+          }
+        ],
+        "synonyms": [
+          "90th",
+          "nonagesimal"
+        ]
+      }
+    ],
+    "confusion": [
+      "ninety",
+      "eightieth",
+      "hundredth",
+      "nineties"
+    ]
+  },
+  {
+    "word": "seventieth",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "The ordinal number corresponding to the number seventy.",
+        "meaning_zh_TW": "第七十",
+        "wrong_meaning_zh_TW": [
+          "第一",
+          "第六十五",
+          "第八十"
+        ],
+        "examples": [
+          {
+            "sentence": "This year marks my [seventieth] birthday.",
+            "translation_zh_TW": "今年是我七十歲的生日。"
+          },
+          {
+            "sentence": "They attended their [seventieth] class reunion.",
+            "translation_zh_TW": "他們參加了第七十屆班會。"
+          },
+          {
+            "sentence": "The festival is celebrating its [seventieth] anniversary.",
+            "translation_zh_TW": "該節慶正在慶祝其第七十個周年。"
+          }
+        ],
+        "synonyms": [
+          "70th"
+        ]
+      }
+    ],
+    "confusion": [
+      "seventy",
+      "seventiethly",
+      "seventith",
+      "seventeenth"
+    ]
+  },
+  {
+    "word": "eightieth",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Being number 80 in a sequence.",
+        "meaning_zh_TW": "第八十的",
+        "wrong_meaning_zh_TW": [
+          "第九十的",
+          "第一百的",
+          "第七十的"
+        ],
+        "examples": [
+          {
+            "sentence": "The celebration marked her [eightieth] birthday.",
+            "translation_zh_TW": "這次慶祝活動標誌著她的第八十個生日"
+          },
+          {
+            "sentence": "He finished in [eightieth] place in the race.",
+            "translation_zh_TW": "他在比賽中獲得第八十名"
+          },
+          {
+            "sentence": "Her [eightieth] anniversary at work is next month.",
+            "translation_zh_TW": "她在工作中的第八十個周年下個月就到了"
+          }
+        ],
+        "synonyms": [
+          "80th",
+          "octogint"
+        ]
+      }
+    ],
+    "confusion": [
+      "eighty",
+      "seventieth",
+      "ninety",
+      "eighties"
+    ]
+  },
+  {
+    "word": "Monday",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The second day of the week, following Sunday.",
+        "meaning_zh_TW": "星期一",
+        "wrong_meaning_zh_TW": [
+          "周末",
+          "假日",
+          "月亮"
+        ],
+        "examples": [
+          {
+            "sentence": "I have a meeting every [Monday].",
+            "translation_zh_TW": "我每個星期一都有會議"
+          },
+          {
+            "sentence": "She dislikes waking up early on [Mondays].",
+            "translation_zh_TW": "她不喜歡在星期一早起"
+          },
+          {
+            "sentence": "The store opens at 9 AM on [Mondays].",
+            "translation_zh_TW": "商店在星期一早上九點開門"
+          }
+        ],
+        "synonyms": [
+          "first day of the work week"
+        ]
+      }
+    ],
+    "confusion": [
+      "Mon",
+      "Monda",
+      "Moonday",
+      "Mondayy"
+    ]
+  },
+  {
+    "word": "January",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The first month of the year in the Gregorian calendar.",
+        "meaning_zh_TW": "一月",
+        "wrong_meaning_zh_TW": [
+          "年底",
+          "夏季",
+          "假期"
+        ],
+        "examples": [
+          {
+            "sentence": "My birthday is in [January].",
+            "translation_zh_TW": "我的生日在一月"
+          },
+          {
+            "sentence": "We plan to travel in [January].",
+            "translation_zh_TW": "我們計劃在一月旅行"
+          },
+          {
+            "sentence": "The new year begins in [January].",
+            "translation_zh_TW": "新年在一月開始"
+          }
+        ],
+        "synonyms": [
+          "one",
+          "first month"
+        ]
+      }
+    ],
+    "confusion": [
+      "Januarys",
+      "Janurary",
+      "Januari",
+      "Jaunary"
+    ]
+  },
+  {
+    "word": "June",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The sixth month of the year in the Gregorian calendar.",
+        "meaning_zh_TW": "六月",
+        "wrong_meaning_zh_TW": [
+          "一月",
+          "七月",
+          "十二月"
+        ],
+        "examples": [
+          {
+            "sentence": "June is often considered the start of summer.",
+            "translation_zh_TW": "六月份通常被認為是夏天的開始。"
+          },
+          {
+            "sentence": "My birthday is in [June].",
+            "translation_zh_TW": "我的生日在六月。"
+          },
+          {
+            "sentence": "We plan to go on vacation in [June].",
+            "translation_zh_TW": "我們計劃在六月去度假。"
+          }
+        ],
+        "synonyms": [
+          "summer month",
+          "half-year"
+        ]
+      }
+    ],
+    "confusion": [
+      "Juan",
+      "Juneau",
+      "Juno",
+      "junior"
+    ]
+  },
+  {
+    "word": "OK",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Satisfactory, acceptable.",
+        "meaning_zh_TW": "可接受的",
+        "wrong_meaning_zh_TW": [
+          "不好的",
+          "困難的",
+          "複雜的"
+        ],
+        "examples": [
+          {
+            "sentence": "It's [OK] to ask for help.",
+            "translation_zh_TW": "尋求幫助是可以接受的。"
+          },
+          {
+            "sentence": "She said it was [OK] to borrow her book.",
+            "translation_zh_TW": "她說借她的書是可以的。"
+          },
+          {
+            "sentence": "[OK], let's move on to the next topic.",
+            "translation_zh_TW": "好吧，讓我們進入下一個主題。"
+          }
+        ],
+        "synonyms": [
+          "acceptable",
+          "fine"
+        ]
+      }
+    ],
+    "confusion": [
+      "O.K.",
+      "okay",
+      "okey",
+      "OKay"
+    ]
+  },
+  {
+    "word": "February",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The second month of the year in the Gregorian calendar, typically having 28 days.",
+        "meaning_zh_TW": "二月",
+        "wrong_meaning_zh_TW": [
+          "一月",
+          "三月",
+          "十二月"
+        ],
+        "examples": [
+          {
+            "sentence": "I was born in [February].",
+            "translation_zh_TW": "我是在二月出生的。"
+          },
+          {
+            "sentence": "February is a short month.",
+            "translation_zh_TW": "二月是一個短月。"
+          },
+          {
+            "sentence": "[February] has only 28 days, except in leap years.",
+            "translation_zh_TW": "二月只有28天，除了閏年。"
+          }
+        ],
+        "synonyms": [
+          "the second month",
+          "二月"
+        ]
+      }
+    ],
+    "confusion": [
+      "Febuaray",
+      "Febuary",
+      "Feburary",
+      "Fubruary"
+    ]
+  },
+  {
+    "word": "Saturday",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The day of the week following Friday.",
+        "meaning_zh_TW": "星期六",
+        "wrong_meaning_zh_TW": [
+          "星期五",
+          "星期天",
+          "星期一"
+        ],
+        "examples": [
+          {
+            "sentence": "[Saturday] is my favorite day of the week.",
+            "translation_zh_TW": "星期六是我最喜歡的一天"
+          },
+          {
+            "sentence": "We usually go to the market on [Saturdays].",
+            "translation_zh_TW": "我們通常在星期六去市場"
+          },
+          {
+            "sentence": "I have a meeting scheduled for [Saturday].",
+            "translation_zh_TW": "我有一個會議安排在星期六"
+          }
+        ],
+        "synonyms": [
+          "weekend"
+        ]
+      }
+    ],
+    "confusion": [
+      "Saturn",
+      "satrday",
+      "satur",
+      "saturnday"
+    ]
+  },
+  {
+    "word": "October",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The tenth month of the year in the Gregorian calendar.",
+        "meaning_zh_TW": "十月",
+        "wrong_meaning_zh_TW": [
+          "一月",
+          "九月",
+          "十月的結束"
+        ],
+        "examples": [
+          {
+            "sentence": "My birthday is in [October].",
+            "translation_zh_TW": "我的生日在十月。"
+          },
+          {
+            "sentence": "The leaves start to change color in [October].",
+            "translation_zh_TW": "十月樹葉開始變色。"
+          },
+          {
+            "sentence": "Halloween is celebrated on the last day of [October].",
+            "translation_zh_TW": "萬聖節在十月的最後一天慶祝。"
+          }
+        ],
+        "synonyms": [
+          "October"
+        ]
+      }
+    ],
+    "confusion": [
+      "Octuber",
+      "Octoberfest",
+      "october",
+      "octoberfest"
+    ]
+  },
+  {
+    "word": "Seasons",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The divisions of the year marked by changes in weather, ecology, and daylight.",
+        "meaning_zh_TW": "季節",
+        "wrong_meaning_zh_TW": [
+          "氣候",
+          "時間",
+          "年"
+        ],
+        "examples": [
+          {
+            "sentence": "There are four distinct [seasons] in a year.",
+            "translation_zh_TW": "一年有四個明顯的季節。"
+          },
+          {
+            "sentence": "Autumn is my favorite [season].",
+            "translation_zh_TW": "秋天是我最喜歡的季節。"
+          },
+          {
+            "sentence": "Each [season] has its unique beauty.",
+            "translation_zh_TW": "每個季節都有其獨特的美。"
+          }
+        ],
+        "synonyms": [
+          "period",
+          "time"
+        ]
+      }
+    ],
+    "confusion": [
+      "sessions",
+      "seasoned",
+      "seasonsing",
+      "sease"
+    ]
+  },
+  {
+    "word": "December",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The twelfth month of the year in the Gregorian calendar.",
+        "meaning_zh_TW": "十二月",
+        "wrong_meaning_zh_TW": [
+          "一月",
+          "六月",
+          "九月"
+        ],
+        "examples": [
+          {
+            "sentence": "We celebrate Christmas in [December].",
+            "translation_zh_TW": "我們在十二月慶祝聖誕節。"
+          },
+          {
+            "sentence": "My birthday is in [December].",
+            "translation_zh_TW": "我的生日在十二月。"
+          },
+          {
+            "sentence": "December is a winter month in the northern hemisphere.",
+            "translation_zh_TW": "十二月是北半球的冬季月份。"
+          }
+        ],
+        "synonyms": [
+          "last month",
+          "month twelve"
+        ]
+      }
+    ],
+    "confusion": [
+      "decemberly",
+      "deceember",
+      "decemebr",
+      "decem"
+    ]
+  },
+  {
+    "word": "November",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The eleventh month of the year in the Gregorian calendar.",
+        "meaning_zh_TW": "十一月",
+        "wrong_meaning_zh_TW": [
+          "一月",
+          "三月",
+          "八月"
+        ],
+        "examples": [
+          {
+            "sentence": "Thanksgiving is celebrated in [November].",
+            "translation_zh_TW": "感恩節是在十一月慶祝。"
+          },
+          {
+            "sentence": "The weather gets colder in [November].",
+            "translation_zh_TW": "十一月的天氣變得更冷。"
+          },
+          {
+            "sentence": "Holidays often start in [November].",
+            "translation_zh_TW": "假期通常在十一月開始。"
+          }
+        ],
+        "synonyms": [
+          "month eleven",
+          "autumn month"
+        ]
+      }
+    ],
+    "confusion": [
+      "novemebr",
+      "novem",
+      "novemberly",
+      "nov"
+    ]
+  },
+  {
+    "word": "T-shirt",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A casual shirt with short sleeves and no collar, typically made of cotton.",
+        "meaning_zh_TW": "T 恤",
+        "wrong_meaning_zh_TW": [
+          "襯衫",
+          "外套",
+          "睡衣"
+        ],
+        "examples": [
+          {
+            "sentence": "He wore a red [T-shirt] to the party.",
+            "translation_zh_TW": "他穿了一件紅色的 T 恤參加派對。"
+          },
+          {
+            "sentence": "My favorite [T-shirt] has a cool design.",
+            "translation_zh_TW": "我最喜歡的 T 恤有一個酷酷的設計。"
+          },
+          {
+            "sentence": "She bought a new [T-shirt] from the store.",
+            "translation_zh_TW": "她在商店買了一件新的 T 恤。"
+          }
+        ],
+        "synonyms": [
+          "shirt",
+          "top"
+        ]
+      }
+    ],
+    "confusion": [
+      "T-shir",
+      "Tshirt",
+      "T-shirtz",
+      "T-shart"
+    ]
+  },
+  {
+    "word": "Wednesday",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The day of the week between Tuesday and Thursday.",
+        "meaning_zh_TW": "星期三",
+        "wrong_meaning_zh_TW": [
+          "星期二",
+          "星期四",
+          "週末"
+        ],
+        "examples": [
+          {
+            "sentence": "Meeting is scheduled for Wednesday.",
+            "translation_zh_TW": "會議安排在星期三"
+          },
+          {
+            "sentence": "She always feels tired on Wednesdays.",
+            "translation_zh_TW": "她在星期三總是感到疲倦"
+          },
+          {
+            "sentence": "I usually go grocery shopping on Wednesday.",
+            "translation_zh_TW": "我通常在星期三去購物"
+          }
+        ],
+        "synonyms": [
+          "midweek"
+        ]
+      }
+    ],
+    "confusion": [
+      "Wenesday",
+      "Wedensday",
+      "Wensday",
+      "Weesday"
+    ]
+  },
+  {
+    "word": "Months",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Any of the twelve periods into which a year is divided.",
+        "meaning_zh_TW": "月份",
+        "wrong_meaning_zh_TW": [
+          "日子",
+          "星期",
+          "季節"
+        ],
+        "examples": [
+          {
+            "sentence": "The project will take several [months] to complete.",
+            "translation_zh_TW": "該專案需要幾個月份才能完成。"
+          },
+          {
+            "sentence": "There are twelve [months] in a year.",
+            "translation_zh_TW": "一年有十二個月份。"
+          },
+          {
+            "sentence": "The winter [months] can be very cold.",
+            "translation_zh_TW": "冬季的月份可能非常寒冷。"
+          }
+        ],
+        "synonyms": [
+          "periods",
+          "units of time"
+        ]
+      }
+    ],
+    "confusion": [
+      "month",
+      "months'",
+      "monthes",
+      "monts"
     ]
   }
 ]

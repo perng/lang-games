@@ -1,781 +1,782 @@
 [
   {
-    "word": "parallel",
+    "word": "ally",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person or group that cooperates with or assists another.",
+        "meaning_zh_TW": "盟友",
+        "wrong_meaning_zh_TW": [
+          "敵對者",
+          "反對者",
+          "競爭者"
+        ],
+        "examples": [
+          {
+            "sentence": "He considered her an important [ally] in his campaign.",
+            "translation_zh_TW": "他認為她是他競選活動中的重要盟友。"
+          },
+          {
+            "sentence": "The countries became [allies] during the war.",
+            "translation_zh_TW": "在戰爭期間這些國家成為盟友。"
+          },
+          {
+            "sentence": "An [ally] can provide valuable support in difficult times.",
+            "translation_zh_TW": "盟友在困難時期可以提供寶貴的支持。"
+          }
+        ],
+        "synonyms": [
+          "partner",
+          "associate"
+        ]
+      }
+    ],
+    "confusion": [
+      "allying",
+      "alley",
+      "alleyway",
+      "aly"
+    ]
+  },
+  {
+    "word": "verdict",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A decision on a disputed issue in a civil or criminal case.",
+        "meaning_zh_TW": "裁決",
+        "wrong_meaning_zh_TW": [
+          "判詞",
+          "證據",
+          "證明"
+        ],
+        "examples": [
+          {
+            "sentence": "The jury reached a [verdict] after several days of deliberation.",
+            "translation_zh_TW": "陪審團經過幾天的審議達成了裁決。"
+          },
+          {
+            "sentence": "Her [verdict] was based on the evidence presented in court.",
+            "translation_zh_TW": "她的裁決是基於法庭上提出的證據。"
+          },
+          {
+            "sentence": "The judge announced the final [verdict] to the courtroom.",
+            "translation_zh_TW": "法官在法庭上宣布了最終裁決。"
+          }
+        ],
+        "synonyms": [
+          "ruling",
+          "finding"
+        ]
+      }
+    ],
+    "confusion": [
+      "verdicts",
+      "verdicts",
+      "verdance",
+      "vertical"
+    ]
+  },
+  {
+    "word": "nominee",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who is formally proposed for a position or award.",
+        "meaning_zh_TW": "提名人",
+        "wrong_meaning_zh_TW": [
+          "候選資格",
+          "推薦信",
+          "獎勵金"
+        ],
+        "examples": [
+          {
+            "sentence": "The committee announced the [nominee] for the best actor.",
+            "translation_zh_TW": "委員會宣布最佳男演員的提名人。"
+          },
+          {
+            "sentence": "She is a strong [nominee] for the scholarship.",
+            "translation_zh_TW": "她是一名強有力的獎學金提名人。"
+          },
+          {
+            "sentence": "The [nominee] will be celebrated at the gala event.",
+            "translation_zh_TW": "提名人將在晚會上受到慶祝。"
+          }
+        ],
+        "synonyms": [
+          "candidate",
+          "applicant"
+        ]
+      }
+    ],
+    "confusion": [
+      "nominal",
+      "nominative",
+      "noname",
+      "no name"
+    ]
+  },
+  {
+    "word": "rhetoric",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The art of effective or persuasive speaking or writing.",
+        "meaning_zh_TW": "修辭技巧",
+        "wrong_meaning_zh_TW": [
+          "技術性語言",
+          "溝通技巧",
+          "文學風格"
+        ],
+        "examples": [
+          {
+            "sentence": "His [rhetoric] was captivating and inspired many.",
+            "translation_zh_TW": "他的修辭技巧引人入勝，激勵了許多人。"
+          },
+          {
+            "sentence": "She studied [rhetoric] to enhance her public speaking skills.",
+            "translation_zh_TW": "她學習修辭以提高她的公共演講技巧。"
+          },
+          {
+            "sentence": "Effective [rhetoric] can influence an audience's opinion.",
+            "translation_zh_TW": "有效的修辭可以影響觀眾的看法。"
+          }
+        ],
+        "synonyms": [
+          "eloquence",
+          "oratory"
+        ]
+      }
+    ],
+    "confusion": [
+      "grammatic",
+      "rhetorics",
+      "rhetorick",
+      "retoric"
+    ]
+  },
+  {
+    "word": "impulse",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A sudden strong and unreflective urge or desire to act.",
+        "meaning_zh_TW": "衝動",
+        "wrong_meaning_zh_TW": [
+          "計畫",
+          "測試",
+          "觀察"
+        ],
+        "examples": [
+          {
+            "sentence": "He acted on [impulse] and bought the car.",
+            "translation_zh_TW": "他一時衝動買下了那輛車。"
+          },
+          {
+            "sentence": "Her [impulse] to help was overwhelming.",
+            "translation_zh_TW": "她的幫助衝動無法抵擋。"
+          },
+          {
+            "sentence": "Sometimes, acting on [impulse] can lead to regret.",
+            "translation_zh_TW": "有時候，衝動行事可能會帶來遺憾。"
+          }
+        ],
+        "synonyms": [
+          "urge",
+          "whim"
+        ]
+      }
+    ],
+    "confusion": [
+      "impuls",
+      "imubpse",
+      "impluse",
+      "impols"
+    ]
+  },
+  {
+    "word": "coherent",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having the same direction, course, nature, or tendency.",
-        "meaning_zh_TW": "平行的，同時發生的",
+        "meaning_en_US": "Logical and consistent; able to speak or express oneself clearly.",
+        "meaning_zh_TW": "連貫的，合邏輯且一致的",
         "wrong_meaning_zh_TW": [
-          "交叉的，碰撞的",
-          "隨機的，偶然的",
-          "分散的，偏離的"
+          "不清晰的",
+          "模糊不清的",
+          "分散的"
         ],
         "examples": [
           {
-            "sentence": "The two lines are [parallel] to each other.",
-            "translation_zh_TW": "這兩條線是平行的。"
+            "sentence": "Her argument was clear and [coherent].",
+            "translation_zh_TW": "她的論點清晰且連貫。"
           },
           {
-            "sentence": "Their lives ran in [parallel] paths.",
-            "translation_zh_TW": "他們的生活走上了平行的道路。"
+            "sentence": "The report needs to be more [coherent] for better understanding.",
+            "translation_zh_TW": "報告需要更具連貫性以便更好地理解。"
           },
           {
-            "sentence": "The study found [parallel] trends in different countries.",
-            "translation_zh_TW": "這項研究發現不同國家的趨勢是平行的。"
-          }
-        ],
-        "synonyms": [
-          "equidistant",
-          "similar"
-        ]
-      }
-    ],
-    "confusion": [
-      "paralel",
-      "paraller",
-      "parallax",
-      "parellel"
-    ]
-  },
-  {
-    "word": "bodyguard",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person hired to protect someone.",
-        "meaning_zh_TW": "保鑣",
-        "wrong_meaning_zh_TW": [
-          "隨扈",
-          "學生",
-          "護理"
-        ],
-        "examples": [
-          {
-            "sentence": "The celebrity always travels with a [bodyguard].",
-            "translation_zh_TW": "那位名人總是帶著保鑣旅行。"
-          },
-          {
-            "sentence": "He hired a [bodyguard] for extra safety during the event.",
-            "translation_zh_TW": "他在活動期間僱用了一名保鑣以增加安全性。"
-          },
-          {
-            "sentence": "The [bodyguard] stood close to the client at all times.",
-            "translation_zh_TW": "保鑣始終靠近客戶。"
-          }
-        ],
-        "synonyms": [
-          "protector",
-          "guard"
-        ]
-      }
-    ],
-    "confusion": [
-      "body",
-      "buddy",
-      "god",
-      "gourd"
-    ]
-  },
-  {
-    "word": "confidential",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Intended to be kept secret or private.",
-        "meaning_zh_TW": "機密的",
-        "wrong_meaning_zh_TW": [
-          "公開的",
-          "模糊的",
-          "複雜的"
-        ],
-        "examples": [
-          {
-            "sentence": "All [confidential] documents must be stored securely.",
-            "translation_zh_TW": "所有機密文件必須安全存放。"
-          },
-          {
-            "sentence": "He signed a [confidential] agreement with the company.",
-            "translation_zh_TW": "他與公司簽署了機密協議。"
-          },
-          {
-            "sentence": "The meeting will discuss [confidential] matters.",
-            "translation_zh_TW": "會議將討論機密事項。"
-          }
-        ],
-        "synonyms": [
-          "secret",
-          "private"
-        ]
-      }
-    ],
-    "confusion": [
-      "confidentiality",
-      "confidence",
-      "confident",
-      "confined"
-    ]
-  },
-  {
-    "word": "spacious",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having ample space; large in size.",
-        "meaning_zh_TW": "寬敞的",
-        "wrong_meaning_zh_TW": [
-          "狹窄的",
-          "惡劣的",
-          "擁擠的"
-        ],
-        "examples": [
-          {
-            "sentence": "The hotel room was spacious and comfortable.",
-            "translation_zh_TW": "酒店房間寬敞舒適"
-          },
-          {
-            "sentence": "They moved to a more spacious apartment.",
-            "translation_zh_TW": "他們搬到了更寬敞的公寓"
-          },
-          {
-            "sentence": "The car's interior felt spacious and inviting.",
-            "translation_zh_TW": "車內感覺寬敞而舒適"
-          }
-        ],
-        "synonyms": [
-          "roomy",
-          "ample"
-        ]
-      }
-    ],
-    "confusion": [
-      "spacious",
-      "spaceous",
-      "spacioius",
-      "speacious"
-    ]
-  },
-  {
-    "word": "wig",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An artificial covering for the head made of human or synthetic hair.",
-        "meaning_zh_TW": "假髮",
-        "wrong_meaning_zh_TW": [
-          "髮圈",
-          "髮型",
-          "髮膠"
-        ],
-        "examples": [
-          {
-            "sentence": "She wore a [wig] for the costume party.",
-            "translation_zh_TW": "她為了化妝舞會戴上了假髮。"
-          },
-          {
-            "sentence": "The actress changed her style with a new [wig].",
-            "translation_zh_TW": "這位女演員用一頂新假髮改變了她的風格。"
-          },
-          {
-            "sentence": "He couldn't believe how realistic the [wig] looked.",
-            "translation_zh_TW": "他不敢相信這頂假髮看起來有多真實。"
-          }
-        ],
-        "synonyms": [
-          "hairpiece",
-          "toupee"
-        ]
-      }
-    ],
-    "confusion": [
-      "wiggle",
-      "widge",
-      "wog",
-      "dig"
-    ]
-  },
-  {
-    "word": "thesis",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A statement or theory that is put forward as a premise to be maintained or proved.",
-        "meaning_zh_TW": "論文",
-        "wrong_meaning_zh_TW": [
-          "簡報",
-          "報告",
-          "書信"
-        ],
-        "examples": [
-          {
-            "sentence": "Her thesis focused on renewable energy sources.",
-            "translation_zh_TW": "她的論文專注於可再生能源來源。"
-          },
-          {
-            "sentence": "He defended his thesis before the committee.",
-            "translation_zh_TW": "他在委員會前為自己的論文辯護。"
-          },
-          {
-            "sentence": "Writing a thesis can be a daunting task.",
-            "translation_zh_TW": "撰寫論文可能是一項艱巨的任務。"
-          }
-        ],
-        "synonyms": [
-          "dissertation",
-          "argument"
-        ]
-      }
-    ],
-    "confusion": [
-      "thessis",
-      "thesisx",
-      "thesiss",
-      "thesie"
-    ]
-  },
-  {
-    "word": "patch",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A piece of material used to cover a hole or a weak spot.",
-        "meaning_zh_TW": "補丁",
-        "wrong_meaning_zh_TW": [
-          "孔",
-          "線",
-          "衣服"
-        ],
-        "examples": [
-          {
-            "sentence": "She sewed a [patch] on her torn jeans.",
-            "translation_zh_TW": "她在破爛的牛仔褲上縫了補丁。"
-          },
-          {
-            "sentence": "The [patch] in the roof needs to be replaced.",
-            "translation_zh_TW": "屋頂的那個補丁需要更換。"
-          },
-          {
-            "sentence": "He applied a [patch] to fix the software issue.",
-            "translation_zh_TW": "他應用了一個補丁來修復軟體問題。"
-          }
-        ],
-        "synonyms": [
-          "piece",
-          "mend"
-        ]
-      }
-    ],
-    "confusion": [
-      "patchy",
-      "punch",
-      "peach"
-    ]
-  },
-  {
-    "word": "ecology",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The branch of biology that deals with the relations of organisms to one another and to their physical surroundings.",
-        "meaning_zh_TW": "生態學",
-        "wrong_meaning_zh_TW": [
-          "經濟學",
-          "地理學",
-          "環境科學"
-        ],
-        "examples": [
-          {
-            "sentence": "She studied [ecology] in college to understand environmental issues.",
-            "translation_zh_TW": "她在大學學習生態學以了解環境問題。"
-          },
-          {
-            "sentence": "The balance of [ecology] is crucial for the well-being of species.",
-            "translation_zh_TW": "生態的平衡對物種的福祉至關重要。"
-          },
-          {
-            "sentence": "The book provides insight into [ecology] and biodiversity.",
-            "translation_zh_TW": "這本書提供了生態學和生物多樣性的深刻見解。"
-          }
-        ],
-        "synonyms": [
-          "environmental science",
-          "biological community"
-        ]
-      }
-    ],
-    "confusion": [
-      "ecological",
-      "economy",
-      "icosahedron",
-      "etology"
-    ]
-  },
-  {
-    "word": "straightforward",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Easy to understand or simple to do.",
-        "meaning_zh_TW": "簡單明瞭的",
-        "wrong_meaning_zh_TW": [
-          "複雜的",
-          "不明瞭的",
-          "難以理解的"
-        ],
-        "examples": [
-          {
-            "sentence": "The instructions were very [straightforward].",
-            "translation_zh_TW": "這些指示非常簡單明瞭。"
-          },
-          {
-            "sentence": "She gave a [straightforward] answer to the question.",
-            "translation_zh_TW": "她對那個問題給了一個明確的回答。"
-          },
-          {
-            "sentence": "His explanation was [straightforward] and clear.",
-            "translation_zh_TW": "他的解釋簡單明瞭且清晰。"
-          }
-        ],
-        "synonyms": [
-          "clear-cut",
-          "uncomplicated"
-        ]
-      }
-    ],
-    "confusion": [
-      "straightforward",
-      "straightened",
-      "straight",
-      "straight"
-    ]
-  },
-  {
-    "word": "comprehension",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The ability to understand something.",
-        "meaning_zh_TW": "理解力，理解",
-        "wrong_meaning_zh_TW": [
-          "分辨能力",
-          "推理力",
-          "定位"
-        ],
-        "examples": [
-          {
-            "sentence": "Reading regularly improves your reading [comprehension].",
-            "translation_zh_TW": "定期閱讀提高你的閱讀理解能力。"
-          },
-          {
-            "sentence": "Her [comprehension] of the text was impressive.",
-            "translation_zh_TW": "她對文本的理解給人深刻的印象。"
-          },
-          {
-            "sentence": "Test your [comprehension] with these questions.",
-            "translation_zh_TW": "用這些問題測試你的理解能力。"
-          }
-        ],
-        "synonyms": [
-          "understanding",
-          "grasp"
-        ]
-      }
-    ],
-    "confusion": [
-      "comprehending",
-      "comprehensive",
-      "comprehensively",
-      "comprehensible"
-    ]
-  },
-  {
-    "word": "betray",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To reveal secrets or information that should be kept confidential.",
-        "meaning_zh_TW": "背叛",
-        "wrong_meaning_zh_TW": [
-          "信任",
-          "友情",
-          "合作"
-        ],
-        "examples": [
-          {
-            "sentence": "He would never [betray] his friends.",
-            "translation_zh_TW": "他絕不會背叛他的朋友"
-          },
-          {
-            "sentence": "She felt hurt when he [betrayed] her trust.",
-            "translation_zh_TW": "當他背叛了她的信任時，她感到受傷"
-          },
-          {
-            "sentence": "To [betray] your country is a serious crime.",
-            "translation_zh_TW": "背叛你的國家是一種嚴重的罪行"
-          }
-        ],
-        "synonyms": [
-          "betrayal",
-          "deceive"
-        ]
-      }
-    ],
-    "confusion": [
-      "betraied",
-      "betrayed",
-      "betrayer",
-      "betrays"
-    ]
-  },
-  {
-    "word": "exceed",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To go beyond a limit or boundary.",
-        "meaning_zh_TW": "超過限制或邊界",
-        "wrong_meaning_zh_TW": [
-          "包含在內",
-          "預期內的",
-          "符合要求"
-        ],
-        "examples": [
-          {
-            "sentence": "Do not [exceed] the speed limit.",
-            "translation_zh_TW": "請勿超過速度限制。"
-          },
-          {
-            "sentence": "Her performance will [exceed] our expectations.",
-            "translation_zh_TW": "她的表現將超出我們的期望。"
-          },
-          {
-            "sentence": "You must [exceed] your previous record to win.",
-            "translation_zh_TW": "你必須超過你之前的紀錄才能獲勝。"
-          }
-        ],
-        "synonyms": [
-          "surpass",
-          "overstep"
-        ]
-      }
-    ],
-    "confusion": [
-      "access",
-      "succeed",
-      "exceedingly",
-      "proceed"
-    ]
-  },
-  {
-    "word": "combat",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To engage in active fighting or struggle.",
-        "meaning_zh_TW": "戰鬥",
-        "wrong_meaning_zh_TW": [
-          "對話",
-          "協調",
-          "交流"
-        ],
-        "examples": [
-          {
-            "sentence": "Soldiers [combat] their enemies on the battlefield.",
-            "translation_zh_TW": "士兵們在戰場上與敵軍戰鬥。"
-          },
-          {
-            "sentence": "We need to [combat] climate change through collective efforts.",
-            "translation_zh_TW": "我們需要通過集體努力來對抗氣候變化。"
-          },
-          {
-            "sentence": "The organization aims to [combat] poverty in urban areas.",
-            "translation_zh_TW": "該組織旨在對抗城市地區的貧困。"
-          }
-        ],
-        "synonyms": [
-          "fight",
-          "battle"
-        ]
-      }
-    ],
-    "confusion": [
-      "combatant",
-      "comber",
-      "combate",
-      "commbat"
-    ]
-  },
-  {
-    "word": "controversy",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A prolonged public dispute, debate, or contention.",
-        "meaning_zh_TW": "公共爭議",
-        "wrong_meaning_zh_TW": [
-          "公共事件",
-          "討論會議",
-          "主題演講"
-        ],
-        "examples": [
-          {
-            "sentence": "The new policy has sparked a [controversy] among citizens.",
-            "translation_zh_TW": "新政策在市民中引發了爭議"
-          },
-          {
-            "sentence": "This book raised a lot of [controversy] about its subject matter.",
-            "translation_zh_TW": "這本書對其主題引發了很多爭議"
-          },
-          {
-            "sentence": "There is ongoing [controversy] regarding the environmental impact.",
-            "translation_zh_TW": "有關環境影響的爭議仍在進行中"
-          }
-        ],
-        "synonyms": [
-          "dispute",
-          "debate"
-        ]
-      }
-    ],
-    "confusion": [
-      "controversial",
-      "converse",
-      "convertible",
-      "conventional"
-    ]
-  },
-  {
-    "word": "grip",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A firm hold or control.",
-        "meaning_zh_TW": "掌握",
-        "wrong_meaning_zh_TW": [
-          "失去",
-          "放開",
-          "孤立"
-        ],
-        "examples": [
-          {
-            "sentence": "He has a strong [grip] on the handlebars.",
-            "translation_zh_TW": "他緊緊握住車把"
-          },
-          {
-            "sentence": "The athlete maintained [grip] throughout the competition.",
-            "translation_zh_TW": "運動員在比賽中保持了掌握"
-          },
-          {
-            "sentence": "The child slipped from her [grip].",
-            "translation_zh_TW": "孩子脫離了她的掌握"
-          }
-        ],
-        "synonyms": [
-          "hold",
-          "clutch"
-        ]
-      }
-    ],
-    "confusion": [
-      "gripz",
-      "clip",
-      "drop",
-      "grop"
-    ]
-  },
-  {
-    "word": "rational",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Based on or in accordance with reason or logic.",
-        "meaning_zh_TW": "理性的",
-        "wrong_meaning_zh_TW": [
-          "情感化的",
-          "隨意的",
-          "非理性的"
-        ],
-        "examples": [
-          {
-            "sentence": "He made a [rational] decision after analyzing the facts.",
-            "translation_zh_TW": "他在分析事實後做出了理性的決定"
-          },
-          {
-            "sentence": "It's important to stay [rational] during a crisis.",
-            "translation_zh_TW": "在危機中保持理性是很重要的"
-          },
-          {
-            "sentence": "A [rational] approach can lead to better results.",
-            "translation_zh_TW": "理性的方式可以帶來更好的結果"
+            "sentence": "A [coherent] presentation captivates the audience.",
+            "translation_zh_TW": "一個連貫的演示會吸引觀眾。"
           }
         ],
         "synonyms": [
           "logical",
-          "reasonable"
+          "consistent"
         ]
       }
     ],
     "confusion": [
-      "rationale",
-      "ratinal",
-      "ratin",
-      "rationality"
+      "coherant",
+      "coherently",
+      "coherance",
+      "coherency"
     ]
   },
   {
-    "word": "equation",
+    "word": "accelerate",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A statement that the values of two mathematical expressions are equal.",
-        "meaning_zh_TW": "方程式",
+        "type": "動詞",
+        "meaning_en_US": "To increase in speed or to cause to increase in speed.",
+        "meaning_zh_TW": "加速",
         "wrong_meaning_zh_TW": [
-          "不等式",
-          "數據集",
-          "演算法"
+          "減速",
+          "停頓",
+          "加價"
         ],
         "examples": [
           {
-            "sentence": "To solve the [equation], you must isolate the variable.",
-            "translation_zh_TW": "要解這個方程式，你必須孤立變量。"
+            "sentence": "The car began to [accelerate] as it went downhill.",
+            "translation_zh_TW": "汽車在下坡時開始加速。"
           },
           {
-            "sentence": "An algebraic [equation] can represent a line on a graph.",
-            "translation_zh_TW": "代數方程式可以在圖形上表示一條線。"
+            "sentence": "We need to [accelerate] our plans for the project.",
+            "translation_zh_TW": "我們需要加速我們的計畫。"
           },
           {
-            "sentence": "This [equation] is crucial for understanding the problem.",
-            "translation_zh_TW": "這個方程式對於理解問題至關重要。"
+            "sentence": "The athlete was training to [accelerate] his performance.",
+            "translation_zh_TW": "運動員正在訓練以提高他的表現。"
           }
         ],
         "synonyms": [
-          "formula",
-          "expression"
+          "speed up",
+          "hasten"
         ]
       }
     ],
     "confusion": [
-      "equitable",
-      "equalize",
-      "equilibrium",
-      "equivalent"
+      "acceleration",
+      "accelerated",
+      "accelerationism",
+      "accelebration"
     ]
   },
   {
-    "word": "pier",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A structure built on posts extending from land out over water.",
-        "meaning_zh_TW": "碼頭、橋墩",
-        "wrong_meaning_zh_TW": [
-          "海岸、沙灘",
-          "碼頭、停泊處",
-          "船隻、航運"
-        ],
-        "examples": [
-          {
-            "sentence": "We walked along the [pier] at sunset.",
-            "translation_zh_TW": "我們在日落時沿著碼頭散步"
-          },
-          {
-            "sentence": "Fishing from the [pier] is popular among locals.",
-            "translation_zh_TW": "當地人喜歡在碼頭釣魚"
-          },
-          {
-            "sentence": "The [pier] was crowded with tourists.",
-            "translation_zh_TW": "碼頭擠滿了遊客"
-          }
-        ],
-        "synonyms": [
-          "jetty",
-          "wharf"
-        ]
-      }
-    ],
-    "confusion": [
-      "peer",
-      "pierce",
-      "pire",
-      "pair"
-    ]
-  },
-  {
-    "word": "absurd",
+    "word": "manifest",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Wildly unreasonable, illogical, or inappropriate.",
-        "meaning_zh_TW": "荒謬的",
+        "meaning_en_US": "Clear or obvious to the eye or mind.",
+        "meaning_zh_TW": "明顯的",
         "wrong_meaning_zh_TW": [
-          "合理的",
-          "恰當的",
-          "正常的"
+          "隱秘的",
+          "模糊的",
+          "簡單的"
         ],
         "examples": [
           {
-            "sentence": "It was an [absurd] idea that made no sense.",
-            "translation_zh_TW": "這是一個荒謬且毫無意義的想法"
+            "sentence": "Her happiness was [manifest] to everyone around her.",
+            "translation_zh_TW": "她的幸福對她周圍的每個人都是明顯的."
           },
           {
-            "sentence": "They were confronted with the [absurd] reality of their situation.",
-            "translation_zh_TW": "他們面對過於荒謬的現實"
+            "sentence": "The evidence was [manifest] in the results.",
+            "translation_zh_TW": "證據在結果中是明顯的."
           },
           {
-            "sentence": "His arguments were so [absurd] that nobody took him seriously.",
-            "translation_zh_TW": "他的論點荒謬到沒有人認真對待他"
+            "sentence": "His talent was [manifest] from a young age.",
+            "translation_zh_TW": "他的才華從小就顯而易見."
           }
         ],
         "synonyms": [
-          "ridiculous",
-          "foolish"
+          "apparent",
+          "clear"
         ]
       }
     ],
     "confusion": [
-      "abstruse",
-      "abstract",
-      "absent",
-      "abode"
+      "manifes",
+      "manafest",
+      "manifet",
+      "manifests"
     ]
   },
   {
-    "word": "indispensable",
+    "word": "petty",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Absolutely necessary; essential.",
-        "meaning_zh_TW": "不可或缺的、必需的",
+        "meaning_en_US": "Of little importance; trivial.",
+        "meaning_zh_TW": "瑣碎的",
         "wrong_meaning_zh_TW": [
-          "可有可無的",
-          "選擇性的",
-          "次要的"
+          "重要的",
+          "嚴重的",
+          "複雜的"
         ],
         "examples": [
           {
-            "sentence": "Water is [indispensable] for human survival.",
-            "translation_zh_TW": "水對人類的生存是不可或缺的"
+            "sentence": "He often complains about [petty] issues at work.",
+            "translation_zh_TW": "他常常抱怨工作上的瑣碎問題。"
           },
           {
-            "sentence": "Honesty is an [indispensable] quality in a leader.",
-            "translation_zh_TW": "誠實是領導者不可或缺的素質"
+            "sentence": "Don't let [petty] arguments ruin your friendship.",
+            "translation_zh_TW": "不要讓瑣碎的爭吵毀了你的友誼。"
           },
           {
-            "sentence": "These tools are [indispensable] for the job.",
-            "translation_zh_TW": "這些工具對工作是必需的"
+            "sentence": "She is too [petty] to appreciate the bigger picture.",
+            "translation_zh_TW": "她太瑣碎，無法欣賞更大的圖景。"
           }
         ],
         "synonyms": [
-          "essential",
-          "necessary"
+          "trivial",
+          "minor"
         ]
       }
     ],
     "confusion": [
-      "indecisive",
-      "indecent",
-      "independent",
-      "interdependence"
+      "pretty",
+      "pity",
+      "petulant",
+      "peddle"
+    ]
+  },
+  {
+    "word": "smash",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To break something into pieces violently.",
+        "meaning_zh_TW": "粉碎",
+        "wrong_meaning_zh_TW": [
+          "修理",
+          "組裝",
+          "拼合"
+        ],
+        "examples": [
+          {
+            "sentence": "He tried to smash the window with a rock.",
+            "translation_zh_TW": "他試圖用石頭粉碎窗戶"
+          },
+          {
+            "sentence": "The kids love to smash piñatas at parties.",
+            "translation_zh_TW": "孩子們喜歡在派對上粉碎獨角獸"
+          },
+          {
+            "sentence": "She will smash the record if she keeps training.",
+            "translation_zh_TW": "如果她繼續訓練，她將打破紀錄"
+          }
+        ],
+        "synonyms": [
+          "crush",
+          "shatter"
+        ]
+      }
+    ],
+    "confusion": [
+      "smash",
+      "smach",
+      "smaash",
+      "smesh"
+    ]
+  },
+  {
+    "word": "destructive",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Causing or able to cause damage.",
+        "meaning_zh_TW": "具破壞性的",
+        "wrong_meaning_zh_TW": [
+          "建設性的",
+          "創造性的",
+          "健康的"
+        ],
+        "examples": [
+          {
+            "sentence": "The storm was [destructive] to the town.",
+            "translation_zh_TW": "這場風暴對小鎮造成了破壞。"
+          },
+          {
+            "sentence": "His [destructive] behavior worried his friends.",
+            "translation_zh_TW": "他具破壞性的行為讓朋友們擔心。"
+          },
+          {
+            "sentence": "The plan had [destructive] consequences.",
+            "translation_zh_TW": "該計劃帶來了具破壞性的後果。"
+          }
+        ],
+        "synonyms": [
+          "damaging",
+          "harmful"
+        ]
+      }
+    ],
+    "confusion": [
+      "destruct",
+      "destruction",
+      "dedtructive",
+      "destructively"
+    ]
+  },
+  {
+    "word": "ample",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Enough or more than enough; plentiful.",
+        "meaning_zh_TW": "充足的",
+        "wrong_meaning_zh_TW": [
+          "貧乏的",
+          "不足的",
+          "昂貴的"
+        ],
+        "examples": [
+          {
+            "sentence": "There was [ample] time to finish the project.",
+            "translation_zh_TW": "有充足的時間完成這個項目。"
+          },
+          {
+            "sentence": "She offered [ample] evidence to support her claim.",
+            "translation_zh_TW": "她提供了充足的證據來支持她的主張。"
+          },
+          {
+            "sentence": "The room has [ample] space for guests.",
+            "translation_zh_TW": "這個房間對客人來說有充足的空間。"
+          }
+        ],
+        "synonyms": [
+          "sufficient",
+          "plentiful"
+        ]
+      }
+    ],
+    "confusion": [
+      "template",
+      "simple",
+      "tample",
+      "sample"
+    ]
+  },
+  {
+    "word": "sophomore",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A second-year student in a high school or college.",
+        "meaning_zh_TW": "二年級學生",
+        "wrong_meaning_zh_TW": [
+          "新生",
+          "畢業生",
+          "三年級學生"
+        ],
+        "examples": [
+          {
+            "sentence": "She is a [sophomore] majoring in biology.",
+            "translation_zh_TW": "她是一名主修生物的二年級學生。"
+          },
+          {
+            "sentence": "The [sophomore] year can often be challenging.",
+            "translation_zh_TW": "二年級通常會很有挑戰性。"
+          },
+          {
+            "sentence": "As a [sophomore], he is starting to focus on his future career.",
+            "translation_zh_TW": "作為二年級學生，他開始專注於未來的職業。"
+          }
+        ],
+        "synonyms": [
+          "second-year student",
+          "underclassman"
+        ]
+      }
+    ],
+    "confusion": [
+      "sophisticated",
+      "sop",
+      "sofa",
+      "sophism"
+    ]
+  },
+  {
+    "word": "obscure",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Not discovered or known about; uncertain.",
+        "meaning_zh_TW": "模糊的",
+        "wrong_meaning_zh_TW": [
+          "明確的",
+          "重要的",
+          "流行的"
+        ],
+        "examples": [
+          {
+            "sentence": "The origins of the tradition remain [obscure].",
+            "translation_zh_TW": "這一傳統的起源仍然模糊不清"
+          },
+          {
+            "sentence": "He made an [obscure] reference that few understood.",
+            "translation_zh_TW": "他做了一個少數人懂的模糊引用"
+          },
+          {
+            "sentence": "Many [obscure] artists are not recognized in mainstream media.",
+            "translation_zh_TW": "許多模糊的藝術家在主流媒體中並不被認可"
+          }
+        ],
+        "synonyms": [
+          "unclear",
+          "unknown"
+        ]
+      }
+    ],
+    "confusion": [
+      "obscured",
+      "absorb",
+      "object",
+      "oblige"
+    ]
+  },
+  {
+    "word": "spicy",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having a strong, pungent flavor or odor; flavored with spices.",
+        "meaning_zh_TW": "辛辣的",
+        "wrong_meaning_zh_TW": [
+          "清淡的",
+          "甜的",
+          "鹹的"
+        ],
+        "examples": [
+          {
+            "sentence": "I love [spicy] food that makes my mouth tingle.",
+            "translation_zh_TW": "我喜歡讓我嘴巴感到刺痛的辛辣食物。"
+          },
+          {
+            "sentence": "The dish was too [spicy] for my taste.",
+            "translation_zh_TW": "這道菜對我來說太辛辣了。"
+          },
+          {
+            "sentence": "Curry is famous for its [spicy] flavor.",
+            "translation_zh_TW": "咖哩以其辛辣的味道而聞名。"
+          }
+        ],
+        "synonyms": [
+          "hot",
+          "piquant"
+        ]
+      }
+    ],
+    "confusion": [
+      "spice",
+      "spiciness",
+      "spicyness",
+      "spicey"
+    ]
+  },
+  {
+    "word": "mock",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make fun of someone or something by imitating them.",
+        "meaning_zh_TW": "嘲弄",
+        "wrong_meaning_zh_TW": [
+          "讚美",
+          "支持",
+          "幫助"
+        ],
+        "examples": [
+          {
+            "sentence": "The children began to [mock] the teacher’s voice.",
+            "translation_zh_TW": "孩子們開始嘲弄老師的聲音"
+          },
+          {
+            "sentence": "They would [mock] their friends playfully.",
+            "translation_zh_TW": "他們會嬉戲地嘲弄朋友"
+          },
+          {
+            "sentence": "It’s not nice to [mock] others.",
+            "translation_zh_TW": "嘲弄他人是不好的"
+          }
+        ],
+        "synonyms": [
+          "ridicule",
+          "tease"
+        ]
+      }
+    ],
+    "confusion": [
+      "muck",
+      "moc",
+      "mocked",
+      "mocks"
+    ]
+  },
+  {
+    "word": "premise",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A previous statement or proposition from which another is inferred.",
+        "meaning_zh_TW": "前提",
+        "wrong_meaning_zh_TW": [
+          "產品",
+          "結論",
+          "例證"
+        ],
+        "examples": [
+          {
+            "sentence": "The argument is based on a false [premise].",
+            "translation_zh_TW": "這個論點是基於一個錯誤的前提。"
+          },
+          {
+            "sentence": "He started with the [premise] that the project would succeed.",
+            "translation_zh_TW": "他以項目會成功的前提開始。"
+          },
+          {
+            "sentence": "We should examine the [premises] of the theory.",
+            "translation_zh_TW": "我們應該檢驗該理論的前提。"
+          }
+        ],
+        "synonyms": [
+          "assumption",
+          "basis"
+        ]
+      }
+    ],
+    "confusion": [
+      "premier",
+      "premature",
+      "premiums",
+      "premised"
+    ]
+  },
+  {
+    "word": "epidemic",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A widespread occurrence of an infectious disease in a community at a particular time.",
+        "meaning_zh_TW": "流行病",
+        "wrong_meaning_zh_TW": [
+          "煙霧彌漫",
+          "普遍現象",
+          "危機管理"
+        ],
+        "examples": [
+          {
+            "sentence": "The town declared a state of emergency due to the [epidemic].",
+            "translation_zh_TW": "由於流行病，該鎮宣布進入緊急狀態。"
+          },
+          {
+            "sentence": "Health officials are working to control the [epidemic].",
+            "translation_zh_TW": "衛生官員正在努力控制流行病。"
+          },
+          {
+            "sentence": "Vaccinations are key to preventing the spread of an [epidemic].",
+            "translation_zh_TW": "疫苗接種是防止流行病擴散的關鍵。"
+          }
+        ],
+        "synonyms": [
+          "outbreak",
+          "plague"
+        ]
+      }
+    ],
+    "confusion": [
+      "epidemiology",
+      "epic",
+      "indexed",
+      "representative"
+    ]
+  },
+  {
+    "word": "chord",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A group of notes played together to create harmony.",
+        "meaning_zh_TW": "和弦",
+        "wrong_meaning_zh_TW": [
+          "音階",
+          "節拍",
+          "旋律"
+        ],
+        "examples": [
+          {
+            "sentence": "She played a G major [chord] on the piano.",
+            "translation_zh_TW": "她在鋼琴上彈奏了G大調和弦。"
+          },
+          {
+            "sentence": "The song starts with a C major [chord].",
+            "translation_zh_TW": "這首歌以C大調和弦開始。"
+          },
+          {
+            "sentence": "Understanding [chords] is essential for playing music.",
+            "translation_zh_TW": "理解和弦對於演奏音樂是至關重要的。"
+          }
+        ],
+        "synonyms": [
+          "harmony",
+          "triad"
+        ]
+      }
+    ],
+    "confusion": [
+      "cord",
+      "chored",
+      "cords",
+      "chords"
+    ]
+  },
+  {
+    "word": "dilemma",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A situation in which a difficult choice has to be made between two or more alternatives.",
+        "meaning_zh_TW": "進退兩難",
+        "wrong_meaning_zh_TW": [
+          "問題",
+          "選擇",
+          "困難"
+        ],
+        "examples": [
+          {
+            "sentence": "She faced a moral [dilemma] at work.",
+            "translation_zh_TW": "她在工作中面臨著道德上的進退兩難。"
+          },
+          {
+            "sentence": "Choosing between the two jobs was a real [dilemma].",
+            "translation_zh_TW": "在這兩份工作之間做選擇真的是一個進退兩難的困境。"
+          },
+          {
+            "sentence": "They found themselves in a financial [dilemma].",
+            "translation_zh_TW": "他們發現自己陷入了財務困境。"
+          }
+        ],
+        "synonyms": [
+          "predicament",
+          "quandary"
+        ]
+      }
+    ],
+    "confusion": [
+      "dilemmatic",
+      "dilemmma",
+      "dilema",
+      "dilamma"
     ]
   }
 ]

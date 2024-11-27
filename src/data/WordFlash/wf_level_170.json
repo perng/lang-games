@@ -1,783 +1,783 @@
 [
   {
-    "word": "cinema",
+    "word": "crispy",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Describing food that is pleasantly firm and crunchy.",
+        "meaning_zh_TW": "酥脆的",
+        "wrong_meaning_zh_TW": [
+          "濕潤的",
+          "柔軟的",
+          "油膩的"
+        ],
+        "examples": [
+          {
+            "sentence": "The fried chicken was perfectly [crispy].",
+            "translation_zh_TW": "炸雞外皮酥脆完美"
+          },
+          {
+            "sentence": "She likes her bacon [crispy].",
+            "translation_zh_TW": "她喜歡培根酥脆"
+          },
+          {
+            "sentence": "The salad had a [crispy] texture.",
+            "translation_zh_TW": "沙拉有一種酥脆的質感"
+          }
+        ],
+        "synonyms": [
+          "crunchy",
+          "crispy-fried"
+        ]
+      }
+    ],
+    "confusion": [
+      "crisp",
+      "crispey",
+      "crispie",
+      "crisped"
+    ]
+  },
+  {
+    "word": "foggy",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Filled with fog; characterized by visibility reduced by mist or haze.",
+        "meaning_zh_TW": "充滿霧的",
+        "wrong_meaning_zh_TW": [
+          "晴天",
+          "冰冷",
+          "紅色"
+        ],
+        "examples": [
+          {
+            "sentence": "It was a [foggy] morning and hard to see.",
+            "translation_zh_TW": "那是個霧濛濛的早晨，很難看清。"
+          },
+          {
+            "sentence": "Driving can be dangerous on [foggy] nights.",
+            "translation_zh_TW": "在霧蒙蒙的夜晚駕駛可能很危險。"
+          },
+          {
+            "sentence": "The landscape looked mysterious in the [foggy] weather.",
+            "translation_zh_TW": "在霧濛濛的天氣中，風景看起來很神秘。"
+          }
+        ],
+        "synonyms": [
+          "misty",
+          "hazy"
+        ]
+      }
+    ],
+    "confusion": [
+      "fog",
+      "doggy",
+      "fubby",
+      "foogy"
+    ]
+  },
+  {
+    "word": "hasty",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Done or acting with excessive speed or urgency.",
+        "meaning_zh_TW": "匆忙的",
+        "wrong_meaning_zh_TW": [
+          "謹慎的",
+          "有序的",
+          "冷靜的"
+        ],
+        "examples": [
+          {
+            "sentence": "He made a [hasty] decision without thinking.",
+            "translation_zh_TW": "他匆忙做了個決定，沒有思考。"
+          },
+          {
+            "sentence": "Her [hasty] reply surprised everyone.",
+            "translation_zh_TW": "她的匆忙回覆讓大家感到驚訝。"
+          },
+          {
+            "sentence": "The [hasty] actions led to mistakes.",
+            "translation_zh_TW": "匆忙的行動導致了錯誤。"
+          }
+        ],
+        "synonyms": [
+          "rapid",
+          "hurried"
+        ]
+      }
+    ],
+    "confusion": [
+      "nasty",
+      "tasty",
+      "paste",
+      "haste"
+    ]
+  },
+  {
+    "word": "mend",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To repair something that is broken or damaged.",
+        "meaning_zh_TW": "修補",
+        "wrong_meaning_zh_TW": [
+          "掩飾",
+          "改變",
+          "隱藏"
+        ],
+        "examples": [
+          {
+            "sentence": "He tried to [mend] the broken vase.",
+            "translation_zh_TW": "他試著修補破碎的花瓶"
+          },
+          {
+            "sentence": "She needed to [mend] her torn dress.",
+            "translation_zh_TW": "她需要修補她撕破的裙子"
+          },
+          {
+            "sentence": "They called a technician to [mend] the computer.",
+            "translation_zh_TW": "他們叫了技術人員來修理電腦"
+          }
+        ],
+        "synonyms": [
+          "repair",
+          "fix"
+        ]
+      }
+    ],
+    "confusion": [
+      "mind",
+      "blend",
+      "bend",
+      "mendax"
+    ]
+  },
+  {
+    "word": "amazement",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A place where movies are shown to the public.",
-        "meaning_zh_TW": "電影院",
+        "meaning_en_US": "A feeling of great surprise or wonder.",
+        "meaning_zh_TW": "驚訝",
         "wrong_meaning_zh_TW": [
-          "音樂廳",
-          "博物館",
-          "藝術館"
+          "失落",
+          "疑惑",
+          "不確定"
         ],
         "examples": [
           {
-            "sentence": "We went to the [cinema] to watch the latest film.",
-            "translation_zh_TW": "我們去電影院看最新的電影"
+            "sentence": "She stared at the painting in [amazement].",
+            "translation_zh_TW": "她驚訝地凝視著那幅畫。"
           },
           {
-            "sentence": "The [cinema] was packed with people on Friday night.",
-            "translation_zh_TW": "週五晚上電影院滿是人"
+            "sentence": "His achievement filled everyone with [amazement].",
+            "translation_zh_TW": "他的成就讓每個人都感到驚訝。"
           },
           {
-            "sentence": "She loves the atmosphere of the old [cinema].",
-            "translation_zh_TW": "她喜歡老電影院的氛圍"
+            "sentence": "The audience gasped in [amazement] at the finale.",
+            "translation_zh_TW": "觀眾在結尾時驚呼不已。"
           }
         ],
         "synonyms": [
-          "movie theater",
-          "film house"
+          "wonder",
+          "astonishment"
         ]
       }
     ],
     "confusion": [
-      "cinnabar",
-      "cinal",
-      "cinematic",
-      "symbol"
+      "amazes",
+      "amazing",
+      "amazed",
+      "amz"
     ]
   },
   {
-    "word": "steady",
+    "word": "skillful",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Firmly fixed, supported, or balanced; stable.",
-        "meaning_zh_TW": "穩定的",
+        "meaning_en_US": "Having or showing skill or proficiency.",
+        "meaning_zh_TW": "熟練的",
         "wrong_meaning_zh_TW": [
-          "不堪的",
-          "驚慌的",
-          "脆弱的"
+          "生疏的",
+          "不擅長的",
+          "粗心的"
         ],
         "examples": [
           {
-            "sentence": "She took a [steady] breath before speaking.",
-            "translation_zh_TW": "她在說話前深吸了一口穩定的氣。"
+            "sentence": "She is a [skillful] pianist.",
+            "translation_zh_TW": "她是一位熟練的鋼琴家。"
           },
           {
-            "sentence": "His hands were [steady] as he painted.",
-            "translation_zh_TW": "他畫畫的時候，手保持穩定。"
+            "sentence": "His [skillful] handling of the situation impressed everyone.",
+            "translation_zh_TW": "他熟練地處理這種情況讓所有人都印象深刻。"
           },
           {
-            "sentence": "The economy is [steady] after the reforms.",
-            "translation_zh_TW": "經過改革後，經濟穩定。"
+            "sentence": "To become [skillful], practice is essential.",
+            "translation_zh_TW": "要變得熟練，練習是必不可少的。"
           }
         ],
         "synonyms": [
-          "stable",
-          "consistent"
+          "adept",
+          "proficient"
         ]
       }
     ],
     "confusion": [
-      "study",
-      "sturdy",
-      "steadying",
-      "steely"
+      "skillfull",
+      "skillly",
+      "skillfuly",
+      "skill"
     ]
   },
   {
-    "word": "skip",
+    "word": "housekeeper",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person employed to manage a household and perform domestic tasks.",
+        "meaning_zh_TW": "管家，家庭管理者",
+        "wrong_meaning_zh_TW": [
+          "火警員",
+          "廚師",
+          "清潔工"
+        ],
+        "examples": [
+          {
+            "sentence": "The [housekeeper] keeps the house clean and organized.",
+            "translation_zh_TW": "管家保持房子乾淨整潔。"
+          },
+          {
+            "sentence": "She works as a [housekeeper] in a large hotel.",
+            "translation_zh_TW": "她在一家大型酒店工作當管家。"
+          },
+          {
+            "sentence": "The [housekeeper] prepares meals and manages the household budget.",
+            "translation_zh_TW": "管家負責準備膳食和管理家庭預算。"
+          }
+        ],
+        "synonyms": [
+          "domestic worker",
+          "caretaker"
+        ]
+      }
+    ],
+    "confusion": [
+      "houseker",
+      "housekeep",
+      "housekeeping",
+      "housekeepers"
+    ]
+  },
+  {
+    "word": "grasshopper",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A relatively large insect that is known for its ability to jump great distances.",
+        "meaning_zh_TW": "蝗蟲",
+        "wrong_meaning_zh_TW": [
+          "蜻蜓",
+          "瓢蟲",
+          "蜜蜂"
+        ],
+        "examples": [
+          {
+            "sentence": "The [grasshopper] jumped from one blade of grass to another.",
+            "translation_zh_TW": "蝗蟲從一片草葉跳到另一片。"
+          },
+          {
+            "sentence": "She caught a [grasshopper] and showed it to her friends.",
+            "translation_zh_TW": "她抓住了一隻蝗蟲，並向朋友展示。"
+          },
+          {
+            "sentence": "A [grasshopper] can be found in many grasslands.",
+            "translation_zh_TW": "蝗蟲可以在許多草原中找到。"
+          }
+        ],
+        "synonyms": [
+          "locust",
+          "hopper"
+        ]
+      }
+    ],
+    "confusion": [
+      "grasshop",
+      "grasshoppers",
+      "grassyhopper",
+      "grasshoper"
+    ]
+  },
+  {
+    "word": "amuse",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To move in a light, lively manner by jumping on alternate feet.",
-        "meaning_zh_TW": "用交替的腳輕快地跳躍前進",
+        "meaning_en_US": "To entertain or make someone laugh.",
+        "meaning_zh_TW": "逗樂",
         "wrong_meaning_zh_TW": [
-          "倉促的",
-          "跳躍的",
-          "行走的"
+          "惹怒",
+          "打擾",
+          "無視"
         ],
         "examples": [
           {
-            "sentence": "The children started to [skip] down the path.",
-            "translation_zh_TW": "孩子們開始沿著小路跳著走。"
+            "sentence": "The clown's tricks [amused] the children at the party.",
+            "translation_zh_TW": "小丑的把戲讓派對上的孩子們感到逗樂。"
           },
           {
-            "sentence": "Don't [skip] your breakfast.",
-            "translation_zh_TW": "不要跳過早餐。"
+            "sentence": "She loves to [amuse] her friends with funny stories.",
+            "translation_zh_TW": "她喜歡用有趣的故事逗樂她的朋友。"
           },
           {
-            "sentence": "She decided to [skip] the meeting.",
-            "translation_zh_TW": "她決定不參加會議。"
+            "sentence": "His humor always [amuses] everyone around him.",
+            "translation_zh_TW": "他的幽默總是逗樂他周圍的每一個人。"
           }
         ],
         "synonyms": [
-          "jump",
-          "leap"
+          "entertain",
+          "delight"
         ]
       }
     ],
     "confusion": [
-      "skit",
-      "skid",
-      "ship",
-      "slip"
+      "amused",
+      "abuse",
+      "amusee",
+      "amulet"
     ]
   },
   {
-    "word": "spit",
+    "word": "youngster",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A young person, especially a child or teenager.",
+        "meaning_zh_TW": "年輕人",
+        "wrong_meaning_zh_TW": [
+          "老人",
+          "成人",
+          "幼犬"
+        ],
+        "examples": [
+          {
+            "sentence": "The park was full of [youngsters] playing games.",
+            "translation_zh_TW": "公園裡滿是玩遊戲的年輕人。"
+          },
+          {
+            "sentence": "Youngsters often have a lot of energy.",
+            "translation_zh_TW": "年輕人往往有很多精力。"
+          },
+          {
+            "sentence": "The program is designed for [youngsters] aged 10 to 15.",
+            "translation_zh_TW": "該計畫是為10到15歲的年輕人設計的。"
+          }
+        ],
+        "synonyms": [
+          "teenager",
+          "youth"
+        ]
+      }
+    ],
+    "confusion": [
+      "youngsterss",
+      "youngsterz",
+      "younster",
+      "younger"
+    ]
+  },
+  {
+    "word": "starve",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To eject saliva or other liquid from the mouth.",
-        "meaning_zh_TW": "吐出",
+        "meaning_en_US": "To suffer or die from lack of food.",
+        "meaning_zh_TW": "挨餓",
         "wrong_meaning_zh_TW": [
-          "吸入",
-          "飲用",
-          "咀嚼"
+          "暴飲暴食",
+          "享受美食",
+          "健康飲食"
         ],
         "examples": [
           {
-            "sentence": "He had to [spit] out the bad taste.",
-            "translation_zh_TW": "他不得不把壞味道吐出來。"
+            "sentence": "Many people [starve] due to lack of resources.",
+            "translation_zh_TW": "許多人因資源匱乏而挨餓。"
           },
           {
-            "sentence": "She [spit] out the water after rinsing.",
-            "translation_zh_TW": "她漱口後把水吐了出來。"
+            "sentence": "He felt he could [starve] if he didn't eat soon.",
+            "translation_zh_TW": "他覺得如果不快點吃就會挨餓。"
           },
           {
-            "sentence": "Don't [spit] on the sidewalk!",
-            "translation_zh_TW": "不要在步道上吐口水！"
+            "sentence": "Animals in the wild can [starve] during harsh winters.",
+            "translation_zh_TW": "在嚴酷的冬天，野生動物可能會挨餓。"
           }
         ],
         "synonyms": [
-          "expel",
-          "eject"
+          "underfeed",
+          "hunger"
         ]
       }
     ],
     "confusion": [
-      "spitfire",
-      "spite",
-      "spittel",
-      "spitball"
+      "strove",
+      "starved",
+      "slarve",
+      "starv"
     ]
   },
   {
-    "word": "costly",
+    "word": "handkerchief",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Involving great expense; expensive.",
-        "meaning_zh_TW": "昂貴的",
+        "type": "名詞",
+        "meaning_en_US": "A piece of cloth used for wiping the face or hands.",
+        "meaning_zh_TW": "手帕",
         "wrong_meaning_zh_TW": [
-          "低廉的",
-          "便宜的",
-          "不浪費的"
+          "毛巾",
+          "餐巾",
+          "衣服"
         ],
         "examples": [
           {
-            "sentence": "The repairs were [costly] and took a long time.",
-            "translation_zh_TW": "維修費用高昂且花了很長時間。"
+            "sentence": "He always carries a [handkerchief] in his pocket.",
+            "translation_zh_TW": "他總是口袋裡帶著一條手帕。"
           },
           {
-            "sentence": "They made a [costly] mistake in their calculations.",
-            "translation_zh_TW": "他們在計算中犯了一個代價高的錯誤。"
+            "sentence": "She used the [handkerchief] to wipe her tears.",
+            "translation_zh_TW": "她用手帕擦眼淚。"
           },
           {
-            "sentence": "She wore a [costly] designer dress for the event.",
-            "translation_zh_TW": "她為活動穿了一條昂貴的設計師裙子。"
+            "sentence": "The [handkerchief] was embroidered with her initials.",
+            "translation_zh_TW": "手帕上刺繡了她的首字母。"
           }
         ],
         "synonyms": [
-          "expensive",
-          "pricey"
+          "tissue",
+          "cloth"
         ]
       }
     ],
     "confusion": [
-      "costs",
-      "crossly",
-      "costume",
-      "costlier"
+      "handkerchiefs",
+      "handcrafted",
+      "handball",
+      "handsfree"
     ]
   },
   {
-    "word": "upset",
+    "word": "hairdresser",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person whose occupation is cutting and styling hair.",
+        "meaning_zh_TW": "髮型師",
+        "wrong_meaning_zh_TW": [
+          "化妝師",
+          "護士",
+          "理髮店"
+        ],
+        "examples": [
+          {
+            "sentence": "She visited her favorite [hairdresser] for a trim.",
+            "translation_zh_TW": "她去見她最喜歡的髮型師修剪頭髮。"
+          },
+          {
+            "sentence": "The [hairdresser] suggested a new style for her.",
+            "translation_zh_TW": "髮型師為她建議了一種新風格。"
+          },
+          {
+            "sentence": "My [hairdresser] always knows what I want.",
+            "translation_zh_TW": "我的髮型師總是知道我想要什麼。"
+          }
+        ],
+        "synonyms": [
+          "stylist",
+          "barber"
+        ]
+      }
+    ],
+    "confusion": [
+      "hairdo",
+      "hairdresser's",
+      "hairspray",
+      "hairdryer"
+    ]
+  },
+  {
+    "word": "lollipop",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A hard candy on a stick.",
+        "meaning_zh_TW": "棒棒糖",
+        "wrong_meaning_zh_TW": [
+          "冰淇淋，雪糕",
+          "餅乾，甜點",
+          "飲料，汽水"
+        ],
+        "examples": [
+          {
+            "sentence": "She gave him a [lollipop] as a reward.",
+            "translation_zh_TW": "她給了他一根棒棒糖作為獎勵。"
+          },
+          {
+            "sentence": "The shop sells many flavors of [lollipops].",
+            "translation_zh_TW": "這家商店出售多種口味的棒棒糖。"
+          },
+          {
+            "sentence": "Kids love to enjoy a colorful [lollipop].",
+            "translation_zh_TW": "孩子們喜歡享用五顏六色的棒棒糖。"
+          }
+        ],
+        "synonyms": [
+          "candy",
+          "sucker",
+          "sweet"
+        ]
+      }
+    ],
+    "confusion": [
+      "lolling",
+      "lolitics",
+      "lollipops",
+      "lollibots"
+    ]
+  },
+  {
+    "word": "yolk",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The yellow part of an egg, which contains the nutrients for an embryo.",
+        "meaning_zh_TW": "蛋黃",
+        "wrong_meaning_zh_TW": [
+          "蛋殼",
+          "蛋白",
+          "雞肉"
+        ],
+        "examples": [
+          {
+            "sentence": "The [yolk] is rich in vitamins and minerals.",
+            "translation_zh_TW": "蛋黃富含維他命和礦物質。"
+          },
+          {
+            "sentence": "He carefully separated the egg [yolk] from the egg white.",
+            "translation_zh_TW": "他小心翼翼地將蛋黃與蛋白分開。"
+          },
+          {
+            "sentence": "In many recipes, the [yolk] is used to add richness.",
+            "translation_zh_TW": "在許多食譜中，蛋黃用來增加風味。"
+          }
+        ],
+        "synonyms": [
+          "ovum",
+          "egg center"
+        ]
+      }
+    ],
+    "confusion": [
+      "yolked",
+      "yoke",
+      "yoks",
+      "yok"
+    ]
+  },
+  {
+    "word": "postponement",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The action of delaying or postponing something.",
+        "meaning_zh_TW": "推遲",
+        "wrong_meaning_zh_TW": [
+          "優先",
+          "計劃",
+          "增加"
+        ],
+        "examples": [
+          {
+            "sentence": "The [postponement] of the game was announced yesterday.",
+            "translation_zh_TW": "比賽推遲的消息於昨天宣布"
+          },
+          {
+            "sentence": "We are awaiting a decision on the [postponement].",
+            "translation_zh_TW": "我們在等待對推遲的決定"
+          },
+          {
+            "sentence": "The [postponement] caused a lot of confusion.",
+            "translation_zh_TW": "推遲造成了很多困惑"
+          }
+        ],
+        "synonyms": [
+          "deferment",
+          "delay"
+        ]
+      }
+    ],
+    "confusion": [
+      "post",
+      "possession",
+      "posters",
+      "postulate"
+    ]
+  },
+  {
+    "word": "frighten",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To make someone unhappy or worried.",
-        "meaning_zh_TW": "使不快或擔憂，打破",
+        "meaning_en_US": "To make someone feel afraid or anxious.",
+        "meaning_zh_TW": "使感到害怕",
         "wrong_meaning_zh_TW": [
           "安慰",
-          "重拾信心",
-          "促進"
+          "鼓舞",
+          "驅散"
         ],
         "examples": [
           {
-            "sentence": "The news of the cancellation really [upset] him.",
-            "translation_zh_TW": "取消的消息真的讓他很不快"
+            "sentence": "The loud noise can [frighten] small children.",
+            "translation_zh_TW": "巨大的聲音可能會使小孩子感到害怕"
           },
           {
-            "sentence": "She was [upset] by the criticism.",
-            "translation_zh_TW": "她對批評感到不快"
+            "sentence": "Don't [frighten] her; she's already nervous.",
+            "translation_zh_TW": "不要把她嚇到；她已經緊張了"
           },
           {
-            "sentence": "Don't [upset] the delicate balance.",
-            "translation_zh_TW": "不要打破微妙的平衡"
+            "sentence": "The movie is designed to [frighten] its audience.",
+            "translation_zh_TW": "這部電影的目的就是要使觀眾感到害怕"
           }
         ],
         "synonyms": [
-          "disturb",
-          "displease"
+          "scare",
+          "terrify"
         ]
       }
     ],
     "confusion": [
-      "upsetted",
-      "upsat",
-      "upste",
-      "upsect"
+      "frittern",
+      "frighten",
+      "fright",
+      "friction"
     ]
   },
   {
-    "word": "rectangle",
+    "word": "firework",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A four-sided figure with opposite sides equal and parallel.",
-        "meaning_zh_TW": "矩形",
+        "meaning_en_US": "An explosive device for producing a display of sound and light.",
+        "meaning_zh_TW": "煙火",
         "wrong_meaning_zh_TW": [
-          "圓形",
-          "三角形",
-          "多邊形"
+          "手電筒",
+          "氣球",
+          "糖果"
         ],
         "examples": [
           {
-            "sentence": "A standard sheet of paper is a [rectangle].",
-            "translation_zh_TW": "標準的紙張是矩形"
+            "sentence": "They set off [firework]s to celebrate the New Year.",
+            "translation_zh_TW": "他們放煙火來慶祝新年"
           },
           {
-            "sentence": "The playground features a large [rectangle] for games.",
-            "translation_zh_TW": "遊樂場設有一個大型矩形區域供遊戲使用"
+            "sentence": "The [firework] show was spectacular.",
+            "translation_zh_TW": "煙火表演非常壯觀"
           },
           {
-            "sentence": "You can divide the [rectangle] into smaller squares.",
-            "translation_zh_TW": "您可以將矩形分成更小的正方形"
+            "sentence": "Children loved watching the colorful [fireworks] light up the sky.",
+            "translation_zh_TW": "孩子們喜歡看五彩繽紛的煙火照亮天空"
           }
         ],
         "synonyms": [
-          "quadrilateral",
-          "parallelogram"
+          "pyrotechnics",
+          "displays"
         ]
       }
     ],
     "confusion": [
-      "rectangule",
-      "rectangel",
-      "rectangl",
-      "retangle"
+      "fireworks",
+      "fireworkly",
+      "fireworked",
+      "firepower"
     ]
   },
   {
-    "word": "arms",
+    "word": "countable",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "The upper limbs of the human body; also refers to weapons.",
-        "meaning_zh_TW": "手臂；武器",
+        "type": "形容詞",
+        "meaning_en_US": "Able to be counted; having a finite number.",
+        "meaning_zh_TW": "可數的",
         "wrong_meaning_zh_TW": [
-          "腿",
-          "口袋",
-          "手套"
+          "無限的",
+          "大量的",
+          "稀有的"
         ],
         "examples": [
           {
-            "sentence": "She carried the books in her [arms].",
-            "translation_zh_TW": "她用手臂抱著書本。"
+            "sentence": "Apples are [countable] nouns in English.",
+            "translation_zh_TW": "蘋果在英語中是可數名詞。"
           },
           {
-            "sentence": "The [arms] in the parade were impressive.",
-            "translation_zh_TW": "遊行中的武器令人印象深刻。"
+            "sentence": "We discussed [countable] items during the meeting.",
+            "translation_zh_TW": "我們在會議中討論了可數項目。"
           },
           {
-            "sentence": "His [arms] were tired after the workout.",
-            "translation_zh_TW": "他在運動後手臂感到疲憊。"
+            "sentence": "You need to distinguish between [countable] and uncountable nouns.",
+            "translation_zh_TW": "你需要區分可數和不可數名詞。"
           }
         ],
         "synonyms": [
-          "limbs",
-          "weapons"
+          "numerable",
+          "measurable"
         ]
       }
     ],
     "confusion": [
-      "armour",
-      "army",
-      "armed",
-      "alarm"
+      "countable",
+      "counta",
+      "countably",
+      "counter"
     ]
   },
   {
-    "word": "grocery",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A store that sells food and other products needed for everyday use.",
-        "meaning_zh_TW": "雜貨店",
-        "wrong_meaning_zh_TW": [
-          "銀行",
-          "郵局",
-          "醫院"
-        ],
-        "examples": [
-          {
-            "sentence": "I went to the [grocery] to buy some milk.",
-            "translation_zh_TW": "我去雜貨店買牛奶"
-          },
-          {
-            "sentence": "The [grocery] is just around the corner.",
-            "translation_zh_TW": "雜貨店就在街角"
-          },
-          {
-            "sentence": "You can find fresh produce at the [grocery].",
-            "translation_zh_TW": "你可以在雜貨店找到新鮮的農產品"
-          }
-        ],
-        "synonyms": [
-          "market",
-          "food store"
-        ]
-      }
-    ],
-    "confusion": [
-      "grocerys",
-      "grocer",
-      "grocerie",
-      "grossery"
-    ]
-  },
-  {
-    "word": "spaghetti",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A long, thin cylindrical pasta.",
-        "meaning_zh_TW": "意大利麵",
-        "wrong_meaning_zh_TW": [
-          "米飯",
-          "麵包",
-          "餃子"
-        ],
-        "examples": [
-          {
-            "sentence": "I love to eat [spaghetti] with marinara sauce.",
-            "translation_zh_TW": "我喜歡吃搭配馬里納拉醬的意大利麵。"
-          },
-          {
-            "sentence": "We made homemade [spaghetti] for dinner.",
-            "translation_zh_TW": "我們做了自製的意大利麵作晚餐。"
-          },
-          {
-            "sentence": "He twirled the [spaghetti] on his fork.",
-            "translation_zh_TW": "他用叉子卷起意大利麵。"
-          }
-        ],
-        "synonyms": [
-          "pasta",
-          "noodles"
-        ]
-      }
-    ],
-    "confusion": [
-      "spagetti",
-      "spaghet",
-      "spagettii",
-      "spagat"
-    ]
-  },
-  {
-    "word": "scale",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A system or series of marks used for measuring or comparing.",
-        "meaning_zh_TW": "刻度",
-        "wrong_meaning_zh_TW": [
-          "材料",
-          "大小",
-          "形狀"
-        ],
-        "examples": [
-          {
-            "sentence": "Use the [scale] to measure your ingredients accurately.",
-            "translation_zh_TW": "使用刻度準確測量您的成分。"
-          },
-          {
-            "sentence": "On a scale from one to ten, how would you rate it?",
-            "translation_zh_TW": "在一到十的刻度上，您會給它打幾分？"
-          },
-          {
-            "sentence": "The scale showed the weight of the fish precisely.",
-            "translation_zh_TW": "刻度準確顯示了魚的重量。"
-          }
-        ],
-        "synonyms": [
-          "measuring system",
-          "index",
-          "gauge"
-        ]
-      }
-    ],
-    "confusion": [
-      "sale",
-      "scalpel",
-      "skill",
-      "saleage"
-    ]
-  },
-  {
-    "word": "appoint",
+    "word": "pollute",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To assign a job or role to someone.",
-        "meaning_zh_TW": "任命",
+        "meaning_en_US": "To contaminate or make dirty, especially with harmful substances.",
+        "meaning_zh_TW": "污染",
         "wrong_meaning_zh_TW": [
-          "解雇",
-          "拒絕",
-          "報告"
+          "清潔",
+          "回收",
+          "治理"
         ],
         "examples": [
           {
-            "sentence": "They decided to [appoint] a new manager.",
-            "translation_zh_TW": "他們決定任命一位新的經理"
+            "sentence": "Factories can [pollute] the air and water.",
+            "translation_zh_TW": "工廠可能會污染空氣和水。"
           },
           {
-            "sentence": "The board will [appoint] a committee to investigate.",
-            "translation_zh_TW": "董事會將任命一個委員會進行調查"
+            "sentence": "We must act to stop [pollute]ion.",
+            "translation_zh_TW": "我們必須採取行動以阻止污染。"
           },
           {
-            "sentence": "She was [appointed] as the team's captain.",
-            "translation_zh_TW": "她被任命為團隊的隊長"
+            "sentence": "Many materials can [pollute] the environment.",
+            "translation_zh_TW": "許多材料可以污染環境。"
           }
         ],
         "synonyms": [
-          "designate",
-          "assign"
+          "contaminate",
+          "taint"
         ]
       }
     ],
     "confusion": [
-      "appointing",
-      "point",
-      "appointee",
-      "appointment"
-    ]
-  },
-  {
-    "word": "ox",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large domesticated bovine animal kept for milk or beef.",
-        "meaning_zh_TW": "公牛",
-        "wrong_meaning_zh_TW": [
-          "羊",
-          "山羊",
-          "馬"
-        ],
-        "examples": [
-          {
-            "sentence": "The farmer uses the [ox] for plowing.",
-            "translation_zh_TW": "農夫用公牛來耕地。"
-          },
-          {
-            "sentence": "An [ox] can be a strong work animal.",
-            "translation_zh_TW": "公牛可以是強大的工作動物。"
-          },
-          {
-            "sentence": "We saw an [ox] pulling a cart.",
-            "translation_zh_TW": "我們看到一頭公牛拉著一輛馬車。"
-          }
-        ],
-        "synonyms": [
-          "bovine",
-          "bull"
-        ]
-      }
-    ],
-    "confusion": [
-      "oxy",
-      "box",
-      "oxen",
-      "oxford"
-    ]
-  },
-  {
-    "word": "organic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to or derived from living matter.",
-        "meaning_zh_TW": "有機的",
-        "wrong_meaning_zh_TW": [
-          "化學的",
-          "人工的",
-          "無機的"
-        ],
-        "examples": [
-          {
-            "sentence": "I prefer [organic] food for a healthier diet.",
-            "translation_zh_TW": "我更喜歡有機食品以更健康的飲食。"
-          },
-          {
-            "sentence": "They sell [organic] vegetables at the market.",
-            "translation_zh_TW": "他們在市場上出售有機蔬菜。"
-          },
-          {
-            "sentence": "Her garden is filled with [organic] produce.",
-            "translation_zh_TW": "她的花園裡充滿了有機農產品。"
-          }
-        ],
-        "synonyms": [
-          "natural",
-          "biological"
-        ]
-      }
-    ],
-    "confusion": [
-      "organism",
-      "organize",
-      "organized",
-      "organs"
-    ]
-  },
-  {
-    "word": "tray",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A flat, shallow container or platform used to hold or carry items.",
-        "meaning_zh_TW": "托盤",
-        "wrong_meaning_zh_TW": [
-          "盒子",
-          "碗",
-          "盤子"
-        ],
-        "examples": [
-          {
-            "sentence": "She placed the dishes on the [tray] before serving.",
-            "translation_zh_TW": "她將碗碟放在托盤上再端上來。"
-          },
-          {
-            "sentence": "The waiter carried a [tray] filled with drinks.",
-            "translation_zh_TW": "服務生拿著一個裝滿飲料的托盤。"
-          },
-          {
-            "sentence": "He served breakfast on a silver [tray].",
-            "translation_zh_TW": "他在一個銀色的托盤上提供早餐。"
-          }
-        ],
-        "synonyms": [
-          "platter",
-          "dishing"
-        ]
-      }
-    ],
-    "confusion": [
-      "trayfon",
-      "traytable",
-      "trays",
-      "train"
-    ]
-  },
-  {
-    "word": "operation",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The fact or condition of functioning or being active.",
-        "meaning_zh_TW": "操作，運行",
-        "wrong_meaning_zh_TW": [
-          "停止",
-          "修理",
-          "故障"
-        ],
-        "examples": [
-          {
-            "sentence": "The [operation] of the machine is smooth.",
-            "translation_zh_TW": "這台機器的運作很順利"
-          },
-          {
-            "sentence": "Surgery is a complex [operation].",
-            "translation_zh_TW": "外科手術是一個複雜的過程"
-          },
-          {
-            "sentence": "The [operation] of the company has improved this year.",
-            "translation_zh_TW": "公司的運營在今年有所改善"
-          }
-        ],
-        "synonyms": [
-          "process",
-          "activity"
-        ]
-      }
-    ],
-    "confusion": [
-      "operation",
-      "operations",
-      "operational",
-      "operarion"
-    ]
-  },
-  {
-    "word": "shampoo",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A liquid preparation for washing the hair.",
-        "meaning_zh_TW": "洗髮精",
-        "wrong_meaning_zh_TW": [
-          "護髮素",
-          "肥皂",
-          "沐浴露"
-        ],
-        "examples": [
-          {
-            "sentence": "She applied [shampoo] to her hair and lathered it well.",
-            "translation_zh_TW": "她在頭髮上塗了洗髮精並充分起泡。"
-          },
-          {
-            "sentence": "This [shampoo] is made from natural ingredients.",
-            "translation_zh_TW": "這款洗髮精是用天然成分製成的。"
-          },
-          {
-            "sentence": "Don't forget to rinse the [shampoo] out completely.",
-            "translation_zh_TW": "別忘了將洗髮精完全沖洗乾淨。"
-          }
-        ],
-        "synonyms": [
-          "hair cleanser",
-          "cleaning agent"
-        ]
-      }
-    ],
-    "confusion": [
-      "shampoos",
-      "champion",
-      "sham",
-      "shame"
-    ]
-  },
-  {
-    "word": "usual",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Habitually or typically occurring.",
-        "meaning_zh_TW": "通常",
-        "wrong_meaning_zh_TW": [
-          "稀有的",
-          "不尋常的",
-          "特殊的"
-        ],
-        "examples": [
-          {
-            "sentence": "She greeted him in her [usual] friendly manner.",
-            "translation_zh_TW": "她以平常友好的方式問候他"
-          },
-          {
-            "sentence": "I had my [usual] breakfast this morning.",
-            "translation_zh_TW": "我今天早上吃了平常的早餐"
-          },
-          {
-            "sentence": "It's [usual] for the store to open early.",
-            "translation_zh_TW": "這家店早開是很平常的"
-          }
-        ],
-        "synonyms": [
-          "common",
-          "regular"
-        ]
-      }
-    ],
-    "confusion": [
-      "unusual",
-      "usuall",
-      "usua",
-      "uusual"
-    ]
-  },
-  {
-    "word": "juicy",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Full of juice; succulent.",
-        "meaning_zh_TW": "多汁的",
-        "wrong_meaning_zh_TW": [
-          "乾燥的",
-          "無味的",
-          "老化的"
-        ],
-        "examples": [
-          {
-            "sentence": "She prefers [juicy] steaks cooked to perfection.",
-            "translation_zh_TW": "她喜歡完美烹煮的多汁牛排"
-          },
-          {
-            "sentence": "The fruits were ripe and [juicy].",
-            "translation_zh_TW": "這些水果成熟而多汁"
-          },
-          {
-            "sentence": "He couldn't resist the [juicy] gossip in the office.",
-            "translation_zh_TW": "他無法抗拒辦公室裡多汁的八卦"
-          }
-        ],
-        "synonyms": [
-          "succulent",
-          "tender"
-        ]
-      }
-    ],
-    "confusion": [
-      "juicier",
-      "juice",
-      "juicyfruit",
-      "jiucy"
-    ]
-  },
-  {
-    "word": "tissue",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A group of similar cells that work together to perform a specific function.",
-        "meaning_zh_TW": "組織",
-        "wrong_meaning_zh_TW": [
-          "密碼",
-          "衣物",
-          "鉛筆"
-        ],
-        "examples": [
-          {
-            "sentence": "The heart is made up of muscle [tissue].",
-            "translation_zh_TW": "心臟是由肌肉組織構成的"
-          },
-          {
-            "sentence": "Plant [tissue] helps to transport nutrients.",
-            "translation_zh_TW": "植物組織有助於運輸營養物質"
-          },
-          {
-            "sentence": "Injured [tissue] can take a long time to heal.",
-            "translation_zh_TW": "受傷的組織可能需要很長時間來癒合"
-          }
-        ],
-        "synonyms": [
-          "cell layer",
-          "cell group"
-        ]
-      }
-    ],
-    "confusion": [
-      "tissues",
-      "tissuee",
-      "tisssue",
-      "tisssuee"
+      "pollution",
+      "poll",
+      "plutocrat",
+      "pulse"
     ]
   }
 ]

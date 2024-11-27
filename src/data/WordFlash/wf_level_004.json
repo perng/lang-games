@@ -1,225 +1,197 @@
 [
   {
-    "word": "place",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A particular position or point in space.",
-        "meaning_zh_TW": "位置",
-        "wrong_meaning_zh_TW": [
-          "運動場地",
-          "商店",
-          "地圖"
-        ],
-        "examples": [
-          {
-            "sentence": "This is the perfect [place] for a picnic.",
-            "translation_zh_TW": "這是野餐的完美位置。"
-          },
-          {
-            "sentence": "Have you found a [place] to live yet?",
-            "translation_zh_TW": "你找到住的地方了嗎？"
-          },
-          {
-            "sentence": "She marked the [place] on the map.",
-            "translation_zh_TW": "她在地圖上標記了位置。"
-          }
-        ],
-        "synonyms": [
-          "location",
-          "spot"
-        ]
-      }
-    ],
-    "confusion": [
-      "pace",
-      "placebo",
-      "plaque",
-      "plaster"
-    ]
-  },
-  {
-    "word": "money",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A current medium of exchange in the form of coins and banknotes.",
-        "meaning_zh_TW": "貨幣",
-        "wrong_meaning_zh_TW": [
-          "金屬",
-          "票據",
-          "財產"
-        ],
-        "examples": [
-          {
-            "sentence": "She saved [money] for her trip.",
-            "translation_zh_TW": "她為她的旅行省下了錢。"
-          },
-          {
-            "sentence": "Money can't buy happiness.",
-            "translation_zh_TW": "金錢無法購買幸福。"
-          },
-          {
-            "sentence": "He found some [money] on the street.",
-            "translation_zh_TW": "他在街上找到了一些錢。"
-          }
-        ],
-        "synonyms": [
-          "currency",
-          "cash"
-        ]
-      }
-    ],
-    "confusion": [
-      "monetary",
-      "monkeys",
-      "moneys",
-      "munny"
-    ]
-  },
-  {
-    "word": "station",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A regular stopping place on a public transportation route.",
-        "meaning_zh_TW": "車站",
-        "wrong_meaning_zh_TW": [
-          "站立",
-          "位置",
-          "障礙"
-        ],
-        "examples": [
-          {
-            "sentence": "We waited at the [station] for the train.",
-            "translation_zh_TW": "我們在車站等火車。"
-          },
-          {
-            "sentence": "The bus [station] was very crowded.",
-            "translation_zh_TW": "汽車站非常擁擠。"
-          },
-          {
-            "sentence": "She purchased a ticket at the [station].",
-            "translation_zh_TW": "她在車站買了一張票。"
-          }
-        ],
-        "synonyms": [
-          "terminal",
-          "depot"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To assign someone to a particular place or position.",
-        "meaning_zh_TW": "駐紮",
-        "wrong_meaning_zh_TW": [
-          "資助",
-          "訓練",
-          "分配"
-        ],
-        "examples": [
-          {
-            "sentence": "He was [stationed] overseas for a year.",
-            "translation_zh_TW": "他在海外駐紮了一年。"
-          },
-          {
-            "sentence": "They [station] volunteers at various locations.",
-            "translation_zh_TW": "他們在各個地點駐紮志工。"
-          },
-          {
-            "sentence": "The army units are [stationed] near the border.",
-            "translation_zh_TW": "陸軍部隊駐紮在邊境附近。"
-          }
-        ],
-        "synonyms": [
-          "post",
-          "place"
-        ]
-      }
-    ],
-    "confusion": [
-      "stationary",
-      "staging",
-      "statistic",
-      "stationery"
-    ]
-  },
-  {
-    "word": "front",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The side of something that faces forward or is most visible.",
-        "meaning_zh_TW": "前面",
-        "wrong_meaning_zh_TW": [
-          "背面",
-          "側面",
-          "底部"
-        ],
-        "examples": [
-          {
-            "sentence": "He stood at the [front] of the line.",
-            "translation_zh_TW": "他站在隊伍的前面。"
-          },
-          {
-            "sentence": "The [front] of the house has a beautiful garden.",
-            "translation_zh_TW": "房子的前面有一個美麗的花園。"
-          },
-          {
-            "sentence": "She always takes the [front] seat in the classroom.",
-            "translation_zh_TW": "她總是在教室中坐在前排。"
-          }
-        ],
-        "synonyms": [
-          "forepart",
-          "frontline"
-        ]
-      }
-    ],
-    "confusion": [
-      "frunt",
-      "fount",
-      "frond",
-      "frunt"
-    ]
-  },
-  {
-    "word": "blow",
+    "word": "buy",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To expel air through the mouth with force.",
-        "meaning_zh_TW": "吹",
+        "meaning_en_US": "To acquire in exchange for payment.",
+        "meaning_zh_TW": "購買",
         "wrong_meaning_zh_TW": [
-          "吸",
-          "撲打",
-          "煮"
+          "賣",
+          "借",
+          "交易"
         ],
         "examples": [
           {
-            "sentence": "Please [blow] out the candles on the cake.",
-            "translation_zh_TW": "請把蛋糕上的蠟燭吹熄。"
+            "sentence": "I need to [buy] some groceries.",
+            "translation_zh_TW": "我需要去購買一些雜貨"
           },
           {
-            "sentence": "She can [blow] bubbles with gum.",
-            "translation_zh_TW": "她能用口香糖吹泡泡。"
+            "sentence": "She decided to [buy] a new car.",
+            "translation_zh_TW": "她決定購買一輛新車"
           },
           {
-            "sentence": "The wind began to [blow] harder.",
-            "translation_zh_TW": "風開始變得更大。"
+            "sentence": "They went to [buy] tickets for the concert.",
+            "translation_zh_TW": "他們去購買音樂會的票"
           }
         ],
         "synonyms": [
-          "exhale",
-          "puff"
+          "purchase",
+          "acquire"
         ]
       }
     ],
     "confusion": [
-      "bloe",
-      "bloww",
-      "blowe",
-      "bloeww"
+      "bye",
+      "by",
+      "buying",
+      "bight"
+    ]
+  },
+  {
+    "word": "make",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To create or produce something.",
+        "meaning_zh_TW": "製作、創造",
+        "wrong_meaning_zh_TW": [
+          "破壞",
+          "接受",
+          "安裝"
+        ],
+        "examples": [
+          {
+            "sentence": "I want to [make] a cake for her birthday.",
+            "translation_zh_TW": "我想為她的生日做一個蛋糕"
+          },
+          {
+            "sentence": "They [make] a lot of noise during the party.",
+            "translation_zh_TW": "他們在聚會中製造了很多噪音"
+          },
+          {
+            "sentence": "Can you [make] this decision by tomorrow?",
+            "translation_zh_TW": "你能在明天之前做出這個決定嗎？"
+          }
+        ],
+        "synonyms": [
+          "create",
+          "produce"
+        ]
+      }
+    ],
+    "confusion": [
+      "take",
+      "lake",
+      "bake",
+      "fake"
+    ]
+  },
+  {
+    "word": "city",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large human settlement, typically characterized by a high population density and significant infrastructure.",
+        "meaning_zh_TW": "城市",
+        "wrong_meaning_zh_TW": [
+          "鄉村",
+          "村莊",
+          "景點"
+        ],
+        "examples": [
+          {
+            "sentence": "New York is a bustling [city].",
+            "translation_zh_TW": "紐約是一個繁忙的城市"
+          },
+          {
+            "sentence": "She moved to the [city] for her job.",
+            "translation_zh_TW": "她為了工作搬到了城市"
+          },
+          {
+            "sentence": "The [city] is known for its rich history.",
+            "translation_zh_TW": "這座城市以其豐富的歷史而聞名"
+          }
+        ],
+        "synonyms": [
+          "town",
+          "metropolis"
+        ]
+      }
+    ],
+    "confusion": [
+      "citizen",
+      "citi",
+      "sit",
+      "sity"
+    ]
+  },
+  {
+    "word": "add",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To join something to another thing to increase the number, amount, or size.",
+        "meaning_zh_TW": "添加",
+        "wrong_meaning_zh_TW": [
+          "減少",
+          "分割",
+          "去除"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [add] sugar to your tea.",
+            "translation_zh_TW": "請在茶裡加糖。"
+          },
+          {
+            "sentence": "If you [add] these two numbers, you will get ten.",
+            "translation_zh_TW": "如果你把這兩個數字加起來，你會得到十。"
+          },
+          {
+            "sentence": "You can [add] more toppings to your pizza.",
+            "translation_zh_TW": "你可以在比薩上添加更多的配料。"
+          }
+        ],
+        "synonyms": [
+          "increase",
+          "combine"
+        ]
+      }
+    ],
+    "confusion": [
+      "addict",
+      "ad",
+      "aid",
+      "oad"
+    ]
+  },
+  {
+    "word": "number",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A mathematical object used to count, measure, and label.",
+        "meaning_zh_TW": "數字",
+        "wrong_meaning_zh_TW": [
+          "計數器",
+          "數據",
+          "統計"
+        ],
+        "examples": [
+          {
+            "sentence": "She called out the [number] of the house.",
+            "translation_zh_TW": "她喊出了房子的號碼。"
+          },
+          {
+            "sentence": "Can you give me your phone [number]?",
+            "translation_zh_TW": "你能給我你的電話號碼嗎？"
+          },
+          {
+            "sentence": "He is learning how to understand bigger [numbers].",
+            "translation_zh_TW": "他正在學習如何理解更大的數字。"
+          }
+        ],
+        "synonyms": [
+          "digit",
+          "figure"
+        ]
+      }
+    ],
+    "confusion": [
+      "numb",
+      "numbering",
+      "num",
+      "bumber"
     ]
   },
   {
@@ -262,460 +234,42 @@
     ]
   },
   {
-    "word": "email",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A system for sending messages from one computer to another.",
-        "meaning_zh_TW": "電子郵件",
-        "wrong_meaning_zh_TW": [
-          "電子音樂",
-          "電子書籍",
-          "電子貨幣"
-        ],
-        "examples": [
-          {
-            "sentence": "I sent an [email] to my friend last night.",
-            "translation_zh_TW": "我昨晚發了一封電子郵件給我的朋友。"
-          },
-          {
-            "sentence": "Please check your [email] for the confirmation.",
-            "translation_zh_TW": "請檢查你的電子郵件以獲得確認。"
-          },
-          {
-            "sentence": "He prefers to communicate via [email].",
-            "translation_zh_TW": "他更喜歡通過電子郵件交流。"
-          }
-        ],
-        "synonyms": [
-          "electronic mail",
-          "message"
-        ]
-      }
-    ],
-    "confusion": [
-      "emaill",
-      "e-mail",
-      "emailing",
-      "mail"
-    ]
-  },
-  {
-    "word": "five",
-    "meanings": [
-      {
-        "type": "數字",
-        "meaning_en_US": "The number equivalent to the sum of four and one.",
-        "meaning_zh_TW": "五",
-        "wrong_meaning_zh_TW": [
-          "四",
-          "六",
-          "七"
-        ],
-        "examples": [
-          {
-            "sentence": "There are [five] apples on the table.",
-            "translation_zh_TW": "桌上有五個蘋果"
-          },
-          {
-            "sentence": "He lives [five] blocks from here.",
-            "translation_zh_TW": "他住在這裡五個街區外"
-          },
-          {
-            "sentence": "I will bring [five] sandwiches for the picnic.",
-            "translation_zh_TW": "我會帶五個三明治去野餐"
-          }
-        ],
-        "synonyms": [
-          "5",
-          "V"
-        ]
-      }
-    ],
-    "confusion": [
-      "fife",
-      "dive",
-      "give",
-      "fiver"
-    ]
-  },
-  {
-    "word": "careful",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Making sure of avoiding potential danger, mishap, or harm; cautious.",
-        "meaning_zh_TW": "小心的",
-        "wrong_meaning_zh_TW": [
-          "粗心的",
-          "快樂的",
-          "隨便的"
-        ],
-        "examples": [
-          {
-            "sentence": "Be [careful] when crossing the street.",
-            "translation_zh_TW": "過馬路時要小心。"
-          },
-          {
-            "sentence": "She is a [careful] driver.",
-            "translation_zh_TW": "她是一位小心的駕駛。"
-          },
-          {
-            "sentence": "I need to be [careful] with my words.",
-            "translation_zh_TW": "我需要小心我的話。"
-          }
-        ],
-        "synonyms": [
-          "cautious",
-          "wary"
-        ]
-      }
-    ],
-    "confusion": [
-      "carefull",
-      "carelful",
-      "carefuly",
-      "caerful"
-    ]
-  },
-  {
-    "word": "below",
+    "word": "after",
     "meanings": [
       {
         "type": "副詞",
-        "meaning_en_US": "At a lower level or layer.",
-        "meaning_zh_TW": "以下",
+        "meaning_en_US": "At a later time; subsequently.",
+        "meaning_zh_TW": "在後面; 隨後",
         "wrong_meaning_zh_TW": [
-          "上面",
-          "旁邊",
-          "裡面"
+          "至於",
+          "下面的",
+          "之前的"
         ],
         "examples": [
           {
-            "sentence": "The temperature dropped [below] freezing.",
-            "translation_zh_TW": "氣溫降到冰點以下。"
+            "sentence": "We will meet [after] lunch.",
+            "translation_zh_TW": "我們會在午餐後見面。"
           },
           {
-            "sentence": "You will find the answers [below] the questions.",
-            "translation_zh_TW": "你會在問題的下方找到答案。"
+            "sentence": "He arrived [after] I left.",
+            "translation_zh_TW": "他在我離開之後到達。"
           },
           {
-            "sentence": "The basement is located [below] ground level.",
-            "translation_zh_TW": "地下室位於地面以下。"
+            "sentence": "Let's discuss this [after] the meeting.",
+            "translation_zh_TW": "我們在會議結束後再討論這個。"
           }
         ],
         "synonyms": [
-          "under",
-          "beneath"
+          "subsequently",
+          "later"
         ]
       }
     ],
     "confusion": [
-      "belong",
-      "bellow",
-      "behold",
-      "bee low"
-    ]
-  },
-  {
-    "word": "no",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "Used to indicate negation or refusal.",
-        "meaning_zh_TW": "不",
-        "wrong_meaning_zh_TW": [
-          "是的",
-          "可能",
-          "也許"
-        ],
-        "examples": [
-          {
-            "sentence": "There is [no] reason to worry.",
-            "translation_zh_TW": "沒有必要擔心。"
-          },
-          {
-            "sentence": "He said [no] to the offer.",
-            "translation_zh_TW": "他對這個提議說不。"
-          },
-          {
-            "sentence": "[No] one was at home.",
-            "translation_zh_TW": "家裡沒有人。"
-          }
-        ],
-        "synonyms": [
-          "not",
-          "nay"
-        ]
-      }
-    ],
-    "confusion": [
-      "know",
-      "now",
-      "nope",
-      "noble"
-    ]
-  },
-  {
-    "word": "clock",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A device for measuring and indicating time.",
-        "meaning_zh_TW": "鐘、時鐘",
-        "wrong_meaning_zh_TW": [
-          "鬧鈴",
-          "計時器",
-          "手錶"
-        ],
-        "examples": [
-          {
-            "sentence": "I bought a new [clock] for my living room.",
-            "translation_zh_TW": "我為我的客廳買了一個新鐘"
-          },
-          {
-            "sentence": "The old [clock] struck twelve.",
-            "translation_zh_TW": "那個老鐘打了十二下"
-          },
-          {
-            "sentence": "He glanced at the [clock] on the wall.",
-            "translation_zh_TW": "他朝牆上的鐘看了看"
-          }
-        ],
-        "synonyms": [
-          "timepiece",
-          "chronometer"
-        ]
-      }
-    ],
-    "confusion": [
-      "clocks",
-      "cloak",
-      "clocked",
-      "clon"
-    ]
-  },
-  {
-    "word": "seven",
-    "meanings": [
-      {
-        "type": "數字",
-        "meaning_en_US": "The number equivalent to the sum of six and one.",
-        "meaning_zh_TW": "七",
-        "wrong_meaning_zh_TW": [
-          "六",
-          "八",
-          "九"
-        ],
-        "examples": [
-          {
-            "sentence": "There are [seven] days in a week.",
-            "translation_zh_TW": "一週有七天。"
-          },
-          {
-            "sentence": "He finished the race in [seven] minutes.",
-            "translation_zh_TW": "他在七分鐘內完成了比賽。"
-          },
-          {
-            "sentence": "The class has [seven] students.",
-            "translation_zh_TW": "這個班有七名學生。"
-          }
-        ],
-        "synonyms": [
-          "VII"
-        ]
-      }
-    ],
-    "confusion": [
-      "heaven",
-      "seventh",
-      "sever",
-      "neven"
-    ]
-  },
-  {
-    "word": "class",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A group of students who meet regularly to be taught a subject.",
-        "meaning_zh_TW": "班級",
-        "wrong_meaning_zh_TW": [
-          "課程",
-          "教室",
-          "教師"
-        ],
-        "examples": [
-          {
-            "sentence": "In my math [class], we learned about algebra.",
-            "translation_zh_TW": "在我的數學班級中，我們學習了代數。"
-          },
-          {
-            "sentence": "She teaches an advanced English [class].",
-            "translation_zh_TW": "她教授一個高級英語班。"
-          },
-          {
-            "sentence": "The [class] went on a field trip to the museum.",
-            "translation_zh_TW": "這個班級去博物館進行了實地考察。"
-          }
-        ],
-        "synonyms": [
-          "group",
-          "course",
-          "session"
-        ]
-      }
-    ],
-    "confusion": [
-      "clase",
-      "classroom",
-      "closs",
-      "clash"
-    ]
-  },
-  {
-    "word": "north",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The direction opposed to south.",
-        "meaning_zh_TW": "北方",
-        "wrong_meaning_zh_TW": [
-          "東方",
-          "西方",
-          "南方"
-        ],
-        "examples": [
-          {
-            "sentence": "We drove to the [north] for the weekend.",
-            "translation_zh_TW": "我們週末往北方開"
-          },
-          {
-            "sentence": "The compass points [north].",
-            "translation_zh_TW": "指南針指向北方"
-          },
-          {
-            "sentence": "There are many lakes in the [north].",
-            "translation_zh_TW": "北方有很多湖泊"
-          }
-        ],
-        "synonyms": [
-          "up",
-          "northward"
-        ]
-      },
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Situated in the direction of the North.",
-        "meaning_zh_TW": "北方的",
-        "wrong_meaning_zh_TW": [
-          "南方的",
-          "西方的",
-          "東方的"
-        ],
-        "examples": [
-          {
-            "sentence": "They are traveling to [north] Alaska.",
-            "translation_zh_TW": "他們正前往北方的阿拉斯加"
-          },
-          {
-            "sentence": "The [north] route is the fastest.",
-            "translation_zh_TW": "北方的路線是最快的"
-          },
-          {
-            "sentence": "Several [north] cities are growing rapidly.",
-            "translation_zh_TW": "幾個北方城市正在迅速增長"
-          }
-        ],
-        "synonyms": [
-          "northern",
-          "arctic"
-        ]
-      }
-    ],
-    "confusion": [
-      "south",
-      "forth",
-      "northward",
-      "northeast"
-    ]
-  },
-  {
-    "word": "lake",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large body of water surrounded by land.",
-        "meaning_zh_TW": "湖泊",
-        "wrong_meaning_zh_TW": [
-          "海洋",
-          "河流",
-          "池塘"
-        ],
-        "examples": [
-          {
-            "sentence": "We spent the weekend by the [lake].",
-            "translation_zh_TW": "我們在湖旁度過了週末。"
-          },
-          {
-            "sentence": "The children swam in the [lake] during summer.",
-            "translation_zh_TW": "孩子們在夏天時在湖裡游泳。"
-          },
-          {
-            "sentence": "There are many fish in the [lake].",
-            "translation_zh_TW": "湖裡有很多魚。"
-          }
-        ],
-        "synonyms": [
-          "pond",
-          "reservoir"
-        ]
-      }
-    ],
-    "confusion": [
-      "lark",
-      "like",
-      "leak",
-      "lanky"
-    ]
-  },
-  {
-    "word": "cry",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To shed tears, typically as an expression of strong emotion.",
-        "meaning_zh_TW": "哭",
-        "wrong_meaning_zh_TW": [
-          "笑",
-          "嘶吼",
-          "吃聲"
-        ],
-        "examples": [
-          {
-            "sentence": "The movie made her [cry].",
-            "translation_zh_TW": "這部電影讓她哭了。"
-          },
-          {
-            "sentence": "He began to [cry] when he saw the sad news.",
-            "translation_zh_TW": "當他看到悲傷的消息時，他開始哭。"
-          },
-          {
-            "sentence": "Don't [cry] over spilled milk.",
-            "translation_zh_TW": "不要因為打翻的牛奶而哭。"
-          }
-        ],
-        "synonyms": [
-          "weeping",
-          "sobbing"
-        ]
-      }
-    ],
-    "confusion": [
-      "crying",
-      "crye",
-      "cryz",
-      "gcry"
+      "actor",
+      "aftertaste",
+      "affair",
+      "aftermath"
     ]
   },
   {
@@ -755,6 +309,464 @@
       "beast",
       "bset",
       "bests"
+    ]
+  },
+  {
+    "word": "then",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "At that time; at the time in question.",
+        "meaning_zh_TW": "那時候; 在該時間",
+        "wrong_meaning_zh_TW": [
+          "當然",
+          "有時",
+          "從不"
+        ],
+        "examples": [
+          {
+            "sentence": "I was living in Paris [then].",
+            "translation_zh_TW": "那時候我住在巴黎。"
+          },
+          {
+            "sentence": "We finished our work and [then] went home.",
+            "translation_zh_TW": "我們完成工作後再回家。"
+          },
+          {
+            "sentence": "He will be here at 3 PM, and [then] we can leave.",
+            "translation_zh_TW": "他會在下午三點到，那時我們就可以離開。"
+          }
+        ],
+        "synonyms": [
+          "at that moment",
+          "at that time"
+        ]
+      }
+    ],
+    "confusion": [
+      "than",
+      "there",
+      "them",
+      "tend"
+    ]
+  },
+  {
+    "word": "good",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "To be desired or approved of.",
+        "meaning_zh_TW": "好的",
+        "wrong_meaning_zh_TW": [
+          "糟糕的",
+          "可笑的",
+          "容易的"
+        ],
+        "examples": [
+          {
+            "sentence": "She did a [good] job on the project.",
+            "translation_zh_TW": "她在這個專案中做得很好。"
+          },
+          {
+            "sentence": "It's always [good] to help others.",
+            "translation_zh_TW": "幫助他人總是好的。"
+          },
+          {
+            "sentence": "This is a [good] restaurant.",
+            "translation_zh_TW": "這是一家好的餐廳。"
+          }
+        ],
+        "synonyms": [
+          "excellent",
+          "fine"
+        ]
+      }
+    ],
+    "confusion": [
+      "food",
+      "wood",
+      "gond",
+      "god"
+    ]
+  },
+  {
+    "word": "video",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A recording of moving visual images made digitally or on videotape.",
+        "meaning_zh_TW": "視頻",
+        "wrong_meaning_zh_TW": [
+          "音頻",
+          "圖像",
+          "幻燈片"
+        ],
+        "examples": [
+          {
+            "sentence": "I watched a funny [video] online yesterday.",
+            "translation_zh_TW": "我昨天在網上看了一個有趣的視頻。"
+          },
+          {
+            "sentence": "The [video] quality was really high.",
+            "translation_zh_TW": "這個視頻的質量真高。"
+          },
+          {
+            "sentence": "She posted a [video] of her dance performance.",
+            "translation_zh_TW": "她發布了一段她舞蹈表演的視頻。"
+          }
+        ],
+        "synonyms": [
+          "film",
+          "clip",
+          "recording"
+        ]
+      }
+    ],
+    "confusion": [
+      "vdeo",
+      "viedio",
+      "vidio",
+      "vido"
+    ]
+  },
+  {
+    "word": "public",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to or concerning the people as a whole.",
+        "meaning_zh_TW": "公共的",
+        "wrong_meaning_zh_TW": [
+          "私人",
+          "專屬",
+          "密閉"
+        ],
+        "examples": [
+          {
+            "sentence": "The park is open to the [public].",
+            "translation_zh_TW": "這個公園對公眾開放"
+          },
+          {
+            "sentence": "She works in a [public] library.",
+            "translation_zh_TW": "她在一個公共圖書館工作"
+          },
+          {
+            "sentence": "They held a [public] meeting to discuss community issues.",
+            "translation_zh_TW": "他們舉行了一個公共會議來討論社區問題"
+          }
+        ],
+        "synonyms": [
+          "communal",
+          "common"
+        ]
+      }
+    ],
+    "confusion": [
+      "publish",
+      "pubic",
+      "replica",
+      "pub"
+    ]
+  },
+  {
+    "word": "high",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Of great vertical extent; measuring a long distance from bottom to top.",
+        "meaning_zh_TW": "高的",
+        "wrong_meaning_zh_TW": [
+          "短的",
+          "平的",
+          "低的"
+        ],
+        "examples": [
+          {
+            "sentence": "The mountain is very [high].",
+            "translation_zh_TW": "那座山非常高。"
+          },
+          {
+            "sentence": "He jumped to reach the [high] shelf.",
+            "translation_zh_TW": "他跳起來想要拿到高處的架子。"
+          },
+          {
+            "sentence": "Her grades are [high] this semester.",
+            "translation_zh_TW": "她這個學期的成績很高。"
+          }
+        ],
+        "synonyms": [
+          "tall",
+          "lofty"
+        ]
+      }
+    ],
+    "confusion": [
+      "hi",
+      "hie",
+      "hghi",
+      "hihg"
+    ]
+  },
+  {
+    "word": "school",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An institution for educating children.",
+        "meaning_zh_TW": "學校",
+        "wrong_meaning_zh_TW": [
+          "課程",
+          "老師",
+          "教科書"
+        ],
+        "examples": [
+          {
+            "sentence": "I go to [school] every day.",
+            "translation_zh_TW": "我每天都上學。"
+          },
+          {
+            "sentence": "The [school] has many students.",
+            "translation_zh_TW": "這所學校有很多學生。"
+          },
+          {
+            "sentence": "He enjoys learning at [school].",
+            "translation_zh_TW": "他喜歡在學校學習。"
+          }
+        ],
+        "synonyms": [
+          "academy",
+          "educational institution"
+        ]
+      }
+    ],
+    "confusion": [
+      "scholl",
+      "schooled",
+      "schoole",
+      "skool"
+    ]
+  },
+  {
+    "word": "through",
+    "meanings": [
+      {
+        "type": "介系詞",
+        "meaning_en_US": "Moving in one side and out of the other side of (an opening, channel, or location).",
+        "meaning_zh_TW": "透過、穿過",
+        "wrong_meaning_zh_TW": [
+          "停住",
+          "在裡面",
+          "穿著"
+        ],
+        "examples": [
+          {
+            "sentence": "We walked [through] the park on our way home.",
+            "translation_zh_TW": "我們回家的路上穿過了公園。"
+          },
+          {
+            "sentence": "The bullet went [through] the wall.",
+            "translation_zh_TW": "子彈穿過了牆壁。"
+          },
+          {
+            "sentence": "She looked [through] the window.",
+            "translation_zh_TW": "她透過窗戶看。"
+          }
+        ],
+        "synonyms": [
+          "across",
+          "along"
+        ]
+      }
+    ],
+    "confusion": [
+      "threw",
+      "throug",
+      "throgh",
+      "throu"
+    ]
+  },
+  {
+    "word": "each",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Every one of two or more considered individually.",
+        "meaning_zh_TW": "每個",
+        "wrong_meaning_zh_TW": [
+          "全部",
+          "每一次",
+          "所有人"
+        ],
+        "examples": [
+          {
+            "sentence": "Each student must submit their assignment.",
+            "translation_zh_TW": "每個學生都必須提交作業。"
+          },
+          {
+            "sentence": "The coach spoke to each player separately.",
+            "translation_zh_TW": "教練單獨跟每個球員交談。"
+          },
+          {
+            "sentence": "Each of the cars was painted a different color.",
+            "translation_zh_TW": "每輛車都漆成不同的顏色。"
+          }
+        ],
+        "synonyms": [
+          "every",
+          "individual"
+        ]
+      }
+    ],
+    "confusion": [
+      "eatch",
+      "icarbon",
+      "etch",
+      "eash"
+    ]
+  },
+  {
+    "word": "she",
+    "meanings": [
+      {
+        "type": "代詞",
+        "meaning_en_US": "Used to refer to a woman, girl, or female animal previously mentioned or easily identified.",
+        "meaning_zh_TW": "她",
+        "wrong_meaning_zh_TW": [
+          "他",
+          "它",
+          "我們"
+        ],
+        "examples": [
+          {
+            "sentence": "She is my best friend.",
+            "translation_zh_TW": "她是我最好的朋友。"
+          },
+          {
+            "sentence": "Did she arrive yet?",
+            "translation_zh_TW": "她到了嗎？"
+          },
+          {
+            "sentence": "She loves to read books.",
+            "translation_zh_TW": "她喜歡閱讀書籍。"
+          }
+        ],
+        "synonyms": [
+          "her",
+          "that woman"
+        ]
+      }
+    ],
+    "confusion": [
+      "he",
+      "we",
+      "be",
+      "shez"
+    ]
+  },
+  {
+    "word": "order",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A request to make, supply, or deliver food or goods.",
+        "meaning_zh_TW": "訂單、命令",
+        "wrong_meaning_zh_TW": [
+          "贈品",
+          "交付",
+          "付款"
+        ],
+        "examples": [
+          {
+            "sentence": "I placed an [order] for two pizzas.",
+            "translation_zh_TW": "我訂了兩個比薩"
+          },
+          {
+            "sentence": "My [order] was delivered late.",
+            "translation_zh_TW": "我的訂單遲到了"
+          },
+          {
+            "sentence": "Can I change my [order]?",
+            "translation_zh_TW": "我可以更改我的訂單嗎？"
+          }
+        ],
+        "synonyms": [
+          "request",
+          "purchase"
+        ]
+      },
+      {
+        "type": "動詞",
+        "meaning_en_US": "To arrange or organize in a specific sequence.",
+        "meaning_zh_TW": "訂購、安排",
+        "wrong_meaning_zh_TW": [
+          "打亂",
+          "收集",
+          "獲得"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [order] the files alphabetically.",
+            "translation_zh_TW": "請按字母順序排列文件"
+          },
+          {
+            "sentence": "He tried to [order] his thoughts.",
+            "translation_zh_TW": "他試著整理他的思緒"
+          },
+          {
+            "sentence": "We need to [order] these items for the event.",
+            "translation_zh_TW": "我們需要為活動安排這些物品"
+          }
+        ],
+        "synonyms": [
+          "arrange",
+          "organize"
+        ]
+      }
+    ],
+    "confusion": [
+      "header",
+      "folder",
+      "border",
+      "ordered"
+    ]
+  },
+  {
+    "word": "very",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "Used for emphasis.",
+        "meaning_zh_TW": "非常",
+        "wrong_meaning_zh_TW": [
+          "有點",
+          "不太",
+          "幾乎"
+        ],
+        "examples": [
+          {
+            "sentence": "She is [very] happy today.",
+            "translation_zh_TW": "她今天非常高興"
+          },
+          {
+            "sentence": "This is [very] important.",
+            "translation_zh_TW": "這是非常重要的"
+          },
+          {
+            "sentence": "He worked [very] hard.",
+            "translation_zh_TW": "他工作得非常努力"
+          }
+        ],
+        "synonyms": [
+          "extremely",
+          "really"
+        ]
+      }
+    ],
+    "confusion": [
+      "vary",
+      "vert",
+      "verry",
+      "vey"
     ]
   }
 ]

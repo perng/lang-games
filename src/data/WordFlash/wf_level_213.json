@@ -1,158 +1,695 @@
 [
   {
-    "word": "enthusiasm",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Intense and eager enjoyment, interest, or approval.",
-        "meaning_zh_TW": "熱情",
-        "wrong_meaning_zh_TW": [
-          "冷漠",
-          "懈怠",
-          "無動於衷"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [enthusiasm] for the project was infectious.",
-            "translation_zh_TW": "她對這個項目的熱情是有感染力的。"
-          },
-          {
-            "sentence": "He approached the task with great [enthusiasm].",
-            "translation_zh_TW": "他以極大的熱情來應對這項任務。"
-          },
-          {
-            "sentence": "Their [enthusiasm] made the event more enjoyable.",
-            "translation_zh_TW": "他們的熱情使活動更加愉快。"
-          }
-        ],
-        "synonyms": [
-          "zeal",
-          "passion"
-        ]
-      }
-    ],
-    "confusion": [
-      "enthusiastic",
-      "enthuse",
-      "enthusiasts",
-      "enthusiasim"
-    ]
-  },
-  {
-    "word": "slight",
+    "word": "fertile",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Small in degree; not severe or strong.",
-        "meaning_zh_TW": "不嚴重或強烈的",
+        "meaning_en_US": "Capable of producing abundant vegetation or crops.",
+        "meaning_zh_TW": "肥沃的",
         "wrong_meaning_zh_TW": [
-          "嚴重的",
-          "強烈的",
-          "劇烈的"
+          "乾燥的",
+          "倒退的",
+          "貧瘠的"
         ],
         "examples": [
           {
-            "sentence": "There is a [slight] chance of rain tomorrow.",
-            "translation_zh_TW": "明天有些許降雨的機會。"
+            "sentence": "The [fertile] land produced a bountiful harvest.",
+            "translation_zh_TW": "這片肥沃的土地產出了豐收。"
           },
           {
-            "sentence": "She felt a [slight] headache after work.",
-            "translation_zh_TW": "她在工作後感到輕微的頭痛。"
+            "sentence": "Farmers seek out [fertile] soil for planting.",
+            "translation_zh_TW": "農民們尋找肥沃的土壤來種植。"
           },
           {
-            "sentence": "He made a [slight] adjustment to the settings.",
-            "translation_zh_TW": "他對設定進行了輕微的調整。"
+            "sentence": "The region is known for its [fertile] valleys.",
+            "translation_zh_TW": "這個地區以其肥沃的山谷而聞名。"
           }
         ],
         "synonyms": [
-          "minor",
-          "minimal"
+          "productive",
+          "abundant"
         ]
       }
     ],
     "confusion": [
-      "slim",
-      "sight",
-      "slightest",
-      "slit"
+      "fertility",
+      "ferment",
+      "ferocious",
+      "fartile"
     ]
   },
   {
-    "word": "conference",
+    "word": "continual",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A formal meeting for discussion.",
-        "meaning_zh_TW": "會議",
+        "type": "形容詞",
+        "meaning_en_US": "Occurring frequently or repeatedly over a period of time.",
+        "meaning_zh_TW": "持續的",
         "wrong_meaning_zh_TW": [
-          "講座",
-          "演講",
-          "對話"
+          "斷斷續續的",
+          "一次性的",
+          "非正規的"
         ],
         "examples": [
           {
-            "sentence": "The annual [conference] attracted many participants.",
-            "translation_zh_TW": "年度會議吸引了很多參與者"
+            "sentence": "The continual noise from the construction site was annoying.",
+            "translation_zh_TW": "施工現場的不斷噪音令人厭煩。"
           },
           {
-            "sentence": "She will present her research at the [conference].",
-            "translation_zh_TW": "她將在會議上介紹她的研究"
+            "sentence": "She made continual adjustments to the plan.",
+            "translation_zh_TW": "她不斷地對計劃進行調整。"
           },
           {
-            "sentence": "They held a [conference] to discuss the future of the project.",
-            "translation_zh_TW": "他們舉行了會議以討論項目的未來"
+            "sentence": "Continual meetings can lead to burnout.",
+            "translation_zh_TW": "不斷的會議會導致疲倦。"
           }
         ],
         "synonyms": [
-          "meeting",
-          "symposium"
+          "repeated",
+          "frequent"
         ]
       }
     ],
     "confusion": [
-      "confer",
-      "confidence",
-      "confirm",
-      "conference"
+      "continuality",
+      "continent",
+      "contingent",
+      "continuation"
     ]
   },
   {
-    "word": "surgeon",
+    "word": "instruct",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A physician who specializes in surgery.",
-        "meaning_zh_TW": "外科醫生",
+        "type": "動詞",
+        "meaning_en_US": "To direct someone to do something, often as part of teaching or training.",
+        "meaning_zh_TW": "指導",
         "wrong_meaning_zh_TW": [
-          "牙醫",
-          "藥劑師",
-          "眼科醫生"
+          "忽視",
+          "懲罰",
+          "建議"
         ],
         "examples": [
           {
-            "sentence": "The [surgeon] performed a complex operation.",
-            "translation_zh_TW": "該外科醫生進行了一次復雜的手術。"
+            "sentence": "The teacher will [instruct] the students on how to use the equipment.",
+            "translation_zh_TW": "老師將指導學生如何使用這些設備。"
           },
           {
-            "sentence": "She has trained as a [surgeon] for many years.",
-            "translation_zh_TW": "她當了多年的外科醫生。"
+            "sentence": "You must [instruct] your team clearly about the project.",
+            "translation_zh_TW": "你必須清楚地指示你的團隊有關這個項目。"
           },
           {
-            "sentence": "The [surgeon] explained the procedure to the patient.",
-            "translation_zh_TW": "外科醫生向病人解釋了手術過程。"
+            "sentence": "I will [instruct] her to complete the assignment by Friday.",
+            "translation_zh_TW": "我會指示她在星期五之前完成作業。"
           }
         ],
         "synonyms": [
-          "doctor",
-          "physician"
+          "teach",
+          "direct",
+          "advise"
         ]
       }
     ],
     "confusion": [
-      "surgery",
-      "urgent",
-      "sergeant",
-      "surge"
+      "instruction",
+      "instructor",
+      "instructive",
+      "instructing"
+    ]
+  },
+  {
+    "word": "imaginative",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having or showing creativity or inventiveness.",
+        "meaning_zh_TW": "有想像力的",
+        "wrong_meaning_zh_TW": [
+          "循規蹈矩的",
+          "平庸的",
+          "無趣的"
+        ],
+        "examples": [
+          {
+            "sentence": "The artist's [imaginative] style sets her apart from others.",
+            "translation_zh_TW": "這位藝術家富有想像力的風格讓她與眾不同。"
+          },
+          {
+            "sentence": "Children are naturally [imaginative] and enjoy pretending.",
+            "translation_zh_TW": "孩子們天生富有想像力，喜歡假裝。"
+          },
+          {
+            "sentence": "His [imaginative] solutions to problems impressed the team.",
+            "translation_zh_TW": "他對問題的創新解決方案讓團隊印象深刻。"
+          }
+        ],
+        "synonyms": [
+          "creative",
+          "inventive"
+        ]
+      }
+    ],
+    "confusion": [
+      "imagination",
+      "imaginary",
+      "imagined",
+      "immediate"
+    ]
+  },
+  {
+    "word": "resemble",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To have a similar appearance to someone or something.",
+        "meaning_zh_TW": "相似",
+        "wrong_meaning_zh_TW": [
+          "不同",
+          "差異",
+          "相反"
+        ],
+        "examples": [
+          {
+            "sentence": "She does not [resemble] her sister at all.",
+            "translation_zh_TW": "她完全不像她的姐姐"
+          },
+          {
+            "sentence": "The two paintings [resemble] each other closely.",
+            "translation_zh_TW": "這兩幅畫非常相似"
+          },
+          {
+            "sentence": "He [resembles] his father in many ways.",
+            "translation_zh_TW": "他在很多方面都像他的父親"
+          }
+        ],
+        "synonyms": [
+          "look like",
+          "mirror"
+        ]
+      }
+    ],
+    "confusion": [
+      "resemblence",
+      "resamble",
+      "resembles",
+      "resemblee"
+    ]
+  },
+  {
+    "word": "coward",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who lacks the courage to do or endure dangerous or unpleasant things.",
+        "meaning_zh_TW": "懦夫",
+        "wrong_meaning_zh_TW": [
+          "英雄",
+          "強者",
+          "勇士"
+        ],
+        "examples": [
+          {
+            "sentence": "He was called a [coward] for not standing up for what is right.",
+            "translation_zh_TW": "他因未站出來捍衛正義而被稱為懦夫。"
+          },
+          {
+            "sentence": "Being a [coward] is often seen as shameful.",
+            "translation_zh_TW": "懦弱通常被視為可恥。"
+          },
+          {
+            "sentence": "A true hero is not a [coward].",
+            "translation_zh_TW": "真正的英雄不是懦夫。"
+          }
+        ],
+        "synonyms": [
+          "timid",
+          "chicken"
+        ]
+      }
+    ],
+    "confusion": [
+      "cowardice",
+      "cower",
+      "cowerer",
+      "cowy"
+    ]
+  },
+  {
+    "word": "resign",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To voluntarily leave a job or position.",
+        "meaning_zh_TW": "辭職",
+        "wrong_meaning_zh_TW": [
+          "就職",
+          "任命",
+          "聘用"
+        ],
+        "examples": [
+          {
+            "sentence": "She decided to [resign] from her position after ten years.",
+            "translation_zh_TW": "她在十年後決定辭職"
+          },
+          {
+            "sentence": "He announced his intention to [resign] at the meeting.",
+            "translation_zh_TW": "他在會議上宣佈了辭職的意圖"
+          },
+          {
+            "sentence": "After much thought, I will [resign] from the committee.",
+            "translation_zh_TW": "經過深思熟慮，我會辭去委員會的職務"
+          }
+        ],
+        "synonyms": [
+          "step down",
+          "quit"
+        ]
+      }
+    ],
+    "confusion": [
+      "resignate",
+      "resigning",
+      "resigne",
+      "resigm"
+    ]
+  },
+  {
+    "word": "dread",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A strong feeling of fear or anxiety.",
+        "meaning_zh_TW": "懼怕，恐懼",
+        "wrong_meaning_zh_TW": [
+          "期待",
+          "喜悅",
+          "驚奇"
+        ],
+        "examples": [
+          {
+            "sentence": "She felt a sense of [dread] before the exam.",
+            "translation_zh_TW": "在考試前，她感到一種懼怕。"
+          },
+          {
+            "sentence": "His heart was filled with [dread] at the thought of the upcoming storm.",
+            "translation_zh_TW": "想到即將來臨的風暴，他的心中充滿了懼怕。"
+          },
+          {
+            "sentence": "The [dread] of losing her job kept her awake at night.",
+            "translation_zh_TW": "對失去工作的懼怕讓她夜不能寐。"
+          }
+        ],
+        "synonyms": [
+          "fear",
+          "apprehension"
+        ]
+      }
+    ],
+    "confusion": [
+      "read",
+      "red",
+      "debt",
+      "bread"
+    ]
+  },
+  {
+    "word": "handwriting",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The act or skill of writing done by hand.",
+        "meaning_zh_TW": "手寫",
+        "wrong_meaning_zh_TW": [
+          "打字",
+          "印刷",
+          "圖畫"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [handwriting] is very neat and clear.",
+            "translation_zh_TW": "她的手寫字體非常整齊清晰。"
+          },
+          {
+            "sentence": "He received a note in beautiful [handwriting].",
+            "translation_zh_TW": "他收到了一張用漂亮手寫字體寫的便條。"
+          },
+          {
+            "sentence": "I prefer [handwriting] my notes instead of typing.",
+            "translation_zh_TW": "我喜歡用手寫方式記筆記，而不是打字。"
+          }
+        ],
+        "synonyms": [
+          "penmanship",
+          "script"
+        ]
+      }
+    ],
+    "confusion": [
+      "handwritingg",
+      "handwrite",
+      "handprint",
+      "handwritting"
+    ]
+  },
+  {
+    "word": "stab",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To thrust a pointed weapon into someone or something.",
+        "meaning_zh_TW": "刺",
+        "wrong_meaning_zh_TW": [
+          "撫摸",
+          "安撫",
+          "保護"
+        ],
+        "examples": [
+          {
+            "sentence": "He tried to [stab] the steak with a fork.",
+            "translation_zh_TW": "他試著用叉子刺牛排"
+          },
+          {
+            "sentence": "The burglar attempted to [stab] the victim.",
+            "translation_zh_TW": "劫匪試圖刺傷受害者"
+          },
+          {
+            "sentence": "She felt a sharp [stab] of pain in her side.",
+            "translation_zh_TW": "她感到側邊一陣劇痛"
+          }
+        ],
+        "synonyms": [
+          "pierce",
+          "impale",
+          "puncture"
+        ]
+      }
+    ],
+    "confusion": [
+      "stabbed",
+      "stabber",
+      "scab",
+      "stabbed"
+    ]
+  },
+  {
+    "word": "riddle",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A question or statement intentionally phrased to require ingenuity in ascertaining its answer or meaning.",
+        "meaning_zh_TW": "謎語",
+        "wrong_meaning_zh_TW": [
+          "答案",
+          "解決方案",
+          "事實"
+        ],
+        "examples": [
+          {
+            "sentence": "He posed a challenging [riddle] for the group.",
+            "translation_zh_TW": "他為這個小組提出了一個挑戰性的謎語"
+          },
+          {
+            "sentence": "Solving that [riddle] took us hours.",
+            "translation_zh_TW": "解那個謎語花了我們幾個小時"
+          },
+          {
+            "sentence": "Children love to share [riddles] at parties.",
+            "translation_zh_TW": "孩子們喜歡在聚會上分享謎語"
+          }
+        ],
+        "synonyms": [
+          "puzzle",
+          "enigma"
+        ]
+      }
+    ],
+    "confusion": [
+      "riddler",
+      "riddles",
+      "riddled",
+      "riddl"
+    ]
+  },
+  {
+    "word": "respectful",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Feeling or showing honor or respect.",
+        "meaning_zh_TW": "尊重的",
+        "wrong_meaning_zh_TW": [
+          "不敬的",
+          "失禮的",
+          "無理的"
+        ],
+        "examples": [
+          {
+            "sentence": "It's important to be [respectful] to your elders.",
+            "translation_zh_TW": "對長輩表達尊敬是很重要的。"
+          },
+          {
+            "sentence": "He was always [respectful] in conversations.",
+            "translation_zh_TW": "在對話中，他總是保持尊重。"
+          },
+          {
+            "sentence": "A [respectful] attitude can open many doors.",
+            "translation_zh_TW": "尊重的態度可以打開許多大門。"
+          }
+        ],
+        "synonyms": [
+          "polite",
+          "courteous"
+        ]
+      },
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Characterized by or showing respect.",
+        "meaning_zh_TW": "尊重的",
+        "wrong_meaning_zh_TW": [
+          "不敬的",
+          "失禮的",
+          "無理的"
+        ],
+        "examples": [
+          {
+            "sentence": "A [respectful] reply is crucial in professional settings.",
+            "translation_zh_TW": "在專業環境中，尊重的回覆至關重要。"
+          },
+          {
+            "sentence": "Being [respectful] to others is a sign of maturity.",
+            "translation_zh_TW": "對他人表示尊重是成熟的標誌。"
+          },
+          {
+            "sentence": "She addressed him in a [respectful] manner.",
+            "translation_zh_TW": "她用尊敬的方式稱呼他。"
+          }
+        ],
+        "synonyms": [
+          "courteous",
+          "deferential"
+        ]
+      }
+    ],
+    "confusion": [
+      "respect",
+      "respective",
+      "respectively",
+      "respecters"
+    ]
+  },
+  {
+    "word": "needy",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "In need of help, support, or care.",
+        "meaning_zh_TW": "需要幫助的",
+        "wrong_meaning_zh_TW": [
+          "富裕的",
+          "自信的",
+          "獨立的"
+        ],
+        "examples": [
+          {
+            "sentence": "She felt [needy] after the breakup.",
+            "translation_zh_TW": "分手後她感到需要依賴。"
+          },
+          {
+            "sentence": "He volunteered to help the [needy] families.",
+            "translation_zh_TW": "他自願幫助那些需要幫助的家庭。"
+          },
+          {
+            "sentence": "Being overly [needy] can push people away.",
+            "translation_zh_TW": "過於依賴會讓人疏遠。"
+          }
+        ],
+        "synonyms": [
+          "dependent",
+          "underprivileged"
+        ]
+      }
+    ],
+    "confusion": [
+      "need",
+      "kneed",
+      "needed",
+      "knead"
+    ]
+  },
+  {
+    "word": "orphan",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A child whose parents are dead.",
+        "meaning_zh_TW": "孤兒",
+        "wrong_meaning_zh_TW": [
+          "寵物",
+          "孤獨",
+          "寄養"
+        ],
+        "examples": [
+          {
+            "sentence": "The [orphan] was taken to a safe home.",
+            "translation_zh_TW": "孤兒被帶到了安全的家。"
+          },
+          {
+            "sentence": "She volunteers at a center for [orphans].",
+            "translation_zh_TW": "她在一個孤兒中心擔任志願者。"
+          },
+          {
+            "sentence": "Many [orphans] need love and care.",
+            "translation_zh_TW": "許多孤兒需要愛與關懷。"
+          }
+        ],
+        "synonyms": [
+          "waif",
+          "foundling"
+        ]
+      }
+    ],
+    "confusion": [
+      "organs",
+      "origin",
+      "orthodox",
+      "orphaned"
+    ]
+  },
+  {
+    "word": "graceful",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Characterized by elegance and beauty in movement.",
+        "meaning_zh_TW": "優雅的",
+        "wrong_meaning_zh_TW": [
+          "粗魯的",
+          "無趣的",
+          "不合適的"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [graceful] dance captivated the audience.",
+            "translation_zh_TW": "她優雅的舞蹈吸引了觀眾。"
+          },
+          {
+            "sentence": "The swan glided across the water in a [graceful] manner.",
+            "translation_zh_TW": "天鵝優雅地滑過水面。"
+          },
+          {
+            "sentence": "He executed the movement with [graceful] precision.",
+            "translation_zh_TW": "他以優雅的精確性執行動作。"
+          }
+        ],
+        "synonyms": [
+          "elegant",
+          "fluid"
+        ]
+      }
+    ],
+    "confusion": [
+      "grateful",
+      "gracefully",
+      "gracful",
+      "gracely"
+    ]
+  },
+  {
+    "word": "overlook",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To fail to notice something; to ignore.",
+        "meaning_zh_TW": "忽視",
+        "wrong_meaning_zh_TW": [
+          "注意",
+          "理解",
+          "欣賞"
+        ],
+        "examples": [
+          {
+            "sentence": "Don't [overlook] the details in the project.",
+            "translation_zh_TW": "不要忽視計劃中的細節"
+          },
+          {
+            "sentence": "She tends to [overlook] the important facts.",
+            "translation_zh_TW": "她往往忽視重要事實"
+          },
+          {
+            "sentence": "It's easy to [overlook] small errors.",
+            "translation_zh_TW": "忽視小錯誤是很容易的"
+          }
+        ],
+        "synonyms": [
+          "neglect",
+          "miss"
+        ]
+      }
+    ],
+    "confusion": [
+      "overlok",
+      "ovrlook",
+      "overloo",
+      "overloo"
+    ]
+  },
+  {
+    "word": "devote",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To dedicate time or effort to a particular task or purpose.",
+        "meaning_zh_TW": "致力於、專心於",
+        "wrong_meaning_zh_TW": [
+          "操控、管理",
+          "收集、整理",
+          "推廣、宣傳"
+        ],
+        "examples": [
+          {
+            "sentence": "She decided to [devote] her life to helping others.",
+            "translation_zh_TW": "她決定將自己的生命奉獻給幫助他人。"
+          },
+          {
+            "sentence": "He [devotes] all his weekends to volunteering.",
+            "translation_zh_TW": "他每個週末都花時間做志願者工作。"
+          },
+          {
+            "sentence": "They [devoted] their resources to community development.",
+            "translation_zh_TW": "他們將資源專心致力於社區發展。"
+          }
+        ],
+        "synonyms": [
+          "dedicate",
+          "commit"
+        ]
+      }
+    ],
+    "confusion": [
+      "devotee",
+      "devotion",
+      "devoted",
+      "devote"
     ]
   },
   {
@@ -195,577 +732,42 @@
     ]
   },
   {
-    "word": "dew",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Tiny drops of water that form on cool surfaces at night.",
-        "meaning_zh_TW": "露水",
-        "wrong_meaning_zh_TW": [
-          "玉米、穀物",
-          "星星、行星",
-          "霜、雪"
-        ],
-        "examples": [
-          {
-            "sentence": "The grass was covered in [dew] early in the morning.",
-            "translation_zh_TW": "早上草地上覆蓋著露水。"
-          },
-          {
-            "sentence": "Sunlight sparkled on the [dew] like diamonds.",
-            "translation_zh_TW": "陽光在露水上閃爍，如同鑽石一般。"
-          },
-          {
-            "sentence": "Walking through the garden, she loved the feel of [dew] on her feet.",
-            "translation_zh_TW": "走在花園裡時，她喜歡腳上露水的感覺。"
-          }
-        ],
-        "synonyms": [
-          "moisture",
-          "condensation"
-        ]
-      }
-    ],
-    "confusion": [
-      "due",
-      "dewberry",
-      "deux",
-      "dewy"
-    ]
-  },
-  {
-    "word": "suspicious",
+    "word": "gracious",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having or showing a cautious distrust of someone or something.",
-        "meaning_zh_TW": "可疑的",
+        "meaning_en_US": "Courteous, kind, and pleasant.",
+        "meaning_zh_TW": "優雅的",
         "wrong_meaning_zh_TW": [
-          "可信的",
-          "可靠的",
-          "信任的"
+          "不友善的",
+          "生氣的",
+          "不耐煩的"
         ],
         "examples": [
           {
-            "sentence": "The [suspicious] behavior of the man drew attention.",
-            "translation_zh_TW": "那個人的可疑行為引起了注意。"
+            "sentence": "She was gracious in defeat.",
+            "translation_zh_TW": "她在失敗中保持優雅。"
           },
           {
-            "sentence": "She had a [suspicious] look on her face.",
-            "translation_zh_TW": "她臉上露出可疑的表情。"
+            "sentence": "His gracious smile lit up the room.",
+            "translation_zh_TW": "他的優雅微笑點亮了整個房間。"
           },
           {
-            "sentence": "There were [suspicious] items in his bag.",
-            "translation_zh_TW": "他的包裡有一些可疑的物品。"
+            "sentence": "They showed gracious hospitality to their guests.",
+            "translation_zh_TW": "他們對客人表現出優雅的款待。"
           }
         ],
         "synonyms": [
-          "doubtful",
-          "questionable"
+          "courteous",
+          "elegant"
         ]
       }
     ],
     "confusion": [
-      "suspense",
-      "suspect",
-      "susceptible",
-      "suspend"
-    ]
-  },
-  {
-    "word": "humidity",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The amount of water vapor present in the air.",
-        "meaning_zh_TW": "濕度",
-        "wrong_meaning_zh_TW": [
-          "降雨量",
-          "氣壓",
-          "風速"
-        ],
-        "examples": [
-          {
-            "sentence": "High [humidity] can make the heat feel more intense.",
-            "translation_zh_TW": "高濕度會使熱量感覺更加強烈。"
-          },
-          {
-            "sentence": "The weather forecast predicts increased [humidity] this week.",
-            "translation_zh_TW": "天氣預報預測本週濕度增加。"
-          },
-          {
-            "sentence": "He checks the [humidity] level to ensure proper conditions for plants.",
-            "translation_zh_TW": "他檢查濕度以確保植物生長的適當條件。"
-          }
-        ],
-        "synonyms": [
-          "moisture",
-          "dampness"
-        ]
-      }
-    ],
-    "confusion": [
-      "humility",
-      "humidity",
-      "hummus",
-      "humor"
-    ]
-  },
-  {
-    "word": "furious",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Extremely angry.",
-        "meaning_zh_TW": "非常生氣",
-        "wrong_meaning_zh_TW": [
-          "高興",
-          "驚訝",
-          "懷疑"
-        ],
-        "examples": [
-          {
-            "sentence": "She was [furious] when she found out.",
-            "translation_zh_TW": "當她發現時，她非常生氣"
-          },
-          {
-            "sentence": "His [furious] reaction surprised everyone.",
-            "translation_zh_TW": "他的愤怒反應讓所有人都感到驚訝"
-          },
-          {
-            "sentence": "They were [furious] at the delay in service.",
-            "translation_zh_TW": "他們對服務的延遲感到非常生氣"
-          }
-        ],
-        "synonyms": [
-          "enraged",
-          "irate"
-        ]
-      }
-    ],
-    "confusion": [
-      "curious",
-      "furlong",
-      "fury",
-      "furor"
-    ]
-  },
-  {
-    "word": "determination",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The quality of being determined to do or achieve something; firmness of purpose.",
-        "meaning_zh_TW": "決心",
-        "wrong_meaning_zh_TW": [
-          "懷疑",
-          "放棄",
-          "迷惑"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [determination] to succeed was evident.",
-            "translation_zh_TW": "她的成功決心顯而易見。"
-          },
-          {
-            "sentence": "With sheer [determination], he overcame the obstacles.",
-            "translation_zh_TW": "憑藉著絕對的決心，他克服了障礙。"
-          },
-          {
-            "sentence": "His [determination] to improve his skills paid off.",
-            "translation_zh_TW": "他提升技能的決心得到了回報。"
-          }
-        ],
-        "synonyms": [
-          "resolve",
-          "tenacity"
-        ]
-      }
-    ],
-    "confusion": [
-      "determined",
-      "determining",
-      "determine",
-      "determinism"
-    ]
-  },
-  {
-    "word": "idle",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Not active or not involved in work.",
-        "meaning_zh_TW": "空閒的，無工作的",
-        "wrong_meaning_zh_TW": [
-          "忙碌的",
-          "勤奮的",
-          "有目的的"
-        ],
-        "examples": [
-          {
-            "sentence": "He was sitting [idle] during the meeting.",
-            "translation_zh_TW": "會議期間他無所事事地坐著。"
-          },
-          {
-            "sentence": "Don't let your mind stay [idle].",
-            "translation_zh_TW": "不要讓你的心靈保持空閒。"
-          },
-          {
-            "sentence": "She spent her summer [idle].",
-            "translation_zh_TW": "她的夏天過得無所事事。"
-          }
-        ],
-        "synonyms": [
-          "inactive",
-          "unoccupied"
-        ]
-      }
-    ],
-    "confusion": [
-      "idleo",
-      "idlle",
-      "idlle",
-      "idile"
-    ]
-  },
-  {
-    "word": "protest",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To express an objection to something.",
-        "meaning_zh_TW": "抗議",
-        "wrong_meaning_zh_TW": [
-          "支持",
-          "沉默",
-          "忽略"
-        ],
-        "examples": [
-          {
-            "sentence": "They decided to [protest] against the new law.",
-            "translation_zh_TW": "他們決定抗議新法律"
-          },
-          {
-            "sentence": "Many people went to the streets to [protest] peacefully.",
-            "translation_zh_TW": "許多人走上街道和平抗議"
-          },
-          {
-            "sentence": "It's their right to [protest] for their beliefs.",
-            "translation_zh_TW": "他們有權抗議自己的信仰"
-          }
-        ],
-        "synonyms": [
-          "demonstrate",
-          "oppose"
-        ]
-      }
-    ],
-    "confusion": [
-      "process",
-      "pretest",
-      "protestant",
-      "project"
-    ]
-  },
-  {
-    "word": "exposure",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The state of being exposed to contact with something.",
-        "meaning_zh_TW": "暴露、接觸",
-        "wrong_meaning_zh_TW": [
-          "遮掩、保護",
-          "懷疑、矛盾",
-          "隔離、隔絕"
-        ],
-        "examples": [
-          {
-            "sentence": "Prolonged [exposure] to the sun can cause skin damage.",
-            "translation_zh_TW": "長時間的陽光暴露可能會造成皮膚損傷。"
-          },
-          {
-            "sentence": "The artist's work received significant [exposure] after the exhibition.",
-            "translation_zh_TW": "這位藝術家的作品在展覽後得到了重大的曝光。"
-          },
-          {
-            "sentence": "The experiment involved [exposure] to various chemicals.",
-            "translation_zh_TW": "實驗涉及接觸各種化學品。"
-          }
-        ],
-        "synonyms": [
-          "revelation",
-          "disclosure"
-        ]
-      }
-    ],
-    "confusion": [
-      "exposur",
-      "exposeure",
-      "exposire",
-      "expousure"
-    ]
-  },
-  {
-    "word": "bridegroom",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A man who is about to be married or who is newly married.",
-        "meaning_zh_TW": "新郎",
-        "wrong_meaning_zh_TW": [
-          "商人",
-          "少婦",
-          "醫生"
-        ],
-        "examples": [
-          {
-            "sentence": "The [bridegroom] waited nervously at the altar.",
-            "translation_zh_TW": "新郎在祭壇上緊張地等待。"
-          },
-          {
-            "sentence": "Every eye was on the [bridegroom] as he entered.",
-            "translation_zh_TW": "當新郎進入時，所有的目光都在他身上。"
-          },
-          {
-            "sentence": "The [bridegroom] smiled as he saw his bride.",
-            "translation_zh_TW": "當新郎看到新娘時，他微笑了。"
-          }
-        ],
-        "synonyms": [
-          "groom",
-          "husband"
-        ]
-      }
-    ],
-    "confusion": [
-      "bride",
-      "groom",
-      "bride's home",
-      "broom"
-    ]
-  },
-  {
-    "word": "satellite",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A natural or artificial object that orbits a planet.",
-        "meaning_zh_TW": "衛星",
-        "wrong_meaning_zh_TW": [
-          "行星",
-          "恒星",
-          "彗星"
-        ],
-        "examples": [
-          {
-            "sentence": "The [satellite] transmitted data back to Earth.",
-            "translation_zh_TW": "這顆衛星將數據傳回地球"
-          },
-          {
-            "sentence": "The moon is Earth's only natural [satellite].",
-            "translation_zh_TW": "月球是地球唯一的自然衛星"
-          },
-          {
-            "sentence": "New satellites are launched every year.",
-            "translation_zh_TW": "每年都有新的衛星發射"
-          }
-        ],
-        "synonyms": [
-          "orbiter",
-          "moon"
-        ]
-      }
-    ],
-    "confusion": [
-      "satiate",
-      "salivate",
-      "satirize",
-      "saddle"
-    ]
-  },
-  {
-    "word": "conductor",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who directs the performance of an orchestra or choir.",
-        "meaning_zh_TW": "指揮",
-        "wrong_meaning_zh_TW": [
-          "售票員",
-          "導遊",
-          "電導體"
-        ],
-        "examples": [
-          {
-            "sentence": "The [conductor] raised his baton to start the performance.",
-            "translation_zh_TW": "指揮揚起指揮棒開始演出"
-          },
-          {
-            "sentence": "The [conductor] was praised for his interpretation of the piece.",
-            "translation_zh_TW": "指揮因其對作品的詮釋而受到讚譽"
-          },
-          {
-            "sentence": "She aspired to become a [conductor] one day.",
-            "translation_zh_TW": "她渴望有一天能成為指揮"
-          }
-        ],
-        "synonyms": [
-          "director",
-          "maestro"
-        ]
-      }
-    ],
-    "confusion": [
-      "conduct",
-      "conduction",
-      "conducing",
-      "conductor"
-    ]
-  },
-  {
-    "word": "professional",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to or connected with a profession.",
-        "meaning_zh_TW": "專業的",
-        "wrong_meaning_zh_TW": [
-          "業餘的",
-          "隨意的",
-          "懶惰的"
-        ],
-        "examples": [
-          {
-            "sentence": "She is a [professional] dancer.",
-            "translation_zh_TW": "她是一位專業的舞者"
-          },
-          {
-            "sentence": "His look was very [professional] in the suit.",
-            "translation_zh_TW": "他穿著西裝看起來非常專業"
-          },
-          {
-            "sentence": "They offered [professional] advice about the project.",
-            "translation_zh_TW": "他們提供了專業的項目建議"
-          }
-        ],
-        "synonyms": [
-          "expert",
-          "specialist"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person engaged or qualified in a profession.",
-        "meaning_zh_TW": "專業人士",
-        "wrong_meaning_zh_TW": [
-          "業餘者",
-          "不負責任者",
-          "學徒"
-        ],
-        "examples": [
-          {
-            "sentence": "He is a [professional] in IT services.",
-            "translation_zh_TW": "他是資訊科技服務的專業人士"
-          },
-          {
-            "sentence": "The event was hosted by several [professionals].",
-            "translation_zh_TW": "這個活動由幾位專業人士主持"
-          },
-          {
-            "sentence": "The company seeks to hire more [professionals] for its team.",
-            "translation_zh_TW": "這家公司希望招聘更多專業人士加入團隊"
-          }
-        ],
-        "synonyms": [
-          "expert",
-          "qualified person"
-        ]
-      }
-    ],
-    "confusion": [
-      "professor",
-      "professionalism",
-      "professionals",
-      "profundity"
-    ]
-  },
-  {
-    "word": "ethnic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to a particular race, culture, or nationality.",
-        "meaning_zh_TW": "民族的，種族的",
-        "wrong_meaning_zh_TW": [
-          "繁榮的",
-          "獨特的",
-          "金融的"
-        ],
-        "examples": [
-          {
-            "sentence": "The festival celebrates the [ethnic] diversity of the community.",
-            "translation_zh_TW": "這個節日慶祝社區的民族多樣性。"
-          },
-          {
-            "sentence": "They showcased [ethnic] dishes from various cultures.",
-            "translation_zh_TW": "他們展示了來自不同文化的民族菜餚。"
-          },
-          {
-            "sentence": "Understanding [ethnic] differences is important.",
-            "translation_zh_TW": "理解民族差異是很重要的。"
-          }
-        ],
-        "synonyms": [
-          "cultural",
-          "racial"
-        ]
-      }
-    ],
-    "confusion": [
-      "ethic",
-      "enthic",
-      "ether",
-      "ethereal"
-    ]
-  },
-  {
-    "word": "depression",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A state of low mood and aversion to activity, often involving feelings of sadness or hopelessness.",
-        "meaning_zh_TW": "憂鬱症、抑鬱",
-        "wrong_meaning_zh_TW": [
-          "快樂、興奮",
-          "充滿活力",
-          "安寧、平靜"
-        ],
-        "examples": [
-          {
-            "sentence": "She was diagnosed with severe [depression] after the loss.",
-            "translation_zh_TW": "她在失去後被診斷為重度抑鬱症。"
-          },
-          {
-            "sentence": "Many people struggle with [depression] silently.",
-            "translation_zh_TW": "許多人默默地與抑鬱症作鬥爭。"
-          },
-          {
-            "sentence": "Therapy can help those dealing with [depression].",
-            "translation_zh_TW": "治療可以幫助那些面對抑鬱症的人。"
-          }
-        ],
-        "synonyms": [
-          "melancholy",
-          "despair"
-        ]
-      }
-    ],
-    "confusion": [
-      "depress",
-      "depressive",
-      "depressione",
-      "deppresion"
+      "graciously",
+      "grave",
+      "graceful",
+      "grape"
     ]
   }
 ]

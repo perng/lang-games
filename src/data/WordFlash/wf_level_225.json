@@ -1,342 +1,275 @@
 [
   {
-    "word": "skull",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The bony structure enclosing the brain.",
-        "meaning_zh_TW": "頭骨",
-        "wrong_meaning_zh_TW": [
-          "顱骨",
-          "面具",
-          "骨頭"
-        ],
-        "examples": [
-          {
-            "sentence": "The [skull] protects the brain from injury.",
-            "translation_zh_TW": "頭骨保護大腦免受傷害"
-          },
-          {
-            "sentence": "Anthropologists study ancient [skulls] to learn about past cultures.",
-            "translation_zh_TW": "人類學家研究古代頭骨以了解過去的文化"
-          },
-          {
-            "sentence": "A cracked [skull] can lead to serious health issues.",
-            "translation_zh_TW": "頭骨破裂可能導致嚴重的健康問題"
-          }
-        ],
-        "synonyms": [
-          "cranium",
-          "head"
-        ]
-      }
-    ],
-    "confusion": [
-      "skul",
-      "skulls",
-      "skulll",
-      "skel"
-    ]
-  },
-  {
-    "word": "fraud",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Wrongful or criminal deception intended to result in financial or personal gain.",
-        "meaning_zh_TW": "詐騙",
-        "wrong_meaning_zh_TW": [
-          "合法交易",
-          "公平競爭",
-          "道德風尚"
-        ],
-        "examples": [
-          {
-            "sentence": "He was charged with [fraud] after misleading investors.",
-            "translation_zh_TW": "他因誤導投資者而被指控詐騙"
-          },
-          {
-            "sentence": "The company faced serious allegations of [fraud].",
-            "translation_zh_TW": "該公司面臨嚴重的詐騙指控"
-          },
-          {
-            "sentence": "They uncovered a large scale [fraud] operation.",
-            "translation_zh_TW": "他們發現了一個大規模的詐騙行動"
-          }
-        ],
-        "synonyms": [
-          "deceit",
-          "scam"
-        ]
-      }
-    ],
-    "confusion": [
-      "flood",
-      "prod",
-      "road",
-      "fraudulent"
-    ]
-  },
-  {
-    "word": "sole",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The undersurface of a shoe or foot.",
-        "meaning_zh_TW": "鞋底",
-        "wrong_meaning_zh_TW": [
-          "鞋面",
-          "靴子",
-          "高跟鞋"
-        ],
-        "examples": [
-          {
-            "sentence": "She has a hole in the [sole] of her shoe.",
-            "translation_zh_TW": "她的鞋底有個洞。"
-          },
-          {
-            "sentence": "He replaced the [sole] of the worn-out shoe.",
-            "translation_zh_TW": "他更換了磨損鞋子的鞋底。"
-          },
-          {
-            "sentence": "The [sole] is important for comfort.",
-            "translation_zh_TW": "鞋底對舒適性很重要。"
-          }
-        ],
-        "synonyms": [
-          "bottom",
-          "base"
-        ]
-      },
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Being the only one; single.",
-        "meaning_zh_TW": "唯一的",
-        "wrong_meaning_zh_TW": [
-          "多樣的",
-          "分散的",
-          "常見的"
-        ],
-        "examples": [
-          {
-            "sentence": "He is the [sole] survivor of the accident.",
-            "translation_zh_TW": "他是這起事故的唯一倖存者。"
-          },
-          {
-            "sentence": "She is the [sole] provider for her family.",
-            "translation_zh_TW": "她是家庭唯一的供養者。"
-          },
-          {
-            "sentence": "The [sole] purpose of the trip was to relax.",
-            "translation_zh_TW": "這次旅行的唯一目的是放鬆。"
-          }
-        ],
-        "synonyms": [
-          "single",
-          "exclusive"
-        ]
-      }
-    ],
-    "confusion": [
-      "soul",
-      "sale",
-      "solely",
-      "soller"
-    ]
-  },
-  {
-    "word": "theft",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The action or crime of stealing.",
-        "meaning_zh_TW": "偷竊",
-        "wrong_meaning_zh_TW": [
-          "借用",
-          "交換",
-          "贈送"
-        ],
-        "examples": [
-          {
-            "sentence": "The police are investigating the [theft] of valuable paintings.",
-            "translation_zh_TW": "警方正在調查珍貴畫作的偷竊案。"
-          },
-          {
-            "sentence": "He was charged with [theft] after he was caught stealing.",
-            "translation_zh_TW": "他因被抓到偷竊而被控以偷竊罪。"
-          },
-          {
-            "sentence": "The store installed cameras to prevent [theft].",
-            "translation_zh_TW": "商店安裝了攝像頭以防止偷竊。"
-          }
-        ],
-        "synonyms": [
-          "stealing",
-          "burglary"
-        ]
-      }
-    ],
-    "confusion": [
-      "theft",
-      "thief",
-      "thematic",
-      "theif"
-    ]
-  },
-  {
-    "word": "riot",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A violent disturbance of the peace by a crowd.",
-        "meaning_zh_TW": "騷亂，暴動",
-        "wrong_meaning_zh_TW": [
-          "安靜",
-          "表演",
-          "慶祝"
-        ],
-        "examples": [
-          {
-            "sentence": "The city experienced a [riot] after the verdict.",
-            "translation_zh_TW": "在裁決後，這座城市發生了騷亂。"
-          },
-          {
-            "sentence": "The protest turned into a [riot] unexpectedly.",
-            "translation_zh_TW": "抗議活動意外轉變為騷亂。"
-          },
-          {
-            "sentence": "Authorities managed to control the [riot] quickly.",
-            "translation_zh_TW": "當局迅速控制了騷亂。"
-          }
-        ],
-        "synonyms": [
-          "uproar",
-          "disturbance"
-        ]
-      }
-    ],
-    "confusion": [
-      "riotous",
-      "riot act",
-      "riots",
-      "row"
-    ]
-  },
-  {
-    "word": "purchase",
+    "word": "conduct",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To acquire something by paying for it.",
-        "meaning_zh_TW": "購買",
+        "meaning_en_US": "To lead or guide; to direct in action.",
+        "meaning_zh_TW": "指導",
         "wrong_meaning_zh_TW": [
-          "出售",
-          "贈送",
-          "預訂"
+          "放任",
+          "隱藏",
+          "攪擾"
         ],
         "examples": [
           {
-            "sentence": "I need to [purchase] some groceries.",
-            "translation_zh_TW": "我需要購買一些雜貨。"
+            "sentence": "She will [conduct] the meeting this afternoon.",
+            "translation_zh_TW": "她將在今天下午主持會議"
           },
           {
-            "sentence": "She plans to [purchase] a new car.",
-            "translation_zh_TW": "她計劃購買一輛新車。"
+            "sentence": "They [conduct] experiments to test their theory.",
+            "translation_zh_TW": "他們進行實驗來測試他們的理論"
           },
           {
-            "sentence": "They will [purchase] tickets for the concert.",
-            "translation_zh_TW": "他們將購買音樂會的票。"
+            "sentence": "The orchestra was [conducted] by a famous maestro.",
+            "translation_zh_TW": "樂團由一位著名的指揮指揮"
           }
         ],
         "synonyms": [
-          "buy",
-          "acquire"
+          "lead",
+          "manage"
         ]
       }
     ],
     "confusion": [
-      "pursue",
-      "purse",
-      "persuade",
-      "perch"
+      "conductor",
+      "conduit",
+      "concord",
+      "contract"
     ]
   },
   {
-    "word": "scenario",
+    "word": "legislation",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A written outline of a film, novel, or stage work.",
-        "meaning_zh_TW": "情境",
+        "meaning_en_US": "The act of making or enacting laws.",
+        "meaning_zh_TW": "立法",
         "wrong_meaning_zh_TW": [
-          "劇本",
-          "角色",
-          "對話"
+          "法律解釋",
+          "司法判決",
+          "行政命令"
         ],
         "examples": [
           {
-            "sentence": "The director presented a thrilling [scenario] for the movie.",
-            "translation_zh_TW": "導演為這部電影提出了引人入勝的情境。"
+            "sentence": "The new [legislation] aims to protect the environment.",
+            "translation_zh_TW": "新立法旨在保護環境。"
           },
           {
-            "sentence": "In the worst-case [scenario], we may need to evacuate.",
-            "translation_zh_TW": "在最糟的情況下，我們可能需要撤離。"
+            "sentence": "Senators debated the proposed [legislation] for hours.",
+            "translation_zh_TW": "參議員們討論了提出的立法數小時。"
           },
           {
-            "sentence": "Each [scenario] helps us plan for different outcomes.",
-            "translation_zh_TW": "每個情境都幫助我們計劃不同的結果。"
+            "sentence": "Public meetings were held to discuss the [legislation].",
+            "translation_zh_TW": "舉行了公開會議來討論這項立法。"
           }
         ],
         "synonyms": [
-          "outline",
-          "situation"
+          "law",
+          "statute"
         ]
       }
     ],
     "confusion": [
-      "senario",
-      "scenery",
-      "scenography",
-      "cenario"
+      "legitimation",
+      "legislator",
+      "legitimacy",
+      "legislatively"
     ]
   },
   {
-    "word": "episode",
+    "word": "ultimate",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "An event or a group of events occurring as part of a larger sequence.",
-        "meaning_zh_TW": "集，事件",
+        "type": "形容詞",
+        "meaning_en_US": "Being the last or final in a series or process.",
+        "meaning_zh_TW": "最後的、最終的",
         "wrong_meaning_zh_TW": [
-          "配角",
-          "結局",
-          "預告片"
+          "優雅的",
+          "自信的",
+          "無聊的"
         ],
         "examples": [
           {
-            "sentence": "The latest [episode] of the series has everyone talking.",
-            "translation_zh_TW": "最新的一集讓每個人都在討論。"
+            "sentence": "The ultimate goal is to achieve success.",
+            "translation_zh_TW": "最終的目標是取得成功。"
           },
           {
-            "sentence": "Each [episode] reveals more about the character's backstory.",
-            "translation_zh_TW": "每一集都揭示了角色的背景故事。"
+            "sentence": "In the end, it was the ultimate decision that mattered.",
+            "translation_zh_TW": "最後，重要的是最終的決策。"
           },
           {
-            "sentence": "This [episode] is particularly emotional.",
-            "translation_zh_TW": "這一集特別感人。"
+            "sentence": "This is the ultimate challenge of the competition.",
+            "translation_zh_TW": "這是比賽的最終挑戰。"
           }
         ],
         "synonyms": [
-          "installment",
-          "segment"
+          "final",
+          "conclusive"
         ]
       }
     ],
     "confusion": [
-      "epicenter",
-      "expose",
-      "episodic",
-      "episteme"
+      "ultimatum",
+      "ultimate",
+      "ultra",
+      "ultimeter"
+    ]
+  },
+  {
+    "word": "administrator",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person responsible for running a business, organization, etc.",
+        "meaning_zh_TW": "管理者",
+        "wrong_meaning_zh_TW": [
+          "顧客",
+          "供應商",
+          "創造者"
+        ],
+        "examples": [
+          {
+            "sentence": "The [administrator] ensured everything ran smoothly.",
+            "translation_zh_TW": "管理者確保一切運行順利。"
+          },
+          {
+            "sentence": "As an [administrator], she has many responsibilities.",
+            "translation_zh_TW": "作為管理者，她有許多責任。"
+          },
+          {
+            "sentence": "He is a skilled [administrator] in the education sector.",
+            "translation_zh_TW": "他是一位在教育界擁有技能的管理者。"
+          }
+        ],
+        "synonyms": [
+          "manager",
+          "director"
+        ]
+      }
+    ],
+    "confusion": [
+      "adjudicator",
+      "administrator",
+      "advocator",
+      "admirator"
+    ]
+  },
+  {
+    "word": "crystal",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A solid where the atoms are arranged in a highly ordered, repeating pattern.",
+        "meaning_zh_TW": "水晶，晶體",
+        "wrong_meaning_zh_TW": [
+          "氣體",
+          "液體",
+          "粉末"
+        ],
+        "examples": [
+          {
+            "sentence": "She wore a beautiful [crystal] necklace.",
+            "translation_zh_TW": "她佩戴著一條美麗的水晶項鍊。"
+          },
+          {
+            "sentence": "The [crystal] structure was studied under a microscope.",
+            "translation_zh_TW": "水晶結構在顯微鏡下被研究。"
+          },
+          {
+            "sentence": "This glass is not just any glass; it's made of [crystal].",
+            "translation_zh_TW": "這個玻璃不僅僅是玻璃；它是用水晶製成的。"
+          }
+        ],
+        "synonyms": [
+          "gem",
+          "quartz"
+        ]
+      }
+    ],
+    "confusion": [
+      "crystalline",
+      "crispy",
+      "cystic",
+      "crux"
+    ]
+  },
+  {
+    "word": "portfolio",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large, thin case for carrying documents.",
+        "meaning_zh_TW": "作品集,文件夾",
+        "wrong_meaning_zh_TW": [
+          "書籍",
+          "會議",
+          "背包"
+        ],
+        "examples": [
+          {
+            "sentence": "She took her art [portfolio] to the interview.",
+            "translation_zh_TW": "她帶著藝術作品集去面試"
+          },
+          {
+            "sentence": "His [portfolio] showcases his best work.",
+            "translation_zh_TW": "他的作品集展示了他最好的作品"
+          },
+          {
+            "sentence": "He carries a [portfolio] to meetings.",
+            "translation_zh_TW": "他在會議上帶著文件夾"
+          }
+        ],
+        "synonyms": [
+          "folder",
+          "collection"
+        ]
+      }
+    ],
+    "confusion": [
+      "portfoilio",
+      "portfollio",
+      "portfolioe",
+      "portoflio"
+    ]
+  },
+  {
+    "word": "infrastructure",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "meaning_zh_TW": "基礎設施",
+        "wrong_meaning_zh_TW": [
+          "計劃",
+          "資訊",
+          "設備"
+        ],
+        "examples": [
+          {
+            "sentence": "The city's [infrastructure] needs significant improvements.",
+            "translation_zh_TW": "這個城市的基礎設施需要顯著改善"
+          },
+          {
+            "sentence": "Investment in [infrastructure] is crucial for economic growth.",
+            "translation_zh_TW": "對基礎設施的投資對經濟增長至關重要"
+          },
+          {
+            "sentence": "A reliable [infrastructure] supports social services and utilities.",
+            "translation_zh_TW": "可靠的基礎設施支持社會服務和公用事業"
+          }
+        ],
+        "synonyms": [
+          "framework",
+          "system"
+        ]
+      }
+    ],
+    "confusion": [
+      "instruct",
+      "infringe",
+      "influx",
+      "infinite"
     ]
   },
   {
@@ -380,393 +313,460 @@
     ]
   },
   {
-    "word": "neutral",
+    "word": "vendor",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Not helping or supporting either side in a conflict or disagreement.",
-        "meaning_zh_TW": "中立的",
+        "type": "名詞",
+        "meaning_en_US": "A person or company offering something for sale, especially a trader in a marketplace.",
+        "meaning_zh_TW": "攤販",
         "wrong_meaning_zh_TW": [
-          "極其偏向",
-          "盲目支持",
-          "冷漠無情"
+          "顧客",
+          "商標",
+          "品牌"
         ],
         "examples": [
           {
-            "sentence": "It's important to remain [neutral] in a debate.",
-            "translation_zh_TW": "在辯論中保持中立是很重要的"
+            "sentence": "The [vendor] sold fresh fruits at the market.",
+            "translation_zh_TW": "這位攤販在市場上賣新鮮水果。"
           },
           {
-            "sentence": "The country has a [neutral] stance on the issue.",
-            "translation_zh_TW": "該國在這個問題上採取中立立場"
+            "sentence": "Each [vendor] has unique products to offer.",
+            "translation_zh_TW": "每個攤販都有獨特的商品供應。"
           },
           {
-            "sentence": "Her [neutral] tone helped to avoid escalation.",
-            "translation_zh_TW": "她的中立語氣幫助避免了升級"
+            "sentence": "The food [vendor] attracted many customers.",
+            "translation_zh_TW": "這位食品攤販吸引了許多顧客。"
           }
         ],
         "synonyms": [
-          "impartial",
-          "unbiased"
+          "merchant",
+          "dealer"
         ]
       }
     ],
     "confusion": [
-      "neutrals",
-      "neutrale",
-      "neuro",
-      "neutrel"
+      "vender",
+      "endow",
+      "ender",
+      "tender"
     ]
   },
   {
-    "word": "legislative",
+    "word": "nutrition",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to the making of laws.",
-        "meaning_zh_TW": "立法的",
+        "type": "名詞",
+        "meaning_en_US": "The process of providing or obtaining the food necessary for health and growth.",
+        "meaning_zh_TW": "營養",
         "wrong_meaning_zh_TW": [
-          "行政的",
-          "司法的",
-          "執法的"
+          "運動習慣",
+          "食譜",
+          "藥物治療"
         ],
         "examples": [
           {
-            "sentence": "The [legislative] assembly convened to review the bill.",
-            "translation_zh_TW": "立法議會召集審查該法案。"
+            "sentence": "Good [nutrition] is essential for a healthy life.",
+            "translation_zh_TW": "良好的營養對健康生活至關重要"
           },
           {
-            "sentence": "She works in a [legislative] committee.",
-            "translation_zh_TW": "她在一個立法委員會工作。"
+            "sentence": "She studies [nutrition] at the university.",
+            "translation_zh_TW": "她在大學學習營養學"
           },
           {
-            "sentence": "The [legislative] process can be lengthy.",
-            "translation_zh_TW": "立法過程可能會很漫長。"
+            "sentence": "Understanding [nutrition] can help improve our diet.",
+            "translation_zh_TW": "了解營養可以幫助改善我們的飲食"
           }
         ],
         "synonyms": [
-          "law-making",
-          "regulatory"
+          "diet",
+          "nourishment"
         ]
       }
     ],
     "confusion": [
-      "legislation",
-      "legitimate",
-      "legitimacy",
-      "legitimating"
+      "nutrient",
+      "nutritious",
+      "nutella",
+      "nurture"
     ]
   },
   {
-    "word": "reverse",
+    "word": "toll",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A charge payable to use a bridge or road.",
+        "meaning_zh_TW": "通行費",
+        "wrong_meaning_zh_TW": [
+          "票價",
+          "稅款",
+          "費用"
+        ],
+        "examples": [
+          {
+            "sentence": "We had to pay a [toll] to cross the bridge.",
+            "translation_zh_TW": "我們必須支付通行費才能過橋。"
+          },
+          {
+            "sentence": "The [toll] for this highway is quite high.",
+            "translation_zh_TW": "這條高速公路的通行費相當高。"
+          },
+          {
+            "sentence": "Make sure to have small change for the [toll].",
+            "translation_zh_TW": "確保在通行費方面準備好小錢。"
+          }
+        ],
+        "synonyms": [
+          "fee",
+          "charge"
+        ]
+      },
+      {
+        "type": "動詞",
+        "meaning_en_US": "To take a fee for using a road or bridge.",
+        "meaning_zh_TW": "徵收通行費",
+        "wrong_meaning_zh_TW": [
+          "禁止進入",
+          "減少速度",
+          "加快通行"
+        ],
+        "examples": [
+          {
+            "sentence": "They [toll] every vehicle crossing the bridge.",
+            "translation_zh_TW": "他們對每輛過橋的車輛徵收通行費。"
+          },
+          {
+            "sentence": "The city plans to [toll] drivers to reduce traffic.",
+            "translation_zh_TW": "該市計劃對駕駛人徵收通行費以減少交通。"
+          },
+          {
+            "sentence": "You should always check if the road is [tolled] before traveling.",
+            "translation_zh_TW": "出行之前，你應該先查一下那條路是否需要收費。"
+          }
+        ],
+        "synonyms": [
+          "charge",
+          "collect"
+        ]
+      }
+    ],
+    "confusion": [
+      "tollgate",
+      "told",
+      "tollbooth",
+      "tool"
+    ]
+  },
+  {
+    "word": "scheme",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A systematic plan or arrangement for attaining a specific goal.",
+        "meaning_zh_TW": "計畫",
+        "wrong_meaning_zh_TW": [
+          "圖案",
+          "詭計",
+          "景象"
+        ],
+        "examples": [
+          {
+            "sentence": "The city introduced a new recycling [scheme].",
+            "translation_zh_TW": "城市推出了一個新的回收計畫"
+          },
+          {
+            "sentence": "She has a secret [scheme] to save money.",
+            "translation_zh_TW": "她有一個秘密計畫來省錢"
+          },
+          {
+            "sentence": "The [scheme] was approved by the board.",
+            "translation_zh_TW": "該計畫已獲得董事會的批准"
+          }
+        ],
+        "synonyms": [
+          "plan",
+          "program"
+        ]
+      }
+    ],
+    "confusion": [
+      "scream",
+      "scheme",
+      "dream",
+      "shame"
+    ]
+  },
+  {
+    "word": "utility",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The state of being useful, profitable, or beneficial.",
+        "meaning_zh_TW": "實用性",
+        "wrong_meaning_zh_TW": [
+          "奢侈品",
+          "損失",
+          "浪費"
+        ],
+        "examples": [
+          {
+            "sentence": "The tool has great [utility] in the workshop.",
+            "translation_zh_TW": "這個工具在作坊中非常實用。"
+          },
+          {
+            "sentence": "He values the [utility] of the new software.",
+            "translation_zh_TW": "他重視這個新軟件的實用性。"
+          },
+          {
+            "sentence": "Understanding the [utility] of resources is crucial.",
+            "translation_zh_TW": "了解資源的實用性是至關重要的。"
+          }
+        ],
+        "synonyms": [
+          "usefulness",
+          "practicality"
+        ]
+      }
+    ],
+    "confusion": [
+      "utilities",
+      "utopia",
+      "utilitys",
+      "utensils"
+    ]
+  },
+  {
+    "word": "cruise",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To move backward or to change to an opposite position.",
-        "meaning_zh_TW": "反轉，倒退",
+        "meaning_en_US": "To travel smoothly at a moderate speed.",
+        "meaning_zh_TW": "巡航，平穩航行",
         "wrong_meaning_zh_TW": [
-          "固執",
-          "進步",
-          "放鬆"
+          "飛行",
+          "急駛",
+          "淺行"
         ],
         "examples": [
           {
-            "sentence": "He had to [reverse] the car out of the driveway.",
-            "translation_zh_TW": "他必須把車倒出車道。"
+            "sentence": "We plan to [cruise] along the coast.",
+            "translation_zh_TW": "我們打算沿著海岸巡航。"
           },
           {
-            "sentence": "You can [reverse] the order of the steps if necessary.",
-            "translation_zh_TW": "如果需要，你可以反轉步驟的順序。"
+            "sentence": "The pilot decided to [cruise] at a higher altitude.",
+            "translation_zh_TW": "飛行員決定在更高的高度巡航。"
           },
           {
-            "sentence": "The decision was [reversed] after much discussion.",
-            "translation_zh_TW": "這個決定在多次討論後被推翻。"
+            "sentence": "They like to [cruise] on weekends.",
+            "translation_zh_TW": "他們喜歡在週末巡航。"
           }
         ],
         "synonyms": [
-          "backtrack",
-          "invert"
+          "sail",
+          "glide"
         ]
       }
     ],
     "confusion": [
-      "revers",
-      "reverso",
-      "reverze",
-      "reversely"
+      "crouch",
+      "cruise ship",
+      "crushed",
+      "crutch"
     ]
   },
   {
-    "word": "stimulus",
+    "word": "bonus",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "Something that causes a response or activity.",
-        "meaning_zh_TW": "刺激因素",
+        "meaning_en_US": "An extra payment or reward.",
+        "meaning_zh_TW": "獎金",
         "wrong_meaning_zh_TW": [
-          "鬧事者",
-          "收穫",
-          "兌換券"
+          "罰款",
+          "賠償金",
+          "薪資"
         ],
         "examples": [
           {
-            "sentence": "The stimulus triggered a reaction from the organism.",
-            "translation_zh_TW": "刺激因素引發了生物體的反應。"
+            "sentence": "She received a cash [bonus] for her hard work.",
+            "translation_zh_TW": "她因辛勤工作而獲得現金獎金。"
           },
           {
-            "sentence": "Economic stimulus measures were introduced to boost growth.",
-            "translation_zh_TW": "推出經濟刺激措施以促進增長。"
+            "sentence": "The company announced a [bonus] for employees this year.",
+            "translation_zh_TW": "公司今年宣布給員工發放獎金。"
           },
           {
-            "sentence": "Visual stimuli can enhance learning in children.",
-            "translation_zh_TW": "視覺刺激可增強兒童的學習。"
+            "sentence": "He was surprised to find out about his year-end [bonus].",
+            "translation_zh_TW": "他驚訝於自己獲得的年終獎金。"
           }
         ],
         "synonyms": [
-          "incentive",
-          "impulse"
+          "extra",
+          "incentive"
         ]
       }
     ],
     "confusion": [
-      "stimulate",
-      "stimulated",
-      "stimulating",
-      "stimuli"
+      "bona",
+      "bunny",
+      "bionic",
+      "buses"
     ]
   },
   {
-    "word": "verdict",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A decision on a disputed issue in a civil or criminal case.",
-        "meaning_zh_TW": "裁決",
-        "wrong_meaning_zh_TW": [
-          "判詞",
-          "證據",
-          "證明"
-        ],
-        "examples": [
-          {
-            "sentence": "The jury reached a [verdict] after several days of deliberation.",
-            "translation_zh_TW": "陪審團經過幾天的審議達成了裁決。"
-          },
-          {
-            "sentence": "Her [verdict] was based on the evidence presented in court.",
-            "translation_zh_TW": "她的裁決是基於法庭上提出的證據。"
-          },
-          {
-            "sentence": "The judge announced the final [verdict] to the courtroom.",
-            "translation_zh_TW": "法官在法庭上宣布了最終裁決。"
-          }
-        ],
-        "synonyms": [
-          "ruling",
-          "finding"
-        ]
-      }
-    ],
-    "confusion": [
-      "verdicts",
-      "verdicts",
-      "verdance",
-      "vertical"
-    ]
-  },
-  {
-    "word": "hormone",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A regulatory substance produced in an organism and transported in tissue fluids to stimulate specific cells or tissues into action.",
-        "meaning_zh_TW": "荷爾蒙",
-        "wrong_meaning_zh_TW": [
-          "情緒",
-          "營養素",
-          "酶"
-        ],
-        "examples": [
-          {
-            "sentence": "Insulin is a key [hormone] in regulating blood sugar.",
-            "translation_zh_TW": "胰島素是調節血糖的主要荷爾蒙"
-          },
-          {
-            "sentence": "Stress can increase the levels of certain [hormones] in the body.",
-            "translation_zh_TW": "壓力會增加體內某些荷爾蒙的水平"
-          },
-          {
-            "sentence": "Growth [hormones] play a crucial role in development.",
-            "translation_zh_TW": "生長荷爾蒙在發育中起著至關重要的作用"
-          }
-        ],
-        "synonyms": [
-          "chemical messenger",
-          "signaling molecule"
-        ]
-      }
-    ],
-    "confusion": [
-      "hormon",
-      "hormones",
-      "hormonal",
-      "hormona"
-    ]
-  },
-  {
-    "word": "bizarre",
+    "word": "contemporary",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Very strange or unusual.",
-        "meaning_zh_TW": "古怪的、異常的",
+        "meaning_en_US": "Living or occurring at the same time.",
+        "meaning_zh_TW": "當代的",
         "wrong_meaning_zh_TW": [
-          "常見的",
-          "時尚的",
-          "正常的"
+          "古老的",
+          "未來的",
+          "過時的"
         ],
         "examples": [
           {
-            "sentence": "His behavior was very [bizarre].",
-            "translation_zh_TW": "他的行為非常古怪。"
+            "sentence": "She is one of the most famous [contemporary] artists.",
+            "translation_zh_TW": "她是最著名的當代藝術家之一"
           },
           {
-            "sentence": "They encountered a [bizarre] creature in the forest.",
-            "translation_zh_TW": "他們在森林中遇到了一種古怪的生物。"
+            "sentence": "The museum features [contemporary] works of art.",
+            "translation_zh_TW": "該博物館展示當代藝術作品"
           },
           {
-            "sentence": "The film has a [bizarre] plot twist.",
-            "translation_zh_TW": "這部電影有一個古怪的情節轉折。"
+            "sentence": "He was a [contemporary] of Shakespeare.",
+            "translation_zh_TW": "他是莎士比亞的當代人"
           }
         ],
         "synonyms": [
-          "strange",
-          "outlandish"
+          "modern",
+          "current"
         ]
       }
     ],
     "confusion": [
-      "buzzard",
-      "bizzar",
-      "bizzarre",
-      "bizarrely"
+      "contemplative",
+      "contemporaneous",
+      "contemporary",
+      "container"
     ]
   },
   {
-    "word": "driveway",
+    "word": "provision",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A private road leading to a house or garage.",
-        "meaning_zh_TW": "車道",
+        "meaning_en_US": "The action of providing something for use.",
+        "meaning_zh_TW": "提供",
         "wrong_meaning_zh_TW": [
-          "公共汽車站",
-          "行駛道",
-          "步行街"
+          "指導",
+          "計劃",
+          "要求"
         ],
         "examples": [
           {
-            "sentence": "She parked her car in the [driveway].",
-            "translation_zh_TW": "她把車停在了車道上。"
+            "sentence": "The [provision] of medical supplies is crucial.",
+            "translation_zh_TW": "醫療物資的提供至關重要。"
           },
           {
-            "sentence": "The [driveway] was lined with trees.",
-            "translation_zh_TW": "車道兩側種滿了樹。"
+            "sentence": "They made a [provision] for unexpected expenses.",
+            "translation_zh_TW": "他們為意外開支做了準備。"
           },
           {
-            "sentence": "He cleaned the leaves off the [driveway].",
-            "translation_zh_TW": "他清理了車道上的樹葉。"
+            "sentence": "The contract includes a [provision] for payment.",
+            "translation_zh_TW": "合同中包括支付的條款。"
           }
         ],
         "synonyms": [
-          "access road",
-          "pathway"
+          "supply",
+          "arrangement"
         ]
       }
     ],
     "confusion": [
-      "drive",
-      "drive-in",
-      "drivetrain",
-      "driving"
+      "provison",
+      "prover",
+      "provoke",
+      "provisions"
     ]
   },
   {
-    "word": "coherent",
+    "word": "circuit",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Logical and consistent; able to speak or express oneself clearly.",
-        "meaning_zh_TW": "連貫的，合邏輯且一致的",
+        "type": "名詞",
+        "meaning_en_US": "A roughly circular line, route, or movement.",
+        "meaning_zh_TW": "環形路線，迴路",
         "wrong_meaning_zh_TW": [
-          "不清晰的",
-          "模糊不清的",
-          "分散的"
+          "正方形",
+          "直線",
+          "通道"
         ],
         "examples": [
           {
-            "sentence": "Her argument was clear and [coherent].",
-            "translation_zh_TW": "她的論點清晰且連貫。"
+            "sentence": "The runners completed a [circuit] around the park.",
+            "translation_zh_TW": "跑者們在公園裡完成了一圈。"
           },
           {
-            "sentence": "The report needs to be more [coherent] for better understanding.",
-            "translation_zh_TW": "報告需要更具連貫性以便更好地理解。"
+            "sentence": "He fixed the electrical [circuit] in the house.",
+            "translation_zh_TW": "他修理了房子的電路。"
           },
           {
-            "sentence": "A [coherent] presentation captivates the audience.",
-            "translation_zh_TW": "一個連貫的演示會吸引觀眾。"
+            "sentence": "The [circuit] of the toy car needs new batteries.",
+            "translation_zh_TW": "玩具車的迴路需要新的電池。"
           }
         ],
         "synonyms": [
-          "logical",
-          "consistent"
+          "route",
+          "path"
         ]
       }
     ],
     "confusion": [
-      "coherant",
-      "coherently",
-      "coherance",
-      "coherency"
+      "circuits",
+      "circular",
+      "circus",
+      "circut"
     ]
   },
   {
-    "word": "boost",
+    "word": "layer",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To increase or improve something.",
-        "meaning_zh_TW": "提升、增強",
+        "type": "名詞",
+        "meaning_en_US": "A single thickness, coating, or coating of material.",
+        "meaning_zh_TW": "層",
         "wrong_meaning_zh_TW": [
-          "降低、減少",
-          "影響、衝擊",
-          "趨勢、排列"
+          "顆粒",
+          "模型",
+          "結構"
         ],
         "examples": [
           {
-            "sentence": "The campaign is designed to [boost] sales.",
-            "translation_zh_TW": "這個活動旨在提升銷售量"
+            "sentence": "She added another [layer] of paint.",
+            "translation_zh_TW": "她加了一層油漆。"
           },
           {
-            "sentence": "She took a deep breath to [boost] her confidence.",
-            "translation_zh_TW": "她深吸一口氣以提升自信"
+            "sentence": "The cake has a chocolate [layer].",
+            "translation_zh_TW": "這蛋糕有一層巧克力。"
           },
           {
-            "sentence": "We need to [boost] our online presence.",
-            "translation_zh_TW": "我們需要提升線上的能見度"
+            "sentence": "Each [layer] has its own characteristics.",
+            "translation_zh_TW": "每一層都有其特點。"
           }
         ],
         "synonyms": [
-          "enhance",
-          "increase"
+          "stratum",
+          "coat"
         ]
       }
     ],
     "confusion": [
-      "boosted",
-      "boast",
-      "boos",
-      "boosts"
+      "lair",
+      "lacer",
+      "layered",
+      "layor"
     ]
   }
 ]

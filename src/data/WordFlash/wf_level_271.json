@@ -1,785 +1,783 @@
 [
   {
-    "word": "ecological",
+    "word": "mumble",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To speak softly and indistinctly.",
+        "meaning_zh_TW": "咕噥",
+        "wrong_meaning_zh_TW": [
+          "高聲",
+          "嘶吼",
+          "辯論"
+        ],
+        "examples": [
+          {
+            "sentence": "He tends to [mumble] his words when he's nervous.",
+            "translation_zh_TW": "他在緊張時常常咕噥著說話。"
+          },
+          {
+            "sentence": "I could barely hear her [mumble] over the noise.",
+            "translation_zh_TW": "我幾乎聽不到她的咕噥聲。"
+          },
+          {
+            "sentence": "Please don't [mumble]; speak clearly.",
+            "translation_zh_TW": "請不要咕噥，說得清楚點。"
+          }
+        ],
+        "synonyms": [
+          "mutter",
+          "grumble"
+        ]
+      }
+    ],
+    "confusion": [
+      "mobile",
+      "muggle",
+      "mumbo",
+      "mumblet"
+    ]
+  },
+  {
+    "word": "startle",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To cause someone to feel sudden shock or surprise.",
+        "meaning_zh_TW": "使震驚",
+        "wrong_meaning_zh_TW": [
+          "故意驚嚇",
+          "令人開心",
+          "感到困惑"
+        ],
+        "examples": [
+          {
+            "sentence": "The loud noise will [startle] her when she least expects it.",
+            "translation_zh_TW": "當她最不期待的時候，響亮的噪音會使她震驚"
+          },
+          {
+            "sentence": "I didn’t mean to [startle] you when I walked in.",
+            "translation_zh_TW": "我進來的時候不是故意要嚇到你"
+          },
+          {
+            "sentence": "The sudden movement [startled] the bird.",
+            "translation_zh_TW": "突如其來的動作嚇到了那隻鳥"
+          }
+        ],
+        "synonyms": [
+          "shock",
+          "surprise"
+        ]
+      }
+    ],
+    "confusion": [
+      "stirred",
+      "staddle",
+      "starlet"
+    ]
+  },
+  {
+    "word": "astonish",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To surprise someone very much.",
+        "meaning_zh_TW": "使驚訝、使驚奇",
+        "wrong_meaning_zh_TW": [
+          "使失望、折磨",
+          "使困惑、疑惑",
+          "使平常、使無趣"
+        ],
+        "examples": [
+          {
+            "sentence": "The magician will [astonish] the audience with his tricks.",
+            "translation_zh_TW": "魔術師將用他的把戲使觀眾驚訝。"
+          },
+          {
+            "sentence": "Her talent never failed to [astonish] me.",
+            "translation_zh_TW": "她的才華總是令我驚訝。"
+          },
+          {
+            "sentence": "It [astonished] him to see his old friend after so many years.",
+            "translation_zh_TW": "多年後再見到老朋友讓他感到驚訝。"
+          }
+        ],
+        "synonyms": [
+          "surprise",
+          "astound"
+        ]
+      }
+    ],
+    "confusion": [
+      "astonishing",
+      "astonished",
+      "astonishers",
+      "astonishly"
+    ]
+  },
+  {
+    "word": "fascinate",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To attract the strong attention and interest of someone.",
+        "meaning_zh_TW": "吸引、使著迷",
+        "wrong_meaning_zh_TW": [
+          "忽略",
+          "冷漠",
+          "厭倦"
+        ],
+        "examples": [
+          {
+            "sentence": "The magician's tricks [fascinate] the audience.",
+            "translation_zh_TW": "魔術師的把戲吸引了觀眾的注意。"
+          },
+          {
+            "sentence": "Her stories always seem to [fascinate] the children.",
+            "translation_zh_TW": "她的故事總是能吸引孩子們。"
+          },
+          {
+            "sentence": "They are [fascinated] by the wonders of the universe.",
+            "translation_zh_TW": "他們對宇宙的奇觀感到著迷。"
+          }
+        ],
+        "synonyms": [
+          "intrigue",
+          "captivate",
+          "enchant"
+        ]
+      }
+    ],
+    "confusion": [
+      "fascinates",
+      "fascist",
+      "fascicle",
+      "fasten"
+    ]
+  },
+  {
+    "word": "terrify",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To cause someone to feel extreme fear.",
+        "meaning_zh_TW": "使某人感到極度恐懼",
+        "wrong_meaning_zh_TW": [
+          "使高興",
+          "使沮喪",
+          "引起困惑"
+        ],
+        "examples": [
+          {
+            "sentence": "The sudden loud noise [terrified] the children.",
+            "translation_zh_TW": "突然的巨大聲音使孩子們感到恐懼。"
+          },
+          {
+            "sentence": "She was [terrified] to walk alone at night.",
+            "translation_zh_TW": "她在晚上獨自走路感到非常害怕。"
+          },
+          {
+            "sentence": "The horror movie [terrified] the audience.",
+            "translation_zh_TW": "恐怖電影使觀眾感到恐懼。"
+          }
+        ],
+        "synonyms": [
+          "frighten",
+          "scare"
+        ]
+      }
+    ],
+    "confusion": [
+      "terrorize",
+      "terrible",
+      "terrifically",
+      "retrofit"
+    ]
+  },
+  {
+    "word": "gay",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Relating to or concerning the relationships between living organisms and their environment.",
-        "meaning_zh_TW": "生態的",
+        "meaning_en_US": "Happy and carefree; also refers to a sexual orientation.",
+        "meaning_zh_TW": "快樂的；也指性取向",
         "wrong_meaning_zh_TW": [
-          "經濟的",
-          "邊際的",
-          "紀錄的"
+          "生氣的",
+          "困惑的",
+          "疲憊的"
         ],
         "examples": [
           {
-            "sentence": "The project focuses on [ecological] sustainability.",
-            "translation_zh_TW": "這個項目專注於生態可持續性。"
+            "sentence": "The children were [gay] as they played in the sun.",
+            "translation_zh_TW": "孩子們在陽光下玩得很快樂。"
           },
           {
-            "sentence": "They conducted an [ecological] survey in the park.",
-            "translation_zh_TW": "他們在公園進行了生態調查。"
+            "sentence": "She wore a [gay] dress to celebrate the festival.",
+            "translation_zh_TW": "她穿了一件快樂的裙子來慶祝這個節日。"
           },
           {
-            "sentence": "The [ecological] impact of pollution is severe.",
-            "translation_zh_TW": "污染的生態影響是相當嚴重的。"
+            "sentence": "He came out as [gay] last year.",
+            "translation_zh_TW": "他去年公開了自己的性取向。"
           }
         ],
         "synonyms": [
-          "environmental",
-          "bioecological"
+          "cheerful",
+          "jovial"
         ]
       }
     ],
     "confusion": [
-      "ecology",
-      "economical",
-      "ecologicalness",
-      "ecolodge"
+      "gays",
+      "gaye",
+      "gaey",
+      "gai"
     ]
   },
   {
-    "word": "biological",
+    "word": "archive",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A collection of historical records and documents.",
+        "meaning_zh_TW": "檔案",
+        "wrong_meaning_zh_TW": [
+          "曖昧",
+          "高架橋",
+          "白話文"
+        ],
+        "examples": [
+          {
+            "sentence": "The [archive] contains documents from the 18th century.",
+            "translation_zh_TW": "這個檔案包含18世紀的文件。"
+          },
+          {
+            "sentence": "We need to organize the [archive] for easier access.",
+            "translation_zh_TW": "我們需要整理檔案以便於更容易訪問。"
+          },
+          {
+            "sentence": "Historians often refer to the [archive] for their research.",
+            "translation_zh_TW": "歷史學家經常查閱檔案進行研究。"
+          }
+        ],
+        "synonyms": [
+          "repository",
+          "database"
+        ]
+      }
+    ],
+    "confusion": [
+      "archetype",
+      "markup",
+      "archer",
+      "archival"
+    ]
+  },
+  {
+    "word": "mar",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To spoil or damage something.",
+        "meaning_zh_TW": "損壞",
+        "wrong_meaning_zh_TW": [
+          "保護",
+          "改善",
+          "整理"
+        ],
+        "examples": [
+          {
+            "sentence": "The spilled paint will [mar] the surface of the table.",
+            "translation_zh_TW": "濺出的油漆將損壞桌子的表面。"
+          },
+          {
+            "sentence": "She fears that her mistakes will [mar] her reputation.",
+            "translation_zh_TW": "她擔心她的錯誤會損壞她的名聲。"
+          },
+          {
+            "sentence": "The scrapes [mar] the otherwise perfect finish.",
+            "translation_zh_TW": "這些刮痕破壞了原本完美的表面。"
+          }
+        ],
+        "synonyms": [
+          "spoil",
+          "blemish"
+        ]
+      }
+    ],
+    "confusion": [
+      "car",
+      "bar",
+      "tar",
+      "war"
+    ]
+  },
+  {
+    "word": "nude",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Relating to biology or living organisms.",
-        "meaning_zh_TW": "生物的、生物學的",
+        "meaning_en_US": "Not clothed; bare.",
+        "meaning_zh_TW": "裸體",
         "wrong_meaning_zh_TW": [
-          "無機的",
-          "人工的",
-          "虛構的"
+          "裙子",
+          "背心",
+          "襪子"
         ],
         "examples": [
           {
-            "sentence": "The study focuses on [biological] diversity.",
-            "translation_zh_TW": "這項研究專注於生物多樣性。"
+            "sentence": "The statue depicted a [nude] figure.",
+            "translation_zh_TW": "雕像描繪了一個裸體的身影。"
           },
           {
-            "sentence": "They discovered [biological] markers in the blood.",
-            "translation_zh_TW": "他們在血液中發現了生物標誌。"
+            "sentence": "She prefers to paint [nude] portraits.",
+            "translation_zh_TW": "她更喜歡畫裸體肖像。"
           },
           {
-            "sentence": "She specializes in [biological] research.",
-            "translation_zh_TW": "她專門從事生物研究。"
+            "sentence": "The artist celebrated the beauty of the [nude] form.",
+            "translation_zh_TW": "藝術家讚美裸體形體的美。"
           }
         ],
         "synonyms": [
-          "organic",
-          "living"
+          "bare",
+          "unclothed"
         ]
       }
     ],
     "confusion": [
-      "biologist",
-      "biomechanical",
-      "biohazard",
-      "biologic"
+      "nudes",
+      "nuder",
+      "nudi",
+      "nudd"
     ]
   },
   {
-    "word": "intact",
+    "word": "subscribe",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To arrange to receive something regularly, typically a publication or service.",
+        "meaning_zh_TW": "訂閱",
+        "wrong_meaning_zh_TW": [
+          "贈送",
+          "正義",
+          "取消"
+        ],
+        "examples": [
+          {
+            "sentence": "I decided to [subscribe] to the monthly magazine.",
+            "translation_zh_TW": "我決定訂閱這本月刊雜誌。"
+          },
+          {
+            "sentence": "You can [subscribe] to various channels online.",
+            "translation_zh_TW": "你可以在線上訂閱各種頻道。"
+          },
+          {
+            "sentence": "Many people [subscribe] for updates on their interests.",
+            "translation_zh_TW": "許多人訂閱更新以獲知他們感興趣的內容。"
+          }
+        ],
+        "synonyms": [
+          "enroll",
+          "register"
+        ]
+      }
+    ],
+    "confusion": [
+      "subscript",
+      "subscriber",
+      "subscribed",
+      "subscribing"
+    ]
+  },
+  {
+    "word": "lesbian",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A woman who is sexually attracted to other women.",
+        "meaning_zh_TW": "女性同性戀者",
+        "wrong_meaning_zh_TW": [
+          "男人",
+          "女性",
+          "異性戀者"
+        ],
+        "examples": [
+          {
+            "sentence": "She identifies as a [lesbian] and is an activist for LGBTQ+ rights.",
+            "translation_zh_TW": "她認同自己是一名女性同性戀者，並且是LGBTQ+權益的活動家。"
+          },
+          {
+            "sentence": "There are many support groups for [lesbian] women.",
+            "translation_zh_TW": "有許多支持女性同性戀者的團體。"
+          },
+          {
+            "sentence": "The film features a [lesbian] couple as the main characters.",
+            "translation_zh_TW": "這部電影以一對女性同性戀者作為主要角色。"
+          }
+        ],
+        "synonyms": [
+          "gay woman",
+          "same-sex attracted"
+        ]
+      }
+    ],
+    "confusion": [
+      "lesion",
+      "lessons",
+      "lifestyle",
+      "lesen"
+    ]
+  },
+  {
+    "word": "logo",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A symbol or design adopted by an organization to identify its products.",
+        "meaning_zh_TW": "標誌",
+        "wrong_meaning_zh_TW": [
+          "海報",
+          "名片",
+          "商標"
+        ],
+        "examples": [
+          {
+            "sentence": "The new [logo] represents our brand's commitment to sustainability.",
+            "translation_zh_TW": "這個新標誌代表了我們品牌對可持續性的承諾。"
+          },
+          {
+            "sentence": "They redesigned their company [logo] for a modern look.",
+            "translation_zh_TW": "他們為了現代感重新設計了公司的標誌。"
+          },
+          {
+            "sentence": "Every product has the company [logo] on it.",
+            "translation_zh_TW": "每個產品上都有公司的標誌。"
+          }
+        ],
+        "synonyms": [
+          "emblem",
+          "insignia"
+        ]
+      }
+    ],
+    "confusion": [
+      "logo",
+      "log",
+      "logon",
+      "logoff"
+    ]
+  },
+  {
+    "word": "navigation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The process or activity of accurately ascertaining one's position and planning and following a route.",
+        "meaning_zh_TW": "導航",
+        "wrong_meaning_zh_TW": [
+          "運輸",
+          "合作",
+          "行駛"
+        ],
+        "examples": [
+          {
+            "sentence": "Modern technology has improved [navigation] significantly.",
+            "translation_zh_TW": "現代科技已顯著改善導航。"
+          },
+          {
+            "sentence": "He studied terrestrial [navigation] for his degree.",
+            "translation_zh_TW": "他學習了地面導航以獲得學位。"
+          },
+          {
+            "sentence": "Mariners rely on celestial [navigation] at sea.",
+            "translation_zh_TW": "海員依賴天文導航在海上航行。"
+          }
+        ],
+        "synonyms": [
+          "wayfinding",
+          "routing"
+        ]
+      }
+    ],
+    "confusion": [
+      "navigational",
+      "navigable",
+      "navigationist",
+      "navigators"
+    ]
+  },
+  {
+    "word": "default",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Failure to fulfill an obligation, especially a financial one.",
+        "meaning_zh_TW": "違約",
+        "wrong_meaning_zh_TW": [
+          "成功",
+          "保證",
+          "補償"
+        ],
+        "examples": [
+          {
+            "sentence": "The company was in danger of [default].",
+            "translation_zh_TW": "該公司面臨違約的危險"
+          },
+          {
+            "sentence": "To avoid [default], they had to restructure the debt.",
+            "translation_zh_TW": "為了避免違約，他們不得不重組債務"
+          },
+          {
+            "sentence": "He faced penalties for his [default] on the loan.",
+            "translation_zh_TW": "由於他未能履行貸款，他面臨懲罰"
+          }
+        ],
+        "synonyms": [
+          "nonpayment",
+          "failure"
+        ]
+      }
+    ],
+    "confusion": [
+      "defalt",
+      "defect",
+      "defend",
+      "deflated"
+    ]
+  },
+  {
+    "word": "respective",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Not damaged or impaired in any way; complete.",
-        "meaning_zh_TW": "完整無缺",
+        "meaning_en_US": "Belonging or relating separately to each of two or more people or things.",
+        "meaning_zh_TW": "各自的",
         "wrong_meaning_zh_TW": [
-          "破損",
-          "缺損",
-          "損壞"
+          "共同的",
+          "綜合的",
+          "合併的"
         ],
         "examples": [
           {
-            "sentence": "The ancient artifact remains [intact] after centuries.",
-            "translation_zh_TW": "這件古代文物經過幾個世紀仍然完整無缺"
+            "sentence": "The students returned to their [respective] homes.",
+            "translation_zh_TW": "學生們回到了各自的家。"
           },
           {
-            "sentence": "The house was [intact] after the storm, much to everyone's surprise.",
-            "translation_zh_TW": "這棟房子經過風暴後依然完整，令大家都感到驚訝"
+            "sentence": "They discussed their [respective] projects.",
+            "translation_zh_TW": "他們討論了各自的計畫。"
           },
           {
-            "sentence": "I found the document [intact] in the archive.",
-            "translation_zh_TW": "我在檔案館找到文件時仍然完好無缺"
+            "sentence": "The teams should focus on their [respective] goals.",
+            "translation_zh_TW": "各隊應專注於各自的目標。"
           }
         ],
         "synonyms": [
-          "unbroken",
-          "whole"
+          "individual",
+          "particular"
         ]
       }
     ],
     "confusion": [
-      "intract",
-      "intactness",
-      "intacts",
-      "intactness"
+      "retrospective",
+      "respectful",
+      "respective",
+      "respect"
     ]
   },
   {
-    "word": "journalism",
+    "word": "religion",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The activity of gathering, assessing, creating, and presenting news and information.",
-        "meaning_zh_TW": "新聞業",
+        "meaning_en_US": "A system of beliefs, practices, and values that relate humanity to spirituality and moral values.",
+        "meaning_zh_TW": "宗教",
         "wrong_meaning_zh_TW": [
-          "文學批評",
-          "公關活動",
-          "媒體藝術"
+          "科學",
+          "運動",
+          "娛樂"
         ],
         "examples": [
           {
-            "sentence": "She studied [journalism] at university.",
-            "translation_zh_TW": "她在大學學習新聞業。"
+            "sentence": "She practices her [religion] every Sunday.",
+            "translation_zh_TW": "她每個星期天都在信奉她的宗教。"
           },
           {
-            "sentence": "Good [journalism] requires accuracy and integrity.",
-            "translation_zh_TW": "優秀的新聞業要求準確性和誠信。"
+            "sentence": "Different cultures have distinct forms of [religion].",
+            "translation_zh_TW": "不同文化有各自獨特的宗教形式。"
           },
           {
-            "sentence": "He works in [journalism] for a major newspaper.",
-            "translation_zh_TW": "他在一家主要報紙從事新聞業工作。"
+            "sentence": "His view on [religion] was profoundly influenced by his upbringing.",
+            "translation_zh_TW": "他的宗教觀深受家庭背景的影響。"
           }
         ],
         "synonyms": [
-          "reporting",
-          "newswriting"
+          "faith",
+          "belief",
+          "spirituality"
         ]
       }
     ],
     "confusion": [
-      "journal",
-      "journals",
-      "juror",
-      "journaled"
+      "relegion",
+      "region",
+      "religions",
+      "reliant"
     ]
   },
   {
-    "word": "guideline",
+    "word": "paperback",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A general rule, principle, or piece of advice.",
-        "meaning_zh_TW": "指導方針，準則",
+        "meaning_en_US": "A book with a flexible paper cover.",
+        "meaning_zh_TW": "平裝書",
         "wrong_meaning_zh_TW": [
-          "指南針",
-          "日曆",
-          "指南手冊"
+          "漫畫",
+          "文具",
+          "小說"
         ],
         "examples": [
           {
-            "sentence": "Please follow the [guideline] to ensure safety.",
-            "translation_zh_TW": "請遵循指導方針以確保安全。"
+            "sentence": "I prefer reading a [paperback] because it's lightweight.",
+            "translation_zh_TW": "我喜歡讀平裝書，因為它輕便。"
           },
           {
-            "sentence": "The project has specific [guidelines] for conduct.",
-            "translation_zh_TW": "該項目對行為有具體的準則。"
+            "sentence": "He bought a new [paperback] from the bookstore.",
+            "translation_zh_TW": "他在書店買了一本新的平裝書。"
           },
           {
-            "sentence": "These [guidelines] help streamline the process.",
-            "translation_zh_TW": "這些指導方針有助於簡化過程。"
+            "sentence": "She collects different editions of [paperback] novels.",
+            "translation_zh_TW": "她收集不同版本的平裝小說。"
           }
         ],
         "synonyms": [
-          "rule",
-          "instruction"
+          "softcover",
+          "trade paperback"
         ]
       }
     ],
     "confusion": [
-      "guid",
-      "guilder",
-      "glide",
-      "glideway"
+      "paperbag",
+      "papersack",
+      "paperclip",
+      "paperwork"
     ]
   },
   {
-    "word": "ratio",
+    "word": "affiliate",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "The quantitative relationship between two amounts, showing the number of times one value contains or is contained within the other.",
-        "meaning_zh_TW": "比率",
+        "type": "動詞",
+        "meaning_en_US": "To officially attach or connect to an organization.",
+        "meaning_zh_TW": "附屬",
         "wrong_meaning_zh_TW": [
-          "隨機數",
-          "指數",
-          "算法"
+          "分開",
+          "獨立",
+          "鬆散"
         ],
         "examples": [
           {
-            "sentence": "The [ratio] of students to teachers is ten to one.",
-            "translation_zh_TW": "學生和教師的比率是十比一"
+            "sentence": "We decided to [affiliate] with a larger network.",
+            "translation_zh_TW": "我們決定與更大的網絡附屬。"
           },
           {
-            "sentence": "Understanding the [ratio] helps in dividing resources efficiently.",
-            "translation_zh_TW": "理解比率有助於高效分配資源"
+            "sentence": "The company will [affiliate] with a non-profit.",
+            "translation_zh_TW": "該公司將與一家非營利機構附屬。"
           },
           {
-            "sentence": "They calculated the [ratio] of success to failure.",
-            "translation_zh_TW": "他們計算了成功與失敗的比率"
+            "sentence": "Many clubs [affiliate] under one umbrella organization.",
+            "translation_zh_TW": "許多俱樂部在一個總體組織下附屬。"
           }
         ],
         "synonyms": [
-          "proportion",
-          "fraction"
+          "associate",
+          "join"
         ]
       }
     ],
     "confusion": [
-      "racio",
-      "ratios",
-      "rattle",
-      "rates"
+      "affiliation",
+      "afflicted",
+      "affiliates",
+      "affilicate"
     ]
   },
   {
-    "word": "spicy",
+    "word": "comprehensive",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having a strong, pungent flavor or odor; flavored with spices.",
-        "meaning_zh_TW": "辛辣的",
+        "meaning_en_US": "Including all or nearly all elements or aspects of something.",
+        "meaning_zh_TW": "綜合的",
         "wrong_meaning_zh_TW": [
-          "清淡的",
-          "甜的",
-          "鹹的"
+          "簡單的",
+          "部分的",
+          "模糊的"
         ],
         "examples": [
           {
-            "sentence": "I love [spicy] food that makes my mouth tingle.",
-            "translation_zh_TW": "我喜歡讓我嘴巴感到刺痛的辛辣食物。"
+            "sentence": "The report provided a [comprehensive] overview of the research.",
+            "translation_zh_TW": "這份報告提供了研究的綜合概述。"
           },
           {
-            "sentence": "The dish was too [spicy] for my taste.",
-            "translation_zh_TW": "這道菜對我來說太辛辣了。"
+            "sentence": "They conducted a [comprehensive] analysis of the data.",
+            "translation_zh_TW": "他們對數據進行了綜合分析。"
           },
           {
-            "sentence": "Curry is famous for its [spicy] flavor.",
-            "translation_zh_TW": "咖哩以其辛辣的味道而聞名。"
+            "sentence": "Her [comprehensive] understanding of the subject impressed everyone.",
+            "translation_zh_TW": "她對這個主題的綜合理解讓大家印象深刻。"
           }
         ],
         "synonyms": [
-          "hot",
-          "piquant"
+          "全面的",
+          "全方位的"
         ]
       }
     ],
     "confusion": [
-      "spice",
-      "spiciness",
-      "spicyness",
-      "spicey"
+      "comprise",
+      "compress",
+      "compliance",
+      "comprehend"
     ]
   },
   {
-    "word": "prolong",
+    "word": "wholesale",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To extend the duration of something.",
-        "meaning_zh_TW": "延長",
+        "meaning_en_US": "The sale of goods in large quantities at lower prices, typically for resale by retailers.",
+        "meaning_zh_TW": "批發",
         "wrong_meaning_zh_TW": [
-          "縮短",
-          "減少",
-          "抑制"
+          "零售",
+          "租賃",
+          "分售"
         ],
         "examples": [
           {
-            "sentence": "They decided to [prolong] the meeting to discuss further.",
-            "translation_zh_TW": "他們決定延長會議以進一步討論"
+            "sentence": "They decided to [wholesale] their products to cut costs.",
+            "translation_zh_TW": "他們決定批發產品以降低成本。"
           },
           {
-            "sentence": "Prolonging the deadline is not an option anymore.",
-            "translation_zh_TW": "延長截止日期不再是選擇"
+            "sentence": "Many stores buy [wholesale] to maximize profits.",
+            "translation_zh_TW": "許多商店以批發方式進貨以增加利潤。"
           },
           {
-            "sentence": "He wants to [prolong] his stay in the city.",
-            "translation_zh_TW": "他希望延長在這個城市的停留時間"
+            "sentence": "The company [wholesales] various electronics.",
+            "translation_zh_TW": "該公司批發各類電子產品。"
           }
         ],
         "synonyms": [
-          "extend",
-          "lengthen",
-          "delay"
+          "distribute",
+          "retail"
         ]
       }
     ],
     "confusion": [
-      "prolonged",
-      "prolongation",
-      "prolonging",
-      "prolongedly"
-    ]
-  },
-  {
-    "word": "freight",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Goods transported in bulk by truck, train, ship, or aircraft.",
-        "meaning_zh_TW": "貨運",
-        "wrong_meaning_zh_TW": [
-          "小包郵件",
-          "顧客服務",
-          "市場行銷"
-        ],
-        "examples": [
-          {
-            "sentence": "The company specializes in [freight] transportation.",
-            "translation_zh_TW": "該公司專注於貨運運輸"
-          },
-          {
-            "sentence": "They shipped the [freight] across the ocean.",
-            "translation_zh_TW": "他們將貨物運送 across the ocean"
-          },
-          {
-            "sentence": "The cost of [freight] has increased this year.",
-            "translation_zh_TW": "今年貨運成本已經上升"
-          }
-        ],
-        "synonyms": [
-          "cargo",
-          "transport"
-        ]
-      }
-    ],
-    "confusion": [
-      "fright",
-      "fight",
-      "freightage",
-      "freedom"
-    ]
-  },
-  {
-    "word": "accustom",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To make familiar with something through use or experience.",
-        "meaning_zh_TW": "使習慣於",
-        "wrong_meaning_zh_TW": [
-          "忘記",
-          "排斥",
-          "懷疑"
-        ],
-        "examples": [
-          {
-            "sentence": "It took a while to [accustom] myself to the new routine.",
-            "translation_zh_TW": "我花了一段時間才能使自己習慣新的日常。"
-          },
-          {
-            "sentence": "They needed to [accustom] their dog to the sound of fireworks.",
-            "translation_zh_TW": "他們需要讓狗習慣煙火的聲音。"
-          },
-          {
-            "sentence": "She tried to [accustom] her children to eating healthy food.",
-            "translation_zh_TW": "她試著讓孩子們習慣吃健康食品。"
-          }
-        ],
-        "synonyms": [
-          "habituate",
-          "adapt",
-          "acclimatize"
-        ]
-      }
-    ],
-    "confusion": [
-      "accustom",
-      "customize",
-      "customer",
-      "accused"
-    ]
-  },
-  {
-    "word": "imprison",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To confine in prison.",
-        "meaning_zh_TW": "監禁",
-        "wrong_meaning_zh_TW": [
-          "釋放",
-          "疏散",
-          "驅散"
-        ],
-        "examples": [
-          {
-            "sentence": "They decided to [imprison] the suspect until the trial.",
-            "translation_zh_TW": "他們決定在審判前監禁嫌疑犯。"
-          },
-          {
-            "sentence": "Fear can [imprison] one's mind.",
-            "translation_zh_TW": "恐懼可以監禁一個人的心靈。"
-          },
-          {
-            "sentence": "He was [imprisoned] for his political beliefs.",
-            "translation_zh_TW": "因為他的政治信仰，他被監禁了。"
-          }
-        ],
-        "synonyms": [
-          "confinement",
-          "detain"
-        ]
-      }
-    ],
-    "confusion": [
-      "impression",
-      "impreview",
-      "impersonate",
-      "imprecept"
-    ]
-  },
-  {
-    "word": "refreshment",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A snack or drink taken to refresh oneself.",
-        "meaning_zh_TW": "飲料或小吃",
-        "wrong_meaning_zh_TW": [
-          "困惑",
-          "惡化",
-          "垃圾"
-        ],
-        "examples": [
-          {
-            "sentence": "They offered us some [refreshment] after the long journey.",
-            "translation_zh_TW": "在漫長的旅程後，他們為我們提供了一些飲料。"
-          },
-          {
-            "sentence": "During the break, I enjoyed a [refreshment] of lemonade.",
-            "translation_zh_TW": "在休息期間，我享用了檸檬水。"
-          },
-          {
-            "sentence": "The conference provided [refreshments] for all attendees.",
-            "translation_zh_TW": "會議為所有與會者提供了飲料。"
-          }
-        ],
-        "synonyms": [
-          "snack",
-          "beverage"
-        ]
-      }
-    ],
-    "confusion": [
-      "refresher",
-      "refresh",
-      "refreshers",
-      "reaffirm"
-    ]
-  },
-  {
-    "word": "dividend",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A sum of money paid regularly by a company to its shareholders out of its profits.",
-        "meaning_zh_TW": "股息",
-        "wrong_meaning_zh_TW": [
-          "債務",
-          "收入",
-          "稅金"
-        ],
-        "examples": [
-          {
-            "sentence": "Investors are eagerly awaiting their [dividend] payments.",
-            "translation_zh_TW": "投資者正在急切期待股息支付"
-          },
-          {
-            "sentence": "The company announced a higher [dividend] than last year.",
-            "translation_zh_TW": "公司宣布了比去年更高的股息"
-          },
-          {
-            "sentence": "Dividends can be reinvested to buy more shares.",
-            "translation_zh_TW": "股息可以再投資來購買更多股份"
-          }
-        ],
-        "synonyms": [
-          "profit share",
-          "reward"
-        ]
-      }
-    ],
-    "confusion": [
-      "divination",
-      "diversity",
-      "divert",
-      "division"
-    ]
-  },
-  {
-    "word": "mute",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Unable to speak.",
-        "meaning_zh_TW": "啞的",
-        "wrong_meaning_zh_TW": [
-          "大聲的",
-          "滑稽的",
-          "敏捷的"
-        ],
-        "examples": [
-          {
-            "sentence": "He has been [mute] since the accident.",
-            "translation_zh_TW": "自從那次意外後他一直是啞的。"
-          },
-          {
-            "sentence": "The [mute] character expressed emotions through gestures.",
-            "translation_zh_TW": "這位啞的角色通過手勢表達情感。"
-          },
-          {
-            "sentence": "Being [mute] does not limit his creativity.",
-            "translation_zh_TW": "啞的情況並不限制他的創造力。"
-          }
-        ],
-        "synonyms": [
-          "silent",
-          "voiceless"
-        ]
-      }
-    ],
-    "confusion": [
-      "moot",
-      "mutee",
-      "moat",
-      "muta"
-    ]
-  },
-  {
-    "word": "formulate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To create or devise methodically (a strategy or a proposal).",
-        "meaning_zh_TW": "制定",
-        "wrong_meaning_zh_TW": [
-          "否定",
-          "迷惑",
-          "分散"
-        ],
-        "examples": [
-          {
-            "sentence": "It’s important to [formulate] a plan before starting.",
-            "translation_zh_TW": "在開始之前制定計畫很重要"
-          },
-          {
-            "sentence": "They [formulate] new ideas for the project.",
-            "translation_zh_TW": "他們為這個項目制定新想法"
-          },
-          {
-            "sentence": "You need to [formulate] your arguments clearly.",
-            "translation_zh_TW": "你需要清晰地制定你的論據"
-          }
-        ],
-        "synonyms": [
-          "devise",
-          "construct"
-        ]
-      }
-    ],
-    "confusion": [
-      "formulating",
-      "formulation",
-      "formed",
-      "form"
-    ]
-  },
-  {
-    "word": "distraction",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A thing that prevents someone from concentrating on something else.",
-        "meaning_zh_TW": "干擾",
-        "wrong_meaning_zh_TW": [
-          "引誘",
-          "困惑",
-          "遊戲"
-        ],
-        "examples": [
-          {
-            "sentence": "The loud noise was a major [distraction] during the test.",
-            "translation_zh_TW": "響亮的噪音在考試期間是一個主要的干擾。"
-          },
-          {
-            "sentence": "She found it hard to focus with all the [distraction] around her.",
-            "translation_zh_TW": "周圍的干擾讓她很難集中注意力。"
-          },
-          {
-            "sentence": "His phone was a constant [distraction] during work.",
-            "translation_zh_TW": "他的手機在工作中是一個不斷的干擾。"
-          }
-        ],
-        "synonyms": [
-          "diversion",
-          "interruption"
-        ]
-      }
-    ],
-    "confusion": [
-      "distraction",
-      "distracted",
-      "distract",
-      "dissension"
-    ]
-  },
-  {
-    "word": "civilize",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To bring (a place or people) to a stage of social development considered to be more advanced.",
-        "meaning_zh_TW": "使文明",
-        "wrong_meaning_zh_TW": [
-          "使淺薄",
-          "使忙碌",
-          "使危險"
-        ],
-        "examples": [
-          {
-            "sentence": "The mission aimed to [civilize] the indigenous tribes.",
-            "translation_zh_TW": "這項任務旨在使土著部落文明化"
-          },
-          {
-            "sentence": "They believed it was their duty to [civilize] the less developed nations.",
-            "translation_zh_TW": "他們認為，文明化發展中國家是他們的責任"
-          },
-          {
-            "sentence": "History shows how efforts to [civilize] often led to conflicts.",
-            "translation_zh_TW": "歷史顯示，文明化的努力常常導致衝突"
-          }
-        ],
-        "synonyms": [
-          "educate",
-          "refine",
-          "cultivate"
-        ]
-      }
-    ],
-    "confusion": [
-      "civil",
-      "civilian",
-      "civilizeed",
-      "civility"
-    ]
-  },
-  {
-    "word": "doze",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To sleep lightly or briefly.",
-        "meaning_zh_TW": "打瞌睡",
-        "wrong_meaning_zh_TW": [
-          "失眠",
-          "放鬆",
-          "清醒"
-        ],
-        "examples": [
-          {
-            "sentence": "He tends to [doze] off during lectures.",
-            "translation_zh_TW": "他在講座上經常打瞌睡。"
-          },
-          {
-            "sentence": "She would [doze] for a few minutes in the afternoon.",
-            "translation_zh_TW": "她會在下午小睡幾分鐘。"
-          },
-          {
-            "sentence": "Don't [doze] off while driving.",
-            "translation_zh_TW": "開車時不要打瞌睡。"
-          }
-        ],
-        "synonyms": [
-          "nap",
-          "snooze"
-        ]
-      }
-    ],
-    "confusion": [
-      "dose",
-      "dozer",
-      "douse",
-      "dote"
-    ]
-  },
-  {
-    "word": "novice",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person new to or inexperienced in a field or situation.",
-        "meaning_zh_TW": "新手",
-        "wrong_meaning_zh_TW": [
-          "專家",
-          "老手",
-          "高手"
-        ],
-        "examples": [
-          {
-            "sentence": "As a [novice], she was eager to learn.",
-            "translation_zh_TW": "作為一個新手，她渴望學習。"
-          },
-          {
-            "sentence": "The program is designed for [novice] users.",
-            "translation_zh_TW": "這個程序是為新手用戶設計的。"
-          },
-          {
-            "sentence": "Every expert was once a [novice].",
-            "translation_zh_TW": "每個專家都是曾經的新手。"
-          }
-        ],
-        "synonyms": [
-          "beginner",
-          "trainee"
-        ]
-      }
-    ],
-    "confusion": [
-      "novel",
-      "noble",
-      "novation",
-      "novellas"
-    ]
-  },
-  {
-    "word": "hypocrite",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who engages in the pretension of having virtues, morals, or principles that they do not actually possess.",
-        "meaning_zh_TW": "偽善者",
-        "wrong_meaning_zh_TW": [
-          "反派角色",
-          "社會學家",
-          "文學家"
-        ],
-        "examples": [
-          {
-            "sentence": "He is a [hypocrite] who preaches about honesty but often lies.",
-            "translation_zh_TW": "他是一個偽善者，宣揚誠實卻經常撒謊。"
-          },
-          {
-            "sentence": "The self-proclaimed moral leader turned out to be a [hypocrite].",
-            "translation_zh_TW": "這位自稱道德領袖的人，其實是一個偽善者。"
-          },
-          {
-            "sentence": "Many politicians are seen as [hypocrites] for their double standards.",
-            "translation_zh_TW": "許多政治人物因其雙重標準而被視為偽善者。"
-          }
-        ],
-        "synonyms": [
-          "fraud",
-          "charlatan"
-        ]
-      }
-    ],
-    "confusion": [
-      "hypocrisy",
-      "hypotrite",
-      "hippocrates",
-      "hydrocrite"
+      "whole",
+      "wholesome",
+      "wholesaleing",
+      "wholesaleer"
     ]
   }
 ]

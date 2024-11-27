@@ -1,158 +1,275 @@
 [
   {
-    "word": "lash",
+    "word": "hurdle",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A stroke or blow with a whip or a similar object.",
-        "meaning_zh_TW": "鞭打",
+        "meaning_en_US": "An obstacle or barrier to overcome.",
+        "meaning_zh_TW": "障礙",
         "wrong_meaning_zh_TW": [
-          "爆炸",
-          "熔融",
-          "摧毀"
+          "獎勵",
+          "安慰",
+          "服務"
         ],
         "examples": [
           {
-            "sentence": "The [lash] of the whip was heard across the field.",
-            "translation_zh_TW": "鞭子的鞭打聲在田野中響起"
+            "sentence": "She cleared the final [hurdle] in the race.",
+            "translation_zh_TW": "她在比賽中越過了最後一個障礙"
           },
           {
-            "sentence": "He felt the [lash] of the cold wind.",
-            "translation_zh_TW": "他感受到了寒風的刺骨"
+            "sentence": "Facing challenges is just a [hurdle] to success.",
+            "translation_zh_TW": "迎接挑戰只是通往成功的障礙"
           },
           {
-            "sentence": "She delivered a sharp [lash] of criticism.",
-            "translation_zh_TW": "她進行了一次尖銳的批評"
+            "sentence": "The company saw the financial crisis as a [hurdle] to overcome.",
+            "translation_zh_TW": "公司將金融危機視為一個需要克服的障礙"
           }
         ],
         "synonyms": [
-          "whip",
-          "stroke"
+          "obstacle",
+          "barrier"
         ]
       }
     ],
     "confusion": [
-      "hash",
-      "lashy",
-      "latch",
-      "lush"
+      "hurdles",
+      "hurdled",
+      "turtle",
+      "furdle"
     ]
   },
   {
-    "word": "superstitious",
+    "word": "woe",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Great sorrow or distress.",
+        "meaning_zh_TW": "悲哀",
+        "wrong_meaning_zh_TW": [
+          "歡樂",
+          "讚美",
+          "好運"
+        ],
+        "examples": [
+          {
+            "sentence": "He spoke of his [woe] with a heavy heart.",
+            "translation_zh_TW": "他帶著沉重的心情談論他的悲哀。"
+          },
+          {
+            "sentence": "The tales of [woe] often move the audience.",
+            "translation_zh_TW": "悲哀的故事常常感動聽眾。"
+          },
+          {
+            "sentence": "[Woe] is a common theme in classic literature.",
+            "translation_zh_TW": "悲哀是古典文學中的常見主題。"
+          }
+        ],
+        "synonyms": [
+          "grief",
+          "sorrow"
+        ]
+      }
+    ],
+    "confusion": [
+      "woeful",
+      "woke",
+      "wool",
+      "wood"
+    ]
+  },
+  {
+    "word": "vowel",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A speech sound in many languages, typically represented by the letters A, E, I, O, U.",
+        "meaning_zh_TW": "母音",
+        "wrong_meaning_zh_TW": [
+          "子音",
+          "符號",
+          "音調"
+        ],
+        "examples": [
+          {
+            "sentence": "A word cannot exist without at least one [vowel].",
+            "translation_zh_TW": "一個詞至少需要一個母音才能存在。"
+          },
+          {
+            "sentence": "In English, the [vowel] sounds are crucial for pronunciation.",
+            "translation_zh_TW": "在英語中，母音音素對於發音至關重要。"
+          },
+          {
+            "sentence": "Her name begins with a [vowel].",
+            "translation_zh_TW": "她的名字以母音開始。"
+          }
+        ],
+        "synonyms": [
+          "letter",
+          "phoneme"
+        ]
+      }
+    ],
+    "confusion": [
+      "vowels",
+      "vowell",
+      "vowl",
+      "volt"
+    ]
+  },
+  {
+    "word": "playwright",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who writes plays.",
+        "meaning_zh_TW": "劇作家",
+        "wrong_meaning_zh_TW": [
+          "演員",
+          "導演",
+          "舞台"
+        ],
+        "examples": [
+          {
+            "sentence": "The [playwright] received an award for her latest drama.",
+            "translation_zh_TW": "這位劇作家因她最近的戲劇獲得了獎項。"
+          },
+          {
+            "sentence": "Famous [playwrights] often have unique styles.",
+            "translation_zh_TW": "著名的劇作家通常有獨特的風格。"
+          },
+          {
+            "sentence": "The [playwright]'s vision captivated the audience.",
+            "translation_zh_TW": "這位劇作家的願景吸引了觀眾。"
+          }
+        ],
+        "synonyms": [
+          "dramatist",
+          "scriptwriter"
+        ]
+      }
+    ],
+    "confusion": [
+      "playwrite",
+      "playswright",
+      "playwrights",
+      "player"
+    ]
+  },
+  {
+    "word": "divert",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To cause someone or something to change course or turn from one direction to another.",
+        "meaning_zh_TW": "轉向",
+        "wrong_meaning_zh_TW": [
+          "固定",
+          "阻止",
+          "吸引"
+        ],
+        "examples": [
+          {
+            "sentence": "We need to [divert] the flow of water.",
+            "translation_zh_TW": "我們需要轉向水流"
+          },
+          {
+            "sentence": "The movie was meant to [divert] the audience.",
+            "translation_zh_TW": "這部電影旨在轉移觀眾的注意力"
+          },
+          {
+            "sentence": "Traffic will be [diverted] during the parade.",
+            "translation_zh_TW": "遊行期間交通將被轉向"
+          }
+        ],
+        "synonyms": [
+          "redirect",
+          "deflect"
+        ]
+      }
+    ],
+    "confusion": [
+      "diversion",
+      "diverse",
+      "divide",
+      "dividend"
+    ]
+  },
+  {
+    "word": "lofty",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having or showing a belief in superstitions.",
-        "meaning_zh_TW": "迷信的",
+        "meaning_en_US": "Of great height; especially standing out above others.",
+        "meaning_zh_TW": "高聳的",
         "wrong_meaning_zh_TW": [
-          "理性的",
-          "科學的",
-          "明智的"
+          "淺薄的",
+          "普通的",
+          "低矮的"
         ],
         "examples": [
           {
-            "sentence": "He's [superstitious] about breaking mirrors.",
-            "translation_zh_TW": "他對打破鏡子很迷信。"
+            "sentence": "The [lofty] mountains seemed to touch the sky.",
+            "translation_zh_TW": "那高聳的山似乎觸碰到了天空。"
           },
           {
-            "sentence": "Many cultures have different [superstitious] beliefs.",
-            "translation_zh_TW": "許多文化有不同的迷信信仰。"
+            "sentence": "She has [lofty] ambitions to change the world.",
+            "translation_zh_TW": "她有著改變世界的高遠抱負。"
           },
           {
-            "sentence": "She's not [superstitious], but she avoids black cats.",
-            "translation_zh_TW": "她並不迷信，但她避免黑貓。"
+            "sentence": "His [lofty] ideals are inspiring to many.",
+            "translation_zh_TW": "他的高尚理想鼓舞了許多人。"
           }
         ],
         "synonyms": [
-          "irrational",
-          "mythical"
+          "tall",
+          "elevated"
         ]
       }
     ],
     "confusion": [
-      "superstitions",
-      "superior",
-      "supersition",
-      "superstitiously"
+      "lofty",
+      "loft",
+      "loftiness",
+      "lofted"
     ]
   },
   {
-    "word": "excerpt",
+    "word": "ruthless",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A portion or extract from a larger text, such as a book or an article.",
-        "meaning_zh_TW": "摘錄",
+        "type": "形容詞",
+        "meaning_en_US": "Having or showing no pity or compassion for others.",
+        "meaning_zh_TW": "無情的",
         "wrong_meaning_zh_TW": [
-          "更新",
-          "雜誌",
-          "報導"
+          "仁慈的",
+          "和藹的",
+          "友好的"
         ],
         "examples": [
           {
-            "sentence": "The book begins with an [excerpt] from the author’s diary.",
-            "translation_zh_TW": "這本書以作者的日記摘錄開始。"
+            "sentence": "The businessman was known for his [ruthless] tactics.",
+            "translation_zh_TW": "這位商人以無情的手段而聞名。"
           },
           {
-            "sentence": "She read an [excerpt] during the presentation.",
-            "translation_zh_TW": "她在報告中讀了摘錄。"
+            "sentence": "She made a [ruthless] decision to cut costs.",
+            "translation_zh_TW": "她做出無情的決定以削減成本。"
           },
           {
-            "sentence": "An [excerpt] of the article was published online.",
-            "translation_zh_TW": "文章的摘錄已在線上出版。"
+            "sentence": "His [ruthless] ambition drove him to success.",
+            "translation_zh_TW": "他無情的野心推動他取得成功。"
           }
         ],
         "synonyms": [
-          "extract",
-          "fragment"
+          "merciless",
+          "cruel"
         ]
       }
     ],
     "confusion": [
-      "excerpt",
-      "excerp",
-      "exerpt",
-      "excerpted"
-    ]
-  },
-  {
-    "word": "kin",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "One's family and relations.",
-        "meaning_zh_TW": "親戚",
-        "wrong_meaning_zh_TW": [
-          "敵人",
-          "外來者",
-          "陌生人"
-        ],
-        "examples": [
-          {
-            "sentence": "She loves to gather her [kin] for family reunions.",
-            "translation_zh_TW": "她喜歡召集親戚參加家庭團聚。"
-          },
-          {
-            "sentence": "It’s important to stay in touch with [kin].",
-            "translation_zh_TW": "與親戚保持聯繫很重要。"
-          },
-          {
-            "sentence": "Her [kin] are spread out across the country.",
-            "translation_zh_TW": "她的親戚遍布全國。"
-          }
-        ],
-        "synonyms": [
-          "relatives",
-          "family"
-        ]
-      }
-    ],
-    "confusion": [
-      "kinship",
-      "kind",
-      "kinetic",
-      "kine"
+      "ruth",
+      "ruthes",
+      "ruthlessnes",
+      "ruthlessness"
     ]
   },
   {
@@ -195,587 +312,471 @@
     ]
   },
   {
-    "word": "dorm",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A shortened term for dormitory.",
-        "meaning_zh_TW": "宿舍",
-        "wrong_meaning_zh_TW": [
-          "房間",
-          "辦公室",
-          "宿主"
-        ],
-        "examples": [
-          {
-            "sentence": "I have a friend living in the [dorm].",
-            "translation_zh_TW": "我有個朋友住在宿舍裡。"
-          },
-          {
-            "sentence": "The [dorm] is located near the campus.",
-            "translation_zh_TW": "宿舍位於校園附近。"
-          },
-          {
-            "sentence": "They often hang out in the [dorm].",
-            "translation_zh_TW": "他們經常在宿舍裡閒逛。"
-          }
-        ],
-        "synonyms": [
-          "dormitory"
-        ]
-      }
-    ],
-    "confusion": [
-      "dom",
-      "door",
-      "dormer",
-      "form"
-    ]
-  },
-  {
-    "word": "notorious",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Famous or well known, typically for some bad quality or deed.",
-        "meaning_zh_TW": "臭名昭著的",
-        "wrong_meaning_zh_TW": [
-          "著名的",
-          "受尊敬的",
-          "普通的"
-        ],
-        "examples": [
-          {
-            "sentence": "He is a [notorious] criminal in the city.",
-            "translation_zh_TW": "他是這座城市中臭名昭著的罪犯。"
-          },
-          {
-            "sentence": "The restaurant is [notorious] for its poor service.",
-            "translation_zh_TW": "這家餐廳因爲服務差而臭名昭著。"
-          },
-          {
-            "sentence": "She became [notorious] for her scandalous behavior.",
-            "translation_zh_TW": "她因為她的醜聞行為而臭名昭著。"
-          }
-        ],
-        "synonyms": [
-          "infamous",
-          "disreputable"
-        ]
-      }
-    ],
-    "confusion": [
-      "notoriousness",
-      "notoriously",
-      "notion",
-      "notation"
-    ]
-  },
-  {
-    "word": "mourn",
+    "word": "skim",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To feel or show sorrow or grief.",
-        "meaning_zh_TW": "悲傷",
+        "meaning_en_US": "To read something quickly to get the main ideas.",
+        "meaning_zh_TW": "略讀",
         "wrong_meaning_zh_TW": [
-          "慶祝",
-          "快樂",
-          "安慰"
+          "細讀",
+          "分析",
+          "忽視"
         ],
         "examples": [
           {
-            "sentence": "People gather to [mourn] the loss of a loved one.",
-            "translation_zh_TW": "人們聚在一起悲傷失去所愛的人。"
+            "sentence": "I like to [skim] through articles before reading them in full.",
+            "translation_zh_TW": "我喜歡在完整閱讀之前先略讀文章。"
           },
           {
-            "sentence": "She has taken time off work to [mourn].",
-            "translation_zh_TW": "她已請假來悲傷。"
+            "sentence": "She decided to [skim] the report for key points.",
+            "translation_zh_TW": "她決定略讀報告以找出關鍵點。"
           },
           {
-            "sentence": "He wore black to [mourn] at the funeral.",
-            "translation_zh_TW": "他穿黑色衣服在葬禮上以示悲傷。"
+            "sentence": "Before the exam, I had to [skim] my notes.",
+            "translation_zh_TW": "在考試之前，我不得不略讀我的筆記。"
           }
         ],
         "synonyms": [
-          "grieve",
-          "sorrow"
+          "browse",
+          "scan",
+          "glance"
         ]
       }
     ],
     "confusion": [
-      "mournful",
-      "mouurn",
-      "mourned",
-      "moourn"
+      "skimming",
+      "skimmer",
+      "skimmed",
+      "skimpy"
     ]
   },
   {
-    "word": "meditation",
+    "word": "miraculous",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "The practice of focusing the mind to achieve a state of calm or heightened awareness.",
-        "meaning_zh_TW": "冥想",
+        "type": "形容詞",
+        "meaning_en_US": "Occurring through divine or supernatural intervention.",
+        "meaning_zh_TW": "奇蹟般的",
         "wrong_meaning_zh_TW": [
-          "數學",
-          "音樂會",
-          "旅行"
+          "常規的",
+          "不重要的",
+          "平凡的"
         ],
         "examples": [
           {
-            "sentence": "She finds peace in [meditation] every morning.",
-            "translation_zh_TW": "她每天早上在冥想中找到平靜。"
+            "sentence": "The recovery was truly [miraculous].",
+            "translation_zh_TW": "這次康復真是奇蹟般的。"
           },
           {
-            "sentence": "Meditation helps reduce stress and anxiety in her life.",
-            "translation_zh_TW": "冥想幫助她減少生活中的壓力和焦慮。"
+            "sentence": "They witnessed a [miraculous] event during the festival.",
+            "translation_zh_TW": "他們在節日中目睹了一個奇蹟般的事件。"
           },
           {
-            "sentence": "Many people engage in [meditation] for mental clarity.",
-            "translation_zh_TW": "許多人進行冥想以獲得心智清晰。"
+            "sentence": "Many believe in [miraculous] healings.",
+            "translation_zh_TW": "許多人相信奇蹟般的治愈。"
           }
         ],
         "synonyms": [
-          "reflection",
-          "contemplation"
+          "extraordinary",
+          "phenomenal"
         ]
       }
     ],
     "confusion": [
-      "medicate",
-      "modification",
-      "mediation",
+      "miracle",
+      "miracle worker",
+      "miraculousness",
+      "miserable"
+    ]
+  },
+  {
+    "word": "dazzle",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To blind temporarily or overwhelm with brightness.",
+        "meaning_zh_TW": "令人目眩",
+        "wrong_meaning_zh_TW": [
+          "隱藏",
+          "保護",
+          "犧牲"
+        ],
+        "examples": [
+          {
+            "sentence": "The fireworks [dazzle] the crowd.",
+            "translation_zh_TW": "煙火讓群眾目眩。"
+          },
+          {
+            "sentence": "Her beauty seemed to [dazzle] everyone around her.",
+            "translation_zh_TW": "她的美貌似乎讓周圍的人都目眩。"
+          },
+          {
+            "sentence": "The lights [dazzle] as they flashed across the sky.",
+            "translation_zh_TW": "燈光在天空中閃爍，讓人目眩。"
+          }
+        ],
+        "synonyms": [
+          "blind",
+          "overwhelm"
+        ]
+      }
+    ],
+    "confusion": [
+      "dazzling",
+      "daisy",
+      "dazzler",
+      "dazzle"
+    ]
+  },
+  {
+    "word": "stature",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The natural height of a person or animal.",
+        "meaning_zh_TW": "身材",
+        "wrong_meaning_zh_TW": [
+          "雕塑",
+          "地位",
+          "運動"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [stature] made her stand out in the crowd.",
+            "translation_zh_TW": "她的身材使她在人群中脫穎而出。"
+          },
+          {
+            "sentence": "He is of average [stature] for his age.",
+            "translation_zh_TW": "他在同齡人中身材屬於一般。"
+          },
+          {
+            "sentence": "The statue reflects the [stature] of the hero.",
+            "translation_zh_TW": "這座雕像反映了這位英雄的身材。"
+          }
+        ],
+        "synonyms": [
+          "height",
+          "build"
+        ]
+      }
+    ],
+    "confusion": [
+      "nature",
+      "statue",
+      "stater",
+      "statured"
+    ]
+  },
+  {
+    "word": "itch",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To have a sensation on the skin which causes a desire to scratch.",
+        "meaning_zh_TW": "癢",
+        "wrong_meaning_zh_TW": [
+          "痛苦",
+          "麻木",
+          "過敏"
+        ],
+        "examples": [
+          {
+            "sentence": "My skin feels [itchy] after being in the sun.",
+            "translation_zh_TW": "我在陽光下後皮膚感到癢。"
+          },
+          {
+            "sentence": "He couldn't stop [itching] his arm.",
+            "translation_zh_TW": "他無法停止抓他的手臂。"
+          },
+          {
+            "sentence": "She noticed an [itch] on her back.",
+            "translation_zh_TW": "她注意到背上有癢。"
+          }
+        ],
+        "synonyms": [
+          "scratch",
+          "irritate"
+        ]
+      }
+    ],
+    "confusion": [
+      "each",
+      "etch",
+      "itchy",
+      "rich"
+    ]
+  },
+  {
+    "word": "haunt",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To visit often; to continually appear in the mind.",
+        "meaning_zh_TW": "纏擾",
+        "wrong_meaning_zh_TW": [
+          "治癒",
+          "歡迎",
+          "期待"
+        ],
+        "examples": [
+          {
+            "sentence": "The memories of that day continue to [haunt] me.",
+            "translation_zh_TW": "那天的回憶持續纏擾著我。"
+          },
+          {
+            "sentence": "She was [haunted] by regrets of the past.",
+            "translation_zh_TW": "她因過去的遺憾而感到纏擾。"
+          },
+          {
+            "sentence": "Ghost stories [haunt] the old mansion.",
+            "translation_zh_TW": "鬼故事纏擾著那座老宅。"
+          }
+        ],
+        "synonyms": [
+          "trouble",
+          "obsess"
+        ]
+      }
+    ],
+    "confusion": [
+      "haunted",
+      "haunter",
+      "habit",
+      "hunt"
+    ]
+  },
+  {
+    "word": "disgrace",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The loss of reputation or respect as the result of a dishonorable action.",
+        "meaning_zh_TW": "恥辱",
+        "wrong_meaning_zh_TW": [
+          "榮耀",
+          "尊敬",
+          "成功"
+        ],
+        "examples": [
+          {
+            "sentence": "He brought [disgrace] upon his family.",
+            "translation_zh_TW": "他給家人帶來了恥辱。"
+          },
+          {
+            "sentence": "Her actions led to public [disgrace].",
+            "translation_zh_TW": "她的行為導致了公眾的恥辱。"
+          },
+          {
+            "sentence": "They faced [disgrace] after the scandal.",
+            "translation_zh_TW": "在醜聞後，他們面對了恥辱。"
+          }
+        ],
+        "synonyms": [
+          "shame",
+          "dishonor"
+        ]
+      }
+    ],
+    "confusion": [
+      "disgraced",
+      "disgracer",
+      "grace",
+      "disgace"
+    ]
+  },
+  {
+    "word": "mediate",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To intervene in a dispute to bring about an agreement.",
+        "meaning_zh_TW": "調解",
+        "wrong_meaning_zh_TW": [
+          "遲鈍",
+          "加工",
+          "用意"
+        ],
+        "examples": [
+          {
+            "sentence": "She was asked to [mediate] between the two parties.",
+            "translation_zh_TW": "她被要求在兩方之間調解。"
+          },
+          {
+            "sentence": "The counselor will [mediate] the discussion.",
+            "translation_zh_TW": "顧問將調解討論。"
+          },
+          {
+            "sentence": "He tried to [mediate] the conflict with understanding.",
+            "translation_zh_TW": "他試圖以理解來調解衝突。"
+          }
+        ],
+        "synonyms": [
+          "intercede",
+          "arbitrate"
+        ]
+      }
+    ],
+    "confusion": [
+      "meditate",
+      "medial",
+      "medicine",
       "media"
     ]
   },
   {
-    "word": "ornament",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A thing used to adorn something but often having no practical purpose.",
-        "meaning_zh_TW": "裝飾品",
-        "wrong_meaning_zh_TW": [
-          "手機",
-          "地址",
-          "信封"
-        ],
-        "examples": [
-          {
-            "sentence": "The Christmas tree was decorated with shiny [ornaments].",
-            "translation_zh_TW": "聖誕樹上裝飾著閃亮的裝飾品。"
-          },
-          {
-            "sentence": "She loves to collect antique [ornaments].",
-            "translation_zh_TW": "她喜歡收藏古董裝飾品。"
-          },
-          {
-            "sentence": "The room was filled with beautiful [ornaments].",
-            "translation_zh_TW": "房間裡充滿了美麗的裝飾品。"
-          }
-        ],
-        "synonyms": [
-          "adornment",
-          "decoration"
-        ]
-      }
-    ],
-    "confusion": [
-      "ordnance",
-      "ornate",
-      "ornithology",
-      "organism"
-    ]
-  },
-  {
-    "word": "paddle",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A tool used for rowing or for propelling a small boat.",
-        "meaning_zh_TW": "槳",
-        "wrong_meaning_zh_TW": [
-          "食物",
-          "風扇",
-          "項鍊"
-        ],
-        "examples": [
-          {
-            "sentence": "He used a [paddle] to move the kayak through the water.",
-            "translation_zh_TW": "他用槳讓皮艇在水中前進。"
-          },
-          {
-            "sentence": "She took the [paddle] and started to row.",
-            "translation_zh_TW": "她拿起槳開始划水。"
-          },
-          {
-            "sentence": "They bought a new [paddle] for their canoe.",
-            "translation_zh_TW": "他們為獨木舟買了一支新的槳。"
-          }
-        ],
-        "synonyms": [
-          "oar",
-          "pushing tool"
-        ]
-      }
-    ],
-    "confusion": [
-      "peddle",
-      "paddleball",
-      "cuddle",
-      "piddle"
-    ]
-  },
-  {
-    "word": "exclusion",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The process or state of excluding or being excluded.",
-        "meaning_zh_TW": "排除",
-        "wrong_meaning_zh_TW": [
-          "包含",
-          "加入",
-          "允許"
-        ],
-        "examples": [
-          {
-            "sentence": "The [exclusion] of certain candidates was controversial.",
-            "translation_zh_TW": "某些候選人的排除引發了爭議。"
-          },
-          {
-            "sentence": "Their [exclusion] from the group upset many members.",
-            "translation_zh_TW": "他們被排除在小組外讓許多成員感到不滿。"
-          },
-          {
-            "sentence": "The policy leads to the [exclusion] of underprivileged individuals.",
-            "translation_zh_TW": "該政策導致了弱勢個體的排除。"
-          }
-        ],
-        "synonyms": [
-          "omission",
-          "removal"
-        ]
-      }
-    ],
-    "confusion": [
-      "exclusion",
-      "exclusive",
-      "occlusion",
-      "excursion"
-    ]
-  },
-  {
-    "word": "astronaut",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who is trained to travel and work in space.",
-        "meaning_zh_TW": "太空人",
-        "wrong_meaning_zh_TW": [
-          "宇航員",
-          "星際旅行者",
-          "科學家"
-        ],
-        "examples": [
-          {
-            "sentence": "The [astronaut] stepped out of the spacecraft.",
-            "translation_zh_TW": "太空人從太空艙中走了出來。"
-          },
-          {
-            "sentence": "She dreams of becoming an [astronaut].",
-            "translation_zh_TW": "她夢想成為一名太空人。"
-          },
-          {
-            "sentence": "The [astronaut] conducted experiments in zero gravity.",
-            "translation_zh_TW": "太空人在零重力環境中進行實驗。"
-          }
-        ],
-        "synonyms": [
-          "space traveler",
-          "cosmonaut"
-        ]
-      }
-    ],
-    "confusion": [
-      "astrocyte",
-      "astronome",
-      "astral",
-      "astronauts"
-    ]
-  },
-  {
-    "word": "jingle",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A short and catchy tune or song, often used in advertising.",
-        "meaning_zh_TW": "廣告歌",
-        "wrong_meaning_zh_TW": [
-          "旋律",
-          "歌曲",
-          "樂器"
-        ],
-        "examples": [
-          {
-            "sentence": "The [jingle] stuck in my head all day.",
-            "translation_zh_TW": "這首廣告歌整天在我腦中揮之不去。"
-          },
-          {
-            "sentence": "They created a catchy [jingle] for the product.",
-            "translation_zh_TW": "他們為產品創作了一個朗朗上口的廣告歌。"
-          },
-          {
-            "sentence": "Everyone can hum the [jingle] of that brand.",
-            "translation_zh_TW": "每個人都能哼出那個品牌的廣告歌。"
-          }
-        ],
-        "synonyms": [
-          "tune",
-          "melody"
-        ]
-      }
-    ],
-    "confusion": [
-      "jingles",
-      "jinglese",
-      "jinger",
-      "jingley"
-    ]
-  },
-  {
-    "word": "hoarse",
+    "word": "irritable",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having a rough, harsh voice, typically due to illness.",
-        "meaning_zh_TW": "沙啞的",
+        "meaning_en_US": "Having or showing a tendency to be easily annoyed or made angry.",
+        "meaning_zh_TW": "易怒的",
         "wrong_meaning_zh_TW": [
-          "甜美的",
-          "柔和的",
-          "清晰的"
+          "平靜的",
+          "快樂的",
+          "溫和的"
         ],
         "examples": [
           {
-            "sentence": "He spoke in a [hoarse] voice after the concert.",
-            "translation_zh_TW": "演唱會後他用沙啞的聲音說話"
+            "sentence": "He became irritable due to the lack of sleep.",
+            "translation_zh_TW": "因為缺乏睡眠，他變得易怒。"
           },
           {
-            "sentence": "She felt [hoarse] after cheering for hours.",
-            "translation_zh_TW": "她在叫喊幾個小時後感到沙啞"
+            "sentence": "Irritable moods can affect relationships negatively.",
+            "translation_zh_TW": "易怒的情緒會對人際關係產生負面影響。"
           },
           {
-            "sentence": "The illness left him with a [hoarse] throat.",
-            "translation_zh_TW": "這種病讓他的喉嚨沙啞"
+            "sentence": "Pregnant women can often feel irritable for various reasons.",
+            "translation_zh_TW": "懷孕的女性因各種原因經常感到易怒。"
           }
         ],
         "synonyms": [
-          "rough",
-          "raspy"
+          "testy",
+          "grumpy"
         ]
       }
     ],
     "confusion": [
-      "horse",
-      "hoarseness",
-      "hoars",
-      "hoarsy"
+      "irritated",
+      "irritation",
+      "excitable",
+      "irrecusable"
     ]
   },
   {
-    "word": "concise",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Giving a lot of information clearly and in a few words.",
-        "meaning_zh_TW": "簡明的",
-        "wrong_meaning_zh_TW": [
-          "冗長的",
-          "模糊的",
-          "繁瑣的"
-        ],
-        "examples": [
-          {
-            "sentence": "The report was clear and [concise], making it easy to understand.",
-            "translation_zh_TW": "報告清晰而簡明，使其易於理解。"
-          },
-          {
-            "sentence": "She appreciated his [concise] explanations during the lecture.",
-            "translation_zh_TW": "她欣賞他在講課中簡明扼要的解釋。"
-          },
-          {
-            "sentence": "A [concise] summary is often more effective than a lengthy one.",
-            "translation_zh_TW": "簡明的摘要通常比冗長的摘要更有效。"
-          }
-        ],
-        "synonyms": [
-          "brief",
-          "to-the-point"
-        ]
-      }
-    ],
-    "confusion": [
-      "concise",
-      "conscious",
-      "condition",
-      "conclusively"
-    ]
-  },
-  {
-    "word": "outright",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "Completely and without restriction; absolutely.",
-        "meaning_zh_TW": "徹底地",
-        "wrong_meaning_zh_TW": [
-          "半途而廢",
-          "間接地",
-          "隨意地"
-        ],
-        "examples": [
-          {
-            "sentence": "She rejected the proposal outright.",
-            "translation_zh_TW": "她徹底拒絕了這個提議。"
-          },
-          {
-            "sentence": "The plan was outright canceled.",
-            "translation_zh_TW": "這個計劃徹底取消了。"
-          },
-          {
-            "sentence": "He was outright wrong about the facts.",
-            "translation_zh_TW": "他對事實完全錯誤。"
-          }
-        ],
-        "synonyms": [
-          "completely",
-          "totally"
-        ]
-      }
-    ],
-    "confusion": [
-      "outdraft",
-      "outgrow",
-      "output",
-      "outreach"
-    ]
-  },
-  {
-    "word": "momentum",
+    "word": "vigor",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The quantity of motion of a moving body, measured as a product of its mass and velocity.",
-        "meaning_zh_TW": "動量",
+        "meaning_en_US": "Physical strength and good health.",
+        "meaning_zh_TW": "活力",
         "wrong_meaning_zh_TW": [
-          "延遲",
-          "靜止",
-          "失敗"
+          "疲憊",
+          "虛弱",
+          "病痛"
         ],
         "examples": [
           {
-            "sentence": "The car gained [momentum] as it descended the hill.",
-            "translation_zh_TW": "汽車在下坡時獲得了動量。"
+            "sentence": "He approached the challenge with great [vigor].",
+            "translation_zh_TW": "他以極大的活力面對挑戰。"
           },
           {
-            "sentence": "She lost [momentum] in her studies halfway through the semester.",
-            "translation_zh_TW": "她在學期中途失去了學習的動量。"
+            "sentence": "Exercise contributes to a sense of [vigor].",
+            "translation_zh_TW": "運動有助於感受活力。"
           },
           {
-            "sentence": "The project is building [momentum] with public support.",
-            "translation_zh_TW": "該項目正在獲得公眾支持而積累動量。"
+            "sentence": "She was filled with [vigor] after a good night's sleep.",
+            "translation_zh_TW": "經過一夜好眠後，她充滿了活力。"
           }
         ],
         "synonyms": [
-          "impetus",
-          "drive"
+          "energy",
+          "strength"
         ]
       }
     ],
     "confusion": [
-      "moment",
-      "momentary",
-      "momento",
-      "monument"
+      "vigorous",
+      "vagle",
+      "vigr",
+      "vigorously"
     ]
   },
   {
-    "word": "illuminate",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To light up or make something clearer.",
-        "meaning_zh_TW": "照亮",
-        "wrong_meaning_zh_TW": [
-          "遮掩",
-          "模糊",
-          "暗淡"
-        ],
-        "examples": [
-          {
-            "sentence": "The street lamps [illuminate] the path at night.",
-            "translation_zh_TW": "路燈在晚上照亮了小路。"
-          },
-          {
-            "sentence": "The professor's lecture helped to [illuminate] complex concepts.",
-            "translation_zh_TW": "教授的講座幫助闡明了複雜的概念。"
-          },
-          {
-            "sentence": "Fireflies [illuminate] the dark garden beautifully.",
-            "translation_zh_TW": "螢火蟲美麗地照亮了黑暗的花園。"
-          }
-        ],
-        "synonyms": [
-          "light",
-          "clarify"
-        ]
-      }
-    ],
-    "confusion": [
-      "illuminant",
-      "eluminate",
-      "illuminatee",
-      "illimination"
-    ]
-  },
-  {
-    "word": "maiden",
+    "word": "lullaby",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A young unmarried woman.",
-        "meaning_zh_TW": "少女",
+        "meaning_en_US": "A soothing song, typically sung to children before they go to sleep.",
+        "meaning_zh_TW": "搖籃曲",
         "wrong_meaning_zh_TW": [
-          "母親",
-          "員工",
-          "貴婦"
+          "喧嚷的歌",
+          "冬天的風",
+          "生活的故事"
         ],
         "examples": [
           {
-            "sentence": "The [maiden] danced gracefully at the festival.",
-            "translation_zh_TW": "那位少女在節慶上翩翩起舞。"
+            "sentence": "She sang a sweet [lullaby] to her baby.",
+            "translation_zh_TW": "她對她的寶寶唱了一首甜美的搖籃曲"
           },
           {
-            "sentence": "A [maiden] voyage is often filled with excitement.",
-            "translation_zh_TW": "首航往往充滿了興奮。"
+            "sentence": "The gentle [lullaby] helped him fall asleep.",
+            "translation_zh_TW": "那首輕柔的搖籃曲幫助他入睡"
           },
           {
-            "sentence": "In the story, the [maiden] sought adventure.",
-            "translation_zh_TW": "在故事中，少女尋求冒險。"
+            "sentence": "Every night, he would play a [lullaby] on the piano.",
+            "translation_zh_TW": "每晚，他都會在鋼琴上演奏一首搖籃曲"
           }
         ],
         "synonyms": [
-          "young woman",
-          "virgin"
+          "cradle song"
         ]
       }
     ],
     "confusion": [
-      "main",
-      "maid",
-      "made",
-      "mid"
+      "lullaby",
+      "lulaby",
+      "lulluby",
+      "lullbay"
+    ]
+  },
+  {
+    "word": "sculptor",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "An artist who creates sculptures.",
+        "meaning_zh_TW": "雕塑家",
+        "wrong_meaning_zh_TW": [
+          "畫家",
+          "設計師",
+          "陶藝家"
+        ],
+        "examples": [
+          {
+            "sentence": "The [sculptor] worked tirelessly on his statue.",
+            "translation_zh_TW": "這位雕塑家在他的雕像上不知疲倦地工作"
+          },
+          {
+            "sentence": "A renowned [sculptor], she has many awards.",
+            "translation_zh_TW": "作為一位著名的雕塑家，她獲得了許多獎項"
+          },
+          {
+            "sentence": "He studied under a famous [sculptor].",
+            "translation_zh_TW": "他在一位著名的雕塑家手下學習"
+          }
+        ],
+        "synonyms": [
+          "artist",
+          "carver"
+        ]
+      }
+    ],
+    "confusion": [
+      "sculptors",
+      "sculpt",
+      "sculper",
+      "sculptosis"
     ]
   }
 ]

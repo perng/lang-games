@@ -17,16 +17,28 @@ def main():
     # Set a fixed random seed for reproducibility
     random.seed(63)  # You can change this seed value if needed
     
+    # Read word frequency list
+    word_freq_order = {}
+    with open("../src/data/WordFlash/wordfreq.txt", 'r', encoding='utf-8') as f:
+        for index, word in enumerate(f.read().splitlines()):
+            word_freq_order[word.strip().lower()] = index
+    
+    print(len(word_freq_order))
+
     # Read and merge all input files
     merged_data = []
     input_files = sorted(glob.glob("../src/data/WordFlash/word_flash_level_?.json"))
     
-    # Read all files and shuffle each file's contents
+    # Read all files and sort according to word frequency
     for file_path in input_files:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            # Shuffle each file's data independently
+            print([word['word'] for word in data if word['word'].lower() not in word_freq_order])            
+
             random.shuffle(data)
+
+            # Sort based on word frequency (high to low)
+            data.sort(key=lambda x: word_freq_order.get(x['word'], float('inf')))
             merged_data.extend(data)
     
     
@@ -81,7 +93,7 @@ def main():
     for i, chunk in enumerate(chunks, 1):
         output_file = f'wf/wf_level_{i:03d}.json'
         chunk_meaning_count = sum(len(word['meanings']) for word in chunk)
-        print(f"Level {i:03d}: {len(chunk)} words, {chunk_meaning_count} meanings")
+        # print(f"Level {i:03d}: {len(chunk)} words, {chunk_meaning_count} meanings")
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(chunk, f, ensure_ascii=False, indent=2)
             

@@ -1,159 +1,225 @@
 [
   {
-    "word": "liver",
+    "word": "continue",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To persist in an activity or process.",
+        "meaning_zh_TW": "繼續",
+        "wrong_meaning_zh_TW": [
+          "停止",
+          "放棄",
+          "減少"
+        ],
+        "examples": [
+          {
+            "sentence": "We will [continue] this discussion tomorrow.",
+            "translation_zh_TW": "我們明天會繼續這個討論。"
+          },
+          {
+            "sentence": "Please [continue] your work.",
+            "translation_zh_TW": "請繼續你的工作。"
+          },
+          {
+            "sentence": "She decided to [continue] her studies abroad.",
+            "translation_zh_TW": "她決定繼續在國外進修。"
+          }
+        ],
+        "synonyms": [
+          "persist",
+          "carry on"
+        ]
+      }
+    ],
+    "confusion": [
+      "contunue",
+      "contine",
+      "continou",
+      "ccontinue"
+    ]
+  },
+  {
+    "word": "apply",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make a formal request for something, typically a job or a position.",
+        "meaning_zh_TW": "申請",
+        "wrong_meaning_zh_TW": [
+          "噴灑",
+          "分配",
+          "讀取"
+        ],
+        "examples": [
+          {
+            "sentence": "She decided to [apply] for the scholarship.",
+            "translation_zh_TW": "她決定申請獎學金。"
+          },
+          {
+            "sentence": "You need to [apply] online for the program.",
+            "translation_zh_TW": "你需要在線上申請這個計劃。"
+          },
+          {
+            "sentence": "He plans to [apply] to several universities.",
+            "translation_zh_TW": "他計劃向幾所大學申請。"
+          }
+        ],
+        "synonyms": [
+          "submit",
+          "request"
+        ]
+      }
+    ],
+    "confusion": [
+      "applied",
+      "aplly",
+      "applicator",
+      "appiy"
+    ]
+  },
+  {
+    "word": "printer",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A large organ that processes nutrients and detoxifies harmful substances.",
-        "meaning_zh_TW": "肝臟",
+        "meaning_en_US": "A device that prints text or images onto paper.",
+        "meaning_zh_TW": "印表機",
         "wrong_meaning_zh_TW": [
-          "腎臟",
-          "肺臟",
-          "胃臟"
+          "繪圖板",
+          "顯示器",
+          "相機"
         ],
         "examples": [
           {
-            "sentence": "The [liver] plays a vital role in digestion.",
-            "translation_zh_TW": "肝臟在消化中扮演著重要角色。"
+            "sentence": "I need to buy a new [printer] for my home office.",
+            "translation_zh_TW": "我需要為我的家庭辦公室買一台新印表機"
           },
           {
-            "sentence": "Doctors often check the [liver] function during health exams.",
-            "translation_zh_TW": "醫生通常在健康檢查中檢查肝臟功能。"
+            "sentence": "The [printer] ran out of ink during the presentation.",
+            "translation_zh_TW": "在報告中，印表機墨水用完了"
           },
           {
-            "sentence": "He has a healthy [liver] thanks to a balanced diet.",
-            "translation_zh_TW": "由於均衡的飲食，他有一個健康的肝臟。"
+            "sentence": "Make sure the [printer] is connected to the computer.",
+            "translation_zh_TW": "確保印表機已連接到電腦"
           }
         ],
         "synonyms": [
-          "organ",
-          "gland"
+          "output device",
+          "hard copy machine"
         ]
       }
     ],
     "confusion": [
-      "liverwurst",
-      "liven",
-      "liverish",
-      "live"
+      "printery",
+      "print",
+      "printout",
+      "printers"
     ]
   },
   {
-    "word": "voice",
+    "word": "condition",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The sound produced by humans or animals when speaking or singing.",
-        "meaning_zh_TW": "聲音",
+        "meaning_en_US": "The state or quality of something.",
+        "meaning_zh_TW": "狀態、情況",
         "wrong_meaning_zh_TW": [
-          "音樂",
-          "噪音",
-          "回聲"
+          "健康問題",
+          "條件式學習",
+          "天氣預報"
         ],
         "examples": [
           {
-            "sentence": "She has a beautiful singing [voice].",
-            "translation_zh_TW": "她有一個美妙的唱歌聲音"
+            "sentence": "The car is in excellent [condition].",
+            "translation_zh_TW": "這輛車的狀態極佳"
           },
           {
-            "sentence": "Listen to the sound of her [voice] in the recording.",
-            "translation_zh_TW": "聽聽她在錄音中的聲音"
+            "sentence": "His [condition] improved after the treatment.",
+            "translation_zh_TW": "他的情況在治療後有所改善"
           },
           {
-            "sentence": "He raised his [voice] to be heard over the crowd.",
-            "translation_zh_TW": "他提高了聲音以便在人群中被聽到"
+            "sentence": "The [condition] of the building is a concern.",
+            "translation_zh_TW": "這棟建築的狀況令人擔憂"
           }
         ],
         "synonyms": [
-          "tone",
-          "vocalization"
+          "state",
+          "status"
+        ]
+      },
+      {
+        "type": "動詞",
+        "meaning_en_US": "To place certain requirements or limitations on something.",
+        "meaning_zh_TW": "施加條件",
+        "wrong_meaning_zh_TW": [
+          "設計結構",
+          "舉辦比賽",
+          "提供資金"
+        ],
+        "examples": [
+          {
+            "sentence": "They will [condition] the grant on achieving specific goals.",
+            "translation_zh_TW": "他們會就達成特定目標來施加資助的條件"
+          },
+          {
+            "sentence": "We cannot [condition] the offer without further discussion.",
+            "translation_zh_TW": "在進一步討論之前，我們不能加設任何條件"
+          },
+          {
+            "sentence": "He chose to [condition] his support on a few terms.",
+            "translation_zh_TW": "他選擇在幾個條件下來提供支持"
+          }
+        ],
+        "synonyms": [
+          "limit",
+          "restrict"
         ]
       }
     ],
     "confusion": [
-      "vices",
-      "voiced",
-      "void",
-      "voyce"
+      "conditions",
+      "conditioning",
+      "conclude",
+      "conductor"
     ]
   },
   {
-    "word": "active",
+    "word": "effective",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Engaging or ready to engage in physically energetic pursuits.",
-        "meaning_zh_TW": "活躍的",
+        "meaning_en_US": "Successful in producing a desired or intended result.",
+        "meaning_zh_TW": "有效的、成功的",
         "wrong_meaning_zh_TW": [
-          "靜態的",
-          "被動的",
-          "呆滯的"
+          "監管的",
+          "成本高昂的",
+          "不必要的"
         ],
         "examples": [
           {
-            "sentence": "She leads an [active] lifestyle full of exercise.",
-            "translation_zh_TW": "她過著充滿運動的活躍生活。"
+            "sentence": "The treatment was very [effective] in reducing pain.",
+            "translation_zh_TW": "這種治療在減輕疼痛方面非常有效。"
           },
           {
-            "sentence": "They are actively seeking new members for the club.",
-            "translation_zh_TW": "他們正在積極尋找新會員加入俱樂部。"
+            "sentence": "They implemented [effective] strategies to improve sales.",
+            "translation_zh_TW": "他們採用了有效的策略來提升銷售。"
           },
           {
-            "sentence": "The volcano is still [active] and could erupt at any moment.",
-            "translation_zh_TW": "這座火山仍然活躍，隨時可能噴發。"
+            "sentence": "An [effective] communicator can inspire their audience.",
+            "translation_zh_TW": "有效的傳播者可以激勵他們的觀眾。"
           }
         ],
         "synonyms": [
-          "energetic",
-          "lively",
-          "dynamic"
+          "efficient",
+          "successful"
         ]
       }
     ],
     "confusion": [
-      "act",
-      "activity",
-      "actor",
-      "inactive"
-    ]
-  },
-  {
-    "word": "proper",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Correct or suitable; appropriate for the situation.",
-        "meaning_zh_TW": "適當的",
-        "wrong_meaning_zh_TW": [
-          "錯誤的",
-          "普通的",
-          "隨便的"
-        ],
-        "examples": [
-          {
-            "sentence": "It's important to wear [proper] attire to the event.",
-            "translation_zh_TW": "穿著適當的服裝參加活動很重要"
-          },
-          {
-            "sentence": "Make sure you have a [proper] understanding of the rules.",
-            "translation_zh_TW": "確保你對這些規則有適當的理解"
-          },
-          {
-            "sentence": "A [proper] diet is essential for good health.",
-            "translation_zh_TW": "均衡的飲食對健康至關重要"
-          }
-        ],
-        "synonyms": [
-          "appropriate",
-          "suitable"
-        ]
-      }
-    ],
-    "confusion": [
-      "popper",
-      "propre",
-      "propet",
-      "pproper"
+      "effectively",
+      "effectual",
+      "efective",
+      "affective"
     ]
   },
   {
@@ -196,159 +262,317 @@
     ]
   },
   {
-    "word": "director",
+    "word": "effect",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person who is in charge of an organization, department, or activity.",
-        "meaning_zh_TW": "導演,主任",
+        "meaning_en_US": "A change that is a result or consequence of an action or other cause.",
+        "meaning_zh_TW": "效果、影響",
         "wrong_meaning_zh_TW": [
-          "技術員",
-          "助理",
-          "主管"
+          "結果分析",
+          "數據收集",
+          "案例研究"
         ],
         "examples": [
           {
-            "sentence": "The [director] has made several successful films.",
-            "translation_zh_TW": "這位導演拍過好幾部成功的電影"
+            "sentence": "The new policy had a positive [effect] on the community.",
+            "translation_zh_TW": "新政策對社區產生了積極的影響。"
           },
           {
-            "sentence": "Our [director] will hold a meeting next week.",
-            "translation_zh_TW": "我們的主任將在下週舉行會議"
+            "sentence": "She noted the [effect] of the medicine on her symptoms.",
+            "translation_zh_TW": "她注意到藥物對她症狀的效果。"
           },
           {
-            "sentence": "She is the [director] of the company's marketing department.",
-            "translation_zh_TW": "她是公司的市場部門主任"
+            "sentence": "The special [effect] added excitement to the movie.",
+            "translation_zh_TW": "特效為電影增添了興奮感。"
           }
         ],
         "synonyms": [
-          "administrator",
-          "supervisor"
+          "result",
+          "consequence"
         ]
       }
     ],
     "confusion": [
-      "directed",
-      "directive",
-      "diction",
-      "directory"
+      "affect",
+      "effected",
+      "efficiency",
+      "effecting"
     ]
   },
   {
-    "word": "membership",
+    "word": "selection",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The state of being a member of a group or organization.",
-        "meaning_zh_TW": "會員資格",
+        "meaning_en_US": "The act of choosing or the state of being chosen.",
+        "meaning_zh_TW": "選擇",
         "wrong_meaning_zh_TW": [
-          "物品清單",
-          "使用條件",
-          "成就報告"
+          "自行",
+          "交付",
+          "收回"
         ],
         "examples": [
           {
-            "sentence": "Her [membership] in the club expired.",
-            "translation_zh_TW": "她的會員資格在俱樂部過期了"
+            "sentence": "The [selection] of candidates was impressive.",
+            "translation_zh_TW": "候選人的選擇令人印象深刻。"
           },
           {
-            "sentence": "They offer different levels of [membership].",
-            "translation_zh_TW": "他們提供不同層級的會員資格"
+            "sentence": "She made a wise [selection] of colors for the project.",
+            "translation_zh_TW": "她為這個項目做出明智的顏色選擇。"
           },
           {
-            "sentence": "His [membership] allows him access to exclusive events.",
-            "translation_zh_TW": "他的會員資格讓他能進入專屬活動"
+            "sentence": "The [selection] process took longer than expected.",
+            "translation_zh_TW": "選擇過程比預期的要長。"
           }
         ],
         "synonyms": [
-          "affiliation",
-          "belonging"
+          "choice",
+          "option"
         ]
       }
     ],
     "confusion": [
-      "memberships",
-      "memorable",
-      "memorial",
-      "memes"
+      "selections",
+      "elect",
+      "section",
+      "seletion"
     ]
   },
   {
-    "word": "feeling",
+    "word": "silver",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An emotional state or reaction.",
-        "meaning_zh_TW": "感覺",
+        "meaning_en_US": "A shiny gray-white metal, used for making coins, jewelry, and other items.",
+        "meaning_zh_TW": "銀",
         "wrong_meaning_zh_TW": [
-          "反應",
-          "想法",
-          "情況"
+          "金",
+          "銅",
+          "鋼"
         ],
         "examples": [
           {
-            "sentence": "She had a [feeling] of happiness after hearing the news.",
-            "translation_zh_TW": "聽到這個消息後，她感到快樂。"
+            "sentence": "She wore a beautiful [silver] necklace.",
+            "translation_zh_TW": "她戴著一條美麗的銀項鍊"
           },
           {
-            "sentence": "His [feelings] were hurt by her remarks.",
-            "translation_zh_TW": "他的感情被她的言論傷害了。"
+            "sentence": "The [silver] coins shimmered in the light.",
+            "translation_zh_TW": "銀幣在光線下閃閃發光"
           },
           {
-            "sentence": "The movie evoked a strong [feeling] of nostalgia.",
-            "translation_zh_TW": "這部電影喚起了強烈的懷舊感。"
+            "sentence": "He earned a [silver] medal in the competition.",
+            "translation_zh_TW": "他在比賽中獲得了銀牌"
           }
         ],
         "synonyms": [
-          "emotion",
-          "sensation"
+          "argent",
+          "metal"
         ]
       }
     ],
     "confusion": [
-      "feeling",
-      "filling",
-      "failing",
-      "feling"
+      "silvery",
+      "silverware",
+      "silvering",
+      "silvers"
     ]
   },
   {
-    "word": "peak",
+    "word": "wish",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "The pointed top of a mountain.",
-        "meaning_zh_TW": "山峰",
+        "type": "動詞",
+        "meaning_en_US": "To have a desire for something to happen.",
+        "meaning_zh_TW": "希望、渴望",
         "wrong_meaning_zh_TW": [
-          "山谷",
-          "平原",
-          "丘陵"
+          "討厭、拒絕",
+          "對抗、挑戰",
+          "不屑、嘲笑"
         ],
         "examples": [
           {
-            "sentence": "We reached the [peak] of the mountain after a long hike.",
-            "translation_zh_TW": "經過長時間的徒步旅行，我們達到了山峰。"
+            "sentence": "I [wish] I could travel the world.",
+            "translation_zh_TW": "我希望我能環遊世界。"
           },
           {
-            "sentence": "The [peak] season for tourism is during summer.",
-            "translation_zh_TW": "旅遊的高峰季節是在夏天。"
+            "sentence": "She made a [wish] upon a star.",
+            "translation_zh_TW": "她在星星上許了一個願望。"
           },
           {
-            "sentence": "They enjoyed the view from the [peak].",
-            "translation_zh_TW": "他們欣賞了山峰上的風景。"
+            "sentence": "[Wishing] for happiness is common.",
+            "translation_zh_TW": "渴望幸福是很常見的。"
           }
         ],
         "synonyms": [
-          "summit",
-          "apex"
+          "desire",
+          "hope",
+          "long for"
         ]
       }
     ],
     "confusion": [
-      "peek",
-      "piek",
-      "peik",
-      "peach"
+      "wishful",
+      "wishing",
+      "wishes",
+      "whisk"
+    ]
+  },
+  {
+    "word": "solution",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A means of solving a problem or dealing with a difficult situation.",
+        "meaning_zh_TW": "解決方案",
+        "wrong_meaning_zh_TW": [
+          "藥水",
+          "混合物",
+          "廢物"
+        ],
+        "examples": [
+          {
+            "sentence": "They found a viable [solution] to the issue.",
+            "translation_zh_TW": "他們找到了一個可行的解決方案。"
+          },
+          {
+            "sentence": "His proposal was the best [solution] for the project.",
+            "translation_zh_TW": "他的提議是該計畫的最佳解決方案。"
+          },
+          {
+            "sentence": "The [solution] to the problem required innovative thinking.",
+            "translation_zh_TW": "這個問題的解決方案需要創新的思維。"
+          }
+        ],
+        "synonyms": [
+          "resolution",
+          "answer",
+          "remedy"
+        ]
+      }
+    ],
+    "confusion": [
+      "soluton",
+      "solutio",
+      "solvent",
+      "solicitor"
+    ]
+  },
+  {
+    "word": "mature",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Fully developed physically; full-grown.",
+        "meaning_zh_TW": "成熟的",
+        "wrong_meaning_zh_TW": [
+          "幼稚的",
+          "不成熟的",
+          "初步的"
+        ],
+        "examples": [
+          {
+            "sentence": "She has become a [mature] individual.",
+            "translation_zh_TW": "她已經成為一個成熟的個體。"
+          },
+          {
+            "sentence": "The tree is now [mature] enough to bear fruit.",
+            "translation_zh_TW": "這棵樹現在已經成熟到可以結實了。"
+          },
+          {
+            "sentence": "His thoughts are very [mature] for his age.",
+            "translation_zh_TW": "他的想法對於他的年齡來說非常成熟。"
+          }
+        ],
+        "synonyms": [
+          "grown",
+          "developed"
+        ]
+      }
+    ],
+    "confusion": [
+      "nature",
+      "maturity",
+      "maturely",
+      "maturer"
+    ]
+  },
+  {
+    "word": "role",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A part played by an actor or an expected behavior in a situation.",
+        "meaning_zh_TW": "角色",
+        "wrong_meaning_zh_TW": [
+          "劇本",
+          "音樂",
+          "舞台"
+        ],
+        "examples": [
+          {
+            "sentence": "She has an important [role] in the company.",
+            "translation_zh_TW": "她在公司中扮演重要角色。"
+          },
+          {
+            "sentence": "His [role] in the play is that of a villain.",
+            "translation_zh_TW": "他在劇中扮演反派角色。"
+          },
+          {
+            "sentence": "Understanding your [role] can help improve teamwork.",
+            "translation_zh_TW": "理解你的角色可以幫助改善團隊合作。"
+          }
+        ],
+        "synonyms": [
+          "part",
+          "function"
+        ]
+      }
+    ],
+    "confusion": [
+      "roll",
+      "roleplay",
+      "roel",
+      "rolo"
+    ]
+  },
+  {
+    "word": "rather",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "To a certain extent; fairly.",
+        "meaning_zh_TW": "相當",
+        "wrong_meaning_zh_TW": [
+          "非常",
+          "稍微",
+          "確定"
+        ],
+        "examples": [
+          {
+            "sentence": "I would [rather] stay home than go out.",
+            "translation_zh_TW": "我相當喜歡待在家裡而不出去。"
+          },
+          {
+            "sentence": "It is [rather] warm today.",
+            "translation_zh_TW": "今天相當暖和。"
+          },
+          {
+            "sentence": "She is [rather] good at math.",
+            "translation_zh_TW": "她在數學方面相當出色。"
+          }
+        ],
+        "synonyms": [
+          "fairly",
+          "somewhat"
+        ]
+      }
+    ],
+    "confusion": [
+      "rath",
+      "rathe",
+      "wrath",
+      "rathered"
     ]
   },
   {
@@ -392,393 +616,148 @@
     ]
   },
   {
-    "word": "manage",
+    "word": "supply",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To be in charge of or to control a business, organization, or a group of people.",
-        "meaning_zh_TW": "管理，經營",
+        "type": "名詞",
+        "meaning_en_US": "The amount of a resource or product available for use or sale.",
+        "meaning_zh_TW": "供應、供給",
         "wrong_meaning_zh_TW": [
-          "放棄，抵抗",
-          "選擇，挑選",
-          "混亂，失敗"
+          "需求",
+          "消耗",
+          "使用"
         ],
         "examples": [
           {
-            "sentence": "She hopes to [manage] a large company one day.",
-            "translation_zh_TW": "她希望有一天能管理一家大公司。"
+            "sentence": "The store has a good [supply] of fresh fruit.",
+            "translation_zh_TW": "這家商店有良好的新鮮水果供應"
           },
           {
-            "sentence": "It is challenging to [manage] a diverse team.",
-            "translation_zh_TW": "管理多元化的團隊是具有挑戰性的。"
+            "sentence": "They need to increase their [supply] of materials.",
+            "translation_zh_TW": "他們需要增加材料供應"
           },
           {
-            "sentence": "They will [manage] the event together.",
-            "translation_zh_TW": "他們將共同管理這個活動。"
+            "sentence": "The [supply] chain was disrupted by the storm.",
+            "translation_zh_TW": "供應鏈因風暴而中斷"
           }
         ],
         "synonyms": [
-          "administer",
-          "oversee"
+          "provision",
+          "stock"
         ]
       }
     ],
     "confusion": [
-      "manages",
-      "mange",
-      "mandate",
-      "mango"
+      "supply",
+      "supplement",
+      "support",
+      "supplant"
     ]
   },
   {
-    "word": "double",
+    "word": "lower",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To make something less high or to decrease.",
+        "meaning_zh_TW": "降低",
+        "wrong_meaning_zh_TW": [
+          "提高",
+          "維持",
+          "增加"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [lower] your voice.",
+            "translation_zh_TW": "請降低你的聲音。"
+          },
+          {
+            "sentence": "They decided to [lower] the price.",
+            "translation_zh_TW": "他們決定降低價格。"
+          },
+          {
+            "sentence": "He had to [lower] his expectations.",
+            "translation_zh_TW": "他不得不降低自己的期望。"
+          }
+        ],
+        "synonyms": [
+          "decrease",
+          "reduce"
+        ]
+      },
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Situated or positioned at a lower level.",
+        "meaning_zh_TW": "較低的",
+        "wrong_meaning_zh_TW": [
+          "較高的",
+          "類似的",
+          "重要的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [lower] shelf is easier to reach.",
+            "translation_zh_TW": "較低的架子更容易觸及。"
+          },
+          {
+            "sentence": "He prefers a [lower] temperature in summer.",
+            "translation_zh_TW": "他在夏天更喜歡較低的氣溫。"
+          },
+          {
+            "sentence": "The park has a [lower] viewing area.",
+            "translation_zh_TW": "公園有一個較低的觀賞區。"
+          }
+        ],
+        "synonyms": [
+          "reduced",
+          "basal"
+        ]
+      }
+    ],
+    "confusion": [
+      "lover",
+      "lowered",
+      "flower",
+      "power"
+    ]
+  },
+  {
+    "word": "necessary",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Consisting of two equal, identical, or similar parts.",
-        "meaning_zh_TW": "雙重的、二倍的",
+        "meaning_en_US": "Required to be done, achieved, or present; essential.",
+        "meaning_zh_TW": "必要的",
         "wrong_meaning_zh_TW": [
-          "單一的、獨特的",
-          "錯誤的、虛假的",
-          "複雜的、難的"
+          "選擇性的",
+          "奢侈的",
+          "容易的"
         ],
         "examples": [
           {
-            "sentence": "He ordered a [double] portion of dessert.",
-            "translation_zh_TW": "他點了雙倍的甜點。"
+            "sentence": "It is [necessary] to complete the assignment on time.",
+            "translation_zh_TW": "按時完成作業是必要的."
           },
           {
-            "sentence": "They found a [double] coat in the closet.",
-            "translation_zh_TW": "他們在衣櫃裡找到一件雙層外套。"
+            "sentence": "[Necessary] precautions should be taken to ensure safety.",
+            "translation_zh_TW": "應採取必要的預防措施以確保安全."
           },
           {
-            "sentence": "This recipe requires [double] the ingredients.",
-            "translation_zh_TW": "這個食譜需要雙倍的食材。"
+            "sentence": "Having a plan is [necessary] for success.",
+            "translation_zh_TW": "要成功，擁有計劃是必要的."
           }
         ],
         "synonyms": [
-          "twofold",
-          "dual"
+          "essential",
+          "crucial"
         ]
       }
     ],
     "confusion": [
-      "dubble",
-      "doble",
-      "douple",
-      "dobal"
-    ]
-  },
-  {
-    "word": "respond",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To say something in reply.",
-        "meaning_zh_TW": "回應、回答",
-        "wrong_meaning_zh_TW": [
-          "沉默、無言",
-          "放任、忽視",
-          "質疑、反駁"
-        ],
-        "examples": [
-          {
-            "sentence": "Please [respond] to the email as soon as possible.",
-            "translation_zh_TW": "請儘快回應電子郵件。"
-          },
-          {
-            "sentence": "How will you [respond] to the criticism?",
-            "translation_zh_TW": "你將如何回應這些批評？"
-          },
-          {
-            "sentence": "She didn’t [respond] to my question.",
-            "translation_zh_TW": "她沒有回答我的問題。"
-          }
-        ],
-        "synonyms": [
-          "reply",
-          "answer"
-        ]
-      }
-    ],
-    "confusion": [
-      "respondent",
-      "response",
-      "responding",
-      "respondr"
-    ]
-  },
-  {
-    "word": "goat",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A ruminant animal with a beard and horns, often kept for milk or meat.",
-        "meaning_zh_TW": "山羊",
-        "wrong_meaning_zh_TW": [
-          "果仁",
-          "小花",
-          "雜草"
-        ],
-        "examples": [
-          {
-            "sentence": "The [goat] climbed to the top of the steep hill.",
-            "translation_zh_TW": "這隻山羊爬到了陡峭的山頂。"
-          },
-          {
-            "sentence": "We saw a [goat] at the farm during our visit.",
-            "translation_zh_TW": "我們在參觀農場時看到了隻山羊。"
-          },
-          {
-            "sentence": "The farmer raised several [goats] for their milk.",
-            "translation_zh_TW": "農夫養了幾隻山羊以供應牛奶。"
-          }
-        ],
-        "synonyms": [
-          "caprine",
-          "billy"
-        ]
-      }
-    ],
-    "confusion": [
-      "goat",
-      "gloat",
-      "gote",
-      "goate"
-    ]
-  },
-  {
-    "word": "brush",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An implement consisting of bristles, hair, or wire set in a handle, used for cleaning, painting, or grooming.",
-        "meaning_zh_TW": "刷子",
-        "wrong_meaning_zh_TW": [
-          "刀具",
-          "油漆桶",
-          "清潔劑"
-        ],
-        "examples": [
-          {
-            "sentence": "She used a [brush] to paint the canvas.",
-            "translation_zh_TW": "她用刷子來畫畫布"
-          },
-          {
-            "sentence": "He cleaned the car with a [brush].",
-            "translation_zh_TW": "他用刷子清洗車輛"
-          },
-          {
-            "sentence": "The artist chose a fine [brush] for detail work.",
-            "translation_zh_TW": "這位藝術家挑選了一把敏感的刷子來進行細節工作"
-          }
-        ],
-        "synonyms": [
-          "broom",
-          "comb"
-        ]
-      }
-    ],
-    "confusion": [
-      "rush",
-      "brash",
-      "crush",
-      "brushed"
-    ]
-  },
-  {
-    "word": "ceiling",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The upper interior surface of a room.",
-        "meaning_zh_TW": "天花板",
-        "wrong_meaning_zh_TW": [
-          "地板",
-          "牆壁",
-          "窗戶"
-        ],
-        "examples": [
-          {
-            "sentence": "The [ceiling] is painted white.",
-            "translation_zh_TW": "天花板是白色的。"
-          },
-          {
-            "sentence": "A chandelier hangs from the [ceiling].",
-            "translation_zh_TW": "一盞吊燈懸掛在天花板上。"
-          },
-          {
-            "sentence": "There is a crack in the [ceiling].",
-            "translation_zh_TW": "天花板上有一道裂縫。"
-          }
-        ],
-        "synonyms": [
-          "roof",
-          "overhead"
-        ]
-      }
-    ],
-    "confusion": [
-      "sealing",
-      "ceiling fan",
-      "celing",
-      "celing"
-    ]
-  },
-  {
-    "word": "building",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A structure with walls and a roof.",
-        "meaning_zh_TW": "建築物",
-        "wrong_meaning_zh_TW": [
-          "計畫",
-          "工具",
-          "團體"
-        ],
-        "examples": [
-          {
-            "sentence": "The [building] is over a hundred years old.",
-            "translation_zh_TW": "這棟建築已有一百多年歷史。"
-          },
-          {
-            "sentence": "She works in a tall [building] downtown.",
-            "translation_zh_TW": "她在市中心的一棟高樓工作。"
-          },
-          {
-            "sentence": "The [building] was designed by a famous architect.",
-            "translation_zh_TW": "這棟建築是由著名建築師設計的。"
-          }
-        ],
-        "synonyms": [
-          "structure",
-          "edifice"
-        ]
-      }
-    ],
-    "confusion": [
-      "builing",
-      "bullding",
-      "buling",
-      "bulging"
-    ]
-  },
-  {
-    "word": "method",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A particular procedure for accomplishing or approaching something.",
-        "meaning_zh_TW": "方法",
-        "wrong_meaning_zh_TW": [
-          "範例",
-          "技巧",
-          "系統"
-        ],
-        "examples": [
-          {
-            "sentence": "She has a unique [method] of teaching.",
-            "translation_zh_TW": "她有一種獨特的教學方法"
-          },
-          {
-            "sentence": "The scientific [method] involves experimentation.",
-            "translation_zh_TW": "科學方法包括實驗"
-          },
-          {
-            "sentence": "He explained his [method] clearly.",
-            "translation_zh_TW": "他清楚地解釋了他的方法"
-          }
-        ],
-        "synonyms": [
-          "technique",
-          "approach"
-        ]
-      }
-    ],
-    "confusion": [
-      "mothod",
-      "medthod",
-      "methed",
-      "methiod"
-    ]
-  },
-  {
-    "word": "position",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A place where someone or something is located or has been put.",
-        "meaning_zh_TW": "職位,姿勢,位置",
-        "wrong_meaning_zh_TW": [
-          "方法",
-          "工具",
-          "狀況"
-        ],
-        "examples": [
-          {
-            "sentence": "His [position] in the company is crucial for its success.",
-            "translation_zh_TW": "他在公司的職位對其成功至關重要。"
-          },
-          {
-            "sentence": "She took a comfortable [position] on the couch.",
-            "translation_zh_TW": "她在沙發上找了一個舒適的姿勢。"
-          },
-          {
-            "sentence": "The team discussed their [position] in the market.",
-            "translation_zh_TW": "團隊討論了他們在市場上的位置。"
-          }
-        ],
-        "synonyms": [
-          "location",
-          "site"
-        ]
-      }
-    ],
-    "confusion": [
-      "positions",
-      "postion",
-      "positional",
-      "potion"
-    ]
-  },
-  {
-    "word": "bone",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Any of the pieces of hard, white tissue that make up the skeleton.",
-        "meaning_zh_TW": "骨頭",
-        "wrong_meaning_zh_TW": [
-          "肌肉",
-          "脂肪",
-          "皮膚"
-        ],
-        "examples": [
-          {
-            "sentence": "The dinosaur skeleton was made up of many large [bones].",
-            "translation_zh_TW": "恐龍骨骼由許多大型骨頭組成。"
-          },
-          {
-            "sentence": "He fractured a [bone] in his arm during the game.",
-            "translation_zh_TW": "他在比賽中摔斷了手臂的一根骨頭。"
-          },
-          {
-            "sentence": "Fish have a lot of small [bones] that can be tricky to eat.",
-            "translation_zh_TW": "魚有很多小骨頭，吃的時候可能很麻煩。"
-          }
-        ],
-        "synonyms": [
-          "skeleton",
-          "osseous tissue"
-        ]
-      }
-    ],
-    "confusion": [
-      "bloom",
-      "bong",
-      "bore",
-      "cone"
+      "unnecessary",
+      "necessarily",
+      "necessity",
+      "necessaries"
     ]
   }
 ]

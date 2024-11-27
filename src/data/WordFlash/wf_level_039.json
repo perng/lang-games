@@ -1,640 +1,236 @@
 [
   {
-    "word": "read",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To look at and comprehend the meaning of written or printed matter.",
-        "meaning_zh_TW": "閱讀",
-        "wrong_meaning_zh_TW": [
-          "寫作、創作",
-          "複製、抄寫",
-          "研究、探究"
-        ],
-        "examples": [
-          {
-            "sentence": "I love to [read] before bedtime.",
-            "translation_zh_TW": "我喜歡在睡前閱讀。"
-          },
-          {
-            "sentence": "Please [read] the instructions carefully.",
-            "translation_zh_TW": "請仔細閱讀說明。"
-          },
-          {
-            "sentence": "He can [read] three languages fluently.",
-            "translation_zh_TW": "他能流利地閱讀三種語言。"
-          }
-        ],
-        "synonyms": [
-          "peruse",
-          "study"
-        ]
-      }
-    ],
-    "confusion": [
-      "reed",
-      "red",
-      "ready",
-      "reap"
-    ]
-  },
-  {
-    "word": "than",
-    "meanings": [
-      {
-        "type": "介詞",
-        "meaning_en_US": "Used to introduce a second element in a comparison.",
-        "meaning_zh_TW": "比",
-        "wrong_meaning_zh_TW": [
-          "和",
-          "或",
-          "與"
-        ],
-        "examples": [
-          {
-            "sentence": "She is taller [than] her brother.",
-            "translation_zh_TW": "她比她的兄弟高。"
-          },
-          {
-            "sentence": "I would rather read [than] watch TV.",
-            "translation_zh_TW": "我寧願讀書而不是看電視。"
-          },
-          {
-            "sentence": "He's more experienced [than] I am.",
-            "translation_zh_TW": "他的經驗比我多。"
-          }
-        ],
-        "synonyms": [
-          "compared to",
-          "as opposed to"
-        ]
-      }
-    ],
-    "confusion": [
-      "then",
-      "that",
-      "thanx",
-      "thanx"
-    ]
-  },
-  {
-    "word": "mean",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To intend to convey or refer to.",
-        "meaning_zh_TW": "意味著",
-        "wrong_meaning_zh_TW": [
-          "忽略",
-          "誤解",
-          "範圍"
-        ],
-        "examples": [
-          {
-            "sentence": "What do you mean by that remark?",
-            "translation_zh_TW": "你這句話的意思是什麼？"
-          },
-          {
-            "sentence": "I didn’t mean to hurt your feelings.",
-            "translation_zh_TW": "我不是故意要傷害你的感情。"
-          },
-          {
-            "sentence": "His smile could mean many things.",
-            "translation_zh_TW": "他的微笑可以意味著很多事情。"
-          }
-        ],
-        "synonyms": [
-          "signify",
-          "indicate"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "The average of a set of numbers.",
-        "meaning_zh_TW": "平均數",
-        "wrong_meaning_zh_TW": [
-          "中位數",
-          "範圍",
-          "標準差"
-        ],
-        "examples": [
-          {
-            "sentence": "The mean of these numbers is twenty.",
-            "translation_zh_TW": "這些數字的平均數是二十。"
-          },
-          {
-            "sentence": "Calculating the mean is a basic statistical skill.",
-            "translation_zh_TW": "計算平均數是一項基本的統計技能。"
-          },
-          {
-            "sentence": "We found the mean by adding and dividing.",
-            "translation_zh_TW": "我們透過相加和除法找到了平均數。"
-          }
-        ],
-        "synonyms": [
-          "average",
-          "median"
-        ]
-      }
-    ],
-    "confusion": [
-      "meen",
-      "meaner",
-      "meann",
-      "meaan"
-    ]
-  },
-  {
-    "word": "kiss",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To touch with the lips as a sign of love, affection, or greeting.",
-        "meaning_zh_TW": "親吻",
-        "wrong_meaning_zh_TW": [
-          "推",
-          "撫摸",
-          "擁抱"
-        ],
-        "examples": [
-          {
-            "sentence": "They shared a sweet [kiss].",
-            "translation_zh_TW": "他們分享了一個甜蜜的吻。"
-          },
-          {
-            "sentence": "I want to [kiss] you goodnight.",
-            "translation_zh_TW": "我想給你一個晚安吻。"
-          },
-          {
-            "sentence": "He leaned in to [kiss] her cheek.",
-            "translation_zh_TW": "他靠過去吻了她的臉頰。"
-          }
-        ],
-        "synonyms": [
-          "peck",
-          "smooch"
-        ]
-      }
-    ],
-    "confusion": [
-      "kisst",
-      "kises",
-      "kiiss",
-      "kiz"
-    ]
-  },
-  {
-    "word": "beside",
-    "meanings": [
-      {
-        "type": "介詞",
-        "meaning_en_US": "At the side of; next to.",
-        "meaning_zh_TW": "在旁邊",
-        "wrong_meaning_zh_TW": [
-          "在前面",
-          "在上面",
-          "在裡面"
-        ],
-        "examples": [
-          {
-            "sentence": "The dog lay [beside] its owner.",
-            "translation_zh_TW": "狗躺在主人旁邊"
-          },
-          {
-            "sentence": "She sat [beside] her friend during the movie.",
-            "translation_zh_TW": "她在電影中坐在朋友旁邊"
-          },
-          {
-            "sentence": "The tree is [beside] the house.",
-            "translation_zh_TW": "樹在房子旁邊"
-          }
-        ],
-        "synonyms": [
-          "next to",
-          "alongside"
-        ]
-      }
-    ],
-    "confusion": [
-      "besides",
-      "beside",
-      "besize",
-      "bside"
-    ]
-  },
-  {
-    "word": "certain",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Known for sure; established beyond doubt.",
-        "meaning_zh_TW": "確定的",
-        "wrong_meaning_zh_TW": [
-          "不確定的",
-          "模糊的",
-          "可疑的"
-        ],
-        "examples": [
-          {
-            "sentence": "I am [certain] that I locked the door.",
-            "translation_zh_TW": "我確定我鎖了門"
-          },
-          {
-            "sentence": "She has a [certain] charm that attracts people.",
-            "translation_zh_TW": "她有種特別的魅力能吸引人"
-          },
-          {
-            "sentence": "There is [certain] evidence to support the claim.",
-            "translation_zh_TW": "有確定的證據支持這項說法"
-          }
-        ],
-        "synonyms": [
-          "sure",
-          "definite"
-        ]
-      }
-    ],
-    "confusion": [
-      "certainly",
-      "certification",
-      "certified",
-      "circumstance"
-    ]
-  },
-  {
-    "word": "appear",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To become visible or noticeable.",
-        "meaning_zh_TW": "出現",
-        "wrong_meaning_zh_TW": [
-          "消失",
-          "隱藏",
-          "躲避"
-        ],
-        "examples": [
-          {
-            "sentence": "Suddenly, a rabbit [appeared] from behind the bush.",
-            "translation_zh_TW": "突然，一隻兔子從灌木叢後面出現"
-          },
-          {
-            "sentence": "The stars [appear] brighter in the countryside.",
-            "translation_zh_TW": "在鄉村裡，星星顯得更加明亮"
-          },
-          {
-            "sentence": "She hopes to [appear] on stage soon.",
-            "translation_zh_TW": "她希望能在舞台上出現"
-          }
-        ],
-        "synonyms": [
-          "emerge",
-          "materialize"
-        ]
-      }
-    ],
-    "confusion": [
-      "append",
-      "appearence",
-      "apear",
-      "apprear"
-    ]
-  },
-  {
-    "word": "medicine",
+    "word": "mathematics",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A substance used to treat an illness or injury.",
-        "meaning_zh_TW": "藥物",
+        "meaning_en_US": "The abstract science of number, quantity, and space.",
+        "meaning_zh_TW": "數學",
         "wrong_meaning_zh_TW": [
-          "毒藥",
-          "化妝品",
-          "營養品"
+          "算術",
+          "幾何",
+          "代數"
         ],
         "examples": [
           {
-            "sentence": "He took some [medicine] for his headache.",
-            "translation_zh_TW": "他吃了些藥治頭痛"
+            "sentence": "He studies [mathematics] at the university.",
+            "translation_zh_TW": "他在大學學習數學"
           },
           {
-            "sentence": "This [medicine] should be taken twice a day.",
-            "translation_zh_TW": "這種藥物每天服用兩次"
+            "sentence": "The teacher explained [mathematics] in a simple way.",
+            "translation_zh_TW": "老師用簡單的方式解釋數學"
           },
           {
-            "sentence": "The doctor prescribed [medicine] for her condition.",
-            "translation_zh_TW": "醫生為她的病情開了藥"
+            "sentence": "Advanced [mathematics] can be challenging.",
+            "translation_zh_TW": "高級數學可能很有挑戰性"
           }
         ],
         "synonyms": [
-          "medication",
-          "remedy"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "The science of diagnosing and treating diseases.",
-        "meaning_zh_TW": "醫學",
-        "wrong_meaning_zh_TW": [
-          "護理",
-          "保健",
-          "藥學"
-        ],
-        "examples": [
-          {
-            "sentence": "He studies [medicine] at the university.",
-            "translation_zh_TW": "他在大學學習醫學"
-          },
-          {
-            "sentence": "Advancements in [medicine] improve healthcare.",
-            "translation_zh_TW": "醫學的進步改善了醫療保健"
-          },
-          {
-            "sentence": "In [medicine], ethics are very important.",
-            "translation_zh_TW": "在醫學中，倫理非常重要"
-          }
-        ],
-        "synonyms": [
-          "healthcare",
-          "medical science"
+          "math",
+          "arithmetic"
         ]
       }
     ],
     "confusion": [
-      "medic",
-      "medicin",
-      "medicate",
-      "mediciones"
+      "mathematician",
+      "matrix",
+      "mathematically",
+      "mat"
     ]
   },
   {
-    "word": "go",
+    "word": "trouble",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Difficulty or problems that cause distress.",
+        "meaning_zh_TW": "麻煩",
+        "wrong_meaning_zh_TW": [
+          "安穩",
+          "愉快",
+          "快樂"
+        ],
+        "examples": [
+          {
+            "sentence": "She got into [trouble] with her parents.",
+            "translation_zh_TW": "她跟父母之間有了麻煩"
+          },
+          {
+            "sentence": "The project is facing many [troubles].",
+            "translation_zh_TW": "這個項目面臨許多麻煩"
+          },
+          {
+            "sentence": "He was always in [trouble] for being late.",
+            "translation_zh_TW": "他總因遲到而惹麻煩"
+          }
+        ],
+        "synonyms": [
+          "difficulty",
+          "problem"
+        ]
+      }
+    ],
+    "confusion": [
+      "truble",
+      "trubbl",
+      "troubl",
+      "troble"
+    ]
+  },
+  {
+    "word": "cook",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To move from one place to another.",
-        "meaning_zh_TW": "前往",
+        "meaning_en_US": "To prepare food by heating it.",
+        "meaning_zh_TW": "烹飪",
         "wrong_meaning_zh_TW": [
-          "留在",
-          "停下",
-          "倒退"
+          "冷卻",
+          "清洗",
+          "準備"
         ],
         "examples": [
           {
-            "sentence": "Please [go] to the store.",
-            "translation_zh_TW": "請去商店。"
+            "sentence": "I love to [cook] Italian dishes.",
+            "translation_zh_TW": "我喜歡烹飪義大利菜。"
           },
           {
-            "sentence": "We should [go] now if we want to arrive on time.",
-            "translation_zh_TW": "如果我們想準時到達，現在應該出發。"
+            "sentence": "Can you [cook] dinner for us tonight?",
+            "translation_zh_TW": "你今晚能為我們做晚餐嗎？"
           },
           {
-            "sentence": "They decided to [go] for a walk.",
-            "translation_zh_TW": "他們決定去散步。"
+            "sentence": "He will [cook] a special meal for her birthday.",
+            "translation_zh_TW": "他將為她的生日烹飪一頓特別的飯。"
           }
         ],
         "synonyms": [
-          "travel",
-          "proceed"
+          "prepare",
+          "bake"
         ]
       }
     ],
     "confusion": [
-      "goes",
-      "god",
-      "gore",
-      "gob"
+      "cookbook",
+      "cookout",
+      "crook",
+      "cloak"
     ]
   },
   {
-    "word": "pot",
+    "word": "hat",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A container used for cooking or storing food.",
-        "meaning_zh_TW": "鍋、壺",
+        "meaning_en_US": "A shaped covering for the head, typically made of cloth or felt.",
+        "meaning_zh_TW": "帽子",
         "wrong_meaning_zh_TW": [
-          "桌子",
-          "刀",
-          "碗"
+          "耳機",
+          "頭巾",
+          "頭燈"
         ],
         "examples": [
           {
-            "sentence": "She boiled water in a [pot].",
-            "translation_zh_TW": "她在鍋裡煮水。"
+            "sentence": "He wore a red [hat] on his head.",
+            "translation_zh_TW": "他戴著一頂紅色的[帽子]。"
           },
           {
-            "sentence": "The flower was in a decorative [pot].",
-            "translation_zh_TW": "花在一個裝飾性的花盆裡。"
+            "sentence": "She bought a stylish [hat] from the store.",
+            "translation_zh_TW": "她從商店裡買了一頂時尚的[帽子]。"
           },
           {
-            "sentence": "He used a nonstick [pot] for cooking.",
-            "translation_zh_TW": "他用不黏鍋烹煮。"
+            "sentence": "The cowboy [hat] is very popular.",
+            "translation_zh_TW": "牛仔[帽子]非常受歡迎。"
           }
         ],
         "synonyms": [
-          "vessel",
-          "container"
+          "cap",
+          "headwear"
         ]
       }
     ],
     "confusion": [
-      "pat",
+      "hatred",
+      "hats",
+      "chat",
+      "hatchet"
+    ]
+  },
+  {
+    "word": "bike",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A vehicle with two wheels that a person rides by pushing on foot pedals.",
+        "meaning_zh_TW": "腳踏車",
+        "wrong_meaning_zh_TW": [
+          "摩托車",
+          "滑板",
+          "小車"
+        ],
+        "examples": [
+          {
+            "sentence": "He rides his [bike] to work every day.",
+            "translation_zh_TW": "他每天騎著腳踏車上班。"
+          },
+          {
+            "sentence": "She bought a new [bike] for her birthday.",
+            "translation_zh_TW": "她為生日買了輛新腳踏車。"
+          },
+          {
+            "sentence": "We went for a ride on our [bikes] last weekend.",
+            "translation_zh_TW": "我們上個週末騎著腳踏車出去遊玩。"
+          }
+        ],
+        "synonyms": [
+          "bicycle",
+          "cycle"
+        ]
+      }
+    ],
+    "confusion": [
+      "bikini",
+      "bike lane",
+      "bike rack",
+      "byke"
+    ]
+  },
+  {
+    "word": "plate",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A flat dish used for serving or eating food.",
+        "meaning_zh_TW": "盤子",
+        "wrong_meaning_zh_TW": [
+          "碗",
+          "杯子",
+          "刀叉"
+        ],
+        "examples": [
+          {
+            "sentence": "She placed the cake on the [plate] carefully.",
+            "translation_zh_TW": "她小心翼翼地把蛋糕放在盤子上。"
+          },
+          {
+            "sentence": "He washed the dirty [plate] after dinner.",
+            "translation_zh_TW": "他在晚餐後洗了髒盤子。"
+          },
+          {
+            "sentence": "The restaurant served food on beautiful china [plates].",
+            "translation_zh_TW": "這家餐廳用漂亮的瓷盤上菜。"
+          }
+        ],
+        "synonyms": [
+          "dish",
+          "platter"
+        ]
+      }
+    ],
+    "confusion": [
+      "plaque",
+      "plateau",
       "plot",
-      "potty",
-      "pout"
-    ]
-  },
-  {
-    "word": "eighty",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The number that is the product of eight and ten.",
-        "meaning_zh_TW": "八十",
-        "wrong_meaning_zh_TW": [
-          "十",
-          "九十",
-          "七十"
-        ],
-        "examples": [
-          {
-            "sentence": "He is [eighty] years old.",
-            "translation_zh_TW": "他八十歲了。"
-          },
-          {
-            "sentence": "[Eighty] percent of the class passed.",
-            "translation_zh_TW": "班上有八十的學生通過了。"
-          },
-          {
-            "sentence": "They need [eighty] volunteers.",
-            "translation_zh_TW": "他們需要八十名志工。"
-          }
-        ],
-        "synonyms": []
-      }
-    ],
-    "confusion": [
-      "eighty",
-      "eighteen",
-      "eighty-one",
-      "eight"
-    ]
-  },
-  {
-    "word": "raise",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To lift or elevate something to a higher position.",
-        "meaning_zh_TW": "提升，抬高",
-        "wrong_meaning_zh_TW": [
-          "下降，降低",
-          "隱藏，隱蔽",
-          "折斷，使斷"
-        ],
-        "examples": [
-          {
-            "sentence": "She decided to [raise] her hand to ask a question.",
-            "translation_zh_TW": "她決定舉手問問題。"
-          },
-          {
-            "sentence": "The company plans to [raise] funds for the new project.",
-            "translation_zh_TW": "公司計劃為新項目籌集資金。"
-          },
-          {
-            "sentence": "The gardener will [raise] the flowers in the greenhouse.",
-            "translation_zh_TW": "園丁會在溫室裡栽培花朵。"
-          }
-        ],
-        "synonyms": [
-          "lift",
-          "elevate"
-        ]
-      }
-    ],
-    "confusion": [
-      "raze",
-      "race",
-      "rase",
-      "rays"
-    ]
-  },
-  {
-    "word": "officer",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person holding a position of authority in an organization.",
-        "meaning_zh_TW": "警官,官員",
-        "wrong_meaning_zh_TW": [
-          "士兵",
-          "平民",
-          "朋友"
-        ],
-        "examples": [
-          {
-            "sentence": "The police [officer] arrived at the scene quickly.",
-            "translation_zh_TW": "警官迅速抵達現場。"
-          },
-          {
-            "sentence": "She is an [officer] in the local government.",
-            "translation_zh_TW": "她是地方政府的一名官員。"
-          },
-          {
-            "sentence": "The [officer] gave us instructions on what to do.",
-            "translation_zh_TW": "官員給我們提供了行動指示。"
-          }
-        ],
-        "synonyms": [
-          "agent",
-          "authoritative figure"
-        ]
-      }
-    ],
-    "confusion": [
-      "official",
-      "offshore",
-      "offtrack",
-      "offer"
-    ]
-  },
-  {
-    "word": "area",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A region or a part of a larger space.",
-        "meaning_zh_TW": "區域、面積",
-        "wrong_meaning_zh_TW": [
-          "物體、實體",
-          "中心、焦點",
-          "表面、外觀"
-        ],
-        "examples": [
-          {
-            "sentence": "This area is known for its beautiful landscapes.",
-            "translation_zh_TW": "這個區域以其美麗的風景而聞名。"
-          },
-          {
-            "sentence": "Can you tell me which area to explore?",
-            "translation_zh_TW": "你能告訴我該探索哪個區域嗎？"
-          },
-          {
-            "sentence": "The park is a great area for picnics.",
-            "translation_zh_TW": "這個公園是舉行野餐的好地方。"
-          }
-        ],
-        "synonyms": [
-          "region",
-          "zone"
-        ]
-      }
-    ],
-    "confusion": [
-      "aira",
-      "arear",
-      "aera",
-      "areea"
-    ]
-  },
-  {
-    "word": "apple",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A round fruit of a tree of the rose family, typically having a green, red, or yellow skin.",
-        "meaning_zh_TW": "蘋果",
-        "wrong_meaning_zh_TW": [
-          "香蕉",
-          "橘子",
-          "葡萄"
-        ],
-        "examples": [
-          {
-            "sentence": "She took a bite of the [apple].",
-            "translation_zh_TW": "她咬了一口[蘋果]。"
-          },
-          {
-            "sentence": "I bought fresh [apples] from the market.",
-            "translation_zh_TW": "我在市場上買了新鮮的[蘋果]。"
-          },
-          {
-            "sentence": "An [apple] a day keeps the doctor away.",
-            "translation_zh_TW": "一天一個[蘋果]，醫生遠離我。"
-          }
-        ],
-        "synonyms": [
-          "fruit",
-          "orchard fruit"
-        ]
-      }
-    ],
-    "confusion": [
-      "apples",
-      "maple",
-      "ample",
-      "upple"
+      "plane"
     ]
   },
   {
@@ -678,81 +274,477 @@
     ]
   },
   {
-    "word": "theater",
+    "word": "circle",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A building or outdoor area where plays, movies, or other performances are presented.",
-        "meaning_zh_TW": "劇院",
+        "meaning_en_US": "A round plane figure whose boundary consists of points equidistant from the center.",
+        "meaning_zh_TW": "圓形",
         "wrong_meaning_zh_TW": [
-          "博物館",
-          "商場",
-          "體育場"
+          "方形",
+          "三角形",
+          "椭圆形"
         ],
         "examples": [
           {
-            "sentence": "They went to the [theater] to watch a movie.",
-            "translation_zh_TW": "他們去劇院看了一部電影。"
+            "sentence": "The children sat in a [circle] on the grass.",
+            "translation_zh_TW": "孩子們坐在草地上的圓圈裡。"
           },
           {
-            "sentence": "The [theater] was packed with excited audience members.",
-            "translation_zh_TW": "劇院裡塞滿了興奮的觀眾。"
+            "sentence": "Draw a [circle] with a compass.",
+            "translation_zh_TW": "用圓規畫一個圓圈。"
           },
           {
-            "sentence": "She has always wanted to perform on a [theater] stage.",
-            "translation_zh_TW": "她一直想在劇院舞台上表演。"
+            "sentence": "The wheels of the car are not perfect [circles].",
+            "translation_zh_TW": "汽車的輪子並不完全是圓形。"
           }
         ],
         "synonyms": [
-          "playhouse",
-          "auditorium"
+          "ring",
+          "disk"
         ]
       }
     ],
     "confusion": [
-      "theatre",
-      "theateric",
-      "theatergoer",
-      "theatrical"
+      "circular",
+      "circumference",
+      "circlet",
+      "circley"
     ]
   },
   {
-    "word": "song",
+    "word": "arm",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A short poem or set of words set to music or meant to be sung.",
-        "meaning_zh_TW": "歌曲",
+        "meaning_en_US": "The part of the human body extending from the shoulder to the wrist.",
+        "meaning_zh_TW": "手臂",
         "wrong_meaning_zh_TW": [
-          "步驟",
-          "舞蹈",
-          "樂器"
+          "火腿",
+          "零件",
+          "鬧鈴"
         ],
         "examples": [
           {
-            "sentence": "She sang a beautiful [song] at the concert.",
-            "translation_zh_TW": "她在音樂會上唱了一首美麗的歌曲"
+            "sentence": "She lifted her [arm] to wave.",
+            "translation_zh_TW": "她舉起手揮揮。"
           },
           {
-            "sentence": "The children were learning a new [song] in class.",
-            "translation_zh_TW": "孩子們在課堂上學習一首新歌曲"
+            "sentence": "He injured his [arm] during the game.",
+            "translation_zh_TW": "他在比賽中傷了手臂。"
           },
           {
-            "sentence": "He wrote a [song] about his travels.",
-            "translation_zh_TW": "他寫了一首關於旅行的歌曲"
+            "sentence": "The baby reached out its little [arm] to grab the toy.",
+            "translation_zh_TW": "嬰兒伸出小手臂去抓玩具。"
           }
         ],
         "synonyms": [
-          "tune",
-          "melody"
+          "limb",
+          "upper limb"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "An extension or branch of something, often describing a division or part of an organization.",
+        "meaning_zh_TW": "分支、部門",
+        "wrong_meaning_zh_TW": [
+          "主管、經理",
+          "運動、練習",
+          "手杖、拐杖"
+        ],
+        "examples": [
+          {
+            "sentence": "The organization has an educational [arm].",
+            "translation_zh_TW": "該機構有個教育部門。"
+          },
+          {
+            "sentence": "The charity's fundraising [arm] raises significant amounts.",
+            "translation_zh_TW": "這個慈善機構的籌款部門籌集了可觀的資金。"
+          },
+          {
+            "sentence": "Each [arm] of the business operates independently.",
+            "translation_zh_TW": "這家公司的每個部門都獨立運作。"
+          }
+        ],
+        "synonyms": [
+          "branch",
+          "wing"
         ]
       }
     ],
     "confusion": [
-      "sung",
-      "rong",
-      "scone",
-      "songbird"
+      "army",
+      "armory",
+      "armchair",
+      "alarm"
+    ]
+  },
+  {
+    "word": "chocolate",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A sweet, usually brown food made from roasted and ground cacao seeds.",
+        "meaning_zh_TW": "巧克力",
+        "wrong_meaning_zh_TW": [
+          "糖果",
+          "冰淇淋",
+          "牛奶"
+        ],
+        "examples": [
+          {
+            "sentence": "I love to eat [chocolate] when I feel down.",
+            "translation_zh_TW": "我喜歡在心情不好時吃巧克力。"
+          },
+          {
+            "sentence": "She makes delicious [chocolate] cakes.",
+            "translation_zh_TW": "她做的巧克力蛋糕非常好吃。"
+          },
+          {
+            "sentence": "He prefers dark [chocolate] over milk [chocolate].",
+            "translation_zh_TW": "他喜歡黑巧克力而不是牛奶巧克力。"
+          }
+        ],
+        "synonyms": [
+          "cacao",
+          "sweet treat"
+        ]
+      }
+    ],
+    "confusion": [
+      "chocolat",
+      "choclate",
+      "chocolates",
+      "choclate"
+    ]
+  },
+  {
+    "word": "husband",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A married man; a man in relation to his spouse.",
+        "meaning_zh_TW": "丈夫",
+        "wrong_meaning_zh_TW": [
+          "朋友",
+          "伴侶",
+          "兄弟"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [husband] is a great cook.",
+            "translation_zh_TW": "她的丈夫是一位出色的廚師。"
+          },
+          {
+            "sentence": "My [husband] and I are going on vacation next month.",
+            "translation_zh_TW": "我丈夫和我下個月要去度假。"
+          },
+          {
+            "sentence": "He is a dedicated [husband] and father.",
+            "translation_zh_TW": "他是一位敬業的丈夫和父親。"
+          }
+        ],
+        "synonyms": [
+          "spouse",
+          "partner"
+        ]
+      }
+    ],
+    "confusion": [
+      "husbant",
+      "husban",
+      "hussband",
+      "hufband"
+    ]
+  },
+  {
+    "word": "crazy",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Mentally deranged or extremely enthusiastic.",
+        "meaning_zh_TW": "瘋狂的",
+        "wrong_meaning_zh_TW": [
+          "理智",
+          "平常",
+          "冷靜"
+        ],
+        "examples": [
+          {
+            "sentence": "She has some [crazy] ideas for the project.",
+            "translation_zh_TW": "她對這個項目有一些瘋狂的想法。"
+          },
+          {
+            "sentence": "The movie was so [crazy] that I couldn't stop laughing.",
+            "translation_zh_TW": "這部電影如此瘋狂，我忍不住笑。"
+          },
+          {
+            "sentence": "He acts [crazy] when he gets too much caffeine.",
+            "translation_zh_TW": "當他攝取過多咖啡因時，他的行為變得很瘋狂。"
+          }
+        ],
+        "synonyms": [
+          "insane",
+          "wild"
+        ]
+      }
+    ],
+    "confusion": [
+      "crazed",
+      "cranky",
+      "craze",
+      "crate"
+    ]
+  },
+  {
+    "word": "mouth",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The opening in the lower part of the face used for eating and speaking.",
+        "meaning_zh_TW": "嘴巴",
+        "wrong_meaning_zh_TW": [
+          "鼻子",
+          "耳朵",
+          "眼睛"
+        ],
+        "examples": [
+          {
+            "sentence": "He opened his [mouth] to speak.",
+            "translation_zh_TW": "他張開嘴巴說話"
+          },
+          {
+            "sentence": "She smiled and showed her [mouth].",
+            "translation_zh_TW": "她微笑並展示了她的嘴巴"
+          },
+          {
+            "sentence": "Close your [mouth] when you chew.",
+            "translation_zh_TW": "咀嚼時要閉嘴"
+          }
+        ],
+        "synonyms": [
+          "orifice",
+          "maw"
+        ]
+      },
+      {
+        "type": "名詞",
+        "meaning_en_US": "The entrance to a cave or another opening.",
+        "meaning_zh_TW": "入口",
+        "wrong_meaning_zh_TW": [
+          "洞穴",
+          "山丘",
+          "水面"
+        ],
+        "examples": [
+          {
+            "sentence": "The [mouth] of the cave is hidden.",
+            "translation_zh_TW": "洞穴的入口隱藏起來了"
+          },
+          {
+            "sentence": "They found the [mouth] of the river.",
+            "translation_zh_TW": "他們找到了河口"
+          },
+          {
+            "sentence": "Approaching the [mouth] of the glacier was dangerous.",
+            "translation_zh_TW": "接近冰川的入口很危險"
+          }
+        ],
+        "synonyms": [
+          "entrance",
+          "opening"
+        ]
+      }
+    ],
+    "confusion": [
+      "moth",
+      "month",
+      "mouthing",
+      "mixed"
+    ]
+  },
+  {
+    "word": "fruit",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The mature ovary of a flowering plant, usually containing seeds.",
+        "meaning_zh_TW": "水果",
+        "wrong_meaning_zh_TW": [
+          "蔬菜",
+          "穀物",
+          "根莖"
+        ],
+        "examples": [
+          {
+            "sentence": "An apple is a type of [fruit].",
+            "translation_zh_TW": "蘋果是一種水果"
+          },
+          {
+            "sentence": "He eats a lot of [fruit] for breakfast.",
+            "translation_zh_TW": "他早餐吃很多水果"
+          },
+          {
+            "sentence": "Tropical [fruit] can be very tasty.",
+            "translation_zh_TW": "熱帶水果非常美味"
+          }
+        ],
+        "synonyms": [
+          "produce",
+          "crop"
+        ]
+      }
+    ],
+    "confusion": [
+      "fruity",
+      "fruite",
+      "fruits",
+      "fruut"
+    ]
+  },
+  {
+    "word": "draw",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To produce a picture or diagram by making lines and marks on paper.",
+        "meaning_zh_TW": "畫",
+        "wrong_meaning_zh_TW": [
+          "寫",
+          "縮小",
+          "攤牌"
+        ],
+        "examples": [
+          {
+            "sentence": "She loves to [draw] landscapes.",
+            "translation_zh_TW": "她喜歡畫風景。"
+          },
+          {
+            "sentence": "He can [draw] very realistic portraits.",
+            "translation_zh_TW": "他能畫非常逼真的肖像。"
+          },
+          {
+            "sentence": "The child [draw] with crayons.",
+            "translation_zh_TW": "孩子用蠟筆畫畫。"
+          }
+        ],
+        "synonyms": [
+          "sketch",
+          "illustrate"
+        ]
+      },
+      {
+        "type": "動詞",
+        "meaning_en_US": "To attract or pull towards oneself.",
+        "meaning_zh_TW": "吸引",
+        "wrong_meaning_zh_TW": [
+          "推",
+          "抵抗",
+          "放開"
+        ],
+        "examples": [
+          {
+            "sentence": "The artist will [draw] people to the exhibition.",
+            "translation_zh_TW": "藝術家將吸引人們參觀展覽。"
+          },
+          {
+            "sentence": "Her performance is sure to [draw] applause.",
+            "translation_zh_TW": "她的表演肯定會吸引掌聲。"
+          },
+          {
+            "sentence": "The discount will [draw] more customers.",
+            "translation_zh_TW": "折扣將吸引更多客戶。"
+          }
+        ],
+        "synonyms": [
+          "attract",
+          "pull"
+        ]
+      }
+    ],
+    "confusion": [
+      "drawl",
+      "drw",
+      "dray",
+      "daw"
+    ]
+  },
+  {
+    "word": "engineer",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who designs, builds, or maintains engines, machines, or structures.",
+        "meaning_zh_TW": "工程師",
+        "wrong_meaning_zh_TW": [
+          "護士",
+          "教師",
+          "清潔工"
+        ],
+        "examples": [
+          {
+            "sentence": "She wants to become an [engineer] after studying physics.",
+            "translation_zh_TW": "她希望在學習物理後成為一名工程師。"
+          },
+          {
+            "sentence": "The [engineer] designed a new bridge.",
+            "translation_zh_TW": "那位工程師設計了一座新橋。"
+          },
+          {
+            "sentence": "Every [engineer] needs to understand basic mathematics.",
+            "translation_zh_TW": "每位工程師都需要理解基本的數學。"
+          }
+        ],
+        "synonyms": [
+          "developer",
+          "designer"
+        ]
+      }
+    ],
+    "confusion": [
+      "engine",
+      "engage",
+      "engineer-ing",
+      "ending"
+    ]
+  },
+  {
+    "word": "sugar",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A sweet crystalline substance obtained from various plants, especially sugar cane and sugar beet.",
+        "meaning_zh_TW": "糖",
+        "wrong_meaning_zh_TW": [
+          "鹽",
+          "醋",
+          "醬油"
+        ],
+        "examples": [
+          {
+            "sentence": "She likes to add [sugar] to her tea.",
+            "translation_zh_TW": "她喜歡在茶裡加糖。"
+          },
+          {
+            "sentence": "Too much [sugar] can be harmful.",
+            "translation_zh_TW": "過多的糖可能有害健康。"
+          },
+          {
+            "sentence": "He prefers brown [sugar] over white.",
+            "translation_zh_TW": "他更喜歡紅糖而不是白糖。"
+          }
+        ],
+        "synonyms": [
+          "sweetener",
+          "sucrose"
+        ]
+      }
+    ],
+    "confusion": [
+      "sugary",
+      "suggar",
+      "sugarcane",
+      "sugur"
     ]
   }
 ]

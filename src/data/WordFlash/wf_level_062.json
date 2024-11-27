@@ -1,760 +1,773 @@
 [
   {
-    "word": "couple",
+    "word": "building",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "Two individuals of the same sort considered together.",
-        "meaning_zh_TW": "一對",
+        "meaning_en_US": "A structure with walls and a roof.",
+        "meaning_zh_TW": "建築物",
         "wrong_meaning_zh_TW": [
-          "單身",
-          "團隊",
-          "伴侶"
+          "計畫",
+          "工具",
+          "團體"
         ],
         "examples": [
           {
-            "sentence": "They are a lovely [couple].",
-            "translation_zh_TW": "他們是一對可愛的情侶。"
+            "sentence": "The [building] is over a hundred years old.",
+            "translation_zh_TW": "這棟建築已有一百多年歷史。"
           },
           {
-            "sentence": "A [couple] of friends joined us for dinner.",
-            "translation_zh_TW": "幾個朋友加入我們的晚餐。"
+            "sentence": "She works in a tall [building] downtown.",
+            "translation_zh_TW": "她在市中心的一棟高樓工作。"
           },
           {
-            "sentence": "She gave a [couple] of reasons for her decision.",
-            "translation_zh_TW": "她為自己的決定給出了幾個理由。"
+            "sentence": "The [building] was designed by a famous architect.",
+            "translation_zh_TW": "這棟建築是由著名建築師設計的。"
           }
         ],
         "synonyms": [
-          "pair",
-          "duo"
+          "structure",
+          "edifice"
         ]
       }
     ],
     "confusion": [
-      "coupler",
-      "copule",
-      "couplets",
-      "couplee"
+      "builing",
+      "bullding",
+      "buling",
+      "bulging"
     ]
   },
   {
-    "word": "chart",
+    "word": "court",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A visual representation of data.",
-        "meaning_zh_TW": "圖表",
+        "meaning_en_US": "A place where legal cases are heard and decided.",
+        "meaning_zh_TW": "法院",
         "wrong_meaning_zh_TW": [
-          "列表",
-          "數據",
-          "資料夾"
+          "運動場",
+          "宮廷",
+          "花園"
         ],
         "examples": [
           {
-            "sentence": "He created a [chart] to visualize the sales data.",
-            "translation_zh_TW": "他創建了一個圖表來視覺化銷售數據。"
+            "sentence": "He was summoned to [court] to testify.",
+            "translation_zh_TW": "他被傳喚到法院作證。"
           },
           {
-            "sentence": "The [chart] shows trends over the last year.",
-            "translation_zh_TW": "這張圖表顯示了過去一年的趨勢。"
+            "sentence": "The judge presides over the [court].",
+            "translation_zh_TW": "法官主宰著法院。"
           },
           {
-            "sentence": "Students must learn to read a [chart] in math class.",
-            "translation_zh_TW": "學生必須學會在數學課上閱讀圖表。"
+            "sentence": "The [court] ruled in favor of the defendant.",
+            "translation_zh_TW": "法院判決有利於被告。"
           }
         ],
         "synonyms": [
-          "graph",
-          "diagram"
+          "tribunal",
+          "judiciary"
         ]
-      },
+      }
+    ],
+    "confusion": [
+      "corte",
+      "courts",
+      "courtney",
+      "cort"
+    ]
+  },
+  {
+    "word": "result",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A consequence or outcome of something.",
+        "meaning_zh_TW": "結果",
+        "wrong_meaning_zh_TW": [
+          "原因、根源",
+          "過程、過程中的事",
+          "原因、理由"
+        ],
+        "examples": [
+          {
+            "sentence": "The [result] of the experiment was surprising.",
+            "translation_zh_TW": "實驗的結果令人驚訝。"
+          },
+          {
+            "sentence": "We expect a positive [result] from the new strategy.",
+            "translation_zh_TW": "我們期待新策略帶來積極的結果。"
+          },
+          {
+            "sentence": "She was pleased with the [results] of her hard work.",
+            "translation_zh_TW": "她對自己的努力結果感到滿意。"
+          }
+        ],
+        "synonyms": [
+          "outcome",
+          "consequence"
+        ]
+      }
+    ],
+    "confusion": [
+      "results",
+      "resulte",
+      "resulant",
+      "resul"
+    ]
+  },
+  {
+    "word": "write",
+    "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To organize information visually.",
-        "meaning_zh_TW": "繪製",
+        "meaning_en_US": "To compose text or produce written material.",
+        "meaning_zh_TW": "寫、書寫",
         "wrong_meaning_zh_TW": [
-          "刪除",
-          "製作",
-          "計算"
+          "讀、翻閱",
+          "設計、創造",
+          "計算、數學"
         ],
         "examples": [
           {
-            "sentence": "We will [chart] the progress of the project.",
-            "translation_zh_TW": "我們將繪製項目的進展。"
+            "sentence": "I will [write] a letter to my friend.",
+            "translation_zh_TW": "我會給我的朋友寫一封信。"
           },
           {
-            "sentence": "She decided to [chart] her financial goals.",
-            "translation_zh_TW": "她決定繪製她的財務目標。"
+            "sentence": "Can you [write] down the instructions?",
+            "translation_zh_TW": "你能把指示寫下來嗎？"
           },
           {
-            "sentence": "The team will [chart] the timeline for the launch.",
-            "translation_zh_TW": "團隊將繪製發佈的時間表。"
+            "sentence": "She loves to [write] stories during her free time.",
+            "translation_zh_TW": "她喜歡在空閒時間寫故事。"
           }
         ],
         "synonyms": [
-          "map",
-          "outline"
+          "scribe",
+          "compose"
         ]
       }
     ],
     "confusion": [
-      "chartt",
-      "chrat",
-      "charrt",
-      "chard"
+      "rite",
+      "right",
+      "writ",
+      "writs"
     ]
   },
   {
-    "word": "nation",
+    "word": "offer",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To present or propose something for someone to accept or reject.",
+        "meaning_zh_TW": "提供",
+        "wrong_meaning_zh_TW": [
+          "需求",
+          "拒絕",
+          "假裝"
+        ],
+        "examples": [
+          {
+            "sentence": "She decided to [offer] her help.",
+            "translation_zh_TW": "她決定提供她的幫助"
+          },
+          {
+            "sentence": "They [offer] a wide range of products.",
+            "translation_zh_TW": "他們提供各種產品"
+          },
+          {
+            "sentence": "He [offer] his opinion during the meeting.",
+            "translation_zh_TW": "他在會議中提供了他的意見"
+          }
+        ],
+        "synonyms": [
+          "propose",
+          "present"
+        ]
+      }
+    ],
+    "confusion": [
+      "offered",
+      "often",
+      "suffer",
+      "buffer"
+    ]
+  },
+  {
+    "word": "event",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A large body of people united by common descent, history, culture, or language.",
-        "meaning_zh_TW": "國家",
+        "meaning_en_US": "An occurrence or happening, especially one of importance.",
+        "meaning_zh_TW": "事件",
         "wrong_meaning_zh_TW": [
-          "部落",
-          "城市",
-          "項目"
+          "體驗",
+          "意義",
+          "目的"
         ],
         "examples": [
           {
-            "sentence": "Every [nation] has its own culture.",
-            "translation_zh_TW": "每個國家都有自己的文化"
+            "sentence": "The concert is a major [event] in the city.",
+            "translation_zh_TW": "這場音樂會是城市中的一個重要事件。"
           },
           {
-            "sentence": "The [nation] celebrated its independence.",
-            "translation_zh_TW": "該國慶祝其獨立"
+            "sentence": "She organized a community [event] last week.",
+            "translation_zh_TW": "她上週組織了一個社區事件。"
           },
           {
-            "sentence": "A strong [nation] stands together.",
-            "translation_zh_TW": "一個強大的國家團結在一起"
+            "sentence": "Each [event] has its own significance.",
+            "translation_zh_TW": "每個事件都有其特殊的意義。"
           }
         ],
         "synonyms": [
-          "country",
-          "state"
+          "incident",
+          "occurrence"
         ]
       }
     ],
     "confusion": [
-      "station",
-      "ration",
-      "notation",
-      "creation"
+      "evening",
+      "events",
+      "eventuate",
+      "evnt"
     ]
   },
   {
-    "word": "project",
+    "word": "china",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A planned piece of work aimed at achieving specific goals.",
-        "meaning_zh_TW": "項目",
+        "meaning_en_US": "A fine white or translucent ceramic.",
+        "meaning_zh_TW": "瓷器、細陶瓷",
         "wrong_meaning_zh_TW": [
-          "職位描述",
-          "法律文件",
-          "私人交易"
+          "玻璃",
+          "塑膠",
+          "金屬"
         ],
         "examples": [
           {
-            "sentence": "The [project] will take six months to complete.",
-            "translation_zh_TW": "該項目需要六個月才能完成"
+            "sentence": "She served tea in beautiful [china].",
+            "translation_zh_TW": "她用美麗的瓷器倒茶。"
           },
           {
-            "sentence": "We need to present the [project] outcomes next week.",
-            "translation_zh_TW": "我們需要在下周展示項目的結果"
+            "sentence": "This [china] is very delicate.",
+            "translation_zh_TW": "這種瓷器非常精緻。"
           },
           {
-            "sentence": "This [project] involves multiple departments.",
-            "translation_zh_TW": "這個項目涉及多個部門"
+            "sentence": "He collects rare pieces of [china].",
+            "translation_zh_TW": "他收集珍稀的瓷器。"
           }
         ],
         "synonyms": [
-          "initiative",
-          "assignment"
+          "porcelain",
+          "ceramics"
         ]
       }
     ],
     "confusion": [
-      "ject",
-      "jproject",
-      "pject",
-      "projeect"
+      "China",
+      "chinas",
+      "chin",
+      "chinna"
     ]
   },
   {
-    "word": "message",
+    "word": "yet",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A communication sent from one person or group to another.",
-        "meaning_zh_TW": "信息",
+        "type": "副詞",
+        "meaning_en_US": "Up until the present or a specified time; still.",
+        "meaning_zh_TW": "還",
         "wrong_meaning_zh_TW": [
-          "接收器",
-          "寫信者",
-          "郵政"
+          "已經",
+          "將來",
+          "過去"
         ],
         "examples": [
           {
-            "sentence": "I received a [message] from my friend.",
-            "translation_zh_TW": "我從朋友那裡收到了一條信息"
+            "sentence": "I have not finished my homework [yet].",
+            "translation_zh_TW": "我還沒有完成我的作業。"
           },
           {
-            "sentence": "The [message] was clear and concise.",
-            "translation_zh_TW": "信息既清晰又簡潔"
+            "sentence": "Are you [yet] to visit that restaurant?",
+            "translation_zh_TW": "你還沒去過那家餐廳嗎？"
           },
           {
-            "sentence": "Can you send a [message] to her?",
-            "translation_zh_TW": "你能給她發一條信息嗎？"
+            "sentence": "She hasn’t decided what to wear [yet].",
+            "translation_zh_TW": "她還沒決定穿什麼。"
           }
         ],
         "synonyms": [
-          "communication",
-          "note"
+          "still",
+          "so far"
         ]
       }
     ],
     "confusion": [
-      "messenger",
-      "masses",
-      "missing",
-      "messy"
+      "net",
+      "yetis",
+      "let",
+      "set"
     ]
   },
   {
-    "word": "stranger",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person whom one does not know or with whom one is not familiar.",
-        "meaning_zh_TW": "陌生人",
-        "wrong_meaning_zh_TW": [
-          "親戚",
-          "敵人",
-          "朋友"
-        ],
-        "examples": [
-          {
-            "sentence": "He felt uncomfortable speaking to a [stranger].",
-            "translation_zh_TW": "他對與陌生人交談感到不安"
-          },
-          {
-            "sentence": "The [stranger] offered her help.",
-            "translation_zh_TW": "那位陌生人主動提供幫助"
-          },
-          {
-            "sentence": "It's not safe to talk to a [stranger] at night.",
-            "translation_zh_TW": "在晚上與陌生人交談是不安全的"
-          }
-        ],
-        "synonyms": [
-          "unknown",
-          "foreigner"
-        ]
-      }
-    ],
-    "confusion": [
-      "danger",
-      "change",
-      "strange",
-      "strangely"
-    ]
-  },
-  {
-    "word": "skill",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The ability to do something well; expertise.",
-        "meaning_zh_TW": "技能",
-        "wrong_meaning_zh_TW": [
-          "運氣",
-          "運動",
-          "藝術品"
-        ],
-        "examples": [
-          {
-            "sentence": "She has a great [skill] in painting.",
-            "translation_zh_TW": "她在繪畫方面有很大的技能。"
-          },
-          {
-            "sentence": "Developing [skill] takes time and practice.",
-            "translation_zh_TW": "發展技能需要時間和練習。"
-          },
-          {
-            "sentence": "His [skill] in negotiation is impressive.",
-            "translation_zh_TW": "他在談判方面的技能令人印象深刻。"
-          }
-        ],
-        "synonyms": [
-          "talent",
-          "ability"
-        ]
-      }
-    ],
-    "confusion": [
-      "shill",
-      "kill",
-      "spill",
-      "skil"
-    ]
-  },
-  {
-    "word": "favorite",
+    "word": "major",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Preferred before all others of the same kind.",
-        "meaning_zh_TW": "最喜愛的",
+        "meaning_en_US": "Important, serious, or significant.",
+        "meaning_zh_TW": "主要的，重大的",
         "wrong_meaning_zh_TW": [
-          "最不喜歡的",
-          "一般的",
-          "差勁的"
+          "無關的，瑣碎的",
+          "次要的，輕微的",
+          "表面的，短暫的"
         ],
         "examples": [
           {
-            "sentence": "Chocolate is my [favorite] flavor of ice cream.",
-            "translation_zh_TW": "巧克力是我最喜愛的冰淇淋口味。"
+            "sentence": "This is a [major] milestone in our project.",
+            "translation_zh_TW": "這是我們項目的重要里程碑。"
           },
           {
-            "sentence": "She chose her [favorite] book to read.",
-            "translation_zh_TW": "她選擇了她最喜愛的書來讀。"
+            "sentence": "He plays a [major] role in the company.",
+            "translation_zh_TW": "他在公司中扮演著重要角色。"
           },
           {
-            "sentence": "Playing soccer is my [favorite] pastime.",
-            "translation_zh_TW": "踢足球是我最喜愛的消遣。"
+            "sentence": "The decision will have a [major] impact on the community.",
+            "translation_zh_TW": "這個決定將對社區產生重大影響。"
           }
         ],
         "synonyms": [
-          "preferred",
-          "beloved"
+          "significant",
+          "critical"
         ]
       }
     ],
     "confusion": [
-      "favourite",
-      "faverite",
-      "favarite",
-      "favrit"
+      "majore",
+      "majo",
+      "majestic",
+      "majority"
     ]
   },
   {
-    "word": "earn",
+    "word": "similar",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To receive payment for work done or services provided.",
-        "meaning_zh_TW": "賺取",
+        "type": "形容詞",
+        "meaning_en_US": "Having a resemblance in appearance, character, or quantity, without being identical.",
+        "meaning_zh_TW": "相似的、類似的",
         "wrong_meaning_zh_TW": [
-          "花費",
-          "借用",
-          "浪費"
+          "不同的",
+          "獨特的",
+          "截然不同的"
         ],
         "examples": [
           {
-            "sentence": "You can [earn] money by working part-time.",
-            "translation_zh_TW": "你可以通過兼職工作賺取金錢。"
+            "sentence": "These two paintings are quite [similar] in style.",
+            "translation_zh_TW": "這兩幅畫的風格相當相似"
           },
           {
-            "sentence": "She hopes to [earn] a promotion soon.",
-            "translation_zh_TW": "她希望不久能獲得晉升。"
+            "sentence": "She has a [similar] taste in music as her friend.",
+            "translation_zh_TW": "她的音樂品味與她的朋友相似"
           },
           {
-            "sentence": "Many people [earn] a living through freelancing.",
-            "translation_zh_TW": "許多人通過自由職業維持生計。"
+            "sentence": "The twins have very [similar] features.",
+            "translation_zh_TW": "這對雙胞胎有著非常相似的特徵"
           }
         ],
         "synonyms": [
-          "receive",
-          "gain"
+          "alike",
+          "comparable"
         ]
       }
     ],
     "confusion": [
-      "urn",
-      "yarn",
-      "earnest",
-      "eery"
+      "simulate",
+      "similarly",
+      "simile",
+      "similars"
     ]
   },
   {
-    "word": "sweep",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To clean (an area) by brushing away dirt or litter.",
-        "meaning_zh_TW": "掃除",
-        "wrong_meaning_zh_TW": [
-          "刪除",
-          "放置",
-          "整理"
-        ],
-        "examples": [
-          {
-            "sentence": "She decided to sweep the floor before the guests arrived.",
-            "translation_zh_TW": "她決定在客人來之前掃地。"
-          },
-          {
-            "sentence": "He used a broom to sweep the leaves off the porch.",
-            "translation_zh_TW": "他用掃帚把門廊上的樹葉掃掉。"
-          },
-          {
-            "sentence": "They will sweep the area to collect litter after the event.",
-            "translation_zh_TW": "活動結束後，他們會掃除區域以收集垃圾。"
-          }
-        ],
-        "synonyms": [
-          "clean",
-          "brush"
-        ]
-      }
-    ],
-    "confusion": [
-      "sweep",
-      "sweepstake",
-      "sweeping",
-      "sweepers"
-    ]
-  },
-  {
-    "word": "goal",
+    "word": "energy",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An aim or desired result that a person or group strives to achieve.",
-        "meaning_zh_TW": "目標",
+        "meaning_en_US": "The strength and vitality required for sustained physical or mental activity.",
+        "meaning_zh_TW": "能量",
         "wrong_meaning_zh_TW": [
-          "門口",
-          "圓形物體",
-          "市場"
+          "休息",
+          "疾病",
+          "安靜"
         ],
         "examples": [
           {
-            "sentence": "My [goal] is to learn a new language this year.",
-            "translation_zh_TW": "我的目標是在今年學會一種新語言。"
+            "sentence": "She has a lot of [energy] after her morning coffee.",
+            "translation_zh_TW": "喝了早上的咖啡後，她精力充沛。"
           },
           {
-            "sentence": "Setting a clear [goal] can help you stay focused.",
-            "translation_zh_TW": "設定明確的目標可以幫助你保持專注。"
+            "sentence": "Renewable [energy] sources are becoming more popular.",
+            "translation_zh_TW": "可再生能源正變得越來越受歡迎。"
           },
           {
-            "sentence": "They scored the winning [goal] in the last minute.",
-            "translation_zh_TW": "他們在最後一分鐘打入了制勝球。"
+            "sentence": "He's full of [energy] and enthusiasm.",
+            "translation_zh_TW": "他充滿了能量和熱情。"
           }
         ],
         "synonyms": [
-          "objective",
-          "aim"
+          "vitality",
+          "power"
         ]
       }
     ],
     "confusion": [
-      "goat",
-      "goalie",
-      "gaol",
-      "gall"
+      "energetic",
+      "energize",
+      "energies",
+      "energi"
     ]
   },
   {
-    "word": "step",
+    "word": "delivery",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A movement made by lifting one foot and putting it down in a new position.",
-        "meaning_zh_TW": "步驟",
+        "meaning_en_US": "The act of conveying something to a destination or the process of giving birth.",
+        "meaning_zh_TW": "交付、分娩",
         "wrong_meaning_zh_TW": [
-          "跳躍",
-          "擺動",
-          "前進"
+          "接收",
+          "拒絕",
+          "阻止"
         ],
         "examples": [
           {
-            "sentence": "Take a big [step] forward.",
-            "translation_zh_TW": "向前邁出大步"
+            "sentence": "The [delivery] service was prompt and reliable.",
+            "translation_zh_TW": "這個交付服務迅速又可靠。"
           },
           {
-            "sentence": "She missed a [step] and stumbled.",
-            "translation_zh_TW": "她錯過了台階而絆倒了"
+            "sentence": "She went into labor and her [delivery] was successful.",
+            "translation_zh_TW": "她開始臨產，她的分娩很成功。"
           },
           {
-            "sentence": "Let's go through each [step] of the process.",
-            "translation_zh_TW": "讓我們逐步進行每個流程"
+            "sentence": "We expect a [delivery] of chairs next week.",
+            "translation_zh_TW": "我們預計下周會收到椅子的交付。"
           }
         ],
         "synonyms": [
-          "stride",
-          "pace"
+          "shipment",
+          "dispatch"
         ]
       }
     ],
     "confusion": [
-      "steep",
-      "stap",
-      "staple"
+      "recovery",
+      "diversity",
+      "dependency",
+      "deliberation"
     ]
   },
   {
-    "word": "target",
+    "word": "journal",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A goal or objective to aim at.",
-        "meaning_zh_TW": "目標",
+        "meaning_en_US": "A record of daily activities or thoughts.",
+        "meaning_zh_TW": "日誌",
         "wrong_meaning_zh_TW": [
-          "障礙物",
-          "途徑",
-          "隨機"
+          "報紙",
+          "書籍",
+          "電子郵件"
         ],
         "examples": [
           {
-            "sentence": "Our main [target] is to increase sales this year.",
-            "translation_zh_TW": "我們的主要目標是今年增加銷售"
+            "sentence": "She writes in her [journal] every night.",
+            "translation_zh_TW": "她每天晚上都在日誌中寫字。"
           },
           {
-            "sentence": "The dart hit the bullseye of the [target].",
-            "translation_zh_TW": "飛鏢打中了目標的紅心"
+            "sentence": "He keeps a travel [journal] to document his trips.",
+            "translation_zh_TW": "他保持旅行日誌以記錄他的旅行。"
           },
           {
-            "sentence": "They set a [target] for the project completion date.",
-            "translation_zh_TW": "他們為項目完成日期設定了一個目標"
+            "sentence": "Writing in a [journal] can be therapeutic.",
+            "translation_zh_TW": "寫日誌可以起到療癒作用。"
           }
         ],
         "synonyms": [
-          "goal",
-          "aim"
+          "diary",
+          "logbook"
+        ]
+      }
+    ],
+    "confusion": [
+      "journals",
+      "journey",
+      "juror",
+      "jargon"
+    ]
+  },
+  {
+    "word": "welcome",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Glad to see or receive someone or something.",
+        "meaning_zh_TW": "受歡迎的",
+        "wrong_meaning_zh_TW": [
+          "不受喜愛的",
+          "排斥的",
+          "厭惡的"
+        ],
+        "examples": [
+          {
+            "sentence": "You are [welcome] to join us for dinner.",
+            "translation_zh_TW": "你可以來我們家吃晚餐。"
+          },
+          {
+            "sentence": "His ideas were [welcome] at the meeting.",
+            "translation_zh_TW": "他的想法在會議上受到歡迎。"
+          },
+          {
+            "sentence": "They gave her a [welcome] hug.",
+            "translation_zh_TW": "他們給了她一個受歡迎的擁抱。"
+          }
+        ],
+        "synonyms": [
+          "greeted",
+          "received"
+        ]
+      }
+    ],
+    "confusion": [
+      "welcomed",
+      "welkin",
+      "wolfbane",
+      "welter"
+    ]
+  },
+  {
+    "word": "central",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Located in the center; most important or significant.",
+        "meaning_zh_TW": "中央的; 最重要的",
+        "wrong_meaning_zh_TW": [
+          "邊緣的",
+          "附屬的",
+          "無關的"
+        ],
+        "examples": [
+          {
+            "sentence": "The park is located in a [central] area of the city.",
+            "translation_zh_TW": "公園位於城市的中央地區"
+          },
+          {
+            "sentence": "Education plays a [central] role in her life.",
+            "translation_zh_TW": "教育在她的生活中扮演著重要的角色"
+          },
+          {
+            "sentence": "He took a [central] position in the discussion.",
+            "translation_zh_TW": "他在討論中佔據了重要的位置"
+          }
+        ],
+        "synonyms": [
+          "important",
+          "main"
+        ]
+      }
+    ],
+    "confusion": [
+      "sentral",
+      "centrel",
+      "centrol",
+      "century"
+    ]
+  },
+  {
+    "word": "president",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The elected head of a republic.",
+        "meaning_zh_TW": "總統",
+        "wrong_meaning_zh_TW": [
+          "首相",
+          "市長",
+          "部長"
+        ],
+        "examples": [
+          {
+            "sentence": "The [president] gave a speech today.",
+            "translation_zh_TW": "今日[總統]發表了一篇演講。"
+          },
+          {
+            "sentence": "She was elected as the first female [president].",
+            "translation_zh_TW": "她成為第一位女[總統]。"
+          },
+          {
+            "sentence": "The [president] addressed the nation.",
+            "translation_zh_TW": "[總統]向國家發表了講話。"
+          }
+        ],
+        "synonyms": [
+          "leader",
+          "chief",
+          "head of state"
+        ]
+      }
+    ],
+    "confusion": [
+      "preside",
+      "precedent",
+      "presidental",
+      "prez"
+    ]
+  },
+  {
+    "word": "cell",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A small room in which a prisoner is locked up.",
+        "meaning_zh_TW": "囚室",
+        "wrong_meaning_zh_TW": [
+          "監獄",
+          "大廳",
+          "辦公室"
+        ],
+        "examples": [
+          {
+            "sentence": "He was confined to a small [cell].",
+            "translation_zh_TW": "他被限制在一個小囚室裡。"
+          },
+          {
+            "sentence": "The prison [cells] were cramped.",
+            "translation_zh_TW": "監獄的囚室非常狹窄。"
+          },
+          {
+            "sentence": "Each [cell] had a bed and a toilet.",
+            "translation_zh_TW": "每個囚室裡都有一張床和一個廁所。"
+          }
+        ],
+        "synonyms": [
+          "room",
+          "cubicle"
         ]
       },
       {
-        "type": "動詞",
-        "meaning_en_US": "To aim or direct toward a target.",
-        "meaning_zh_TW": "對準",
+        "type": "名詞",
+        "meaning_en_US": "A basic structural and functional unit of a living organism.",
+        "meaning_zh_TW": "細胞",
         "wrong_meaning_zh_TW": [
-          "遠離",
-          "錯過",
-          "偏向"
+          "組織",
+          "器官",
+          "系統"
         ],
         "examples": [
           {
-            "sentence": "Make sure to [target] your efforts wisely.",
-            "translation_zh_TW": "確保你的努力明智地對準"
+            "sentence": "A [cell] is the smallest unit of life.",
+            "translation_zh_TW": "細胞是生命的最小單位。"
           },
           {
-            "sentence": "The campaign will [target] specific demographics.",
-            "translation_zh_TW": "該活動將針對特定的人口統計"
+            "sentence": "The body is made up of millions of [cells].",
+            "translation_zh_TW": "身體由數百萬個細胞組成。"
           },
           {
-            "sentence": "He [targeted] the wrong audience for his product.",
-            "translation_zh_TW": "他為他的產品對準了錯誤的受眾"
+            "sentence": "Scientists study [cells] at a microscopic level.",
+            "translation_zh_TW": "科學家在微觀層面研究細胞。"
           }
         ],
         "synonyms": [
-          "aim at",
-          "intend"
+          "unit",
+          "entity"
         ]
       }
     ],
     "confusion": [
-      "tariff",
-      "targ",
-      "treat",
-      "tartan"
+      "sell",
+      "tell",
+      "cellar",
+      "celling"
     ]
   },
   {
-    "word": "shore",
+    "word": "self",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The land along the edge of a large body of water.",
-        "meaning_zh_TW": "海岸",
+        "meaning_en_US": "A person's essential being that distinguishes them from others.",
+        "meaning_zh_TW": "自我",
         "wrong_meaning_zh_TW": [
-          "水庫",
-          "小溪",
-          "峽谷"
+          "依賴他人",
+          "無聊的物品",
+          "虛假的想法"
         ],
         "examples": [
           {
-            "sentence": "The children played on the [shore].",
-            "translation_zh_TW": "孩子們在海岸上玩耍。"
+            "sentence": "She discovered her true [self] during the retreat.",
+            "translation_zh_TW": "她在靜修期間發現了真正的自我。"
           },
           {
-            "sentence": "We walked along the [shore] at sunset.",
-            "translation_zh_TW": "我們在日落時沿著海岸散步。"
+            "sentence": "Understanding one's [self] is crucial for personal growth.",
+            "translation_zh_TW": "理解自我對個人成長至關重要。"
           },
           {
-            "sentence": "The waves crashed against the [shore].",
-            "translation_zh_TW": "海浪衝擊著海岸。"
+            "sentence": "He expressed his [self] through art.",
+            "translation_zh_TW": "他通過藝術表達自我。"
           }
         ],
         "synonyms": [
-          "coast",
-          "beach"
+          "identity",
+          "personality"
         ]
       }
     ],
     "confusion": [
-      "shorn",
-      "shoreline",
-      "shoreer",
-      "shores"
+      "sell",
+      "shelf",
+      "selfie",
+      "seldom"
     ]
   },
   {
-    "word": "liquid",
+    "word": "discussion",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A substance that flows freely and is not solid or gaseous.",
-        "meaning_zh_TW": "液體",
+        "meaning_en_US": "The action or process of talking about something to reach a decision.",
+        "meaning_zh_TW": "討論",
         "wrong_meaning_zh_TW": [
-          "氣體",
-          "固體",
-          "霧氣"
+          "分配",
+          "執行",
+          "隱藏"
         ],
         "examples": [
           {
-            "sentence": "Water is a common [liquid] found on Earth.",
-            "translation_zh_TW": "水是地球上常見的液體。"
+            "sentence": "The team had a [discussion] about strategy.",
+            "translation_zh_TW": "團隊討論了策略"
           },
           {
-            "sentence": "The [liquid] spilled all over the table.",
-            "translation_zh_TW": "液體潑灑到了桌子上。"
+            "sentence": "We’ll have a [discussion] after the presentation.",
+            "translation_zh_TW": "演講後我們會有一個討論"
           },
           {
-            "sentence": "She poured the [liquid] into the glass.",
-            "translation_zh_TW": "她把液體倒進杯子裡。"
+            "sentence": "The [discussion] was very productive.",
+            "translation_zh_TW": "這次討論非常有成效"
           }
         ],
         "synonyms": [
-          "fluid",
-          "solution"
+          "dialogue",
+          "debate",
+          "talk"
         ]
       }
     ],
     "confusion": [
-      "liquidate",
-      "ligand",
-      "licorice",
-      "likened"
-    ]
-  },
-  {
-    "word": "spelling",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The process or activity of writing or naming the letters of a word.",
-        "meaning_zh_TW": "拼寫",
-        "wrong_meaning_zh_TW": [
-          "語法",
-          "定義",
-          "音韻"
-        ],
-        "examples": [
-          {
-            "sentence": "His [spelling] is excellent; he rarely makes mistakes.",
-            "translation_zh_TW": "他的拼寫非常出色；他很少犯錯。"
-          },
-          {
-            "sentence": "I need to improve my [spelling] before the test.",
-            "translation_zh_TW": "我需要在考試前提高我的拼寫。"
-          },
-          {
-            "sentence": "The teacher gave us a [spelling] test every week.",
-            "translation_zh_TW": "老師每週給我們一次拼寫測試。"
-          }
-        ],
-        "synonyms": [
-          "orthography",
-          "writing"
-        ]
-      }
-    ],
-    "confusion": [
-      "spilling",
-      "spelling bee",
-      "spalled",
-      "spellingly"
-    ]
-  },
-  {
-    "word": "accident",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An unforeseen and unplanned event or circumstance, typically resulting in damage or injury.",
-        "meaning_zh_TW": "意外事件",
-        "wrong_meaning_zh_TW": [
-          "規劃",
-          "事件",
-          "保險"
-        ],
-        "examples": [
-          {
-            "sentence": "She was involved in a car [accident].",
-            "translation_zh_TW": "她捲入了一起車禍。"
-          },
-          {
-            "sentence": "The [accident] caused significant delays on the highway.",
-            "translation_zh_TW": "這起意外導致高速公路上出現重大延誤。"
-          },
-          {
-            "sentence": "Thankfully, no serious injuries resulted from the [accident].",
-            "translation_zh_TW": "幸好這起意外沒有造成嚴重傷害。"
-          }
-        ],
-        "synonyms": [
-          "mishap",
-          "incident",
-          "collision"
-        ]
-      }
-    ],
-    "confusion": [
-      "incidence",
-      "accidental",
-      "accoutant",
-      "accidently"
-    ]
-  },
-  {
-    "word": "whether",
-    "meanings": [
-      {
-        "type": "連接詞",
-        "meaning_en_US": "Indicating a choice between alternatives.",
-        "meaning_zh_TW": "表示選擇之間的可能",
-        "wrong_meaning_zh_TW": [
-          "或許",
-          "當然",
-          "真的"
-        ],
-        "examples": [
-          {
-            "sentence": "I can't decide [whether] to go or stay.",
-            "translation_zh_TW": "我無法決定是去還是留"
-          },
-          {
-            "sentence": "She asked [whether] I wanted tea or coffee.",
-            "translation_zh_TW": "她問我想要茶還是咖啡"
-          },
-          {
-            "sentence": "It’s unclear [whether] he will attend the meeting.",
-            "translation_zh_TW": "不清楚他是否會參加會議"
-          }
-        ],
-        "synonyms": [
-          "if",
-          "either"
-        ]
-      }
-    ],
-    "confusion": [
-      "whither",
-      "wether",
-      "whichever",
-      "whetherc"
+      "dissonance",
+      "dissect",
+      "discectomy",
+      "disguise"
     ]
   }
 ]

@@ -1,342 +1,507 @@
 [
   {
-    "word": "praise",
+    "word": "niece",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The daughter of one's sibling.",
+        "meaning_zh_TW": "姪女",
+        "wrong_meaning_zh_TW": [
+          "侄子",
+          "姐妹",
+          "女友"
+        ],
+        "examples": [
+          {
+            "sentence": "My brother's [niece] loves to dance.",
+            "translation_zh_TW": "我哥哥的姪女喜歡跳舞"
+          },
+          {
+            "sentence": "I often take my [niece] to the park.",
+            "translation_zh_TW": "我經常帶我的姪女去公園"
+          },
+          {
+            "sentence": "She is very close to her [niece].",
+            "translation_zh_TW": "她和她的姪女非常親近"
+          }
+        ],
+        "synonyms": [
+          "relative",
+          "kinswoman"
+        ]
+      }
+    ],
+    "confusion": [
+      "nephew",
+      "niecy",
+      "noise",
+      "niche"
+    ]
+  },
+  {
+    "word": "hippo",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A shortened form of hippopotamus, often used informally.",
+        "meaning_zh_TW": "河馬的簡稱",
+        "wrong_meaning_zh_TW": [
+          "河馬的玩具",
+          "小型哺乳類",
+          "水族館的名字"
+        ],
+        "examples": [
+          {
+            "sentence": "The kids loved the [hippo] exhibit at the zoo.",
+            "translation_zh_TW": "孩子們喜歡動物園的河馬展覽。"
+          },
+          {
+            "sentence": "Watch the [hippo] as it plays in the water.",
+            "translation_zh_TW": "看著河馬在水中玩耍。"
+          },
+          {
+            "sentence": "The [hippo] is one of the largest mammals on earth.",
+            "translation_zh_TW": "河馬是地球上最大的哺乳動物之一。"
+          }
+        ],
+        "synonyms": [
+          "hippopotamus"
+        ]
+      }
+    ],
+    "confusion": [
+      "hippopotamus",
+      "hipporoo",
+      "hype",
+      "hippopotamouse"
+    ]
+  },
+  {
+    "word": "teapot",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A container for brewing and serving tea.",
+        "meaning_zh_TW": "茶壺",
+        "wrong_meaning_zh_TW": [
+          "咖啡壺",
+          "水壺",
+          "飲料瓶"
+        ],
+        "examples": [
+          {
+            "sentence": "She poured tea from the [teapot].",
+            "translation_zh_TW": "她從茶壺裡倒茶"
+          },
+          {
+            "sentence": "The [teapot] was made of fine china.",
+            "translation_zh_TW": "這個茶壺是用精美的瓷器製成的"
+          },
+          {
+            "sentence": "He placed the [teapot] on the table.",
+            "translation_zh_TW": "他把茶壺放在桌子上"
+          }
+        ],
+        "synonyms": [
+          "kettle",
+          "brewer"
+        ]
+      }
+    ],
+    "confusion": [
+      "teacup",
+      "teatime",
+      "teaspoon",
+      "teapod"
+    ]
+  },
+  {
+    "word": "hostess",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A woman who receives or entertains guests.",
+        "meaning_zh_TW": "女主人",
+        "wrong_meaning_zh_TW": [
+          "服務員",
+          "客人",
+          "廚師"
+        ],
+        "examples": [
+          {
+            "sentence": "The [hostess] welcomed us at the door.",
+            "translation_zh_TW": "女主人在門口歡迎我們。"
+          },
+          {
+            "sentence": "She has been a loyal [hostess] for many events.",
+            "translation_zh_TW": "她已作為許多活動的忠實女主人。"
+          },
+          {
+            "sentence": "The restaurant hired a charming [hostess].",
+            "translation_zh_TW": "這家餐廳雇了一位迷人的女主人。"
+          }
+        ],
+        "synonyms": [
+          "host",
+          "entertainer"
+        ]
+      }
+    ],
+    "confusion": [
+      "hostess",
+      "hostes",
+      "hostesss",
+      "hhostess"
+    ]
+  },
+  {
+    "word": "jog",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To express warm approval or admiration of.",
-        "meaning_zh_TW": "讚美",
+        "meaning_en_US": "To run at a steady, gentle pace, often for exercise.",
+        "meaning_zh_TW": "慢跑",
         "wrong_meaning_zh_TW": [
-          "批評",
-          "指責",
-          "忽視"
+          "加速",
+          "跳舞",
+          "散步"
         ],
         "examples": [
           {
-            "sentence": "They [praised] her for her hard work.",
-            "translation_zh_TW": "他們讚美她的努力工作"
+            "sentence": "I like to [jog] in the morning before work.",
+            "translation_zh_TW": "我喜歡在上班前早晨慢跑。"
           },
           {
-            "sentence": "He was [praised] by the teacher for his performance.",
-            "translation_zh_TW": "他因為表現而受到老師的讚美"
+            "sentence": "She jogs three times a week to stay fit.",
+            "translation_zh_TW": "她每週慢跑三次以保持健康。"
           },
           {
-            "sentence": "She always [praises] her teammates.",
-            "translation_zh_TW": "她總是讚美她的隊友"
+            "sentence": "He went out to [jog] around the park.",
+            "translation_zh_TW": "他出去公園周圍慢跑。"
           }
         ],
         "synonyms": [
-          "commend",
-          "applaud"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "The expression of approval or admiration.",
-        "meaning_zh_TW": "讚美之詞",
-        "wrong_meaning_zh_TW": [
-          "侮辱",
-          "批評",
-          "抗議"
-        ],
-        "examples": [
-          {
-            "sentence": "His [praise] was much appreciated.",
-            "translation_zh_TW": "他的讚美之詞受到很大感激"
-          },
-          {
-            "sentence": "She received a lot of [praise] for her artwork.",
-            "translation_zh_TW": "她的藝術作品獲得了很多讚美"
-          },
-          {
-            "sentence": "Words of [praise] can motivate others.",
-            "translation_zh_TW": "讚美的話語能激勵他人"
-          }
-        ],
-        "synonyms": [
-          "admiration",
-          "applause"
+          "run",
+          "trot"
         ]
       }
     ],
     "confusion": [
-      "raise",
-      "brag",
-      "praiseworthy",
-      "pride"
+      "jogging",
+      "jig",
+      "job",
+      "jogger"
     ]
   },
   {
-    "word": "mile",
+    "word": "fireman",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A unit of measurement equal to 1,760 yards or about 1.609 kilometers.",
-        "meaning_zh_TW": "英里",
+        "meaning_en_US": "A person who fights fire, especially as a profession.",
+        "meaning_zh_TW": "消防員",
         "wrong_meaning_zh_TW": [
-          "公尺",
-          "手臂",
-          "公里"
+          "水管工",
+          "警察",
+          "急救人員"
         ],
         "examples": [
           {
-            "sentence": "The city is five [miles] away from here.",
-            "translation_zh_TW": "這座城市距離這裡五英里。"
+            "sentence": "The [fireman] bravely entered the burning building.",
+            "translation_zh_TW": "消防員勇敢地進入燃燒的建築。"
           },
           {
-            "sentence": "He ran a [mile] in under six minutes.",
-            "translation_zh_TW": "他在六分鐘內跑了英里。"
+            "sentence": "Every [fireman] is trained to handle emergencies.",
+            "translation_zh_TW": "每位消防員都接受處理緊急情況的訓練。"
           },
           {
-            "sentence": "There is a park every few [miles] along the road.",
-            "translation_zh_TW": "沿著這條路每幾英里就有一個公園。"
+            "sentence": "A [fireman] rescued a cat from a tree.",
+            "translation_zh_TW": "一名消防員從樹上救下了一隻貓。"
           }
         ],
         "synonyms": [
-          "distance",
-          "length"
+          "firefighter",
+          "rescue worker"
         ]
       }
     ],
     "confusion": [
-      "smile",
-      "mile",
-      "mildew",
-      "mild"
+      "firemen",
+      "firefly",
+      "fired",
+      "firewood"
     ]
   },
   {
-    "word": "drug",
+    "word": "giraffe",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A substance used in the diagnosis, treatment, or prevention of a disease.",
-        "meaning_zh_TW": "藥物",
+        "meaning_en_US": "A tall African animal with a very long neck and legs.",
+        "meaning_zh_TW": "長頸鹿",
         "wrong_meaning_zh_TW": [
-          "勺子",
-          "工具",
-          "配方"
+          "獅子",
+          "大象",
+          "老虎"
         ],
         "examples": [
           {
-            "sentence": "The doctor prescribed a new [drug] for her illness.",
-            "translation_zh_TW": "醫生為她的疾病開了一種新藥物。"
+            "sentence": "The [giraffe] is the tallest land animal.",
+            "translation_zh_TW": "長頸鹿是地球上最高的陸生動物。"
           },
           {
-            "sentence": "He was caught with illegal [drugs] in his possession.",
-            "translation_zh_TW": "他因持有非法藥物而被逮捕。"
+            "sentence": "We saw a [giraffe] at the zoo today.",
+            "translation_zh_TW": "我們今天在動物園見到了長頸鹿。"
           },
           {
-            "sentence": "The [drug] has shown promising results in clinical trials.",
-            "translation_zh_TW": "這種藥物在臨床試驗中顯示出了良好的結果。"
+            "sentence": "A [giraffe] can run fast despite its height.",
+            "translation_zh_TW": "儘管長頸鹿很高，它仍然可以快速奔跑。"
           }
         ],
         "synonyms": [
-          "medication",
-          "medicine"
+          "none"
         ]
       }
     ],
     "confusion": [
-      "drag",
-      "drogue",
-      "drudge",
-      "drum"
+      "giraff",
+      "giraffo",
+      "girrafe",
+      "giraffish"
     ]
   },
   {
-    "word": "brand",
+    "word": "salesperson",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A type of product manufactured by a particular company under a particular name.",
-        "meaning_zh_TW": "品牌",
+        "meaning_en_US": "A person whose job involves selling products or services.",
+        "meaning_zh_TW": "銷售員",
         "wrong_meaning_zh_TW": [
-          "包裝",
-          "產業",
-          "型號"
+          "顧客",
+          "公司經理",
+          "商業分析師"
         ],
         "examples": [
           {
-            "sentence": "This [brand] is known for its quality.",
-            "translation_zh_TW": "這個品牌以其品質聞名"
+            "sentence": "The salesperson helped me find the right product.",
+            "translation_zh_TW": "銷售員幫我找到合適的產品。"
           },
           {
-            "sentence": "The company launched a new [brand] of shoes.",
-            "translation_zh_TW": "該公司推出一新的鞋子品牌"
+            "sentence": "A good salesperson knows how to listen to customers.",
+            "translation_zh_TW": "一位好的銷售員知道如何聆聽顧客。"
           },
           {
-            "sentence": "She prefers this [brand] over others.",
-            "translation_zh_TW": "她偏好這個品牌而非其他"
+            "sentence": "The salesperson gave me a great deal.",
+            "translation_zh_TW": "銷售員給了我一個很好的交易。"
           }
         ],
         "synonyms": [
-          "label",
-          "trademark"
+          "sales rep",
+          "sales associate"
         ]
       }
     ],
     "confusion": [
-      "band",
-      "brandy",
-      "branded",
-      "brave"
+      "salesman",
+      "saleswoman",
+      "sale",
+      "sales"
     ]
   },
   {
-    "word": "rubber",
+    "word": "slipper",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A tough elastic polymer used for various products.",
-        "meaning_zh_TW": "橡膠",
+        "meaning_en_US": "A type of comfortable indoor shoe that is easy to put on and take off.",
+        "meaning_zh_TW": "拖鞋",
         "wrong_meaning_zh_TW": [
-          "織物",
-          "金屬",
-          "塑料"
+          "靴子",
+          "襪子",
+          "皮鞋"
         ],
         "examples": [
           {
-            "sentence": "The [rubber] is used in tires and erasers.",
-            "translation_zh_TW": "橡膠用於輪胎和橡皮擦。"
+            "sentence": "I like to wear [slippers] when I'm at home.",
+            "translation_zh_TW": "我在家時喜歡穿拖鞋。"
           },
           {
-            "sentence": "She bought a [rubber] band to hold the papers together.",
-            "translation_zh_TW": "她買了一條橡皮筋來把文件綁在一起。"
+            "sentence": "She bought a new pair of [slippers] for the winter.",
+            "translation_zh_TW": "她為冬天買了一雙新的拖鞋。"
           },
           {
-            "sentence": "The [rubber] duck floated on the water.",
-            "translation_zh_TW": "橡膠鴨在水上漂浮。"
+            "sentence": "After a long day, I relax in my [slippers].",
+            "translation_zh_TW": "經過漫長的一天，我穿上拖鞋放鬆。"
           }
         ],
         "synonyms": [
-          "elastic",
-          "latex"
+          "house shoes",
+          "loafers"
         ]
       }
     ],
     "confusion": [
-      "ruber",
-      "rubble",
-      "rabbler",
-      "rubbers"
+      "slip",
+      "slippery",
+      "slippered",
+      "slippersy"
     ]
   },
   {
-    "word": "jam",
+    "word": "eyebrow",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A sweet spread made from fruit and sugar, used on bread or toast.",
-        "meaning_zh_TW": "果醬",
+        "meaning_en_US": "The strip of hair growing above the eye.",
+        "meaning_zh_TW": "眉毛",
         "wrong_meaning_zh_TW": [
-          "醬料",
-          "濃湯",
-          "麵包"
+          "眼睛",
+          "臉頰",
+          "睫毛"
         ],
         "examples": [
           {
-            "sentence": "I love to spread [jam] on my toast.",
-            "translation_zh_TW": "我喜歡在我的吐司上抹果醬。"
+            "sentence": "She raised her [eyebrow] in surprise.",
+            "translation_zh_TW": "她驚訝地揚起了眉毛。"
           },
           {
-            "sentence": "She made homemade strawberry [jam].",
-            "translation_zh_TW": "她做了自製的草莓果醬。"
+            "sentence": "He styled his [eyebrow] with gel.",
+            "translation_zh_TW": "他用膠水整理了他的眉毛。"
           },
           {
-            "sentence": "They serve peanut butter and [jam] sandwiches.",
-            "translation_zh_TW": "他們提供花生醬和果醬三明治。"
+            "sentence": "The makeup artist shaped her [eyebrow] perfectly.",
+            "translation_zh_TW": "化妝師完美地修飾了她的眉毛。"
           }
         ],
         "synonyms": [
-          "preserve",
-          "spread"
+          "brow",
+          "frontal hair"
         ]
       }
     ],
     "confusion": [
-      "jamboree",
-      "jammed",
-      "jamming",
-      "gam"
+      "eyeball",
+      "eyelash",
+      "earlobe",
+      "eyewear"
     ]
   },
   {
-    "word": "mention",
+    "word": "childish",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "To refer to something briefly and without going into detail.",
-        "meaning_zh_TW": "提到",
+        "type": "形容詞",
+        "meaning_en_US": "Of, like, or befitting a child.",
+        "meaning_zh_TW": "幼稚的",
         "wrong_meaning_zh_TW": [
-          "強調",
-          "描述",
-          "邀請"
+          "成熟的",
+          "嚴肅的",
+          "老成的"
         ],
         "examples": [
           {
-            "sentence": "Please [mention] your concerns during the meeting.",
-            "translation_zh_TW": "請在會議中提到你的關切"
+            "sentence": "His [childish] behavior is annoying.",
+            "translation_zh_TW": "他的幼稚行為讓人煩惱。"
           },
           {
-            "sentence": "I forgot to [mention] the new policy.",
-            "translation_zh_TW": "我忘記提到新政策"
+            "sentence": "Don't be so [childish] about sharing.",
+            "translation_zh_TW": "對於分享不要這麼幼稚。"
           },
           {
-            "sentence": "He did not [mention] his past experience.",
-            "translation_zh_TW": "他沒有提到他的過去經歷"
+            "sentence": "She finds his [childish] antics amusing.",
+            "translation_zh_TW": "她覺得他的幼稚滑稽可笑。"
           }
         ],
         "synonyms": [
-          "refer",
-          "bring up"
+          "immature",
+          "silly"
         ]
       }
     ],
     "confusion": [
-      "mentions",
-      "mentioning",
-      "mnemonic",
-      "mentoring"
+      "childlike",
+      "child",
+      "childishness",
+      "childbearing"
     ]
   },
   {
-    "word": "improvement",
+    "word": "haircut",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The process of making something better.",
-        "meaning_zh_TW": "改善",
+        "meaning_en_US": "The act of cutting the hair.",
+        "meaning_zh_TW": "理髮",
         "wrong_meaning_zh_TW": [
-          "退步",
-          "損失",
-          "障礙"
+          "美髮用品",
+          "髮型設計",
+          "護髮"
         ],
         "examples": [
           {
-            "sentence": "There has been a noticeable [improvement] in her performance.",
-            "translation_zh_TW": "她的表現有明顯的改善。"
+            "sentence": "I need to get a [haircut] before the event.",
+            "translation_zh_TW": "我需要在活動前去理髮"
           },
           {
-            "sentence": "The project aims for continuous [improvement] in efficiency.",
-            "translation_zh_TW": "這個項目旨在持續改善效率。"
+            "sentence": "His [haircut] makes him look younger.",
+            "translation_zh_TW": "他的髮型讓他看起來更年輕"
           },
           {
-            "sentence": "We need to assess the [improvement] in our strategy.",
-            "translation_zh_TW": "我們需要評估我們策略的改善情況。"
+            "sentence": "She always changes her [haircut] with the seasons.",
+            "translation_zh_TW": "她總是隨著季節改變髮型"
           }
         ],
         "synonyms": [
-          "advancement",
-          "progress"
+          "hairstyle",
+          "trim"
         ]
       }
     ],
     "confusion": [
-      "improver",
-      "movement",
-      "improve",
-      "immaturity"
+      "haircat",
+      "haircutts",
+      "haircutt",
+      "haircutt"
+    ]
+  },
+  {
+    "word": "restroom",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A room typically containing a toilet and sink.",
+        "meaning_zh_TW": "洗手間",
+        "wrong_meaning_zh_TW": [
+          "餐廳、飯店",
+          "客廳、廳堂",
+          "浴室、洗浴"
+        ],
+        "examples": [
+          {
+            "sentence": "Excuse me, where is the nearest [restroom]?",
+            "translation_zh_TW": "對不起，最近的洗手間在哪裡？"
+          },
+          {
+            "sentence": "The [restroom] is located at the end of the hallway.",
+            "translation_zh_TW": "洗手間位於走廊的盡頭。"
+          },
+          {
+            "sentence": "Please wash your hands after using the [restroom].",
+            "translation_zh_TW": "請在使用完洗手間後洗手。"
+          }
+        ],
+        "synonyms": [
+          "lavatory",
+          "bathroom"
+        ]
+      }
+    ],
+    "confusion": [
+      "restfull",
+      "restrooming",
+      "reastroom",
+      "restorm"
     ]
   },
   {
@@ -379,393 +544,237 @@
     ]
   },
   {
-    "word": "per",
+    "word": "papaya",
     "meanings": [
       {
-        "type": "介系詞",
-        "meaning_en_US": "For each; for every.",
-        "meaning_zh_TW": "每，按",
+        "type": "名詞",
+        "meaning_en_US": "A tropical fruit with orange flesh and black seeds, known for its sweet flavor.",
+        "meaning_zh_TW": "木瓜",
         "wrong_meaning_zh_TW": [
-          "前面",
-          "每年",
-          "不及物"
+          "蘋果",
+          "橙子",
+          "香蕉"
         ],
         "examples": [
           {
-            "sentence": "The speed limit is 60 miles [per] hour.",
-            "translation_zh_TW": "限速是每小時60英里。"
+            "sentence": "She made a smoothie with [papaya].",
+            "translation_zh_TW": "她用木瓜做了冰沙。"
           },
           {
-            "sentence": "The fee is $10 [per] person.",
-            "translation_zh_TW": "費用是每人10美元。"
+            "sentence": "The [papaya] is rich in vitamins.",
+            "translation_zh_TW": "木瓜富含維他命。"
           },
           {
-            "sentence": "You need to water the plants once [per] week.",
-            "translation_zh_TW": "你需要每週澆水一次。"
+            "sentence": "We had [papaya] salad for lunch.",
+            "translation_zh_TW": "我們午餐吃了木瓜沙拉。"
           }
         ],
         "synonyms": [
-          "for each",
-          "according to"
+          "pawpaw",
+          "papaw"
         ]
       }
     ],
     "confusion": [
-      "peer",
-      "pair",
-      "par",
-      "perch"
+      "papyri",
+      "paparazzi",
+      "paprika",
+      "papule"
     ]
   },
   {
-    "word": "with",
+    "word": "ladybug",
     "meanings": [
       {
-        "type": "介詞",
-        "meaning_en_US": "In the company of; accompanied by.",
-        "meaning_zh_TW": "和、與",
+        "type": "名詞",
+        "meaning_en_US": "A small, usually red or orange beetle with black spots, often considered beneficial as it eats aphids.",
+        "meaning_zh_TW": "瓢蟲",
         "wrong_meaning_zh_TW": [
-          "反對、與……相反",
-          "算術、數學",
-          "沒有、缺少"
+          "蜘蛛",
+          "蚊子",
+          "飛蛾"
         ],
         "examples": [
           {
-            "sentence": "I went to the movies [with] my friends.",
-            "translation_zh_TW": "我和朋友一起去看電影。"
+            "sentence": "I found a [ladybug] in my garden.",
+            "translation_zh_TW": "我在花園裡找到一隻瓢蟲"
           },
           {
-            "sentence": "She is studying [with] a professor.",
-            "translation_zh_TW": "她和一位教授一起學習。"
+            "sentence": "The [ladybug] is a sign of good luck.",
+            "translation_zh_TW": "瓢蟲是好運的象徵"
           },
           {
-            "sentence": "You can come [with] us if you like.",
-            "translation_zh_TW": "如果你願意，可以和我們一起來。"
+            "sentence": "She painted a picture of a [ladybug] on a leaf.",
+            "translation_zh_TW": "她在葉子上畫了一隻瓢蟲"
           }
         ],
         "synonyms": [
-          "alongside",
-          "together with"
+          "ladybird",
+          "coccinelle"
         ]
       }
     ],
     "confusion": [
-      "without",
-      "width",
-      "witch",
-      "ith"
+      "ladybuggy",
+      "ladybugs",
+      "ladybuggy",
+      "ladybugged"
     ]
   },
   {
-    "word": "visit",
+    "word": "crayon",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A stick of colored wax used for drawing or coloring.",
+        "meaning_zh_TW": "蠟筆",
+        "wrong_meaning_zh_TW": [
+          "彩鉛筆",
+          "油漆",
+          "馬克筆"
+        ],
+        "examples": [
+          {
+            "sentence": "She drew a picture using a [crayon].",
+            "translation_zh_TW": "她用蠟筆畫了一幅畫。"
+          },
+          {
+            "sentence": "The box was filled with [crayon] colors.",
+            "translation_zh_TW": "盒子裡裝滿了蠟筆顏色。"
+          },
+          {
+            "sentence": "He loves to color with his favorite [crayon].",
+            "translation_zh_TW": "他喜歡用他最喜歡的蠟筆上色。"
+          }
+        ],
+        "synonyms": [
+          "colored pencil",
+          "pastel"
+        ]
+      }
+    ],
+    "confusion": [
+      "crayons",
+      "krayon",
+      "crayoon",
+      "creyon"
+    ]
+  },
+  {
+    "word": "kilogram",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A unit of mass in the metric system equal to 1,000 grams.",
+        "meaning_zh_TW": "千克",
+        "wrong_meaning_zh_TW": [
+          "一米",
+          "十斤",
+          "一升"
+        ],
+        "examples": [
+          {
+            "sentence": "The package weighs two [kilograms].",
+            "translation_zh_TW": "這個包裹重兩千克"
+          },
+          {
+            "sentence": "A liter of water has a mass of one [kilogram].",
+            "translation_zh_TW": "一升水的重量是千克"
+          },
+          {
+            "sentence": "She lifted a [kilogram] weight at the gym.",
+            "translation_zh_TW": "她在健身房舉起了一公斤的重物"
+          }
+        ],
+        "synonyms": [
+          "kg",
+          "metric unit"
+        ]
+      }
+    ],
+    "confusion": [
+      "kilometer",
+      "kilo",
+      "kilobyte",
+      "kilograms"
+    ]
+  },
+  {
+    "word": "classmate",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A fellow student in the same class.",
+        "meaning_zh_TW": "同班同學",
+        "wrong_meaning_zh_TW": [
+          "競爭對手",
+          "老師",
+          "校長"
+        ],
+        "examples": [
+          {
+            "sentence": "My [classmate] helped me with my homework.",
+            "translation_zh_TW": "我的同班同學幫我做作業"
+          },
+          {
+            "sentence": "We have become good friends since we were [classmates].",
+            "translation_zh_TW": "自從我們是同班同學以來，我們成為了好朋友"
+          },
+          {
+            "sentence": "It's nice to see my [classmates] at the reunion.",
+            "translation_zh_TW": "在同學會上見到我的同學們真好"
+          }
+        ],
+        "synonyms": [
+          "fellow student",
+          "schoolmate"
+        ]
+      }
+    ],
+    "confusion": [
+      "classics",
+      "classmate",
+      "clasmate",
+      "classmistress"
+    ]
+  },
+  {
+    "word": "bathe",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To go to see someone or something for a short time.",
-        "meaning_zh_TW": "造訪、拜訪",
+        "meaning_en_US": "To wash or immerse oneself in water.",
+        "meaning_zh_TW": "洗澡、浸泡",
         "wrong_meaning_zh_TW": [
-          "逃跑",
-          "計劃",
-          "授予"
+          "潛水",
+          "清水",
+          "遊泳"
         ],
         "examples": [
           {
-            "sentence": "I will [visit] my grandmother this weekend.",
-            "translation_zh_TW": "我這個週末要去拜訪奶奶"
+            "sentence": "She loves to [bathe] in the ocean during summer.",
+            "translation_zh_TW": "她喜歡在夏天時在海裡洗澡。"
           },
           {
-            "sentence": "She decided to [visit] the museum.",
-            "translation_zh_TW": "她決定去造訪博物館"
+            "sentence": "It's important to [bathe] regularly for hygiene.",
+            "translation_zh_TW": "定期洗澡對於衛生很重要。"
           },
           {
-            "sentence": "Can we [visit] the new cafe later?",
-            "translation_zh_TW": "我們可以稍後去造訪新咖啡館嗎？"
+            "sentence": "He decided to [bathe] the dog after their walk.",
+            "translation_zh_TW": "散步後，他決定給狗洗澡。"
           }
         ],
         "synonyms": [
-          "call on",
-          "check out"
+          "wash",
+          "immerse"
         ]
       }
     ],
     "confusion": [
-      "vivid",
-      "visual",
-      "vital",
-      "vist"
-    ]
-  },
-  {
-    "word": "swallow",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To cause or allow (something, especially food or drink) to pass down the throat.",
-        "meaning_zh_TW": "吞下",
-        "wrong_meaning_zh_TW": [
-          "吃掉",
-          "喝下",
-          "拒絕"
-        ],
-        "examples": [
-          {
-            "sentence": "Make sure to chew your food well before you swallow.",
-            "translation_zh_TW": "確保在吞下之前將食物咀嚼得很好。"
-          },
-          {
-            "sentence": "He struggled to swallow the large pill.",
-            "translation_zh_TW": "他很難吞下那顆大藥丸。"
-          },
-          {
-            "sentence": "The fish can swallow its prey whole.",
-            "translation_zh_TW": "那條魚可以整個吞下獵物。"
-          }
-        ],
-        "synonyms": [
-          "ingest",
-          "consume"
-        ]
-      }
-    ],
-    "confusion": [
-      "swallow",
-      "swollen",
-      "sallow",
-      "bellow"
-    ]
-  },
-  {
-    "word": "yard",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An area of land, typically for the purpose of gardening or recreation.",
-        "meaning_zh_TW": "院子、庭院",
-        "wrong_meaning_zh_TW": [
-          "路徑、道路",
-          "建築、樓房",
-          "街道、市場"
-        ],
-        "examples": [
-          {
-            "sentence": "The kids played in the front [yard].",
-            "translation_zh_TW": "孩子們在前院裡玩。"
-          },
-          {
-            "sentence": "She has a beautiful garden in her [yard].",
-            "translation_zh_TW": "她的院子裡有一個美麗的花園。"
-          },
-          {
-            "sentence": "They built a swing in the [yard].",
-            "translation_zh_TW": "他們在院子裡搭建了一個秋千。"
-          }
-        ],
-        "synonyms": [
-          "garden",
-          "lot"
-        ]
-      }
-    ],
-    "confusion": [
-      "yerd",
-      "yad",
-      "yardstick",
-      "yare"
-    ]
-  },
-  {
-    "word": "regular",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Occurring at fixed intervals; frequent.",
-        "meaning_zh_TW": "定期的、規律的",
-        "wrong_meaning_zh_TW": [
-          "不規則、隨機",
-          "臨時、偶然",
-          "非常規、特殊"
-        ],
-        "examples": [
-          {
-            "sentence": "He makes [regular] visits to the dentist.",
-            "translation_zh_TW": "他定期看牙醫。"
-          },
-          {
-            "sentence": "This [regular] exercise improves your health.",
-            "translation_zh_TW": "這種規律的運動能改善您的健康。"
-          },
-          {
-            "sentence": "She has a [regular] schedule for studying.",
-            "translation_zh_TW": "她有一個規律的學習計畫。"
-          }
-        ],
-        "synonyms": [
-          "normal",
-          "routine"
-        ]
-      }
-    ],
-    "confusion": [
-      "reguler",
-      "roger",
-      "regal",
-      "regualar"
-    ]
-  },
-  {
-    "word": "woman",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An adult female human being.",
-        "meaning_zh_TW": "成年女性",
-        "wrong_meaning_zh_TW": [
-          "女孩",
-          "小嬰兒",
-          "母狗"
-        ],
-        "examples": [
-          {
-            "sentence": "The [woman] in the red dress is my aunt.",
-            "translation_zh_TW": "穿紅色連衣裙的那位女性是我的阿姨。"
-          },
-          {
-            "sentence": "Every [woman] deserves respect.",
-            "translation_zh_TW": "每一位女性都應該受到尊重。"
-          },
-          {
-            "sentence": "The [woman] gave a powerful speech.",
-            "translation_zh_TW": "那位女性發表了一場強有力的演講。"
-          }
-        ],
-        "synonyms": [
-          "lady",
-          "female"
-        ]
-      }
-    ],
-    "confusion": [
-      "women",
-      "womyn",
-      "womanize",
-      "womans"
-    ]
-  },
-  {
-    "word": "spoon",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An implement consisting of a small, shallow, generally round bowl on a handle, used for eating, stirring, or serving food.",
-        "meaning_zh_TW": "勺子",
-        "wrong_meaning_zh_TW": [
-          "叉子",
-          "刀子",
-          "碗"
-        ],
-        "examples": [
-          {
-            "sentence": "She used a silver [spoon] to stir her tea.",
-            "translation_zh_TW": "她用銀勺子攪拌她的茶。"
-          },
-          {
-            "sentence": "The child learned to eat with a [spoon] at a young age.",
-            "translation_zh_TW": "這個孩子在很小的時候就學會用勺子吃飯。"
-          },
-          {
-            "sentence": "He filled the [spoon] with soup and brought it to the table.",
-            "translation_zh_TW": "他用勺子盛了湯，然後把它拿到桌子上。"
-          }
-        ],
-        "synonyms": [
-          "utensil",
-          "implement"
-        ]
-      }
-    ],
-    "confusion": [
-      "spoonerism",
-      "spoonful",
-      "spoonfed",
-      "spooning"
-    ]
-  },
-  {
-    "word": "gun",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A weapon that fires bullets or projectiles.",
-        "meaning_zh_TW": "槍械",
-        "wrong_meaning_zh_TW": [
-          "電池",
-          "別針",
-          "無人機"
-        ],
-        "examples": [
-          {
-            "sentence": "He kept a [gun] in his drawer for protection.",
-            "translation_zh_TW": "他在抽屜裡放了一把槍以防護"
-          },
-          {
-            "sentence": "The sound of the [gun] startled everyone.",
-            "translation_zh_TW": "槍聲驚嚇到了所有人"
-          },
-          {
-            "sentence": "They have strict laws about owning a [gun].",
-            "translation_zh_TW": "他們對擁有槍械有嚴格的法律"
-          }
-        ],
-        "synonyms": [
-          "firearm",
-          "weapon"
-        ]
-      }
-    ],
-    "confusion": [
-      "gon",
-      "gune",
-      "gunn",
-      "gyn"
-    ]
-  },
-  {
-    "word": "scare",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To cause someone to feel frightened or alarmed.",
-        "meaning_zh_TW": "使人害怕",
-        "wrong_meaning_zh_TW": [
-          "安慰",
-          "引導",
-          "懷疑"
-        ],
-        "examples": [
-          {
-            "sentence": "The loud noise will [scare] the children.",
-            "translation_zh_TW": "那聲音會讓孩子們感到害怕。"
-          },
-          {
-            "sentence": "She didn't mean to [scare] him.",
-            "translation_zh_TW": "她不是故意想嚇到他的。"
-          },
-          {
-            "sentence": "The horror movie really [scared] me.",
-            "translation_zh_TW": "那部恐怖電影真的嚇到我了。"
-          }
-        ],
-        "synonyms": [
-          "frighten",
-          "terrify"
-        ]
-      }
-    ],
-    "confusion": [
-      "scar",
-      "share",
-      "scarecrow",
-      "scale"
+      "bake",
+      "baton",
+      "fate",
+      "bate"
     ]
   }
 ]

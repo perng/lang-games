@@ -1,393 +1,471 @@
 [
   {
-    "word": "strive",
+    "word": "satellite",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A natural or artificial object that orbits a planet.",
+        "meaning_zh_TW": "衛星",
+        "wrong_meaning_zh_TW": [
+          "行星",
+          "恒星",
+          "彗星"
+        ],
+        "examples": [
+          {
+            "sentence": "The [satellite] transmitted data back to Earth.",
+            "translation_zh_TW": "這顆衛星將數據傳回地球"
+          },
+          {
+            "sentence": "The moon is Earth's only natural [satellite].",
+            "translation_zh_TW": "月球是地球唯一的自然衛星"
+          },
+          {
+            "sentence": "New satellites are launched every year.",
+            "translation_zh_TW": "每年都有新的衛星發射"
+          }
+        ],
+        "synonyms": [
+          "orbiter",
+          "moon"
+        ]
+      }
+    ],
+    "confusion": [
+      "satiate",
+      "salivate",
+      "satirize",
+      "saddle"
+    ]
+  },
+  {
+    "word": "functional",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Designed to be practical and useful, rather than attractive.",
+        "meaning_zh_TW": "功能性的",
+        "wrong_meaning_zh_TW": [
+          "外觀的",
+          "裝飾的",
+          "無用的"
+        ],
+        "examples": [
+          {
+            "sentence": "The design is very [functional] and meets all needs.",
+            "translation_zh_TW": "這個設計非常功能性且滿足所有需求"
+          },
+          {
+            "sentence": "All the furniture in the room is [functional].",
+            "translation_zh_TW": "房間裡的所有家具都是功能性的"
+          },
+          {
+            "sentence": "A [functional] approach often solves practical problems.",
+            "translation_zh_TW": "功能性的方法往往解決實際問題"
+          }
+        ],
+        "synonyms": [
+          "practical",
+          "utilitarian"
+        ]
+      }
+    ],
+    "confusion": [
+      "fanciful",
+      "factional",
+      "functionalism",
+      "frictional"
+    ]
+  },
+  {
+    "word": "initial",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Existing or occurring at the beginning.",
+        "meaning_zh_TW": "在開始時,姓名縮寫",
+        "wrong_meaning_zh_TW": [
+          "最終的",
+          "中間的",
+          "延遲的"
+        ],
+        "examples": [
+          {
+            "sentence": "Her [initial] reaction was shock.",
+            "translation_zh_TW": "她的最初反應是震驚。"
+          },
+          {
+            "sentence": "Please sign your [initial] to confirm.",
+            "translation_zh_TW": "請簽上你的姓名的縮寫以確認。"
+          },
+          {
+            "sentence": "The [initial] phase of the project will be challenging.",
+            "translation_zh_TW": "專案的最初階段將是具挑戰性的。"
+          }
+        ],
+        "synonyms": [
+          "first",
+          "primary"
+        ]
+      }
+    ],
+    "confusion": [
+      "initiate",
+      "initis",
+      "nutrition",
+      "initially"
+    ]
+  },
+  {
+    "word": "fantasy",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The faculty or activity of imagining impossible or improbable things.",
+        "meaning_zh_TW": "幻想",
+        "wrong_meaning_zh_TW": [
+          "現實",
+          "真相",
+          "常規"
+        ],
+        "examples": [
+          {
+            "sentence": "In her [fantasy], she was a queen ruling a vast kingdom.",
+            "translation_zh_TW": "在她的幻想中，她是一位統治廣大王國的女王。"
+          },
+          {
+            "sentence": "He escaped into a world of [fantasy] after reading the book.",
+            "translation_zh_TW": "他在閱讀那本書後逃入了幻想的世界。"
+          },
+          {
+            "sentence": "Many movies are based on [fantasy] themes.",
+            "translation_zh_TW": "許多電影是基於幻想主題。"
+          }
+        ],
+        "synonyms": [
+          "imagination",
+          "daydream"
+        ]
+      }
+    ],
+    "confusion": [
+      "fantasy",
+      "fantasy",
+      "fanfare",
+      "fantasize"
+    ]
+  },
+  {
+    "word": "context",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The circumstances or setting surrounding an event or situation.",
+        "meaning_zh_TW": "上下文",
+        "wrong_meaning_zh_TW": [
+          "焦點",
+          "示例",
+          "內容"
+        ],
+        "examples": [
+          {
+            "sentence": "Understanding the [context] is crucial for interpretation.",
+            "translation_zh_TW": "理解上下文對解釋至關重要。"
+          },
+          {
+            "sentence": "The historical [context] of the event was significant.",
+            "translation_zh_TW": "事件的歷史上下文是重要的。"
+          },
+          {
+            "sentence": "She used the quote in the right [context].",
+            "translation_zh_TW": "她在正確的上下文中使用了這句引言。"
+          }
+        ],
+        "synonyms": [
+          "setting",
+          "framework"
+        ]
+      }
+    ],
+    "confusion": [
+      "contest",
+      "contingent",
+      "contact",
+      "contour"
+    ]
+  },
+  {
+    "word": "install",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To make great efforts to achieve or obtain something.",
-        "meaning_zh_TW": "奮鬥",
+        "meaning_en_US": "To place or fix equipment or machinery in position for use.",
+        "meaning_zh_TW": "安裝",
         "wrong_meaning_zh_TW": [
-          "放棄",
-          "懈怠",
-          "退縮"
+          "拆卸設備",
+          "製造工具",
+          "選擇配件"
         ],
         "examples": [
           {
-            "sentence": "She continues to [strive] for excellence.",
-            "translation_zh_TW": "她持續追求卓越。"
+            "sentence": "I need to [install] the new software on my computer.",
+            "translation_zh_TW": "我需要在我的電腦上安裝新軟件。"
           },
           {
-            "sentence": "They must [strive] to meet their goals.",
-            "translation_zh_TW": "他們必須努力達成目標。"
+            "sentence": "They will [install] the new lights this weekend.",
+            "translation_zh_TW": "他們將在這個週末安裝新的燈。"
           },
           {
-            "sentence": "He always [strives] to improve his skills.",
-            "translation_zh_TW": "他一直奮鬥以提升自己的技能。"
+            "sentence": "Can you help me [install] this application?",
+            "translation_zh_TW": "你能幫我安裝這個應用程序嗎？"
           }
         ],
         "synonyms": [
-          "endeavor",
-          "attempt"
+          "set up",
+          "fix",
+          "configure"
         ]
       }
     ],
     "confusion": [
-      "strivee",
-      "strives",
-      "striven",
-      "striving"
+      "instill",
+      "installment",
+      "instal",
+      "instillation"
     ]
   },
   {
-    "word": "tragic",
+    "word": "surgery",
     "meanings": [
       {
-        "type": "形容詞",
-        "meaning_en_US": "Causing or characterized by extreme distress or sorrow.",
-        "meaning_zh_TW": "悲劇性的",
+        "type": "名詞",
+        "meaning_en_US": "The branch of medicine that deals with the physical manipulation of the body.",
+        "meaning_zh_TW": "外科手術",
         "wrong_meaning_zh_TW": [
-          "喜劇性的",
-          "可笑的",
-          "滑稽的"
+          "理療",
+          "藥物治療",
+          "心理治療"
         ],
         "examples": [
           {
-            "sentence": "The film had a [tragic] ending that left everyone in tears.",
-            "translation_zh_TW": "這部電影有一個悲劇性的結局，讓所有人都流淚。"
+            "sentence": "He is recovering from [surgery] on his knee.",
+            "translation_zh_TW": "他正在從膝蓋的手術中恢復。"
           },
           {
-            "sentence": "His life story is a [tragic] tale of loss and redemption.",
-            "translation_zh_TW": "他的生活故事是一個悲劇性的失落與救贖的故事。"
+            "sentence": "The [surgery] lasted for several hours.",
+            "translation_zh_TW": "手術持續了幾個小時。"
           },
           {
-            "sentence": "The play depicted a [tragic] hero who made a fatal mistake.",
-            "translation_zh_TW": "這部劇描繪了一位犯了致命錯誤的悲劇英雄。"
+            "sentence": "She will need [surgery] to correct the issue.",
+            "translation_zh_TW": "她需要手術來修正這個問題。"
           }
         ],
         "synonyms": [
-          "sorrowful",
-          "dismal"
+          "operation",
+          "procedure"
         ]
       }
     ],
     "confusion": [
-      "magic",
-      "trag",
-      "tragicly",
-      "tragick"
+      "surgically",
+      "surgeon",
+      "surveillance",
+      "surprised"
     ]
   },
   {
-    "word": "boast",
+    "word": "measures",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "Actions taken to achieve a particular purpose.",
+        "meaning_zh_TW": "措施",
+        "wrong_meaning_zh_TW": [
+          "標準",
+          "規則",
+          "數據"
+        ],
+        "examples": [
+          {
+            "sentence": "The government implemented new [measures] to improve safety.",
+            "translation_zh_TW": "政府實施了新的措施以改善安全"
+          },
+          {
+            "sentence": "We need effective [measures] to tackle this problem.",
+            "translation_zh_TW": "我們需要有效的措施來解決這個問題"
+          },
+          {
+            "sentence": "These [measures] will help reduce waste.",
+            "translation_zh_TW": "這些措施將有助於降低浪費"
+          }
+        ],
+        "synonyms": [
+          "steps",
+          "actions"
+        ]
+      }
+    ],
+    "confusion": [
+      "measure",
+      "measurable",
+      "measured",
+      "measuring"
+    ]
+  },
+  {
+    "word": "generation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "All of the people born and living at about the same time.",
+        "meaning_zh_TW": "世代",
+        "wrong_meaning_zh_TW": [
+          "周期",
+          "文化",
+          "歷史"
+        ],
+        "examples": [
+          {
+            "sentence": "Each [generation] faces its unique challenges.",
+            "translation_zh_TW": "每一代面臨著其獨特的挑戰。"
+          },
+          {
+            "sentence": "The younger [generation] is more tech-savvy.",
+            "translation_zh_TW": "年輕一代更懂科技。"
+          },
+          {
+            "sentence": "The [generation] gap can lead to misunderstandings.",
+            "translation_zh_TW": "世代差距可能導致誤解。"
+          }
+        ],
+        "synonyms": [
+          "age group",
+          "cohort"
+        ]
+      }
+    ],
+    "confusion": [
+      "generatione",
+      "generated",
+      "generational",
+      "generator"
+    ]
+  },
+  {
+    "word": "guarantee",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To talk about something with pride.",
-        "meaning_zh_TW": "自誇、吹噓",
+        "meaning_en_US": "To provide a formal assurance that something will happen or that a particular thing is the case.",
+        "meaning_zh_TW": "保證",
         "wrong_meaning_zh_TW": [
-          "謙虛",
-          "承認",
-          "道歉"
+          "隨意",
+          "承諾",
+          "取消"
         ],
         "examples": [
           {
-            "sentence": "He likes to [boast] about his achievements.",
-            "translation_zh_TW": "他喜歡自誇他的成就"
+            "sentence": "We will [guarantee] your satisfaction.",
+            "translation_zh_TW": "我們將保證您的滿意。"
           },
           {
-            "sentence": "She can't help but [boast] about her new car.",
-            "translation_zh_TW": "她忍不住要吹噓她的新車"
+            "sentence": "The warranty [guarantees] the product for two years.",
+            "translation_zh_TW": "保固保證該產品兩年。"
           },
           {
-            "sentence": "They [boast] of having the best team in the league.",
-            "translation_zh_TW": "他們自誇擁有聯盟中最好的團隊"
+            "sentence": "He [guaranteed] that the work would be completed on time.",
+            "translation_zh_TW": "他保證工作將按時完成。"
           }
         ],
         "synonyms": [
-          "brag",
-          "vaunt"
+          "ensure",
+          "warrant"
         ]
       }
     ],
     "confusion": [
-      "boastful",
-      "boastfully",
-      "boastin",
-      "bost"
+      "guaranteed",
+      "guerrilla",
+      "guardian",
+      "gourmet"
     ]
   },
   {
-    "word": "refusal",
+    "word": "congress",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An act of saying no to something or rejecting an offer.",
-        "meaning_zh_TW": "拒絕",
+        "meaning_en_US": "A formal meeting or assembly of representatives for discussion and decision-making.",
+        "meaning_zh_TW": "大會",
         "wrong_meaning_zh_TW": [
-          "接受",
-          "同意",
-          "允許"
+          "偶像",
+          "歌唱比賽",
+          "畫展"
         ],
         "examples": [
           {
-            "sentence": "His [refusal] to participate surprised everyone.",
-            "translation_zh_TW": "他拒絕參加讓大家感到驚訝。"
+            "sentence": "The [Congress] will meet to discuss new legislation.",
+            "translation_zh_TW": "國會將召開會議討論新立法。"
           },
           {
-            "sentence": "The [refusal] of the application led to an investigation.",
-            "translation_zh_TW": "申請的拒絕導致了一次調查。"
+            "sentence": "She was elected to the national [congress].",
+            "translation_zh_TW": "她當選為國會的成員。"
           },
           {
-            "sentence": "She faced [refusal] when she asked for help.",
-            "translation_zh_TW": "當她請求幫助時遭到了拒絕。"
+            "sentence": "The annual [Congress] attracts delegates from all over the country.",
+            "translation_zh_TW": "年度大會吸引來自全國各地的代表。"
           }
         ],
         "synonyms": [
-          "denial",
-          "rejection"
+          "assembly",
+          "conference"
         ]
       }
     ],
     "confusion": [
-      "refusal",
-      "reusable",
-      "refused",
-      "refusal"
+      "congressman",
+      "congregational",
+      "congruous",
+      "congressional"
     ]
   },
   {
-    "word": "translator",
+    "word": "competition",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person who translates from one language to another.",
-        "meaning_zh_TW": "翻譯者",
+        "meaning_en_US": "An event or activity in which people compete against each other.",
+        "meaning_zh_TW": "競賽、比賽",
         "wrong_meaning_zh_TW": [
-          "作者",
-          "讀者",
-          "編輯"
+          "聚會、會議",
+          "娛樂、消遣",
+          "調整、改變"
         ],
         "examples": [
           {
-            "sentence": "As a professional [translator], she works with multiple languages.",
-            "translation_zh_TW": "作為一名專業翻譯者，她使用多種語言工作。"
+            "sentence": "The [competition] brought together talent from across the country.",
+            "translation_zh_TW": "這場比賽吸引了全國各地的人才"
           },
           {
-            "sentence": "The [translator] provided an accurate version of the text.",
-            "translation_zh_TW": "翻譯者提供了文本的準確版本。"
+            "sentence": "She won first place in the science [competition].",
+            "translation_zh_TW": "她在科學競賽中獲得第一名"
           },
           {
-            "sentence": "A good [translator] can make complex texts easy to understand.",
-            "translation_zh_TW": "一位優秀的翻譯者能使複雜的文本變得易於理解。"
+            "sentence": "Healthy [competition] can drive innovation.",
+            "translation_zh_TW": "健康的競爭可以促進創新"
           }
         ],
         "synonyms": [
-          "interpreter",
-          "language expert"
+          "contest",
+          "rivalry"
         ]
       }
     ],
     "confusion": [
-      "translating",
-      "translatorship",
-      "translatable",
-      "translocation"
-    ]
-  },
-  {
-    "word": "emphasis",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Special importance or significance given to something.",
-        "meaning_zh_TW": "重視",
-        "wrong_meaning_zh_TW": [
-          "常態",
-          "忽視",
-          "排斥"
-        ],
-        "examples": [
-          {
-            "sentence": "She placed great [emphasis] on the need for teamwork.",
-            "translation_zh_TW": "她非常重視團隊合作的必要性。"
-          },
-          {
-            "sentence": "The lecture had an [emphasis] on practical applications.",
-            "translation_zh_TW": "這次講座強調實際應用。"
-          },
-          {
-            "sentence": "He spoke with [emphasis] to drive his point home.",
-            "translation_zh_TW": "他語氣強調以使他的觀點更明確。"
-          }
-        ],
-        "synonyms": [
-          "importance",
-          "stress"
-        ]
-      }
-    ],
-    "confusion": [
-      "emphasize",
-      "encompass",
-      "epiphany",
-      "empathy"
-    ]
-  },
-  {
-    "word": "miserable",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Very unhappy or uncomfortable.",
-        "meaning_zh_TW": "悲慘的",
-        "wrong_meaning_zh_TW": [
-          "歡樂的",
-          "豐富的",
-          "悅人的"
-        ],
-        "examples": [
-          {
-            "sentence": "She felt [miserable] after failing the exam.",
-            "translation_zh_TW": "考試失敗後，她感到悲慘。"
-          },
-          {
-            "sentence": "The weather was so cold that I felt [miserable] all day.",
-            "translation_zh_TW": "天氣冷得讓我整天感到悲慘。"
-          },
-          {
-            "sentence": "He lived a [miserable] life after losing his job.",
-            "translation_zh_TW": "失去工作後，過著悲慘的生活。"
-          }
-        ],
-        "synonyms": [
-          "unhappy",
-          "dejected"
-        ]
-      }
-    ],
-    "confusion": [
-      "misery",
-      "miser",
-      "miserly",
-      "miserie"
-    ]
-  },
-  {
-    "word": "inspection",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The act of examining something carefully.",
-        "meaning_zh_TW": "檢查",
-        "wrong_meaning_zh_TW": [
-          "瞥見",
-          "忽略",
-          "變更"
-        ],
-        "examples": [
-          {
-            "sentence": "The [inspection] revealed several safety issues.",
-            "translation_zh_TW": "檢查揭示了幾個安全問題。"
-          },
-          {
-            "sentence": "They scheduled an [inspection] of the premises.",
-            "translation_zh_TW": "他們安排了對場地的檢查。"
-          },
-          {
-            "sentence": "The annual [inspection] is mandatory.",
-            "translation_zh_TW": "年度檢查是強制性的。"
-          }
-        ],
-        "synonyms": [
-          "examination",
-          "review",
-          "assessment"
-        ]
-      }
-    ],
-    "confusion": [
-      "inception",
-      "instigation",
-      "expression",
-      "insurrection"
-    ]
-  },
-  {
-    "word": "conventional",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Based on or in accordance with what is generally done or believed.",
-        "meaning_zh_TW": "傳統的、慣例的",
-        "wrong_meaning_zh_TW": [
-          "科學的、客觀的",
-          "現代的、當前的",
-          "前衛的、創新的"
-        ],
-        "examples": [
-          {
-            "sentence": "The artist chose a [conventional] style for the portrait.",
-            "translation_zh_TW": "這位藝術家為肖像選擇了一種傳統的風格"
-          },
-          {
-            "sentence": "His views are quite [conventional] compared to others.",
-            "translation_zh_TW": "與其他人相比，他的觀點相當慣例"
-          },
-          {
-            "sentence": "She preferred [conventional] methods of teaching.",
-            "translation_zh_TW": "她更喜歡傳統的教學方法"
-          }
-        ],
-        "synonyms": [
-          "traditional",
-          "orthodox"
-        ]
-      }
-    ],
-    "confusion": [
-      "convention",
-      "conversational",
-      "convey",
-      "convert"
-    ]
-  },
-  {
-    "word": "technological",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Relating to or involving technology.",
-        "meaning_zh_TW": "技術的",
-        "wrong_meaning_zh_TW": [
-          "手工的",
-          "自然的",
-          "傳統的"
-        ],
-        "examples": [
-          {
-            "sentence": "The [technological] advances have changed our lives.",
-            "translation_zh_TW": "技術的進步改變了我們的生活"
-          },
-          {
-            "sentence": "We need [technological] solutions to modern problems.",
-            "translation_zh_TW": "我們需要技術的解決方案來應對現代問題"
-          },
-          {
-            "sentence": "His work focuses on [technological] innovations.",
-            "translation_zh_TW": "他的工作專注於技術創新"
-          }
-        ],
-        "synonyms": [
-          "technologic",
-          "digital"
-        ]
-      }
-    ],
-    "confusion": [
-      "technology",
-      "technologist",
-      "techniques",
-      "technically"
+      "competent",
+      "compliance",
+      "computation",
+      "complicit"
     ]
   },
   {
@@ -430,354 +508,276 @@
     ]
   },
   {
-    "word": "linen",
+    "word": "essential",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Absolutely necessary; extremely important.",
+        "meaning_zh_TW": "絕對必要；極其重要。",
+        "wrong_meaning_zh_TW": [
+          "可有可無",
+          "無關緊要",
+          "次要因素"
+        ],
+        "examples": [
+          {
+            "sentence": "Water is [essential] for life.",
+            "translation_zh_TW": "水對於生命是必不可少的。"
+          },
+          {
+            "sentence": "It's [essential] to have health insurance.",
+            "translation_zh_TW": "擁有健康保險是必需的。"
+          },
+          {
+            "sentence": "Basic skills are [essential] for the job.",
+            "translation_zh_TW": "基本技能對於這份工作是必不可少的。"
+          }
+        ],
+        "synonyms": [
+          "crucial",
+          "vital"
+        ]
+      }
+    ],
+    "confusion": [
+      "essence",
+      "sentential",
+      "essent",
+      "assential"
+    ]
+  },
+  {
+    "word": "labor",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "Fabric woven from flax, used for making clothes or tablecloths.",
-        "meaning_zh_TW": "亞麻布、床單",
+        "meaning_en_US": "Work, especially hard physical work.",
+        "meaning_zh_TW": "勞動",
         "wrong_meaning_zh_TW": [
-          "麻布",
-          "毛巾",
-          "棉布"
+          "假期",
+          "享受",
+          "運動"
         ],
         "examples": [
           {
-            "sentence": "She preferred [linen] sheets for their breathability.",
-            "translation_zh_TW": "她喜歡亞麻床單，因為透氣性好"
+            "sentence": "The workers put in long hours of [labor] each day.",
+            "translation_zh_TW": "工人們每天長時間進行勞動。"
           },
           {
-            "sentence": "The table was set with fine [linen] napkins.",
-            "translation_zh_TW": "桌子上擺著精緻的亞麻餐巾"
+            "sentence": "His [labor] on the project paid off.",
+            "translation_zh_TW": "他在這個專案上的勞動得到了回報。"
           },
           {
-            "sentence": "He wore a [linen] shirt during the summer.",
-            "translation_zh_TW": "他夏天穿著亞麻襯衫"
+            "sentence": "She is seeking a [labor] job in the city.",
+            "translation_zh_TW": "她正在尋找城市裡的勞動工作。"
           }
         ],
         "synonyms": [
-          "fabric",
-          "material"
+          "work",
+          "toil"
         ]
       }
     ],
     "confusion": [
-      "line",
-      "linner",
-      "linnet",
-      "lineman"
+      "labour",
+      "labore",
+      "laboratory",
+      "labrador"
     ]
   },
   {
-    "word": "nowadays",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "At the present time, in contrast with the past.",
-        "meaning_zh_TW": "如今",
-        "wrong_meaning_zh_TW": [
-          "未來",
-          "過去",
-          "即將來臨"
-        ],
-        "examples": [
-          {
-            "sentence": "[Nowadays], people rely heavily on technology.",
-            "translation_zh_TW": "如今，人們非常依賴科技。"
-          },
-          {
-            "sentence": "Finding a good job is tough [nowadays].",
-            "translation_zh_TW": "如今找到一份好工作非常困難。"
-          },
-          {
-            "sentence": "Many choose to work remotely [nowadays].",
-            "translation_zh_TW": "如今，許多人選擇遠程工作。"
-          }
-        ],
-        "synonyms": [
-          "currently",
-          "now"
-        ]
-      }
-    ],
-    "confusion": [
-      "nowaday",
-      "nowadys",
-      "knowadays",
-      "nowadaze"
-    ]
-  },
-  {
-    "word": "empire",
+    "word": "defense",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A group of nations or regions ruled by a single sovereign authority.",
-        "meaning_zh_TW": "帝國",
+        "meaning_en_US": "The action of resisting an attack.",
+        "meaning_zh_TW": "防禦",
         "wrong_meaning_zh_TW": [
-          "王國",
-          "部族",
-          "小國"
+          "攻擊",
+          "撤退",
+          "懦弱"
         ],
         "examples": [
           {
-            "sentence": "The Roman [empire] was known for its vast territories.",
-            "translation_zh_TW": "羅馬帝國以其廣大的領土而聞名。"
+            "sentence": "The team's [defense] was solid throughout the game.",
+            "translation_zh_TW": "該隊的防禦在整場比賽中都很堅固。"
           },
           {
-            "sentence": "She studied the fall of the Ottoman [empire].",
-            "translation_zh_TW": "她研究了奧斯曼帝國的衰落。"
+            "sentence": "In court, he mounted a vigorous [defense] against the allegations.",
+            "translation_zh_TW": "在法庭上，他對指控展開了有力的防禦。"
           },
           {
-            "sentence": "Ancient [empires] often expanded through conquest.",
-            "translation_zh_TW": "古代帝國通常通過征服來擴展。"
+            "sentence": "A good [defense] is crucial in sports.",
+            "translation_zh_TW": "良好的防禦在運動中至關重要。"
           }
         ],
         "synonyms": [
-          "realm",
-          "dominance"
+          "protection",
+          "safeguard"
         ]
       }
     ],
     "confusion": [
-      "empirical",
-      "empires",
-      "emphasize",
-      "emigrate"
+      "defendant",
+      "defensive",
+      "defensible",
+      "deferring"
     ]
   },
   {
-    "word": "reunion",
+    "word": "recovery",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A gathering of people who have been separated.",
-        "meaning_zh_TW": "重聚、再會",
+        "meaning_en_US": "The process of regaining possession or control of something lost.",
+        "meaning_zh_TW": "恢復，重新獲得",
         "wrong_meaning_zh_TW": [
-          "分離",
-          "離別",
-          "疏遠"
+          "遺失的物品",
+          "重新設計",
+          "學習技巧"
         ],
         "examples": [
           {
-            "sentence": "The family planned a [reunion] for the holidays.",
-            "translation_zh_TW": "家族計劃了在假期的重聚。"
+            "sentence": "His [recovery] from surgery was slower than expected.",
+            "translation_zh_TW": "他從手術中恢復的速度比預期慢。"
           },
           {
-            "sentence": "High school friends organized a [reunion] ten years later.",
-            "translation_zh_TW": "高中朋友在十年後組織了一次重聚。"
+            "sentence": "The company is focused on financial [recovery] after the crisis.",
+            "translation_zh_TW": "該公司在危機後專注於財務恢復。"
           },
           {
-            "sentence": "Their [reunion] was filled with laughter and memories.",
-            "translation_zh_TW": "他們的重聚充滿了歡笑和回憶。"
+            "sentence": "Physical therapy was essential for her [recovery].",
+            "translation_zh_TW": "物理治療對她的恢復至關重要。"
           }
         ],
         "synonyms": [
-          "gathering",
-          "assembly"
+          "restoration",
+          "recuperation"
         ]
       }
     ],
     "confusion": [
-      "reunite",
-      "reunified",
-      "reunions",
-      "reunioning"
+      "recover",
+      "recorder",
+      "recoveryed",
+      "reactive"
     ]
   },
   {
-    "word": "reflect",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To throw back light, heat, or sound from a surface.",
-        "meaning_zh_TW": "反射",
-        "wrong_meaning_zh_TW": [
-          "反應、回應",
-          "反抗、抵抗",
-          "維修、修理"
-        ],
-        "examples": [
-          {
-            "sentence": "The water will [reflect] the sunlight beautifully.",
-            "translation_zh_TW": "水面會美麗地反射陽光。"
-          },
-          {
-            "sentence": "She likes to [reflect] on her day before bed.",
-            "translation_zh_TW": "她喜歡在睡前反思一天的事情。"
-          },
-          {
-            "sentence": "Mirrors [reflect] images perfectly.",
-            "translation_zh_TW": "鏡子能完美地反射影像。"
-          }
-        ],
-        "synonyms": [
-          "mirror",
-          "reverberate"
-        ]
-      }
-    ],
-    "confusion": [
-      "reflected",
-      "reflux",
-      "inflect",
-      "reselect"
-    ]
-  },
-  {
-    "word": "socket",
+    "word": "merchant",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A hollow part into which something fits, for example, a light bulb or a plug.",
-        "meaning_zh_TW": "插座",
+        "meaning_en_US": "A person or company involved in wholesale trade, especially one dealing with foreign countries.",
+        "meaning_zh_TW": "商人",
         "wrong_meaning_zh_TW": [
-          "插頭",
-          "電線",
-          "燈泡"
+          "顧客",
+          "經理",
+          "公司"
         ],
         "examples": [
           {
-            "sentence": "Please plug the charger into the [socket].",
-            "translation_zh_TW": "請將充電器插入插座。"
+            "sentence": "The [merchant] imported spices from overseas.",
+            "translation_zh_TW": "這位商人從海外進口香料"
           },
           {
-            "sentence": "The light [socket] needs to be replaced.",
-            "translation_zh_TW": "燈座需要更換。"
+            "sentence": "Many [merchants] gather at the market every weekend.",
+            "translation_zh_TW": "許多商人在每個週末聚集於市場"
           },
           {
-            "sentence": "He checked the [socket] to see if it was working.",
-            "translation_zh_TW": "他檢查了插座以確定其是否正常工作。"
+            "sentence": "The [merchant] offered various goods at competitive prices.",
+            "translation_zh_TW": "這位商人以具有競爭力的價格提供各種商品"
           }
         ],
         "synonyms": [
-          "outlet",
-          "receptacle"
+          "trader",
+          "seller"
         ]
       }
     ],
     "confusion": [
-      "sockets",
-      "sock",
-      "soaked",
-      "sack"
+      "mercury",
+      "merchandise",
+      "mercenaries",
+      "merch"
     ]
   },
   {
-    "word": "neglect",
+    "word": "universal",
     "meanings": [
       {
-        "type": "動詞",
-        "meaning_en_US": "Fail to care for properly.",
-        "meaning_zh_TW": "未能妥善照顧",
+        "type": "形容詞",
+        "meaning_en_US": "Applicable to all cases; general.",
+        "meaning_zh_TW": "普遍的",
         "wrong_meaning_zh_TW": [
-          "關注",
-          "護理",
-          "支持"
+          "特殊的",
+          "個別的",
+          "獨特的"
         ],
         "examples": [
           {
-            "sentence": "Don't [neglect] your health.",
-            "translation_zh_TW": "不要忽視你的健康。"
+            "sentence": "Art is a [universal] language.",
+            "translation_zh_TW": "藝術是一種普遍的語言"
           },
           {
-            "sentence": "The garden was [neglected] for years.",
-            "translation_zh_TW": "這個花園多年來未被照顧。"
+            "sentence": "The [universal] truth can be understood by anyone.",
+            "translation_zh_TW": "普遍的真理可以被任何人理解"
           },
           {
-            "sentence": "They often [neglect] their emotional needs.",
-            "translation_zh_TW": "他們經常忽視自己的情感需求。"
+            "sentence": "His ideas have a [universal] appeal.",
+            "translation_zh_TW": "他的想法具有普遍的吸引力"
           }
         ],
         "synonyms": [
-          "omit",
-          "ignore"
+          "global",
+          "inclusive"
         ]
       }
     ],
     "confusion": [
-      "neglected",
-      "neglectful",
-      "neglecting",
-      "neglects"
+      "universe",
+      "unison",
+      "universalism",
+      "univocal"
     ]
   },
   {
-    "word": "council",
+    "word": "presentation",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A group of people convened for advice or decision-making.",
-        "meaning_zh_TW": "議會",
+        "meaning_en_US": "A demonstration or display of information or skills.",
+        "meaning_zh_TW": "簡報",
         "wrong_meaning_zh_TW": [
-          "獨裁政權",
-          "法庭",
-          "個人建議"
+          "比賽",
+          "抽樣",
+          "宣傳"
         ],
         "examples": [
           {
-            "sentence": "The city [council] meets every month to discuss local issues.",
-            "translation_zh_TW": "市議會每個月會面對面討論地方問題。"
+            "sentence": "The student's [presentation] on climate change was informative.",
+            "translation_zh_TW": "該學生有關氣候變化的簡報提供了信息。"
           },
           {
-            "sentence": "She was elected to the student [council] last year.",
-            "translation_zh_TW": "她去年當選為學生會成員。"
+            "sentence": "She prepared slides for her [presentation] at the conference.",
+            "translation_zh_TW": "她為會議的簡報準備了幻燈片。"
           },
           {
-            "sentence": "The advisory [council] provided insights on the new policy.",
-            "translation_zh_TW": "顧問委員會就新政策提供了洞察。"
+            "sentence": "A good [presentation] captures the audience's attention.",
+            "translation_zh_TW": "一個好的簡報能吸引觀眾的注意。"
           }
         ],
         "synonyms": [
-          "committee",
-          "board"
+          "display",
+          "demonstration"
         ]
       }
     ],
     "confusion": [
-      "counsel",
-      "counselor",
-      "councing",
-      "countryside"
-    ]
-  },
-  {
-    "word": "offend",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To cause someone to feel upset, annoyed, or resentful.",
-        "meaning_zh_TW": "冒犯、得罪",
-        "wrong_meaning_zh_TW": [
-          "安慰、鼓勵",
-          "贊美、讚美",
-          "放鬆、休息"
-        ],
-        "examples": [
-          {
-            "sentence": "His comments may [offend] some people.",
-            "translation_zh_TW": "他的評論可能會冒犯某些人。"
-          },
-          {
-            "sentence": "I didn’t mean to [offend] you with my words.",
-            "translation_zh_TW": "我不是故意要冒犯你。"
-          },
-          {
-            "sentence": "She felt [offended] by the rude joke.",
-            "translation_zh_TW": "她覺得被那個粗魯的笑話冒犯了。"
-          }
-        ],
-        "synonyms": [
-          "displease",
-          "hurt"
-        ]
-      }
-    ],
-    "confusion": [
-      "defend",
-      "offense",
-      "offensive",
-      "offer"
+      "presentaion",
+      "presintation",
+      "presentaiton",
+      "presenation"
     ]
   }
 ]

@@ -1,761 +1,771 @@
 [
   {
-    "word": "track",
+    "word": "definition",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A prepared course for athletes, usually in a stadium.",
-        "meaning_zh_TW": "追蹤",
+        "meaning_en_US": "A statement that explains the meaning of a word or phrase.",
+        "meaning_zh_TW": "定義",
         "wrong_meaning_zh_TW": [
-          "隱藏",
-          "改變",
-          "擺放"
+          "示例",
+          "參考",
+          "叙述"
         ],
         "examples": [
           {
-            "sentence": "The runners lined up on the [track].",
-            "translation_zh_TW": "跑步者們站在跑道上。"
+            "sentence": "The dictionary provides a clear [definition] of the word.",
+            "translation_zh_TW": "字典清晰地提供了這個單詞的定義。"
           },
           {
-            "sentence": "He enjoys jogging on the local [track].",
-            "translation_zh_TW": "他喜歡在當地的跑道上慢跑。"
+            "sentence": "Understanding the [definition] is crucial for learning.",
+            "translation_zh_TW": "理解定義對於學習來說至關重要。"
           },
           {
-            "sentence": "The [track] was wet from the rain.",
-            "translation_zh_TW": "跑道因雨而潮濕。"
+            "sentence": "He asked for clarification on the [definition] of the term.",
+            "translation_zh_TW": "他詢問這個術語的定義以獲得釐清。"
           }
         ],
         "synonyms": [
-          "course",
-          "path"
-        ]
-      },
-      {
-        "type": "動詞",
-        "meaning_en_US": "To follow the course or trail of something.",
-        "meaning_zh_TW": "追蹤",
-        "wrong_meaning_zh_TW": [
-          "隱藏",
-          "改變",
-          "擺放"
-        ],
-        "examples": [
-          {
-            "sentence": "The detective had to [track] down the thief.",
-            "translation_zh_TW": "偵探必須追蹤小偷。"
-          },
-          {
-            "sentence": "She used her phone to [track] her location.",
-            "translation_zh_TW": "她用手機追蹤自己的位置。"
-          },
-          {
-            "sentence": "We can [track] our progress with this app.",
-            "translation_zh_TW": "我們可以用這個應用程式追蹤我們的進度。"
-          }
-        ],
-        "synonyms": [
-          "trace",
-          "follow"
+          "explanation",
+          "meaning"
         ]
       }
     ],
     "confusion": [
-      "tack",
-      "trackless",
-      "trick",
-      "tackling"
+      "definer",
+      "definable",
+      "definitive",
+      "defer"
     ]
   },
   {
-    "word": "suicide",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The act of intentionally causing one's own death.",
-        "meaning_zh_TW": "自殺",
-        "wrong_meaning_zh_TW": [
-          "自我提升",
-          "自我保護",
-          "勇氣"
-        ],
-        "examples": [
-          {
-            "sentence": "He spoke about the stigma surrounding [suicide].",
-            "translation_zh_TW": "他談到了圍繞自殺的污名"
-          },
-          {
-            "sentence": "Support groups exist to help those affected by [suicide].",
-            "translation_zh_TW": "存在支持小組以幫助受到自殺影響的人"
-          },
-          {
-            "sentence": "Preventing [suicide] is a crucial part of mental health care.",
-            "translation_zh_TW": "預防自殺是心理健康護理的重要部分"
-          }
-        ],
-        "synonyms": [
-          "self-harm",
-          "self-inflicted death"
-        ]
-      }
-    ],
-    "confusion": [
-      "sucid",
-      "suicde",
-      "suitcase",
-      "usb"
-    ]
-  },
-  {
-    "word": "tour",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A journey for pleasure in which several different places are visited.",
-        "meaning_zh_TW": "旅遊",
-        "wrong_meaning_zh_TW": [
-          "旅行社",
-          "交通工具",
-          "行李"
-        ],
-        "examples": [
-          {
-            "sentence": "They went on a [tour] of Europe last summer.",
-            "translation_zh_TW": "他們去年夏天進行了歐洲之旅。"
-          },
-          {
-            "sentence": "The museum offers a guided [tour] every Saturday.",
-            "translation_zh_TW": "那個博物館每週六提供導覽旅遊。"
-          },
-          {
-            "sentence": "He booked a [tour] to see the ancient ruins.",
-            "translation_zh_TW": "他預訂了一個旅行去參觀古代遺跡。"
-          }
-        ],
-        "synonyms": [
-          "excursion",
-          "trip"
-        ]
-      }
-    ],
-    "confusion": [
-      "tore",
-      "touring",
-      "tor",
-      "tourist"
-    ]
-  },
-  {
-    "word": "buffalo",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large, horned mammal found in North America, also known as bison.",
-        "meaning_zh_TW": "水牛",
-        "wrong_meaning_zh_TW": [
-          "馬",
-          "鹿",
-          "老虎"
-        ],
-        "examples": [
-          {
-            "sentence": "The [buffalo] roamed freely across the plains.",
-            "translation_zh_TW": "水牛在平原上自由走動"
-          },
-          {
-            "sentence": "Buffalo are known for their shaggy fur.",
-            "translation_zh_TW": "水牛以其毛茸茸的毛髮而聞名"
-          },
-          {
-            "sentence": "In the past, the [buffalo] was vital to the Native Americans.",
-            "translation_zh_TW": "在過去，水牛對美國原住民至關重要"
-          }
-        ],
-        "synonyms": [
-          "bison",
-          "buffalo bison"
-        ]
-      }
-    ],
-    "confusion": [
-      "buffalu",
-      "buffelo",
-      "bufflao",
-      "bafalo"
-    ]
-  },
-  {
-    "word": "typhoon",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A tropical cyclone occurring in the western Pacific or Indian Oceans.",
-        "meaning_zh_TW": "颱風",
-        "wrong_meaning_zh_TW": [
-          "熱帶風暴",
-          "地震",
-          "颶風"
-        ],
-        "examples": [
-          {
-            "sentence": "The [typhoon] caused significant damage to the coastal cities.",
-            "translation_zh_TW": "颱風對沿海城市造成了重大損失。"
-          },
-          {
-            "sentence": "People evacuated their homes before the [typhoon] hit.",
-            "translation_zh_TW": "人們在颱風來之前撤離了家園。"
-          },
-          {
-            "sentence": "The forecast warned of a powerful [typhoon] approaching the area.",
-            "translation_zh_TW": "預報警告一場強烈的颱風正逼近該地區。"
-          }
-        ],
-        "synonyms": [
-          "hurricane",
-          "cyclone"
-        ]
-      }
-    ],
-    "confusion": [
-      "typhoonic",
-      "typhooned",
-      "typhoid",
-      "typical"
-    ]
-  },
-  {
-    "word": "barely",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "By a small margin; only just.",
-        "meaning_zh_TW": "勉強地",
-        "wrong_meaning_zh_TW": [
-          "輕易地",
-          "隨意地",
-          "愉快地"
-        ],
-        "examples": [
-          {
-            "sentence": "She [barely] passed the exam.",
-            "translation_zh_TW": "她勉強通過了考試。"
-          },
-          {
-            "sentence": "I can [barely] hear you.",
-            "translation_zh_TW": "我勉強能聽見你。"
-          },
-          {
-            "sentence": "They [barely] made it to the train on time.",
-            "translation_zh_TW": "他們勉強按時趕上了火車。"
-          }
-        ],
-        "synonyms": [
-          "hardly",
-          "scarcely"
-        ]
-      }
-    ],
-    "confusion": [
-      "barley",
-      "bare",
-      "barkley",
-      "beeley"
-    ]
-  },
-  {
-    "word": "mushroom",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A fungus that typically grows in a rounded cap on a stalk.",
-        "meaning_zh_TW": "蘑菇",
-        "wrong_meaning_zh_TW": [
-          "木頭",
-          "石頭",
-          "花瓣"
-        ],
-        "examples": [
-          {
-            "sentence": "We found a [mushroom] in the forest.",
-            "translation_zh_TW": "我們在森林裡找到了一個蘑菇"
-          },
-          {
-            "sentence": "Mushrooms can be used in various dishes.",
-            "translation_zh_TW": "蘑菇可以用於各種菜餚中"
-          },
-          {
-            "sentence": "She enjoys picking [mushrooms] during the fall.",
-            "translation_zh_TW": "她在秋天喜歡採摘蘑菇"
-          }
-        ],
-        "synonyms": [
-          "fungus",
-          "toadstool"
-        ]
-      }
-    ],
-    "confusion": [
-      "mushrooming",
-      "mushrom",
-      "mushrum",
-      "mustroom"
-    ]
-  },
-  {
-    "word": "buzz",
+    "word": "connect",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To make a low, continuous humming sound.",
-        "meaning_zh_TW": "發出嗡嗡聲",
+        "meaning_en_US": "To join together or establish a relationship between.",
+        "meaning_zh_TW": "連接或建立關係",
         "wrong_meaning_zh_TW": [
-          "靜音",
-          "安靜",
-          "沉默"
+          "分開、隔離",
+          "固定、停止",
+          "隱藏、隱蔽"
         ],
         "examples": [
           {
-            "sentence": "Bees [buzz] around the flowers in the garden.",
-            "translation_zh_TW": "蜜蜂在花園裡的花朵間嗡嗡作響。"
+            "sentence": "We need to [connect] the wires properly.",
+            "translation_zh_TW": "我們需要正確地連接這些電線"
           },
           {
-            "sentence": "I could hear the [buzz] of the city from my apartment.",
-            "translation_zh_TW": "我能聽到公寓外城市的嗡嗡聲。"
+            "sentence": "They will [connect] through video conferencing.",
+            "translation_zh_TW": "他們將通過視頻會議進行連接"
           },
           {
-            "sentence": "The excitement in the room began to [buzz] with energy.",
-            "translation_zh_TW": "房間裡的興奮感開始散發出嗡嗡的能量。"
+            "sentence": "It's important to [connect] with your audience.",
+            "translation_zh_TW": "與觀眾建立聯繫是很重要的"
           }
         ],
         "synonyms": [
-          "hum",
-          "drone"
+          "link",
+          "join"
         ]
       }
     ],
     "confusion": [
-      "buzzard",
-      "buzzy",
-      "buz",
-      "buss"
+      "collect",
+      "correct",
+      "disconnect",
+      "conject"
     ]
   },
   {
-    "word": "dinosaur",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A group of reptiles that first appeared during the late Triassic period, and were the dominant terrestrial vertebrates for over 160 million years.",
-        "meaning_zh_TW": "恐龍",
-        "wrong_meaning_zh_TW": [
-          "翼龍",
-          "古代爬行動物",
-          "大型灌木"
-        ],
-        "examples": [
-          {
-            "sentence": "The museum has a skeleton of a [dinosaur].",
-            "translation_zh_TW": "博物館有一具恐龍的骨架"
-          },
-          {
-            "sentence": "Children are fascinated by [dinosaurs].",
-            "translation_zh_TW": "孩子們對恐龍充滿好奇"
-          },
-          {
-            "sentence": "Many [dinosaurs] became extinct millions of years ago.",
-            "translation_zh_TW": "許多恐龍在數百萬年前已經滅絕"
-          }
-        ],
-        "synonyms": [
-          "reptile",
-          "prehistoric creature"
-        ]
-      }
-    ],
-    "confusion": [
-      "dinosaurian",
-      "dinasaur",
-      "dinosaurs",
-      "dinosour"
-    ]
-  },
-  {
-    "word": "exchange",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To give something and receive something of the same kind in return.",
-        "meaning_zh_TW": "交換、互換",
-        "wrong_meaning_zh_TW": [
-          "保留",
-          "抵抗",
-          "隱藏"
-        ],
-        "examples": [
-          {
-            "sentence": "They decided to [exchange] gifts at the party.",
-            "translation_zh_TW": "他們決定在派對上互換禮物。"
-          },
-          {
-            "sentence": "It's common to [exchange] pleasantries in social situations.",
-            "translation_zh_TW": "在社交場合互致問候是很常見的。"
-          },
-          {
-            "sentence": "The students will [exchange] ideas during the workshop.",
-            "translation_zh_TW": "學生們在研討會上會互換想法。"
-          }
-        ],
-        "synonyms": [
-          "swap",
-          "trade"
-        ]
-      }
-    ],
-    "confusion": [
-      "exchanging",
-      "exclaim",
-      "experience",
-      "exceed"
-    ]
-  },
-  {
-    "word": "assemble",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To bring together or gather into one place; to form a whole.",
-        "meaning_zh_TW": "組裝、集合",
-        "wrong_meaning_zh_TW": [
-          "拆解、分開",
-          "分散、解散",
-          "壞掉、毀壞"
-        ],
-        "examples": [
-          {
-            "sentence": "They will [assemble] the parts of the machine tomorrow.",
-            "translation_zh_TW": "他們明天會組裝這台機器的零件。"
-          },
-          {
-            "sentence": "We need to [assemble] before the event starts.",
-            "translation_zh_TW": "活動開始之前我們需要集合。"
-          },
-          {
-            "sentence": "The committee will [assemble] new guidelines.",
-            "translation_zh_TW": "委員會將會組織新的準則。"
-          }
-        ],
-        "synonyms": [
-          "gather",
-          "convene"
-        ]
-      }
-    ],
-    "confusion": [
-      "assembley",
-      "assmble",
-      "asamble",
-      "assmbl"
-    ]
-  },
-  {
-    "word": "import",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To bring goods or services into a country from abroad for sale.",
-        "meaning_zh_TW": "進口.",
-        "wrong_meaning_zh_TW": [
-          "進步",
-          "報導",
-          "假設"
-        ],
-        "examples": [
-          {
-            "sentence": "We need to [import] more raw materials for production.",
-            "translation_zh_TW": "我們需要進口更多的原材料以供生產。"
-          },
-          {
-            "sentence": "The government imposed tariffs on goods that are [imported].",
-            "translation_zh_TW": "政府對進口的商品徵收關稅。"
-          },
-          {
-            "sentence": "Many countries [import] luxury items from Europe.",
-            "translation_zh_TW": "許多國家從歐洲進口奢侈品。"
-          }
-        ],
-        "synonyms": [
-          "bring in",
-          "purchase from abroad"
-        ]
-      }
-    ],
-    "confusion": [
-      "export",
-      "impart",
-      "importer",
-      "impost"
-    ]
-  },
-  {
-    "word": "vacant",
+    "word": "weekly",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having no fixtures, furniture, or inhabitants; empty.",
-        "meaning_zh_TW": "空的、未佔用的",
+        "meaning_en_US": "Occurring once a week.",
+        "meaning_zh_TW": "每週的",
         "wrong_meaning_zh_TW": [
-          "忙碌的、擁擠的",
-          "富裕的、豪華的",
-          "整齊的、乾淨的"
+          "每天的",
+          "每月的",
+          "每年的"
         ],
         "examples": [
           {
-            "sentence": "The vacant lot became a community garden.",
-            "translation_zh_TW": "那片空地變成了一個社區花園。"
+            "sentence": "The magazine is published on a [weekly] basis.",
+            "translation_zh_TW": "該雜誌每週出版一次"
           },
           {
-            "sentence": "They found a vacant seat at the back of the bus.",
-            "translation_zh_TW": "他們在公交車的後面找到了空位。"
+            "sentence": "They have a [weekly] meeting every Monday.",
+            "translation_zh_TW": "他們每週一都有會議"
           },
           {
-            "sentence": "Please let me know if you find a vacant room.",
-            "translation_zh_TW": "如果你找到空房間，請告訴我。"
+            "sentence": "I check my [weekly] schedule every Friday.",
+            "translation_zh_TW": "我每週五檢查我的每週日程"
           }
         ],
         "synonyms": [
-          "empty",
-          "unoccupied",
-          "available"
+          "per week",
+          "once a week"
         ]
       }
     ],
     "confusion": [
-      "vacate",
-      "vague",
-      "vaccant",
-      "vacun"
+      "weakly",
+      "wreak",
+      "whey",
+      "weekend"
     ]
   },
   {
-    "word": "fade",
+    "word": "skip",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To gradually grow faint and disappear.",
-        "meaning_zh_TW": "消退",
+        "meaning_en_US": "To move in a light, lively manner by jumping on alternate feet.",
+        "meaning_zh_TW": "用交替的腳輕快地跳躍前進",
         "wrong_meaning_zh_TW": [
-          "聚集",
-          "增強",
-          "持續"
+          "倉促的",
+          "跳躍的",
+          "行走的"
         ],
         "examples": [
           {
-            "sentence": "The colors began to [fade] with time.",
-            "translation_zh_TW": "顏色隨著時間的推移開始消退"
+            "sentence": "The children started to [skip] down the path.",
+            "translation_zh_TW": "孩子們開始沿著小路跳著走。"
           },
           {
-            "sentence": "The sound began to [fade] into silence.",
-            "translation_zh_TW": "聲音開始消退成為寂靜"
+            "sentence": "Don't [skip] your breakfast.",
+            "translation_zh_TW": "不要跳過早餐。"
           },
           {
-            "sentence": "Feelings of sadness might [fade] away with support.",
-            "translation_zh_TW": "悲傷的感覺可能會隨著支持而消退"
+            "sentence": "She decided to [skip] the meeting.",
+            "translation_zh_TW": "她決定不參加會議。"
           }
         ],
         "synonyms": [
-          "diminish",
-          "dwindle"
+          "jump",
+          "leap"
         ]
       }
     ],
     "confusion": [
-      "fadeout",
-      "faded",
-      "fader",
-      "fadeaway"
+      "skit",
+      "skid",
+      "ship",
+      "slip"
     ]
   },
   {
-    "word": "disc",
+    "word": "vision",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A flat, round object that is often used for storage or music.",
-        "meaning_zh_TW": "圓盤",
+        "meaning_en_US": "The faculty or state of being able to see.",
+        "meaning_zh_TW": "視力、視覺",
         "wrong_meaning_zh_TW": [
-          "圓環",
-          "圓柱",
-          "錄音帶"
+          "顏色",
+          "光線",
+          "陰影"
         ],
         "examples": [
           {
-            "sentence": "She played the music from the [disc].",
-            "translation_zh_TW": "她從唱片播放音樂。"
+            "sentence": "Her [vision] was blurred after the long hours of work.",
+            "translation_zh_TW": "經過長時間的工作，她的視力模糊了。"
           },
           {
-            "sentence": "The [disc] contains important files.",
-            "translation_zh_TW": "這個光碟包含重要文件。"
+            "sentence": "He has a clear [vision] of the future.",
+            "translation_zh_TW": "他對未來有著清晰的視野。"
           },
           {
-            "sentence": "His favorite band released a new [disc].",
-            "translation_zh_TW": "他最喜愛的樂隊發行了一張新唱片。"
+            "sentence": "The doctor recommended eye exercises to improve her [vision].",
+            "translation_zh_TW": "醫生建議進行眼部運動以改善她的視力。"
           }
         ],
         "synonyms": [
-          "disk"
-        ]
-      }
-    ],
-    "confusion": [
-      "disk",
-      "discouraged",
-      "disco",
-      "discuss"
-    ]
-  },
-  {
-    "word": "journey",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An act of traveling from one place to another.",
-        "meaning_zh_TW": "旅程",
-        "wrong_meaning_zh_TW": [
-          "冒險",
-          "旅行社",
-          "地圖"
-        ],
-        "examples": [
-          {
-            "sentence": "Her [journey] took her across many countries.",
-            "translation_zh_TW": "她的旅程帶她穿越了許多國家"
-          },
-          {
-            "sentence": "Every [journey] teaches us something new.",
-            "translation_zh_TW": "每一段旅程都教會我們一些新的東西"
-          },
-          {
-            "sentence": "He documented his [journey] in a fascinating blog.",
-            "translation_zh_TW": "他在一個迷人的部落格中記錄下他的旅程"
-          }
-        ],
-        "synonyms": [
-          "trip",
-          "voyage"
-        ]
-      }
-    ],
-    "confusion": [
-      "journeys",
-      "journeying",
-      "jurney",
-      "journii"
-    ]
-  },
-  {
-    "word": "chill",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To become or make cool or cooler.",
-        "meaning_zh_TW": "冷卻",
-        "wrong_meaning_zh_TW": [
-          "加熱",
-          "煮熟",
-          "融化"
-        ],
-        "examples": [
-          {
-            "sentence": "Please [chill] the drinks before serving.",
-            "translation_zh_TW": "請在上菜前冷卻飲料"
-          },
-          {
-            "sentence": "He likes to [chill] at home on weekends.",
-            "translation_zh_TW": "他喜歡在週末在家放鬆"
-          },
-          {
-            "sentence": "Don't forget to [chill] the dessert.",
-            "translation_zh_TW": "不要忘記冷卻甜點"
-          }
-        ],
-        "synonyms": [
-          "cool",
-          "freeze"
-        ]
-      }
-    ],
-    "confusion": [
-      "chillai",
-      "chilled",
-      "chillout",
-      "chile"
-    ]
-  },
-  {
-    "word": "summit",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The highest point or peak, especially of a mountain.",
-        "meaning_zh_TW": "山峰、頂點",
-        "wrong_meaning_zh_TW": [
-          "河流",
-          "教堂",
-          "城市"
-        ],
-        "examples": [
-          {
-            "sentence": "We reached the [summit] after a long hike.",
-            "translation_zh_TW": "經過長途跋涉，我們終於到達了山峰。"
-          },
-          {
-            "sentence": "The conference will hold a [summit] of world leaders.",
-            "translation_zh_TW": "會議將舉行一場世界領袖高峰會。"
-          },
-          {
-            "sentence": "Standing at the [summit], I felt a great sense of achievement.",
-            "translation_zh_TW": "站在頂端，我感受到巨大的成就感。"
-          }
-        ],
-        "synonyms": [
-          "peak",
-          "apex",
-          "top"
+          "sight",
+          "eyesight"
         ]
       },
       {
         "type": "名詞",
-        "meaning_en_US": "A meeting or conference of leaders or experts.",
-        "meaning_zh_TW": "高峰會議",
+        "meaning_en_US": "The ability to think about or plan the future with imagination or wisdom.",
+        "meaning_zh_TW": "構想、視野",
         "wrong_meaning_zh_TW": [
-          "演講",
-          "旅游",
-          "聚會"
+          "計劃",
+          "念頭",
+          "目標"
         ],
         "examples": [
           {
-            "sentence": "The [summit] focused on climate change initiatives.",
-            "translation_zh_TW": "高峰會議專注於氣候變遷計畫。"
+            "sentence": "Great leaders possess a powerful [vision].",
+            "translation_zh_TW": "偉大的領導者擁有強大的構想。"
           },
           {
-            "sentence": "Attendees discussed various issues during the [summit].",
-            "translation_zh_TW": "與會者在高峰會議期間討論了各種問題。"
+            "sentence": "His [vision] for the community includes more green spaces.",
+            "translation_zh_TW": "他對社區的構想包括更多的綠地。"
           },
           {
-            "sentence": "The upcoming [summit] promises to be transformative.",
-            "translation_zh_TW": "即將召開的高峰會議承諾帶來變革。"
+            "sentence": "She shared her [vision] during the conference.",
+            "translation_zh_TW": "她在會議上分享了她的構想。"
           }
         ],
         "synonyms": [
-          "conference",
-          "meeting"
+          "foresight",
+          "imagination"
         ]
       }
     ],
     "confusion": [
-      "submittal",
-      "summer",
-      "summate",
-      "summoning"
+      "revision",
+      "decision",
+      "division",
+      "vison"
+    ]
+  },
+  {
+    "word": "naked",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Not clothed or covered.",
+        "meaning_zh_TW": "裸的、無覆蓋的",
+        "wrong_meaning_zh_TW": [
+          "穿著的",
+          "裝飾的",
+          "圍繞的"
+        ],
+        "examples": [
+          {
+            "sentence": "They walked on the beach with [naked] feet.",
+            "translation_zh_TW": "他們赤腳在沙灘上行走"
+          },
+          {
+            "sentence": "He felt exposed in his [naked] truth.",
+            "translation_zh_TW": "他在自己赤裸的真實中感到暴露"
+          },
+          {
+            "sentence": "The tree stood [naked] after shedding its leaves.",
+            "translation_zh_TW": "樹在落葉後光禿禿的"
+          }
+        ],
+        "synonyms": [
+          "bare",
+          "exposed"
+        ]
+      }
+    ],
+    "confusion": [
+      "nakedness",
+      "nakedly",
+      "nake",
+      "nakeded"
+    ]
+  },
+  {
+    "word": "situation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A set of conditions in which one finds oneself.",
+        "meaning_zh_TW": "情況",
+        "wrong_meaning_zh_TW": [
+          "計畫",
+          "分配",
+          "狀態"
+        ],
+        "examples": [
+          {
+            "sentence": "He was in a difficult [situation].",
+            "translation_zh_TW": "他處在一個困難的情況中。"
+          },
+          {
+            "sentence": "The [situation] requires immediate attention.",
+            "translation_zh_TW": "這種情況需要立即關注。"
+          },
+          {
+            "sentence": "In this [situation], we must stay calm.",
+            "translation_zh_TW": "在這種情況下，我們必須保持冷靜。"
+          }
+        ],
+        "synonyms": [
+          "condition",
+          "circumstance"
+        ]
+      }
+    ],
+    "confusion": [
+      "situatione",
+      "statution",
+      "situationer",
+      "situated"
+    ]
+  },
+  {
+    "word": "emergency",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A serious, unexpected, and often dangerous situation requiring immediate action.",
+        "meaning_zh_TW": "緊急情況",
+        "wrong_meaning_zh_TW": [
+          "常規",
+          "計畫",
+          "選擇"
+        ],
+        "examples": [
+          {
+            "sentence": "In case of an [emergency], call the police immediately.",
+            "translation_zh_TW": "如果發生緊急情況，請立即打電話給警察"
+          },
+          {
+            "sentence": "The evacuation plan is in place for any [emergency].",
+            "translation_zh_TW": "應急撤離計劃已經就緒"
+          },
+          {
+            "sentence": "They trained for [emergency] situations regularly.",
+            "translation_zh_TW": "他們定期接受緊急情況訓練"
+          }
+        ],
+        "synonyms": [
+          "crisis",
+          "urgent situation"
+        ]
+      }
+    ],
+    "confusion": [
+      "emergenci",
+      "emergensy",
+      "emergecy",
+      "emegency"
+    ]
+  },
+  {
+    "word": "leather",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A material made from the skin of animals, used for clothing, furniture, and accessories.",
+        "meaning_zh_TW": "皮革",
+        "wrong_meaning_zh_TW": [
+          "塑料",
+          "布料",
+          "金屬"
+        ],
+        "examples": [
+          {
+            "sentence": "She wore a beautiful [leather] jacket.",
+            "translation_zh_TW": "她穿著一件漂亮的皮革外套。"
+          },
+          {
+            "sentence": "The handbag is made from genuine [leather].",
+            "translation_zh_TW": "這個手袋是用真皮製成的。"
+          },
+          {
+            "sentence": "They sell [leather] goods at the market.",
+            "translation_zh_TW": "他們在市場上售賣皮革產品。"
+          }
+        ],
+        "synonyms": [
+          "hide",
+          "skin"
+        ]
+      }
+    ],
+    "confusion": [
+      "leathering",
+      "leathers",
+      "leatherette",
+      "lethargy"
+    ]
+  },
+  {
+    "word": "determine",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To establish, ascertain or conclude something.",
+        "meaning_zh_TW": "決定",
+        "wrong_meaning_zh_TW": [
+          "模糊",
+          "忘記",
+          "延遲"
+        ],
+        "examples": [
+          {
+            "sentence": "The committee will [determine] the best course of action.",
+            "translation_zh_TW": "委員會將決定最佳行動方案。"
+          },
+          {
+            "sentence": "You need to [determine] your priorities.",
+            "translation_zh_TW": "你需要決定你的優先事項。"
+          },
+          {
+            "sentence": "Let's [determine] the cause of the problem.",
+            "translation_zh_TW": "讓我們來決定問題的原因。"
+          }
+        ],
+        "synonyms": [
+          "decide",
+          "resolve"
+        ]
+      }
+    ],
+    "confusion": [
+      "defer",
+      "terminate",
+      "temerity",
+      "determinism"
+    ]
+  },
+  {
+    "word": "temperature",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A measure of the warmth or coldness of an object or substance with reference to a standard value.",
+        "meaning_zh_TW": "溫度",
+        "wrong_meaning_zh_TW": [
+          "濕度",
+          "氣壓",
+          "風速"
+        ],
+        "examples": [
+          {
+            "sentence": "The doctor took her [temperature] to check for fever.",
+            "translation_zh_TW": "醫生測量了她的溫度以檢查是否發燒。"
+          },
+          {
+            "sentence": "The [temperature] dropped significantly overnight.",
+            "translation_zh_TW": "夜間溫度顯著下降。"
+          },
+          {
+            "sentence": "You should keep the [temperature] stable in the fridge.",
+            "translation_zh_TW": "你應該保持冰箱內的溫度穩定。"
+          }
+        ],
+        "synonyms": [
+          "heat level",
+          "climate"
+        ]
+      }
+    ],
+    "confusion": [
+      "tempera",
+      "template",
+      "tempered",
+      "tempest"
+    ]
+  },
+  {
+    "word": "palm",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The inner surface of the hand between the wrist and the fingers.",
+        "meaning_zh_TW": "手掌",
+        "wrong_meaning_zh_TW": [
+          "腳掌",
+          "手腕",
+          "指尖"
+        ],
+        "examples": [
+          {
+            "sentence": "She held the flower in her [palm].",
+            "translation_zh_TW": "她把花放在手掌中。"
+          },
+          {
+            "sentence": "He showed the card in his open [palm].",
+            "translation_zh_TW": "他在打開的手掌中展示卡片。"
+          },
+          {
+            "sentence": "The baby's tiny hand fit perfectly in her [palm].",
+            "translation_zh_TW": "嬰兒的小手完美地合在她的手掌裡。"
+          }
+        ],
+        "synonyms": [
+          "hand surface",
+          "paw"
+        ]
+      }
+    ],
+    "confusion": [
+      "pal",
+      "palm tree",
+      "palme",
+      "palmier"
+    ]
+  },
+  {
+    "word": "scientific",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Based on or characterized by the methods and principles of science.",
+        "meaning_zh_TW": "科學的",
+        "wrong_meaning_zh_TW": [
+          "藝術的",
+          "文學的",
+          "歷史的"
+        ],
+        "examples": [
+          {
+            "sentence": "The study provided [scientific] evidence for the theory.",
+            "translation_zh_TW": "該研究為該理論提供了科學證據。"
+          },
+          {
+            "sentence": "He is known for his [scientific] contributions to biology.",
+            "translation_zh_TW": "他以對生物學的科學貢獻而聞名。"
+          },
+          {
+            "sentence": "The project aims to promote [scientific] literacy among students.",
+            "translation_zh_TW": "該項目的目標是促進學生的科學素養。"
+          }
+        ],
+        "synonyms": [
+          "empirical",
+          "systematic"
+        ]
+      }
+    ],
+    "confusion": [
+      "scientist",
+      "sensitive",
+      "scenic",
+      "scientiously"
+    ]
+  },
+  {
+    "word": "village",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A group of houses and associated buildings, larger than a hamlet and smaller than a town.",
+        "meaning_zh_TW": "村莊",
+        "wrong_meaning_zh_TW": [
+          "城市",
+          "農場",
+          "社區"
+        ],
+        "examples": [
+          {
+            "sentence": "He grew up in a small [village] surrounded by mountains.",
+            "translation_zh_TW": "他在一個被高山環繞的小村莊長大。"
+          },
+          {
+            "sentence": "The village holds an annual festival every summer.",
+            "translation_zh_TW": "該村莊每年夏天舉辦一次節日慶典。"
+          },
+          {
+            "sentence": "They moved to the village for a quieter lifestyle.",
+            "translation_zh_TW": "他們為了更安靜的生活方式搬到了村莊。"
+          }
+        ],
+        "synonyms": [
+          "hamlet",
+          "township"
+        ]
+      }
+    ],
+    "confusion": [
+      "villige",
+      "vilage",
+      "villagee",
+      "villag"
+    ]
+  },
+  {
+    "word": "amateur",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who engages in a study, sport, or other activity for enjoyment rather than for professional reasons.",
+        "meaning_zh_TW": "業餘者",
+        "wrong_meaning_zh_TW": [
+          "專業人士",
+          "賽事",
+          "高手"
+        ],
+        "examples": [
+          {
+            "sentence": "He is an [amateur] photographer.",
+            "translation_zh_TW": "他是一位業餘攝影師。"
+          },
+          {
+            "sentence": "Many [amateurs] compete in local art contests.",
+            "translation_zh_TW": "許多業餘者參加地方藝術比賽。"
+          },
+          {
+            "sentence": "She loves being an [amateur] chef.",
+            "translation_zh_TW": "她喜歡當一名業餘廚師。"
+          }
+        ],
+        "synonyms": [
+          "novice",
+          "dabbler"
+        ]
+      }
+    ],
+    "confusion": [
+      "amatuer",
+      "amatur",
+      "amatures",
+      "ameteur"
+    ]
+  },
+  {
+    "word": "oral",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to the mouth.",
+        "meaning_zh_TW": "與嘴巴有關",
+        "wrong_meaning_zh_TW": [
+          "身體的",
+          "心靈的",
+          "書面的"
+        ],
+        "examples": [
+          {
+            "sentence": "He has an [oral] exam next week.",
+            "translation_zh_TW": "他下週有一次口試。"
+          },
+          {
+            "sentence": "The doctor checked his [oral] health.",
+            "translation_zh_TW": "醫生檢查了他的口腔健康。"
+          },
+          {
+            "sentence": "She gave an [oral] presentation to the class.",
+            "translation_zh_TW": "她在班上做了一次口頭報告。"
+          }
+        ],
+        "synonyms": [
+          "verbal",
+          "spoken"
+        ]
+      }
+    ],
+    "confusion": [
+      "ovular",
+      "oralist",
+      "orally",
+      "orator"
+    ]
+  },
+  {
+    "word": "poster",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A large printed picture used for decoration or advertisement.",
+        "meaning_zh_TW": "海報",
+        "wrong_meaning_zh_TW": [
+          "畫作",
+          "標籤",
+          "圖書"
+        ],
+        "examples": [
+          {
+            "sentence": "They put up a [poster] for the concert next week.",
+            "translation_zh_TW": "他們張貼了下星期音樂會的海報"
+          },
+          {
+            "sentence": "The [poster] featured her favorite movie.",
+            "translation_zh_TW": "海報上是她最喜歡的電影"
+          },
+          {
+            "sentence": "He collected vintage [posters] from the 1980s.",
+            "translation_zh_TW": "他收集了1980年代的復古海報"
+          }
+        ],
+        "synonyms": [
+          "bill",
+          "placard"
+        ]
+      }
+    ],
+    "confusion": [
+      "posture",
+      "posterity",
+      "posters",
+      "paster"
+    ]
+  },
+  {
+    "word": "graduate",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who has successfully completed a degree program.",
+        "meaning_zh_TW": "畢業生",
+        "wrong_meaning_zh_TW": [
+          "新生",
+          "候選人",
+          "老師"
+        ],
+        "examples": [
+          {
+            "sentence": "The [graduate] received their diploma during the ceremony.",
+            "translation_zh_TW": "畢業生在典禮上領到了文憑。"
+          },
+          {
+            "sentence": "Many [graduates] seek job opportunities right after college.",
+            "translation_zh_TW": "許多畢業生在大學畢業後尋找工作機會。"
+          },
+          {
+            "sentence": "Being a [graduate] opens new doors for future careers.",
+            "translation_zh_TW": "成為畢業生為未來的職業打開了新大門。"
+          }
+        ],
+        "synonyms": [
+          "alumnus",
+          "degree holder"
+        ]
+      }
+    ],
+    "confusion": [
+      "grabbed",
+      "gradually",
+      "grade",
+      "grandgraduate"
+    ]
+  },
+  {
+    "word": "label",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A piece of paper, cloth, or other material that is attached to an object and provides information about it.",
+        "meaning_zh_TW": "標籤",
+        "wrong_meaning_zh_TW": [
+          "章程",
+          "價格",
+          "類別"
+        ],
+        "examples": [
+          {
+            "sentence": "She stuck a [label] on the box.",
+            "translation_zh_TW": "她在盒子上貼了一個標籤。"
+          },
+          {
+            "sentence": "The [label] indicates the contents of the jar.",
+            "translation_zh_TW": "標籤指示了罐子的內容物。"
+          },
+          {
+            "sentence": "Don't forget to read the [label] before using the product.",
+            "translation_zh_TW": "使用產品前別忘了閱讀標籤。"
+          }
+        ],
+        "synonyms": [
+          "tag",
+          "sticker"
+        ]
+      }
+    ],
+    "confusion": [
+      "labell",
+      "libel",
+      "labeling",
+      "labeled"
     ]
   }
 ]

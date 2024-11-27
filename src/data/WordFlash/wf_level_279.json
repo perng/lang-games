@@ -1,783 +1,783 @@
 [
   {
-    "word": "deafen",
+    "word": "vocational",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Related to a person's occupation or profession.",
+        "meaning_zh_TW": "職業的",
+        "wrong_meaning_zh_TW": [
+          "空閒",
+          "休閒的",
+          "非專業的"
+        ],
+        "examples": [
+          {
+            "sentence": "He enrolled in a [vocational] training course.",
+            "translation_zh_TW": "他報名參加了一個職業培訓課程。"
+          },
+          {
+            "sentence": "The school offers various [vocational] programs.",
+            "translation_zh_TW": "這所學校提供多種職業課程。"
+          },
+          {
+            "sentence": "She received a [vocational] certificate after her training.",
+            "translation_zh_TW": "她在培訓後獲得了一張職業證書。"
+          }
+        ],
+        "synonyms": [
+          "professional",
+          "occupational"
+        ]
+      }
+    ],
+    "confusion": [
+      "vocation",
+      "vocal",
+      "vacational",
+      "dictational"
+    ]
+  },
+  {
+    "word": "asthma",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A respiratory condition marked by spasms in the bronchi.",
+        "meaning_zh_TW": "哮喘",
+        "wrong_meaning_zh_TW": [
+          "咳嗽",
+          "平喘",
+          "入睡"
+        ],
+        "examples": [
+          {
+            "sentence": "She has been diagnosed with [asthma] since childhood.",
+            "translation_zh_TW": "她從小就被診斷為哮喘。"
+          },
+          {
+            "sentence": "Exercise can sometimes trigger her [asthma].",
+            "translation_zh_TW": "運動有時會引發她的哮喘。"
+          },
+          {
+            "sentence": "He uses an inhaler to manage his [asthma].",
+            "translation_zh_TW": "他使用吸入器來控制他的哮喘。"
+          }
+        ],
+        "synonyms": [
+          "breathing disorder",
+          "respiratory issue"
+        ]
+      }
+    ],
+    "confusion": [
+      "asthmatic",
+      "asma",
+      "aster",
+      "astiha"
+    ]
+  },
+  {
+    "word": "oriental",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to the East, especially the countries of Asia.",
+        "meaning_zh_TW": "東方的",
+        "wrong_meaning_zh_TW": [
+          "西方的",
+          "現代的",
+          "古老的"
+        ],
+        "examples": [
+          {
+            "sentence": "The museum has an [oriental] collection of art.",
+            "translation_zh_TW": "博物館有一個東方藝術的收藏。"
+          },
+          {
+            "sentence": "She specializes in [oriental] cuisine.",
+            "translation_zh_TW": "她專攻東方料理。"
+          },
+          {
+            "sentence": "The garden was designed with [oriental] elements.",
+            "translation_zh_TW": "這個花園是用東方元素設計的。"
+          }
+        ],
+        "synonyms": [
+          "Eastern",
+          "Asian"
+        ]
+      }
+    ],
+    "confusion": [
+      "orient",
+      "original",
+      "ordinary",
+      "oriented"
+    ]
+  },
+  {
+    "word": "polar",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to the North or South Pole.",
+        "meaning_zh_TW": "極地的",
+        "wrong_meaning_zh_TW": [
+          "熱帶的",
+          "城鎮的",
+          "平原的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [polar] ice caps are melting due to climate change.",
+            "translation_zh_TW": "由於氣候變化，極地冰蓋正在融化。"
+          },
+          {
+            "sentence": "Many [polar] animals have adapted to the cold.",
+            "translation_zh_TW": "許多極地動物已適應寒冷。"
+          },
+          {
+            "sentence": "The [polar] bear is a symbol of the Arctic.",
+            "translation_zh_TW": "北極熊是北極的象徵。"
+          }
+        ],
+        "synonyms": [
+          "arctic",
+          "antarctic"
+        ]
+      }
+    ],
+    "confusion": [
+      "poler",
+      "polish",
+      "pollar",
+      "pole"
+    ]
+  },
+  {
+    "word": "disable",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To make someone unable to hear.",
-        "meaning_zh_TW": "使失聰",
+        "meaning_en_US": "To make unable to do or use something.",
+        "meaning_zh_TW": "使無法使用",
         "wrong_meaning_zh_TW": [
-          "減少音量",
-          "製造噪音",
-          "隱藏聲音"
+          "取消",
+          "禁用",
+          "阻止"
         ],
         "examples": [
           {
-            "sentence": "The explosion could [deafen] anyone nearby.",
-            "translation_zh_TW": "爆炸可能會使附近的人失聰"
+            "sentence": "You can [disable] the alarm by pressing the button.",
+            "translation_zh_TW": "按下按鈕可以讓警報[取消]。"
           },
           {
-            "sentence": "His shouting was enough to [deafen] the crowd.",
-            "translation_zh_TW": "他的喊叫足以使人群失聰"
+            "sentence": "He was [disabled] after the accident.",
+            "translation_zh_TW": "事故後他[殘疾]。"
           },
           {
-            "sentence": "Loud music can [deafen] people if they listen too long.",
-            "translation_zh_TW": "如果聽太久，響亮的音樂會使人失聰"
+            "sentence": "Certain applications can be [disabled] in the settings.",
+            "translation_zh_TW": "在設定中可以[禁用]某些應用程序。"
           }
         ],
         "synonyms": [
-          "mute",
-          "stun"
+          "deactivate",
+          "incapacitate"
         ]
       }
     ],
     "confusion": [
-      "deafen",
-      "deafened",
-      "deafening",
-      "defen"
+      "disassemble",
+      "displace",
+      "disclose",
+      "disband"
     ]
   },
   {
-    "word": "harassment",
+    "word": "sociology",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "Aggressive pressure or intimidation.",
-        "meaning_zh_TW": "騷擾",
+        "meaning_en_US": "The study of the development, structure, and functioning of human society.",
+        "meaning_zh_TW": "社會學",
         "wrong_meaning_zh_TW": [
-          "獎勵",
-          "協助",
-          "歡迎"
+          "心理學",
+          "人類學",
+          "政治學"
         ],
         "examples": [
           {
-            "sentence": "The company has a strict policy against [harassment].",
-            "translation_zh_TW": "該公司有嚴格的政策來抵制騷擾。"
+            "sentence": "She decided to major in [sociology] because she is fascinated by social interactions.",
+            "translation_zh_TW": "她決定主修社會學，因為她對社會互動非常著迷。"
           },
           {
-            "sentence": "She filed a complaint about the harassment she faced.",
-            "translation_zh_TW": "她對所遭受的騷擾提出了投訴。"
+            "sentence": "Understanding [sociology] can help us address social issues.",
+            "translation_zh_TW": "了解社會學可以幫助我們解決社會問題。"
           },
           {
-            "sentence": "Harassment can create a hostile work environment.",
-            "translation_zh_TW": "騷擾會造成敵意的工作環境。"
+            "sentence": "He is conducting research in [sociology] on family dynamics.",
+            "translation_zh_TW": "他正在進行關於家庭動態的社會學研究。"
           }
         ],
         "synonyms": [
-          "intimidation",
-          "bullying"
+          "social studies",
+          "anthropology"
         ]
       }
     ],
     "confusion": [
-      "harass",
-      "harrassment",
-      "hairassment",
-      "hardship"
+      "socioloy",
+      "socioly",
+      "sicoslogy",
+      "sociolgy"
     ]
   },
   {
-    "word": "logo",
+    "word": "terrace",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A symbol or design adopted by an organization to identify its products.",
-        "meaning_zh_TW": "標誌",
+        "meaning_en_US": "A raised, flat area, often used for recreation or as a garden.",
+        "meaning_zh_TW": "陽台",
         "wrong_meaning_zh_TW": [
-          "海報",
-          "名片",
-          "商標"
+          "餐具",
+          "土耳其",
+          "舊衣服"
         ],
         "examples": [
           {
-            "sentence": "The new [logo] represents our brand's commitment to sustainability.",
-            "translation_zh_TW": "這個新標誌代表了我們品牌對可持續性的承諾。"
+            "sentence": "We had dinner on the [terrace] overlooking the river.",
+            "translation_zh_TW": "我們在俯瞰河流的陽台上吃晚餐。"
           },
           {
-            "sentence": "They redesigned their company [logo] for a modern look.",
-            "translation_zh_TW": "他們為了現代感重新設計了公司的標誌。"
+            "sentence": "The flowers bloomed beautifully on the [terrace].",
+            "translation_zh_TW": "花在陽台上美麗地綻放。"
           },
           {
-            "sentence": "Every product has the company [logo] on it.",
-            "translation_zh_TW": "每個產品上都有公司的標誌。"
+            "sentence": "He enjoys reading his book on the [terrace] in the morning.",
+            "translation_zh_TW": "他喜歡在早晨的陽台上讀書。"
           }
         ],
         "synonyms": [
-          "emblem",
-          "insignia"
+          "veranda",
+          "deck"
         ]
       }
     ],
     "confusion": [
-      "logo",
-      "log",
-      "logon",
-      "logoff"
+      "terrace",
+      "tears",
+      "terror",
+      "terrible"
     ]
   },
   {
-    "word": "jolly",
+    "word": "finite",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Happy and cheerful; full of good humor.",
-        "meaning_zh_TW": "快樂的",
+        "meaning_en_US": "Having limits or bounds.",
+        "meaning_zh_TW": "有限的",
         "wrong_meaning_zh_TW": [
-          "愁悶的",
-          "緊張的",
-          "沉重的"
+          "無限的",
+          "廣泛的",
+          "空間的"
         ],
         "examples": [
           {
-            "sentence": "They had a [jolly] time at the party.",
-            "translation_zh_TW": "他們在派對上過得很快樂。"
+            "sentence": "The resources are [finite], so we must use them wisely.",
+            "translation_zh_TW": "資源是有限的，因此我們必須明智地使用它們"
           },
           {
-            "sentence": "The children were in a [jolly] mood during the holidays.",
-            "translation_zh_TW": "假期期間，孩子們心情愉快。"
+            "sentence": "There is a [finite] number of solutions to this problem.",
+            "translation_zh_TW": "這個問題有有限的解決方案"
           },
           {
-            "sentence": "His [jolly] laughter filled the room.",
-            "translation_zh_TW": "他快樂的笑聲充滿了整個房間。"
+            "sentence": "Understanding our [finite] existence can lead to deeper insights.",
+            "translation_zh_TW": "理解我們有限的存在可以帶來更深刻的見解"
           }
         ],
         "synonyms": [
-          "cheerful",
-          "merry"
+          "limited",
+          "restricted"
         ]
       }
     ],
     "confusion": [
-      "jollly",
-      "jollyness",
-      "jollily",
-      "jollies"
+      "infinite",
+      "finite state",
+      "finite difference",
+      "finance"
     ]
   },
   {
-    "word": "imminent",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "About to happen or likely to occur in the near future.",
-        "meaning_zh_TW": "即將發生的",
-        "wrong_meaning_zh_TW": [
-          "遙遠的",
-          "過期的",
-          "已經發生的"
-        ],
-        "examples": [
-          {
-            "sentence": "The storm is [imminent], so we should seek shelter.",
-            "translation_zh_TW": "暴風雨即將來臨，所以我們應該尋找庇護。"
-          },
-          {
-            "sentence": "His resignation was [imminent] after the scandal broke.",
-            "translation_zh_TW": "在醜聞爆發後，他的辭職即將發生。"
-          },
-          {
-            "sentence": "The company faces an [imminent] financial crisis.",
-            "translation_zh_TW": "該公司面臨著即將到來的財務危機。"
-          }
-        ],
-        "synonyms": [
-          "urgent",
-          "impending"
-        ]
-      }
-    ],
-    "confusion": [
-      "immanent",
-      "imminentcy",
-      "inminent",
-      "imminence"
-    ]
-  },
-  {
-    "word": "oath",
+    "word": "latitude",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A solemn promise, often invoking a divine witness, regarding one's future action or behavior.",
-        "meaning_zh_TW": "誓言",
+        "meaning_en_US": "The angular distance of a place north or south of the Earth's equator.",
+        "meaning_zh_TW": "緯度",
         "wrong_meaning_zh_TW": [
-          "闡述",
-          "妨礙",
-          "懶惰"
+          "經度",
+          "高度",
+          "距離"
         ],
         "examples": [
           {
-            "sentence": "He took an [oath] to serve and protect his country.",
-            "translation_zh_TW": "他宣誓服務和保護他的國家。"
+            "sentence": "The city is located at a latitude of 40 degrees.",
+            "translation_zh_TW": "這座城市位於40度的緯度。"
           },
           {
-            "sentence": "The witness made an [oath] before the court.",
-            "translation_zh_TW": "證人在法庭上宣誓。"
+            "sentence": "Latitude affects the climate of a region.",
+            "translation_zh_TW": "緯度影響一個地區的氣候。"
           },
           {
-            "sentence": "An [oath] of loyalty is common in many cultures.",
-            "translation_zh_TW": "忠誠的誓言在許多文化中是很常見的。"
+            "sentence": "You can find the latitude on a map.",
+            "translation_zh_TW": "你可以在地圖上找到緯度。"
           }
         ],
         "synonyms": [
-          "vow",
-          "pledge"
+          "parallel",
+          "degree"
         ]
       }
     ],
     "confusion": [
-      "oaths",
-      "oth",
-      "othas",
-      "oathes"
+      "longitude",
+      "lattitude",
+      "latitudinal",
+      "latency"
     ]
   },
   {
-    "word": "rivalry",
+    "word": "mistress",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The state of having competition or opposing interests.",
-        "meaning_zh_TW": "競爭",
+        "meaning_en_US": "A woman having control or authority; often used to refer to a woman in a position of power or as a partner in a romantic relationship outside of marriage.",
+        "meaning_zh_TW": "情婦",
         "wrong_meaning_zh_TW": [
-          "友誼",
-          "安靜",
-          "合作"
+          "妻子",
+          "女兒",
+          "朋友"
         ],
         "examples": [
           {
-            "sentence": "The [rivalry] between the two teams has grown intense.",
-            "translation_zh_TW": "這兩隊之間的競爭已變得激烈。"
+            "sentence": "He introduced her as his [mistress] at the party.",
+            "translation_zh_TW": "他在派對上介紹她為他的情婦。"
           },
           {
-            "sentence": "Their [rivalry] dates back to their school days.",
-            "translation_zh_TW": "他們的競爭可追溯到學校時代。"
+            "sentence": "The artist had a long-term [mistress] who inspired many of his works.",
+            "translation_zh_TW": "這位藝術家有一位長期的情婦，她啟發了他的許多作品。"
           },
           {
-            "sentence": "The [rivalry] in the market led to lower prices for consumers.",
-            "translation_zh_TW": "市場上的競爭導致消費者價格下降。"
+            "sentence": "The story tells of a [mistress] in a forbidden love.",
+            "translation_zh_TW": "這個故事講述了一個禁忌之愛的情婦。"
           }
         ],
         "synonyms": [
-          "competitiveness",
-          "contention"
+          "lover",
+          "paramour"
         ]
       }
     ],
     "confusion": [
-      "rival",
-      "revelry",
-      "reality",
-      "revival"
-    ]
-  },
-  {
-    "word": "Africa",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The second largest continent, home to a diverse range of cultures and languages.",
-        "meaning_zh_TW": "非洲",
-        "wrong_meaning_zh_TW": [
-          "亞洲",
-          "南極洲",
-          "北美洲"
-        ],
-        "examples": [
-          {
-            "sentence": "Africa is known for its rich wildlife.",
-            "translation_zh_TW": "非洲以其豐富的野生動植物而聞名。"
-          },
-          {
-            "sentence": "Many languages are spoken in [Africa].",
-            "translation_zh_TW": "在非洲講著許多語言。"
-          },
-          {
-            "sentence": "Traveling through [Africa] can be an incredible experience.",
-            "translation_zh_TW": "在非洲旅行可能是一個令人難以置信的經歷。"
-          }
-        ],
-        "synonyms": [
-          "continent",
-          "region"
-        ]
-      }
-    ],
-    "confusion": [
-      "Afrika",
-      "Africe",
-      "Aferica",
-      "Afica"
-    ]
-  },
-  {
-    "word": "gospel",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The teaching or revelation of Christ.",
-        "meaning_zh_TW": "福音",
-        "wrong_meaning_zh_TW": [
-          "福氣",
-          "擁護者",
-          "歌詞"
-        ],
-        "examples": [
-          {
-            "sentence": "They preached the [gospel] to the crowd.",
-            "translation_zh_TW": "他們向人群傳播福音"
-          },
-          {
-            "sentence": "The [gospel] is a source of hope.",
-            "translation_zh_TW": "福音是希望的來源"
-          },
-          {
-            "sentence": "Many songs are written about the [gospel].",
-            "translation_zh_TW": "許多歌曲是關於福音的"
-          }
-        ],
-        "synonyms": [
-          "good news",
-          "teaching"
-        ]
-      }
-    ],
-    "confusion": [
-      "gossamer",
-      "gopher",
-      "goblet",
-      "gossip"
-    ]
-  },
-  {
-    "word": "Malaysia",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A Southeast Asian country located partly on a peninsula of the Asian mainland and partly on the island of Borneo.",
-        "meaning_zh_TW": "馬來西亞",
-        "wrong_meaning_zh_TW": [
-          "馬拉松",
-          "馬賽克",
-          "馬片"
-        ],
-        "examples": [
-          {
-            "sentence": "I want to explore the jungles of [Malaysia].",
-            "translation_zh_TW": "我想探索馬來西亞的叢林。"
-          },
-          {
-            "sentence": "[Malaysia] is known for its biodiversity.",
-            "translation_zh_TW": "馬來西亞因其生物多樣性而聞名。"
-          },
-          {
-            "sentence": "The Petronas Towers are in [Malaysia].",
-            "translation_zh_TW": "雙子塔位於馬來西亞。"
-          }
-        ],
-        "synonyms": [
-          "Federation of Malaysia",
-          "Malay Peninsula"
-        ]
-      }
-    ],
-    "confusion": [
-      "Malaysia",
-      "Malayasia",
-      "Malysia",
-      "Malesia"
-    ]
-  },
-  {
-    "word": "fragrant",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Having a pleasant or sweet smell.",
-        "meaning_zh_TW": "芳香的",
-        "wrong_meaning_zh_TW": [
-          "刺鼻的",
-          "無味的",
-          "臭氣熏天"
-        ],
-        "examples": [
-          {
-            "sentence": "The garden was filled with [fragrant] flowers.",
-            "translation_zh_TW": "花園裡布滿了芳香的花卉"
-          },
-          {
-            "sentence": "She wore a [fragrant] perfume.",
-            "translation_zh_TW": "她噴上了芳香的香水"
-          },
-          {
-            "sentence": "The [fragrant] aroma of coffee filled the air.",
-            "translation_zh_TW": "空中瀰漫著芳香的咖啡香氣"
-          }
-        ],
-        "synonyms": [
-          "aromatic",
-          "sweet-smelling"
-        ]
-      }
-    ],
-    "confusion": [
-      "frustrant",
-      "frugal",
-      "fragment",
-      "frequent"
-    ]
-  },
-  {
-    "word": "extracurricular",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Activities not falling within the regular curriculum of a school or college.",
-        "meaning_zh_TW": "課外的",
-        "wrong_meaning_zh_TW": [
-          "課堂的",
-          "必修的",
-          "核心的"
-        ],
-        "examples": [
-          {
-            "sentence": "She participates in several [extracurricular] activities.",
-            "translation_zh_TW": "她參加了幾項[課外]活動。"
-          },
-          {
-            "sentence": "The school encourages [extracurricular] involvement.",
-            "translation_zh_TW": "學校鼓勵[課外]參與。"
-          },
-          {
-            "sentence": "He excels in [extracurricular] sports.",
-            "translation_zh_TW": "他在[課外]運動上表現突出。"
-          }
-        ],
-        "synonyms": [
-          "enrichment",
-          "after-school",
-          "supplementary"
-        ]
-      }
-    ],
-    "confusion": [
-      "extra",
-      "extraordinaire",
-      "extravagant",
-      "extrapolate"
-    ]
-  },
-  {
-    "word": "mastery",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Comprehensive knowledge or skill in a subject or activity.",
-        "meaning_zh_TW": "精通",
-        "wrong_meaning_zh_TW": [
-          "製造",
-          "鍛煉",
-          "考試"
-        ],
-        "examples": [
-          {
-            "sentence": "His [mastery] of the guitar is impressive.",
-            "translation_zh_TW": "他對吉他的精通令人印象深刻。"
-          },
-          {
-            "sentence": "Achieving [mastery] in a language takes time and practice.",
-            "translation_zh_TW": "在一門語言中達到精通需要時間和練習。"
-          },
-          {
-            "sentence": "She showed great [mastery] in her craft.",
-            "translation_zh_TW": "她在自己的技藝上顯示出極大的精通。"
-          }
-        ],
-        "synonyms": [
-          "expertise",
-          "proficiency"
-        ]
-      }
-    ],
-    "confusion": [
-      "mystery",
       "master",
-      "mistreat",
-      "masterpiece"
+      "mister",
+      "mistressful",
+      "missed"
     ]
   },
   {
-    "word": "heroic",
+    "word": "synthetic",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Having the characteristics of a hero; courageous.",
-        "meaning_zh_TW": "英勇的",
+        "meaning_en_US": "Made by chemical synthesis, especially to imitate a natural product.",
+        "meaning_zh_TW": "合成的",
         "wrong_meaning_zh_TW": [
-          "懦弱的",
-          "普通的",
-          "可怕的"
+          "自然的",
+          "隨機的",
+          "虛構的"
         ],
         "examples": [
           {
-            "sentence": "The firefighter's [heroic] actions saved many lives.",
-            "translation_zh_TW": "消防員的英勇行為拯救了許多生命"
+            "sentence": "The fabric is made of [synthetic] fibers.",
+            "translation_zh_TW": "這種布料是由合成纖維製成的。"
           },
           {
-            "sentence": "Her [heroic] efforts in the face of danger inspired everyone.",
-            "translation_zh_TW": "她在危險面前的英勇努力激勵了每個人"
+            "sentence": "They studied [synthetic] materials in chemistry class.",
+            "translation_zh_TW": "他們在化學課上研究合成材料。"
           },
           {
-            "sentence": "He made a [heroic] stand against injustice.",
-            "translation_zh_TW": "他對抗不公的行為是英勇的"
+            "sentence": "Many [synthetic] drugs have side effects.",
+            "translation_zh_TW": "許多合成藥物有副作用。"
           }
         ],
         "synonyms": [
-          "courageous",
-          "valiant"
+          "artificial",
+          "man-made"
         ]
       }
     ],
     "confusion": [
-      "heroin",
-      "heroicly",
-      "heroics",
-      "heros"
+      "synthetics",
+      "sythetic",
+      "syntasize",
+      "synthax"
     ]
   },
   {
-    "word": "blonde",
+    "word": "breakdown",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person, especially a woman, with fair or light-colored hair.",
-        "meaning_zh_TW": "金髮女性",
+        "meaning_en_US": "A failure to undergo a process or function properly.",
+        "meaning_zh_TW": "故障",
         "wrong_meaning_zh_TW": [
-          "棕髮女性",
-          "黑髮女性",
-          "染髮女性"
+          "成功",
+          "溝通",
+          "轉變"
         ],
         "examples": [
           {
-            "sentence": "She is a natural blonde.",
-            "translation_zh_TW": "她是天生金髮。"
+            "sentence": "The car had a [breakdown] on the highway.",
+            "translation_zh_TW": "汽車在高速公路上發生了故障"
           },
           {
-            "sentence": "Many people admire blonde celebrities.",
-            "translation_zh_TW": "許多人崇拜金髮名人。"
+            "sentence": "She experienced an emotional [breakdown].",
+            "translation_zh_TW": "她經歷了情緒崩潰"
           },
           {
-            "sentence": "The blonde in the movie had an interesting role.",
-            "translation_zh_TW": "電影中的金髮女性有一個有趣的角色。"
+            "sentence": "The [breakdown] of negotiations was unexpected.",
+            "translation_zh_TW": "談判的崩潰是意想不到的"
           }
         ],
         "synonyms": [
-          "fair-haired",
-          "light-haired"
+          "failure",
+          "collapse"
         ]
       }
     ],
     "confusion": [
-      "blond",
-      "blon",
-      "blondee",
-      "blondey"
+      "breakdown",
+      "breakthrough",
+      "breakfast",
+      "breakup"
     ]
   },
   {
-    "word": "glamour",
+    "word": "vaccine",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The attractive or exciting quality that makes certain people or things seem appealing.",
-        "meaning_zh_TW": "魅力",
+        "meaning_en_US": "A substance used to stimulate the production of antibodies and provide immunity against one or several diseases.",
+        "meaning_zh_TW": "疫苗",
         "wrong_meaning_zh_TW": [
-          "枯燥",
-          "陰暗",
-          "無聊"
+          "藥物",
+          "注射針",
+          "噴霧"
         ],
         "examples": [
           {
-            "sentence": "The [glamour] of the fashion industry is captivating.",
-            "translation_zh_TW": "時尚界的魅力令人著迷。"
+            "sentence": "The [vaccine] was developed to fight the virus.",
+            "translation_zh_TW": "這種疫苗是為了對抗病毒而開發的"
           },
           {
-            "sentence": "She was drawn to the [glamour] of Hollywood.",
-            "translation_zh_TW": "她被好萊塢的魅力所吸引。"
+            "sentence": "Getting the [vaccine] can help prevent the disease.",
+            "translation_zh_TW": "接種疫苗可以幫助預防疾病"
           },
           {
-            "sentence": "There is a certain [glamour] in luxury travel.",
-            "translation_zh_TW": "豪華旅行中有一種特定的魅力。"
+            "sentence": "She received her [vaccine] at the clinic yesterday.",
+            "translation_zh_TW": "她昨天在診所接種了疫苗"
           }
         ],
         "synonyms": [
-          "charm",
-          "fascination"
+          "immunization",
+          "inoculation"
         ]
       }
     ],
     "confusion": [
-      "glamourous",
-      "glamourize",
-      "glamourist",
-      "glamor"
+      "vaccination",
+      "vacuum",
+      "vaccines",
+      "vacin"
     ]
   },
   {
-    "word": "dispose",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "Get rid of by throwing away or giving or selling to someone else.",
-        "meaning_zh_TW": "處置",
-        "wrong_meaning_zh_TW": [
-          "保留",
-          "獲得",
-          "提供"
-        ],
-        "examples": [
-          {
-            "sentence": "He decided to [dispose] of the old furniture.",
-            "translation_zh_TW": "他決定處置那些舊家具。"
-          },
-          {
-            "sentence": "You should [dispose] of waste responsibly.",
-            "translation_zh_TW": "你應該負責任地處理廢物。"
-          },
-          {
-            "sentence": "Please [dispose] of any trash in the bin.",
-            "translation_zh_TW": "請將任何垃圾處置進垃圾桶中。"
-          }
-        ],
-        "synonyms": [
-          "discard",
-          "throw away"
-        ]
-      }
-    ],
-    "confusion": [
-      "disposal",
-      "disposable",
-      "disposeable",
-      "disposably"
-    ]
-  },
-  {
-    "word": "ordeal",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A painful or horrific experience, especially a protracted one.",
-        "meaning_zh_TW": "苦難經歷",
-        "wrong_meaning_zh_TW": [
-          "美味佳餚",
-          "簡單任務",
-          "心靈旅程"
-        ],
-        "examples": [
-          {
-            "sentence": "The hike turned into a real [ordeal] when the weather changed.",
-            "translation_zh_TW": "當天氣變化時，這次遠足變成了真正的苦難經歷。"
-          },
-          {
-            "sentence": "She said that her recovery was an [ordeal] that tested her strength.",
-            "translation_zh_TW": "她說她的康復是一次考驗她力量的苦難經歷。"
-          },
-          {
-            "sentence": "Surviving that storm was an [ordeal] none of us will forget.",
-            "translation_zh_TW": "在那場風暴中生存是我們都無法忘記的苦難經歷。"
-          }
-        ],
-        "synonyms": [
-          "trial",
-          "affliction"
-        ]
-      }
-    ],
-    "confusion": [
-      "ideal",
-      "reveal",
-      "mode",
-      "model"
-    ]
-  },
-  {
-    "word": "courtyard",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "An area fully or partially enclosed by the walls of a building.",
-        "meaning_zh_TW": "庭院",
-        "wrong_meaning_zh_TW": [
-          "公寓",
-          "車庫",
-          "塗鴉"
-        ],
-        "examples": [
-          {
-            "sentence": "The children played in the [courtyard].",
-            "translation_zh_TW": "孩子們在庭院裡玩耍。"
-          },
-          {
-            "sentence": "They decorated the [courtyard] for the festival.",
-            "translation_zh_TW": "他們為節日裝飾了庭院。"
-          },
-          {
-            "sentence": "She enjoyed her coffee in the [courtyard].",
-            "translation_zh_TW": "她在庭院裡喝咖啡。"
-          }
-        ],
-        "synonyms": [
-          "yard",
-          "patio"
-        ]
-      }
-    ],
-    "confusion": [
-      "court",
-      "courier",
-      "courage",
-      "courtesy"
-    ]
-  },
-  {
-    "word": "eccentric",
+    "word": "robust",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Unconventional and slightly strange.",
-        "meaning_zh_TW": "古怪的",
+        "meaning_en_US": "Strong and healthy; vigorous.",
+        "meaning_zh_TW": "強健的",
         "wrong_meaning_zh_TW": [
-          "普通的",
-          "冷靜的",
-          "尋常的"
+          "脆弱的",
+          "老年的",
+          "幼稚的"
         ],
         "examples": [
           {
-            "sentence": "His [eccentric] behavior made him stand out.",
-            "translation_zh_TW": "他古怪的行為讓他脫穎而出。"
+            "sentence": "The [robust] design of the furniture makes it last for years.",
+            "translation_zh_TW": "這種強健的家具設計使其持久數年。"
           },
           {
-            "sentence": "She wore an [eccentric] outfit to the party.",
-            "translation_zh_TW": "她穿著一套古怪的服裝參加派對。"
+            "sentence": "He has a [robust] physique from his years of training.",
+            "translation_zh_TW": "他因多年訓練而擁有強健的體格。"
           },
           {
-            "sentence": "The artist is known for his [eccentric] style.",
-            "translation_zh_TW": "這位藝術家以其古怪的風格而聞名。"
+            "sentence": "A [robust] economy is crucial for stability.",
+            "translation_zh_TW": "穩定的經濟對於穩定至關重要。"
           }
         ],
         "synonyms": [
-          "quirky",
-          "unusual"
+          "sturdy",
+          "vigorous"
         ]
       }
     ],
     "confusion": [
-      "eccentricity",
-      "electric",
-      "erratic",
-      "eclectic"
+      "robustly",
+      "robot",
+      "rubust",
+      "reboot"
+    ]
+  },
+  {
+    "word": "porter",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person employed to carry luggage and other loads.",
+        "meaning_zh_TW": "搬運工",
+        "wrong_meaning_zh_TW": [
+          "郵差",
+          "賣家",
+          "警衛"
+        ],
+        "examples": [
+          {
+            "sentence": "The [porter] helped us with our bags at the hotel.",
+            "translation_zh_TW": "搬運工在酒店幫我們提行李。"
+          },
+          {
+            "sentence": "You can ask the [porter] to bring your suitcase to your room.",
+            "translation_zh_TW": "你可以請搬運工把你的行李拿到你的房間。"
+          },
+          {
+            "sentence": "Every [porter] at the station is required to wear a uniform.",
+            "translation_zh_TW": "車站的每位搬運工都需要穿制服。"
+          }
+        ],
+        "synonyms": [
+          "carrier",
+          "loader",
+          "bellhop"
+        ]
+      }
+    ],
+    "confusion": [
+      "port",
+      "poter",
+      "portal",
+      "porterage"
+    ]
+  },
+  {
+    "word": "geographical",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Related to geography.",
+        "meaning_zh_TW": "地理的",
+        "wrong_meaning_zh_TW": [
+          "歷史的",
+          "科學的",
+          "數學的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [geographical] features of the region are stunning.",
+            "translation_zh_TW": "這個地區的地理特徵令人驚嘆。"
+          },
+          {
+            "sentence": "We studied the [geographical] distribution of the species.",
+            "translation_zh_TW": "我們研究了該物種的地理分佈。"
+          },
+          {
+            "sentence": "Her knowledge of [geographical] facts is impressive.",
+            "translation_zh_TW": "她對地理事實的知識令人印象深刻。"
+          }
+        ],
+        "synonyms": [
+          "topographical",
+          "cartographic"
+        ]
+      }
+    ],
+    "confusion": [
+      "geography",
+      "geographicaly",
+      "geografic",
+      "geofraphy"
+    ]
+  },
+  {
+    "word": "aboriginal",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Relating to the original inhabitants of a region.",
+        "meaning_zh_TW": "土著的",
+        "wrong_meaning_zh_TW": [
+          "外來的",
+          "先進的",
+          "當代的"
+        ],
+        "examples": [
+          {
+            "sentence": "The [aboriginal] tribes have unique cultures.",
+            "translation_zh_TW": "土著部落擁有獨特的文化。"
+          },
+          {
+            "sentence": "He studies [aboriginal] art and its significance.",
+            "translation_zh_TW": "他研究土著藝術及其意義。"
+          },
+          {
+            "sentence": "The [aboriginal] language is endangered.",
+            "translation_zh_TW": "這種土著語言瀕臨絕種。"
+          }
+        ],
+        "synonyms": [
+          "indigenous",
+          "native"
+        ]
+      }
+    ],
+    "confusion": [
+      "aboriginals",
+      "aborginal",
+      "abortional",
+      "aberrational"
+    ]
+  },
+  {
+    "word": "rotation",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The act of rotating; a circular movement.",
+        "meaning_zh_TW": "旋轉",
+        "wrong_meaning_zh_TW": [
+          "回歸",
+          "偏離",
+          "消失"
+        ],
+        "examples": [
+          {
+            "sentence": "The planet's [rotation] is responsible for day and night.",
+            "translation_zh_TW": "行星的旋轉造成了日夜變化。"
+          },
+          {
+            "sentence": "We measure the [rotation] of the wheel in revolutions per minute.",
+            "translation_zh_TW": "我們以每分鐘的轉數來測量輪子的旋轉。"
+          },
+          {
+            "sentence": "The [rotation] of crops improves soil health.",
+            "translation_zh_TW": "輪作能改善土壤健康。"
+          }
+        ],
+        "synonyms": [
+          "turning",
+          "spinning"
+        ]
+      }
+    ],
+    "confusion": [
+      "rotary",
+      "rotatione",
+      "locate",
+      "rational"
+    ]
+  },
+  {
+    "word": "boulevard",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A wide street in a city, typically lined with trees.",
+        "meaning_zh_TW": "林蔭大道",
+        "wrong_meaning_zh_TW": [
+          "馬路",
+          "街道",
+          "小巷"
+        ],
+        "examples": [
+          {
+            "sentence": "They strolled down the [boulevard] on a sunny afternoon.",
+            "translation_zh_TW": "他們在陽光明媚的午後漫步於林蔭大道。"
+          },
+          {
+            "sentence": "The festival will be held on the main [boulevard] of the city.",
+            "translation_zh_TW": "這個節日將在城市的主要林蔭大道上舉行。"
+          },
+          {
+            "sentence": "Boulevard cafes are popular gathering spots for locals.",
+            "translation_zh_TW": "林蔭大道的咖啡館是當地人聚會的熱門場所。"
+          }
+        ],
+        "synonyms": [
+          "avenue",
+          "promenade"
+        ]
+      }
+    ],
+    "confusion": [
+      "boulanger",
+      "bullevard",
+      "bollivant",
+      "boulevardier"
+    ]
+  },
+  {
+    "word": "premiere",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The first performance of a play, film, or show.",
+        "meaning_zh_TW": "首映式",
+        "wrong_meaning_zh_TW": [
+          "演出",
+          "排練",
+          "劇本"
+        ],
+        "examples": [
+          {
+            "sentence": "The [premiere] of the movie was an extravagant event.",
+            "translation_zh_TW": "這部電影的首映式是一個奢華的事件。"
+          },
+          {
+            "sentence": "She attended the [premiere] of the latest blockbuster.",
+            "translation_zh_TW": "她參加了最新大片的首映式。"
+          },
+          {
+            "sentence": "Tickets for the [premiere] sold out quickly.",
+            "translation_zh_TW": "首映式的票很快就賣光了。"
+          }
+        ],
+        "synonyms": [
+          "debut",
+          "first showing"
+        ]
+      }
+    ],
+    "confusion": [
+      "premier",
+      "premiering",
+      "premiership",
+      "premises"
     ]
   }
 ]

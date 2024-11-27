@@ -1,41 +1,197 @@
 [
   {
-    "word": "guard",
+    "word": "ignore",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To protect from danger, harm, or loss.",
-        "meaning_zh_TW": "保護",
+        "meaning_en_US": "To refuse to take notice of or acknowledge.",
+        "meaning_zh_TW": "忽視",
         "wrong_meaning_zh_TW": [
-          "攻擊",
-          "盜竊",
-          "懷疑"
+          "注意",
+          "尊重",
+          "回應"
         ],
         "examples": [
           {
-            "sentence": "The security officer was hired to [guard] the building.",
-            "translation_zh_TW": "這名保安人員被雇用來保護這座建築"
+            "sentence": "Sometimes it's better to [ignore] the noise.",
+            "translation_zh_TW": "有時忽視噪音更好。"
           },
           {
-            "sentence": "She took steps to [guard] her privacy online.",
-            "translation_zh_TW": "她採取措施來保護她的線上隱私"
+            "sentence": "She chose to [ignore] their comments.",
+            "translation_zh_TW": "她選擇忽視他們的評論。"
           },
           {
-            "sentence": "They need to [guard] their resources carefully.",
-            "translation_zh_TW": "他們需要仔細保護他們的資源"
+            "sentence": "Don't [ignore] the signs of trouble.",
+            "translation_zh_TW": "不要忽視困難的跡象。"
           }
         ],
         "synonyms": [
-          "protect",
-          "safeguard"
+          "disregard",
+          "overlook"
         ]
       }
     ],
     "confusion": [
-      "garden",
-      "gourd",
-      "guardrail",
-      "garde"
+      "ignite",
+      "ingore",
+      "ignores",
+      "igloo"
+    ]
+  },
+  {
+    "word": "survival",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The state or fact of continuing to live or exist, especially in spite of difficult conditions.",
+        "meaning_zh_TW": "生存",
+        "wrong_meaning_zh_TW": [
+          "毀滅",
+          "輕視",
+          "過度繁榮"
+        ],
+        "examples": [
+          {
+            "sentence": "Survival in the wilderness requires skill.",
+            "translation_zh_TW": "在荒野中的生存需要技能"
+          },
+          {
+            "sentence": "Their survival depends on finding food.",
+            "translation_zh_TW": "他們的生存依賴找到食物"
+          },
+          {
+            "sentence": "He learned survival techniques during the course.",
+            "translation_zh_TW": "他在課程中學會了生存技巧"
+          }
+        ],
+        "synonyms": [
+          "existence",
+          "continuation"
+        ]
+      }
+    ],
+    "confusion": [
+      "survive",
+      "surveyor",
+      "surprised",
+      "survivalist"
+    ]
+  },
+  {
+    "word": "wake",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To cease to sleep; to become awake.",
+        "meaning_zh_TW": "醒來",
+        "wrong_meaning_zh_TW": [
+          "睡著",
+          "沉默",
+          "暴怒"
+        ],
+        "examples": [
+          {
+            "sentence": "I often [wake] up early in the morning.",
+            "translation_zh_TW": "我經常在早上醒來"
+          },
+          {
+            "sentence": "He needs an alarm clock to [wake] him up.",
+            "translation_zh_TW": "他需要鬧鐘叫醒他"
+          },
+          {
+            "sentence": "Did you [wake] him for breakfast?",
+            "translation_zh_TW": "你有叫他起床吃早餐嗎？"
+          }
+        ],
+        "synonyms": [
+          "arouse",
+          "awake"
+        ]
+      }
+    ],
+    "confusion": [
+      "woke",
+      "wave",
+      "wakeful",
+      "wkae"
+    ]
+  },
+  {
+    "word": "realize",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "Become fully aware of something as a fact; understand clearly.",
+        "meaning_zh_TW": "意識到",
+        "wrong_meaning_zh_TW": [
+          "實現目標",
+          "察覺問題",
+          "現實生活"
+        ],
+        "examples": [
+          {
+            "sentence": "I didn't [realize] how late it was.",
+            "translation_zh_TW": "我沒有意識到已經這麼晚了"
+          },
+          {
+            "sentence": "She finally [realized] her potential.",
+            "translation_zh_TW": "她終於意識到自己的潛力"
+          },
+          {
+            "sentence": "Do you [realize] what this means?",
+            "translation_zh_TW": "你意識到這意味著什麼嗎？"
+          }
+        ],
+        "synonyms": [
+          "understand",
+          "comprehend"
+        ]
+      }
+    ],
+    "confusion": [
+      "realise",
+      "realest",
+      "realizer",
+      "realizes"
+    ]
+  },
+  {
+    "word": "enemy",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person or group that is actively opposed or hostile to someone or something.",
+        "meaning_zh_TW": "敵人",
+        "wrong_meaning_zh_TW": [
+          "朋友",
+          "同夥",
+          "盟友"
+        ],
+        "examples": [
+          {
+            "sentence": "He discovered that his biggest [enemy] was himself.",
+            "translation_zh_TW": "他發現他最大的敵人就是自己。"
+          },
+          {
+            "sentence": "In the game, your [enemy] tries to thwart your progress.",
+            "translation_zh_TW": "在遊戲中，你的敵人試圖阻止你的進展。"
+          },
+          {
+            "sentence": "They have long been considered [enemies] in the political arena.",
+            "translation_zh_TW": "他們長期以來被視為政治舞台上的敵人。"
+          }
+        ],
+        "synonyms": [
+          "foe",
+          "adversary"
+        ]
+      }
+    ],
+    "confusion": [
+      "enema",
+      "enmity",
+      "enemies",
+      "ennemy"
     ]
   },
   {
@@ -78,683 +234,539 @@
     ]
   },
   {
-    "word": "impressive",
+    "word": "latter",
     "meanings": [
       {
         "type": "形容詞",
-        "meaning_en_US": "Evoking admiration through size, quality, or skill.",
-        "meaning_zh_TW": "令人印象深刻的",
+        "meaning_en_US": "Referring to the second of two things mentioned.",
+        "meaning_zh_TW": "後者的",
         "wrong_meaning_zh_TW": [
-          "普通的",
-          "不足的",
-          "平常的"
+          "前者的",
+          "首次的",
+          "優先的"
         ],
         "examples": [
           {
-            "sentence": "Her performance was truly [impressive].",
-            "translation_zh_TW": "她的表現真是令人印象深刻。"
+            "sentence": "In the comparison, the [latter] option is better.",
+            "translation_zh_TW": "在比較中，後者的選擇更好。"
           },
           {
-            "sentence": "The building's architecture is quite [impressive].",
-            "translation_zh_TW": "這棟建築的建築風格非常令人印象深刻。"
+            "sentence": "He is more interested in the [latter] idea.",
+            "translation_zh_TW": "他對後者的想法更感興趣。"
           },
           {
-            "sentence": "He gave an [impressive] speech at the conference.",
-            "translation_zh_TW": "他在會議上發表了令人印象深刻的演講。"
+            "sentence": "She prefers the [latter] of the two choices.",
+            "translation_zh_TW": "她更喜歡這兩個選擇中的後者。"
           }
         ],
         "synonyms": [
-          "remarkable",
-          "awe-inspiring"
+          "second",
+          "last"
         ]
       }
     ],
     "confusion": [
-      "impress",
-      "impulsive",
-      "impression",
-      "impressed"
+      "ladder",
+      "later",
+      "letter",
+      "latterly"
     ]
   },
   {
-    "word": "beer",
+    "word": "ease",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A fermented beverage brewed from malt and hops.",
-        "meaning_zh_TW": "啤酒",
+        "meaning_en_US": "Freedom from difficulty or discomfort.",
+        "meaning_zh_TW": "舒適",
         "wrong_meaning_zh_TW": [
-          "果汁",
-          "清水",
-          "飲料"
+          "緊張",
+          "痛苦",
+          "壓力"
         ],
         "examples": [
           {
-            "sentence": "He ordered a cold [beer] at the bar.",
-            "translation_zh_TW": "他在酒吧點了一杯冷啤酒。"
+            "sentence": "She completed the task with remarkable [ease].",
+            "translation_zh_TW": "她以顯著的輕鬆完成了這個任務。"
           },
           {
-            "sentence": "Craft [beer] has become very popular.",
-            "translation_zh_TW": "手工啤酒變得非常受歡迎。"
+            "sentence": "The new software was designed for [ease] of use.",
+            "translation_zh_TW": "這款新軟體是為了方便使用而設計的。"
           },
           {
-            "sentence": "They celebrated with [beer] and laughter.",
-            "translation_zh_TW": "他們用啤酒和笑聲慶祝。"
+            "sentence": "They lived with [ease] in their new home.",
+            "translation_zh_TW": "他們在新家裡舒適地生活。"
           }
         ],
         "synonyms": [
-          "lager",
-          "ale"
+          "comfort",
+          "relaxation"
         ]
       }
     ],
     "confusion": [
-      "beeer",
-      "bear",
-      "bier",
-      "beers"
+      "easeful",
+      "easel",
+      "easing",
+      "beasy"
     ]
   },
   {
-    "word": "army",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large organized body of armed personnel equipped for combat.",
-        "meaning_zh_TW": "軍隊",
-        "wrong_meaning_zh_TW": [
-          "空軍、海軍",
-          "攝影隊、演出團",
-          "科研團隊"
-        ],
-        "examples": [
-          {
-            "sentence": "The [army] was deployed to maintain peace.",
-            "translation_zh_TW": "軍隊被派遣維持和平。"
-          },
-          {
-            "sentence": "He served in the [army] for five years.",
-            "translation_zh_TW": "他在軍隊服役了五年。"
-          },
-          {
-            "sentence": "The [army] is well-trained for various operations.",
-            "translation_zh_TW": "軍隊對各種行動訓練有素。"
-          }
-        ],
-        "synonyms": [
-          "military",
-          "forces"
-        ]
-      }
-    ],
-    "confusion": [
-      "arm",
-      "armey",
-      "armee",
-      "arma"
-    ]
-  },
-  {
-    "word": "alone",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Not accompanied by others; on one's own.",
-        "meaning_zh_TW": "獨自的",
-        "wrong_meaning_zh_TW": [
-          "孤獨的",
-          "單一的",
-          "無助的"
-        ],
-        "examples": [
-          {
-            "sentence": "She prefers to work [alone] during her study time.",
-            "translation_zh_TW": "她喜歡在學習時間獨自工作"
-          },
-          {
-            "sentence": "Being [alone] can sometimes be peaceful.",
-            "translation_zh_TW": "獨處有時可以是平靜的"
-          },
-          {
-            "sentence": "He felt [alone] in a crowd of people.",
-            "translation_zh_TW": "在人群中他感到孤獨"
-          }
-        ],
-        "synonyms": [
-          "solitary",
-          "by oneself"
-        ]
-      }
-    ],
-    "confusion": [
-      "alon",
-      "alonne",
-      "alonely",
-      "alonee"
-    ]
-  },
-  {
-    "word": "artist",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who creates art, especially visual art.",
-        "meaning_zh_TW": "藝術家",
-        "wrong_meaning_zh_TW": [
-          "工匠",
-          "創作者",
-          "設計師"
-        ],
-        "examples": [
-          {
-            "sentence": "The [artist] painted a beautiful landscape.",
-            "translation_zh_TW": "藝術家畫了一幅美麗的風景"
-          },
-          {
-            "sentence": "She is a talented [artist] known for her sculptures.",
-            "translation_zh_TW": "她是位以雕塑聞名的才華橫溢藝術家"
-          },
-          {
-            "sentence": "The gallery features works by contemporary [artists].",
-            "translation_zh_TW": "畫廊展示當代藝術家的作品"
-          }
-        ],
-        "synonyms": [
-          "creator",
-          "painter"
-        ]
-      }
-    ],
-    "confusion": [
-      "artistes",
-      "artistc",
-      "artisit",
-      "artis"
-    ]
-  },
-  {
-    "word": "period",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A length or portion of time.",
-        "meaning_zh_TW": "時期",
-        "wrong_meaning_zh_TW": [
-          "瞬間",
-          "永恆",
-          "空間"
-        ],
-        "examples": [
-          {
-            "sentence": "She studied in that [period] of her life.",
-            "translation_zh_TW": "她在那段時期學習。"
-          },
-          {
-            "sentence": "The history class focused on the ancient [period].",
-            "translation_zh_TW": "歷史課聚焦於古代時期。"
-          },
-          {
-            "sentence": "We lived in a significant [period] of change.",
-            "translation_zh_TW": "我們生活在一個重大變革的時期。"
-          }
-        ],
-        "synonyms": [
-          "era",
-          "epoch"
-        ]
-      }
-    ],
-    "confusion": [
-      "peridot",
-      "periscope",
-      "perjury",
-      "periodical"
-    ]
-  },
-  {
-    "word": "excite",
+    "word": "appreciate",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To cause strong feelings of enthusiasm and eagerness.",
-        "meaning_zh_TW": "使興奮",
+        "meaning_en_US": "To recognize the full worth of.",
+        "meaning_zh_TW": "欣賞",
         "wrong_meaning_zh_TW": [
-          "使失望",
-          "使害怕",
-          "使安靜"
+          "計算",
+          "忽视",
+          "提升"
         ],
         "examples": [
           {
-            "sentence": "The news will [excite] the fans.",
-            "translation_zh_TW": "這消息將使球迷興奮。"
+            "sentence": "I really [appreciate] your help with the project.",
+            "translation_zh_TW": "我真的很欣賞你對這個項目的幫助。"
           },
           {
-            "sentence": "They always [excite] curiosity.",
-            "translation_zh_TW": "他們總是令人生起好奇心。"
+            "sentence": "They [appreciate] the beauty of nature.",
+            "translation_zh_TW": "他們欣賞大自然的美。"
           },
           {
-            "sentence": "The show is sure to [excite] the audience.",
-            "translation_zh_TW": "這場表演一定會使觀眾興奮。"
+            "sentence": "It's important to [appreciate] the little moments in life.",
+            "translation_zh_TW": "欣賞生活中的小時刻很重要。"
           }
         ],
         "synonyms": [
-          "energize",
-          "stimulate"
+          "value",
+          "acknowledge"
         ]
       }
     ],
     "confusion": [
-      "excited",
-      "exciting",
-      "excitement",
-      "excusable"
+      "appreciator",
+      "appriceate",
+      "apprecate",
+      "appriciate"
     ]
   },
   {
-    "word": "role",
+    "word": "hunt",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A part played by an actor or an expected behavior in a situation.",
-        "meaning_zh_TW": "角色",
+        "type": "動詞",
+        "meaning_en_US": "To search for and pursue animals for food or sport.",
+        "meaning_zh_TW": "狩獵",
         "wrong_meaning_zh_TW": [
-          "劇本",
-          "音樂",
-          "舞台"
+          "觀看",
+          "學習",
+          "繁殖"
         ],
         "examples": [
           {
-            "sentence": "She has an important [role] in the company.",
-            "translation_zh_TW": "她在公司中扮演重要角色。"
+            "sentence": "They often go [hunting] in the fall.",
+            "translation_zh_TW": "他們通常在秋天去狩獵。"
           },
           {
-            "sentence": "His [role] in the play is that of a villain.",
-            "translation_zh_TW": "他在劇中扮演反派角色。"
+            "sentence": "He loves to [hunt] deer.",
+            "translation_zh_TW": "他喜歡狩獵鹿。"
           },
           {
-            "sentence": "Understanding your [role] can help improve teamwork.",
-            "translation_zh_TW": "理解你的角色可以幫助改善團隊合作。"
+            "sentence": "We decided to [hunt] for treasure.",
+            "translation_zh_TW": "我們決定去尋找寶藏。"
           }
         ],
         "synonyms": [
-          "part",
-          "function"
+          "pursue",
+          "track"
         ]
       }
     ],
     "confusion": [
-      "roll",
-      "roleplay",
-      "roel",
-      "rolo"
+      "hunt",
+      "hunted",
+      "hunter",
+      "hunte"
     ]
   },
   {
-    "word": "origin",
+    "word": "pound",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The point or place where something begins, arises, or is derived.",
-        "meaning_zh_TW": "起源、來源",
+        "meaning_en_US": "A unit of weight equal to 16 ounces.",
+        "meaning_zh_TW": "磅",
         "wrong_meaning_zh_TW": [
-          "目的地",
-          "結果",
-          "傳統"
+          "盎司",
+          "公斤",
+          "克"
         ],
         "examples": [
           {
-            "sentence": "The [origin] of the story is based in ancient history.",
-            "translation_zh_TW": "這個故事的起源基於古代歷史。"
+            "sentence": "The package weighs five [pounds].",
+            "translation_zh_TW": "這個包裹重五磅"
           },
           {
-            "sentence": "Scientists are studying the [origin] of the universe.",
-            "translation_zh_TW": "科學家正在研究宇宙的起源。"
+            "sentence": "She lost ten [pounds] last year.",
+            "translation_zh_TW": "她去年減了十磅"
           },
           {
-            "sentence": "Her [origin] can be traced back to a small village.",
-            "translation_zh_TW": "她的來源可以追溯到一個小村莊。"
+            "sentence": "Each bag of flour costs three [pounds].",
+            "translation_zh_TW": "每袋麵粉的價格是三磅"
           }
         ],
         "synonyms": [
-          "source",
-          "beginning"
-        ]
-      }
-    ],
-    "confusion": [
-      "originate",
-      "organ",
-      "orion",
-      "orifice"
-    ]
-  },
-  {
-    "word": "master",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who has control or authority over others.",
-        "meaning_zh_TW": "主人、專家",
-        "wrong_meaning_zh_TW": [
-          "學徒、助手",
-          "學生、學者",
-          "敵人、對手"
-        ],
-        "examples": [
-          {
-            "sentence": "He is the [master] of ceremonies.",
-            "translation_zh_TW": "他是典禮主持人。"
-          },
-          {
-            "sentence": "The [master] taught me everything I know.",
-            "translation_zh_TW": "這位主人教了我所有的知識。"
-          },
-          {
-            "sentence": "She hired a [master] to train her skills.",
-            "translation_zh_TW": "她雇佣了一位專家來訓練她的技巧。"
-          }
-        ],
-        "synonyms": [
-          "leader",
-          "expert"
+          "weight unit",
+          "lb"
         ]
       },
       {
         "type": "動詞",
-        "meaning_en_US": "To be skilled in or to dominate a particular field.",
-        "meaning_zh_TW": "精通、掌握",
+        "meaning_en_US": "To strike heavily and repeatedly.",
+        "meaning_zh_TW": "重擊",
         "wrong_meaning_zh_TW": [
-          "忽視、放棄",
-          "返回、回顧",
-          "拖延、推遲"
+          "輕拍",
+          "觸碰",
+          "索絕"
         ],
         "examples": [
           {
-            "sentence": "He hopes to [master] the art of cooking.",
-            "translation_zh_TW": "他希望能精通烹飪的藝術。"
+            "sentence": "He began to [pound] the drum.",
+            "translation_zh_TW": "他開始重擊鼓"
           },
           {
-            "sentence": "She is trying to [master] her emotions.",
-            "translation_zh_TW": "她正在努力掌握自己的情感。"
+            "sentence": "The workers had to [pound] the metal into shape.",
+            "translation_zh_TW": "工人們必須重擊金屬以成型"
           },
           {
-            "sentence": "The athlete aims to [master] his sport.",
-            "translation_zh_TW": "該運動員目標是精通他的運動。"
+            "sentence": "She [pounded] the dough thoroughly.",
+            "translation_zh_TW": "她徹底將麵團打碎"
           }
         ],
         "synonyms": [
-          "conquer",
-          "dominate"
+          "hit",
+          "beat"
         ]
       }
     ],
     "confusion": [
-      "father",
-      "mastery",
-      "mister",
-      "muster"
+      "bowl",
+      "pounder",
+      "poundage",
+      "found"
     ]
   },
   {
-    "word": "nearby",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "Located a short distance away.",
-        "meaning_zh_TW": "在附近",
-        "wrong_meaning_zh_TW": [
-          "在遠處",
-          "在外面",
-          "在上面"
-        ],
-        "examples": [
-          {
-            "sentence": "There is a park [nearby].",
-            "translation_zh_TW": "附近有一個公園"
-          },
-          {
-            "sentence": "We found a restaurant [nearby].",
-            "translation_zh_TW": "我們在附近找到了一家餐廳"
-          },
-          {
-            "sentence": "The store is [nearby] and easy to access.",
-            "translation_zh_TW": "這家商店在附近，容易到達"
-          }
-        ],
-        "synonyms": [
-          "close",
-          "adjacent"
-        ]
-      }
-    ],
-    "confusion": [
-      "nearly",
-      "neater",
-      "bear",
-      "dear"
-    ]
-  },
-  {
-    "word": "control",
+    "word": "burn",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To exercise restraint or direction over; to manage or regulate.",
-        "meaning_zh_TW": "控制",
+        "meaning_en_US": "To consume with fire; to cause to be consumed by fire.",
+        "meaning_zh_TW": "燃燒",
         "wrong_meaning_zh_TW": [
-          "放縱",
-          "指揮官",
-          "推薦"
+          "冷卻",
+          "注入",
+          "堆放"
         ],
         "examples": [
           {
-            "sentence": "She tried to [control] her emotions during the meeting.",
-            "translation_zh_TW": "她試圖在會議中控制自己的情緒。"
+            "sentence": "Be careful not to [burn] yourself while cooking.",
+            "translation_zh_TW": "煮飯時小心不要燙到自己。"
           },
           {
-            "sentence": "He needed to [control] the temperature while cooking.",
-            "translation_zh_TW": "他在烹飪時需要控制溫度。"
+            "sentence": "The candle will [burn] for hours.",
+            "translation_zh_TW": "這根蠟燭會燃燒幾個小時。"
           },
           {
-            "sentence": "It's important to [control] your spending habits.",
-            "translation_zh_TW": "控制你的消費習慣是很重要的。"
+            "sentence": "She saw the paper [burn] quickly in the flame.",
+            "translation_zh_TW": "她看到紙張在火焰中迅速燃燒。"
           }
         ],
         "synonyms": [
-          "manage",
-          "regulate"
+          "scorch",
+          "flame"
         ]
-      },
+      }
+    ],
+    "confusion": [
+      "burrn",
+      "burns",
+      "burnn",
+      "bourn"
+    ]
+  },
+  {
+    "word": "ourselves",
+    "meanings": [
+      {
+        "type": "代詞",
+        "meaning_en_US": "Used we as the object of a verb or preposition to refer to the speaker and one or more other people.",
+        "meaning_zh_TW": "我們自己",
+        "wrong_meaning_zh_TW": [
+          "他們自己",
+          "你們自己",
+          "她們自己"
+        ],
+        "examples": [
+          {
+            "sentence": "We need to believe in [ourselves].",
+            "translation_zh_TW": "我們需要相信我們自己。"
+          },
+          {
+            "sentence": "Let's take care of [ourselves].",
+            "translation_zh_TW": "讓我們照顧好自己。"
+          },
+          {
+            "sentence": "[Ourselves] are our own worst critics.",
+            "translation_zh_TW": "我們自己是自己最嚴厲的批評者。"
+          }
+        ],
+        "synonyms": [
+          "we",
+          "us"
+        ]
+      }
+    ],
+    "confusion": [
+      "ours",
+      "other selves",
+      "ourselves*",
+      "ourself"
+    ]
+  },
+  {
+    "word": "conversation",
+    "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The power to influence or direct people's behavior or the course of events.",
-        "meaning_zh_TW": "控制力",
+        "meaning_en_US": "A spoken exchange of thoughts, ideas, or feelings.",
+        "meaning_zh_TW": "對話",
         "wrong_meaning_zh_TW": [
-          "獨立性",
-          "自由意志",
-          "周圍環境"
+          "批評",
+          "獨白",
+          "宣傳"
         ],
         "examples": [
           {
-            "sentence": "He has a lot of [control] over the project.",
-            "translation_zh_TW": "他對這個項目有很大的控制權。"
+            "sentence": "We had a lovely [conversation] over dinner.",
+            "translation_zh_TW": "我們在晚餐時進行了一次愉快的對話。"
           },
           {
-            "sentence": "The [control] of information is crucial in leadership.",
-            "translation_zh_TW": "資訊的控制在領導力中是至關重要的。"
+            "sentence": "Their [conversation] flowed easily.",
+            "translation_zh_TW": "他們的對話很輕鬆。"
           },
           {
-            "sentence": "They lost [control] of the situation quickly.",
-            "translation_zh_TW": "他們很快失去了對情況的控制。"
+            "sentence": "She enjoys having deep [conversations] with friends.",
+            "translation_zh_TW": "她喜歡和朋友們進行深入的對話。"
           }
         ],
         "synonyms": [
-          "authority",
-          "command"
+          "dialogue",
+          "discussion"
         ]
       }
     ],
     "confusion": [
-      "controll",
-      "contrail",
-      "coordination",
-      "consol"
+      "conversion",
+      "conservation",
+      "converse",
+      "conversate"
     ]
   },
   {
-    "word": "rare",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Uncommon; not occurring very often.",
-        "meaning_zh_TW": "稀有的",
-        "wrong_meaning_zh_TW": [
-          "普通的",
-          "易得的",
-          "舒適的"
-        ],
-        "examples": [
-          {
-            "sentence": "It is a [rare] opportunity to see that animal in the wild.",
-            "translation_zh_TW": "這是一個在野外看到那種動物的稀有機會。"
-          },
-          {
-            "sentence": "He has a [rare] talent for music.",
-            "translation_zh_TW": "他在音樂上有稀有的才能。"
-          },
-          {
-            "sentence": "Find a [rare] coin at the market.",
-            "translation_zh_TW": "在市場上找到一枚稀有的硬幣。"
-          }
-        ],
-        "synonyms": [
-          "unusual",
-          "infrequent"
-        ]
-      }
-    ],
-    "confusion": [
-      "rear",
-      "rave",
-      "race",
-      "raze"
-    ]
-  },
-  {
-    "word": "basic",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Fundamental or essential; forming the base.",
-        "meaning_zh_TW": "基本的",
-        "wrong_meaning_zh_TW": [
-          "詳細的",
-          "複雜的",
-          "特別的"
-        ],
-        "examples": [
-          {
-            "sentence": "She has a [basic] understanding of the topic.",
-            "translation_zh_TW": "她對這個主題有基本的理解。"
-          },
-          {
-            "sentence": "The course covers [basic] concepts only.",
-            "translation_zh_TW": "這門課程只涵蓋基本概念。"
-          },
-          {
-            "sentence": "He needs to learn the [basic] rules of the game.",
-            "translation_zh_TW": "他需要學習遊戲的基本規則。"
-          }
-        ],
-        "synonyms": [
-          "fundamental",
-          "primary"
-        ]
-      }
-    ],
-    "confusion": [
-      "basics",
-      "basil",
-      "bake",
-      "basis"
-    ]
-  },
-  {
-    "word": "indicate",
+    "word": "solve",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To point out or show.",
-        "meaning_zh_TW": "顯示",
+        "meaning_en_US": "To find an answer to a problem or a way of dealing with a difficult situation.",
+        "meaning_zh_TW": "解決",
         "wrong_meaning_zh_TW": [
-          "忽視",
-          "隱瞞",
-          "模糊"
+          "放棄",
+          "選擇",
+          "拖延"
         ],
         "examples": [
           {
-            "sentence": "The map will [indicate] the best route to take.",
-            "translation_zh_TW": "地圖將顯示最佳路徑。"
+            "sentence": "We need to [solve] this problem quickly.",
+            "translation_zh_TW": "我們需要迅速解決這個問題。"
           },
           {
-            "sentence": "The symptoms [indicate] that he may be ill.",
-            "translation_zh_TW": "這些症狀顯示他可能生病了。"
+            "sentence": "He worked hard to [solve] the puzzle.",
+            "translation_zh_TW": "他努力解開這個謎題。"
           },
           {
-            "sentence": "Her gesture [indicates] her agreement with the plan.",
-            "translation_zh_TW": "她的手勢顯示她同意該計劃。"
+            "sentence": "Scientists aim to [solve] global warming issues.",
+            "translation_zh_TW": "科學家們旨在解決全球變暖問題。"
           }
         ],
         "synonyms": [
-          "show",
-          "signify"
+          "determine",
+          "resolve",
+          "figure out"
         ]
       }
     ],
     "confusion": [
-      "indication",
-      "indent",
-      "indicator",
-      "indicative"
+      "salve",
+      "sove",
+      "sow",
+      "solv"
     ]
   },
   {
-    "word": "favor",
+    "word": "minority",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "An act of kindness beyond what is due or usual.",
-        "meaning_zh_TW": "好意",
+        "meaning_en_US": "A smaller part or group within a larger population.",
+        "meaning_zh_TW": "少數群體",
         "wrong_meaning_zh_TW": [
-          "請求",
-          "責任",
-          "義務"
+          "多數群體",
+          "領導階層",
+          "社會階層"
         ],
         "examples": [
           {
-            "sentence": "Can you do me a [favor]?",
-            "translation_zh_TW": "你能幫我個忙嗎？"
+            "sentence": "The report focuses on the needs of the [minority].",
+            "translation_zh_TW": "報告專注於少數群體的需求。"
           },
           {
-            "sentence": "She returned the [favor] by helping him.",
-            "translation_zh_TW": "她用幫助他來回報這個好意。"
+            "sentence": "Language rights are important for the [minority] communities.",
+            "translation_zh_TW": "語言權利對少數社區至關重要。"
           },
           {
-            "sentence": "It’s only a small [favor].",
-            "translation_zh_TW": "這只是一個小小的好意。"
+            "sentence": "She advocates for the rights of the [minority].",
+            "translation_zh_TW": "她提倡少數群體的權利。"
           }
         ],
         "synonyms": [
-          "assistance",
-          "kindness"
+          "smaller group",
+          "subgroup"
         ]
       }
     ],
     "confusion": [
-      "favour",
-      "faver",
-      "faor",
-      "favur"
+      "majority",
+      "minor",
+      "ministry",
+      "minors"
+    ]
+  },
+  {
+    "word": "weak",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Lacking physical strength; not strong.",
+        "meaning_zh_TW": "虛弱的",
+        "wrong_meaning_zh_TW": [
+          "健康的",
+          "強壯的",
+          "堅固的"
+        ],
+        "examples": [
+          {
+            "sentence": "He felt too [weak] to continue the race.",
+            "translation_zh_TW": "他感到太虛弱，無法繼續比賽。"
+          },
+          {
+            "sentence": "The bridge was deemed structurally [weak].",
+            "translation_zh_TW": "這座橋被認為結構上很虛弱。"
+          },
+          {
+            "sentence": "Her [weak] voice could barely be heard.",
+            "translation_zh_TW": "她的聲音虛弱到幾乎無法聽到。"
+          }
+        ],
+        "synonyms": [
+          "feeble",
+          "frail"
+        ]
+      }
+    ],
+    "confusion": [
+      "week",
+      "weaken",
+      "peek",
+      "sneak"
+    ]
+  },
+  {
+    "word": "wise",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Having or showing experience, knowledge, and good judgment.",
+        "meaning_zh_TW": "明智的、智慧的",
+        "wrong_meaning_zh_TW": [
+          "愚蠢的、無知的",
+          "迷人的、好看的",
+          "困惑的、不確定的"
+        ],
+        "examples": [
+          {
+            "sentence": "It is [wise] to save money for emergencies.",
+            "translation_zh_TW": "存錢以備不時之需是明智的。"
+          },
+          {
+            "sentence": "He is [wise] beyond his years.",
+            "translation_zh_TW": "他比他的年齡更加智慧。"
+          },
+          {
+            "sentence": "Making [wise] choices is essential for success.",
+            "translation_zh_TW": "做出明智的選擇對成功至關重要。"
+          }
+        ],
+        "synonyms": [
+          "sensible",
+          "prudent"
+        ]
+      }
+    ],
+    "confusion": [
+      "wiser",
+      "wiseacre",
+      "waste",
+      "whys"
+    ]
+  },
+  {
+    "word": "worry",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To feel anxious or concerned about something.",
+        "meaning_zh_TW": "擔心、焦慮",
+        "wrong_meaning_zh_TW": [
+          "開心、快樂",
+          "計畫、安排",
+          "恐懼、驚慌"
+        ],
+        "examples": [
+          {
+            "sentence": "I tend to [worry] about the little things.",
+            "translation_zh_TW": "我常常擔心小事。"
+          },
+          {
+            "sentence": "Don't [worry], everything will be fine.",
+            "translation_zh_TW": "別擔心，一切會好的。"
+          },
+          {
+            "sentence": "She worries that she might fail the exam.",
+            "translation_zh_TW": "她擔心自己可能會考不及格。"
+          }
+        ],
+        "synonyms": [
+          "fret",
+          "be anxious"
+        ]
+      }
+    ],
+    "confusion": [
+      "warry",
+      "worryingly",
+      "worried",
+      "worring"
     ]
   }
 ]

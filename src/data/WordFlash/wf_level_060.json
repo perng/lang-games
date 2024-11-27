@@ -1,471 +1,236 @@
 [
   {
-    "word": "west",
+    "word": "department",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The direction toward the left of a person facing north, 270 degrees on a compass.",
-        "meaning_zh_TW": "西方",
+        "meaning_en_US": "A distinct part of a larger organization.",
+        "meaning_zh_TW": "部門",
         "wrong_meaning_zh_TW": [
-          "東方",
-          "南方",
-          "北方"
+          "專業",
+          "機構",
+          "事務所"
         ],
         "examples": [
           {
-            "sentence": "The sun sets in the [west].",
-            "translation_zh_TW": "太陽在西方落下。"
+            "sentence": "He works in the marketing [department].",
+            "translation_zh_TW": "他在市場部門工作。"
           },
           {
-            "sentence": "We traveled [west] to reach the coast.",
-            "translation_zh_TW": "我們向西旅行，抵達了海岸。"
+            "sentence": "The finance [department] is responsible for budgeting.",
+            "translation_zh_TW": "財務部門負責預算。"
           },
           {
-            "sentence": "He lives [west] of the city.",
-            "translation_zh_TW": "他住在城市的西邊。"
+            "sentence": "She was promoted within her [department].",
+            "translation_zh_TW": "她在部門內晉升了。"
           }
         ],
         "synonyms": [
-          "occident",
-          "westward"
+          "division",
+          "section"
         ]
       }
     ],
     "confusion": [
-      "waste",
-      "weast",
-      "wets",
-      "wrist"
+      "departments",
+      "depart",
+      "depertment",
+      "departmental"
     ]
   },
   {
-    "word": "melody",
+    "word": "description",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A sequence of musical notes that are perceived as a single entity.",
-        "meaning_zh_TW": "旋律",
+        "meaning_en_US": "A spoken or written representation or account of a person, object, or event.",
+        "meaning_zh_TW": "描述",
         "wrong_meaning_zh_TW": [
-          "節奏",
-          "和聲",
-          "音色"
+          "規範",
+          "指示",
+          "目錄"
         ],
         "examples": [
           {
-            "sentence": "The [melody] of the song was catchy.",
-            "translation_zh_TW": "這首歌的旋律非常容易記住"
+            "sentence": "The [description] of the painting was quite vivid.",
+            "translation_zh_TW": "這幅畫的描述非常生動。"
           },
           {
-            "sentence": "She hummed a sweet [melody] while working.",
-            "translation_zh_TW": "她在工作時輕聲哼著甜美的旋律"
+            "sentence": "Her [description] of the city made me want to visit.",
+            "translation_zh_TW": "她對這座城市的描述讓我渴望造訪。"
           },
           {
-            "sentence": "The [melody] filled the room with joy.",
-            "translation_zh_TW": "旋律充滿了整個房間的快樂"
+            "sentence": "Can you provide a detailed [description] of the incident?",
+            "translation_zh_TW": "你能提供事件的詳細描述嗎？"
           }
         ],
         "synonyms": [
-          "tune",
-          "air"
+          "narrative",
+          "account"
         ]
       }
     ],
     "confusion": [
-      "melodies",
-      "melodic",
-      "melodrama",
-      "melodiously"
+      "decryption",
+      "descriptive",
+      "prescription",
+      "depression"
     ]
   },
   {
-    "word": "failure",
+    "word": "quality",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "The lack of success in achieving a goal.",
-        "meaning_zh_TW": "失敗",
+        "meaning_en_US": "The standard of something as measured against other things of a similar kind; the degree of excellence of something.",
+        "meaning_zh_TW": "品質",
         "wrong_meaning_zh_TW": [
-          "優勢",
-          "獎項",
-          "成就"
+          "數量",
+          "問題",
+          "價格"
         ],
         "examples": [
           {
-            "sentence": "His first attempt was a total [failure].",
-            "translation_zh_TW": "他的第一次嘗試完全失敗了。"
+            "sentence": "The quality of the product is very high.",
+            "translation_zh_TW": "這個產品的品質非常高"
           },
           {
-            "sentence": "They learned from their [failure].",
-            "translation_zh_TW": "他們從失敗中學到了教訓。"
+            "sentence": "She always strives for quality in her work.",
+            "translation_zh_TW": "她總是追求工作中的品質"
           },
           {
-            "sentence": "The project was deemed a [failure] by the committee.",
-            "translation_zh_TW": "該項目被委員會視為失敗。"
+            "sentence": "Quality control ensures that company standards are met.",
+            "translation_zh_TW": "品質控制確保滿足公司標準"
           }
         ],
         "synonyms": [
-          "defeat",
-          "setback"
+          "standard",
+          "caliber"
         ]
       }
     ],
     "confusion": [
-      "falcon",
-      "fawner",
-      "faller",
-      "failover"
+      "quantity",
+      "question",
+      "quilt",
+      "quietly"
     ]
   },
   {
-    "word": "marry",
+    "word": "private",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Intended for or restricted to the use of a particular person or group.",
+        "meaning_zh_TW": "私人、私密的",
+        "wrong_meaning_zh_TW": [
+          "公共的",
+          "開放的",
+          "透明的"
+        ],
+        "examples": [
+          {
+            "sentence": "She has a [private] meeting with her advisor.",
+            "translation_zh_TW": "她和她的顧問有個私人會議"
+          },
+          {
+            "sentence": "This area is [private] and should not be accessed without permission.",
+            "translation_zh_TW": "這個區域是私人場所，未經許可不得進入"
+          },
+          {
+            "sentence": "He values his [private] time for relaxation.",
+            "translation_zh_TW": "他重視休息的私人時間"
+          }
+        ],
+        "synonyms": [
+          "personal",
+          "confidential"
+        ]
+      }
+    ],
+    "confusion": [
+      "privet",
+      "privy",
+      "privates",
+      "prive"
+    ]
+  },
+  {
+    "word": "visit",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To legally unite in marriage.",
-        "meaning_zh_TW": "結婚",
+        "meaning_en_US": "To go to see someone or something for a short time.",
+        "meaning_zh_TW": "造訪、拜訪",
         "wrong_meaning_zh_TW": [
-          "離婚",
-          "約會",
-          "訂婚"
+          "逃跑",
+          "計劃",
+          "授予"
         ],
         "examples": [
           {
-            "sentence": "They decided to [marry] after dating for a few years.",
-            "translation_zh_TW": "他們決定交往幾年後結婚。"
+            "sentence": "I will [visit] my grandmother this weekend.",
+            "translation_zh_TW": "我這個週末要去拜訪奶奶"
           },
           {
-            "sentence": "He wants to [marry] his high school sweetheart.",
-            "translation_zh_TW": "他想娶他的高中愛人。"
+            "sentence": "She decided to [visit] the museum.",
+            "translation_zh_TW": "她決定去造訪博物館"
           },
           {
-            "sentence": "Many people dream of the day they will [marry].",
-            "translation_zh_TW": "許多人夢想著他們結婚的那一天。"
+            "sentence": "Can we [visit] the new cafe later?",
+            "translation_zh_TW": "我們可以稍後去造訪新咖啡館嗎？"
           }
         ],
         "synonyms": [
-          "wed",
-          "tie the knot"
+          "call on",
+          "check out"
         ]
       }
     ],
     "confusion": [
-      "marries",
-      "married",
-      "marriage",
-      "merry"
+      "vivid",
+      "visual",
+      "vital",
+      "vist"
     ]
   },
   {
-    "word": "statement",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A definite or clear expression of something in speech or writing.",
-        "meaning_zh_TW": "陳述、聲明",
-        "wrong_meaning_zh_TW": [
-          "報告、公告",
-          "解釋、說明",
-          "告訴、傳達"
-        ],
-        "examples": [
-          {
-            "sentence": "She issued a public [statement] regarding the incident.",
-            "translation_zh_TW": "她就此事件發表了公開聲明。"
-          },
-          {
-            "sentence": "His [statement] was clear and easy to understand.",
-            "translation_zh_TW": "他的陳述清楚易懂。"
-          },
-          {
-            "sentence": "The company released a [statement] on its new policy.",
-            "translation_zh_TW": "公司就其新政策發佈了一份聲明。"
-          }
-        ],
-        "synonyms": [
-          "declaration",
-          "announcement"
-        ]
-      }
-    ],
-    "confusion": [
-      "statment",
-      "statemant",
-      "sttement",
-      "staement"
-    ]
-  },
-  {
-    "word": "way",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A method, style, or manner of doing something.",
-        "meaning_zh_TW": "方式、方法",
-        "wrong_meaning_zh_TW": [
-          "健康、生活",
-          "速度、速度感",
-          "路標、信號"
-        ],
-        "examples": [
-          {
-            "sentence": "There is a right [way] to do this.",
-            "translation_zh_TW": "有一種正確的方法來做這個。"
-          },
-          {
-            "sentence": "Find your own [way] of solving the problem.",
-            "translation_zh_TW": "找到你自己解決問題的方法。"
-          },
-          {
-            "sentence": "[Ways] of improving communication are essential.",
-            "translation_zh_TW": "改善溝通的方式是非常重要的。"
-          }
-        ],
-        "synonyms": [
-          "method",
-          "manner",
-          "approach"
-        ]
-      }
-    ],
-    "confusion": [
-      "wait",
-      "waylay",
-      "whey",
-      "waive"
-    ]
-  },
-  {
-    "word": "figure",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A numeral or number; a shape or form of something.",
-        "meaning_zh_TW": "數字或形狀",
-        "wrong_meaning_zh_TW": [
-          "線條",
-          "公式",
-          "物品"
-        ],
-        "examples": [
-          {
-            "sentence": "The final [figure] was much higher than expected.",
-            "translation_zh_TW": "最終的數字比預期的高得多。"
-          },
-          {
-            "sentence": "She has a slender [figure] that stands out.",
-            "translation_zh_TW": "她有一個纖細的身材，十分引人注目。"
-          },
-          {
-            "sentence": "He drew the [figure] on the board.",
-            "translation_zh_TW": "他在黑板上畫了那個圖形。"
-          }
-        ],
-        "synonyms": [
-          "number",
-          "shape"
-        ]
-      }
-    ],
-    "confusion": [
-      "figured",
-      "figurs",
-      "figurine",
-      "figures"
-    ]
-  },
-  {
-    "word": "board",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A flat, thin, rectangular piece of material used for various purposes.",
-        "meaning_zh_TW": "木板",
-        "wrong_meaning_zh_TW": [
-          "桌子",
-          "椅子",
-          "紙"
-        ],
-        "examples": [
-          {
-            "sentence": "The carpenter cut the [board] to size.",
-            "translation_zh_TW": "木匠將木板切成合適的大小。"
-          },
-          {
-            "sentence": "The sign was painted on a wooden [board].",
-            "translation_zh_TW": "這個標誌是畫在一塊木板上的。"
-          },
-          {
-            "sentence": "They decided to use a [board] for the display.",
-            "translation_zh_TW": "他們決定使用一塊木板做展示。"
-          }
-        ],
-        "synonyms": [
-          "plank",
-          "panel"
-        ]
-      }
-    ],
-    "confusion": [
-      "bored",
-      "beard",
-      "broad",
-      "boar"
-    ]
-  },
-  {
-    "word": "roof",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The structure forming the upper covering of a building.",
-        "meaning_zh_TW": "屋頂",
-        "wrong_meaning_zh_TW": [
-          "牆壁",
-          "窗戶",
-          "地板"
-        ],
-        "examples": [
-          {
-            "sentence": "The [roof] of the house needs repairs.",
-            "translation_zh_TW": "房子的屋頂需要修理。"
-          },
-          {
-            "sentence": "They climbed to the top of the [roof] for a view.",
-            "translation_zh_TW": "他們爬到屋頂上觀景。"
-          },
-          {
-            "sentence": "A leaking [roof] can cause damage to the interior.",
-            "translation_zh_TW": "漏水的屋頂可能會損壞內部。"
-          }
-        ],
-        "synonyms": [
-          "ceiling",
-          "cover"
-        ]
-      }
-    ],
-    "confusion": [
-      "rooftop",
-      "roopf",
-      "roofe",
-      "roofing"
-    ]
-  },
-  {
-    "word": "found",
+    "word": "reply",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To establish or originate something.",
-        "meaning_zh_TW": "創立，建立",
+        "meaning_en_US": "To respond to a question or request.",
+        "meaning_zh_TW": "回覆",
         "wrong_meaning_zh_TW": [
-          "尋找",
-          "發現",
-          "湧出"
+          "無視",
+          "設定",
+          "詢問"
         ],
         "examples": [
           {
-            "sentence": "She plans to [found] a charity organization.",
-            "translation_zh_TW": "她計劃成立一個慈善組織。"
+            "sentence": "Please [reply] to the email as soon as you can.",
+            "translation_zh_TW": "請儘快回覆這封電子郵件"
           },
           {
-            "sentence": "They [found] the company over a decade ago.",
-            "translation_zh_TW": "他們十多年前創立了這家公司。"
+            "sentence": "I will [reply] to your message later.",
+            "translation_zh_TW": "我稍後會回覆你的訊息"
           },
           {
-            "sentence": "He aims to [found] a school for underprivileged children.",
-            "translation_zh_TW": "他打算為貧困兒童創辦一所學校。"
+            "sentence": "Don't forget to [reply] to the invitation.",
+            "translation_zh_TW": "別忘了回覆邀請函"
           }
         ],
         "synonyms": [
-          "establish",
-          "create"
+          "respond",
+          "answer"
         ]
       }
     ],
     "confusion": [
-      "founded",
-      "founder",
-      "fount",
-      "frown"
-    ]
-  },
-  {
-    "word": "express",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To convey a thought or feeling in words, gestures, or actions.",
-        "meaning_zh_TW": "表達",
-        "wrong_meaning_zh_TW": [
-          "隱藏",
-          "抑制",
-          "否認"
-        ],
-        "examples": [
-          {
-            "sentence": "He tried to [express] his true feelings.",
-            "translation_zh_TW": "他試圖表達他的真實感受。"
-          },
-          {
-            "sentence": "Artists [express] emotions through their work.",
-            "translation_zh_TW": "藝術家通過他們的作品表達情感。"
-          },
-          {
-            "sentence": "She [expressed] her gratitude with a heartfelt thank-you note.",
-            "translation_zh_TW": "她用一封真誠的感謝信表達了她的感激之情。"
-          }
-        ],
-        "synonyms": [
-          "communicate",
-          "convey"
-        ]
-      }
-    ],
-    "confusion": [
-      "impress",
-      "depress",
-      "expensive",
-      "explain"
-    ]
-  },
-  {
-    "word": "supply",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The amount of a resource or product available for use or sale.",
-        "meaning_zh_TW": "供應、供給",
-        "wrong_meaning_zh_TW": [
-          "需求",
-          "消耗",
-          "使用"
-        ],
-        "examples": [
-          {
-            "sentence": "The store has a good [supply] of fresh fruit.",
-            "translation_zh_TW": "這家商店有良好的新鮮水果供應"
-          },
-          {
-            "sentence": "They need to increase their [supply] of materials.",
-            "translation_zh_TW": "他們需要增加材料供應"
-          },
-          {
-            "sentence": "The [supply] chain was disrupted by the storm.",
-            "translation_zh_TW": "供應鏈因風暴而中斷"
-          }
-        ],
-        "synonyms": [
-          "provision",
-          "stock"
-        ]
-      }
-    ],
-    "confusion": [
-      "supply",
-      "supplement",
-      "support",
-      "supplant"
+      "replay",
+      "rely",
+      "repely",
+      "reypl"
     ]
   },
   {
@@ -508,265 +273,500 @@
     ]
   },
   {
-    "word": "when",
+    "word": "compare",
     "meanings": [
       {
-        "type": "副詞",
-        "meaning_en_US": "At what time.",
-        "meaning_zh_TW": "在什麼時候",
+        "type": "動詞",
+        "meaning_en_US": "To examine the similarities and/or differences.",
+        "meaning_zh_TW": "比較",
         "wrong_meaning_zh_TW": [
-          "即時",
-          "隨時",
-          "常常"
+          "計算、算術",
+          "評估、估價",
+          "測量、測試"
         ],
         "examples": [
           {
-            "sentence": "I remember the day [when] we first met.",
-            "translation_zh_TW": "我記得我們第一次見面的那一天"
+            "sentence": "I will [compare] the prices of these two products.",
+            "translation_zh_TW": "我將比較這兩個產品的價格"
           },
           {
-            "sentence": "Please let me know [when] you arrive.",
-            "translation_zh_TW": "請告訴我你什麼時候到達"
+            "sentence": "It's important to [compare] options before deciding.",
+            "translation_zh_TW": "在決定之前比較選項是很重要的"
           },
           {
-            "sentence": "Do you know [when] the event starts?",
-            "translation_zh_TW": "你知道活動什麼時候開始嗎？"
+            "sentence": "They often [compare] their notes after class.",
+            "translation_zh_TW": "他們經常在課後比較筆記"
           }
         ],
         "synonyms": [
-          "at what time",
-          "whenever"
+          "contrast",
+          "evaluate"
         ]
       }
     ],
     "confusion": [
-      "then",
-      "wren",
-      "wen",
-      "whn"
+      "comapre",
+      "compair",
+      "compre",
+      "compear"
     ]
   },
   {
-    "word": "quantity",
+    "word": "include",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "The amount or number of a material or immaterial thing.",
-        "meaning_zh_TW": "數量",
+        "type": "動詞",
+        "meaning_en_US": "To comprise or contain as part of a whole.",
+        "meaning_zh_TW": "包括",
         "wrong_meaning_zh_TW": [
-          "品質",
-          "問題",
-          "重量"
+          "排除",
+          "分開",
+          "隔絕"
         ],
         "examples": [
           {
-            "sentence": "Please specify the quantity you need.",
-            "translation_zh_TW": "請指定您需要的數量"
+            "sentence": "The package will [include] a user manual.",
+            "translation_zh_TW": "這個包裹將包括使用手冊。"
           },
           {
-            "sentence": "We have a limited quantity available.",
-            "translation_zh_TW": "我們有有限的數量可供使用"
+            "sentence": "Please [include] your contact information.",
+            "translation_zh_TW": "請包括您的聯繫方式。"
           },
           {
-            "sentence": "The quantity of food served was too much.",
-            "translation_zh_TW": "提供的食物數量太多了"
+            "sentence": "The team will [include] members from all departments.",
+            "translation_zh_TW": "這個團隊將包括所有部門的成員。"
           }
         ],
         "synonyms": [
-          "amount",
-          "volume"
+          "comprise",
+          "encompass"
         ]
       }
     ],
     "confusion": [
-      "quality",
-      "question",
-      "quantum",
-      "quaint"
+      "excluded",
+      "inclusive",
+      "includeing",
+      "induce"
     ]
   },
   {
-    "word": "bit",
+    "word": "college",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A small piece, part, or quantity of something.",
-        "meaning_zh_TW": "一點、少量",
+        "meaning_en_US": "An educational institution or establishment, particularly one for higher education.",
+        "meaning_zh_TW": "大學",
         "wrong_meaning_zh_TW": [
-          "飛行器",
-          "拼圖",
-          "部件"
+          "學院",
+          "高中",
+          "培訓班"
         ],
         "examples": [
           {
-            "sentence": "He gave me a [bit] of advice.",
-            "translation_zh_TW": "他給了我一點建議。"
+            "sentence": "She decided to attend [college] after high school.",
+            "translation_zh_TW": "她決定在高中後上大學。"
           },
           {
-            "sentence": "Just a [bit] more salt is needed.",
-            "translation_zh_TW": "只需要再一點鹽。"
+            "sentence": "The [college] offers various degree programs.",
+            "translation_zh_TW": "該大學提供多種學位課程。"
           },
           {
-            "sentence": "She wants a [bit] of time to think.",
-            "translation_zh_TW": "她想要一點時間來思考。"
+            "sentence": "Many students struggle to finance their [college] education.",
+            "translation_zh_TW": "許多學生在資助他們的大学教育方面掙扎。"
+          }
+        ],
+        "synonyms": [
+          "university",
+          "institution"
+        ]
+      }
+    ],
+    "confusion": [
+      "collage",
+      "colleague",
+      "collage",
+      "colleagues"
+    ]
+  },
+  {
+    "word": "article",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A piece of writing included with others in a newspaper, magazine, or other publication.",
+        "meaning_zh_TW": "文章",
+        "wrong_meaning_zh_TW": [
+          "條款",
+          "商品",
+          "論文"
+        ],
+        "examples": [
+          {
+            "sentence": "She wrote an [article] for the local newspaper.",
+            "translation_zh_TW": "她為當地報紙寫了一篇文章"
+          },
+          {
+            "sentence": "The [article] discussed various environmental issues.",
+            "translation_zh_TW": "這篇文章討論了各種環境問題"
+          },
+          {
+            "sentence": "Read the [article] to learn more about the topic.",
+            "translation_zh_TW": "閱讀這篇文章以了解更多主題"
           }
         ],
         "synonyms": [
           "piece",
-          "fragment"
+          "item"
         ]
       }
     ],
     "confusion": [
-      "bat",
-      "sit",
-      "bitten",
-      "bitt"
+      "artical",
+      "artcile",
+      "articel",
+      "artickle"
     ]
   },
   {
-    "word": "strawberry",
+    "word": "provide",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A sweet red fruit with a seed-studded surface, typically eaten fresh or used in desserts.",
-        "meaning_zh_TW": "草莓",
+        "type": "動詞",
+        "meaning_en_US": "To supply or make available something needed.",
+        "meaning_zh_TW": "提供、供給",
         "wrong_meaning_zh_TW": [
-          "核桃",
-          "西瓜",
-          "番茄"
+          "奪取、剝奪",
+          "隱瞞、隱藏",
+          "妨礙、阻止"
         ],
         "examples": [
           {
-            "sentence": "She made a delicious [strawberry] shortcake.",
-            "translation_zh_TW": "她做了美味的草莓蛋糕"
+            "sentence": "They [provide] food and shelter for the homeless.",
+            "translation_zh_TW": "他們為無家可歸者提供食物和住所。"
           },
           {
-            "sentence": "We picked fresh [strawberries] from the garden.",
-            "translation_zh_TW": "我們從花園摘了新鮮的草莓"
+            "sentence": "The company aims to [provide] excellent service.",
+            "translation_zh_TW": "該公司旨在提供優質服務。"
           },
           {
-            "sentence": "He likes to add [strawberry] slices to his cereal.",
-            "translation_zh_TW": "他喜歡在穀物上加草莓片"
+            "sentence": "Can you [provide] me with any information on this?",
+            "translation_zh_TW": "你能給我提供任何相關信息嗎？"
           }
         ],
         "synonyms": [
-          "berry",
-          "fruit"
+          "supply",
+          "furnish"
         ]
       }
     ],
     "confusion": [
-      "straw",
-      "strawman",
-      "strawer",
-      "straws"
+      "provider",
+      "provisions",
+      "providence",
+      "protive"
     ]
   },
   {
-    "word": "barbecue",
+    "word": "source",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A meal or party where food is cooked on a grill.",
-        "meaning_zh_TW": "燒烤",
+        "meaning_en_US": "The point of origin or the beginning of something.",
+        "meaning_zh_TW": "來源",
         "wrong_meaning_zh_TW": [
-          "炸雞",
-          "燉肉",
-          "沙拉"
+          "目標",
+          "水源",
+          "來源地"
         ],
         "examples": [
           {
-            "sentence": "We had a [barbecue] in the backyard.",
-            "translation_zh_TW": "我們在後院舉行了燒烤聚會。"
+            "sentence": "The river is the main [source] of water for the region.",
+            "translation_zh_TW": "這條河是該地區的主要水來源"
           },
           {
-            "sentence": "She loves to grill vegetables at a [barbecue].",
-            "translation_zh_TW": "她喜歡在燒烤時烤蔬菜。"
+            "sentence": "He is my [source] of inspiration.",
+            "translation_zh_TW": "他是我的靈感來源"
           },
           {
-            "sentence": "They invited friends over for a weekend [barbecue].",
-            "translation_zh_TW": "他們邀請朋友來家裡過周末燒烤。"
+            "sentence": "Please provide the [source] of your information.",
+            "translation_zh_TW": "請提供您資訊的來源"
           }
         ],
         "synonyms": [
-          "cookout",
-          "grill"
+          "origin",
+          "root"
+        ]
+      }
+    ],
+    "confusion": [
+      "sauce",
+      "saucepan",
+      "sore",
+      "sour"
+    ]
+  },
+  {
+    "word": "author",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person who writes books, articles, or other texts.",
+        "meaning_zh_TW": "作者",
+        "wrong_meaning_zh_TW": [
+          "讀者",
+          "編輯",
+          "出版商"
+        ],
+        "examples": [
+          {
+            "sentence": "The [author] of the book will be signing copies.",
+            "translation_zh_TW": "這本書的作者將簽名書籍"
+          },
+          {
+            "sentence": "She is a well-known [author] in the field of science.",
+            "translation_zh_TW": "她是一位知名的科學作者"
+          },
+          {
+            "sentence": "The [author] received an award for her novel.",
+            "translation_zh_TW": "這位作者因她的小說獲獎"
+          }
+        ],
+        "synonyms": [
+          "writer",
+          "screenwriter"
         ]
       },
       {
-        "type": "動詞",
-        "meaning_en_US": "To cook food on a barbecue grill.",
-        "meaning_zh_TW": "燒烤",
+        "type": "名詞",
+        "meaning_en_US": "The originator or creator of something.",
+        "meaning_zh_TW": "創造者",
         "wrong_meaning_zh_TW": [
-          "煮沸",
-          "蒸熟",
-          "冷藏"
+          "跟隨者",
+          "仿造者",
+          "評論者"
         ],
         "examples": [
           {
-            "sentence": "They [barbecue] chicken every Sunday.",
-            "translation_zh_TW": "他們每個星期天都有燒烤雞肉。"
+            "sentence": "He is considered the [author] of the theory.",
+            "translation_zh_TW": "他被認為是這個理論的創造者"
           },
           {
-            "sentence": "I like to [barbecue] on the weekends.",
-            "translation_zh_TW": "我喜歡在周末燒烤。"
+            "sentence": "The [authors] of the project worked collaboratively.",
+            "translation_zh_TW": "該項目的創造者進行了合作"
           },
           {
-            "sentence": "He plans to [barbecue] for his friends this Friday.",
-            "translation_zh_TW": "他打算這個星期五為朋友們燒烤。"
+            "sentence": "Each [author] must acknowledge their sources.",
+            "translation_zh_TW": "每位創作者必須確認他們的來源"
           }
         ],
         "synonyms": [
-          "grill",
-          "broil"
+          "creator",
+          "originator"
         ]
       }
     ],
     "confusion": [
-      "barbecues",
-      "barbeque",
-      "barberque",
-      "barbique"
+      "authur",
+      "auther",
+      "awthor",
+      "authoring"
     ]
   },
   {
-    "word": "meter",
+    "word": "press",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A unit of length in the metric system, equivalent to 100 centimeters.",
-        "meaning_zh_TW": "公尺",
+        "type": "動詞",
+        "meaning_en_US": "To exert pressure on something.",
+        "meaning_zh_TW": "按壓",
         "wrong_meaning_zh_TW": [
-          "米中米",
-          "計量器具",
-          "物體"
+          "撕裂",
+          "推倒",
+          "抬起"
         ],
         "examples": [
           {
-            "sentence": "The table is two [meters] long.",
-            "translation_zh_TW": "這張桌子長兩公尺"
+            "sentence": "Please [press] the button.",
+            "translation_zh_TW": "請[按壓]按鈕。"
           },
           {
-            "sentence": "You need to measure the length in [meters].",
-            "translation_zh_TW": "你需要用公尺來測量長度"
+            "sentence": "He [presses] the cloth to remove water.",
+            "translation_zh_TW": "他[按壓]布料以去除水分。"
           },
           {
-            "sentence": "A kilometer is a thousand [meters].",
-            "translation_zh_TW": "一公里等於一千公尺"
+            "sentence": "She [pressed] the flowers in a book.",
+            "translation_zh_TW": "她將花[按壓]在書中。"
           }
         ],
         "synonyms": [
-          "metre",
-          "unit of length"
+          "squeeze",
+          "compress",
+          "flatten"
         ]
       }
     ],
     "confusion": [
-      "mater",
-      "metered",
-      "miter",
-      "mitre"
+      "pressure",
+      "preess",
+      "prass",
+      "presse"
+    ]
+  },
+  {
+    "word": "print",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To produce (a book, newspaper, etc.) by printing.",
+        "meaning_zh_TW": "打印",
+        "wrong_meaning_zh_TW": [
+          "複製",
+          "發送",
+          "編輯"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [print] the document before the meeting.",
+            "translation_zh_TW": "請在會議前打印文件"
+          },
+          {
+            "sentence": "I need to [print] my homework.",
+            "translation_zh_TW": "我需要打印我的作業"
+          },
+          {
+            "sentence": "Can you [print] this photo for me?",
+            "translation_zh_TW": "你能幫我打印這張照片嗎？"
+          }
+        ],
+        "synonyms": [
+          "produce",
+          "publish"
+        ]
+      }
+    ],
+    "confusion": [
+      "prints",
+      "printer",
+      "prince",
+      "printery"
+    ]
+  },
+  {
+    "word": "west",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The direction toward the left of a person facing north, 270 degrees on a compass.",
+        "meaning_zh_TW": "西方",
+        "wrong_meaning_zh_TW": [
+          "東方",
+          "南方",
+          "北方"
+        ],
+        "examples": [
+          {
+            "sentence": "The sun sets in the [west].",
+            "translation_zh_TW": "太陽在西方落下。"
+          },
+          {
+            "sentence": "We traveled [west] to reach the coast.",
+            "translation_zh_TW": "我們向西旅行，抵達了海岸。"
+          },
+          {
+            "sentence": "He lives [west] of the city.",
+            "translation_zh_TW": "他住在城市的西邊。"
+          }
+        ],
+        "synonyms": [
+          "occident",
+          "westward"
+        ]
+      }
+    ],
+    "confusion": [
+      "waste",
+      "weast",
+      "wets",
+      "wrist"
+    ]
+  },
+  {
+    "word": "select",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To carefully choose as being the best or most suitable.",
+        "meaning_zh_TW": "選擇",
+        "wrong_meaning_zh_TW": [
+          "忽視",
+          "結束",
+          "找到"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [select] your preferred option.",
+            "translation_zh_TW": "請選擇您偏好的選項。"
+          },
+          {
+            "sentence": "They will [select] the best candidate for the job.",
+            "translation_zh_TW": "他們將選擇最合適的候選人。"
+          },
+          {
+            "sentence": "You should [select] a book that interests you.",
+            "translation_zh_TW": "您應該選擇一本讓您感興趣的書。"
+          }
+        ],
+        "synonyms": [
+          "choose",
+          "pick"
+        ]
+      }
+    ],
+    "confusion": [
+      "selec",
+      "slect",
+      "selected",
+      "selector"
+    ]
+  },
+  {
+    "word": "week",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A period of seven days.",
+        "meaning_zh_TW": "一周",
+        "wrong_meaning_zh_TW": [
+          "一個月",
+          "一天",
+          "一季度"
+        ],
+        "examples": [
+          {
+            "sentence": "There are seven days in a [week].",
+            "translation_zh_TW": "一周有七天。"
+          },
+          {
+            "sentence": "I work five days a [week].",
+            "translation_zh_TW": "我每周工作五天。"
+          },
+          {
+            "sentence": "Next [week], we will have a meeting.",
+            "translation_zh_TW": "下周我們將有一個會議。"
+          }
+        ],
+        "synonyms": [
+          "seven days",
+          "work week"
+        ]
+      }
+    ],
+    "confusion": [
+      "weak",
+      "woke",
+      "weighs",
+      "weeks"
     ]
   }
 ]

@@ -1,120 +1,706 @@
 [
   {
-    "word": "blackboard",
+    "word": "conflict",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A dark surface on which you can write with chalk.",
-        "meaning_zh_TW": "黑板",
+        "meaning_en_US": "A serious disagreement or argument.",
+        "meaning_zh_TW": "衝突",
         "wrong_meaning_zh_TW": [
-          "畫布",
-          "地板",
-          "頻道"
+          "合作",
+          "完全",
+          "和平"
         ],
         "examples": [
           {
-            "sentence": "She wrote the problem on the [blackboard].",
-            "translation_zh_TW": "她把問題寫在黑板上。"
+            "sentence": "The two sides reached a [conflict].",
+            "translation_zh_TW": "雙方達成了衝突"
           },
           {
-            "sentence": "The teacher erased the [blackboard] after the class.",
-            "translation_zh_TW": "老師在課後擦掉了黑板。"
+            "sentence": "There is a [conflict] of interest in this case.",
+            "translation_zh_TW": "在此事件中存在利益衝突"
           },
           {
-            "sentence": "Can you see the messages on the [blackboard]?",
-            "translation_zh_TW": "你能看到黑板上的信息嗎？"
+            "sentence": "They tried to resolve the [conflict] peacefully.",
+            "translation_zh_TW": "他們試圖和平解決衝突"
           }
         ],
         "synonyms": [
-          "chalkboard",
-          "board"
+          "dispute",
+          "struggle"
         ]
       }
     ],
     "confusion": [
-      "blackbird",
-      "blackboarder",
-      "blackbored",
-      "backboard"
+      "conflate",
+      "conflicted",
+      "confidential",
+      "conform"
     ]
   },
   {
-    "word": "shut",
+    "word": "employer",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A person or organization that employs people.",
+        "meaning_zh_TW": "雇主",
+        "wrong_meaning_zh_TW": [
+          "僱員",
+          "工廠",
+          "經理"
+        ],
+        "examples": [
+          {
+            "sentence": "As an [employer], it's important to treat employees with respect.",
+            "translation_zh_TW": "作為雇主，尊重員工是非常重要的。"
+          },
+          {
+            "sentence": "An [employer] must provide a safe working environment.",
+            "translation_zh_TW": "雇主必須提供安全的工作環境。"
+          },
+          {
+            "sentence": "The [employer] offered great benefits to attract talent.",
+            "translation_zh_TW": "雇主提供了良好的福利以吸引人才。"
+          }
+        ],
+        "synonyms": [
+          "boss",
+          "hiring manager"
+        ]
+      }
+    ],
+    "confusion": [
+      "employee",
+      "employ",
+      "employer's",
+      "emplore"
+    ]
+  },
+  {
+    "word": "occur",
     "meanings": [
       {
         "type": "動詞",
-        "meaning_en_US": "To close something.",
-        "meaning_zh_TW": "關閉",
+        "meaning_en_US": "To happen; to take place.",
+        "meaning_zh_TW": "發生",
         "wrong_meaning_zh_TW": [
-          "打開",
-          "重啟",
-          "延續"
+          "停止",
+          "消失",
+          "避免"
         ],
         "examples": [
           {
-            "sentence": "Please [shut] the door quietly.",
-            "translation_zh_TW": "請安靜地關上門。"
+            "sentence": "The event will [occur] next week.",
+            "translation_zh_TW": "該事件將於下週發生"
           },
           {
-            "sentence": "He forgot to [shut] the window before leaving.",
-            "translation_zh_TW": "他出門前忘了關窗。"
+            "sentence": "I didn’t expect this to [occur].",
+            "translation_zh_TW": "我沒想到這會發生"
           },
           {
-            "sentence": "The store will [shut] at 9 PM.",
-            "translation_zh_TW": "商店將在晚上九點關門。"
+            "sentence": "Such incidents [occur] frequently in this area.",
+            "translation_zh_TW": "這類事件在這個區域經常發生"
           }
         ],
         "synonyms": [
-          "close",
-          "seal"
+          "happen",
+          "develop"
         ]
       }
     ],
     "confusion": [
-      "shut-down",
-      "shutters",
-      "short",
-      "shutt"
+      "accrue",
+      "occurred",
+      "occurence",
+      "occasional"
     ]
   },
   {
-    "word": "disease",
+    "word": "describe",
     "meanings": [
       {
-        "type": "名詞",
-        "meaning_en_US": "A disorder of structure or function in a human, animal, or plant.",
-        "meaning_zh_TW": "疾病",
+        "type": "動詞",
+        "meaning_en_US": "To give an account of something in words.",
+        "meaning_zh_TW": "描述",
         "wrong_meaning_zh_TW": [
-          "療法",
-          "醫學",
-          "健康"
+          "比較",
+          "定義",
+          "分類"
         ],
         "examples": [
           {
-            "sentence": "He was diagnosed with a rare [disease].",
-            "translation_zh_TW": "他被診斷出患有罕見疾病"
+            "sentence": "Can you [describe] the event in detail?",
+            "translation_zh_TW": "你能詳細描述一下事件嗎？"
           },
           {
-            "sentence": "Vaccines help prevent many serious [diseases].",
-            "translation_zh_TW": "疫苗有助於預防許多嚴重疾病"
+            "sentence": "She used words to [describe] her feelings.",
+            "translation_zh_TW": "她用言語來描述她的感受。"
           },
           {
-            "sentence": "Research is ongoing to find cures for this [disease].",
-            "translation_zh_TW": "研究仍在進行以找到這種疾病的治療方法"
+            "sentence": "He will [describe] the process step by step.",
+            "translation_zh_TW": "他會逐步描述這個過程。"
           }
         ],
         "synonyms": [
-          "illness",
-          "sickness",
-          "disorder"
+          "portray",
+          "detail"
         ]
       }
     ],
     "confusion": [
-      "diseased",
-      "dissolve",
-      "design",
-      "disease"
+      "described",
+      "descriptions",
+      "describer",
+      "describ"
+    ]
+  },
+  {
+    "word": "concern",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A matter of interest or importance to someone.",
+        "meaning_zh_TW": "關心的事務",
+        "wrong_meaning_zh_TW": [
+          "無關緊要的事",
+          "個人利益",
+          "私人問題"
+        ],
+        "examples": [
+          {
+            "sentence": "His primary [concern] is the well-being of his family.",
+            "translation_zh_TW": "他主要關心的是家人的福祉"
+          },
+          {
+            "sentence": "Environmental [concern] has become a global issue.",
+            "translation_zh_TW": "環境問題已成為全球性議題"
+          },
+          {
+            "sentence": "She expressed her [concern] about the project's progress.",
+            "translation_zh_TW": "她對項目的進展表示關心"
+          }
+        ],
+        "synonyms": [
+          "worry",
+          "interest"
+        ]
+      }
+    ],
+    "confusion": [
+      "concerned",
+      "concer",
+      "concerned",
+      "concernc"
+    ]
+  },
+  {
+    "word": "spread",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To open or expand something over a surface.",
+        "meaning_zh_TW": "展開、擴展",
+        "wrong_meaning_zh_TW": [
+          "縮小、小圈圈",
+          "收斂、消退",
+          "壓縮、減少"
+        ],
+        "examples": [
+          {
+            "sentence": "She decided to [spread] the jam on her toast.",
+            "translation_zh_TW": "她決定在她的吐司上塗果醬。"
+          },
+          {
+            "sentence": "The news began to [spread] quickly throughout the town.",
+            "translation_zh_TW": "消息在城鎮中迅速傳開。"
+          },
+          {
+            "sentence": "He likes to [spread] out his papers on the table.",
+            "translation_zh_TW": "他喜歡在桌子上攤開他的文件。"
+          }
+        ],
+        "synonyms": [
+          "extend",
+          "distribute"
+        ]
+      }
+    ],
+    "confusion": [
+      "spred",
+      "spreding",
+      "spreaded",
+      "spray"
+    ]
+  },
+  {
+    "word": "participate",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To take part in an activity or event.",
+        "meaning_zh_TW": "參加",
+        "wrong_meaning_zh_TW": [
+          "拒絕參加",
+          "帶走",
+          "領取金額"
+        ],
+        "examples": [
+          {
+            "sentence": "I want to [participate] in the workshop.",
+            "translation_zh_TW": "我想參加這個工作坊"
+          },
+          {
+            "sentence": "Students are encouraged to [participate] in class discussions.",
+            "translation_zh_TW": "學生們被鼓勵參加課堂討論"
+          },
+          {
+            "sentence": "Are you going to [participate] in the marathon?",
+            "translation_zh_TW": "你打算參加馬拉松嗎？"
+          }
+        ],
+        "synonyms": [
+          "join",
+          "engage",
+          "partake"
+        ]
+      }
+    ],
+    "confusion": [
+      "partake",
+      "particular",
+      "participant",
+      "participation"
+    ]
+  },
+  {
+    "word": "affect",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To have an influence on or make a change in.",
+        "meaning_zh_TW": "影響",
+        "wrong_meaning_zh_TW": [
+          "告訴",
+          "妨礙",
+          "讚美"
+        ],
+        "examples": [
+          {
+            "sentence": "The weather can greatly [affect] your mood.",
+            "translation_zh_TW": "天氣會大大影響你的心情。"
+          },
+          {
+            "sentence": "His actions [affect] those around him.",
+            "translation_zh_TW": "他的行為影響著他周圍的人。"
+          },
+          {
+            "sentence": "Education [affects] future opportunities.",
+            "translation_zh_TW": "教育影響未來的機會。"
+          }
+        ],
+        "synonyms": [
+          "influence",
+          "impact"
+        ]
+      }
+    ],
+    "confusion": [
+      "effect",
+      "affecte",
+      "affact",
+      "affectt"
+    ]
+  },
+  {
+    "word": "indicate",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To point out or show.",
+        "meaning_zh_TW": "顯示",
+        "wrong_meaning_zh_TW": [
+          "忽視",
+          "隱瞞",
+          "模糊"
+        ],
+        "examples": [
+          {
+            "sentence": "The map will [indicate] the best route to take.",
+            "translation_zh_TW": "地圖將顯示最佳路徑。"
+          },
+          {
+            "sentence": "The symptoms [indicate] that he may be ill.",
+            "translation_zh_TW": "這些症狀顯示他可能生病了。"
+          },
+          {
+            "sentence": "Her gesture [indicates] her agreement with the plan.",
+            "translation_zh_TW": "她的手勢顯示她同意該計劃。"
+          }
+        ],
+        "synonyms": [
+          "show",
+          "signify"
+        ]
+      }
+    ],
+    "confusion": [
+      "indication",
+      "indent",
+      "indicator",
+      "indicative"
+    ]
+  },
+  {
+    "word": "seek",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To attempt to find or obtain something.",
+        "meaning_zh_TW": "尋找",
+        "wrong_meaning_zh_TW": [
+          "等待",
+          "丟棄",
+          "購買"
+        ],
+        "examples": [
+          {
+            "sentence": "I will [seek] the truth behind the mystery.",
+            "translation_zh_TW": "我會尋找謎團背後的真相。"
+          },
+          {
+            "sentence": "They [seek] new opportunities for growth.",
+            "translation_zh_TW": "他們尋求增長的新機會。"
+          },
+          {
+            "sentence": "She decided to [seek] advice from a mentor.",
+            "translation_zh_TW": "她決定向一位導師尋求建議。"
+          }
+        ],
+        "synonyms": [
+          "search",
+          "look for"
+        ]
+      }
+    ],
+    "confusion": [
+      "sick",
+      "sneak",
+      "sickly",
+      "seem"
+    ]
+  },
+  {
+    "word": "anyway",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "In any case; regardless of the preceding context.",
+        "meaning_zh_TW": "無論如何",
+        "wrong_meaning_zh_TW": [
+          "怎麼都好",
+          "不論",
+          "任意"
+        ],
+        "examples": [
+          {
+            "sentence": "I didn't want to go, but I went [anyway].",
+            "translation_zh_TW": "我不想去，但我還是去了無論如何"
+          },
+          {
+            "sentence": "It rained, but we had fun [anyway].",
+            "translation_zh_TW": "雖然下雨，但我們還是玩得很開心"
+          },
+          {
+            "sentence": "He said it was too late, but I called [anyway].",
+            "translation_zh_TW": "他說太晚了，但我還是打了電話"
+          }
+        ],
+        "synonyms": [
+          "regardless",
+          "nonetheless"
+        ]
+      }
+    ],
+    "confusion": [
+      "anywayy",
+      "anwyway",
+      "anywy",
+      "anywayz"
+    ]
+  },
+  {
+    "word": "prince",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The son of a monarch.",
+        "meaning_zh_TW": "王子",
+        "wrong_meaning_zh_TW": [
+          "公主",
+          "國王",
+          "貴族"
+        ],
+        "examples": [
+          {
+            "sentence": "The [prince] rode his horse through the castle gates.",
+            "translation_zh_TW": "王子騎著馬穿過城堡門"
+          },
+          {
+            "sentence": "A [prince] is often seen as a future king.",
+            "translation_zh_TW": "王子通常被視為未來的國王"
+          },
+          {
+            "sentence": "The fairy tale was about a lost [prince].",
+            "translation_zh_TW": "這個童話講述了一位失落的王子"
+          }
+        ],
+        "synonyms": [
+          "royal",
+          "heir"
+        ]
+      }
+    ],
+    "confusion": [
+      "princess",
+      "principal",
+      "prentice",
+      "prints"
+    ]
+  },
+  {
+    "word": "soil",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "The upper layer of earth in which plants grow, a black or brown material typically consisting of a mixture of organic substances.",
+        "meaning_zh_TW": "土壤",
+        "wrong_meaning_zh_TW": [
+          "石頭",
+          "水泥",
+          "塑膠"
+        ],
+        "examples": [
+          {
+            "sentence": "The gardener tested the [soil] for nutrients.",
+            "translation_zh_TW": "園丁檢測了土壤中的養分。"
+          },
+          {
+            "sentence": "The farmer enriched the [soil] with compost.",
+            "translation_zh_TW": "農夫用堆肥滋養土壤。"
+          },
+          {
+            "sentence": "This [soil] is very fertile and supports diverse plant life.",
+            "translation_zh_TW": "這種土壤非常肥沃，支持多樣的植物生命。"
+          }
+        ],
+        "synonyms": [
+          "earth",
+          "ground",
+          "dirt"
+        ]
+      }
+    ],
+    "confusion": [
+      "soyl",
+      "sol",
+      "sale",
+      "soul"
+    ]
+  },
+  {
+    "word": "anywhere",
+    "meanings": [
+      {
+        "type": "副詞",
+        "meaning_en_US": "In or at any place.",
+        "meaning_zh_TW": "任何地方",
+        "wrong_meaning_zh_TW": [
+          "所有地方",
+          "某地",
+          "遠方"
+        ],
+        "examples": [
+          {
+            "sentence": "You can find this book [anywhere].",
+            "translation_zh_TW": "你可以在任何地方找到這本書"
+          },
+          {
+            "sentence": "He can travel [anywhere] he likes.",
+            "translation_zh_TW": "他可以去他喜歡的任何地方"
+          },
+          {
+            "sentence": "There isn't [anywhere] else I'd rather be.",
+            "translation_zh_TW": "我不想待在任何其他地方"
+          }
+        ],
+        "synonyms": [
+          "everywhere",
+          "any place"
+        ]
+      }
+    ],
+    "confusion": [
+      "anywere",
+      "anywhr",
+      "anwhere",
+      "anywheard"
+    ]
+  },
+  {
+    "word": "wet",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Covered or saturated with liquid, especially water.",
+        "meaning_zh_TW": "潮濕的",
+        "wrong_meaning_zh_TW": [
+          "乾燥的",
+          "燥熱的",
+          "凍結的"
+        ],
+        "examples": [
+          {
+            "sentence": "The ground was [wet] after the rain.",
+            "translation_zh_TW": "雨後地面變得潮濕。"
+          },
+          {
+            "sentence": "I forgot my [wet] umbrella at home.",
+            "translation_zh_TW": "我忘了把潮濕的雨傘放在家裡。"
+          },
+          {
+            "sentence": "His clothes got [wet] in the storm.",
+            "translation_zh_TW": "他的衣服在暴風雨中淋濕了。"
+          }
+        ],
+        "synonyms": [
+          "damp",
+          "moist"
+        ]
+      }
+    ],
+    "confusion": [
+      "whet",
+      "wett",
+      "wit",
+      "wets"
+    ]
+  },
+  {
+    "word": "fox",
+    "meanings": [
+      {
+        "type": "名詞",
+        "meaning_en_US": "A small to medium-sized canid found in many parts of the world.",
+        "meaning_zh_TW": "狐狸",
+        "wrong_meaning_zh_TW": [
+          "狗",
+          "貓",
+          "熊"
+        ],
+        "examples": [
+          {
+            "sentence": "The [fox] slipped quietly through the underbrush.",
+            "translation_zh_TW": "狐狸靜靜地穿過灌木叢。"
+          },
+          {
+            "sentence": "She saw a [fox] in her backyard yesterday.",
+            "translation_zh_TW": "她昨天在後院看到了狐狸。"
+          },
+          {
+            "sentence": "The [fox] is known for its cunning nature.",
+            "translation_zh_TW": "狐狸以狡猾的性格而聞名。"
+          }
+        ],
+        "synonyms": [
+          "vulpine",
+          "canid"
+        ]
+      }
+    ],
+    "confusion": [
+      "box",
+      "fax",
+      "flox",
+      "lox"
+    ]
+  },
+  {
+    "word": "respond",
+    "meanings": [
+      {
+        "type": "動詞",
+        "meaning_en_US": "To say something in reply.",
+        "meaning_zh_TW": "回應、回答",
+        "wrong_meaning_zh_TW": [
+          "沉默、無言",
+          "放任、忽視",
+          "質疑、反駁"
+        ],
+        "examples": [
+          {
+            "sentence": "Please [respond] to the email as soon as possible.",
+            "translation_zh_TW": "請儘快回應電子郵件。"
+          },
+          {
+            "sentence": "How will you [respond] to the criticism?",
+            "translation_zh_TW": "你將如何回應這些批評？"
+          },
+          {
+            "sentence": "She didn’t [respond] to my question.",
+            "translation_zh_TW": "她沒有回答我的問題。"
+          }
+        ],
+        "synonyms": [
+          "reply",
+          "answer"
+        ]
+      }
+    ],
+    "confusion": [
+      "respondent",
+      "response",
+      "responding",
+      "respondr"
+    ]
+  },
+  {
+    "word": "plain",
+    "meanings": [
+      {
+        "type": "形容詞",
+        "meaning_en_US": "Not decorated or elaborate; simple or basic in character.",
+        "meaning_zh_TW": "樸素的",
+        "wrong_meaning_zh_TW": [
+          "華麗的",
+          "複雜的",
+          "豐富的"
+        ],
+        "examples": [
+          {
+            "sentence": "She wore a [plain] dress to the event.",
+            "translation_zh_TW": "她穿了一條樸素的裙子去參加活動"
+          },
+          {
+            "sentence": "The room was decorated in a very [plain] style.",
+            "translation_zh_TW": "這個房間用非常樸素的風格進行裝飾"
+          },
+          {
+            "sentence": "He prefers [plain] food over gourmet dishes.",
+            "translation_zh_TW": "他喜歡樸素的食物而不是精緻的菜餚"
+          }
+        ],
+        "synonyms": [
+          "simple",
+          "unadorned"
+        ]
+      }
+    ],
+    "confusion": [
+      "plane",
+      "plaine",
+      "plana",
+      "plan"
     ]
   },
   {
@@ -157,617 +743,42 @@
     ]
   },
   {
-    "word": "well",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "In a good or satisfactory way.",
-        "meaning_zh_TW": "很好地",
-        "wrong_meaning_zh_TW": [
-          "不好地",
-          "糟糕地",
-          "勉強地"
-        ],
-        "examples": [
-          {
-            "sentence": "She sings very [well].",
-            "translation_zh_TW": "她唱得很好。"
-          },
-          {
-            "sentence": "He performed [well] on his exams.",
-            "translation_zh_TW": "他考試的表現很好。"
-          },
-          {
-            "sentence": "Everything is going [well] so far.",
-            "translation_zh_TW": "到目前為止一切都很順利。"
-          }
-        ],
-        "synonyms": [
-          "successfully",
-          "adequately"
-        ]
-      }
-    ],
-    "confusion": [
-      "well-being",
-      "weld",
-      "whale",
-      "whell"
-    ]
-  },
-  {
-    "word": "asleep",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "In a state of sleep.",
-        "meaning_zh_TW": "沉睡",
-        "wrong_meaning_zh_TW": [
-          "醒著",
-          "疲倦",
-          "昏迷"
-        ],
-        "examples": [
-          {
-            "sentence": "The baby is [asleep] in her crib.",
-            "translation_zh_TW": "嬰兒在搖籃裡沉睡"
-          },
-          {
-            "sentence": "He was still [asleep] when the alarm rang.",
-            "translation_zh_TW": "當鬧鐘響時，他仍然在沉睡"
-          },
-          {
-            "sentence": "The dog lay [asleep] by the fireplace.",
-            "translation_zh_TW": "狗躺在壁爐旁沉睡"
-          }
-        ],
-        "synonyms": [
-          "sleeping",
-          "unconscious"
-        ]
-      }
-    ],
-    "confusion": [
-      "asleeep",
-      "asleap",
-      "aslepp",
-      "asleap"
-    ]
-  },
-  {
-    "word": "want",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To have a desire to possess or do something.",
-        "meaning_zh_TW": "想要",
-        "wrong_meaning_zh_TW": [
-          "捨不得",
-          "推薦",
-          "獲得"
-        ],
-        "examples": [
-          {
-            "sentence": "I [want] to go to the beach.",
-            "translation_zh_TW": "我想要去海灘。"
-          },
-          {
-            "sentence": "She [wants] a new car.",
-            "translation_zh_TW": "她想要一輛新車。"
-          },
-          {
-            "sentence": "They [want] to learn more languages.",
-            "translation_zh_TW": "他們想要學習更多語言。"
-          }
-        ],
-        "synonyms": [
-          "desire",
-          "wish"
-        ]
-      }
-    ],
-    "confusion": [
-      "wont",
-      "wanting",
-      "waunt",
-      "haunt"
-    ]
-  },
-  {
-    "word": "approach",
-    "meanings": [
-      {
-        "type": "動詞",
-        "meaning_en_US": "To come near or nearer to.",
-        "meaning_zh_TW": "接近",
-        "wrong_meaning_zh_TW": [
-          "逃避",
-          "暗示",
-          "討論"
-        ],
-        "examples": [
-          {
-            "sentence": "You need to [approach] the problem from a different angle.",
-            "translation_zh_TW": "你需要從不同的角度接近這個問題。"
-          },
-          {
-            "sentence": "The train is about to [approach] the station.",
-            "translation_zh_TW": "火車即將接近車站。"
-          },
-          {
-            "sentence": "She slowly [approached] the podium to give her speech.",
-            "translation_zh_TW": "她慢慢接近演講台準備發言。"
-          }
-        ],
-        "synonyms": [
-          "near",
-          "advance"
-        ]
-      }
-    ],
-    "confusion": [
-      "approching",
-      "approch",
-      "aproach",
-      "approachh"
-    ]
-  },
-  {
-    "word": "salesperson",
+    "word": "wave",
     "meanings": [
       {
         "type": "名詞",
-        "meaning_en_US": "A person whose job involves selling products or services.",
-        "meaning_zh_TW": "銷售員",
+        "meaning_en_US": "A long body of water curling into an arched form and breaking on the shore.",
+        "meaning_zh_TW": "波浪",
         "wrong_meaning_zh_TW": [
-          "顧客",
-          "公司經理",
-          "商業分析師"
+          "隧道",
+          "水潭",
+          "海藻"
         ],
         "examples": [
           {
-            "sentence": "The salesperson helped me find the right product.",
-            "translation_zh_TW": "銷售員幫我找到合適的產品。"
+            "sentence": "The [wave] crashed onto the rocks.",
+            "translation_zh_TW": "波浪撞擊在岩石上。"
           },
           {
-            "sentence": "A good salesperson knows how to listen to customers.",
-            "translation_zh_TW": "一位好的銷售員知道如何聆聽顧客。"
+            "sentence": "She made a [wave] to say goodbye.",
+            "translation_zh_TW": "她揮手告別。"
           },
           {
-            "sentence": "The salesperson gave me a great deal.",
-            "translation_zh_TW": "銷售員給了我一個很好的交易。"
+            "sentence": "They watched the big [waves] at the beach.",
+            "translation_zh_TW": "他們在海灘上觀看大波浪。"
           }
         ],
         "synonyms": [
-          "sales rep",
-          "sales associate"
+          "surge",
+          "swell"
         ]
       }
     ],
     "confusion": [
-      "salesman",
-      "saleswoman",
-      "sale",
-      "sales"
-    ]
-  },
-  {
-    "word": "channel",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A medium for communication or the expression of ideas.",
-        "meaning_zh_TW": "溝通方式",
-        "wrong_meaning_zh_TW": [
-          "水道",
-          "頻道",
-          "藍色通道"
-        ],
-        "examples": [
-          {
-            "sentence": "The author chose a digital [channel] to reach more readers.",
-            "translation_zh_TW": "這位作者選擇了一個數位溝通方式來接觸更多讀者。"
-          },
-          {
-            "sentence": "They opened a new [channel] for feedback.",
-            "translation_zh_TW": "他們開設了一個新的溝通方式以收集回饋。"
-          },
-          {
-            "sentence": "Using social media as a [channel] has become common.",
-            "translation_zh_TW": "使用社交媒體作為溝通方式已變得普遍。"
-          }
-        ],
-        "synonyms": [
-          "medium",
-          "platform"
-        ]
-      },
-      {
-        "type": "名詞",
-        "meaning_en_US": "A physical waterway or path.",
-        "meaning_zh_TW": "水道",
-        "wrong_meaning_zh_TW": [
-          "直通道",
-          "羈押所",
-          "電視台"
-        ],
-        "examples": [
-          {
-            "sentence": "The boat sailed through the narrow [channel].",
-            "translation_zh_TW": "小船駛過狹窄的水道。"
-          },
-          {
-            "sentence": "A storm can make navigating the [channel] difficult.",
-            "translation_zh_TW": "暴風雨可能使通過水道變得困難。"
-          },
-          {
-            "sentence": "Fish thrive in healthy [channels].",
-            "translation_zh_TW": "魚類在健康的水道中茁壯成長。"
-          }
-        ],
-        "synonyms": [
-          "waterway",
-          "route"
-        ]
-      }
-    ],
-    "confusion": [
-      "chanel",
-      "channal",
-      "chanal",
-      "chenel"
-    ]
-  },
-  {
-    "word": "partner",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A person who takes part in an activity with another.",
-        "meaning_zh_TW": "夥伴",
-        "wrong_meaning_zh_TW": [
-          "敵人",
-          "旁觀者",
-          "無關者"
-        ],
-        "examples": [
-          {
-            "sentence": "She is my dance [partner].",
-            "translation_zh_TW": "她是我的舞伴"
-          },
-          {
-            "sentence": "We make a great team; I’m glad to have you as my [partner].",
-            "translation_zh_TW": "我們是個好團隊；我很高興有你作為我的夥伴"
-          },
-          {
-            "sentence": "Business [partners] must trust each other.",
-            "translation_zh_TW": "商業夥伴必須互相信任"
-          }
-        ],
-        "synonyms": [
-          "associate",
-          "companion",
-          "collaborator"
-        ]
-      }
-    ],
-    "confusion": [
-      "painter",
-      "patron",
-      "partnering",
-      "parting"
-    ]
-  },
-  {
-    "word": "stream",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A small, narrow river.",
-        "meaning_zh_TW": "小河",
-        "wrong_meaning_zh_TW": [
-          "湖泊",
-          "海洋",
-          "池塘"
-        ],
-        "examples": [
-          {
-            "sentence": "We went fishing in the [stream].",
-            "translation_zh_TW": "我們在小河裡釣魚"
-          },
-          {
-            "sentence": "The [stream] flowed gently through the valley.",
-            "translation_zh_TW": "小河輕輕流過山谷"
-          },
-          {
-            "sentence": "Children often play near the [stream].",
-            "translation_zh_TW": "孩子們常常在小河旁邊玩"
-          }
-        ],
-        "synonyms": [
-          "brook",
-          "creek"
-        ]
-      }
-    ],
-    "confusion": [
-      "scream",
-      "steam",
-      "team",
-      "streaming"
-    ]
-  },
-  {
-    "word": "dull",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Lacking interest or excitement; boring.",
-        "meaning_zh_TW": "單調的",
-        "wrong_meaning_zh_TW": [
-          "時髦的",
-          "色彩繽紛的",
-          "有趣的"
-        ],
-        "examples": [
-          {
-            "sentence": "The lecture was so [dull] that many students fell asleep.",
-            "translation_zh_TW": "講座太單調，許多學生都睡著了。"
-          },
-          {
-            "sentence": "She finds the movie quite [dull] and unengaging.",
-            "translation_zh_TW": "她認為這部電影非常單調和無聊。"
-          },
-          {
-            "sentence": "His [dull] remarks made the discussion tedious.",
-            "translation_zh_TW": "他單調的評論讓討論變得冗長。"
-          }
-        ],
-        "synonyms": [
-          "boring",
-          "tedious"
-        ]
-      }
-    ],
-    "confusion": [
-      "doll",
-      "dell",
-      "dual",
-      "dullard"
-    ]
-  },
-  {
-    "word": "shy",
-    "meanings": [
-      {
-        "type": "形容詞",
-        "meaning_en_US": "Being reserved or having a lack of confidence in social situations.",
-        "meaning_zh_TW": "害羞的",
-        "wrong_meaning_zh_TW": [
-          "自信的",
-          "冷漠的",
-          "暴躁的"
-        ],
-        "examples": [
-          {
-            "sentence": "She is too [shy] to speak in front of the class.",
-            "translation_zh_TW": "她在班上太害羞了，不敢發言。"
-          },
-          {
-            "sentence": "The [shy] boy hid behind his mother.",
-            "translation_zh_TW": "那個害羞的男孩躲在他母親的身後。"
-          },
-          {
-            "sentence": "I was [shy] during my first day at school.",
-            "translation_zh_TW": "我在學校的第一天很害羞。"
-          }
-        ],
-        "synonyms": [
-          "bashful",
-          "timid"
-        ]
-      }
-    ],
-    "confusion": [
-      "sly",
-      "shyly",
-      "shyness",
-      "sky"
-    ]
-  },
-  {
-    "word": "shark",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "A large marine predator with sharp teeth and a streamlined body.",
-        "meaning_zh_TW": "鯊魚",
-        "wrong_meaning_zh_TW": [
-          "鯨魚",
-          "海豚",
-          "蝦"
-        ],
-        "examples": [
-          {
-            "sentence": "The shark is known for its impressive hunting skills.",
-            "translation_zh_TW": "鯊魚以其出色的獵捕技巧而聞名。"
-          },
-          {
-            "sentence": "We saw a shark while scuba diving.",
-            "translation_zh_TW": "我們在潛水時看到了一條鯊魚。"
-          },
-          {
-            "sentence": "Sharks play a vital role in the ocean ecosystem.",
-            "translation_zh_TW": "鯊魚在海洋生態系統中扮演著重要角色。"
-          }
-        ],
-        "synonyms": [
-          "predator",
-          "hunter"
-        ]
-      }
-    ],
-    "confusion": [
-      "spark",
-      "bark",
-      "shart",
-      "char"
-    ]
-  },
-  {
-    "word": "fries",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "Deep-fried potatoes, typically cut into sticks.",
-        "meaning_zh_TW": "薯條",
-        "wrong_meaning_zh_TW": [
-          "薯片",
-          "餅乾",
-          "米飯"
-        ],
-        "examples": [
-          {
-            "sentence": "I would like a side of [fries] with my burger.",
-            "translation_zh_TW": "我想要一份薯條作為我的漢堡配菜。"
-          },
-          {
-            "sentence": "These [fries] are crispy and delicious.",
-            "translation_zh_TW": "這些薯條酥脆可口。"
-          },
-          {
-            "sentence": "He dipped his [fries] in ketchup.",
-            "translation_zh_TW": "他把薯條沾上番茄醬。"
-          }
-        ],
-        "synonyms": [
-          "french fries",
-          "chips"
-        ]
-      }
-    ],
-    "confusion": [
-      "flies",
-      "fried",
-      "fry",
-      "frier"
-    ]
-  },
-  {
-    "word": "importance",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The state or fact of being of great significance or value.",
-        "meaning_zh_TW": "重要性",
-        "wrong_meaning_zh_TW": [
-          "微不足道",
-          "無聊",
-          "短暫性"
-        ],
-        "examples": [
-          {
-            "sentence": "His contributions highlight the [importance] of teamwork.",
-            "translation_zh_TW": "他的貢獻突顯了團隊合作的重要性。"
-          },
-          {
-            "sentence": "The teacher stressed the [importance] of studying regularly.",
-            "translation_zh_TW": "老師強調了定期學習的重要性。"
-          },
-          {
-            "sentence": "Understanding history enhances our [importance] in the present.",
-            "translation_zh_TW": "了解歷史增強了我們在當前的意義。"
-          }
-        ],
-        "synonyms": [
-          "significance",
-          "value"
-        ]
-      }
-    ],
-    "confusion": [
-      "importance",
-      "importantly",
-      "importation",
-      "import"
-    ]
-  },
-  {
-    "word": "growth",
-    "meanings": [
-      {
-        "type": "名詞",
-        "meaning_en_US": "The process of increasing in physical size, number, or value.",
-        "meaning_zh_TW": "成長、增長",
-        "wrong_meaning_zh_TW": [
-          "下降",
-          "剝削",
-          "懶惰"
-        ],
-        "examples": [
-          {
-            "sentence": "The town has seen a rapid [growth] in population.",
-            "translation_zh_TW": "這個城鎮的人口快速增長"
-          },
-          {
-            "sentence": "Economic [growth] is crucial for stability.",
-            "translation_zh_TW": "經濟增長對穩定至關重要"
-          },
-          {
-            "sentence": "There was a visible [growth] in her skills over the years.",
-            "translation_zh_TW": "她的技能在這幾年中有明顯的增長"
-          }
-        ],
-        "synonyms": [
-          "expansion",
-          "development"
-        ]
-      }
-    ],
-    "confusion": [
-      "groth",
-      "grotto",
-      "gross",
-      "grouch"
-    ]
-  },
-  {
-    "word": "where",
-    "meanings": [
-      {
-        "type": "副詞",
-        "meaning_en_US": "In or to what place or position.",
-        "meaning_zh_TW": "在什麼地方",
-        "wrong_meaning_zh_TW": [
-          "如何",
-          "什麼時候",
-          "誰"
-        ],
-        "examples": [
-          {
-            "sentence": "Do you know [where] she is?",
-            "translation_zh_TW": "你知道她在哪裡嗎？"
-          },
-          {
-            "sentence": "This is the place [where] I grew up.",
-            "translation_zh_TW": "這是我長大的地方"
-          },
-          {
-            "sentence": "Tell me [where] I can find the book.",
-            "translation_zh_TW": "告訴我我可以在哪裡找到書"
-          }
-        ],
-        "synonyms": [
-          "location",
-          "place"
-        ]
-      }
-    ],
-    "confusion": [
-      "wear",
-      "were",
-      "whare",
-      "wher"
+      "waive",
+      "wove",
+      "waver",
+      "waived"
     ]
   }
 ]
