@@ -14,6 +14,7 @@ interface WordMeaning {
     meaning_en_US: string;
     meaning_zh_TW: string;
     wrong_meaning_zh_TW: string[];
+    meaningIndex: number;
     examples: {
         sentence: string;
         translation_zh_TW: string;
@@ -107,6 +108,7 @@ export default function WordFlashGame() {
     const [welcomeSlogan, setWelcomeSlogan] = useState('');
     const [showFireworks, setShowFireworks] = useState(false);
     const [shouldUpdateChoices, setShouldUpdateChoices] = useState(true);
+    const [showProgressPopup, setShowProgressPopup] = useState(false);
 
     // Initialize audio service
     useEffect(() => {
@@ -134,14 +136,26 @@ export default function WordFlashGame() {
                 const { default: words } = await loadWordFile(level.wordFile);
                 console.log('Loaded raw words:', words); // Debug log
 
-                const preparedList = words.map((word: WordData) => ({
-                    word: word.word,
-                    meaning: {
-                        meaning_zh_TW: word.meanings[0].meaning_zh_TW,
-                        wrong_meaning_zh_TW: word.meanings[0].wrong_meaning_zh_TW || []
-                    },
-                    score: 0
-                }));
+                const preparedList = words.flatMap((word: WordData) => 
+                    // Map over each meaning in the word's meanings array
+                    word.meanings.map((meaning, index) => {
+                        // Get score from localStorage for this word-meaning pair
+                        const cookieKey = `${word.word}-${index}`;
+                        const score = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
+
+                        return {
+                            word: word.word,
+                            meaning: {
+                                type: meaning.type,
+                                meaningIndex: index,
+                                meaning_zh_TW: meaning.meaning_zh_TW,
+                                wrong_meaning_zh_TW: meaning.wrong_meaning_zh_TW || []
+                            },
+                            meaningIndex: index,
+                            score: score  // Use the score from localStorage
+                        };
+                    })
+                );
 
                 console.log('Prepared word list:', preparedList); // Debug log
                 
@@ -223,7 +237,8 @@ export default function WordFlashGame() {
 
     // Move calculateStats to a memoized value
     const stats = useMemo(() => {
-        const totalMeanings = wordList.length;        
+        const totalMeanings = wordList.length;
+        console.log('totalMeanings:', totalMeanings);
         const masteredMeanings = wordList.filter(item => item.score > 0).length;
         const wordsToReview = wordList.filter(item => item.score < 0.4).length;
         
@@ -261,7 +276,8 @@ export default function WordFlashGame() {
         if (isProcessing) return;
         setIsProcessing(true);
         
-        const currentWord = wordList[currentIndex];
+        const totalMeanings = wordList.length;
+        console.log('totalMeanings:', totalMeanings);
         const isAnswerCorrect = choice === currentWord.meaning.meaning_zh_TW;
         setSelectedChoice(choice);
 
@@ -278,17 +294,32 @@ export default function WordFlashGame() {
             await audioService.current.playAudio(wordPath);
         }
 
-        const cookieKey = `${currentWord.word}-${currentWord.meaning.index}`;
-        const currentScore = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
-
         if (isAnswerCorrect) {
-            setStorage(cookieKey, (currentScore + 1.0).toString());
+            // Update score in cookie
+            const cookieKey = `${currentWord.word}-${currentWord.meaningIndex}`;
+            const currentScore = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
+            const newScore = currentScore + 1.0;
+            setStorage(cookieKey, newScore.toString());
+
+            // Update mastered words in localStorage
+            if (newScore >= 1.0 && levelId) {  // Consider word mastered when score >= 1
+                const storageKey = `wordFlash-mastered-word_flash_level_${levelId}`;
+                const masteredWords = JSON.parse(localStorage.getItem(storageKey) || '[]');
+                
+                // Add the word-meaning pair if not already in the list
+                const wordMeaningKey = `${currentWord.word}-${currentWord.meaningIndex}`;
+                if (!masteredWords.includes(wordMeaningKey)) {
+                    masteredWords.push(wordMeaningKey);
+                    localStorage.setItem(storageKey, JSON.stringify(masteredWords));
+                    console.log(`Added ${wordMeaningKey} to mastered words for level ${levelId}`);
+                }
+            }
 
             setWordList(prevList => {
                 return prevList.map(word => {
                     if (word.word === currentWord.word && 
                         word.meaning.index === currentWord.meaning.index) {
-                        return { ...word, score: currentScore + 1.0 };
+                        return { ...word, score: newScore };
                     }
                     return word;
                 });
@@ -418,8 +449,9 @@ export default function WordFlashGame() {
     }, [stats.progress]);
 
     // Add handler to dismiss fireworks
-    const handleFireworksClick = () => {
+    const handleFireworksClick = async () => {
         setShowFireworks(false);
+        await advanceToNextWord(); // Advance to next word after user clicks
     };
 
     // Modify advanceToNextWord to control when choices should update
@@ -444,6 +476,11 @@ export default function WordFlashGame() {
         setSelectedChoice(null);
         setIsProcessing(false);
         setShouldUpdateChoices(true); // Allow choices to update
+    };
+
+    // Function to handle progress bar click
+    const handleProgressBarClick = () => {
+        setShowProgressPopup(true);
     };
 
     if (wordList.length === 0) return <div>Loading...</div>;
