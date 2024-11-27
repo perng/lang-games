@@ -91,9 +91,6 @@ export default function WordFlashGame() {
     const audioRef = useRef<HTMLAudioElement>(null);
     const [hasUserInteracted, setHasUserInteracted] = useState(false);
     const [showWelcome, setShowWelcome] = useState(true);
-    const [slogans, setSlogans] = useState<string[]>([]);
-    const [showSlogan, setShowSlogan] = useState(false);
-    const [currentSlogan, setCurrentSlogan] = useState('');
     const [fastMode, setFastMode] = useState(() => {
         return localStorage.getItem('wordFlash_fastMode') === 'true'
     });
@@ -106,6 +103,7 @@ export default function WordFlashGame() {
     });
     const [showExamplesPopup, setShowExamplesPopup] = useState(false);
     const [levelDescription, setLevelDescription] = useState('');
+    const [welcomeSlogan, setWelcomeSlogan] = useState('');
 
     // Initialize audio service
     useEffect(() => {
@@ -199,13 +197,23 @@ export default function WordFlashGame() {
     useEffect(() => {
         if (wordList.length > 0 && !isProcessing) {
             const currentWord = wordList[currentIndex];
-            const newChoices = shuffleArray([
-                currentWord.meaning.meaning_zh_TW,
-                ...currentWord.meaning.wrong_meaning_zh_TW
-            ]);
-            setChoices(newChoices);
+            if (!currentWord) return;
+
+            // Create choices array with the correct answer and wrong meanings
+            const newChoices = [
+                currentWord.meaning.meaning_zh_TW,  // Correct answer
+                ...currentWord.meaning.wrong_meaning_zh_TW  // Wrong answers
+            ];
+            
+            // Shuffle the choices
+            setChoices(shuffleArray([...newChoices]));
+            
+            // Debug log
+            console.log('Current word:', currentWord.word);
+            console.log('Correct meaning:', currentWord.meaning.meaning_zh_TW);
+            console.log('All choices:', newChoices);
         }
-    }, [currentIndex, wordList.length]); // Only shuffle when word changes
+    }, [currentIndex, wordList.length, isProcessing]); // Dependencies
 
     // Play word when it changes
     useEffect(() => {
@@ -300,11 +308,7 @@ export default function WordFlashGame() {
                     return word;
                 });
             });
-
-            const nextCorrectWords = correctWordsInRound + 1;
-            setCorrectWordsInRound(nextCorrectWords);
             
-            if (nextCorrectWords < 10) {
                 console.log('Showing examples 500');
                 await new Promise(resolve => setTimeout(resolve, 500));
                 
@@ -315,14 +319,7 @@ export default function WordFlashGame() {
                     setIsProcessing(false);
                     setCurrentIndex((prev) => (prev + 1) % wordList.length);
                 }
-            } else if (nextCorrectWords === 10) {
-                console.log('Showing slogan 2000');
-                await new Promise(resolve => setTimeout(resolve, 2000));
-                const randomIndex = Math.floor(Math.random() * slogans.length);
-                setCurrentSlogan(slogans[randomIndex]);
-                setShowSlogan(true);
-                setIsProcessing(false);
-            }
+
         } else {
             console.log('Wrong answer 500');
             await new Promise(resolve => setTimeout(resolve, 500));
@@ -349,26 +346,16 @@ export default function WordFlashGame() {
             try {
                 const response = await fetch('/data/WordFlash/slogans.txt');
                 const text = await response.text();
-                setSlogans(text.split('\n').filter(line => line.trim()));
+                const sloganList = text.split('\n').filter(line => line.trim());
+                const randomSlogan = sloganList[Math.floor(Math.random() * sloganList.length)];
+                setWelcomeSlogan(randomSlogan);
             } catch (error) {
                 console.error('Error loading slogans:', error);
+                setWelcomeSlogan('Welcome to Word Flash!');
             }
         };
         loadSlogans();
     }, []);
-
-    // Update handleSloganClick to handle the sequence
-    const handleSloganClick = async () => {
-        setShowSlogan(false);
-        
-        // Sort words using the same logic as initial load
-        setWordList(prevList => sortWordList(prevList));
-
-        setCorrectWordsInRound(0);
-        setSelectedChoice(null);
-        setIsProcessing(false);
-        setCurrentIndex(0);  // Start from beginning of newly sorted list
-    };
 
     // Add this new handler function
     const handlePreviousWord = () => {
@@ -473,8 +460,8 @@ export default function WordFlashGame() {
             {showWelcome && (
                 <div className="welcome-overlay">
                     <div className="welcome-content">
-                        <h2>Ready to Begin?</h2>
-                        <p>Click Start to begin practicing words with audio.</p>
+                        <h2></h2>
+                        <p>{welcomeSlogan}</p>
                         <button 
                             className="start-button"
                             onClick={startGame}
@@ -616,17 +603,6 @@ export default function WordFlashGame() {
                     </div>
                 </div>
             </div>
-
-            {showSlogan && (
-                <div 
-                    className="slogan-overlay"
-                    onClick={handleSloganClick}
-                >
-                    <div className="slogan-content">
-                        <h2>{currentSlogan}</h2>                        
-                    </div>
-                </div>
-            )}
 
             {showExamplesPopup && (
                 <div 
