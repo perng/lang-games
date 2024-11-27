@@ -97,13 +97,8 @@ export default function WordFlashGame() {
     const [fastMode, setFastMode] = useState(false);
     const continueTimerRef = useRef<number>();
     const audioService = useRef<AudioService>();
-    const [eatenDots, setEatenDots] = useState(0);
-    const [completedRounds, setCompletedRounds] = useState(0);
-    const [isReturning, setIsReturning] = useState(false);
     const [correctWordsInRound, setCorrectWordsInRound] = useState(0);
     const [showStatsPopup, setShowStatsPopup] = useState(false);
-    const [pacmanMode, setPacmanMode] = useState(false);
-    const [isDying, setIsDying] = useState(false);
     const [showExamples, setShowExamples] = useState(false);
     const [showExamplesPopup, setShowExamplesPopup] = useState(false);
 
@@ -111,15 +106,6 @@ export default function WordFlashGame() {
     useEffect(() => {
         audioService.current = new AudioService(audioRef);
     }, []);
-
-    // Restore completed rounds from cookie
-    useEffect(() => {
-        if (levelId) {
-            const savedRounds = parseInt(getStorageWithCookie(`${levelId}_completed_rounds`) || '0');
-            console.log(`Restored ${savedRounds} completed rounds from cookie for level ${levelId}`);
-            setCompletedRounds(savedRounds);
-        }
-    }, [levelId]);
 
     // Load word list
     useEffect(() => {
@@ -189,7 +175,8 @@ export default function WordFlashGame() {
             for (let i = 0; i < 10 && i < wordList.length; i++) {
                 const word = wordList[index];
                 nextWords.push({
-                    word: word.word,                    
+                    word: word.word,                   
+                    meaning_zh_TW: word.meaning.meaning_zh_TW,
                     meaningIndex: word.meaning.index,
                     score: word.score
                 });
@@ -278,15 +265,13 @@ export default function WordFlashGame() {
 
         // Read definition, pause, then play word
         if (hasUserInteracted && audioService.current && levelId && !fastMode) {
-            // Play Chinese definition
             const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)));
             const definitionPath = `/voices/chinese/${encodedDefinition}.mp3`;
             await audioService.current.playAudio(definitionPath);
             
-            // Pause for 0.7 seconds
+            console.log('Playing definition 700');
             await new Promise(resolve => setTimeout(resolve, 700));
             
-            // Play word pronunciation
             const wordPath = `/voices/english/${currentWord.word}.mp3`;
             await audioService.current.playAudio(wordPath);
         }
@@ -294,11 +279,9 @@ export default function WordFlashGame() {
         const currentScore = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
 
         if (isAnswerCorrect) {
-            // Update cookie score when answer is correct
             setStorage(cookieKey, (currentScore + 1.0).toString());
             console.log(`Updated score for ${currentWord.word} to ${getStorageWithCookie(cookieKey)}`);
 
-            // Update wordList with new score
             setWordList(prevList => {
                 return prevList.map(word => {
                     if (word.word === currentWord.word && 
@@ -313,15 +296,9 @@ export default function WordFlashGame() {
             setCorrectWordsInRound(nextCorrectWords);
             
             if (nextCorrectWords < 10) {
-                // Only play chomping sound if pacmanMode is on
-                if (pacmanMode && audioService.current) {
-                    await audioService.current.playAudio('/voices/pacman_chomp.wav');
-                }
-                
-                setEatenDots(nextCorrectWords);
+                console.log('Showing examples 500');
                 await new Promise(resolve => setTimeout(resolve, 500));
                 
-                // Show examples popup if enabled
                 if (showExamples) {
                     setShowExamplesPopup(true);
                 } else {
@@ -330,8 +307,7 @@ export default function WordFlashGame() {
                     setCurrentIndex((prev) => (prev + 1) % wordList.length);
                 }
             } else if (nextCorrectWords === 10) {
-                // Play final chomp for power pellet
-                
+                console.log('Showing slogan 2000');
                 await new Promise(resolve => setTimeout(resolve, 2000));
                 const randomIndex = Math.floor(Math.random() * slogans.length);
                 setCurrentSlogan(slogans[randomIndex]);
@@ -339,16 +315,7 @@ export default function WordFlashGame() {
                 setIsProcessing(false);
             }
         } else {
-            // Only play death sound and animate if pacmanMode is on
-            if (pacmanMode && audioService.current) {
-                setIsDying(true);
-                await audioService.current.playAudio('/voices/pacman_death.wav');
-                // Wait for death animation to complete
-                await new Promise(resolve => setTimeout(resolve, 1500));
-                setIsDying(false);
-            }
-
-            console.log(`Updated score for ${currentWord.word} to ${getStorageWithCookie(cookieKey)}`);
+            console.log('Wrong answer 500');
             await new Promise(resolve => setTimeout(resolve, 500));
             setSelectedChoice(null);
             setIsProcessing(false);
@@ -384,32 +351,14 @@ export default function WordFlashGame() {
     // Update handleSloganClick to handle the sequence
     const handleSloganClick = async () => {
         setShowSlogan(false);
-        setIsReturning(true);
         
-        // Play intermission sound and wait for Pacman's return animation
-        if (audioService.current) {
-            await audioService.current.playAudio('/voices/pacman_intermission.wav');
-        }
-        
-        setTimeout(() => {
-            const newCompletedRounds = completedRounds + 1;
-            setCompletedRounds(newCompletedRounds);
-            
-            // Save to cookie whenever rounds are updated
-            if (levelId) {
-                setStorage(`${levelId}_completed_rounds`, newCompletedRounds.toString());
-            }
+        // Sort words using the same logic as initial load
+        setWordList(prevList => sortWordList(prevList));
 
-            // Sort words using the same logic as initial load
-            setWordList(prevList => sortWordList(prevList));
-
-            setEatenDots(0);
-            setCorrectWordsInRound(0);
-            setIsReturning(false);
-            setSelectedChoice(null);
-            setIsProcessing(false);
-            setCurrentIndex(0);  // Start from beginning of newly sorted list
-        }, 3000);
+        setCorrectWordsInRound(0);
+        setSelectedChoice(null);
+        setIsProcessing(false);
+        setCurrentIndex(0);  // Start from beginning of newly sorted list
     };
 
     // Add this new handler function
@@ -508,23 +457,6 @@ export default function WordFlashGame() {
                 <IoArrowUpOutline size={24} />
             </button>
 
-            <div className="pacman-container">
-                <div 
-                    className={`pacman ${isReturning ? 'returning' : ''} ${isDying ? 'dying' : ''}`}
-                    style={{ 
-                        '--current-x': `${eatenDots * 18}px`,
-                        transform: !isReturning ? `translateX(${eatenDots * 18}px)` : undefined
-                    } as React.CSSProperties}
-                />
-                {[...Array(9)].map((_, index) => (
-                    <div
-                        key={index}
-                        className={`pac-dot ${index < eatenDots ? 'eaten' : ''}`}
-                    />
-                ))}
-                <div className={`power-pellet ${correctWordsInRound === 10 ? 'eaten' : ''}`} />
-            </div>
-
             {showWelcome && (
                 <div className="welcome-overlay">
                     <div className="welcome-content">
@@ -558,43 +490,21 @@ export default function WordFlashGame() {
                     </button>
                 </div>
             </div>
-            <div className="content-with-ghosts">
-                <div className="ghost-areas-container">
-                    <div className="ghost-area left-ghosts">
-                        {[...Array(15)].map((_, index) => (
-                            <div 
-                                key={index}
-                                className={`ghost ${index < Math.ceil(completedRounds/2) ? 'visible' : ''}`}
-                            />
-                        ))}
-                    </div>
-                    
-                    <div className="choices">
-                        {choices.map((choice, index) => (
-                            <button
-                                key={index}
-                                onClick={() => handleChoice(choice)}
-                                className={`choice-button ${selectedChoice === choice && 
-                                    (choice === currentWord.meaning.meaning_zh_TW ? 'correct' : 'wrong')}
-                                    ${selectedChoice && 
-                                        choice === currentWord.meaning.meaning_zh_TW ? 'correct' : ''}
-                                `}
-                                disabled={isProcessing}
-                            >
-                                {choice}
-                            </button>
-                        ))}
-                    </div>
-                    
-                    <div className="ghost-area right-ghosts">
-                        {[...Array(15)].map((_, index) => (
-                            <div 
-                                key={index}
-                                className={`ghost ${index < Math.floor(completedRounds/2) ? 'visible' : ''}`}
-                            />
-                        ))}
-                    </div>
-                </div>
+            <div className="choices">
+                {choices.map((choice, index) => (
+                    <button
+                        key={index}
+                        onClick={() => handleChoice(choice)}
+                        className={`choice-button ${selectedChoice === choice && 
+                            (choice === currentWord.meaning.meaning_zh_TW ? 'correct' : 'wrong')}
+                            ${selectedChoice && 
+                                choice === currentWord.meaning.meaning_zh_TW ? 'correct' : ''}
+                        `}
+                        disabled={isProcessing}
+                    >
+                        {choice}
+                    </button>
+                ))}
             </div>
             
             {Number(stats.progress) >= 100 && (
@@ -648,10 +558,6 @@ export default function WordFlashGame() {
                                     <span className="stat-label">尚餘單字:</span>
                                     <span className="stat-value">{stats.wordsToReview}/{stats.totalMeanings}</span>
                                 </div>
-                                <div className="stat-item">
-                                    <span className="stat-label">完成回合:</span>
-                                    <span className="stat-value">{completedRounds}</span>
-                                </div>
                             </div>
                             <button 
                                 className="close-button"
@@ -673,18 +579,6 @@ export default function WordFlashGame() {
                                 type="checkbox"
                                 checked={fastMode}
                                 onChange={(e) => setFastMode(e.target.checked)}
-                            />
-                            <span className="toggle-slider"></span>
-                        </label>
-                    </div>
-
-                    <div className="toggle-group">
-                        <span className="toggle-label">👾</span>
-                        <label className="toggle-switch">
-                            <input
-                                type="checkbox"
-                                checked={pacmanMode}
-                                onChange={(e) => setPacmanMode(e.target.checked)}
                             />
                             <span className="toggle-slider"></span>
                         </label>
