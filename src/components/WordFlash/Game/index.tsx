@@ -7,6 +7,7 @@ import { FaPlay } from 'react-icons/fa';
 import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
 import { AudioService } from '../../../utils/audioService';
 import { Fireworks } from '@fireworks-js/react';
+import { useReward } from 'react-rewards';
 
 // Add these type definitions at the top of the file
 interface WordMeaning {
@@ -96,7 +97,6 @@ export default function WordFlashGame() {
     const [fastMode, setFastMode] = useState(() => {
         return localStorage.getItem('wordFlash_fastMode') === 'true'
     });
-    const continueTimerRef = useRef<number>();
     const audioService = useRef<AudioService>();
     const [showStatsPopup, setShowStatsPopup] = useState(false);
     const [showExamples, setShowExamples] = useState(() => {
@@ -109,6 +109,21 @@ export default function WordFlashGame() {
     const [shouldUpdateChoices, setShouldUpdateChoices] = useState(true);
     const [blindMode, setBlindMode] = useState(() => {
         return localStorage.getItem('wordFlash_blindMode') === 'true'
+    });
+
+    // Add reward ref for each choice button
+    const { reward: rewardConfetti } = useReward('rewardConfetti', 'confetti', {
+        elementCount: 75,
+        spread: 45,
+        startVelocity: 20,
+    });
+
+    const { reward: rewardBalloons } = useReward('rewardBalloons', 'balloons', {
+        elementCount: 18,
+        spread: 120,
+        startVelocity: 40,
+        decay: 0.9,
+        lifetime: 200
     });
 
     // Initialize audio service
@@ -277,7 +292,14 @@ export default function WordFlashGame() {
         console.log('totalMeanings:', totalMeanings);
         const isAnswerCorrect = choice === currentWord.meaning.meaning_zh_TW;
         setSelectedChoice(choice);
-
+        if (isAnswerCorrect) {
+            // 1/5 probability to show effect, randomly choose between confetti and balloons
+            if (Math.random() < 0.5) {
+                rewardConfetti()
+            } else { 
+             rewardBalloons();
+            }
+        }
         // Read definition, pause, then play word
         if (hasUserInteracted && audioService.current && levelId && !fastMode) {
             const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)));
@@ -292,6 +314,7 @@ export default function WordFlashGame() {
         }
 
         if (isAnswerCorrect) {
+            
             // Update score in cookie
             const cookieKey = `${currentWord.word}-${currentWord.meaning.meaningIndex}`;
             const currentScore = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
@@ -383,24 +406,12 @@ export default function WordFlashGame() {
 
     // Add this new handler function
     const handlePreviousWord = () => {
-        // Clear any existing timers
-        if (continueTimerRef.current) {
-            window.clearTimeout(continueTimerRef.current);
-        }
-
-        // Reset audio if it's playing
-        if (audioRef.current) {
-            audioRef.current.pause();
-            audioRef.current.currentTime = 0;
-        }
-
-        // Calculate previous index
-        const newIndex = (currentIndex - 1 + wordList.length) % wordList.length;
-        setCurrentIndex(newIndex);
-        
-        // Reset states
+        // Calculate previous index with wrap-around
+        const prevIndex = (currentIndex - 1 + wordList.length) % wordList.length;
+        setCurrentIndex(prevIndex);
         setSelectedChoice(null);
         setIsProcessing(false);
+        setShouldUpdateChoices(true);
     };
 
     // Add handler for closing examples popup
@@ -540,7 +551,7 @@ export default function WordFlashGame() {
             <div className="word-section">
                 <h1 className="word">
                     {blindMode && !selectedChoice 
-                        ? '_'.repeat(currentWord.word.length)
+                        ? '?'.repeat(currentWord.word.length)
                         : currentWord.word
                     }
                 </h1>
@@ -571,6 +582,13 @@ export default function WordFlashGame() {
                         disabled={isProcessing}
                     >
                         {choice}
+                        {/* Add both reward spans for the correct choice */}
+                        {choice === currentWord.meaning.meaning_zh_TW && (
+                            <>
+                                <span id="rewardConfetti" />
+                                <span id="rewardBalloons" />
+                            </>
+                        )}
                     </button>
                 ))}
             </div>
