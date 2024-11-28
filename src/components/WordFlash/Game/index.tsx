@@ -330,13 +330,14 @@ export default function WordFlashGame() {
             
             if (showExamples) {
                 setShowExamplesPopup(true);
-            } 
+            } else {
+                await advanceToNextWord(); // Only advance if not showing examples
+            }
         } else {
             console.log('Wrong answer, pause 1 second');
             await new Promise(resolve => setTimeout(resolve, 1000));
-            
+            await advanceToNextWord(); // Always advance on wrong answer
         }
-        await advanceToNextWord();
     };
 
     const startGame = async () => {
@@ -449,9 +450,9 @@ export default function WordFlashGame() {
     }, [stats.progress]);
 
     // Add handler to dismiss fireworks
-    const handleFireworksClick = async () => {
+    const handleFireworksClick = () => {
         setShowFireworks(false);
-        await advanceToNextWord(); // Advance to next word after user clicks
+        navigate('/word-flash'); // Navigate back to menu page
     };
 
     // Modify advanceToNextWord to control when choices should update
