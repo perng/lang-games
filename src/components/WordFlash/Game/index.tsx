@@ -98,7 +98,6 @@ export default function WordFlashGame() {
     });
     const continueTimerRef = useRef<number>();
     const audioService = useRef<AudioService>();
-    const [correctWordsInRound, setCorrectWordsInRound] = useState(0);
     const [showStatsPopup, setShowStatsPopup] = useState(false);
     const [showExamples, setShowExamples] = useState(() => {
         return localStorage.getItem('wordFlash_showExamples') === 'true'
@@ -108,7 +107,6 @@ export default function WordFlashGame() {
     const [welcomeSlogan, setWelcomeSlogan] = useState('');
     const [showFireworks, setShowFireworks] = useState(false);
     const [shouldUpdateChoices, setShouldUpdateChoices] = useState(true);
-    const [showProgressPopup, setShowProgressPopup] = useState(false);
 
     // Initialize audio service
     useEffect(() => {
@@ -138,23 +136,19 @@ export default function WordFlashGame() {
 
                 const preparedList = words.flatMap((word: WordData) => 
                     // Map over each meaning in the word's meanings array
-                    word.meanings.map((meaning, index) => {
-                        // Get score from localStorage for this word-meaning pair
-                        const cookieKey = `${word.word}-${index}`;
-                        const score = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
-
-                        return {
-                            word: word.word,
-                            meaning: {
-                                type: meaning.type,
-                                meaningIndex: index,
-                                meaning_zh_TW: meaning.meaning_zh_TW,
-                                wrong_meaning_zh_TW: meaning.wrong_meaning_zh_TW || []
-                            },
+                    word.meanings.map((meaning, index) => ({
+                        word: word.word,
+                        meaning: {
+                            type: meaning.type,
                             meaningIndex: index,
-                            score: score  // Use the score from localStorage
-                        };
-                    })
+                            meaning_zh_TW: meaning.meaning_zh_TW,
+                            wrong_meaning_zh_TW: meaning.wrong_meaning_zh_TW || [],
+                            examples: meaning.examples || [],
+                            synonyms: meaning.synonyms || []
+                        },
+                        meaningIndex: index,
+                        score: parseFloat(getStorageWithCookie(`${word.word}-${index}`) || '0.0')
+                    }))
                 );
 
                 console.log('Prepared word list:', preparedList); // Debug log
@@ -190,7 +184,7 @@ export default function WordFlashGame() {
                 nextWords.push({
                     word: word.word,                   
                     meaning_zh_TW: word.meaning.meaning_zh_TW,
-                    meaningIndex: word.meaning.index,
+                    meaningIndex: word.meaning.meaningIndex,
                     score: word.score
                 });
                 index = (index + 1) % wordList.length;
@@ -296,7 +290,7 @@ export default function WordFlashGame() {
 
         if (isAnswerCorrect) {
             // Update score in cookie
-            const cookieKey = `${currentWord.word}-${currentWord.meaningIndex}`;
+            const cookieKey = `${currentWord.word}-${currentWord.meaning.meaningIndex}`;
             const currentScore = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
             const newScore = currentScore + 1.0;
             setStorage(cookieKey, newScore.toString());
@@ -307,7 +301,7 @@ export default function WordFlashGame() {
                 const masteredWords = JSON.parse(localStorage.getItem(storageKey) || '[]');
                 
                 // Add the word-meaning pair if not already in the list
-                const wordMeaningKey = `${currentWord.word}-${currentWord.meaningIndex}`;
+                const wordMeaningKey = `${currentWord.word}-${currentWord.meaning.meaningIndex}`;
                 if (!masteredWords.includes(wordMeaningKey)) {
                     masteredWords.push(wordMeaningKey);
                     localStorage.setItem(storageKey, JSON.stringify(masteredWords));
@@ -318,7 +312,7 @@ export default function WordFlashGame() {
             setWordList(prevList => {
                 return prevList.map(word => {
                     if (word.word === currentWord.word && 
-                        word.meaning.index === currentWord.meaning.index) {
+                        word.meaning.meaningIndex === currentWord.meaning.meaningIndex) {
                         return { ...word, score: newScore };
                     }
                     return word;
@@ -477,11 +471,6 @@ export default function WordFlashGame() {
         setSelectedChoice(null);
         setIsProcessing(false);
         setShouldUpdateChoices(true); // Allow choices to update
-    };
-
-    // Function to handle progress bar click
-    const handleProgressBarClick = () => {
-        setShowProgressPopup(true);
     };
 
     if (wordList.length === 0) return <div>Loading...</div>;

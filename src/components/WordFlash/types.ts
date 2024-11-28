@@ -1,7 +1,6 @@
 export interface WordMeaning {
-    index: number;
     type: string;
-    meaning_en_US: string;
+    meaningIndex: number;
     meaning_zh_TW: string;
     wrong_meaning_zh_TW: string[];
     examples: {
@@ -20,5 +19,6 @@ export interface WordData {
 export interface WordWithScore {
     word: string;
     meaning: WordMeaning;
+    meaningIndex: number;
     score: number;
 } 
