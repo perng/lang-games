@@ -3,54 +3,46 @@ html {
 }
 
 .word-flash-menu {
-    min-height: 100vh;
-    background-color: #f4f4f9;
-    padding: 20px;
-    overflow-y: auto;
-}
-
-header {
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 40px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    color: #2196f3;
-    font-weight: 600;
-    letter-spacing: -0.5px;
-}
-
-.back-button {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #333;
-    padding: 8px;
-    border-radius: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-    transition: background-color 0.2s;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.back-button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+.menu-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
 }
 
 .levels-container {
-    max-width: 800px;
-    margin: 0 auto;
+    flex: 1;
+    overflow-y: auto;
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.menu-footer {
+    position: sticky;
+    bottom: 0;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    text-align: center;
+}
+
+.footer-content {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Ensure level items don't get hidden under the footer */
+.levels-container {
+    padding-bottom: calc(1rem + 50px); /* Add extra padding for footer */
 }
 
 .level-item {

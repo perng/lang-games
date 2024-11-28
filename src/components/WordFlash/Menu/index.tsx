@@ -232,7 +232,8 @@ export default function WordFlashMenu() {
 
     return (
         <div className="word-flash-menu">
-            <header>
+            {/* Fixed Header */}
+            <header className="menu-header">
                 <button 
                     className="back-button"
                     onClick={() => navigate('/')}
@@ -242,12 +243,12 @@ export default function WordFlashMenu() {
                 <h1>Word Flash</h1>
             </header>
 
+            {/* Scrollable Content */}
             <main className="levels-container">
                 {isLoading ? (
                     <div className="loading">Loading levels...</div>
                 ) : (
                     levels.map((level, index) => {
-                        // Check if this is the first incomplete level
                         const isFirstIncomplete = 
                             index === levels.findIndex(l => (l.progress ?? 0) < 100);
 
@@ -283,6 +284,13 @@ export default function WordFlashMenu() {
                     })
                 )}
             </main>
+
+            {/* Fixed Footer */}
+            <footer className="menu-footer">
+                <div className="footer-content">
+                    <p>Select a level to begin</p>
+                </div>
+            </footer>
         </div>
     );
 } 
