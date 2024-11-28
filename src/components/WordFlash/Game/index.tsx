@@ -107,6 +107,9 @@ export default function WordFlashGame() {
     const [welcomeSlogan, setWelcomeSlogan] = useState('');
     const [showFireworks, setShowFireworks] = useState(false);
     const [shouldUpdateChoices, setShouldUpdateChoices] = useState(true);
+    const [blindMode, setBlindMode] = useState(() => {
+        return localStorage.getItem('wordFlash_blindMode') === 'true'
+    });
 
     // Initialize audio service
     useEffect(() => {
@@ -535,7 +538,12 @@ export default function WordFlashGame() {
             <audio ref={audioRef} />
             
             <div className="word-section">
-                <h1 className="word">{currentWord.word}</h1>
+                <h1 className="word">
+                    {blindMode && !selectedChoice 
+                        ? '_'.repeat(currentWord.word.length)
+                        : currentWord.word
+                    }
+                </h1>
                 <div className="type-container">
                     <p className="word-type">{currentWord.meaning.type}</p>
                     <button 
@@ -656,6 +664,21 @@ export default function WordFlashGame() {
                                 onChange={(e) => {
                                     setShowExamples(e.target.checked);
                                     localStorage.setItem('wordFlash_showExamples', e.target.checked.toString());
+                                }}
+                            />
+                            <span className="toggle-slider"></span>
+                        </label>
+                    </div>
+
+                    <div className="toggle-group">
+                        <span className="toggle-label">👂</span>
+                        <label className="toggle-switch">
+                            <input
+                                type="checkbox"
+                                checked={blindMode}
+                                onChange={(e) => {
+                                    setBlindMode(e.target.checked);
+                                    localStorage.setItem('wordFlash_blindMode', e.target.checked.toString());
                                 }}
                             />
                             <span className="toggle-slider"></span>
