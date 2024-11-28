@@ -4,7 +4,7 @@ import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState, useRef } from 'react';
 import { getStorageWithCookie, setStorage } from '../../../utils/storage';
 
-const PROGRESS_RECALC_FLAG = 'wf-312';
+const PROGRESS_RECALC_FLAG = 'wf-2024-11-27';
 
 interface Level {
     id: string;
@@ -188,6 +188,11 @@ export default function WordFlashMenu() {
                         setStorage(`wordFlash-progress-${level.id}`, progress.toString());
                         setStorage(`wordFlash-mastered-${level.id}`, masteredCount.toString());
                         setStorage(`wordFlash-total-${level.id}`, totalMeanings.toString());
+
+                        // Set firework flag if progress is complete
+                        if (progress >= 100) {
+                            localStorage.setItem(`wordFlash-firework-${level.id}`, 'true');
+                        }
 
                         // Update the level object in our array
                         updatedLevels[i] = {

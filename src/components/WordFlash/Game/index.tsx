@@ -307,6 +307,7 @@ export default function WordFlashGame() {
                     localStorage.setItem(storageKey, JSON.stringify(masteredWords));
                     console.log(`Added ${wordMeaningKey} to mastered words for level ${levelId}`);
                 }
+
             }
 
             setWordList(prevList => {
@@ -322,6 +323,21 @@ export default function WordFlashGame() {
             console.log('Correct answer, pause 0.5 second');
             await new Promise(resolve => setTimeout(resolve, 1000));
             
+            // Check if level is completed
+            const newProgress = Number(stats.progress);
+            if (newProgress >= 100) {
+                // Check if firework has been shown for this level
+                const fireworkKey = `wordFlash-firework-${levelId}`;
+                const hasPlayedFirework = localStorage.getItem(fireworkKey);
+                
+                if (!hasPlayedFirework) {
+                    localStorage.setItem(fireworkKey, 'true');
+                    setShowFireworks(true);
+                    setIsProcessing(false);
+                    return;
+                }
+            }
+
             if (showExamples) {
                 setShowExamplesPopup(true);
             } else {
@@ -438,8 +454,12 @@ export default function WordFlashGame() {
 
     // Add useEffect to check progress and trigger fireworks
     useEffect(() => {
-        if (Number(stats.progress) >= 100 && !showFireworks) {
+        const fireworkKey = `wordFlash-firework-${levelId}`;
+        const hasPlayedFirework = localStorage.getItem(fireworkKey);
+
+        if (Number(stats.progress) >= 100 && !showFireworks && !hasPlayedFirework) {
             setShowFireworks(true);
+            localStorage.setItem(fireworkKey, 'true');
         }
     }, [stats.progress]);
 
