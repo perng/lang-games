@@ -117,7 +117,7 @@ export default function WordFlashMenu() {
         const loadLevelsWithProgress = async () => {
             try {
                 // Load the levels.json file from public folder
-                const response = await fetch('/data/WordFlash/levels.json');
+                const response = await fetch('/data/WordFlash/word_levels.json');
                 const levelsData = await response.json();
                 
                 // Add stored progress to each level from localStorage/cookies

@@ -69,9 +69,9 @@ interface Level {
 // Add this function at the top of the file
 const getLevelData = async (levelId: string): Promise<Level | null> => {
     try {
-        const response = await fetch('/data/WordFlash/levels.json');
+        const response = await fetch('/data/WordFlash/word_levels.json');
         if (!response.ok) {
-            console.error('Failed to fetch levels.json:', response.status);
+            console.error('Failed to fetch word_levels.json:', response.status);
             return null;
         }
         
@@ -429,9 +429,9 @@ export default function WordFlashGame() {
         
         try {
             // Get all level files
-            const response = await fetch('/data/WordFlash/levels.json');
+            const response = await fetch('/data/WordFlash/word_levels.json');
             if (!response.ok) {
-                console.error('Failed to fetch levels.json:', response.status);
+                console.error('Failed to fetch word_levels.json:', response.status);
                 return null;
             }
             

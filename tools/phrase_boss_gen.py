@@ -7,27 +7,51 @@ from itertools import islice
 BATCH_SIZE = 40
 
 sys_prompt = '''
-Given a list of phrases, for each phrases and each definition of the phrases, generate vocabulary questions.   
-Generate only the questions with no other text. Output in the following format:
+Given a list of phrases, generate a JSON file, and no other text in the following format
+[
+  {
+    "word": "act out",
+    "meanings": [
+      {
+        "type": "動詞片語",
+        "meaning_en_US": "To express or perform something, typically an emotion or behavior, in an exaggerated way.",
+        "meaning_zh_TW": "表現過度、誇張地表現情緒或行為",
+        "wrong_meaning_zh_TW": ["安靜不動", "遵守規則", "做戲、扮演"],
+        "examples": [
+          {
+            "sentence": "He tends to [act out] when he doesn't get his way.",
+            "translation_zh_TW": "當他無法如願時，他會表現得過度",
+            "others": ["keep out", "top off", "run across"]
+          },
+          {
+            "sentence": "The children [acted out] during the long trip.",
+            "translation_zh_TW": "在漫長的旅程中，孩子們表現得過度",
+            "others": ["threw out", "finished off", "run across"]
+          },
+          {
+            "sentence": "She [acted out] her frustration by yelling.",
+            "translation_zh_TW": "她通過大喊來表現她的沮喪",
+            "others": ["pinned down", "cleared up", "ran across"]
+          }
+        ],
+        "synonyms": ["exaggerate", "overreact"]
+      }
+    ]
+  },...]            
 
-[{"answer" : "arithmetic",
-  "word_translation_zh_TW": "算術",
-  "sentence_zh_TW" : "基本的算術技能，​​如加法和減法，是在小學教授的。",
-  "sentence": "Basic ______ skills, like addition and subtraction, are taught in elementary school.",
-  "others" : ["grammar","geography","physics"],
-  "others_zh_TW" : ["文法","地理","物理"],
-  "id": "d90733c3c3c07c45e0c87bb06d1f2e8f"   
-},
-  ...
-]
-"answer" is the right answer to fill the blank. 
-"sentence_zh_TW" is the whole sentence with the answer translated, make sure the wording conform to Chinese grammar.
-"word_translation_zh_TW" is the translation of "answer"to traditional Chinese taking from "sentence_zh_TW". 
-"id" is the md5 hash of the sentence.
-Make sure there are 3 phrases in "others", they should 
-be obviously doesn't make sense in the sentence. Make the sentence longer to provide more context and make the answer more obvious. “others_zh_TW” contains the short Traditional Chinese translation of the 3 phrases in the “others with the same order. 
+"type" can be "名詞片語", "動詞片語",, etc.  
+“Meanings” are the definitions of the phrase, one entry each. In each entry, "meaning_en_US" is its meaning in English, 
+"meaning_zh_TW" is the terse Traditional Chinese translation of the phrase, this field should include the wording used in the example sentences in the “examples” field. 
+"wrong_meaning_zh_TW" should contain 3 Chinese phrases that are NOT the meaning of the word and should be very different from each other, 
+they should be about the same length as the correct meaning in Chinese.  
+The “examples” field contains 3 entries. The "sentence" would be a sample sentence with the phrase where the 
+phrase can be adjusted for tense or singular/plural, or other necessary grammartical changes like put a noun or pronoun in the middle 
+(e.g. "count out" -> "count someone out"). 
+The phrse in the sentence should be surrounded with square brackets. "translation_zh_TW" is the translation of the sentence to traditional 
+Chinese. "others" are 3 other phrases that are NOT gramatically nor semantically correct phrases, to be used as wrong answers for multiple choice questions.
+
 Generate as much as possible till you hit the character limit.
-The list of phrases are:  
+The list of words to generate the JSON are:  
 
 '''
 
@@ -44,7 +68,7 @@ args = parser.parse_args()
 # Read input words from text file
 try:
     with open(args.input_file, 'r', encoding='utf-8') as f:
-        input_words = {line.strip() for line in f if line.strip()}
+        input_words = [line.strip() for line in f if line.strip()]
 except FileNotFoundError:
     print(f"Error: Text file {args.input_file} not found")
     exit(1)
@@ -59,11 +83,12 @@ if os.path.exists(args.output_file) and os.path.getsize(args.output_file) > 0:
         print(f"Warning: Invalid JSON in {args.output_file}, starting with empty array")
         main_json = []
 
-# Get words that already have questions
-existing_words = {q["answer"] for q in main_json}
+# Get words that already have questions (keep as set for efficient lookup)
+existing_words = {q["word"] for q in main_json}
+print(f"Found {len(existing_words)} words that already have questions")
 
-# Get initial words that need questions
-words_needed = list(input_words - existing_words)
+# Get initial words that need questions (maintain order from input_words)
+words_needed = [w for w in input_words if w not in existing_words]
 print(f"Found {len(words_needed)} words that need questions out of {len(input_words)} total words")
 
 # Process words in batches
@@ -106,7 +131,7 @@ def process_batch(word_batch):
             return new_questions
         except json.JSONDecodeError as e:
             # Save error content and current state
-            with open('error.txt', 'w', encoding='utf-8') as f:
+            with open('error.json', 'w', encoding='utf-8') as f:
                 f.write(cleaned_content)
             save_snapshot()
             print(f"Error parsing JSON response: {e}")
@@ -131,7 +156,7 @@ while words_needed:
         print(f"Added {len(new_questions)} new questions")
         
         # Update words_needed by removing words that got questions
-        new_answers = {q["answer"] for q in new_questions}
+        new_answers = {q["word"] for q in new_questions}
         words_needed = [w for w in words_needed if w not in new_answers]
         print(f"Remaining words to process: {len(words_needed)}")
         
@@ -139,7 +164,7 @@ while words_needed:
         save_snapshot()
         print(f"Progress saved to snapshot.json. Remaining words: {len(words_needed)}")
         time.sleep(5) # sleep 5 seconds to avoid rate limit
-    # break
+    
 
 # Final save to output file
 if len(words_needed) == 0:
