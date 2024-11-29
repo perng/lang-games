@@ -6,12 +6,9 @@ export default function Home() {
   return (
     <div className="home">
       <h1>Language Games</h1>
-      <div className="games-grid">
+      <div className="games-list">
         {games.map(game => (
-          <Link key={game.id} to={game.path} className="game-card">
-            <div className="game-image">
-              <img src={game.logoSrc} alt={game.title} />
-            </div>
+          <Link key={game.id} to={game.path} className="game-item">
             <div className="game-content">
               <div className="title-row">
                 <h2>{game.title}</h2>
