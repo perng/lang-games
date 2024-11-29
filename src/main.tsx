@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { initGA } from './utils/analytics';
+import InfoIcon from '@mui/icons-material/Info';
+import { IconButton, Popover, Typography, Link } from '@mui/material';
 
 import Home from './routes/Home';
 import ArticleGameMenu from './components/ArticleGame/Menu';
@@ -18,6 +20,49 @@ import './styles/global.css';
 
 // Initialize GA
 initGA();
+
+function InfoPopup() {
+  const [anchorEl, setAnchorEl] = React.useState<HTMLElement | null>(null);
+
+  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+
+  return (
+    <div style={{ position: 'fixed', top: 16, right: 16, zIndex: 1000 }}>
+      <IconButton onClick={handleClick} color="primary">
+        <InfoIcon />
+      </IconButton>
+      <Popover
+        open={open}
+        anchorEl={anchorEl}
+        onClose={handleClose}
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'left',
+        }}
+        transformOrigin={{
+          vertical: 'top',
+          horizontal: 'right',
+        }}
+      >
+        <Typography sx={{ p: 2 }}>
+          此英語學習遊戲正在開發中，歡迎您試用
+          <br />
+          <Link href="https://forms.gle/AuKcZyUYvtdsDuFH6" target="_blank" rel="noopener">
+            提供意見回饋
+          </Link>
+        </Typography>
+      </Popover>
+    </div>
+  );
+}
 
 const router = createBrowserRouter([
   {
@@ -69,5 +114,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <InfoPopup />
   </React.StrictMode>,
 ); 
