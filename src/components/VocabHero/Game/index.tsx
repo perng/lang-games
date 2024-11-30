@@ -253,19 +253,16 @@ export default function VocabHeroGame() {
 
   return (
     <div className="vocab-hero-game">
-      <button 
-        className="back-button"
-        onClick={() => navigate('/vocab-hero')}
-      >
-        <IoArrowBack size={24} />
-      </button>
+      <header className="menu-header">
+        <button 
+          className="back-button"
+          onClick={() => navigate('/vocab-hero')}
+        >
+          <IoArrowBack size={20} />
+        </button>
+        <h1>{levelId}</h1>
 
-      <button 
-        className="previous-word-button"
-        onClick={handlePreviousWord}
-      >
-        <IoArrowUpOutline size={24} />
-      </button>
+      </header>
 
       {showWelcome && (
         <div className="welcome-overlay">

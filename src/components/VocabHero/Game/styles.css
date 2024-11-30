@@ -1,29 +1,125 @@
 .vocab-hero-game {
-  padding: 20px;
-  width: 100%;
+  width: 400px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.menu-header {
+  display: grid;
+  grid-template-columns: 32px 1fr 32px;
+  align-items: center;
+  padding: 4px 12px;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  height: 32px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.menu-header h1 {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #1a237e;
+}
+
+.back-button {
+  border: none;
+  background: none;
+  padding: 4px;
+  cursor: pointer;
+  color: #1a237e;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.previous-word-button {
+  border: none;
+  background: none;
+  padding: 4px;
+  cursor: pointer;
+  color: #1a237e;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .game-content {
-  margin: 0 auto;
-  max-width: 800px;
-  text-align: center;
-  position: relative;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px;
 }
 
-.vocab-hero-game .game-content .choices-container {
+.sentence-section {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.sentence {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.sentence-translation {
+  margin: 8px 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.choices-container {
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.choices {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.choice-button {
   width: 100%;
+  padding: 10px 16px;
+  font-size: 1rem;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
-.vocab-hero-game .game-content .choices-container .choices {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-  max-width: 600px;
-  margin: 0 auto;
+.progress-bar {
+  background: #e0e0e0;
+  height: 4px;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #2196f3;
+  transition: width 0.3s ease;
+}
+
+.stats-section {
+  display: none;
 }
 
 .vocab-hero-game .game-content .choices-container .choices .choice-button {
@@ -35,27 +131,6 @@
   background-color: white;
   cursor: pointer;
   transition: all 0.3s ease;
-}
-
-.back-button {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #333;
-  padding: 8px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  transition: background-color 0.2s;
-}
-
-.back-button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .welcome-overlay {
@@ -83,24 +158,6 @@
   font-size: 1.2em;
   margin-top: 20px;
   cursor: pointer;
-}
-
-.sentence-section {
-  margin-bottom: 30px;
-  padding: 0 20px;
-}
-
-.sentence {
-  font-size: 1.1em;
-  line-height: 1.6;
-  margin-bottom: 10px;
-}
-
-.sentence-translation {
-  font-size: 0.9em;
-  color: #0066cc;
-  margin-top: 10px;
-  line-height: 1.5;
 }
 
 .vocab-hero-game .choice-button:hover:not(:disabled) {
@@ -135,30 +192,6 @@
   color: #f44336;
 }
 
-.stats-section {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
-  background: #f5f5f5;
-  padding: 15px;
-  border-radius: 8px;
-}
-
-.stat-item {
-  text-align: center;
-}
-
-.stat-label {
-  font-size: 0.9em;
-  color: #666;
-  margin-right: 5px;
-}
-
-.stat-value {
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
 .continue-container {
   display: flex;
   justify-content: center;
@@ -185,24 +218,4 @@
   font-size: 0.9em;
   color: #666;
 }
-
-.previous-word-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #666;
-  padding: 8px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.2s;
-  z-index: 100;
-}
-
-.previous-word-button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-} 
+ 
