@@ -185,7 +185,7 @@ export default function WordFlashMenu() {
 
                         words.forEach((word: any) => {                            
                             // Check each meaning
-                            word.meanings.forEach((meaning: string, index: number) => {
+                            word.meanings.forEach((_meaning: string, index: number) => {
                                 const meaningKey = `${word.word}-${index}`;
                                 const meaningScore = parseFloat(getStorageWithCookie(meaningKey) || '0.0');
                                 totalMeanings++;
