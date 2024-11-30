@@ -252,7 +252,15 @@ export default function WordFlashGame() {
         const totalMeanings = wordList.length;
         console.log('totalMeanings:', totalMeanings);
         const masteredMeanings = wordList.filter(item => item.score > 0).length;
-        const wordsToReview = wordList.filter(item => item.score < 0.4).length;
+        console.log('masteredMeanings:', masteredMeanings);
+
+        const notMasteredMeanings = wordList.filter(item => item.score <= 0);
+        console.log('notMasteredMeanings:', notMasteredMeanings);
+
+        const progress = totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100).toFixed(2) : "0.00";
+        console.log('progress:', progress);
+
+        const wordsToReview = notMasteredMeanings.length;
         
         return {
             progress: totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100).toFixed(2) : "0.00",

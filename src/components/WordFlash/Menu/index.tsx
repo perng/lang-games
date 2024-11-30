@@ -4,7 +4,7 @@ import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState, useRef } from 'react';
 import { getStorageWithCookie, setStorage } from '../../../utils/storage';
 
-const PROGRESS_RECALC_FLAG = 'wf-2024-11-27';
+const PROGRESS_RECALC_FLAG = 'wf-2024-11-29-3';
 
 interface Level {
     id: string;
@@ -146,6 +146,13 @@ export default function WordFlashMenu() {
             if (levels.length > 0 && !getStorageWithCookie(PROGRESS_RECALC_FLAG)) {
                 console.log('Recalculating progress for all levels...');
                 console.log('levels', levels);
+
+                // remove all local storage items with "wf-" prefix
+                for (const key of Object.keys(localStorage)) {
+                    if (key.startsWith('wf-')) {
+                        localStorage.removeItem(key);
+                    }
+                }
                 
                 // Clear all existing progress data
                 for (const key of Object.keys(localStorage)) {
@@ -174,18 +181,24 @@ export default function WordFlashMenu() {
                         
                         // Calculate progress by checking each word's mastery status
                         let masteredCount = 0;
-                        const totalMeanings = words.length;
+                        let totalMeanings = 0;
 
-                        words.forEach((word: any) => {
-                            const cookieKey = `${word.word}-0`; // Key for word's score
-                            const score = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
-                            if (score >= 1) masteredCount++; // Word is mastered if score >= 1
+                        words.forEach((word: any) => {                            
+                            // Check each meaning
+                            word.meanings.forEach((meaning: string, index: number) => {
+                                const meaningKey = `${word.word}-${index}`;
+                                const meaningScore = parseFloat(getStorageWithCookie(meaningKey) || '0.0');
+                                totalMeanings++;
+                                if (meaningScore > 0.0) masteredCount++;
+                            });
                         });
                         console.log(`masteredCount for level ${level.id}: ${masteredCount}`);
 
                         // Calculate and store progress percentage
                         const progress = (masteredCount / totalMeanings) * 100;
                         setStorage(`wordFlash-progress-${level.id}`, progress.toString());
+                        console.log(`wordFlash-progress-${level.id}`, progress.toString());
+
                         setStorage(`wordFlash-mastered-${level.id}`, masteredCount.toString());
                         setStorage(`wordFlash-total-${level.id}`, totalMeanings.toString());
 
