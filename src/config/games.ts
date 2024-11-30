@@ -11,8 +11,8 @@ export interface Game {
 export const games: Game[] = [
   {
     id: 'word-flash',
-    title: 'Word Flash',
-    description: 'Learn new words by flash cards',
+    title: '單字學習',
+    description: '',
     difficulty: 'Easy',
     path: '/word-flash',
     icon: '✨',
@@ -20,16 +20,16 @@ export const games: Game[] = [
   },
   {
     id: 'vocab-hero',
-    title: 'Vocab Hero',
-    description: 'Master vocabulary through multiple-choice questions',
+    title: '單字測驗',
+    description: '',
     difficulty: 'Medium',
     path: '/vocab-hero',
     icon: '📖',
     logoSrc: '/images/vocab-hero-logo.jpg'  },
   {
     id: 'singular-plural',
-    title: 'Singular & Plural Game',
-    description: 'Practice using singular and plural forms correctly',
+    title: '單複數練習',
+    description: '',
     difficulty: 'Easy',
     path: '/singular-plural',
     icon: '🔢',
@@ -37,8 +37,8 @@ export const games: Game[] = [
   },
   {
     id: 'article-game',
-    title: 'THE Game',
-    description: 'Master the use of "the" in English',
+    title: '定冠詞練習',
+    description: '',
     difficulty: 'Medium',
     path: '/article-game',
     icon: '📚',
@@ -46,8 +46,8 @@ export const games: Game[] = [
   },
   {
     id: 'an-a-the',
-    title: 'Article Hunt',
-    description: 'Practice using "a", "an", and "the" correctly',
+    title: '所有冠詞練習',
+    description: '',
     difficulty: 'Hard',
     path: '/an-a-the',
     icon: '🎯',

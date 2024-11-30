@@ -245,7 +245,7 @@ export default function WordFlashMenu() {
                 >
                     <IoArrowBack size={24} />
                 </button>
-                <h1>Word Flash</h1>
+                <h1>單字學習</h1>
             </header>
 
             {/* Scrollable Content */}
