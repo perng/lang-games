@@ -6,7 +6,7 @@ import { InfoPopup } from '../components/InfoPopup';
 export default function Home() {
   return (
     <div className="home">
-      <h1>Language Games</h1>
+      <h1></h1>
       <InfoPopup />
       <div className="games-list">
         {games.map(game => (

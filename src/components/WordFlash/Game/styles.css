@@ -5,6 +5,7 @@
     padding: 20px;
     position: relative;
     padding-top: 60px;
+    padding-bottom: 80px;
 }
 
 .navigation-section {
@@ -18,7 +19,16 @@
 }
 
 .stats-section {
-    order: 3;
+    position: fixed;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    z-index: 99;
+    background: transparent;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .game-footer {
@@ -416,7 +426,7 @@ input:checked + .toggle-slider:before {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin: 10px 0;
     cursor: pointer;
     transition: opacity 0.3s;
 }

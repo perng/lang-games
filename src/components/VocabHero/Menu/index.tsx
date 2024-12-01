@@ -28,7 +28,7 @@ export default function VocabHeroMenu() {
         const loadLevelStats = async () => {
             const updatedStats = await Promise.all(levelsData.levels.map(async (level) => {
                 try {
-                    const levelData = await import(`../../../data/VocabHero/${level.id}`);
+                    const levelData = await import(`../../../data/VocabHero/${level.id}.json`);
                     const questions: Question[] = levelData.default;
                     
                     const masteredWords = questions.filter((q: Question) => 

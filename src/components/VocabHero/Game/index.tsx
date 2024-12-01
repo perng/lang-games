@@ -199,12 +199,12 @@ export default function VocabHeroGame() {
   };
 
   useEffect(() => {
-    // console.log('State update:', { 
-    //     selectedOption, 
-    //     isCorrect, 
-    //     currentIndex,
-    //     isProcessing 
-    // });
+    console.log('State update:', { 
+        selectedOption, 
+        isCorrect, 
+        currentIndex,
+        isProcessing 
+    });
   }, [selectedOption, isCorrect, currentIndex, isProcessing]);
 
   // Add debug logging whenever currentIndex changes
@@ -246,22 +246,34 @@ export default function VocabHeroGame() {
     setShowContinue(false);
   };
 
+  const getLevelNumber = (levelId: string) => {
+    return levelId?.split('_').pop() || '';
+  };
+
   if (questions.length === 0) return <div>Loading...</div>;
 
   const currentQuestion = questions[currentIndex];
   const stats = calculateStats();
+  console.log(stats);
 
   return (
     <div className="vocab-hero-game">
       <header className="menu-header">
-        <button 
-          className="back-button"
-          onClick={() => navigate('/vocab-hero')}
-        >
-          <IoArrowBack size={20} />
-        </button>
-        <h1>{levelId}</h1>
-
+        <div className="header-content">
+          <button 
+            className="back-button"
+            onClick={() => navigate('/vocab-hero')}
+          >
+            <IoArrowBack size={20} />
+          </button>
+          <h1>單字練習 Level-{getLevelNumber(levelId || '')}</h1>
+          <button 
+            className="previous-word-button"
+            onClick={handlePreviousWord}
+          >
+            <IoArrowUpOutline size={20} />
+          </button>
+        </div>
       </header>
 
       {showWelcome && (
@@ -366,6 +378,13 @@ export default function VocabHeroGame() {
             <span className="stat-value">{stats.questionsToReview}/{stats.totalQuestions}</span>
           </div>
         </div>
+      </div>
+
+      <div className="progress-bar">
+        <div 
+          className="progress-fill" 
+          style={{ width: `${stats.progress}%` }}
+        />
       </div>
 
       <audio ref={audioRef} />
