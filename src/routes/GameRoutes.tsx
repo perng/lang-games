@@ -4,6 +4,13 @@ import SingularPluralMenu from '../components/SingularPluralGame/Menu';
 import ArticleGameMenu from '../components/ArticleGame/Menu';
 import AnATheGameMenu from '../components/AnATheGame/Menu';
 
+import WordFlashGame from '../components/WordFlash/Game';
+import VocabHeroGame from '../components/VocabHero/Game';
+import SingularPluralGamePlay from '../components/SingularPluralGame';
+import ArticleGamePlay from '../components/ArticleGame';
+import AnATheGamePlay from '../components/AnATheGame';
+
+// Menu components
 export function WordFlash() {
   return <WordFlashMenu />;
 }
@@ -22,4 +29,13 @@ export function ArticleGame() {
 
 export function AnATheGame() {
   return <AnATheGameMenu />;
-} 
+}
+
+// Gameplay components
+export {
+  WordFlashGame,
+  VocabHeroGame,
+  SingularPluralGamePlay,
+  ArticleGamePlay,
+  AnATheGamePlay
+}; 

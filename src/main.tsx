@@ -7,7 +7,12 @@ import {
   VocabHero, 
   SingularPluralGame, 
   ArticleGame, 
-  AnATheGame 
+  AnATheGame,
+  WordFlashGame,
+  VocabHeroGame,
+  SingularPluralGamePlay,
+  ArticleGamePlay,
+  AnATheGamePlay
 } from './routes/GameRoutes';
 import './index.css';
 
@@ -22,6 +27,11 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path="article-game" element={<ArticleGame />} />
           <Route path="an-a-the" element={<AnATheGame />} />
         </Route>
+        <Route path="/word-flash/:levelId" element={<WordFlashGame />} />
+        <Route path="/vocab-hero/:levelId" element={<VocabHeroGame />} />
+        <Route path="/singular-plural/:levelId" element={<SingularPluralGamePlay />} />
+        <Route path="/article-game/:levelId" element={<ArticleGamePlay />} />
+        <Route path="/an-a-the/:levelId" element={<AnATheGamePlay />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
