@@ -1,117 +1,100 @@
 import { Link, useNavigate } from 'react-router-dom';
-import levelsData from '../../../data/VocabHero/levels.json';
-import { getStorageWithCookie } from '../../../utils/storage';
 import { IoArrowBack } from 'react-icons/io5';
+import { FaCheckCircle } from 'react-icons/fa';
+import { useEffect, useState } from 'react';
+import { getStorageWithCookie } from '../../../utils/storage';
 import './styles.css';
-import { useState, useEffect } from 'react';
-
-interface Question {
-    id: string;
-    sentence: string;
-    sentence_zh_TW: string;
-    word_translation_zh_TW: string;
-    answer: string;
-    others: string[];
-    others_zh_TW: string[];
-}
 
 export default function VocabHeroMenu() {
     const navigate = useNavigate();
-    const [levelStats, setLevelStats] = useState(levelsData.levels.map(level => ({
-        ...level,
-        progress: "0.00",
-        masteredWords: 0,
-        totalWords: 0
-    })));
+    const [levels, setLevels] = useState<any[]>([]);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        const loadLevelStats = async () => {
-            const updatedStats = await Promise.all(levelsData.levels.map(async (level) => {
-                try {
-                    const levelData = await import(`../../../data/VocabHero/${level.id}.json`);
-                    const questions: Question[] = levelData.default;
-                    
-                    const masteredWords = questions.filter((q: Question) => 
-                        parseInt(getStorageWithCookie(`vocabHero-${q.id}`) || '0') > 0
-                    ).length;
-
-                    const totalWords = questions.length;
-                    const progress = totalWords > 0 ? ((masteredWords / totalWords) * 100) : 0;
-
-                    return {
-                        ...level,
-                        progress: progress.toFixed(2),
-                        masteredWords,
-                        totalWords
-                    };
-                } catch (error) {
-                    console.error(`Failed to load stats for level ${level.id}:`, error);
-                    return {
-                        ...level,
-                        progress: "0.00",
-                        masteredWords: 0,
-                        totalWords: 0
-                    };
-                }
-            }));
-
-            setLevelStats(updatedStats);
+        const loadLevels = async () => {
+            try {
+                const response = await fetch('/data/VocabHero/levels.json');
+                const data = await response.json();
+                
+                const levelsWithProgress = data.levels.map((level: any) => ({
+                    ...level,
+                    progress: parseFloat(getStorageWithCookie(`vocabHero-progress-${level.id}`) || '0')
+                }));
+                
+                setLevels(levelsWithProgress);
+                setIsLoading(false);
+            } catch (error) {
+                console.error('Error loading levels:', error);
+                setIsLoading(false);
+            }
         };
 
-        loadLevelStats();
+        loadLevels();
     }, []);
 
-    const getImageUrl = (image_name: string) => {
-        try {
-            return new URL(`../../../images/vocab-hero/${image_name}.jpg`, import.meta.url).href;
-        } catch (error) {
-            console.error(`Failed to load image for ${image_name}:`, error);
-            return '';
-        }
+    const formatTitle = (title: string) => {
+        const parts = title.split(/\[|\]/);
+        return parts.map((part, index) => {
+            return index % 2 === 0 ? (
+                <span key={index}>{part}</span>
+            ) : (
+                <strong key={index}>{part}</strong>
+            );
+        });
     };
 
     return (
-        <div className="game-menu">
-            <button 
-                className="back-button"
-                onClick={() => navigate('/')}
-            >
-                <IoArrowBack size={24} />
-            </button>
+        <div className="word-flash-menu">
+            <header className="menu-header">
+                <button 
+                    className="back-button"
+                    onClick={() => navigate('/')}
+                >
+                    <IoArrowBack size={24} />
+                </button>
+                <h1>單字測驗</h1>
+            </header>
 
-            <h1>Vocab Hero</h1>
-            <div className="levels-grid">
-                {levelStats.map(level => (
-                    <Link 
-                        key={level.id} 
-                        to={`/vocab-hero/${level.id}`} 
-                        className="level-card"
-                    >
-                        <div className="level-image">
-                            <img 
-                                src={getImageUrl(level.imageId)}
-                                alt={level.title} 
-                            />
-                        </div>
-                        <div className="level-content">
-                            <h2>{level.title}</h2>
-                            <p className="description">{level.description}</p>
-                            <div className="level-stats">
+            <main className="levels-container">
+                {isLoading ? (
+                    <div className="loading">Loading levels...</div>
+                ) : (
+                    levels.map((level) => (
+                        <Link 
+                            key={level.id} 
+                            to={`/vocab-hero/${level.id}`} 
+                            className="level-item"
+                            style={{
+                                '--bg-light': level.progress === 100 ? '#e8f5e9' : '#f5f5f5',
+                                '--bg-lighter': level.progress === 100 ? '#f1f8f2' : '#ffffff',
+                                '--progress-color': level.progress === 100 ? '#4CAF50' : '#2196f3',
+                            } as React.CSSProperties}
+                        >
+                            <div className="level-number">
+                                {level.id.split('_').pop()}
+                                {level.progress === 100 && (
+                                    <FaCheckCircle className="complete-check" />
+                                )}
+                            </div>
+                            <div className="level-info">
+                                <p className="level-title">{formatTitle(level.title)}</p>
                                 <div className="progress-bar">
                                     <div 
                                         className="progress-fill" 
                                         style={{ width: `${level.progress}%` }}
-                                    ></div>
-                                </div>
-                                <div className="stats-text">
-                                    <div>Progress: {level.progress}%</div>                                    
-                                    <div>Mastered: {level.masteredWords}/{level.totalWords}</div>
+                                    />
                                 </div>
                             </div>
-                        </div>
-                    </Link>
-                ))}
-            </div>
+                        </Link>
+                    ))
+                )}
+            </main>
+
+            <footer className="menu-footer">
+                <div className="footer-content">
+                    <p>Select a level to begin</p>
+                </div>
+            </footer>
         </div>
     );
 } 
