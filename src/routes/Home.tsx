@@ -1,26 +1,57 @@
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import './Home.css';
-import { games } from '../config/games';
+import { useState } from 'react';
 import { InfoPopup } from '../components/InfoPopup';
 
+// Define menu structure
+const menuItems = {
+  '單字': [
+    { title: '單字學習', path: '/word-flash' },
+    { title: '單字測驗', path: '/vocab-hero' },
+  ],
+  '文法': [
+    { title: '單複數', path: '/singular-plural' },
+    { title: '定冠詞', path: '/article-game' },
+    { title: '所有冠詞', path: '/an-a-the' },
+  ]
+};
+
 export default function Home() {
+  const [activeMenu, setActiveMenu] = useState<string | null>(null);
+
   return (
     <div className="home">
-      <h1></h1>
       <InfoPopup />
-      <div className="games-list">
-        {games.map(game => (
-          <Link key={game.id} to={game.path} className="game-item">
-            <div className="game-content">
-              <div className="title-row">
-                <h2>{game.title}</h2>
-              </div>
-              <div className={`difficulty ${game.difficulty}`}>
-                {game.difficulty}
-              </div>
-            </div>
-          </Link>
-        ))}
+      
+      <div className="menu-container">
+        {/* First level menu */}
+        <div className="main-menu">
+          {Object.keys(menuItems).map(menuTitle => (
+            <button
+              key={menuTitle}
+              className={`menu-item ${activeMenu === menuTitle ? 'active' : ''}`}
+              onClick={() => setActiveMenu(menuTitle)}
+            >
+              {menuTitle}
+            </button>
+          ))}
+        </div>
+
+        {/* Second level menu */}
+        {activeMenu && (
+          <div className="sub-menu">
+            {menuItems[activeMenu as keyof typeof menuItems].map(item => (
+              <Link key={item.path} to={item.path} className="sub-menu-item">
+                {item.title}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Game content area */}
+      <div className="game-content">
+        <Outlet />
       </div>
     </div>
   );
