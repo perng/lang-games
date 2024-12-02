@@ -8,6 +8,7 @@ import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
 import { AudioService } from '../../../utils/audioService';
 import { Fireworks } from '@fireworks-js/react';
 import { useReward } from 'react-rewards';
+import Modal from '../../Modal'; // Import the Modal component
 
 // Add these type definitions at the top of the file
 interface WordMeaning {
@@ -83,6 +84,27 @@ const getLevelData = async (levelId: string): Promise<Level | null> => {
     }
 };
 
+// Add this component at the top of the file
+const IconTooltip = ({ icon, description }: { icon: string; description: string }) => {
+  const [showTooltip, setShowTooltip] = useState(false);
+
+  return (
+    <span 
+      className="toggle-label tooltip-container"
+      onMouseEnter={() => setShowTooltip(true)}
+      onMouseLeave={() => setShowTooltip(false)}
+      onClick={() => setShowTooltip(!showTooltip)} // For mobile support
+    >
+      {icon}
+      {showTooltip && (
+        <div className="tooltip">
+          {description}
+        </div>
+      )}
+    </span>
+  );
+};
+
 export default function WordFlashGame() {
     const { levelId } = useParams<{ levelId: string }>();
     const navigate = useNavigate();
@@ -110,6 +132,7 @@ export default function WordFlashGame() {
     const [blindMode, setBlindMode] = useState(() => {
         return localStorage.getItem('wordFlash_blindMode') === 'true'
     });
+    const [modalContent, setModalContent] = useState<string | null>(null);
 
     // Add reward ref for each choice button
     const { reward: rewardConfetti } = useReward('rewardConfetti', 'confetti', {
@@ -667,47 +690,62 @@ export default function WordFlashGame() {
             <div className="game-footer">
                 <div className="toggle-container">
                     <div className="toggle-group">
-                        <span className="toggle-label">⚡</span>
+                        <span 
+                          className="toggle-label"
+                          onClick={() => setModalContent("快速模式：跳過發音，直接進入下一題")}
+                        >
+                          ⚡
+                        </span>
                         <label className="toggle-switch">
-                            <input
-                                type="checkbox"
-                                checked={fastMode}
-                                onChange={(e) => {
-                                    setFastMode(e.target.checked);
-                                    localStorage.setItem('wordFlash_fastMode', e.target.checked.toString());
-                                }}
-                            />
-                            <span className="toggle-slider"></span>
+                          <input
+                            type="checkbox"
+                            checked={fastMode}
+                            onChange={(e) => {
+                              setFastMode(e.target.checked);
+                              localStorage.setItem('wordFlash_fastMode', e.target.checked.toString());
+                            }}
+                          />
+                          <span className="toggle-slider"></span>
                         </label>
                     </div>
 
                     <div className="toggle-group">
-                        <span className="toggle-label">📖</span>
+                        <span 
+                          className="toggle-label"
+                          onClick={() => setModalContent("例句模式：答對後顯示例句")}
+                        >
+                          📖
+                        </span>
                         <label className="toggle-switch">
-                            <input
-                                type="checkbox"
-                                checked={showExamples}
-                                onChange={(e) => {
-                                    setShowExamples(e.target.checked);
-                                    localStorage.setItem('wordFlash_showExamples', e.target.checked.toString());
-                                }}
-                            />
-                            <span className="toggle-slider"></span>
+                          <input
+                            type="checkbox"
+                            checked={showExamples}
+                            onChange={(e) => {
+                              setShowExamples(e.target.checked);
+                              localStorage.setItem('wordFlash_showExamples', e.target.checked.toString());
+                            }}
+                          />
+                          <span className="toggle-slider"></span>
                         </label>
                     </div>
 
                     <div className="toggle-group">
-                        <span className="toggle-label">👂</span>
+                        <span 
+                          className="toggle-label"
+                          onClick={() => setModalContent("聽力模式：隱藏單字，專注聽力")}
+                        >
+                          👂
+                        </span>
                         <label className="toggle-switch">
-                            <input
-                                type="checkbox"
-                                checked={blindMode}
-                                onChange={(e) => {
-                                    setBlindMode(e.target.checked);
-                                    localStorage.setItem('wordFlash_blindMode', e.target.checked.toString());
-                                }}
-                            />
-                            <span className="toggle-slider"></span>
+                          <input
+                            type="checkbox"
+                            checked={blindMode}
+                            onChange={(e) => {
+                              setBlindMode(e.target.checked);
+                              localStorage.setItem('wordFlash_blindMode', e.target.checked.toString());
+                            }}
+                          />
+                          <span className="toggle-slider"></span>
                         </label>
                     </div>
                 </div>
@@ -779,6 +817,11 @@ export default function WordFlashGame() {
                     </div>
                 </div>
             )}
+
+            {/* Modal for displaying help messages */}
+            <Modal isOpen={!!modalContent} onClose={() => setModalContent(null)}>
+                <p>{modalContent}</p>
+            </Modal>
         </div>
     );
 }
