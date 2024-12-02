@@ -84,26 +84,7 @@ const getLevelData = async (levelId: string): Promise<Level | null> => {
     }
 };
 
-// Add this component at the top of the file
-const IconTooltip = ({ icon, description }: { icon: string; description: string }) => {
-  const [showTooltip, setShowTooltip] = useState(false);
 
-  return (
-    <span 
-      className="toggle-label tooltip-container"
-      onMouseEnter={() => setShowTooltip(true)}
-      onMouseLeave={() => setShowTooltip(false)}
-      onClick={() => setShowTooltip(!showTooltip)} // For mobile support
-    >
-      {icon}
-      {showTooltip && (
-        <div className="tooltip">
-          {description}
-        </div>
-      )}
-    </span>
-  );
-};
 
 export default function WordFlashGame() {
     const { levelId } = useParams<{ levelId: string }>();

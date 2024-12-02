@@ -1,5 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom';
-import { IoArrowBack } from 'react-icons/io5';
+import { Link} from 'react-router-dom';
 import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState, useRef } from 'react';
 import { getStorageWithCookie, setStorage } from '../../../utils/storage';
@@ -107,7 +106,6 @@ const formatTitle = (title: string) => {
 };
 
 export default function WordFlashMenu() {
-    const navigate = useNavigate();
     const [levels, setLevels] = useState<Level[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const firstIncompleteLevelRef = useRef<HTMLAnchorElement | null>(null);
@@ -251,7 +249,7 @@ export default function WordFlashMenu() {
     return (
         <div className="word-flash-menu">
             {/* Fixed Header */}
-            <header className="menu-header">
+            {/* <header className="menu-header">
                 <button 
                     className="back-button"
                     onClick={() => navigate('/')}
@@ -259,7 +257,7 @@ export default function WordFlashMenu() {
                     <IoArrowBack size={24} />
                 </button>
                 <h1>單字學習</h1>
-            </header>
+            </header> */}
 
             {/* Scrollable Content */}
             <main className="levels-container">
