@@ -2,7 +2,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { IoArrowBack } from 'react-icons/io5';
 import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
-import { getStorageWithCookie } from '../../../utils/storage';
+import { getStorage } from '../../../utils/storage';
 import './styles.css';
 
 export default function VocabHeroMenu() {
@@ -18,7 +18,7 @@ export default function VocabHeroMenu() {
                 
                 const levelsWithProgress = data.levels.map((level: any) => ({
                     ...level,
-                    progress: parseFloat(getStorageWithCookie(`vocabHero-progress-${level.id}`) || '0')
+                    progress: parseFloat(getStorage(`vocabHero-progress-${level.id}`) || '0')
                 }));
                 
                 setLevels(levelsWithProgress);

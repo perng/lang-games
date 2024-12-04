@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { setStorage, getStorageWithCookie } from '../../../utils/storage';
+import { setStorage, getStorage } from '../../../utils/storage';
 import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
 import './styles.css';
 
@@ -58,7 +58,7 @@ export default function VocabHeroGame() {
         // Add scores to questions
         const questionsWithScores: QuestionWithScore[] = response.default.map((q: Question) => ({
           ...q,
-          score: parseInt(getStorageWithCookie(`vocabHero-${q.id}`) || '0')
+          score: parseInt(getStorage(`vocabHero-${q.id}`) || '0')
         }));
 
         // Sort questions by score
@@ -187,7 +187,7 @@ export default function VocabHeroGame() {
   const calculateStats = () => {
     const totalQuestions = questions.length;
     const masteredQuestions = questions.filter(q => 
-      parseInt(getStorageWithCookie(`vocabHero-${q.id}`) || '0') > 0
+      parseInt(getStorage(`vocabHero-${q.id}`) || '0') > 0
     ).length;
     const questionsToReview = totalQuestions - masteredQuestions;
 

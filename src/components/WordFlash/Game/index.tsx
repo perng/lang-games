@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { setStorage, getStorageWithCookie } from '../../../utils/storage';
+import { setStorage, getStorage } from '../../../utils/storage';
 import { WordWithScore } from '../types';
 import './styles.css';
 import { FaPlay } from 'react-icons/fa';
@@ -169,7 +169,7 @@ export default function WordFlashGame() {
                             synonyms: meaning.synonyms || []
                         },
                         meaningIndex: index,
-                        score: parseFloat(getStorageWithCookie(`${word.word}-${index}`) || '0.0')
+                        score: parseInt(getStorage(`wf-${word.word}-${index}`) || '0')
                     }))
                 );
 
@@ -329,7 +329,7 @@ export default function WordFlashGame() {
             
             // Update score in cookie
             const cookieKey = `wf-${currentWord.word}-${currentWord.meaning.meaningIndex}`;
-            const currentScore = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
+            const currentScore = parseInt(getStorage(cookieKey) || '0');
             const newScore = currentScore + 1.0;
             setStorage(cookieKey, newScore.toString());
 
@@ -461,7 +461,7 @@ export default function WordFlashGame() {
             
             // Look for next incomplete level
             for (let i = currentIndex + 1; i < levels.length; i++) {
-                const progress = Number(getStorageWithCookie(`${levels[i].id}_progress`) ?? 0);
+                const progress = Number(getStorage(`${levels[i].id}_progress`) ?? 0);
                 console.log(`Level ${levels[i].id} progress:`, progress);
                 
                 if (progress < 100) {

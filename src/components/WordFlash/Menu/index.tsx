@@ -1,9 +1,9 @@
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState, useRef } from 'react';
-import { getStorageWithCookie, setStorage } from '../../../utils/storage';
+import { getStorage, setStorage } from '../../../utils/storage';
 
-const PROGRESS_RECALC_FLAG = 'wf-2024-12-02-9';
+const PROGRESS_RECALC_FLAG = 'wf-2024-12-02-18';
 
 interface Level {
     id: string;
@@ -21,7 +21,7 @@ const getBackgroundColors = (progress: number) => {
             lighter: '#ffffff'
         };
     }
-    
+
     if (progress === 100) {
         return {
             light: '#e8f5e9',
@@ -67,11 +67,11 @@ const getBackgroundColors = (progress: number) => {
 const interpolateColor = (color1: string, color2: string, factor: number) => {
     const c1 = hexToRgb(color1);
     const c2 = hexToRgb(color2);
-    
+
     const r = Math.round(c1.r + (c2.r - c1.r) * factor);
     const g = Math.round(c1.g + (c2.g - c1.g) * factor);
     const b = Math.round(c1.b + (c2.b - c1.b) * factor);
-    
+
     return rgbToHex(r, g, b);
 };
 
@@ -117,13 +117,13 @@ export default function WordFlashMenu() {
                 // Load the levels.json file from public folder
                 const response = await fetch('/data/WordFlash/word_levels.json');
                 const levelsData = await response.json();
-                
+
                 // Add stored progress to each level from localStorage/cookies
                 const levelsWithProgress = levelsData.map((level: Level) => ({
                     ...level,
-                    progress: parseFloat(getStorageWithCookie(`wordFlash-progress-${level.id}`) || '0')
+                    progress: parseFloat(getStorage(`wordFlash-progress-${level.id}`) || '0')
                 }));
-                
+
                 setLevels(levelsWithProgress);
                 setIsLoading(false);
             } catch (error) {
@@ -140,22 +140,24 @@ export default function WordFlashMenu() {
         const recalculateProgress = async () => {
             // Only proceed if:
             // 1. Levels are loaded (levels.length > 0)
-            // 2. We haven't done this recalculation before (!getStorageWithCookie('wf-62'))
-            if (levels.length > 0 && !getStorageWithCookie(PROGRESS_RECALC_FLAG)) {
+            // 2. We haven't done this recalculation before (!getStorage('wf-62'))
+            if (levels.length > 0 && !getStorage(PROGRESS_RECALC_FLAG)) {
                 console.log('Recalculating progress for all levels...');
-                console.log('levels', levels);
+                console.log('levels', levels.length);
 
                 // remove all local storage items with "wf-" prefix
                 for (const key of Object.keys(localStorage)) {
-                    if (key.startsWith('wf-')) {
+                    if (key.startsWith('wordFlash-progress-') ||
+                        key.startsWith('wordFlash-mastered-') ||
+                        key.startsWith('wordFlash-total-')) {
                         localStorage.removeItem(key);
                     }
                 }
-                
+
                 // Clear all existing progress data
                 for (const key of Object.keys(localStorage)) {
-                    if (key.startsWith('wordFlash-progress-') || 
-                        key.startsWith('wordFlash-mastered-') || 
+                    if (key.startsWith('wordFlash-progress-') ||
+                        key.startsWith('wordFlash-mastered-') ||
                         key.startsWith('wordFlash-total-')) {
                         localStorage.removeItem(key);
                     }
@@ -167,50 +169,46 @@ export default function WordFlashMenu() {
                 // Process each level
                 for (let i = 0; i < levels.length; i++) {
                     const level = levels[i];
-                    console.log(`Processing level ${level.id}...`);
+
+                    // console.log(`Processing level ${level.id}...`);
                     try {
                         // Get the level number and pad it to 3 digits (e.g., "1" -> "001")
                         const levelNumber = level.id.split('_').pop()?.padStart(3, '0');
-                        
+
                         // Load the word list for this level
                         const { default: words } = await import(
                             `../../../data/WordFlash/wf_level_${levelNumber}.json`
                         );
-                        
+
                         // Calculate progress by checking each word's mastery status
                         let masteredCount = 0;
                         let totalMeanings = 0;
 
-                        words.forEach((word: any) => {                            
-                            // if ('word_flash_level_005' != level.id) {
-                            //     return;
-                            // }
-                            // Check each meaning
+
+                        words.forEach((word: any) => {
+                            console.log(`Processing level ${word}...`);
+
                             word.meanings.forEach((_meaning: string, index: number) => {
                                 const oldKey = `${word.word}-${index}`;
                                 const newKey = `wf-${word.word}-${index}`;
-                                
+
                                 // Check for old format first
-                                const oldScore = getStorageWithCookie(oldKey);
-                                console.log(`oldScore for ${oldKey}: ${oldScore}`);
-                                const newScore = getStorageWithCookie(newKey);
-                                console.log(`newScore for ${newKey}: ${newScore}`);
-                                
+                                const oldScore = getStorage(oldKey);
+                                const newScore = getStorage(newKey);
+
                                 let meaningScore = 0.0;
-                                
+
                                 if (newScore !== '') {
                                     // If new format exists, use it
-                                    console.log(`newScore for ${newKey}: ${newScore}`);
-                                    meaningScore = parseFloat(newScore || '0.0');
+                                    meaningScore = parseInt(newScore || '0');
                                 } else if (oldScore !== '') {
-                                    console.log(`oldScore for ${oldKey}: ${oldScore}`);
                                     // If only old format exists, use it and migrate to new format
-                                    meaningScore = parseFloat(oldScore || '0.0');
+                                    meaningScore = parseInt(oldScore || '0');
                                     // Migrate to new format
                                     setStorage(newKey, oldScore);
+
                                     // Optionally, remove old format
                                     localStorage.removeItem(oldKey);
-                                    console.log(`Migrated score for ${word.word}-${index} to new format`);
                                 }
 
                                 totalMeanings++;
@@ -223,7 +221,9 @@ export default function WordFlashMenu() {
                         // Calculate and store progress percentage
                         const progress = (masteredCount / totalMeanings) * 100;
                         setStorage(`wordFlash-progress-${level.id}`, progress.toString());
+
                         console.log(`wordFlash-progress-${level.id}`, progress.toString());
+
 
                         setStorage(`wordFlash-mastered-${level.id}`, masteredCount.toString());
                         setStorage(`wordFlash-total-${level.id}`, totalMeanings.toString());
@@ -241,27 +241,31 @@ export default function WordFlashMenu() {
                     } catch (error) {
                         console.error(`Error processing level ${level.id}:`, error);
                     }
-                }
 
-                // Set flag to prevent future recalculations
-                setStorage(PROGRESS_RECALC_FLAG, 'true');
-                console.log('Progress recalculation complete');
-                
-                // Update state with all the new progress values
-                setLevels(updatedLevels);
-            }
+
+                    // Set flag to prevent future recalculations
+                    setStorage(PROGRESS_RECALC_FLAG, 'true');
+                    console.log('Progress recalculation complete');
+
+                    // Update state with all the new progress values
+                    setLevels(updatedLevels);
+                }
+            };
+
+            // Run the recalculation when levels are loaded
+            // recalculateProgress();
         };
 
         // Run the recalculation when levels are loaded
         recalculateProgress();
-    }, [levels]); // Depends on levels array, but will only recalculate once due to 'wf-62' flag
+    }, [levels]); // Depends on levels array, but will only recalculate once due to flag
 
     // Add a new useEffect for scrolling
     useEffect(() => {
         if (!isLoading && levels.length > 0) {
             // Find the first incomplete level
             const firstIncompleteIndex = levels.findIndex(level => (level.progress ?? 0) < 100);
-            
+
             if (firstIncompleteIndex !== -1 && firstIncompleteLevelRef.current) {
                 // Scroll with a slight delay to ensure DOM is ready
                 setTimeout(() => {
@@ -293,14 +297,14 @@ export default function WordFlashMenu() {
                     <div className="loading">Loading levels...</div>
                 ) : (
                     levels.map((level, index) => {
-                        const isFirstIncomplete = 
+                        const isFirstIncomplete =
                             index === levels.findIndex(l => (l.progress ?? 0) < 100);
 
                         return (
-                            <Link 
-                                key={level.id} 
+                            <Link
+                                key={level.id}
                                 ref={isFirstIncomplete ? firstIncompleteLevelRef : null}
-                                to={`/word-flash/${level.id}`} 
+                                to={`/word-flash/${level.id}`}
                                 className="level-item"
                                 style={{
                                     '--bg-light': getBackgroundColors(level.progress ?? 0).light,
@@ -317,8 +321,8 @@ export default function WordFlashMenu() {
                                 <div className="level-info">
                                     <p className="level-title">{formatTitle(level.title)}</p>
                                     <div className="progress-bar">
-                                        <div 
-                                            className="progress-fill" 
+                                        <div
+                                            className="progress-fill"
                                             style={{ width: `${level.progress ?? 0}%` }}
                                         />
                                     </div>
