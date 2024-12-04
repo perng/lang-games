@@ -328,7 +328,7 @@ export default function WordFlashGame() {
         if (isAnswerCorrect) {
             
             // Update score in cookie
-            const cookieKey = `${currentWord.word}-${currentWord.meaning.meaningIndex}`;
+            const cookieKey = `wf-${currentWord.word}-${currentWord.meaning.meaningIndex}`;
             const currentScore = parseFloat(getStorageWithCookie(cookieKey) || '0.0');
             const newScore = currentScore + 1.0;
             setStorage(cookieKey, newScore.toString());

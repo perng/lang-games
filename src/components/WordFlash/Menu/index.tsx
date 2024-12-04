@@ -3,7 +3,7 @@ import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState, useRef } from 'react';
 import { getStorageWithCookie, setStorage } from '../../../utils/storage';
 
-const PROGRESS_RECALC_FLAG = 'wf-2024-11-29-3';
+const PROGRESS_RECALC_FLAG = 'wf-2024-12-02-9';
 
 interface Level {
     id: string;
@@ -182,15 +182,43 @@ export default function WordFlashMenu() {
                         let totalMeanings = 0;
 
                         words.forEach((word: any) => {                            
+                            // if ('word_flash_level_005' != level.id) {
+                            //     return;
+                            // }
                             // Check each meaning
                             word.meanings.forEach((_meaning: string, index: number) => {
-                                const meaningKey = `${word.word}-${index}`;
-                                const meaningScore = parseFloat(getStorageWithCookie(meaningKey) || '0.0');
+                                const oldKey = `${word.word}-${index}`;
+                                const newKey = `wf-${word.word}-${index}`;
+                                
+                                // Check for old format first
+                                const oldScore = getStorageWithCookie(oldKey);
+                                console.log(`oldScore for ${oldKey}: ${oldScore}`);
+                                const newScore = getStorageWithCookie(newKey);
+                                console.log(`newScore for ${newKey}: ${newScore}`);
+                                
+                                let meaningScore = 0.0;
+                                
+                                if (newScore !== '') {
+                                    // If new format exists, use it
+                                    console.log(`newScore for ${newKey}: ${newScore}`);
+                                    meaningScore = parseFloat(newScore || '0.0');
+                                } else if (oldScore !== '') {
+                                    console.log(`oldScore for ${oldKey}: ${oldScore}`);
+                                    // If only old format exists, use it and migrate to new format
+                                    meaningScore = parseFloat(oldScore || '0.0');
+                                    // Migrate to new format
+                                    setStorage(newKey, oldScore);
+                                    // Optionally, remove old format
+                                    localStorage.removeItem(oldKey);
+                                    console.log(`Migrated score for ${word.word}-${index} to new format`);
+                                }
+
                                 totalMeanings++;
                                 if (meaningScore > 0.0) masteredCount++;
                             });
                         });
                         console.log(`masteredCount for level ${level.id}: ${masteredCount}`);
+                        console.log(`totalMeanings for level ${level.id}: ${totalMeanings}`);
 
                         // Calculate and store progress percentage
                         const progress = (masteredCount / totalMeanings) * 100;
