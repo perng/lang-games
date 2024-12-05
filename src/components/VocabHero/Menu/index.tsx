@@ -1,11 +1,10 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import { getStorage } from '../../../utils/storage';
 import './styles.css';
 
 export default function VocabHeroMenu() {
-    const navigate = useNavigate();
     const [levels, setLevels] = useState<any[]>([]);
     const [isLoading, setIsLoading] = useState(true);
 

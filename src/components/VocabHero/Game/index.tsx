@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { setStorage, getStorage } from '../../../utils/storage';
-import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
-import confetti from 'canvas-confetti';
+import { IoArrowBack } from 'react-icons/io5';
 import { Fireworks } from '@fireworks-js/react';
+import { useReward } from 'react-rewards';
 import './styles.css';
 
 interface Question {
@@ -39,6 +39,20 @@ export default function VocabHeroGame() {
   const [showContinue, setShowContinue] = useState(false);
   const continueTimerRef = useRef<number>();
   const [showFireworks, setShowFireworks] = useState(false);
+
+  const { reward: rewardConfetti } = useReward('rewardConfetti', 'confetti', {
+    elementCount: 75,
+    spread: 45,
+    startVelocity: 20,
+  });
+
+  const { reward: rewardBalloons } = useReward('rewardBalloons', 'balloons', {
+    elementCount: 18,
+    spread: 120,
+    startVelocity: 40,
+    decay: 0.9,
+    lifetime: 200
+  });
 
   const sortQuestions = (list: QuestionWithScore[]) => {
     // First shuffle the array
@@ -115,40 +129,6 @@ export default function VocabHeroGame() {
     });
   };
 
-  const rewardConfetti = () => {
-    const confettiElement = document.getElementById('rewardConfetti');
-    if (confettiElement) {
-      confetti({
-        particleCount: 100,
-        spread: 70,
-        origin: { 
-          x: confettiElement.getBoundingClientRect().x / window.innerWidth,
-          y: confettiElement.getBoundingClientRect().y / window.innerHeight
-        }
-      });
-    }
-  };
-
-  const rewardBalloons = () => {
-    const balloonsElement = document.getElementById('rewardBalloons');
-    if (balloonsElement) {
-      confetti({
-        particleCount: 30,
-        angle: 60,
-        spread: 55,
-        origin: { x: 0 },
-        colors: ['#ff0000', '#00ff00', '#0000ff']
-      });
-      confetti({
-        particleCount: 30,
-        angle: 120,
-        spread: 55,
-        origin: { x: 1 },
-        colors: ['#ff0000', '#00ff00', '#0000ff']
-      });
-    }
-  };
-
   const handleChoice = async (choice: string) => {
     if (isProcessing) {
       console.log('Processing in progress, ignoring click');
@@ -165,6 +145,7 @@ export default function VocabHeroGame() {
     const currentScore = currentQuestion.score;
 
     if (isAnswerCorrect) {
+      // 1/5 probability to show effect, randomly choose between confetti and balloons
       if (Math.random() < 0.5) {
         rewardConfetti();
       } else {
@@ -307,17 +288,6 @@ export default function VocabHeroGame() {
     };
   }, []);
 
-  const handlePreviousWord = () => {
-    if (continueTimerRef.current) {
-      window.clearTimeout(continueTimerRef.current);
-    }
-    setCurrentIndex(prev => (prev - 1 + questions.length) % questions.length);
-    setSelectedOption(null);
-    setIsCorrect(null);
-    setIsAnswering(false);
-    setShowContinue(false);
-  };
-
   const getLevelNumber = (levelId: string) => {
     return levelId?.split('_').pop() || '';
   };
@@ -347,7 +317,7 @@ export default function VocabHeroGame() {
         setTimeout(() => {
           setShowFireworks(false);
           navigate('/vocab-hero');
-        }, 10000);
+        }, 5000);
       }
     }
   }, [stats.progress, levelId, navigate]);
