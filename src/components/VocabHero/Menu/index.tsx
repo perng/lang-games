@@ -1,5 +1,4 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { IoArrowBack } from 'react-icons/io5';
 import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import { getStorage } from '../../../utils/storage';
@@ -13,10 +12,10 @@ export default function VocabHeroMenu() {
     useEffect(() => {
         const loadLevels = async () => {
             try {
-                const response = await fetch('/data/VocabHero/levels.json');
+                const response = await fetch('/data/VocabHero/vh_levels.json');
                 const data = await response.json();
                 
-                const levelsWithProgress = data.levels.map((level: any) => ({
+                const levelsWithProgress = data.map((level: any) => ({
                     ...level,
                     progress: parseFloat(getStorage(`vocabHero-progress-${level.id}`) || '0')
                 }));
@@ -45,15 +44,6 @@ export default function VocabHeroMenu() {
 
     return (
         <div className="word-flash-menu">
-            <header className="menu-header">
-                <button 
-                    className="back-button"
-                    onClick={() => navigate('/')}
-                >
-                    <IoArrowBack size={24} />
-                </button>
-                <h1>單字測驗</h1>
-            </header>
 
             <main className="levels-container">
                 {isLoading ? (
