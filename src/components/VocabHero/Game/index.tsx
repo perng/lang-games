@@ -1,7 +1,9 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { setStorage, getStorage } from '../../../utils/storage';
 import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
+import confetti from 'canvas-confetti';
+import { Fireworks } from '@fireworks-js/react';
 import './styles.css';
 
 interface Question {
@@ -36,6 +38,7 @@ export default function VocabHeroGame() {
   const [isAnswering, setIsAnswering] = useState(false);
   const [showContinue, setShowContinue] = useState(false);
   const continueTimerRef = useRef<number>();
+  const [showFireworks, setShowFireworks] = useState(false);
 
   const sortQuestions = (list: QuestionWithScore[]) => {
     // First shuffle the array
@@ -112,6 +115,40 @@ export default function VocabHeroGame() {
     });
   };
 
+  const rewardConfetti = () => {
+    const confettiElement = document.getElementById('rewardConfetti');
+    if (confettiElement) {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { 
+          x: confettiElement.getBoundingClientRect().x / window.innerWidth,
+          y: confettiElement.getBoundingClientRect().y / window.innerHeight
+        }
+      });
+    }
+  };
+
+  const rewardBalloons = () => {
+    const balloonsElement = document.getElementById('rewardBalloons');
+    if (balloonsElement) {
+      confetti({
+        particleCount: 30,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: ['#ff0000', '#00ff00', '#0000ff']
+      });
+      confetti({
+        particleCount: 30,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: ['#ff0000', '#00ff00', '#0000ff']
+      });
+    }
+  };
+
   const handleChoice = async (choice: string) => {
     if (isProcessing) {
       console.log('Processing in progress, ignoring click');
@@ -123,20 +160,32 @@ export default function VocabHeroGame() {
     const currentQuestion = questions[currentIndex];
     const isAnswerCorrect = choice === currentQuestion.answer;
     setSelectedOption(choice);
-    setIsCorrect(isAnswerCorrect);
 
-    // Update score
-    const cookieKey = `vocabHero-${currentQuestion.id}`;
+    // Store current score before updating
     const currentScore = currentQuestion.score;
-    const newScore = Math.max(-1, currentScore + (isAnswerCorrect ? 1 : -1));
-    console.log('Updating score for', currentQuestion.answer, 'from', currentScore, ' to', newScore);
-    setStorage(cookieKey, newScore.toString());
 
-    // Update questions list with new score
-    const newQuestions = questions.map(q => 
-      q.id === currentQuestion.id ? { ...q, score: newScore } : q
-    );
-    setQuestions(newQuestions);
+    if (isAnswerCorrect) {
+      if (Math.random() < 0.5) {
+        rewardConfetti();
+      } else {
+        rewardBalloons();
+      }
+      
+      // Update score
+      const cookieKey = `vocabHero-${currentQuestion.id}`;
+      const newScore = Math.max(-1, currentScore + 1);
+      setStorage(cookieKey, newScore.toString());
+
+      // Update questions list with new score
+      const newQuestions = questions.map(q => 
+        q.id === currentQuestion.id ? { ...q, score: newScore } : q
+      );
+      setQuestions(newQuestions);
+
+      // Save progress
+      const stats = calculateStats();
+      setStorage(`vocabHero-progress-${levelId}`, stats.progress.toString());
+    }
 
     // Play audio and wait
     await new Promise(resolve => setTimeout(resolve, 500));
@@ -148,11 +197,33 @@ export default function VocabHeroGame() {
     setQuestionsAnswered(newQuestionsAnswered);
 
     setIsProcessing(false);
-    setShowContinue(true);  // Show continue button after processing
+    setShowContinue(true);
     
-    // Start 5-second timer for auto-advance
+    // Clear any existing timer
+    if (continueTimerRef.current) {
+      window.clearTimeout(continueTimerRef.current);
+    }
+
     continueTimerRef.current = window.setTimeout(() => {
-        handleContinue();
+      // Calculate next index
+      const nextIndex = (currentIndex + 1) % questions.length;
+      const nextQuestion = questions[nextIndex];
+
+      // If current score was low and next question has high score, resort
+      if (currentScore < 1 && nextQuestion.score >= 1) {
+        console.log('Resorting questions due to score transition');
+        const sortedQuestions = [...questions];
+        sortQuestions(sortedQuestions);
+        setQuestions(sortedQuestions);
+        setCurrentIndex(0);  // Start from beginning after sort
+      } else {
+        setCurrentIndex(nextIndex);
+      }
+
+      // Reset states
+      setSelectedOption(null);
+      setIsAnswering(false);
+      setShowContinue(false);
     }, 5000);
   };
 
@@ -251,10 +322,44 @@ export default function VocabHeroGame() {
     return levelId?.split('_').pop() || '';
   };
 
+  // Memoize stats calculation
+  const stats = useMemo(() => {
+    const totalQuestions = questions.length;
+    const masteredQuestions = questions.filter(q => q.score > 0).length;
+    const progress = totalQuestions > 0 ? ((masteredQuestions / totalQuestions) * 100).toFixed(2) : "0.00";
+
+    return {
+      progress,
+      totalQuestions,
+      masteredQuestions
+    };
+  }, [questions]);
+
+  // Check if fireworks were already shown for this level
+  useEffect(() => {
+    if (levelId) {
+      const fireworkShown = getStorage(`vocabHero-firework-${levelId}`);
+      if (stats.progress === "100.00" && !fireworkShown) {
+        setShowFireworks(true);
+        setStorage(`vocabHero-firework-${levelId}`, 'true');
+        
+        // Auto-close after 5 seconds
+        setTimeout(() => {
+          setShowFireworks(false);
+          navigate('/vocab-hero');
+        }, 10000);
+      }
+    }
+  }, [stats.progress, levelId, navigate]);
+
+  const handleFireworksClick = () => {
+    setShowFireworks(false);
+    navigate('/vocab-hero');
+  };
+
   if (questions.length === 0) return <div>Loading...</div>;
 
   const currentQuestion = questions[currentIndex];
-  const stats = calculateStats();
   console.log(stats);
 
   return (
@@ -268,12 +373,12 @@ export default function VocabHeroGame() {
             <IoArrowBack size={20} />
           </button>
           <h1>單字練習 Level-{getLevelNumber(levelId || '')}</h1>
-          <button 
+          {/* <button 
             className="previous-word-button"
             onClick={handlePreviousWord}
           >
             <IoArrowUpOutline size={20} />
-          </button>
+          </button> */}
         </div>
       </header>
 
@@ -314,7 +419,6 @@ export default function VocabHeroGame() {
         <div className="choices-container">
           <div className="choices">
             {options.map((option) => {
-              // Find Chinese translation for the option
               let translation = '';
               if (selectedOption) {
                 if (option === currentQuestion.answer) {
@@ -346,6 +450,12 @@ export default function VocabHeroGame() {
                       ({translation})
                     </span>
                   )}
+                  {option === currentQuestion.answer && (
+                    <>
+                      <span id="rewardConfetti" />
+                      <span id="rewardBalloons" />
+                    </>
+                  )}
                 </button>
               );
             })}
@@ -369,16 +479,6 @@ export default function VocabHeroGame() {
           </div>
         )}
 
-        <div className="stats-section">
-          <div className="stat-item">
-            <span className="stat-label">Progress:</span>
-            <span className="stat-value">{stats.progress}%</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-label">Remaining:</span>
-            <span className="stat-value">{stats.questionsToReview}/{stats.totalQuestions}</span>
-          </div>
-        </div>
       </div>
 
       <div className="progress-bar">
@@ -389,6 +489,41 @@ export default function VocabHeroGame() {
       </div>
 
       <audio ref={audioRef} />
+
+      {/* Add fireworks overlay */}
+      {showFireworks && (
+        <div 
+          className="fireworks-overlay"
+          onClick={handleFireworksClick}
+        >
+          <Fireworks
+            options={{
+              opacity: 0.5,
+              explosion: 5,
+              intensity: 30,
+              traceLength: 3,
+              rocketsPoint: {
+                min: 0,
+                max: 100
+              }
+            }}
+            style={{
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              position: 'fixed',
+              background: 'rgba(0, 0, 0, 0.7)',
+              zIndex: 999
+            }}
+          />
+          <div className="completion-message">
+            <h2>恭喜!</h2>
+            <p>你已完成本關卡!</p>
+            <p>點擊任意處繼續</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

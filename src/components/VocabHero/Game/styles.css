@@ -2,23 +2,22 @@
   width: 400px;
   margin: 0 auto;
   min-height: 100vh;
-  background: #f0f2f5;
+  background: white;
   display: flex;
   flex-direction: column;
 }
 
-.menu-header {
+.vocab-hero-game .menu-header {
   display: flex;
   flex-direction: column;
   background: white;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-bottom: 1px solid #e0e0e0;
   position: sticky;
   top: 0;
   z-index: 10;
-  margin-bottom: 16px;
 }
 
-.header-content {
+.vocab-hero-game .header-content {
   display: grid;
   grid-template-columns: 32px 1fr 32px;
   align-items: center;
@@ -26,7 +25,7 @@
   height: 40px;
 }
 
-.menu-header h1 {
+.vocab-hero-game .menu-header h1 {
   margin: 0;
   font-size: 1rem;
   text-transform: uppercase;
@@ -35,7 +34,8 @@
   line-height: 40px;
 }
 
-.back-button, .previous-word-button {
+.vocab-hero-game .back-button,
+.vocab-hero-game .previous-word-button {
   border: none;
   background: none;
   padding: 4px;
@@ -48,47 +48,42 @@
   justify-content: center;
 }
 
-.game-content {
-  flex: 1;
+.vocab-hero-game .game-content {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 8px;
-}
-
-.sentence-section {
+  gap: 0;
+  padding: 0;
   background: white;
-  padding: 16px;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-.sentence {
+.vocab-hero-game .sentence-section {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.vocab-hero-game .sentence {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.5;
 }
 
-.sentence-translation {
+.vocab-hero-game .sentence-translation {
   margin: 8px 0 0;
   color: #666;
   font-size: 0.9rem;
 }
 
-.choices-container {
-  background: white;
+.vocab-hero-game .choices-container {
   padding: 12px;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-.choices {
+.vocab-hero-game .choices {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.choice-button {
+.vocab-hero-game .choice-button {
   width: 100%;
   padding: 10px 16px;
   font-size: 1rem;
@@ -100,7 +95,7 @@
   transition: all 0.2s ease;
 }
 
-.progress-bar {
+.vocab-hero-game .progress-bar {
   background: #e0e0e0;
   height: 4px;
   width: 100%;
@@ -109,24 +104,13 @@
   bottom: 0;
 }
 
-.progress-fill {
+.vocab-hero-game .progress-fill {
   height: 100%;
   background: #2196f3;
   transition: width 0.3s ease;
 }
 
-.vocab-hero-game .game-content .choices-container .choices .choice-button {
-  width: 200px;
-  padding: 10px 20px;
-  font-size: 1.1em;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-  background-color: white;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.welcome-overlay {
+.vocab-hero-game .welcome-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -139,14 +123,14 @@
   z-index: 1000;
 }
 
-.welcome-content {
+.vocab-hero-game .welcome-content {
   background: white;
   padding: 30px;
   border-radius: 10px;
   text-align: center;
 }
 
-.start-button {
+.vocab-hero-game .start-button {
   padding: 10px 20px;
   font-size: 1.2em;
   margin-top: 20px;
@@ -169,29 +153,29 @@
   border-color: #f44336;
 }
 
-.feedback {
+.vocab-hero-game .feedback {
   text-align: center;
   font-size: 1.5em;
-  margin: 20px 0;
+  margin: 12px 0;
   padding: 10px;
   border-radius: 5px;
 }
 
-.feedback.correct {
+.vocab-hero-game .feedback.correct {
   color: #4CAF50;
 }
 
-.feedback.wrong {
+.vocab-hero-game .feedback.wrong {
   color: #f44336;
 }
 
-.continue-container {
+.vocab-hero-game .continue-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
-.continue-button {
+.vocab-hero-game .continue-button {
   padding: 10px 30px;
   font-size: 1.1em;
   background-color: #007bff;
@@ -202,11 +186,11 @@
   transition: background-color 0.3s;
 }
 
-.continue-button:hover {
+.vocab-hero-game .continue-button:hover {
   background-color: #0056b3;
 }
 
-.choice-button .translation {
+.vocab-hero-game .choice-button .translation {
   margin-left: 5px;
   font-size: 0.9em;
   color: #666;
@@ -214,5 +198,35 @@
 
 .vocab-hero-game .stats-section {
   display: none;
+}
+
+.vocab-hero-game .fireworks-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.vocab-hero-game .completion-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1001;
+}
+
+.vocab-hero-game .completion-message h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.vocab-hero-game .completion-message p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
 }
  
