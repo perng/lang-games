@@ -4,7 +4,7 @@ import { setStorage, getStorage } from '../../../utils/storage';
 import { WordWithScore } from '../types';
 import './styles.css';
 import { FaPlay } from 'react-icons/fa';
-import { IoArrowBack, IoArrowUpOutline } from 'react-icons/io5';
+import { IoArrowBack, IoArrowUpOutline, IoArrowForwardCircleOutline } from 'react-icons/io5';
 import { AudioService } from '../../../utils/audioService';
 import { Fireworks } from '@fireworks-js/react';
 import { useReward } from 'react-rewards';
@@ -550,12 +550,21 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
                 
                 <h2 className="level-description">{levelDescription}</h2>
 
-                <button 
-                    className="previous-word-button"
-                    onClick={handlePreviousWord}
-                >
-                    <IoArrowUpOutline size={24} />
-                </button>
+                <div className="header-buttons">
+                    <button 
+                        className="fast-forward-button"
+                        onClick={() => setShowWordTable(true)}
+                        title="跳過這關"
+                    >
+                        <IoArrowForwardCircleOutline size={24} />
+                    </button>
+                    <button 
+                        className="previous-word-button"
+                        onClick={handlePreviousWord}
+                    >
+                        <IoArrowUpOutline size={24} />
+                    </button>
+                </div>
             </div>
 
             {showWelcome && (
