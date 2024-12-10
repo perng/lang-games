@@ -7,6 +7,7 @@ import { InfoPopup } from '../components/InfoPopup';
 const menuItems = {
   '單字': [
     { title: '單字學習', path: '/wordflash' },
+    { title: '片語學習', path: '/phraseboss' },
     { title: '單字測驗', path: '/vocab-hero' },
   ],
   '文法': [

@@ -31,9 +31,17 @@ export function AnATheGame() {
   return <AnATheGameMenu />;
 }
 
+export function PhraseBoss() {
+  return <WordFlashMenu gameType="phraseboss" />;
+}
+
 // Gameplay components
 export const WordFlashGame = () => (
   <WordFlashGameComponent gameType="wordflash" />
+);
+
+export const PhraseBossGamePlay = () => (
+  <WordFlashGameComponent gameType="phraseboss" />
 );
 
 export {
