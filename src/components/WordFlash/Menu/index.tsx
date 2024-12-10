@@ -3,7 +3,10 @@ import { FaCheckCircle } from 'react-icons/fa';
 import { useEffect, useState, useRef } from 'react';
 import { getStorage, setStorage } from '../../../utils/storage';
 
-const PROGRESS_RECALC_FLAG = 'wf-2024-12-02-18';
+interface WordFlashMenuProps {
+    gameType: string;
+    progressFlag?: string;  // Optional, defaults to game-specific flag
+}
 
 interface Level {
     id: string;
@@ -105,7 +108,10 @@ const formatTitle = (title: string) => {
     });
 };
 
-export default function WordFlashMenu() {
+export default function WordFlashMenu({ 
+    gameType, 
+    progressFlag = 'wf-2024-12-02-18' 
+}: WordFlashMenuProps) {
     const [levels, setLevels] = useState<Level[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const firstIncompleteLevelRef = useRef<HTMLAnchorElement | null>(null);
@@ -115,13 +121,14 @@ export default function WordFlashMenu() {
         const loadLevelsWithProgress = async () => {
             try {
                 // Load the levels.json file from public folder
-                const response = await fetch('/data/WordFlash/word_levels.json');
+                console.log('Loading levels.json...', `/data/${gameType}/levels.json`);
+                const response = await fetch(`/data/${gameType}/levels.json`);
                 const levelsData = await response.json();
 
                 // Add stored progress to each level from localStorage/cookies
                 const levelsWithProgress = levelsData.map((level: Level) => ({
                     ...level,
-                    progress: parseFloat(getStorage(`wordFlash-progress-${level.id}`) || '0')
+                    progress: parseFloat(getStorage(`${gameType}-progress-${level.id}`) || '0')
                 }));
 
                 setLevels(levelsWithProgress);
@@ -133,32 +140,19 @@ export default function WordFlashMenu() {
         };
 
         loadLevelsWithProgress();
-    }, []); // Empty dependency array means this runs once when component mounts
+    }, [gameType]);
 
     // Second useEffect: One-time progress recalculation after redistribution
     useEffect(() => {
         const recalculateProgress = async () => {
-            // Only proceed if:
-            // 1. Levels are loaded (levels.length > 0)
-            // 2. We haven't done this recalculation before (!getStorage('wf-62'))
-            if (levels.length > 0 && !getStorage(PROGRESS_RECALC_FLAG)) {
+            if (levels.length > 0 && !getStorage(progressFlag)) {
                 console.log('Recalculating progress for all levels...');
-                console.log('levels', levels.length);
-
-                // remove all local storage items with "wf-" prefix
-                for (const key of Object.keys(localStorage)) {
-                    if (key.startsWith('wordFlash-progress-') ||
-                        key.startsWith('wordFlash-mastered-') ||
-                        key.startsWith('wordFlash-total-')) {
-                        localStorage.removeItem(key);
-                    }
-                }
 
                 // Clear all existing progress data
                 for (const key of Object.keys(localStorage)) {
-                    if (key.startsWith('wordFlash-progress-') ||
-                        key.startsWith('wordFlash-mastered-') ||
-                        key.startsWith('wordFlash-total-')) {
+                    if (key.startsWith(`${gameType}-progress-`) ||
+                        key.startsWith(`${gameType}-mastered-`) ||
+                        key.startsWith(`${gameType}-total-`)) {
                         localStorage.removeItem(key);
                     }
                 }
@@ -169,68 +163,37 @@ export default function WordFlashMenu() {
                 // Process each level
                 for (let i = 0; i < levels.length; i++) {
                     const level = levels[i];
-
-                    // console.log(`Processing level ${level.id}...`);
                     try {
                         // Get the level number and pad it to 3 digits (e.g., "1" -> "001")
-                        const levelNumber = level.id.split('_').pop()?.padStart(3, '0');
+                        // const levelNumber = level.id.split('_').pop()?.padStart(3, '0');
 
                         // Load the word list for this level
                         const { default: words } = await import(
-                            `../../../data/WordFlash/wf_level_${levelNumber}.json`
+                            `../../../data/${gameType}/${level.id}.json`
                         );
 
-                        // Calculate progress by checking each word's mastery status
                         let masteredCount = 0;
                         let totalMeanings = 0;
-
 
                         words.forEach((word: any) => {
                             console.log(`Processing level ${word}...`);
 
                             word.meanings.forEach((_meaning: string, index: number) => {
-                                const oldKey = `${word.word}-${index}`;
-                                const newKey = `wf-${word.word}-${index}`;
-
-                                // Check for old format first
-                                const oldScore = getStorage(oldKey);
-                                const newScore = getStorage(newKey);
-
-                                let meaningScore = 0.0;
-
-                                if (newScore !== '') {
-                                    // If new format exists, use it
-                                    meaningScore = parseInt(newScore || '0');
-                                } else if (oldScore !== '') {
-                                    // If only old format exists, use it and migrate to new format
-                                    meaningScore = parseInt(oldScore || '0');
-                                    // Migrate to new format
-                                    setStorage(newKey, oldScore);
-
-                                    // Optionally, remove old format
-                                    localStorage.removeItem(oldKey);
-                                }
-
+                                const newKey = `${gameType}-${word.word}-${index}`;
+                                const score = parseInt(getStorage(newKey) || '0');
+                                
                                 totalMeanings++;
-                                if (meaningScore > 0.0) masteredCount++;
+                                if (score > 0) masteredCount++;
                             });
                         });
-                        console.log(`masteredCount for level ${level.id}: ${masteredCount}`);
-                        console.log(`totalMeanings for level ${level.id}: ${totalMeanings}`);
 
-                        // Calculate and store progress percentage
                         const progress = (masteredCount / totalMeanings) * 100;
-                        setStorage(`wordFlash-progress-${level.id}`, progress.toString());
+                        setStorage(`${gameType}-progress-${level.id}`, progress.toString());
+                        setStorage(`${gameType}-mastered-${level.id}`, masteredCount.toString());
+                        setStorage(`${gameType}-total-${level.id}`, totalMeanings.toString());
 
-                        console.log(`wordFlash-progress-${level.id}`, progress.toString());
-
-
-                        setStorage(`wordFlash-mastered-${level.id}`, masteredCount.toString());
-                        setStorage(`wordFlash-total-${level.id}`, totalMeanings.toString());
-
-                        // Set firework flag if progress is complete
                         if (progress >= 100) {
-                            localStorage.setItem(`wordFlash-firework-${level.id}`, 'true');
+                            localStorage.setItem(`${gameType}-firework-${level.id}`, 'true');
                         }
 
                         // Update the level object in our array
@@ -241,22 +204,13 @@ export default function WordFlashMenu() {
                     } catch (error) {
                         console.error(`Error processing level ${level.id}:`, error);
                     }
-
-
-                    // Set flag to prevent future recalculations
-                    setStorage(PROGRESS_RECALC_FLAG, 'true');
-                    console.log('Progress recalculation complete');
-
-                    // Update state with all the new progress values
-                    setLevels(updatedLevels);
                 }
-            };
 
-            // Run the recalculation when levels are loaded
-            // recalculateProgress();
+                setStorage(progressFlag, 'true');
+                setLevels(updatedLevels);
+            }
         };
 
-        // Run the recalculation when levels are loaded
         recalculateProgress();
     }, [levels]); // Depends on levels array, but will only recalculate once due to flag
 
@@ -280,18 +234,6 @@ export default function WordFlashMenu() {
 
     return (
         <div className="word-flash-menu">
-            {/* Fixed Header */}
-            {/* <header className="menu-header">
-                <button 
-                    className="back-button"
-                    onClick={() => navigate('/')}
-                >
-                    <IoArrowBack size={24} />
-                </button>
-                <h1>單字學習</h1>
-            </header> */}
-
-            {/* Scrollable Content */}
             <main className="levels-container">
                 {isLoading ? (
                     <div className="loading">Loading levels...</div>
@@ -304,7 +246,7 @@ export default function WordFlashMenu() {
                             <Link
                                 key={level.id}
                                 ref={isFirstIncomplete ? firstIncompleteLevelRef : null}
-                                to={`/word-flash/${level.id}`}
+                                to={`/${gameType}/${level.id}`}
                                 className="level-item"
                                 style={{
                                     '--bg-light': getBackgroundColors(level.progress ?? 0).light,
@@ -332,13 +274,6 @@ export default function WordFlashMenu() {
                     })
                 )}
             </main>
-
-            {/* Fixed Footer */}
-            <footer className="menu-footer">
-                <div className="footer-content">
-                    <p>Select a level to begin</p>
-                </div>
-            </footer>
         </div>
     );
 } 

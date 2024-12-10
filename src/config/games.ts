@@ -14,7 +14,7 @@ export const games: Game[] = [
     title: '單字學習',
     description: '',
     difficulty: 'Easy',
-    path: '/word-flash',
+    path: '/wordflash',
     icon: '✨',
     logoSrc: '/images/word-flash-logo.jpg' 
   },

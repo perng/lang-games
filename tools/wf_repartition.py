@@ -27,7 +27,7 @@ def main():
 
     # Read and merge all input files
     merged_data = []
-    input_files = sorted(glob.glob("../src/data/WordFlash/word_flash_level_?.json"))
+    input_files = sorted(glob.glob("../src/data/WordFlash/original_word_flash_level_?.json"))
     
     # Read all files and sort according to word frequency
     for file_path in input_files:
@@ -91,7 +91,7 @@ def main():
     total_meanings = sum(len(word['meanings']) for word in merged_data)
     
     for i, chunk in enumerate(chunks, 1):
-        output_file = f'wf/wf_level_{i:03d}.json'
+        output_file = f'wf/word_flash_level_{i:03d}.json'
         chunk_meaning_count = sum(len(word['meanings']) for word in chunk)
         # print(f"Level {i:03d}: {len(chunk)} words, {chunk_meaning_count} meanings")
         with open(output_file, 'w', encoding='utf-8') as f:

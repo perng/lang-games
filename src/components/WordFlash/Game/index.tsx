@@ -35,21 +35,19 @@ interface WordFileData {
     default: WordData[];
 }
 
+interface WordFlashGameProps {
+    gameType: string;
+}
+
 // Add this helper function at the top level
-const loadWordFile = async (wordFile: string): Promise<WordFileData> => {
+const loadWordFile = async (gameType: string, levelId: string): Promise<WordFileData> => {
     // Extract the level number from the filename (e.g., "wf_level_001.json" -> "001")
-    const match = wordFile.match(/wf_level_(\d+)\.json/);
-    if (!match) {
-        throw new Error(`Invalid word file format: ${wordFile}`);
-    }
 
     try {
-        // Pad the level number to 3 digits
-        const levelNumber = match[1].padStart(3, '0');
-        return import(`../../../data/WordFlash/wf_level_${levelNumber}.json`) as Promise<WordFileData>;
+        return import(`../../../data/${gameType}/${levelId}.json`) as Promise<WordFileData>;
     } catch (error) {
-        console.error(`Failed to load word file: ${wordFile}`, error);
-        throw new Error(`Failed to load word file: ${wordFile}`);
+        console.error(`Failed to load word file: ${levelId}.json`, error);
+        throw new Error(`Failed to load word file: ${levelId}.json`);
     }
 };
 
@@ -68,9 +66,10 @@ interface Level {
 }
 
 // Add this function at the top of the file
-const getLevelData = async (levelId: string): Promise<Level | null> => {
+const getLevelData = async (gameType: string, levelId: string): Promise<Level | null> => {
+    console.log('Getting level data for:', levelId);
     try {
-        const response = await fetch('/data/WordFlash/word_levels.json');
+        const response = await fetch(`/data/${gameType}/levels.json`);
         if (!response.ok) {
             console.error('Failed to fetch word_levels.json:', response.status);
             return null;
@@ -86,7 +85,7 @@ const getLevelData = async (levelId: string): Promise<Level | null> => {
 
 
 
-export default function WordFlashGame() {
+export default function WordFlashGame({ gameType }: WordFlashGameProps) {
     const { levelId } = useParams<{ levelId: string }>();
     const navigate = useNavigate();
     const [wordList, setWordList] = useState<WordWithScore[]>([]);
@@ -98,12 +97,12 @@ export default function WordFlashGame() {
     const [hasUserInteracted, setHasUserInteracted] = useState(false);
     const [showWelcome, setShowWelcome] = useState(true);
     const [fastMode, setFastMode] = useState(() => {
-        return localStorage.getItem('wordFlash_fastMode') === 'true'
+        return localStorage.getItem(`${gameType}_fastMode`) === 'true'
     });
     const audioService = useRef<AudioService>();
     const [showStatsPopup, setShowStatsPopup] = useState(false);
     const [showExamples, setShowExamples] = useState(() => {
-        return localStorage.getItem('wordFlash_showExamples') === 'true'
+        return localStorage.getItem(`${gameType}_showExamples`) === 'true'
     });
     const [showExamplesPopup, setShowExamplesPopup] = useState(false);
     const [levelDescription, setLevelDescription] = useState('');
@@ -111,7 +110,7 @@ export default function WordFlashGame() {
     const [showFireworks, setShowFireworks] = useState(false);
     const [shouldUpdateChoices, setShouldUpdateChoices] = useState(true);
     const [blindMode, setBlindMode] = useState(() => {
-        return localStorage.getItem('wordFlash_blindMode') === 'true'
+        return localStorage.getItem(`${gameType}_blindMode`) === 'true'
     });
     const [modalContent, setModalContent] = useState<string | null>(null);
 
@@ -138,13 +137,11 @@ export default function WordFlashGame() {
     // Load word list
     useEffect(() => {
         const loadWords = async () => {
-            if (!levelId) {
-                console.error('No level ID provided');
-                return;
-            }
+            console.log('Loading words for level:', levelId);
+            if (!levelId) return;
 
             try {
-                const level = await getLevelData(levelId);
+                const level = await getLevelData(gameType, levelId);
                 if (!level) {
                     console.error('Level not found');
                     return;
@@ -153,11 +150,10 @@ export default function WordFlashGame() {
                 const levelNumber = level.id.replace(/\D/g, '');
                 setLevelDescription(`Level ${levelNumber}`);
                 
-                const { default: words } = await loadWordFile(level.wordFile);
+                const { default: words } = await loadWordFile(gameType, levelId);
                 console.log('Loaded raw words:', words); // Debug log
 
-                const preparedList = words.flatMap((word: WordData) => 
-                    // Map over each meaning in the word's meanings array
+                let preparedList = words.flatMap((word: WordData) =>
                     word.meanings.map((meaning, index) => ({
                         word: word.word,
                         meaning: {
@@ -169,12 +165,10 @@ export default function WordFlashGame() {
                             synonyms: meaning.synonyms || []
                         },
                         meaningIndex: index,
-                        score: parseInt(getStorage(`wf-${word.word}-${index}`) || '0')
+                        score: parseInt(getStorage(`${gameType}-${word.word}-${index}`) || '0')
                     }))
                 );
-
-                console.log('Prepared word list:', preparedList); // Debug log
-                
+                preparedList = sortWordList(preparedList);
                 setWordList(preparedList);
                 setCurrentIndex(0);
                 setShouldUpdateChoices(true);
@@ -184,7 +178,7 @@ export default function WordFlashGame() {
         };
 
         loadWords();
-    }, [levelId]);
+    }, [levelId, gameType]);
 
     // Sort function to avoid same words being close together
     const sortWordList = (list: WordWithScore[]) => {
@@ -281,9 +275,9 @@ export default function WordFlashGame() {
             const progress = totalMeanings > 0 ? ((masteredMeanings / totalMeanings) * 100) : 0;
 
             // Store progress stats
-            setStorage(`wordFlash-progress-${levelId}`, progress.toString());
-            setStorage(`wordFlash-mastered-${levelId}`, masteredMeanings.toString());
-            setStorage(`wordFlash-total-${levelId}`, totalMeanings.toString());
+            setStorage(`${gameType}-progress-${levelId}`, progress.toString());
+            setStorage(`${gameType}-mastered-${levelId}`, masteredMeanings.toString());
+            setStorage(`${gameType}-total-${levelId}`, totalMeanings.toString());
             
             console.log('Updated progress stats:', {
                 levelId,
@@ -292,7 +286,7 @@ export default function WordFlashGame() {
                 totalMeanings
             });
         }
-    }, [wordList, levelId]);
+    }, [wordList, levelId, gameType]);
 
     // Add useEffect to handle definition reading
     // Modify handleChoice to not automatically advance to next word when completing round
@@ -328,21 +322,23 @@ export default function WordFlashGame() {
         if (isAnswerCorrect) {
             
             // Update score in cookie
-            const cookieKey = `wf-${currentWord.word}-${currentWord.meaning.meaningIndex}`;
+            const cookieKey = `${gameType}-${currentWord.word}-${currentWord.meaning.meaningIndex}`;
             const currentScore = parseInt(getStorage(cookieKey) || '0');
             const newScore = currentScore + 1.0;
             setStorage(cookieKey, newScore.toString());
 
             // Update mastered words in localStorage
             if (newScore >= 1.0 && levelId) {  // Consider word mastered when score >= 1
-                const storageKey = `wordFlash-mastered-word_flash_level_${levelId}`;
-                const masteredWords = JSON.parse(localStorage.getItem(storageKey) || '[]');
+                const storageKey = `${gameType}-mastered-${levelId}`;
+                console.log('storageKey:', storageKey, "value:", localStorage.getItem(storageKey));
+                let masteredWords = parseInt(localStorage.getItem(storageKey) || '0');
+                console.log('masteredWords:', masteredWords);
                 
                 // Add the word-meaning pair if not already in the list
                 const wordMeaningKey = `${currentWord.word}-${currentWord.meaning.meaningIndex}`;
-                if (!masteredWords.includes(wordMeaningKey)) {
-                    masteredWords.push(wordMeaningKey);
-                    localStorage.setItem(storageKey, JSON.stringify(masteredWords));
+                if (currentScore<=0 && newScore>=0) {
+                    masteredWords++;
+                    localStorage.setItem(storageKey, masteredWords.toString());
                     console.log(`Added ${wordMeaningKey} to mastered words for level ${levelId}`);
                 }
 
@@ -365,7 +361,7 @@ export default function WordFlashGame() {
             const newProgress = Number(stats.progress);
             if (newProgress >= 100) {
                 // Check if firework has been shown for this level
-                const fireworkKey = `wordFlash-firework-${levelId}`;
+                const fireworkKey = `${gameType}-firework-${levelId}`;
                 const hasPlayedFirework = localStorage.getItem(fireworkKey);
                 
                 if (!hasPlayedFirework) {
@@ -403,7 +399,7 @@ export default function WordFlashGame() {
     useEffect(() => {
         const loadSlogans = async () => {
             try {
-                const response = await fetch('/data/WordFlash/slogans.txt');
+                const response = await fetch('/data/wordflash/slogans.txt');
                 const text = await response.text();
                 const sloganList = text.split('\n').filter(line => line.trim());
                 const randomSlogan = sloganList[Math.floor(Math.random() * sloganList.length)];
@@ -441,7 +437,7 @@ export default function WordFlashGame() {
         
         try {
             // Get all level files
-            const response = await fetch('/data/WordFlash/word_levels.json');
+            const response = await fetch('/data/${gameType}/levels.json');
             if (!response.ok) {
                 console.error('Failed to fetch word_levels.json:', response.status);
                 return null;
@@ -480,7 +476,7 @@ export default function WordFlashGame() {
 
     // Add useEffect to check progress and trigger fireworks
     useEffect(() => {
-        const fireworkKey = `wordFlash-firework-${levelId}`;
+        const fireworkKey = `${gameType}-firework-${levelId}`;
         const hasPlayedFirework = localStorage.getItem(fireworkKey);
 
         if (Number(stats.progress) >= 100 && !showFireworks && !hasPlayedFirework) {
@@ -528,7 +524,7 @@ export default function WordFlashGame() {
             <div className="game-header">
                 <button 
                     className="back-button"
-                    onClick={() => navigate('/word-flash')}
+                    onClick={() => navigate('/wordflash')}
                 >
                     <IoArrowBack size={24} />
                 </button>
@@ -683,7 +679,7 @@ export default function WordFlashGame() {
                             checked={fastMode}
                             onChange={(e) => {
                               setFastMode(e.target.checked);
-                              localStorage.setItem('wordFlash_fastMode', e.target.checked.toString());
+                              localStorage.setItem(`${gameType}_fastMode`, e.target.checked.toString());
                             }}
                           />
                           <span className="toggle-slider"></span>
@@ -703,7 +699,7 @@ export default function WordFlashGame() {
                             checked={showExamples}
                             onChange={(e) => {
                               setShowExamples(e.target.checked);
-                              localStorage.setItem('wordFlash_showExamples', e.target.checked.toString());
+                              localStorage.setItem(`${gameType}_showExamples`, e.target.checked.toString());
                             }}
                           />
                           <span className="toggle-slider"></span>
@@ -723,7 +719,7 @@ export default function WordFlashGame() {
                             checked={blindMode}
                             onChange={(e) => {
                               setBlindMode(e.target.checked);
-                              localStorage.setItem('wordFlash_blindMode', e.target.checked.toString());
+                              localStorage.setItem(`${gameType}_blindMode`, e.target.checked.toString());
                             }}
                           />
                           <span className="toggle-slider"></span>

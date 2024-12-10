@@ -6,7 +6,7 @@ import { InfoPopup } from '../components/InfoPopup';
 // Define menu structure
 const menuItems = {
   '單字': [
-    { title: '單字學習', path: '/word-flash' },
+    { title: '單字學習', path: '/wordflash' },
     { title: '單字測驗', path: '/vocab-hero' },
   ],
   '文法': [
