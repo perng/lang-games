@@ -544,7 +544,7 @@ export default function WordFlashGame({ gameType,  playDefinition = true  }: Wor
 
     return (
         <div className="word-flash-game">
-            <div className="game-header">
+            <div className="game-header" style={{ padding: '5px 10px' }}>
                 <button 
                     className="back-button"
                     onClick={() => navigate(`/${gameType}`)}
@@ -552,7 +552,9 @@ export default function WordFlashGame({ gameType,  playDefinition = true  }: Wor
                     <IoArrowBack size={24} />
                 </button>
                 
-                <h2 className="level-description">{levelDescription}</h2>
+                <h2 className="level-description" style={{ margin: '0' }}>
+                    {levelDescription}
+                </h2>
 
                 <div className="header-buttons">
                     <button 
@@ -670,7 +672,7 @@ export default function WordFlashGame({ gameType,  playDefinition = true  }: Wor
                 <div 
                     className="progress-bar-container"
                     onClick={() => setShowStatsPopup(true)}
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: 'pointer', marginBottom: '20px' }}
                 >
                     <div 
                         className="progress-bar-fill" 

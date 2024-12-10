@@ -138,8 +138,8 @@ input:checked + .toggle-slider:before {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
