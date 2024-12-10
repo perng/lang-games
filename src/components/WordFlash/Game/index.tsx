@@ -83,7 +83,12 @@ const getLevelData = async (gameType: string, levelId: string): Promise<Level | 
     }
 };
 
-
+// Add this new interface near the top with other interfaces
+interface WordTableItem {
+    word: string;
+    type: string;
+    meaning: string;
+}
 
 export default function WordFlashGame({ gameType }: WordFlashGameProps) {
     const { levelId } = useParams<{ levelId: string }>();
@@ -113,6 +118,7 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
         return localStorage.getItem(`${gameType}_blindMode`) === 'true'
     });
     const [modalContent, setModalContent] = useState<string | null>(null);
+    const [showWordTable, setShowWordTable] = useState(false);
 
     // Add reward ref for each choice button
     const { reward: rewardConfetti } = useReward('rewardConfetti', 'confetti', {
@@ -515,6 +521,26 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
         setShouldUpdateChoices(true); // Allow choices to update
     };
 
+    const handleSkipLevel = () => {
+        // Set score of all words to 1
+        wordList.forEach(word => {
+            const cookieKey = `${gameType}-${word.word}-${word.meaning.meaningIndex}`;
+            setStorage(cookieKey, '1');
+        });
+
+        // Update mastered count in localStorage
+        if (levelId) {
+            const storageKey = `${gameType}-mastered-${levelId}`;
+            localStorage.setItem(storageKey, wordList.length.toString());
+            
+            // Set progress to 100%
+            setStorage(`${gameType}-progress-${levelId}`, '100');
+        }
+
+        // Navigate back to menu
+        navigate(`/${gameType}`);
+    };
+
     if (wordList.length === 0) return <div>Loading...</div>;
 
     const currentWord = wordList[currentIndex];
@@ -524,7 +550,7 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
             <div className="game-header">
                 <button 
                     className="back-button"
-                    onClick={() => navigate('/wordflash')}
+                    onClick={() => navigate(`/${gameType}`)}
                 >
                     <IoArrowBack size={24} />
                 </button>
@@ -544,12 +570,20 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
                     <div className="welcome-content">
                         <h2></h2>
                         <p>{welcomeSlogan}</p>
-                        <button 
-                            className="start-button"
-                            onClick={startGame}
-                        >
-                            Start
-                        </button>
+                        <div className="welcome-buttons">
+                            <button 
+                                className="start-button"
+                                onClick={startGame}
+                            >
+                                吸口氣，開始！
+                            </button>
+                            <button 
+                                className="skip-level-button"
+                                onClick={() => setShowWordTable(true)}
+                            >
+                                感覺我可以不用做這關了
+                            </button>
+                        </div>
                     </div>
                 </div>
             )}
@@ -799,6 +833,51 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
             <Modal isOpen={!!modalContent} onClose={() => setModalContent(null)}>
                 <p>{modalContent}</p>
             </Modal>
+
+            {showWordTable && (
+                <div className="word-table-overlay">
+                    <div className="word-table-popup">
+                        <h3>要是你已經熟悉這些字，那就跳過這關吧！</h3>
+                        <div className="word-table-container">
+                            <table className="word-table">
+                                <thead>
+                                    <tr>
+                                        <th>Word</th>
+                                        <th>Type</th>
+                                        <th>Meaning</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {wordList.map((item, index) => (
+                                        <tr key={index}>
+                                            <td>{item.word}</td>
+                                            <td>{item.meaning.type}</td>
+                                            <td>{item.meaning.meaning_zh_TW}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="word-table-buttons">
+                            <button 
+                                className="skip-confirm-button"
+                                onClick={handleSkipLevel}
+                            >
+                                真的跳過
+                            </button>
+                            <button 
+                                className="cancel-button"
+                                onClick={() => {
+                                    setShowWordTable(false);
+                                    startGame();
+                                }}
+                            >
+                                我還是練練吧！
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
