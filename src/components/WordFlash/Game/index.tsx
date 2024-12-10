@@ -83,13 +83,6 @@ const getLevelData = async (gameType: string, levelId: string): Promise<Level | 
     }
 };
 
-// Add this new interface near the top with other interfaces
-interface WordTableItem {
-    word: string;
-    type: string;
-    meaning: string;
-}
-
 export default function WordFlashGame({ gameType }: WordFlashGameProps) {
     const { levelId } = useParams<{ levelId: string }>();
     const navigate = useNavigate();
