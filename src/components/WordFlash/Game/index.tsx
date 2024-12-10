@@ -37,6 +37,7 @@ interface WordFileData {
 
 interface WordFlashGameProps {
     gameType: string;
+    playDefinition?: boolean;
 }
 
 // Add this helper function at the top level
@@ -83,7 +84,7 @@ const getLevelData = async (gameType: string, levelId: string): Promise<Level | 
     }
 };
 
-export default function WordFlashGame({ gameType }: WordFlashGameProps) {
+export default function WordFlashGame({ gameType,  playDefinition = true  }: WordFlashGameProps) {
     const { levelId } = useParams<{ levelId: string }>();
     const navigate = useNavigate();
     const [wordList, setWordList] = useState<WordWithScore[]>([]);
@@ -226,7 +227,7 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
     // Play word when it changes
     useEffect(() => {
         if (hasUserInteracted && wordList.length > 0 && currentWord && levelId && !isProcessing) {
-            const wordPath = `/voices/english/${currentWord.word}.mp3`;
+            const wordPath = `/voices/english/${currentWord.word.replace(' ', '_')}.mp3`;
             audioService.current?.playAudio(wordPath);
         }
     }, [currentIndex, hasUserInteracted, wordList.length, isProcessing]);
@@ -234,7 +235,7 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
     const handlePlayButton = () => {
         if (currentWord && levelId && audioService.current) {
             console.log('Play button clicked for word:', currentWord.word);
-            const wordPath = `/voices/english/${currentWord.word}.mp3`;
+            const wordPath = `/voices/english/${currentWord.word.replace(' ', '_')}.mp3`;
             audioService.current.playAudio(wordPath);
         }
     };
@@ -308,13 +309,16 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
         // Read definition, pause, then play word
         if (hasUserInteracted && audioService.current && levelId && !fastMode) {
             const encodedDefinition = btoa(unescape(encodeURIComponent(currentWord.meaning.meaning_zh_TW)));
-            const definitionPath = `/voices/chinese/${encodedDefinition}.mp3`;
-            await audioService.current.playAudio(definitionPath);
+ 
+            if (playDefinition) {
+                const definitionPath = `/voices/chinese/${encodedDefinition}.mp3`;
+                await audioService.current.playAudio(definitionPath);
+            }
             
             console.log('Definition played, pause 0.7 second');
             await new Promise(resolve => setTimeout(resolve, 700));
             
-            const wordPath = `/voices/english/${currentWord.word}.mp3`;
+            const wordPath = `/voices/english/${currentWord.word.replace(' ', '_')}.mp3`;
             await audioService.current.playAudio(wordPath);
         }
 
@@ -389,7 +393,7 @@ export default function WordFlashGame({ gameType }: WordFlashGameProps) {
 
         // Then play the current word
         if (currentWord && levelId) {
-            const wordPath = `/voices/english/${currentWord.word}.mp3`;
+            const wordPath = `/voices/english/${currentWord.word.replace(' ', '_')}.mp3`;
             audioService.current?.playAudio(wordPath);
         }
     };

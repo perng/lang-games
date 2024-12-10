@@ -32,16 +32,16 @@ export function AnATheGame() {
 }
 
 export function PhraseBoss() {
-  return <WordFlashMenu gameType="phraseboss" />;
+  return <WordFlashMenu gameType="phraseboss"  />;
 }
 
 // Gameplay components
 export const WordFlashGame = () => (
-  <WordFlashGameComponent gameType="wordflash" />
+  <WordFlashGameComponent gameType="wordflash"  playDefinition={true} />
 );
 
 export const PhraseBossGamePlay = () => (
-  <WordFlashGameComponent gameType="phraseboss" />
+  <WordFlashGameComponent gameType="phraseboss" playDefinition={false} />
 );
 
 export {
