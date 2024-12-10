@@ -1,0 +1,835 @@
+[
+  {
+    "id": "phrase_boss_level_001",
+    "game_type": "phraseboss",
+    "title": "Can you help me [do up] this zipper?",
+    "description": "Level 1",
+    "wordFile": "phrase_boss_level_001.json"
+  },
+  {
+    "id": "phrase_boss_level_002",
+    "game_type": "phraseboss",
+    "title": "We need to [get on] the bus before it leaves.",
+    "description": "Level 2",
+    "wordFile": "phrase_boss_level_002.json"
+  },
+  {
+    "id": "phrase_boss_level_003",
+    "game_type": "phraseboss",
+    "title": "They [put up] a new sign outside the store.",
+    "description": "Level 3",
+    "wordFile": "phrase_boss_level_003.json"
+  },
+  {
+    "id": "phrase_boss_level_004",
+    "game_type": "phraseboss",
+    "title": "He had to [beg off] the meeting due to a family emergency.",
+    "description": "Level 4",
+    "wordFile": "phrase_boss_level_004.json"
+  },
+  {
+    "id": "phrase_boss_level_005",
+    "game_type": "phraseboss",
+    "title": "You should [cut out] junk food from your diet.",
+    "description": "Level 5",
+    "wordFile": "phrase_boss_level_005.json"
+  },
+  {
+    "id": "phrase_boss_level_006",
+    "game_type": "phraseboss",
+    "title": "You should [go away] for the weekend.",
+    "description": "Level 6",
+    "wordFile": "phrase_boss_level_006.json"
+  },
+  {
+    "id": "phrase_boss_level_007",
+    "game_type": "phraseboss",
+    "title": "He won the race [by a whisker].",
+    "description": "Level 7",
+    "wordFile": "phrase_boss_level_007.json"
+  },
+  {
+    "id": "phrase_boss_level_008",
+    "game_type": "phraseboss",
+    "title": "The new technology is a [game changer] in the industry.",
+    "description": "Level 8",
+    "wordFile": "phrase_boss_level_008.json"
+  },
+  {
+    "id": "phrase_boss_level_009",
+    "game_type": "phraseboss",
+    "title": "Please [lay out] your ideas for the project.",
+    "description": "Level 9",
+    "wordFile": "phrase_boss_level_009.json"
+  },
+  {
+    "id": "phrase_boss_level_010",
+    "game_type": "phraseboss",
+    "title": "I think I will [opt for] the vegetarian meal.",
+    "description": "Level 10",
+    "wordFile": "phrase_boss_level_010.json"
+  },
+  {
+    "id": "phrase_boss_level_011",
+    "game_type": "phraseboss",
+    "title": "You can always [rely on] your friends in tough times.",
+    "description": "Level 11",
+    "wordFile": "phrase_boss_level_011.json"
+  },
+  {
+    "id": "phrase_boss_level_012",
+    "game_type": "phraseboss",
+    "title": "He sized up the competition before the game.",
+    "description": "Level 12",
+    "wordFile": "phrase_boss_level_012.json"
+  },
+  {
+    "id": "phrase_boss_level_013",
+    "game_type": "phraseboss",
+    "title": "I want to try out this new recipe for dinner.",
+    "description": "Level 13",
+    "wordFile": "phrase_boss_level_013.json"
+  },
+  {
+    "id": "phrase_boss_level_014",
+    "game_type": "phraseboss",
+    "title": "She had to [back out] of the deal at the last minute.",
+    "description": "Level 14",
+    "wordFile": "phrase_boss_level_014.json"
+  },
+  {
+    "id": "phrase_boss_level_015",
+    "game_type": "phraseboss",
+    "title": "If you don't take breaks, you'll [burn out].",
+    "description": "Level 15",
+    "wordFile": "phrase_boss_level_015.json"
+  },
+  {
+    "id": "phrase_boss_level_016",
+    "game_type": "phraseboss",
+    "title": "He [clung to] the memories of his childhood.",
+    "description": "Level 16",
+    "wordFile": "phrase_boss_level_016.json"
+  },
+  {
+    "id": "phrase_boss_level_017",
+    "game_type": "phraseboss",
+    "title": "She loves to [dish out] food at parties.",
+    "description": "Level 17",
+    "wordFile": "phrase_boss_level_017.json"
+  },
+  {
+    "id": "phrase_boss_level_018",
+    "game_type": "phraseboss",
+    "title": "They managed to [get away] from the crowd.",
+    "description": "Level 18",
+    "wordFile": "phrase_boss_level_018.json"
+  },
+  {
+    "id": "phrase_boss_level_019",
+    "game_type": "phraseboss",
+    "title": "They decided to [hold out] for a better offer.",
+    "description": "Level 19",
+    "wordFile": "phrase_boss_level_019.json"
+  },
+  {
+    "id": "phrase_boss_level_020",
+    "game_type": "phraseboss",
+    "title": "Let's [order in] some pizza for dinner.",
+    "description": "Level 20",
+    "wordFile": "phrase_boss_level_020.json"
+  },
+  {
+    "id": "phrase_boss_level_021",
+    "game_type": "phraseboss",
+    "title": "They managed to [ride out] the storm.",
+    "description": "Level 21",
+    "wordFile": "phrase_boss_level_021.json"
+  },
+  {
+    "id": "phrase_boss_level_022",
+    "game_type": "phraseboss",
+    "title": "He loves to [show off] his new car.",
+    "description": "Level 22",
+    "wordFile": "phrase_boss_level_022.json"
+  },
+  {
+    "id": "phrase_boss_level_023",
+    "game_type": "phraseboss",
+    "title": "They are planning to [start up] a new business.",
+    "description": "Level 23",
+    "wordFile": "phrase_boss_level_023.json"
+  },
+  {
+    "id": "phrase_boss_level_024",
+    "game_type": "phraseboss",
+    "title": "Make sure to [tie down] the equipment during transport.",
+    "description": "Level 24",
+    "wordFile": "phrase_boss_level_024.json"
+  },
+  {
+    "id": "phrase_boss_level_025",
+    "game_type": "phraseboss",
+    "title": "He will [write up] the report tonight.",
+    "description": "Level 25",
+    "wordFile": "phrase_boss_level_025.json"
+  },
+  {
+    "id": "phrase_boss_level_026",
+    "game_type": "phraseboss",
+    "title": "She decided to [break off] the conversation.",
+    "description": "Level 26",
+    "wordFile": "phrase_boss_level_026.json"
+  },
+  {
+    "id": "phrase_boss_level_027",
+    "game_type": "phraseboss",
+    "title": "They decided to [clear out] the attic.",
+    "description": "Level 27",
+    "wordFile": "phrase_boss_level_027.json"
+  },
+  {
+    "id": "phrase_boss_level_028",
+    "game_type": "phraseboss",
+    "title": "This math problem is [duck soup] for me.",
+    "description": "Level 28",
+    "wordFile": "phrase_boss_level_028.json"
+  },
+  {
+    "id": "phrase_boss_level_029",
+    "game_type": "phraseboss",
+    "title": "They decided to [go around] the traffic jam.",
+    "description": "Level 29",
+    "wordFile": "phrase_boss_level_029.json"
+  },
+  {
+    "id": "phrase_boss_level_030",
+    "game_type": "phraseboss",
+    "title": "She tends to [look back] at her childhood with nostalgia.",
+    "description": "Level 30",
+    "wordFile": "phrase_boss_level_030.json"
+  },
+  {
+    "id": "phrase_boss_level_031",
+    "game_type": "phraseboss",
+    "title": "He [put forth] a new plan at the meeting.",
+    "description": "Level 31",
+    "wordFile": "phrase_boss_level_031.json"
+  },
+  {
+    "id": "phrase_boss_level_032",
+    "game_type": "phraseboss",
+    "title": "I'll [set aside] some money for our vacation.",
+    "description": "Level 32",
+    "wordFile": "phrase_boss_level_032.json"
+  },
+  {
+    "id": "phrase_boss_level_033",
+    "game_type": "phraseboss",
+    "title": "New businesses are [springing up] all over the city.",
+    "description": "Level 33",
+    "wordFile": "phrase_boss_level_033.json"
+  },
+  {
+    "id": "phrase_boss_level_034",
+    "game_type": "phraseboss",
+    "title": "It's not polite to [talk back] to your teachers.",
+    "description": "Level 34",
+    "wordFile": "phrase_boss_level_034.json"
+  },
+  {
+    "id": "phrase_boss_level_035",
+    "game_type": "phraseboss",
+    "title": "He [worked away] at his project until he finished.",
+    "description": "Level 35",
+    "wordFile": "phrase_boss_level_035.json"
+  },
+  {
+    "id": "phrase_boss_level_036",
+    "game_type": "phraseboss",
+    "title": "He [burst into] laughter during the movie.",
+    "description": "Level 36",
+    "wordFile": "phrase_boss_level_036.json"
+  },
+  {
+    "id": "phrase_boss_level_037",
+    "game_type": "phraseboss",
+    "title": "The boss [dressed down] the employee for missing the deadline.",
+    "description": "Level 37",
+    "wordFile": "phrase_boss_level_037.json"
+  },
+  {
+    "id": "phrase_boss_level_038",
+    "game_type": "phraseboss",
+    "title": "Be careful not to [knock over] the vase.",
+    "description": "Level 38",
+    "wordFile": "phrase_boss_level_038.json"
+  },
+  {
+    "id": "phrase_boss_level_039",
+    "game_type": "phraseboss",
+    "title": "They tried to [shake down] the local business owner for money.",
+    "description": "Level 39",
+    "wordFile": "phrase_boss_level_039.json"
+  },
+  {
+    "id": "phrase_boss_level_040",
+    "game_type": "phraseboss",
+    "title": "Don’t [throw away] that old book; it might be valuable.",
+    "description": "Level 40",
+    "wordFile": "phrase_boss_level_040.json"
+  },
+  {
+    "id": "phrase_boss_level_041",
+    "game_type": "phraseboss",
+    "title": "He likes to [boss around] his younger siblings.",
+    "description": "Level 41",
+    "wordFile": "phrase_boss_level_041.json"
+  },
+  {
+    "id": "phrase_boss_level_042",
+    "game_type": "phraseboss",
+    "title": "They [cut corners] when building the road, leading to safety issues.",
+    "description": "Level 42",
+    "wordFile": "phrase_boss_level_042.json"
+  },
+  {
+    "id": "phrase_boss_level_043",
+    "game_type": "phraseboss",
+    "title": "I'm really [in a pickle] about how to solve this issue.",
+    "description": "Level 43",
+    "wordFile": "phrase_boss_level_043.json"
+  },
+  {
+    "id": "phrase_boss_level_044",
+    "game_type": "phraseboss",
+    "title": "It's time for him to [settle down] and start a family.",
+    "description": "Level 44",
+    "wordFile": "phrase_boss_level_044.json"
+  },
+  {
+    "id": "phrase_boss_level_045",
+    "game_type": "phraseboss",
+    "title": "You never know what a [loose cannon] might say next.",
+    "description": "Level 45",
+    "wordFile": "phrase_boss_level_045.json"
+  },
+  {
+    "id": "phrase_boss_level_046",
+    "game_type": "phraseboss",
+    "title": "Don't [step on toes]; respect everyone's role.",
+    "description": "Level 46",
+    "wordFile": "phrase_boss_level_046.json"
+  },
+  {
+    "id": "phrase_boss_level_047",
+    "game_type": "phraseboss",
+    "title": "After finishing the report, they decided to [call it a day].",
+    "description": "Level 47",
+    "wordFile": "phrase_boss_level_047.json"
+  },
+  {
+    "id": "phrase_boss_level_048",
+    "game_type": "phraseboss",
+    "title": "I need to '[hit the books]' before finals.",
+    "description": "Level 48",
+    "wordFile": "phrase_boss_level_048.json"
+  },
+  {
+    "id": "phrase_boss_level_049",
+    "game_type": "phraseboss",
+    "title": "The new policy will '[raise the bar]' for quality.",
+    "description": "Level 49",
+    "wordFile": "phrase_boss_level_049.json"
+  },
+  {
+    "id": "phrase_boss_level_050",
+    "game_type": "phraseboss",
+    "title": "She didn't even [bat an eyelash] when he told her the bad news.",
+    "description": "Level 50",
+    "wordFile": "phrase_boss_level_050.json"
+  },
+  {
+    "id": "phrase_boss_level_051",
+    "game_type": "phraseboss",
+    "title": "Don't [drag your feet] on this project; we need to finish it ASAP.",
+    "description": "Level 51",
+    "wordFile": "phrase_boss_level_051.json"
+  },
+  {
+    "id": "phrase_boss_level_052",
+    "game_type": "phraseboss",
+    "title": "Her performance was [off the charts].",
+    "description": "Level 52",
+    "wordFile": "phrase_boss_level_052.json"
+  },
+  {
+    "id": "phrase_boss_level_053",
+    "game_type": "phraseboss",
+    "title": "The park is [a stone's throw] from my house.",
+    "description": "Level 53",
+    "wordFile": "phrase_boss_level_053.json"
+  },
+  {
+    "id": "phrase_boss_level_054",
+    "game_type": "phraseboss",
+    "title": "Last night, she [cooked up a storm] for her friends.",
+    "description": "Level 54",
+    "wordFile": "phrase_boss_level_054.json"
+  },
+  {
+    "id": "phrase_boss_level_055",
+    "game_type": "phraseboss",
+    "title": "He is [head over heels] in love with her.",
+    "description": "Level 55",
+    "wordFile": "phrase_boss_level_055.json"
+  },
+  {
+    "id": "phrase_boss_level_056",
+    "game_type": "phraseboss",
+    "title": "He accidentally [spilled the beans] about the surprise party.",
+    "description": "Level 56",
+    "wordFile": "phrase_boss_level_056.json"
+  },
+  {
+    "id": "phrase_boss_level_057",
+    "game_type": "phraseboss",
+    "title": "After a good rest, I'm [as right as rain].",
+    "description": "Level 57",
+    "wordFile": "phrase_boss_level_057.json"
+  },
+  {
+    "id": "phrase_boss_level_058",
+    "game_type": "phraseboss",
+    "title": "The lecture provided plenty of [food for thought].",
+    "description": "Level 58",
+    "wordFile": "phrase_boss_level_058.json"
+  },
+  {
+    "id": "phrase_boss_level_059",
+    "game_type": "phraseboss",
+    "title": "Your compliments are [music to my ears].",
+    "description": "Level 59",
+    "wordFile": "phrase_boss_level_059.json"
+  },
+  {
+    "id": "phrase_boss_level_060",
+    "game_type": "phraseboss",
+    "title": "By planning ahead, she’s [ahead of the game].",
+    "description": "Level 60",
+    "wordFile": "phrase_boss_level_060.json"
+  },
+  {
+    "id": "phrase_boss_level_061",
+    "game_type": "phraseboss",
+    "title": "He walked around [down in the mouth] after receiving the bad news.",
+    "description": "Level 61",
+    "wordFile": "phrase_boss_level_061.json"
+  },
+  {
+    "id": "phrase_boss_level_062",
+    "game_type": "phraseboss",
+    "title": "I'm sorry, but [my hands are tied] on this matter; I can't help.",
+    "description": "Level 62",
+    "wordFile": "phrase_boss_level_062.json"
+  },
+  {
+    "id": "phrase_boss_level_063",
+    "game_type": "phraseboss",
+    "title": "This project is [a pain in the neck] but we have to finish it.",
+    "description": "Level 63",
+    "wordFile": "phrase_boss_level_063.json"
+  },
+  {
+    "id": "phrase_boss_level_064",
+    "game_type": "phraseboss",
+    "title": "Let’s [cross our fingers] that it doesn’t rain tomorrow.",
+    "description": "Level 64",
+    "wordFile": "phrase_boss_level_064.json"
+  },
+  {
+    "id": "phrase_boss_level_065",
+    "game_type": "phraseboss",
+    "title": "She often has her [head in the clouds] during meetings.",
+    "description": "Level 65",
+    "wordFile": "phrase_boss_level_065.json"
+  },
+  {
+    "id": "phrase_boss_level_066",
+    "game_type": "phraseboss",
+    "title": "Despite the criticism, she chose to [stand her ground].",
+    "description": "Level 66",
+    "wordFile": "phrase_boss_level_066.json"
+  },
+  {
+    "id": "phrase_boss_level_067",
+    "game_type": "phraseboss",
+    "title": "She [bends over backwards] to ensure her clients are satisfied.",
+    "description": "Level 67",
+    "wordFile": "phrase_boss_level_067.json"
+  },
+  {
+    "id": "phrase_boss_level_068",
+    "game_type": "phraseboss",
+    "title": "She may have doubted him, but he [had the last laugh] when he won the award.",
+    "description": "Level 68",
+    "wordFile": "phrase_boss_level_068.json"
+  },
+  {
+    "id": "phrase_boss_level_069",
+    "game_type": "phraseboss",
+    "title": "When it comes to your dreams, [the sky’s the limit].",
+    "description": "Level 69",
+    "wordFile": "phrase_boss_level_069.json"
+  },
+  {
+    "id": "phrase_boss_level_070",
+    "game_type": "phraseboss",
+    "title": "When times are tough, it's important to [count your blessings].",
+    "description": "Level 70",
+    "wordFile": "phrase_boss_level_070.json"
+  },
+  {
+    "id": "phrase_boss_level_071",
+    "game_type": "phraseboss",
+    "title": "It's a good idea to [save for a rainy day] and put some money away.",
+    "description": "Level 71",
+    "wordFile": "phrase_boss_level_071.json"
+  },
+  {
+    "id": "phrase_boss_level_072",
+    "game_type": "phraseboss",
+    "title": "She had to [burn the midnight oil] to meet the deadline.",
+    "description": "Level 72",
+    "wordFile": "phrase_boss_level_072.json"
+  },
+  {
+    "id": "phrase_boss_level_073",
+    "game_type": "phraseboss",
+    "title": "His rude comments [made my blood boil].",
+    "description": "Level 73",
+    "wordFile": "phrase_boss_level_073.json"
+  },
+  {
+    "id": "phrase_boss_level_074",
+    "game_type": "phraseboss",
+    "title": "No matter what method you choose, [all roads lead to rome].",
+    "description": "Level 74",
+    "wordFile": "phrase_boss_level_074.json"
+  },
+  {
+    "id": "phrase_boss_level_075",
+    "game_type": "phraseboss",
+    "title": "You should [mind your own business] and let her handle it.",
+    "description": "Level 75",
+    "wordFile": "phrase_boss_level_075.json"
+  },
+  {
+    "id": "phrase_boss_level_076",
+    "game_type": "phraseboss",
+    "title": "The project was completed through [blood, sweat, and tears].",
+    "description": "Level 76",
+    "wordFile": "phrase_boss_level_076.json"
+  },
+  {
+    "id": "phrase_boss_level_077",
+    "game_type": "phraseboss",
+    "title": "I need to [set the record straight] about what happened at the meeting.",
+    "description": "Level 77",
+    "wordFile": "phrase_boss_level_077.json"
+  },
+  {
+    "id": "phrase_boss_level_078",
+    "game_type": "phraseboss",
+    "title": "Before I leave, I need to [get my ducks in a row].",
+    "description": "Level 78",
+    "wordFile": "phrase_boss_level_078.json"
+  },
+  {
+    "id": "phrase_boss_level_079",
+    "game_type": "phraseboss",
+    "title": "After the proposal was rejected, it was time to [go back to the drawing board].",
+    "description": "Level 79",
+    "wordFile": "phrase_boss_level_079.json"
+  },
+  {
+    "id": "phrase_boss_level_080",
+    "game_type": "phraseboss",
+    "title": "He said some things he didn’t mean [in the heat of the moment].",
+    "description": "Level 80",
+    "wordFile": "phrase_boss_level_080.json"
+  },
+  {
+    "id": "phrase_boss_level_081",
+    "game_type": "phraseboss",
+    "title": "He’s struggling to [keep his head above water] financially.",
+    "description": "Level 81",
+    "wordFile": "phrase_boss_level_081.json"
+  },
+  {
+    "id": "phrase_boss_level_082",
+    "game_type": "phraseboss",
+    "title": "He entered the meeting [like a bull in a china shop], making everyone uncomfortable.",
+    "description": "Level 82",
+    "wordFile": "phrase_boss_level_082.json"
+  },
+  {
+    "id": "phrase_boss_level_083",
+    "game_type": "phraseboss",
+    "title": "It's time to [lay my cards on the table] and explain my plan.",
+    "description": "Level 83",
+    "wordFile": "phrase_boss_level_083.json"
+  },
+  {
+    "id": "phrase_boss_level_084",
+    "game_type": "phraseboss",
+    "title": "I really [put my foot in my mouth] when I brought up his past.",
+    "description": "Level 84",
+    "wordFile": "phrase_boss_level_084.json"
+  },
+  {
+    "id": "phrase_boss_level_085",
+    "game_type": "phraseboss",
+    "title": "He has been [burning the candle at both ends] with his work schedule.",
+    "description": "Level 85",
+    "wordFile": "phrase_boss_level_085.json"
+  },
+  {
+    "id": "phrase_boss_level_086",
+    "game_type": "phraseboss",
+    "title": "When he called her lazy, it was just [the pot calling the kettle black].",
+    "description": "Level 86",
+    "wordFile": "phrase_boss_level_086.json"
+  },
+  {
+    "id": "phrase_boss_level_087",
+    "game_type": "phraseboss",
+    "title": "He can do many things but lacks depth; he is a [jack of all trades, master of none].",
+    "description": "Level 87",
+    "wordFile": "phrase_boss_level_087.json"
+  },
+  {
+    "id": "phrase_boss_level_088",
+    "game_type": "phraseboss",
+    "title": "She felt [caught between a rock and a hard place] with her job options.",
+    "description": "Level 88",
+    "wordFile": "phrase_boss_level_088.json"
+  },
+  {
+    "id": "phrase_boss_level_089",
+    "game_type": "phraseboss",
+    "title": "When faced with criticism, he realized that [if you can't stand the heat] should reconsider his role.",
+    "description": "Level 89",
+    "wordFile": "phrase_boss_level_089.json"
+  },
+  {
+    "id": "phrase_boss_level_090",
+    "game_type": "phraseboss",
+    "title": "She sings beautifully as well as plays the piano.",
+    "description": "Level 90",
+    "wordFile": "phrase_boss_level_090.json"
+  },
+  {
+    "id": "phrase_boss_level_091",
+    "game_type": "phraseboss",
+    "title": "He decided to break with his old friends.",
+    "description": "Level 91",
+    "wordFile": "phrase_boss_level_091.json"
+  },
+  {
+    "id": "phrase_boss_level_092",
+    "game_type": "phraseboss",
+    "title": "Did you [catch sight of] her at the event?",
+    "description": "Level 92",
+    "wordFile": "phrase_boss_level_092.json"
+  },
+  {
+    "id": "phrase_boss_level_093",
+    "game_type": "phraseboss",
+    "title": "She learned how to [cope with] stress.",
+    "description": "Level 93",
+    "wordFile": "phrase_boss_level_093.json"
+  },
+  {
+    "id": "phrase_boss_level_094",
+    "game_type": "phraseboss",
+    "title": "He had to [draw back] when the situation got too tense.",
+    "description": "Level 94",
+    "wordFile": "phrase_boss_level_094.json"
+  },
+  {
+    "id": "phrase_boss_level_095",
+    "game_type": "phraseboss",
+    "title": "The old style has [fallen out of favor] over the years.",
+    "description": "Level 95",
+    "wordFile": "phrase_boss_level_095.json"
+  },
+  {
+    "id": "phrase_boss_level_096",
+    "game_type": "phraseboss",
+    "title": "Let's [get going on] our project that we discussed.",
+    "description": "Level 96",
+    "wordFile": "phrase_boss_level_096.json"
+  },
+  {
+    "id": "phrase_boss_level_097",
+    "game_type": "phraseboss",
+    "title": "His actions [go against] our values.",
+    "description": "Level 97",
+    "wordFile": "phrase_boss_level_097.json"
+  },
+  {
+    "id": "phrase_boss_level_098",
+    "game_type": "phraseboss",
+    "title": "We often [hang around] the mall after school.",
+    "description": "Level 98",
+    "wordFile": "phrase_boss_level_098.json"
+  },
+  {
+    "id": "phrase_boss_level_099",
+    "game_type": "phraseboss",
+    "title": "We'll finish this project [in no time].",
+    "description": "Level 99",
+    "wordFile": "phrase_boss_level_099.json"
+  },
+  {
+    "id": "phrase_boss_level_100",
+    "game_type": "phraseboss",
+    "title": "They decided to [keep silence] during the meeting.",
+    "description": "Level 100",
+    "wordFile": "phrase_boss_level_100.json"
+  },
+  {
+    "id": "phrase_boss_level_101",
+    "game_type": "phraseboss",
+    "title": "It's important to [let go of] negative thoughts.",
+    "description": "Level 101",
+    "wordFile": "phrase_boss_level_101.json"
+  },
+  {
+    "id": "phrase_boss_level_102",
+    "game_type": "phraseboss",
+    "title": "She tends to [lose her temper] when things go wrong.",
+    "description": "Level 102",
+    "wordFile": "phrase_boss_level_102.json"
+  },
+  {
+    "id": "phrase_boss_level_103",
+    "game_type": "phraseboss",
+    "title": "I need to [make up my mind] about which job to take.",
+    "description": "Level 103",
+    "wordFile": "phrase_boss_level_103.json"
+  },
+  {
+    "id": "phrase_boss_level_104",
+    "game_type": "phraseboss",
+    "title": "I need to [catch up with] my friends after being away for so long.",
+    "description": "Level 104",
+    "wordFile": "phrase_boss_level_104.json"
+  },
+  {
+    "id": "phrase_boss_level_105",
+    "game_type": "phraseboss",
+    "title": "She likes to [play tricks on] her friends to lighten the mood.",
+    "description": "Level 105",
+    "wordFile": "phrase_boss_level_105.json"
+  },
+  {
+    "id": "phrase_boss_level_106",
+    "game_type": "phraseboss",
+    "title": "I need to [catch up with] my studies.",
+    "description": "Level 106",
+    "wordFile": "phrase_boss_level_106.json"
+  },
+  {
+    "id": "phrase_boss_level_107",
+    "game_type": "phraseboss",
+    "title": "I left the class, and [soon after], it started to rain.",
+    "description": "Level 107",
+    "wordFile": "phrase_boss_level_107.json"
+  },
+  {
+    "id": "phrase_boss_level_108",
+    "game_type": "phraseboss",
+    "title": "I need to [catch up with] my friends who left before me.",
+    "description": "Level 108",
+    "wordFile": "phrase_boss_level_108.json"
+  },
+  {
+    "id": "phrase_boss_level_109",
+    "game_type": "phraseboss",
+    "title": "Please [take care] of the cat while I'm away.",
+    "description": "Level 109",
+    "wordFile": "phrase_boss_level_109.json"
+  },
+  {
+    "id": "phrase_boss_level_110",
+    "game_type": "phraseboss",
+    "title": "I [think all the better of] him after his kind gesture.",
+    "description": "Level 110",
+    "wordFile": "phrase_boss_level_110.json"
+  },
+  {
+    "id": "phrase_boss_level_111",
+    "game_type": "phraseboss",
+    "title": "To be frank, I don't think this plan will work.",
+    "description": "Level 111",
+    "wordFile": "phrase_boss_level_111.json"
+  },
+  {
+    "id": "phrase_boss_level_112",
+    "game_type": "phraseboss",
+    "title": "She completed the project [with the help of] her teammates.",
+    "description": "Level 112",
+    "wordFile": "phrase_boss_level_112.json"
+  },
+  {
+    "id": "phrase_boss_level_113",
+    "game_type": "phraseboss",
+    "title": "He decided to [go after] his dreams of becoming an artist.",
+    "description": "Level 113",
+    "wordFile": "phrase_boss_level_113.json"
+  },
+  {
+    "id": "phrase_boss_level_114",
+    "game_type": "phraseboss",
+    "title": "Volunteering can [make a difference] in people's lives.",
+    "description": "Level 114",
+    "wordFile": "phrase_boss_level_114.json"
+  },
+  {
+    "id": "phrase_boss_level_115",
+    "game_type": "phraseboss",
+    "title": "I will [see after] the kids while you are at the meeting.",
+    "description": "Level 115",
+    "wordFile": "phrase_boss_level_115.json"
+  },
+  {
+    "id": "phrase_boss_level_116",
+    "game_type": "phraseboss",
+    "title": "She tends to [think poorly of] people who lie.",
+    "description": "Level 116",
+    "wordFile": "phrase_boss_level_116.json"
+  },
+  {
+    "id": "phrase_boss_level_117",
+    "game_type": "phraseboss",
+    "title": "I need to [catch up with] my friends before the event starts.",
+    "description": "Level 117",
+    "wordFile": "phrase_boss_level_117.json"
+  },
+  {
+    "id": "phrase_boss_level_118",
+    "game_type": "phraseboss",
+    "title": "I find it difficult to [keep pace with] the rapid changes in technology.",
+    "description": "Level 118",
+    "wordFile": "phrase_boss_level_118.json"
+  },
+  {
+    "id": "phrase_boss_level_119",
+    "game_type": "phraseboss",
+    "title": "The dog started to [run after] the ball.",
+    "description": "Level 119",
+    "wordFile": "phrase_boss_level_119.json"
+  }
+]

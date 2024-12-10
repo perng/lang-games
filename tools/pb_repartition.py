@@ -25,18 +25,21 @@ def generate_levels():
         # Read the first phrase from each file
         with open(phrase_file, 'r', encoding='utf-8') as f:
             phrases = json.load(f)
-            first_phrase = phrases[0]['examples'][0]['sentence']
+            print(phrases[0]['word'])
+            first_phrase = phrases[0]['meanings'][0]['examples'][0]['sentence']
         
         # Create level entry
         level = {
             "id": f"phrase_boss_level_{i:03d}",
-            "game_type": "phrase_boss",
+            "game_type": "phraseboss",
             "title": first_phrase,
             "description": f"Level {i}",
             "wordFile": f"phrase_boss_level_{i:03d}.json"
         }
         levels.append(level)
     
+    print(len(levels))
+
     # Ensure the output directory exists
     os.makedirs('../public/data/phraseboss', exist_ok=True)
 
