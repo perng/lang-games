@@ -14,7 +14,8 @@ import {
   ArticleGamePlay,
   AnATheGamePlay,
   PhraseBoss,
-  PhraseBossGamePlay
+  PhraseBossGamePlay,
+  CatchAll
 } from './routes/GameRoutes';
 import './index.css';
 
@@ -29,6 +30,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path="article-game" element={<ArticleGame />} />
           <Route path="an-a-the" element={<AnATheGame />} />
           <Route path="phraseboss" element={<PhraseBoss />} />
+          <Route path="*" element={<CatchAll />} />
         </Route>
         <Route path="/wordflash/:levelId" element={<WordFlashGame />} />
         <Route path="/vocab-hero/:levelId" element={<VocabHeroGame />} />

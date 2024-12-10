@@ -3,6 +3,7 @@ import VocabHeroMenu from '../components/VocabHero/Menu';
 import SingularPluralMenu from '../components/SingularPluralGame/Menu';
 import ArticleGameMenu from '../components/ArticleGame/Menu';
 import AnATheGameMenu from '../components/AnATheGame/Menu';
+import { Navigate } from 'react-router-dom';
 
 import WordFlashGameComponent from '../components/WordFlash/Game';
 import VocabHeroGame from '../components/VocabHero/Game';
@@ -49,4 +50,8 @@ export {
   SingularPluralGamePlay,
   ArticleGamePlay,
   AnATheGamePlay
-}; 
+};
+
+export function CatchAll() {
+  return <Navigate to="/" replace />;
+}
