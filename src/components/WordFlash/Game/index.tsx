@@ -582,12 +582,14 @@ export default function WordFlashGame({ gameType,  playDefinition = true  }: Wor
                             <button 
                                 className="start-button"
                                 onClick={startGame}
+                                style={{ fontSize: '12px' }}
                             >
                                 吸口氣，開始！
                             </button>
                             <button 
                                 className="skip-level-button"
                                 onClick={() => setShowWordTable(true)}
+                                style={{ fontSize: '12px' }}
                             >
                                 感覺我可以不用做這關了
                             </button>
