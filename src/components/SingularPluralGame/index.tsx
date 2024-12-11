@@ -42,7 +42,7 @@ function formatBothCorrect(form1: string, form2: string) {
 
 function SingularPluralGame() {
   const navigate = useNavigate();
-  const { storyId } = useParams<{ storyId: string }>();  // Explicitly type the params
+  const { levelId } = useParams<{ levelId: string }>();  // Explicitly type the params
   const [gameState, setGameState] = useState<GameState>({
     words: [],
     playerSelections: new Map(),
@@ -53,7 +53,7 @@ function SingularPluralGame() {
   const [showMissionBrief, setShowMissionBrief] = useState(false);
   const location = useLocation();
 
-  console.log('Component rendered, storyId:', storyId);
+  console.log('Component rendered, storyId:', levelId);
 
   useEffect(() => {
     logPageView(location.pathname);
@@ -157,11 +157,11 @@ function SingularPluralGame() {
   };
 
   useEffect(() => {
-    const id = parseInt(storyId ?? '0');
+    const id = parseInt(levelId ?? '0');
     if (!isNaN(id) && id >= 0 && id < articles.length) {
       initializeGame(id);
     }
-  }, [storyId]);
+  }, [levelId]);
 
   const handleClick = (index: number, e: React.MouseEvent) => {
     if (results) return;
@@ -231,14 +231,11 @@ function SingularPluralGame() {
 
     score.percentage = Math.round((score.correct / totalNouns) * 100);
 
-    if (storyId) {
-      const cookieKey = getCookieKey(storyId);
+    if (levelId) {
+      const cookieKey = getCookieKey(levelId);
       console.log('About to set cookie with key:', cookieKey);
       setStorage(cookieKey, score.percentage.toString());
-      
-      // Add this line to see all cookies
-      console.log('All cookies:', document.cookie);
-      
+            
       // Verify cookie was set
       const verifyScore = getStorage(cookieKey);
       console.log('Verified cookie value:', verifyScore);
@@ -252,7 +249,7 @@ function SingularPluralGame() {
   };
 
   const handleTryAgain = () => {
-    initializeGame(parseInt(storyId ?? '0'));
+    initializeGame(parseInt(levelId ?? '0'));
     setCurrentExplanation(null);
   };
 
@@ -267,7 +264,7 @@ function SingularPluralGame() {
   };
 
   // Get current story title
-  const currentStory = storyId ? articles[parseInt(storyId)] : null;
+  const currentStory = levelId ? articles[parseInt(levelId)] : null;
 
   // Create a helper function to get consistent cookie keys
   const getCookieKey = (id: string | number) => `singular-plural-${id}`;
@@ -393,18 +390,18 @@ function SingularPluralGame() {
               </button>
             </div>
 
-            {currentExplanation === 'en-US' && storyId && (
+            {currentExplanation === 'en-US' && levelId && (
               <div className="explanation-content">
                 <ReactMarkdown>
-                  {articles[parseInt(storyId)]['explanation-en-US']}
+                  {articles[parseInt(levelId)]['explanation-en-US']}
                 </ReactMarkdown>
               </div>
             )}
 
-            {currentExplanation === 'zh-TW' && storyId && (
+            {currentExplanation === 'zh-TW' && levelId && (
               <div className="explanation-content">
                 <ReactMarkdown>
-                  {articles[parseInt(storyId)]['explanation-zh-TW']}
+                  {articles[parseInt(levelId)]['explanation-zh-TW']}
                 </ReactMarkdown>
               </div>
             )}

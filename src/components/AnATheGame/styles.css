@@ -59,6 +59,7 @@
   padding: 1rem;
   background-color: #f5f5f5;
   border-radius: 8px;
+  margin: 0;
 }
 
 .score-details {
@@ -103,6 +104,7 @@ del {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  margin: 0;
 }
 
 .word {
@@ -119,6 +121,8 @@ del {
 }
 
 .game-container {
+  max-height: 100vh;
+  overflow-y: auto;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -130,13 +134,14 @@ del {
 }
 
 .game-content {
-  /* max-width: 700px;g */
+  max-height: 90vh;
+  overflow-y: auto;
   width: 100%;
   background: #fff;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  margin-bottom: 0;
   line-height: 1.8;
   position: relative;
   z-index: 1;

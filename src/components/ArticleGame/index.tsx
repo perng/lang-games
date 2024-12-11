@@ -386,9 +386,6 @@ function ArticleGame() {
           )}
         </div>
 
-        <div className="progress">
-          Article {articleIndex + 1} of {articlesData.length}
-        </div>
 
         {articleIndex === articlesData.length - 1 && results && (
           <div className="final-score">

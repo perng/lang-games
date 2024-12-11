@@ -72,19 +72,6 @@ export default function GameMenu({
 
     return (
         <div className="game-menu">
-            <Link 
-                to="/" 
-                className="back-button"
-                onClick={() => logEvent('Navigation', 'Back to Games')}
-            >
-                <IoArrowBack size={20} />
-            </Link>
-
-            <header>
-                <div className="header-content">
-                    <h1>{title}</h1>
-                </div>
-            </header>
             
             <div className="stories-grid">
                 {articles.map((article, index) => {

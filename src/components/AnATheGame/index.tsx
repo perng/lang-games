@@ -42,11 +42,11 @@ interface GameState {
 }
 
 export default function AnATheGame() {
-  const { storyId } = useParams();
-  console.log('useParams id:', storyId, typeof storyId);
+  const { levelId } = useParams();
+  console.log('useParams id:', levelId, typeof levelId);
   const navigate = useNavigate();
   const location = useLocation();
-  const fruitIndex = parseInt(storyId || '0');
+  const fruitIndex = parseInt(levelId || '0');
   
   const [gameState, setGameState] = useState<GameState>({
     words: [],
@@ -62,11 +62,11 @@ export default function AnATheGame() {
   useEffect(() => {
     console.log('Current fruitIndex:', fruitIndex);
     
-    if (storyId === undefined || isNaN(fruitIndex) || fruitIndex < 0 || fruitIndex >= fruitsData.length) {
+    if (levelId === undefined || isNaN(fruitIndex) || fruitIndex < 0 || fruitIndex >= fruitsData.length) {
       console.log('Redirecting due to invalid index');
       navigate('/an-a-the');
     }
-  }, [storyId, fruitIndex, navigate]);
+  }, [levelId, fruitIndex, navigate]);
 
   const fruit = fruitsData[fruitIndex];
 
@@ -393,9 +393,7 @@ export default function AnATheGame() {
         </div>
       </div>
 
-      <div className="progress">
-        Story {fruitIndex + 1} of {fruitsData.length}
-      </div>
+
 
       {fruitIndex === fruitsData.length - 1 && results && (
         <div className="final-score">
