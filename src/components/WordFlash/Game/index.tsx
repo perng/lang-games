@@ -491,7 +491,7 @@ export default function WordFlashGame({ gameType,  playDefinition = true  }: Wor
     // Add handler to dismiss fireworks
     const handleFireworksClick = () => {
         setShowFireworks(false);
-        navigate('/word-flash'); // Navigate back to menu page
+        navigate('/${gameType}'); // Navigate back to menu page
     };
 
     // Modify advanceToNextWord to control when choices should update
